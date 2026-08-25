@@ -3,7 +3,7 @@ name: Generate profile media
 on:
   push:
     branches:
-      - feat/profile-motion-v6
+      - profile/2026-public-refresh
     paths:
       - scripts/generate-profile-media.py
       - .github/workflows/generate-profile-media.yml
@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: feat/profile-motion-v6
+          ref: profile/2026-public-refresh
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,18 +31,18 @@ jobs:
       - name: Install Pillow
         run: python -m pip install --disable-pip-version-check pillow==11.3.0
 
-      - name: Generate PNG and animated GIF
+      - name: Generate profile media
         run: python scripts/generate-profile-media.py
 
       - name: Commit generated media
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/profile-hero.png assets/profile-motion.gif
+          git add assets/profile-avatar-remix.png assets/profile-hero.png assets/profile-motion.gif
           git add -u assets
           if git diff --cached --quiet; then
             echo "No generated media changes"
             exit 0
           fi
-          git commit -m "feat: プロフィール用PNG・GIFを生成 [skip ci]"
-          git push origin HEAD:feat/profile-motion-v6
+          git commit -m "feat: refresh profile media [skip ci]"
+          git push origin HEAD:profile/2026-public-refresh
