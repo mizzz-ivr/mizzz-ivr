@@ -3,7 +3,7 @@ name: Generate profile media
 on:
   push:
     branches:
-      - profile/2026-public-refresh
+      - main
     paths:
       - scripts/generate-profile-media.py
       - .github/workflows/generate-profile-media.yml
@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: profile/2026-public-refresh
+          ref: main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -45,4 +45,4 @@ jobs:
             exit 0
           fi
           git commit -m "feat: refresh profile media [skip ci]"
-          git push origin HEAD:profile/2026-public-refresh
+          git push origin HEAD:main
