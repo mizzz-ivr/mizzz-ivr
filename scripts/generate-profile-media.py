@@ -1,25 +1,30 @@
 from __future__ import annotations
 
+import io
 import math
 import random
+import urllib.request
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFilter, ImageFont
+from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
 ASSETS.mkdir(parents=True, exist_ok=True)
 
 W, H = 1600, 640
-BG_TOP = (6, 8, 20)
-BG_BOTTOM = (22, 13, 42)
-PURPLE = (150, 92, 255)
-VIOLET = (106, 82, 255)
-CYAN = (74, 226, 255)
-PINK = (255, 85, 181)
-WHITE = (241, 239, 255)
-MUTED = (171, 169, 198)
-GRID = (91, 75, 130)
+AVATAR_SIZE = 1024
+AVATAR_URL = "https://avatars.githubusercontent.com/u/86910433?v=4"
+
+BG_TOP = (7, 7, 18)
+BG_BOTTOM = (28, 14, 48)
+PURPLE = (158, 105, 255)
+LAVENDER = (204, 184, 255)
+CYAN = (92, 226, 255)
+PINK = (244, 119, 206)
+WHITE = (244, 241, 255)
+MUTED = (179, 174, 204)
+GRID = (100, 76, 145)
 
 random.seed(42)
 
@@ -42,239 +47,177 @@ def gradient(width: int, height: int) -> Image.Image:
         vertical = y / max(1, height - 1)
         for x in range(width):
             diagonal = x / max(1, width - 1)
-            glow = max(0.0, 1.0 - math.dist((diagonal, vertical), (0.72, 0.28)) / 0.75)
-            red = int(BG_TOP[0] * (1 - vertical) + BG_BOTTOM[0] * vertical + 17 * glow)
-            green = int(BG_TOP[1] * (1 - vertical) + BG_BOTTOM[1] * vertical + 7 * glow)
-            blue = int(BG_TOP[2] * (1 - vertical) + BG_BOTTOM[2] * vertical + 28 * glow)
-            pixels[x, y] = (min(255, red), min(255, green), min(255, blue))
+            glow = max(0.0, 1.0 - math.dist((diagonal, vertical), (0.78, 0.28)) / 0.74)
+            pixels[x, y] = (
+                min(255, int(BG_TOP[0] * (1 - vertical) + BG_BOTTOM[0] * vertical + 20 * glow)),
+                min(255, int(BG_TOP[1] * (1 - vertical) + BG_BOTTOM[1] * vertical + 8 * glow)),
+                min(255, int(BG_TOP[2] * (1 - vertical) + BG_BOTTOM[2] * vertical + 32 * glow)),
+            )
     return image
 
 
-def add_stars(image: Image.Image, count: int = 170) -> None:
+def load_current_avatar(size: int) -> Image.Image:
+    request = urllib.request.Request(AVATAR_URL, headers={"User-Agent": "mizzz-profile-media/2.0"})
+    try:
+        with urllib.request.urlopen(request, timeout=20) as response:
+            avatar = Image.open(io.BytesIO(response.read())).convert("RGB")
+    except Exception as exc:
+        print(f"warning: could not fetch current GitHub avatar: {exc}")
+        avatar = gradient(size, size)
+        draw = ImageDraw.Draw(avatar)
+        draw.ellipse((size * 0.22, size * 0.22, size * 0.78, size * 0.78), fill=(42, 25, 72))
+        draw.text((size * 0.41, size * 0.39), "M", font=font(int(size * 0.18), True), fill=WHITE)
+    return ImageOps.fit(avatar, (size, size), method=Image.Resampling.LANCZOS, centering=(0.5, 0.5))
+
+
+def add_stars(image: Image.Image, count: int, max_y_ratio: float = 1.0) -> None:
     layer = Image.new("RGBA", image.size, (0, 0, 0, 0))
     draw = ImageDraw.Draw(layer)
     for _ in range(count):
-        x = random.randrange(0, image.width)
-        y = random.randrange(0, int(image.height * 0.64))
-        radius = random.choice([1, 1, 1, 2])
-        alpha = random.randrange(70, 210)
-        color = random.choice([WHITE, CYAN, PURPLE])
-        draw.ellipse((x - radius, y - radius, x + radius, y + radius), fill=(*color, alpha))
+        x = random.randrange(image.width)
+        y = random.randrange(max(1, int(image.height * max_y_ratio)))
+        radius = random.choice([1, 1, 1, 2, 2])
+        color = random.choice([WHITE, CYAN, PURPLE, LAVENDER])
+        draw.ellipse((x - radius, y - radius, x + radius, y + radius), fill=(*color, random.randrange(55, 190)))
     image.alpha_composite(layer)
 
 
-def glow_line(layer: Image.Image, points, color, width: int = 3, blur: int = 10) -> None:
-    glow = Image.new("RGBA", layer.size, (0, 0, 0, 0))
-    glow_draw = ImageDraw.Draw(glow)
-    glow_draw.line(points, fill=(*color, 150), width=width * 4, joint="curve")
-    glow = glow.filter(ImageFilter.GaussianBlur(blur))
-    layer.alpha_composite(glow)
-    ImageDraw.Draw(layer).line(points, fill=(*color, 235), width=width, joint="curve")
-
-
-def draw_moon(layer: Image.Image) -> None:
+def add_halftone(image: Image.Image, origin: tuple[int, int], width: int, height: int, spacing: int = 22) -> None:
+    layer = Image.new("RGBA", image.size, (0, 0, 0, 0))
     draw = ImageDraw.Draw(layer)
-    center_x, center_y, radius = 1180, 136, 104
-    glow = Image.new("RGBA", layer.size, (0, 0, 0, 0))
-    glow_draw = ImageDraw.Draw(glow)
-    glow_draw.ellipse(
-        (center_x - radius - 25, center_y - radius - 25, center_x + radius + 25, center_y + radius + 25),
-        fill=(*PURPLE, 80),
-    )
-    layer.alpha_composite(glow.filter(ImageFilter.GaussianBlur(30)))
-    draw.ellipse(
-        (center_x - radius, center_y - radius, center_x + radius, center_y + radius),
-        fill=(205, 192, 238, 235),
-        outline=(255, 255, 255, 165),
-        width=2,
-    )
-    draw.ellipse(
-        (center_x - radius + 52, center_y - radius - 8, center_x + radius + 60, center_y + radius + 18),
-        fill=(19, 15, 40, 245),
-    )
+    ox, oy = origin
+    for row, y in enumerate(range(oy, oy + height, spacing)):
+        for col, x in enumerate(range(ox, ox + width, spacing)):
+            distance = math.dist((x, y), (ox + width * 0.58, oy + height * 0.48))
+            strength = max(0.0, 1.0 - distance / max(1.0, math.dist((0, 0), (width * 0.7, height * 0.7))))
+            radius = 1 + int(3 * strength)
+            color = PURPLE if (row + col) % 3 else CYAN
+            draw.ellipse((x - radius, y - radius, x + radius, y + radius), fill=(*color, 22 + int(58 * strength)))
+    image.alpha_composite(layer)
 
 
-def draw_skyline(layer: Image.Image) -> None:
-    draw = ImageDraw.Draw(layer)
-    base = 420
-    points = [(0, base)]
-    x = 0
-    while x < W:
-        peak = random.randrange(290, 405)
-        points.extend([(x, base), (x + random.randrange(25, 70), peak)])
-        x += random.randrange(65, 125)
-    points.extend([(W, base), (W, H), (0, H)])
-    draw.polygon(points, fill=(9, 11, 26, 235))
-
-    for x in range(40, W, 82):
-        building_height = random.randrange(35, 105)
-        building_width = random.randrange(18, 36)
-        draw.rectangle((x, base - building_height, x + building_width, base), fill=(10, 13, 31, 255))
-        if random.random() > 0.45:
-            draw.polygon(
-                [
-                    (x + building_width // 2, base - building_height - random.randrange(18, 45)),
-                    (x, base - building_height),
-                    (x + building_width, base - building_height),
-                ],
-                fill=(10, 13, 31, 255),
-            )
-        for window_y in range(base - building_height + 15, base - 8, 18):
-            if random.random() > 0.38:
-                draw.rectangle((x + 6, window_y, x + 9, window_y + 6), fill=(*PURPLE, 120))
+def rounded_panel(draw: ImageDraw.ImageDraw, box, radius: int = 22) -> None:
+    draw.rounded_rectangle(box, radius=radius, fill=(13, 15, 32, 218), outline=(147, 112, 222, 120), width=2)
 
 
-def draw_road(layer: Image.Image, offset: int = 0) -> None:
-    draw = ImageDraw.Draw(layer)
-    horizon = 394
-    draw.polygon([(580, H), (1020, H), (865, horizon), (730, horizon)], fill=(8, 10, 23, 255))
-    glow_line(layer, [(580, H), (730, horizon)], CYAN, 2, 12)
-    glow_line(layer, [(1020, H), (865, horizon)], PINK, 2, 12)
-    for index in range(9):
-        progress = ((index * 0.14 + offset / 100) % 1.0)
-        y = int(horizon + (H - horizon) * (progress**1.8))
-        half_width = int(6 + 26 * progress)
-        draw.line(
-            (800 - half_width, y, 800 + half_width, y),
-            fill=(235, 235, 255, 155),
-            width=max(1, int(1 + 4 * progress)),
-        )
+def make_avatar() -> None:
+    base = gradient(AVATAR_SIZE, AVATAR_SIZE).convert("RGBA")
+    add_stars(base, 150)
+    add_halftone(base, (80, 90), 860, 850, 24)
 
+    glow = Image.new("RGBA", base.size, (0, 0, 0, 0))
+    gd = ImageDraw.Draw(glow)
+    gd.ellipse((92, 92, 932, 932), fill=(*PURPLE, 72))
+    gd.ellipse((180, 180, 844, 844), fill=(*CYAN, 40))
+    base.alpha_composite(glow.filter(ImageFilter.GaussianBlur(46)))
 
-def draw_car(layer: Image.Image) -> None:
-    draw = ImageDraw.Draw(layer)
-    glow = Image.new("RGBA", layer.size, (0, 0, 0, 0))
-    glow_draw = ImageDraw.Draw(glow)
-    glow_draw.ellipse((920, 432, 1500, 610), fill=(*PURPLE, 95))
-    layer.alpha_composite(glow.filter(ImageFilter.GaussianBlur(28)))
+    avatar = load_current_avatar(920)
+    avatar = ImageEnhance.Contrast(avatar).enhance(1.04)
+    avatar = ImageEnhance.Color(avatar).enhance(1.06)
+    avatar = Image.blend(avatar, Image.new("RGB", avatar.size, (118, 77, 170)), 0.055)
 
-    body = [
-        (960, 520), (1010, 470), (1120, 448), (1288, 452), (1390, 494),
-        (1475, 510), (1505, 552), (1450, 575), (1010, 575), (950, 555),
-    ]
-    draw.polygon(body, fill=(13, 16, 31, 255), outline=(148, 119, 219, 230))
-    draw.polygon(
-        [(1082, 474), (1148, 454), (1270, 458), (1345, 492), (1115, 492)],
-        fill=(36, 42, 70, 245),
-        outline=(91, 214, 255, 180),
-    )
-    draw.line([(1020, 517), (1425, 517)], fill=(*PURPLE, 215), width=3)
-    for center_x in (1080, 1390):
-        draw.ellipse((center_x - 51, 526, center_x + 51, 628), fill=(5, 6, 12, 255), outline=(88, 81, 117, 255), width=5)
-        draw.ellipse((center_x - 27, 550, center_x + 27, 604), fill=(31, 30, 47, 255), outline=(169, 150, 215, 220), width=3)
-        draw.ellipse((center_x - 7, 570, center_x + 7, 584), fill=(*CYAN, 180))
-    glow_line(layer, [(970, 527), (1030, 507)], CYAN, 3, 13)
-    glow_line(layer, [(1440, 515), (1490, 526)], PINK, 3, 13)
+    mask = Image.new("L", (920, 920), 0)
+    ImageDraw.Draw(mask).ellipse((18, 18, 902, 902), fill=255)
+    portrait = Image.new("RGBA", (920, 920), (0, 0, 0, 0))
+    portrait.paste(avatar.convert("RGBA"), (0, 0), mask)
+    base.alpha_composite(portrait, (52, 52))
 
-
-def rounded_panel(draw: ImageDraw.ImageDraw, box, radius: int = 22, fill=(13, 16, 33, 210), outline=(147, 112, 222, 110), width: int = 2) -> None:
-    draw.rounded_rectangle(box, radius=radius, fill=fill, outline=outline, width=width)
-
-
-def draw_hud(layer: Image.Image) -> None:
-    draw = ImageDraw.Draw(layer)
-    draw.text((96, 100), "mizzz", font=font(104, True), fill=WHITE)
-    draw.text((102, 220), "BUILD / DRIVE / CREATE", font=font(26, True), fill=CYAN)
-    draw.text((102, 266), "Frontend-focused Full Stack Developer", font=font(22), fill=MUTED)
-    draw.text((102, 300), "Anime  •  Cars  •  Gadgets  •  Product Engineering", font=font(18), fill=(177, 151, 220))
-    glow_line(layer, [(96, 338), (492, 338)], PURPLE, 2, 10)
-
-    cards = [
-        ((105, 388, 310, 478), "ivRoom", "COMMUNITY"),
-        ((325, 388, 530, 478), "Lunaria", "BOT / OPS"),
-        ((105, 492, 310, 582), "Quizverse", "LEARNING"),
-        ((325, 492, 530, 582), "RouteGarage", "MOBILITY"),
-    ]
-    for box, title, label in cards:
-        rounded_panel(draw, box)
-        draw.text((box[0] + 18, box[1] + 16), title, font=font(21, True), fill=WHITE)
-        draw.text((box[0] + 18, box[1] + 52), label, font=font(12, True), fill=PURPLE)
-        draw.ellipse((box[2] - 32, box[1] + 18, box[2] - 18, box[1] + 32), fill=(*CYAN, 210))
-
-    center_x, center_y = 1445, 132
-    for radius, color, start in [(72, PURPLE, 205), (52, CYAN, 230), (32, PINK, 250)]:
-        draw.arc((center_x - radius, center_y - radius, center_x + radius, center_y + radius), start=start, end=520, fill=(*color, 220), width=4)
-    draw.text((1408, 118), "96", font=font(30, True), fill=WHITE)
-    draw.text((1396, 154), "IDEAS", font=font(10, True), fill=MUTED)
-
-    rounded_panel(draw, (1292, 245, 1536, 386), radius=18, fill=(11, 14, 31, 205), outline=(67, 210, 255, 90))
-    draw.text((1315, 265), "DEVICE LINK", font=font(14, True), fill=CYAN)
-    labels = [("KEYBOARD", 0.84), ("AUDIO", 0.72), ("DISPLAY", 0.91)]
-    for index, (name, value) in enumerate(labels):
-        y = 307 + index * 25
-        draw.text((1315, y), name, font=font(10, True), fill=MUTED)
-        draw.rounded_rectangle((1389, y + 2, 1510, y + 10), radius=4, fill=(38, 40, 62, 220))
-        draw.rounded_rectangle((1389, y + 2, 1389 + int(121 * value), y + 10), radius=4, fill=(*PURPLE, 220))
+    overlay = Image.new("RGBA", base.size, (0, 0, 0, 0))
+    draw = ImageDraw.Draw(overlay)
+    for radius, color, start, span in [(454, PURPLE, 208, 245), (432, CYAN, 20, 78), (413, PINK, 112, 66)]:
+        draw.arc((512-radius, 512-radius, 512+radius, 512+radius), start=start, end=start+span, fill=(*color, 235), width=9)
+    draw.ellipse((472, 62, 492, 82), fill=(*CYAN, 255))
+    draw.ellipse((884, 742, 910, 768), fill=(*PINK, 230))
+    draw.rounded_rectangle((90, 854, 276, 904), radius=18, fill=(10, 12, 26, 205), outline=(*PURPLE, 130), width=2)
+    draw.text((112, 867), "BUILD SIGNAL", font=font(17, True), fill=CYAN)
+    base.alpha_composite(overlay)
+    base.convert("RGB").save(ASSETS / "profile-avatar-remix.png", optimize=True, quality=95)
 
 
 def make_hero() -> None:
     base = gradient(W, H).convert("RGBA")
-    add_stars(base)
-    scene = Image.new("RGBA", base.size, (0, 0, 0, 0))
-    draw_moon(scene)
-    draw_skyline(scene)
-    draw_road(scene)
-    draw_car(scene)
-    draw_hud(scene)
-    base.alpha_composite(scene)
-    base.convert("RGB").save(ASSETS / "profile-hero.png", optimize=True, quality=94)
+    add_stars(base, 210, 0.9)
+    add_halftone(base, (820, 40), 720, 520, 22)
+    layer = Image.new("RGBA", base.size, (0, 0, 0, 0))
+    draw = ImageDraw.Draw(layer)
+
+    for x in range(0, W, 80):
+        draw.line((x, 0, x, H), fill=(*GRID, 18), width=1)
+    for y in range(0, H, 80):
+        draw.line((0, y, W, y), fill=(*GRID, 16), width=1)
+
+    draw.text((88, 78), "mizzz / ivuru", font=font(82, True), fill=WHITE)
+    draw.text((94, 177), "PURPLE SIGNAL // BUILD · SHIP · OPERATE", font=font(22, True), fill=CYAN)
+    draw.text((94, 221), "Product-minded Full Stack Developer", font=font(24), fill=MUTED)
+    draw.text((94, 260), "Web  •  Discord  •  Realtime AI  •  Developer Experience", font=font(16), fill=LAVENDER)
+    draw.line((92, 304, 706, 304), fill=(*PURPLE, 220), width=3)
+
+    cards = [
+        ((96, 354, 345, 450), "RooMate Voice", "REALTIME AI / VOICE"),
+        ((365, 354, 614, 450), "QuizVerse", "WEB PRODUCT"),
+        ((96, 472, 345, 568), "Site Sentry Go", "OPS / GO"),
+        ((365, 472, 614, 568), "Tech Writing", "NOTES / OUTPUT"),
+    ]
+    for box, title, label in cards:
+        rounded_panel(draw, box)
+        draw.text((box[0] + 18, box[1] + 18), title, font=font(18, True), fill=WHITE)
+        draw.text((box[0] + 18, box[1] + 58), label, font=font(11, True), fill=PURPLE)
+        draw.ellipse((box[2] - 33, box[1] + 19, box[2] - 19, box[1] + 33), fill=(*CYAN, 210))
+
+    rounded_panel(draw, (655, 354, 900, 568))
+    draw.text((682, 380), "NOW PLAYING", font=font(13, True), fill=CYAN)
+    draw.text((682, 416), "React / TypeScript", font=font(16, True), fill=WHITE)
+    draw.text((682, 451), "OpenAI Realtime", font=font(16, True), fill=WHITE)
+    draw.text((682, 486), "Discord / Docker", font=font(16, True), fill=WHITE)
+    draw.text((682, 533), "PUBLIC WORK ONLY", font=font(11, True), fill=LAVENDER)
+
+    avatar = load_current_avatar(540)
+    mask = Image.new("L", (540, 540), 0)
+    ImageDraw.Draw(mask).ellipse((12, 12, 528, 528), fill=255)
+    portrait = Image.new("RGBA", (540, 540), (0, 0, 0, 0))
+    portrait.paste(avatar.convert("RGBA"), (0, 0), mask)
+    glow = Image.new("RGBA", layer.size, (0, 0, 0, 0))
+    ImageDraw.Draw(glow).ellipse((1010, 70, 1570, 630), fill=(*PURPLE, 58))
+    layer.alpha_composite(glow.filter(ImageFilter.GaussianBlur(40)))
+    layer.alpha_composite(portrait, (1020, 54))
+    for radius, color, start, span in [(276, PURPLE, 200, 270), (257, CYAN, 20, 76), (241, PINK, 118, 54)]:
+        draw.arc((1290-radius, 324-radius, 1290+radius, 324+radius), start=start, end=start+span, fill=(*color, 220), width=6)
+    draw.text((1090, 555), "CURRENT AVATAR // REMIX", font=font(13, True), fill=LAVENDER)
+
+    base.alpha_composite(layer)
+    base.convert("RGB").save(ASSETS / "profile-hero.png", optimize=True, quality=95)
 
 
 def make_motion() -> None:
-    frame_width, frame_height = 1200, 180
     frames = []
     for frame_index in range(28):
         progress = frame_index / 28.0
-        image = Image.new("RGBA", (frame_width, frame_height), (7, 9, 20, 255))
+        image = Image.new("RGBA", (1200, 180), (7, 8, 19, 255))
         draw = ImageDraw.Draw(image)
-
-        for x in range(-100, frame_width + 100, 44):
+        for x in range(-100, 1300, 44):
             shifted_x = x + int((progress * 44) % 44)
-            draw.line((shifted_x, 0, shifted_x, frame_height), fill=(*GRID, 32), width=1)
-        for y in range(14, frame_height, 28):
-            draw.line((0, y, frame_width, y), fill=(*GRID, 24), width=1)
-
-        streak = Image.new("RGBA", (frame_width, frame_height), (0, 0, 0, 0))
+            draw.line((shifted_x, 0, shifted_x, 180), fill=(*GRID, 28), width=1)
+        for y in range(14, 180, 28):
+            draw.line((0, y, 1200, y), fill=(*GRID, 22), width=1)
+        streak = Image.new("RGBA", (1200, 180), (0, 0, 0, 0))
         streak_draw = ImageDraw.Draw(streak)
         for index, color in enumerate((CYAN, PURPLE, PINK)):
-            x = int(((progress + index * 0.31) % 1.25) * (frame_width + 420)) - 210
+            x = int(((progress + index * 0.31) % 1.25) * 1620) - 210
             y = 118 + index * 13
             streak_draw.line((x - 190, y, x + 110, y), fill=(*color, 205), width=3)
         image.alpha_composite(streak.filter(ImageFilter.GaussianBlur(7)))
-
-        center_x, center_y = 1010, 90
-        draw.ellipse((center_x - 57, center_y - 57, center_x + 57, center_y + 57), outline=(*PURPLE, 75), width=2)
         start = int(progress * 360)
-        draw.arc((center_x - 48, center_y - 48, center_x + 48, center_y + 48), start=start, end=start + 225, fill=(*CYAN, 230), width=4)
-        draw.arc((center_x - 36, center_y - 36, center_x + 36, center_y + 36), start=-start, end=-start + 165, fill=(*PINK, 205), width=3)
-
-        draw.text((58, 45), "LIVE BUILD SIGNAL", font=font(18, True), fill=CYAN)
-        draw.text((58, 79), "anime-inspired visuals  /  car culture  /  gadgets  /  code", font=font(22), fill=WHITE)
-        draw.text((58, 119), "SHIP SMALL  •  POLISH FAST  •  OPERATE SAFELY", font=font(14, True), fill=(171, 151, 216))
-        for index in range(6):
-            alpha = int(90 + 165 * max(0, math.sin((progress * math.tau) + (index * 0.65))))
-            draw.ellipse((850 + index * 20, 146, 858 + index * 20, 154), fill=(*PURPLE, alpha))
-
-        frames.append(image.convert("P", palette=Image.Palette.ADAPTIVE, colors=96))
-
-    frames[0].save(
-        ASSETS / "profile-motion.gif",
-        save_all=True,
-        append_images=frames[1:],
-        duration=70,
-        loop=0,
-        optimize=True,
-        disposal=2,
-    )
-
-
-def clean_old_lunaris_assets() -> None:
-    for path in ASSETS.glob("lunaris-*.svg"):
-        path.unlink(missing_ok=True)
+        draw.arc((982, 42, 1078, 138), start=start, end=start + 225, fill=(*CYAN, 230), width=4)
+        draw.arc((994, 54, 1066, 126), start=-start, end=-start + 165, fill=(*PINK, 205), width=3)
+        draw.text((58, 43), "LIVE BUILD SIGNAL", font=font(18, True), fill=CYAN)
+        draw.text((58, 78), "PUBLIC WORK // REALTIME AI // WEB // OPS", font=font(21, True), fill=WHITE)
+        draw.text((58, 116), "building small, polishing fast, operating safely", font=font(14), fill=MUTED)
+        frames.append(image.convert("P", palette=Image.Palette.ADAPTIVE))
+    frames[0].save(ASSETS / "profile-motion.gif", save_all=True, append_images=frames[1:], duration=70, loop=0, optimize=True, disposal=2)
 
 
 if __name__ == "__main__":
-    clean_old_lunaris_assets()
+    make_avatar()
     make_hero()
     make_motion()
-    print("Generated profile-hero.png and profile-motion.gif")
+    print("Generated profile-avatar-remix.png, profile-hero.png and profile-motion.gif")
