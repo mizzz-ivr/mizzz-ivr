@@ -2,17 +2,18 @@
   <img src="./assets/profile-hero.png" width="100%" alt="mizzz profile hero — public work, realtime AI, web and operations" />
 </p>
 
-<h1 align="center">mizzz（ずーみー）/ いゔる。</h1>
+<h1 align="center">いゔる。 a.k.a. mizzz（ずーみー）</h1>
 
 <p align="center">
   <strong>Product-minded Full Stack Developer</strong><br/>
-  React / TypeScript を軸に、Web・Discord・Realtime AI・API・DB・運用までつなげて実装しています。
+  React / TypeScript を軸に、Web・Discord・Realtime AI・API・DB・運用までつなげて実装しています。<br/>
+  <sub>SNSでは「いゔる。」、開発者名義では「mizzz（ずーみー）」を使用しています。</sub>
 </p>
 
 <p align="center">
-  <a href="https://mizzz.jp"><img src="https://img.shields.io/badge/PORTFOLIO-mizzz.jp-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://ivrm.jp"><img src="https://img.shields.io/badge/COMMUNITY-ivRoom-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="ivRoom" /></a>
-  <a href="mailto:contact@mizzz.jp"><img src="https://img.shields.io/badge/CONTACT-contact%40mizzz.jp-6D5AE6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://mizzz.ivrm.jp"><img src="https://img.shields.io/badge/PORTFOLIO-mizzz.ivrm.jp-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://ivrm.jp"><img src="https://img.shields.io/badge/COMMUNITY-ivRooom-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="ivRooom" /></a>
+  <a href="mailto:mizzz@ivrm.jp"><img src="https://img.shields.io/badge/CONTACT-mizzz%40ivrm.jp-6D5AE6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 <p align="center">
@@ -151,10 +152,10 @@
 ## SIGNAL // Links
 
 <p align="center">
-  <a href="https://mizzz.jp">Portfolio</a> ・
-  <a href="https://ivrm.jp">ivRoom</a> ・
+  <a href="https://mizzz.ivrm.jp">Portfolio</a> ・
+  <a href="https://ivrm.jp">ivRooom</a> ・
   <a href="https://github.com/mizzz-ivr">GitHub</a> ・
-  <a href="mailto:contact@mizzz.jp">Contact</a>
+  <a href="mailto:mizzz@ivrm.jp">Contact</a>
 </p>
 
 <p align="center">
