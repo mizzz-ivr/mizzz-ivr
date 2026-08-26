@@ -1,0 +1,138 @@
+name: Profile Signal release
+
+on:
+  pull_request:
+    paths:
+      - .profile-signal/**
+      - distribution/**
+      - scripts/build-profile-signal-release.py
+      - .github/workflows/profile-signal-release.yml
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Release version, for example v0.1.0
+        required: true
+        default: v0.1.0
+
+permissions:
+  contents: read
+
+jobs:
+  validate-package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Build release archive
+        run: |
+          python scripts/build-profile-signal-release.py --version v0.0.0-test
+          python -m zipfile -t dist/profile-signal-v0.0.0-test.zip
+          unzip -l dist/profile-signal-v0.0.0-test.zip
+
+      - name: Smoke test extracted install
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check --quiet PyYAML==6.0.2
+
+          fixture="${RUNNER_TEMP}/profile-signal-smoke"
+          mkdir -p "$fixture"
+          unzip -q dist/profile-signal-v0.0.0-test.zip -d "$fixture"
+          cd "$fixture"
+
+          printf '# Profile Signal smoke test\n' > README.md
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('.github/profile-signal.yml')
+          text = path.read_text(encoding='utf-8')
+          path.write_text(text.replace('YOUR_GITHUB_USERNAME', 'mizzz-ivr'), encoding='utf-8')
+          PY
+
+          GITHUB_WORKSPACE="$fixture" \
+          PROFILE_SIGNAL_CONFIG=.github/profile-signal.yml \
+          python .profile-signal/src/orchestrator.py
+
+          python - <<'PY'
+          import json
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          readme = Path('README.md').read_text(encoding='utf-8')
+          for marker in (
+              'PROFILE-SIGNAL:LIVE-SIGNAL:START',
+              'DAILY-ACTIVITY:START',
+              'PROFILE-SIGNAL:FOCUS:START',
+              'PROFILE-SIGNAL:PULSE:START',
+          ):
+              if marker not in readme:
+                  raise SystemExit(f'missing generated marker: {marker}')
+
+          state = json.loads(Path('data/profile-signal-state.json').read_text(encoding='utf-8'))
+          if state.get('scope') != 'public':
+              raise SystemExit('smoke test must remain public-only')
+          if state.get('schema_version') != 4:
+              raise SystemExit('unexpected Profile Signal schema version')
+
+          ET.parse('assets/dev-pulse.svg')
+          print('Release ZIP extraction and local installation smoke test succeeded')
+          PY
+
+  release:
+    if: github.event_name == 'workflow_dispatch'
+    needs: validate-package
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Build release archive
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          python scripts/build-profile-signal-release.py --version "$VERSION"
+          python -m zipfile -t "dist/profile-signal-${VERSION}.zip"
+
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ inputs.version }}
+        shell: bash
+        run: |
+          cat > "${RUNNER_TEMP}/release-notes.md" <<EOF
+          ## Profile Signal ${VERSION}
+
+          Self-contained release for GitHub Profile Repositories.
+
+          ### Install
+          1. Download `profile-signal-${VERSION}.zip`.
+          2. Extract it into the root of your GitHub Profile Repository.
+          3. Edit `.github/profile-signal.yml` and set your GitHub username.
+          4. Commit the files and run **Actions → Profile Signal → Run workflow**.
+
+          The default distribution is public-only and does not require an API secret.
+          EOF
+
+          gh release create "$VERSION" \
+            "dist/profile-signal-${VERSION}.zip#Profile Signal ${VERSION}" \
+            --repo "$GITHUB_REPOSITORY" \
+            --target main \
+            --title "Profile Signal ${VERSION}" \
+            --notes-file "${RUNNER_TEMP}/release-notes.md"
