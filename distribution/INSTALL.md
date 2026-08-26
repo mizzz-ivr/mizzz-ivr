@@ -1,28 +1,28 @@
-# Profile Signal — Release installation
+# Profile Signal — 導入手順
 
-Profile Signal is distributed as a self-contained ZIP that you extract into your own GitHub Profile Repository.
+Profile Signal は、Release ZIPを自分のGitHub Profile Repositoryへ展開して利用する self-contained runtime です。
 
-The recommended path is **Release ZIP installation**. Forking the showcase profile is supported only as a reference because the showcase contains personal README content and assets.
+推奨導入方法は **Release ZIP** です。Forkは完成形プロフィール全体を参考にしたい場合の補助導線とします。
 
-## Requirements
+## 必要条件
 
-- A public GitHub Profile Repository named `<username>/<username>`
-- GitHub Actions enabled
-- Repository Actions permission that can write repository contents
-- No API key or secret is required for the default public-only mode
+- `<username>/<username>` 形式のpublic GitHub Profile Repository
+- GitHub Actionsが有効
+- WorkflowがRepository contentsへ書き込める設定
+- 標準public-onlyモードではAPI Key / Secret不要
 
-## Install
+## インストール
 
-1. Download the latest `profile-signal-<version>.zip` from Releases.
-2. Extract the archive into the root of your Profile Repository.
-3. Edit `.github/profile-signal.yml`.
-4. Replace `YOUR_GITHUB_USERNAME` with your GitHub login.
-5. Choose a preset/theme and optional widget overrides.
-6. Commit and push the extracted files.
-7. Open **Actions → Profile Signal → Run workflow** once.
-8. Confirm README, `assets/`, and `data/` were generated.
+1. Releasesから最新の `profile-signal-<version>.zip` を取得します。
+2. ZIPをProfile Repositoryのrootへ展開します。
+3. `.github/profile-signal.yml` を開きます。
+4. `YOUR_GITHUB_USERNAME` を自分のGitHub loginへ変更します。
+5. preset / theme / widget overrideを選びます。
+6. 展開したファイルをcommit / pushします。
+7. **Actions → Profile Signal → Run workflow** を1回実行します。
+8. README / `assets/` / `data/` の生成結果を確認します。
 
-The archive adds these files and does not replace your README:
+Release ZIPは以下を追加し、既存README自体は含みません。
 
 ```text
 .profile-signal/
@@ -43,26 +43,33 @@ The archive adds these files and does not replace your README:
    └─ profile-signal.yml
 
 PROFILE_SIGNAL_INSTALL.md
+PROFILE_SIGNAL_VERSION
 ```
 
-## Presets
+## Preset
 
 - `minimal` — LIVE SIGNAL + CURRENT FOCUS
 - `standard` — LIVE SIGNAL + TODAY + CURRENT FOCUS + DEV PULSE
-- `full` — all widgets
-- `terminal` — all widgets with terminal theme by default
+- `full` — 全Widget
+- `terminal` — 全Widget + terminal theme既定
 
-## Themes
+Presetは今後追加できるよう拡張していきます。既存Presetの意味は破壊的に変更せず、新しい用途は新Presetとして追加する方針です。
+
+## Theme
 
 - `signal`
 - `minimal`
 - `terminal`
 
-## README placement
+Presetは表示するWidget構成、Themeは見せ方を担当します。
 
-With `auto_insert_markers: true`, enabled widgets are inserted automatically.
+## README挿入位置
 
-The default release config uses an empty `insert_before`, so widgets are appended to the README rather than guessing one of your headings. To place them before a known section, configure for example:
+`auto_insert_markers: true` の場合、有効Widgetのmarkerが無ければ自動挿入します。
+
+標準Release設定では `insert_before` を空にしており、利用者READMEの見出しを勝手に推測せず末尾へ追加します。
+
+特定見出しの前へ配置する例:
 
 ```yaml
 readme:
@@ -70,33 +77,49 @@ readme:
   insert_before: "## About me"
 ```
 
-You can also set `auto_insert_markers: false` and place markers yourself.
+## GitHub Actions書き込み権限
 
-## Updating
+WorkflowによるREADME更新にはRepository contentsへのwrite権限が必要です。
 
-When a new release is published:
+GitHub UIでは通常:
 
-1. Back up or commit your current repository state.
-2. Download the new release archive.
-3. Replace only `.profile-signal/` with the new runtime.
-4. Keep your existing `.github/profile-signal.yml` unless the release notes require a config migration.
-5. Review the workflow template before replacing your existing workflow.
-6. Run `Profile Signal` manually and inspect the generated diff.
+```text
+Settings → Actions → General → Workflow permissions → Read and write permissions
+```
 
-## Uninstalling
+を確認します。
 
-1. Delete `.profile-signal/`.
-2. Delete `.github/profile-signal.yml` and `.github/workflows/profile-signal.yml` if no longer needed.
-3. Remove generated Profile Signal marker blocks from README if you do not want to keep the last rendered output.
-4. Optionally remove `assets/dev-pulse.svg` and `data/` history.
+## 更新
+
+新しいReleaseへ更新する前に、現在のRepositoryをcommitしてRollback可能な状態にしてください。
+
+1. 新しいRelease ZIPを取得します。
+2. `.profile-signal/` を新runtimeへ差し替えます。
+3. `.github/profile-signal.yml` は原則維持します。
+4. Release Notesでconfig migrationが指定された場合のみ設定を変更します。
+5. Workflow template差分を確認します。
+6. `Profile Signal` を手動実行し、生成diffを確認します。
+
+## アンインストール
+
+1. `.profile-signal/` を削除します。
+2. `.github/profile-signal.yml` と `.github/workflows/profile-signal.yml` を削除します。
+3. READMEのProfile Signal marker blockを必要に応じて削除します。
+4. 不要なら `assets/` と `data/` の生成履歴を削除します。
 
 ## Privacy
 
-Profile Signal v0 requires:
+Profile Signal v0.xでは以下が必須です。
 
 ```yaml
 privacy:
   public_only: true
 ```
 
-The runtime reads public GitHub activity only. Private repository information is not collected and then masked later.
+Private Repository情報を取得して後段でmaskする設計にはしません。
+
+## License
+
+Profile Signal runtimeはMIT Licenseです。License本文は `.profile-signal/LICENSE` に含まれます。
+
+MIT Licenseの対象はProfile Signal runtimeおよびRelease package内の再利用可能部分で、配布元Profile Repositoryの個人文章・画像・Screenshotなどには適用しません。

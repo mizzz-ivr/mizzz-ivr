@@ -5,8 +5,16 @@ on:
     paths:
       - .profile-signal/**
       - distribution/**
+      - release-notes/**
+      - docs/wiki/**
+      - PROFILE_SIGNAL_LICENSE.md
       - scripts/build-profile-signal-release.py
       - .github/workflows/profile-signal-release.yml
+  push:
+    branches:
+      - main
+    paths:
+      - release-notes/**
   workflow_dispatch:
     inputs:
       version:
@@ -19,6 +27,7 @@ permissions:
 
 jobs:
   validate-package:
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
@@ -164,28 +173,74 @@ jobs:
           python scripts/build-profile-signal-release.py --version "$VERSION"
           python -m zipfile -t "dist/profile-signal-${VERSION}.zip"
 
+      - name: Prepare Japanese release notes
+        shell: bash
+        run: |
+          set -euo pipefail
+          source_notes="release-notes/${VERSION}.md"
+          target_notes="${RUNNER_TEMP}/release-notes.md"
+
+          if [ -f "$source_notes" ]; then
+            cp "$source_notes" "$target_notes"
+          else
+            cat > "$target_notes" <<'EOF'
+          ## Profile Signal __VERSION__
+
+          GitHub Profile READMEへ公開GitHub Activityから生成した開発状況Widgetを自動挿入するReleaseです。
+
+          ### 導入
+
+          1. Assetsから `profile-signal-__VERSION__.zip` をダウンロードします。
+          2. 自分のGitHub Profile Repositoryのrootへ展開します。
+          3. `.github/profile-signal.yml` のusernameを変更します。
+          4. commit / push後、**Actions → Profile Signal → Run workflow** を実行します。
+
+          標準構成はpublic-onlyで、API SecretやPATは不要です。
+
+          ### License
+
+          Profile Signal runtimeはMIT Licenseです。
+          EOF
+            sed -i "s/__VERSION__/${VERSION}/g" "$target_notes"
+          fi
+
       - name: Publish GitHub Release
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
-          cat > "${RUNNER_TEMP}/release-notes.md" <<EOF
-          ## Profile Signal ${VERSION}
-
-          Self-contained release for GitHub Profile Repositories.
-
-          ### Install
-          1. Download `profile-signal-${VERSION}.zip`.
-          2. Extract it into the root of your GitHub Profile Repository.
-          3. Edit `.github/profile-signal.yml` and set your GitHub username.
-          4. Commit the files and run **Actions → Profile Signal → Run workflow**.
-
-          The default distribution is public-only and does not require an API secret.
-          EOF
-
           gh release create "$VERSION" \
             "dist/profile-signal-${VERSION}.zip#Profile Signal ${VERSION}" \
             --repo "$GITHUB_REPOSITORY" \
             --target "$TARGET_BRANCH" \
             --title "Profile Signal ${VERSION}" \
             --notes-file "${RUNNER_TEMP}/release-notes.md"
+
+  sync-release-notes:
+    if: github.event_name == 'push'
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Sync Japanese notes to published releases
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+
+          for notes in release-notes/v*.md; do
+            version="$(basename "$notes" .md)"
+            if gh release view "$version" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+              echo "Syncing ${version} release notes"
+              gh release edit "$version" \
+                --repo "$GITHUB_REPOSITORY" \
+                --title "Profile Signal ${version}" \
+                --notes-file "$notes"
+            fi
+          done
