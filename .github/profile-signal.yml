@@ -1,0 +1,33 @@
+version: 1
+
+profile:
+  username: mizzz-ivr
+  timezone: Asia/Tokyo
+
+privacy:
+  public_only: true
+
+preset: full
+theme: signal
+
+widgets:
+  live_signal:
+    enabled: true
+  today:
+    enabled: true
+  current_focus:
+    enabled: true
+  dev_pulse:
+    enabled: true
+  now_building:
+    enabled: true
+  activity_stream:
+    enabled: true
+  dev_recap:
+    enabled: true
+
+readme:
+  path: README.md
+  auto_insert_markers: true
+  insert_before: "## NOW // What I build"
+  empty_disabled: true
