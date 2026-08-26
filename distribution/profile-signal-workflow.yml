@@ -1,0 +1,72 @@
+name: Profile Signal
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"
+      timezone: "Asia/Tokyo"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-signal-update
+  cancel-in-progress: false
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout default branch
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 1
+
+      - name: Generate Profile Signal
+        uses: ./.profile-signal
+        with:
+          config: .github/profile-signal.yml
+
+      - name: Commit generated profile
+        shell: bash
+        env:
+          TARGET_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "$(git status --porcelain -- README.md assets data)" ]; then
+            echo "No Profile Signal changes"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+          for path in assets data; do
+            if [ -e "$path" ]; then
+              git add "$path"
+            fi
+          done
+
+          if git diff --cached --quiet; then
+            echo "No staged Profile Signal changes"
+            exit 0
+          fi
+
+          git commit -m "chore(profile): refresh Profile Signal [skip ci]"
+
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:${TARGET_BRANCH}"; then
+              exit 0
+            fi
+            echo "Push failed (attempt ${attempt}); rebasing onto origin/${TARGET_BRANCH}"
+            git fetch origin "$TARGET_BRANCH"
+            git rebase "origin/${TARGET_BRANCH}"
+          done
+
+          echo "Failed to push Profile Signal after 3 attempts" >&2
+          exit 1

@@ -5,7 +5,7 @@ on:
     paths:
       - README.md
       - .github/profile-signal.yml
-      - profile-signal-action/**
+      - .profile-signal/**
       - scripts/update-profile-activity.py
       - scripts/profile_signal.py
       - scripts/update-profile-signal.py
@@ -51,11 +51,11 @@ jobs:
             scripts/update-profile-signal.py \
             scripts/profile_signal_operations.py \
             scripts/profile_signal_history.py \
-            profile-signal-action/src/orchestrator.py
+            .profile-signal/src/orchestrator.py
           python -m unittest discover -s tests -v
 
-      - name: Generate Profile Signal preview through local action
-        uses: ./profile-signal-action
+      - name: Generate Profile Signal preview through installed runtime
+        uses: ./.profile-signal
         with:
           config: .github/profile-signal.yml
 
@@ -151,7 +151,7 @@ jobs:
           ET.parse("assets/dev-pulse.svg")
           print(
               f"Validated {len(logs)} daily snapshots, {len(weekly)} weekly reports, "
-              f"{len(monthly)} monthly reports, Profile Signal v4 state, local action dogfood and seven profile sections"
+              f"{len(monthly)} monthly reports, Profile Signal v4 state, installed runtime dogfood and seven profile sections"
           )
           PY
 
@@ -183,11 +183,11 @@ jobs:
             scripts/update-profile-signal.py \
             scripts/profile_signal_operations.py \
             scripts/profile_signal_history.py \
-            profile-signal-action/src/orchestrator.py
+            .profile-signal/src/orchestrator.py
           python -m unittest discover -s tests -v
 
-      - name: Update profile through local Profile Signal action
-        uses: ./profile-signal-action
+      - name: Update profile through installed Profile Signal runtime
+        uses: ./.profile-signal
         with:
           config: .github/profile-signal.yml
 
