@@ -92,6 +92,38 @@ jobs:
           print('Release ZIP extraction and full local installation smoke test succeeded')
           PY
 
+      - name: Validate installed workflow staging without assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          fixture="${RUNNER_TEMP}/profile-signal-minimal-stage"
+          mkdir -p "$fixture/data"
+          cd "$fixture"
+          git init -q
+          git config user.name test
+          git config user.email test@example.com
+          printf '# Minimal profile\n' > README.md
+          printf '{}\n' > data/snapshot.json
+          git add README.md data
+          git commit -qm baseline
+
+          printf '\nchanged\n' >> README.md
+          printf '{"changed":true}\n' > data/snapshot.json
+
+          git add README.md
+          for path in assets data; do
+            if [ -e "$path" ]; then
+              git add "$path"
+            fi
+          done
+
+          if git diff --cached --quiet; then
+            echo "Expected minimal-preset changes to be staged" >&2
+            exit 1
+          fi
+          git diff --cached --name-only
+          echo "Installed workflow staging succeeds when assets/ is absent"
+
   release:
     if: github.event_name == 'workflow_dispatch'
     needs: validate-package
