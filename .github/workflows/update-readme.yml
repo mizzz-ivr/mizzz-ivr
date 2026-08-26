@@ -5,6 +5,9 @@ on:
     paths:
       - README.md
       - scripts/update-profile-activity.py
+      - scripts/profile_signal.py
+      - scripts/update-profile-signal.py
+      - tests/test_profile_signal.py
       - .github/workflows/update-readme.yml
   schedule:
     - cron: "17 */3 * * *"
@@ -33,14 +36,21 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Validate activity script
-        run: python -m py_compile scripts/update-profile-activity.py
+      - name: Validate Python
+        run: |
+          python -m py_compile \
+            scripts/update-profile-activity.py \
+            scripts/profile_signal.py \
+            scripts/update-profile-signal.py
+          python -m unittest discover -s tests -v
 
       - name: Generate activity preview
         env:
           GITHUB_LOGIN: mizzz-ivr
           PROFILE_TIMEZONE: Asia/Tokyo
-        run: python scripts/update-profile-activity.py
+        run: |
+          python scripts/update-profile-activity.py
+          python scripts/update-profile-signal.py
 
       - name: Validate generated files
         shell: bash
@@ -59,8 +69,24 @@ jobs:
           for path in logs:
               json.loads(path.read_text(encoding="utf-8"))
 
+          state = json.loads(Path("data/profile-signal-state.json").read_text(encoding="utf-8"))
+          for key in ("status", "code_weather", "streak", "current_focus"):
+              if key not in state:
+                  raise SystemExit(f"Missing Profile Signal state key: {key}")
+
+          readme = Path("README.md").read_text(encoding="utf-8")
+          for marker in (
+              "PROFILE-SIGNAL:LIVE-SIGNAL:START",
+              "PROFILE-SIGNAL:FOCUS:START",
+          ):
+              if marker not in readme:
+                  raise SystemExit(f"Missing README marker: {marker}")
+
           ET.parse("assets/activity-7d.svg")
-          print(f"Validated {len(logs)} JSON snapshots and activity-7d.svg")
+          print(
+              f"Validated {len(logs)} JSON snapshots, Profile Signal state, "
+              "README widgets and activity-7d.svg"
+          )
           PY
 
   update-profile-activity:
@@ -82,21 +108,28 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Validate activity script
-        run: python -m py_compile scripts/update-profile-activity.py
+      - name: Validate Python
+        run: |
+          python -m py_compile \
+            scripts/update-profile-activity.py \
+            scripts/profile_signal.py \
+            scripts/update-profile-signal.py
+          python -m unittest discover -s tests -v
 
-      - name: Update activity snapshot, chart and README
+      - name: Update activity snapshot, widgets and README
         env:
           GITHUB_LOGIN: mizzz-ivr
           PROFILE_TIMEZONE: Asia/Tokyo
-        run: python scripts/update-profile-activity.py
+        run: |
+          python scripts/update-profile-activity.py
+          python scripts/update-profile-signal.py
 
       - name: Commit generated profile activity
         shell: bash
         run: |
           set -euo pipefail
 
-          if [ -z "$(git status --porcelain -- README.md assets/activity-7d.svg data/activity)" ]; then
+          if [ -z "$(git status --porcelain -- README.md assets/activity-7d.svg data/activity data/profile-signal-state.json)" ]; then
             echo "No profile activity changes"
             exit 0
           fi
@@ -104,8 +137,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add README.md assets/activity-7d.svg data/activity
-          git commit -m "chore(profile): refresh daily activity [skip ci]"
+          git add \
+            README.md \
+            assets/activity-7d.svg \
+            data/activity \
+            data/profile-signal-state.json
+          git commit -m "chore(profile): refresh Profile Signal [skip ci]"
 
           for attempt in 1 2 3; do
             if git push origin HEAD:main; then
