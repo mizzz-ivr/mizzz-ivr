@@ -183,30 +183,25 @@ jobs:
           if [ -f "$source_notes" ]; then
             cp "$source_notes" "$target_notes"
           else
-            python - <<'PY'
-          import os
-          from pathlib import Path
+            cat > "$target_notes" <<'EOF'
+          ## Profile Signal __VERSION__
 
-          version = os.environ['VERSION']
-          notes = f'''## Profile Signal {version}
+          GitHub Profile READMEへ公開GitHub Activityから生成した開発状況Widgetを自動挿入するReleaseです。
 
-GitHub Profile READMEへ公開GitHub Activityから生成した開発状況Widgetを自動挿入するReleaseです。
+          ### 導入
 
-### 導入
+          1. Assetsから `profile-signal-__VERSION__.zip` をダウンロードします。
+          2. 自分のGitHub Profile Repositoryのrootへ展開します。
+          3. `.github/profile-signal.yml` のusernameを変更します。
+          4. commit / push後、**Actions → Profile Signal → Run workflow** を実行します。
 
-1. Assetsから `profile-signal-{version}.zip` をダウンロードします。
-2. 自分のGitHub Profile Repositoryのrootへ展開します。
-3. `.github/profile-signal.yml` のusernameを変更します。
-4. commit / push後、**Actions → Profile Signal → Run workflow** を実行します。
+          標準構成はpublic-onlyで、API SecretやPATは不要です。
 
-標準構成はpublic-onlyで、API SecretやPATは不要です。
+          ### License
 
-### License
-
-Profile Signal runtimeはMIT Licenseです。
-'''
-          Path(os.environ['RUNNER_TEMP'], 'release-notes.md').write_text(notes, encoding='utf-8')
-          PY
+          Profile Signal runtimeはMIT Licenseです。
+          EOF
+            sed -i "s/__VERSION__/${VERSION}/g" "$target_notes"
           fi
 
       - name: Publish GitHub Release
