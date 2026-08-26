@@ -16,6 +16,8 @@ GitHub Release ZIP
 uses: ./.profile-signal
 ```
 
+導入後は利用者自身のRepository内だけでruntimeを実行し、GitHub ActionsからREADMEを更新します。
+
 ## 現在の安定版
 
 - `v0.1.0`
