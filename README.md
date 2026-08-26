@@ -26,8 +26,8 @@
 
 <table>
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 22:01 JST</sub></td>
-    <td width="34%" align="center"><strong>🌩️ STORM</strong><br/><sub>381 public actions today</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 22:25 JST</sub></td>
+    <td width="34%" align="center"><strong>🌩️ STORM</strong><br/><sub>420 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 2 DAY STREAK</strong><br/><sub>public activity · recent history</sub></td>
   </tr>
 </table>
@@ -42,9 +42,9 @@
 
 <table>
   <tr>
-    <td width="25%" align="center"><strong>350</strong><br/><sub>COMMITS</sub></td>
-    <td width="25%" align="center"><strong>21</strong><br/><sub>PRS OPENED</sub></td>
-    <td width="25%" align="center"><strong>6</strong><br/><sub>ISSUES CREATED</sub></td>
+    <td width="25%" align="center"><strong>385</strong><br/><sub>COMMITS</sub></td>
+    <td width="25%" align="center"><strong>23</strong><br/><sub>PRS OPENED</sub></td>
+    <td width="25%" align="center"><strong>8</strong><br/><sub>ISSUES CREATED</sub></td>
     <td width="25%" align="center"><strong>4</strong><br/><sub>ISSUES DONE</sub></td>
   </tr>
 </table>
@@ -57,7 +57,7 @@
 
 <table>
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>37% of weighted repository activity · score 127 · 111 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>36% of weighted repository activity · score 122 · 109 events</sub></td>
     <td width="38%" valign="top"><strong>TODAY&apos;S STACK</strong><br/><code>TypeScript</code> <code>CSS</code> <code>JavaScript</code></td>
   </tr>
 </table>
@@ -75,8 +75,8 @@
 <table>
   <tr>
     <td width="25%" align="center"><strong>! ATTENTION</strong><br/><sub>CI SIGNAL · last 7 days</sub></td>
-    <td width="25%" align="center"><strong>56%</strong><br/><sub>PASS RATE</sub></td>
-    <td width="25%" align="center"><strong>15 / 27</strong><br/><sub>PASSED / EVALUATED</sub></td>
+    <td width="25%" align="center"><strong>74%</strong><br/><sub>PASS RATE</sub></td>
+    <td width="25%" align="center"><strong>20 / 27</strong><br/><sub>PASSED / EVALUATED</sub></td>
     <td width="25%" align="center"><strong>3</strong><br/><sub>REPOS WITH CI</sub></td>
   </tr>
 </table>
@@ -89,7 +89,7 @@
 
 <table>
   <tr>
-    <td width="33%" valign="top"><strong>01 · <a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>37% weighted activity · score 127 · 111 events<br/>! ATTENTION · CI · 0/10 passed · 0%<br/>last activity · 21:42 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>35% weighted activity · score 119 · 112 events<br/>◐ WATCH · CI · 5/7 passed · 71%<br/>last activity · 21:45 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong><br/><sub>11% weighted activity · score 36 · 24 events<br/>● HEALTHY · CI · 10/10 passed · 100%<br/>last activity · 22:01 JST</sub></td>
+    <td width="33%" valign="top"><strong>01 · <a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>36% weighted activity · score 122 · 109 events<br/>! ATTENTION · CI · 4/10 passed · 40%<br/>last activity · 22:13 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>34% weighted activity · score 116 · 110 events<br/>◐ WATCH · CI · 6/7 passed · 86%<br/>last activity · 22:23 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong><br/><sub>12% weighted activity · score 42 · 27 events<br/>● HEALTHY · CI · 10/10 passed · 100%<br/>last activity · 22:19 JST</sub></td>
   </tr>
 </table>
 
@@ -101,10 +101,10 @@
 
 <table>
   <tbody>
-    <tr><td width="10%"><code>22:01</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr">PR merged #21</a></td></tr>
-    <tr><td width="10%"><code>21:57</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/tech-writing">mizzz-ivr/tech-writing</a></strong> — <a href="https://github.com/mizzz-ivr/tech-writing">Opened PR #7</a></td></tr>
-    <tr><td width="10%"><code>21:56</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/tech-writing">mizzz-ivr/tech-writing</a></strong> — <a href="https://github.com/mizzz-ivr/tech-writing/commits">1 commit pushed to docs/github-profile-live-dashboard</a></td></tr>
-    <tr><td width="10%"><code>21:56</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/tech-writing">mizzz-ivr/tech-writing</a></strong> — <a href="https://github.com/mizzz-ivr/tech-writing/commits">1 commit pushed to docs/github-profile-live-dashboard</a></td></tr>
+    <tr><td width="10%"><code>22:25</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/tech-writing">mizzz-ivr/tech-writing</a></strong> — <a href="https://github.com/mizzz-ivr/tech-writing">Opened PR #8</a></td></tr>
+    <tr><td width="10%"><code>22:25</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/tech-writing">mizzz-ivr/tech-writing</a></strong> — <a href="https://github.com/mizzz-ivr/tech-writing/commits">1 commit pushed to docs/github-profile-live-dashboard-finalize</a></td></tr>
+    <tr><td width="10%"><code>22:24</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/tech-writing">mizzz-ivr/tech-writing</a></strong> — <a href="https://github.com/mizzz-ivr/tech-writing/commits">1 commit pushed to docs/github-profile-live-dashboard-finalize</a></td></tr>
+    <tr><td width="10%"><code>22:23</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/issues/338">Opened issue #338</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->

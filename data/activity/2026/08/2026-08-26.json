@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 350,
-    "prs_opened": 21,
-    "issues_created": 6,
+    "commits": 385,
+    "prs_opened": 23,
+    "issues_created": 8,
     "issues_completed": 4
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "Merge pull request #335 from ivRooom/feat/ai-foundation-console-credentials",
+      "url": "https://github.com/ivRooom/Herta/commit/a94d4f0b810c63dfea94d0921fa638ecd2c25d27",
+      "at": "2026-08-26T22:18:10.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "Merge pull request #7 from mizzz-ivr/docs/github-profile-live-dashboard",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/e2ec5fb444245d74aebf59e0ff7f09b140920a67",
+      "at": "2026-08-26T22:08:54.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/mizzz-ivr",
@@ -20,32 +34,18 @@
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "ci: validate Profile Signal operations widgets",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/740a19eff5cf52f10ce9a082a498caeada5cb57d",
-      "at": "2026-08-26T21:53:32.000+09:00"
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "docs: add screenshot plan for live dashboard article",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/ba6102605aca0650515cdbc41b1c63629abd2cc2",
+      "at": "2026-08-26T21:56:50.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "test: cover project health and CI signal analytics",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/fb38430fd82437ade503c3434608ea9a69253369",
-      "at": "2026-08-26T21:53:04.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "feat: collect project health and CI signals",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/13fb14465abee6fcbddef5dd8be34de87fd89c27",
-      "at": "2026-08-26T21:52:30.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "feat: add project health and CI analytics",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/9d2ac56d2b24786ad78fa7a49a9e3c17fd60b7c8",
-      "at": "2026-08-26T21:51:44.000+09:00"
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "docs: add fact notes for live dashboard article",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/470b6ed83c1061f0f70be32e9f2f0d9d2b9260e0",
+      "at": "2026-08-26T21:56:35.000+09:00"
     }
   ],
-  "generated_at": "2026-08-26T22:01:28+09:00"
+  "generated_at": "2026-08-26T22:26:42+09:00"
 }

@@ -7,20 +7,20 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-26T22:01:10.000+09:00"
+    "last_activity_at": "2026-08-26T13:25:16Z"
   },
   "code_weather": {
     "label": "STORM",
     "icon": "🌩️"
   },
   "streak": 2,
-  "activity_total": 381,
+  "activity_total": 420,
   "current_focus": {
     "repo": "mizzz-ivr/ivmz-home",
-    "score": 127,
-    "events": 111,
-    "last_activity_at": "2026-08-26T12:42:17Z",
-    "share": 37,
+    "score": 122,
+    "events": 109,
+    "last_activity_at": "2026-08-26T13:13:52Z",
+    "share": 36,
     "stack": [
       "TypeScript",
       "CSS",
@@ -72,30 +72,30 @@
     },
     {
       "date": "2026-08-26",
-      "total": 381,
-      "commits": 350,
-      "prs": 21,
-      "issues": 10
+      "total": 420,
+      "commits": 385,
+      "prs": 23,
+      "issues": 12
     }
   ],
   "now_building": [
     {
       "repo": "mizzz-ivr/ivmz-home",
-      "score": 127,
-      "events": 111,
-      "last_activity_at": "2026-08-26T12:42:17Z",
-      "share": 37,
+      "score": 122,
+      "events": 109,
+      "last_activity_at": "2026-08-26T13:13:52Z",
+      "share": 36,
       "ci": {
         "label": "ATTENTION",
         "symbol": "!",
         "window_days": 7,
         "total_runs": 10,
         "evaluated": 10,
-        "passed": 0,
-        "failed": 10,
+        "passed": 4,
+        "failed": 6,
         "ignored": 0,
-        "pass_rate": 0,
-        "latest_conclusion": "failure"
+        "pass_rate": 40,
+        "latest_conclusion": "success"
       },
       "health": {
         "label": "ATTENTION",
@@ -105,20 +105,20 @@
     },
     {
       "repo": "ivRooom/Herta",
-      "score": 119,
-      "events": 112,
-      "last_activity_at": "2026-08-26T12:45:18Z",
-      "share": 35,
+      "score": 116,
+      "events": 110,
+      "last_activity_at": "2026-08-26T13:23:13Z",
+      "share": 34,
       "ci": {
         "label": "MIXED",
         "symbol": "◐",
         "window_days": 7,
         "total_runs": 10,
         "evaluated": 7,
-        "passed": 5,
-        "failed": 2,
+        "passed": 6,
+        "failed": 1,
         "ignored": 3,
-        "pass_rate": 71,
+        "pass_rate": 86,
         "latest_conclusion": "success"
       },
       "health": {
@@ -129,10 +129,10 @@
     },
     {
       "repo": "mizzz-ivr/mizzz-ivr",
-      "score": 36,
-      "events": 24,
-      "last_activity_at": "2026-08-26T13:01:10Z",
-      "share": 11,
+      "score": 42,
+      "events": 27,
+      "last_activity_at": "2026-08-26T13:19:40Z",
+      "share": 12,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -155,43 +155,43 @@
   "activity_stream": [
     {
       "label": "PR",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "PR merged #21",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr",
-      "at": "2026-08-26T13:01:10Z"
-    },
-    {
-      "label": "PR",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "Opened PR #7",
+      "title": "Opened PR #8",
       "url": "https://github.com/mizzz-ivr/tech-writing",
-      "at": "2026-08-26T12:57:05Z"
+      "at": "2026-08-26T13:25:16Z"
     },
     {
       "label": "PUSH",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "1 commit pushed to docs/github-profile-live-dashboard",
+      "title": "1 commit pushed to docs/github-profile-live-dashboard-finalize",
       "url": "https://github.com/mizzz-ivr/tech-writing/commits",
-      "at": "2026-08-26T12:56:35Z"
+      "at": "2026-08-26T13:25:02Z"
     },
     {
       "label": "PUSH",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "1 commit pushed to docs/github-profile-live-dashboard",
+      "title": "1 commit pushed to docs/github-profile-live-dashboard-finalize",
       "url": "https://github.com/mizzz-ivr/tech-writing/commits",
-      "at": "2026-08-26T12:56:05Z"
+      "at": "2026-08-26T13:24:09Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Opened issue #338",
+      "url": "https://github.com/ivRooom/Herta/issues/338",
+      "at": "2026-08-26T13:23:13Z"
     }
   ],
-  "generated_at": "2026-08-26T22:01:35+09:00",
+  "generated_at": "2026-08-26T22:26:52+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
     "window_days": 7,
     "evaluated": 27,
-    "passed": 15,
-    "failed": 12,
+    "passed": 20,
+    "failed": 7,
     "ignored": 3,
-    "pass_rate": 56,
+    "pass_rate": 74,
     "repos_with_signal": 3
   }
 }
