@@ -1,5 +1,5 @@
 {
-  "schema_version": 3,
+  "schema_version": 4,
   "date": "2026-08-26",
   "timezone": "Asia/Tokyo",
   "scope": "public",
@@ -7,20 +7,20 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-26T13:25:16Z"
+    "last_activity_at": "2026-08-26T13:49:22Z"
   },
   "code_weather": {
     "label": "STORM",
     "icon": "🌩️"
   },
   "streak": 2,
-  "activity_total": 420,
+  "activity_total": 429,
   "current_focus": {
     "repo": "mizzz-ivr/ivmz-home",
-    "score": 122,
-    "events": 109,
-    "last_activity_at": "2026-08-26T13:13:52Z",
-    "share": 36,
+    "score": 117,
+    "events": 104,
+    "last_activity_at": "2026-08-26T13:23:21Z",
+    "share": 34,
     "stack": [
       "TypeScript",
       "CSS",
@@ -72,8 +72,8 @@
     },
     {
       "date": "2026-08-26",
-      "total": 420,
-      "commits": 385,
+      "total": 429,
+      "commits": 394,
       "prs": 23,
       "issues": 12
     }
@@ -81,20 +81,20 @@
   "now_building": [
     {
       "repo": "mizzz-ivr/ivmz-home",
-      "score": 122,
-      "events": 109,
-      "last_activity_at": "2026-08-26T13:13:52Z",
-      "share": 36,
+      "score": 117,
+      "events": 104,
+      "last_activity_at": "2026-08-26T13:23:21Z",
+      "share": 34,
       "ci": {
         "label": "ATTENTION",
         "symbol": "!",
         "window_days": 7,
         "total_runs": 10,
         "evaluated": 10,
-        "passed": 4,
-        "failed": 6,
+        "passed": 5,
+        "failed": 5,
         "ignored": 0,
-        "pass_rate": 40,
+        "pass_rate": 50,
         "latest_conclusion": "success"
       },
       "health": {
@@ -105,34 +105,34 @@
     },
     {
       "repo": "ivRooom/Herta",
-      "score": 116,
-      "events": 110,
+      "score": 114,
+      "events": 108,
       "last_activity_at": "2026-08-26T13:23:13Z",
-      "share": 34,
+      "share": 33,
       "ci": {
-        "label": "MIXED",
-        "symbol": "◐",
+        "label": "PASSING",
+        "symbol": "●",
         "window_days": 7,
         "total_runs": 10,
         "evaluated": 7,
-        "passed": 6,
-        "failed": 1,
+        "passed": 7,
+        "failed": 0,
         "ignored": 3,
-        "pass_rate": 86,
+        "pass_rate": 100,
         "latest_conclusion": "success"
       },
       "health": {
-        "label": "WATCH",
-        "symbol": "◐",
-        "reason": "recent CI is mixed"
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
       }
     },
     {
       "repo": "mizzz-ivr/mizzz-ivr",
-      "score": 42,
-      "events": 27,
-      "last_activity_at": "2026-08-26T13:19:40Z",
-      "share": 12,
+      "score": 46,
+      "events": 31,
+      "last_activity_at": "2026-08-26T13:48:00Z",
+      "share": 13,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -154,44 +154,112 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commits",
+      "at": "2026-08-26T13:49:22Z"
+    },
+    {
       "label": "PR",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "Opened PR #8",
+      "title": "PR merged #8",
       "url": "https://github.com/mizzz-ivr/tech-writing",
-      "at": "2026-08-26T13:25:16Z"
+      "at": "2026-08-26T13:49:21Z"
     },
     {
       "label": "PUSH",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "1 commit pushed to docs/github-profile-live-dashboard-finalize",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commits",
-      "at": "2026-08-26T13:25:02Z"
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commits",
+      "at": "2026-08-26T13:48:00Z"
     },
     {
-      "label": "PUSH",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "1 commit pushed to docs/github-profile-live-dashboard-finalize",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commits",
-      "at": "2026-08-26T13:24:09Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Opened issue #338",
-      "url": "https://github.com/ivRooom/Herta/issues/338",
-      "at": "2026-08-26T13:23:13Z"
+      "label": "PR",
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "PR merged #22",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr",
+      "at": "2026-08-26T13:47:59Z"
     }
   ],
-  "generated_at": "2026-08-26T22:26:52+09:00",
+  "generated_at": "2026-08-26T23:09:08+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
     "window_days": 7,
     "evaluated": 27,
-    "passed": 20,
-    "failed": 7,
+    "passed": 22,
+    "failed": 5,
     "ignored": 3,
-    "pass_rate": 74,
+    "pass_rate": 81,
     "repos_with_signal": 3
+  },
+  "dev_recap": {
+    "tracked_from": "2026-08-25",
+    "tracked_days": 2,
+    "active_days": 2,
+    "longest_streak": 2,
+    "weekly": {
+      "schema_version": 1,
+      "period": "2026-W35",
+      "timezone": "Asia/Tokyo",
+      "scope": "public",
+      "github_login": "mizzz-ivr",
+      "coverage": {
+        "start_date": "2026-08-25",
+        "end_date": "2026-08-26",
+        "tracked_days": 2,
+        "active_days": 2
+      },
+      "metrics": {
+        "commits": 593,
+        "prs_opened": 35,
+        "issues_created": 11,
+        "issues_completed": 4,
+        "activity_total": 643
+      },
+      "generated_at": "2026-08-26T23:09:08+09:00"
+    },
+    "monthly": {
+      "schema_version": 1,
+      "period": "2026-08",
+      "timezone": "Asia/Tokyo",
+      "scope": "public",
+      "github_login": "mizzz-ivr",
+      "coverage": {
+        "start_date": "2026-08-25",
+        "end_date": "2026-08-26",
+        "tracked_days": 2,
+        "active_days": 2
+      },
+      "metrics": {
+        "commits": 593,
+        "prs_opened": 35,
+        "issues_created": 11,
+        "issues_completed": 4,
+        "activity_total": 643
+      },
+      "generated_at": "2026-08-26T23:09:08+09:00"
+    },
+    "achievements": [
+      {
+        "key": "first-signal",
+        "label": "FIRST SIGNAL",
+        "icon": "📡",
+        "unlocked_on": "2026-08-25"
+      },
+      {
+        "key": "100-commits",
+        "label": "100+ COMMITS",
+        "icon": "🏗️",
+        "unlocked_on": "2026-08-25"
+      },
+      {
+        "key": "10-prs",
+        "label": "10+ PRS",
+        "icon": "🚢",
+        "unlocked_on": "2026-08-25"
+      }
+    ]
   }
 }
