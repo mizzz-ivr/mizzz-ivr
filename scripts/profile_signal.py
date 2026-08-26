@@ -30,6 +30,14 @@ STREAM_EVENT_TYPES = {
     "CreateEvent",
 }
 
+CI_SUCCESS_CONCLUSIONS = {"success"}
+CI_FAILURE_CONCLUSIONS = {
+    "failure",
+    "timed_out",
+    "action_required",
+    "startup_failure",
+}
+
 
 def parse_timestamp(value: str | None) -> datetime | None:
     if not value:
@@ -306,3 +314,121 @@ def activity_stream(
 
     items.sort(key=lambda item: item.get("at", ""), reverse=True)
     return items[: max(0, limit)]
+
+
+def ci_summary(
+    runs: Iterable[Mapping[str, Any]],
+    now: datetime,
+    window_days: int = 7,
+) -> dict[str, Any]:
+    cutoff = now.astimezone(UTC) - timedelta(days=max(1, window_days))
+    recent: list[tuple[datetime, str]] = []
+
+    for run in runs:
+        if str(run.get("status") or "") != "completed":
+            continue
+        timestamp = parse_timestamp(
+            str(run.get("run_started_at") or run.get("created_at") or run.get("updated_at") or "")
+        )
+        if timestamp is None or timestamp < cutoff:
+            continue
+        recent.append((timestamp, str(run.get("conclusion") or "unknown")))
+
+    recent.sort(key=lambda item: item[0], reverse=True)
+    passed = sum(1 for _, conclusion in recent if conclusion in CI_SUCCESS_CONCLUSIONS)
+    failed = sum(1 for _, conclusion in recent if conclusion in CI_FAILURE_CONCLUSIONS)
+    ignored = len(recent) - passed - failed
+    evaluated = passed + failed
+    pass_rate = round((passed / evaluated) * 100) if evaluated else None
+
+    latest_evaluated = next(
+        (conclusion for _, conclusion in recent if conclusion in CI_SUCCESS_CONCLUSIONS | CI_FAILURE_CONCLUSIONS),
+        None,
+    )
+
+    if evaluated == 0:
+        label, symbol = "NO SIGNAL", "○"
+    elif latest_evaluated in CI_FAILURE_CONCLUSIONS:
+        label, symbol = "ATTENTION", "!"
+    elif pass_rate == 100:
+        label, symbol = "PASSING", "●"
+    elif pass_rate is not None and pass_rate >= 90:
+        label, symbol = "STABLE", "●"
+    elif pass_rate is not None and pass_rate >= 70:
+        label, symbol = "MIXED", "◐"
+    else:
+        label, symbol = "ATTENTION", "!"
+
+    return {
+        "label": label,
+        "symbol": symbol,
+        "window_days": max(1, window_days),
+        "total_runs": len(recent),
+        "evaluated": evaluated,
+        "passed": passed,
+        "failed": failed,
+        "ignored": ignored,
+        "pass_rate": pass_rate,
+        "latest_conclusion": latest_evaluated,
+    }
+
+
+def repository_health(
+    metadata: Mapping[str, Any],
+    ci: Mapping[str, Any],
+    now: datetime,
+    quiet_days: int = 30,
+) -> dict[str, Any]:
+    if bool(metadata.get("archived")) or bool(metadata.get("disabled")):
+        return {"label": "ARCHIVED", "symbol": "○", "reason": "repository is archived or disabled"}
+
+    pushed_at = parse_timestamp(str(metadata.get("pushed_at") or ""))
+    if pushed_at is not None:
+        age_days = max(0, int((now.astimezone(UTC) - pushed_at).total_seconds() // 86400))
+        if age_days > max(1, quiet_days):
+            return {"label": "QUIET", "symbol": "○", "reason": f"no push for {age_days} days"}
+
+    ci_label = str(ci.get("label") or "NO SIGNAL")
+    if ci_label == "ATTENTION":
+        return {"label": "ATTENTION", "symbol": "!", "reason": "recent CI needs attention"}
+    if ci_label == "MIXED":
+        return {"label": "WATCH", "symbol": "◐", "reason": "recent CI is mixed"}
+    if ci_label in {"PASSING", "STABLE"}:
+        return {"label": "HEALTHY", "symbol": "●", "reason": "active with passing recent CI"}
+    return {"label": "ACTIVE", "symbol": "●", "reason": "active; no evaluated CI signal"}
+
+
+def aggregate_ci_signals(signals: Iterable[Mapping[str, Any]]) -> dict[str, Any]:
+    items = list(signals)
+    passed = sum(int(item.get("passed", 0) or 0) for item in items)
+    failed = sum(int(item.get("failed", 0) or 0) for item in items)
+    ignored = sum(int(item.get("ignored", 0) or 0) for item in items)
+    evaluated = passed + failed
+    pass_rate = round((passed / evaluated) * 100) if evaluated else None
+    repos_with_signal = sum(1 for item in items if int(item.get("evaluated", 0) or 0) > 0)
+    labels = {str(item.get("label") or "NO SIGNAL") for item in items}
+
+    if evaluated == 0:
+        label, symbol = "NO SIGNAL", "○"
+    elif "ATTENTION" in labels:
+        label, symbol = "ATTENTION", "!"
+    elif "MIXED" in labels:
+        label, symbol = "MIXED", "◐"
+    elif pass_rate == 100:
+        label, symbol = "PASSING", "●"
+    elif pass_rate is not None and pass_rate >= 90:
+        label, symbol = "STABLE", "●"
+    else:
+        label, symbol = "MIXED", "◐"
+
+    return {
+        "label": label,
+        "symbol": symbol,
+        "window_days": max((int(item.get("window_days", 7) or 7) for item in items), default=7),
+        "evaluated": evaluated,
+        "passed": passed,
+        "failed": failed,
+        "ignored": ignored,
+        "pass_rate": pass_rate,
+        "repos_with_signal": repos_with_signal,
+    }

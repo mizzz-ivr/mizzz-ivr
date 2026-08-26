@@ -7,6 +7,7 @@ on:
       - scripts/update-profile-activity.py
       - scripts/profile_signal.py
       - scripts/update-profile-signal.py
+      - scripts/profile_signal_operations.py
       - tests/test_profile_signal.py
       - .github/workflows/update-readme.yml
   schedule:
@@ -41,7 +42,8 @@ jobs:
           python -m py_compile \
             scripts/update-profile-activity.py \
             scripts/profile_signal.py \
-            scripts/update-profile-signal.py
+            scripts/update-profile-signal.py \
+            scripts/profile_signal_operations.py
           python -m unittest discover -s tests -v
 
       - name: Generate activity preview
@@ -51,6 +53,7 @@ jobs:
         run: |
           python scripts/update-profile-activity.py
           python scripts/update-profile-signal.py
+          python scripts/profile_signal_operations.py
 
       - name: Validate generated files
         shell: bash
@@ -78,16 +81,28 @@ jobs:
               "dev_pulse",
               "now_building",
               "activity_stream",
+              "ci_signal",
           ):
               if key not in state:
                   raise SystemExit(f"Missing Profile Signal state key: {key}")
 
+          if state.get("schema_version") != 3:
+              raise SystemExit("Profile Signal state must use schema version 3")
           if len(state["dev_pulse"]) != 7:
               raise SystemExit("DEV PULSE must contain exactly seven days")
           if len(state["now_building"]) > 3:
               raise SystemExit("NOW BUILDING must contain at most three repositories")
           if len(state["activity_stream"]) > 4:
               raise SystemExit("ACTIVITY STREAM must contain at most four events")
+
+          for repo in state["now_building"]:
+              if "health" not in repo or "ci" not in repo:
+                  raise SystemExit("NOW BUILDING repository is missing health / CI state")
+
+          ci = state["ci_signal"]
+          for key in ("label", "evaluated", "passed", "failed", "pass_rate", "repos_with_signal"):
+              if key not in ci:
+                  raise SystemExit(f"CI SIGNAL is missing key: {key}")
 
           readme = Path("README.md").read_text(encoding="utf-8")
           for marker in (
@@ -103,12 +118,16 @@ jobs:
 
           if "Today&apos;s signal" in readme:
               raise SystemExit("TODAY still duplicates ACTIVITY STREAM")
+          if "CI SIGNAL" not in readme:
+              raise SystemExit("DEV PULSE is missing CI SIGNAL")
+          if "health combines repository recency" not in readme:
+              raise SystemExit("NOW BUILDING is missing project health explanation")
 
           ET.parse("assets/activity-7d.svg")
           ET.parse("assets/dev-pulse.svg")
           print(
-              f"Validated {len(logs)} JSON snapshots, Profile Signal state, "
-              "six profile sections and both SVG assets"
+              f"Validated {len(logs)} JSON snapshots, Profile Signal v3 state, "
+              "project health, CI signal, six profile sections and both SVG assets"
           )
           PY
 
@@ -136,7 +155,8 @@ jobs:
           python -m py_compile \
             scripts/update-profile-activity.py \
             scripts/profile_signal.py \
-            scripts/update-profile-signal.py
+            scripts/update-profile-signal.py \
+            scripts/profile_signal_operations.py
           python -m unittest discover -s tests -v
 
       - name: Update activity snapshot, widgets and README
@@ -146,6 +166,7 @@ jobs:
         run: |
           python scripts/update-profile-activity.py
           python scripts/update-profile-signal.py
+          python scripts/profile_signal_operations.py
 
       - name: Commit generated profile activity
         shell: bash
