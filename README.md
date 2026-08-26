@@ -22,6 +22,16 @@
 
 ---
 
+<!-- DAILY-ACTIVITY:START -->
+## TODAY // Activity overview
+
+<p align="center">
+  <sub>Public GitHub activity is refreshed automatically in JST.</sub>
+</p>
+<!-- DAILY-ACTIVITY:END -->
+
+---
+
 ## NOW // What I build
 
 <table>

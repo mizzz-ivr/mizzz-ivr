@@ -1,0 +1,121 @@
+name: Update profile activity
+
+on:
+  pull_request:
+    paths:
+      - README.md
+      - scripts/update-profile-activity.py
+      - .github/workflows/update-readme.yml
+  schedule:
+    - cron: "17 */3 * * *"
+      timezone: "Asia/Tokyo"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-activity-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate-profile-activity:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Validate activity script
+        run: python -m py_compile scripts/update-profile-activity.py
+
+      - name: Generate activity preview
+        env:
+          GITHUB_LOGIN: mizzz-ivr
+          PROFILE_TIMEZONE: Asia/Tokyo
+        run: python scripts/update-profile-activity.py
+
+      - name: Validate generated files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --check -- README.md
+          python - <<'PY'
+          import json
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          logs = sorted(Path("data/activity").glob("*/*/*.json"))
+          if not logs:
+              raise SystemExit("No activity snapshots were generated")
+
+          for path in logs:
+              json.loads(path.read_text(encoding="utf-8"))
+
+          ET.parse("assets/activity-7d.svg")
+          print(f"Validated {len(logs)} JSON snapshots and activity-7d.svg")
+          PY
+
+  update-profile-activity:
+    if: github.event_name != 'pull_request'
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Validate activity script
+        run: python -m py_compile scripts/update-profile-activity.py
+
+      - name: Update activity snapshot, chart and README
+        env:
+          GITHUB_LOGIN: mizzz-ivr
+          PROFILE_TIMEZONE: Asia/Tokyo
+        run: python scripts/update-profile-activity.py
+
+      - name: Commit generated profile activity
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [ -z "$(git status --porcelain -- README.md assets/activity-7d.svg data/activity)" ]; then
+            echo "No profile activity changes"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md assets/activity-7d.svg data/activity
+          git commit -m "chore(profile): refresh daily activity [skip ci]"
+
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "Push failed (attempt ${attempt}); rebasing onto latest main"
+            git fetch origin main
+            git rebase origin/main
+          done
+
+          echo "Failed to push profile activity after 3 attempts" >&2
+          exit 1
