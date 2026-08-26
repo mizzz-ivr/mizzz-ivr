@@ -70,22 +70,45 @@ jobs:
               json.loads(path.read_text(encoding="utf-8"))
 
           state = json.loads(Path("data/profile-signal-state.json").read_text(encoding="utf-8"))
-          for key in ("status", "code_weather", "streak", "current_focus"):
+          for key in (
+              "status",
+              "code_weather",
+              "streak",
+              "current_focus",
+              "dev_pulse",
+              "now_building",
+              "activity_stream",
+          ):
               if key not in state:
                   raise SystemExit(f"Missing Profile Signal state key: {key}")
+
+          if len(state["dev_pulse"]) != 7:
+              raise SystemExit("DEV PULSE must contain exactly seven days")
+          if len(state["now_building"]) > 3:
+              raise SystemExit("NOW BUILDING must contain at most three repositories")
+          if len(state["activity_stream"]) > 4:
+              raise SystemExit("ACTIVITY STREAM must contain at most four events")
 
           readme = Path("README.md").read_text(encoding="utf-8")
           for marker in (
               "PROFILE-SIGNAL:LIVE-SIGNAL:START",
+              "DAILY-ACTIVITY:START",
               "PROFILE-SIGNAL:FOCUS:START",
+              "PROFILE-SIGNAL:PULSE:START",
+              "PROFILE-SIGNAL:NOW-BUILDING:START",
+              "PROFILE-SIGNAL:ACTIVITY-STREAM:START",
           ):
               if marker not in readme:
                   raise SystemExit(f"Missing README marker: {marker}")
 
+          if "Today&apos;s signal" in readme:
+              raise SystemExit("TODAY still duplicates ACTIVITY STREAM")
+
           ET.parse("assets/activity-7d.svg")
+          ET.parse("assets/dev-pulse.svg")
           print(
               f"Validated {len(logs)} JSON snapshots, Profile Signal state, "
-              "README widgets and activity-7d.svg"
+              "six profile sections and both SVG assets"
           )
           PY
 
@@ -129,7 +152,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          if [ -z "$(git status --porcelain -- README.md assets/activity-7d.svg data/activity data/profile-signal-state.json)" ]; then
+          if [ -z "$(git status --porcelain -- README.md assets/activity-7d.svg assets/dev-pulse.svg data/activity data/profile-signal-state.json)" ]; then
             echo "No profile activity changes"
             exit 0
           fi
@@ -140,6 +163,7 @@ jobs:
           git add \
             README.md \
             assets/activity-7d.svg \
+            assets/dev-pulse.svg \
             data/activity \
             data/profile-signal-state.json
           git commit -m "chore(profile): refresh Profile Signal [skip ci]"
