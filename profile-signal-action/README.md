@@ -153,9 +153,10 @@ data/
 └─ profile-signal-state.json
 
 assets/
-├─ activity-7d.svg
 └─ dev-pulse.svg
 ```
+
+`activity-7d.svg` はTODAY初期版との互換用legacy assetで、配布Actionの必須出力にはしません。
 
 ## Extraction plan
 
