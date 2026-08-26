@@ -21,6 +21,18 @@
 
 ---
 
+<!-- PROFILE-SIGNAL:LIVE-SIGNAL:START -->
+## LIVE SIGNAL // Development status
+
+<table>
+  <tr>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 18:55 JST</sub></td>
+    <td width="34%" align="center"><strong>🌩️ STORM</strong><br/><sub>288 public actions today</sub></td>
+    <td width="33%" align="center"><strong>🔥 2 DAY STREAK</strong><br/><sub>public activity · recent history</sub></td>
+  </tr>
+</table>
+<!-- PROFILE-SIGNAL:LIVE-SIGNAL:END -->
+
 <!-- DAILY-ACTIVITY:START -->
 ## TODAY // Activity overview
 
@@ -30,21 +42,21 @@
 
 <table>
   <tr>
-    <td width="25%" align="center"><strong>87</strong><br/><sub>COMMITS</sub></td>
-    <td width="25%" align="center"><strong>13</strong><br/><sub>PRS OPENED</sub></td>
-    <td width="25%" align="center"><strong>3</strong><br/><sub>ISSUES CREATED</sub></td>
-    <td width="25%" align="center"><strong>1</strong><br/><sub>ISSUES DONE</sub></td>
+    <td width="25%" align="center"><strong>264</strong><br/><sub>COMMITS</sub></td>
+    <td width="25%" align="center"><strong>16</strong><br/><sub>PRS OPENED</sub></td>
+    <td width="25%" align="center"><strong>5</strong><br/><sub>ISSUES CREATED</sub></td>
+    <td width="25%" align="center"><strong>3</strong><br/><sub>ISSUES DONE</sub></td>
   </tr>
 </table>
 
 <strong>Today&apos;s signal</strong>
 
 <ul>
-  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr/commit/1af10d237fb758298c806067404fc955dc58692d">Merge pull request #18 from mizzz-ivr/feat/profile-daily-activity  feat: add automated daily Git</a></li>
-  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr/commit/af996428d0dbc3977c92f85269a28ccb89c7d776">ci: validate activity generator on pull requests</a></li>
-  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr/commit/09481ff90bcabb08ca77716212582d6d30e95ace">feat: add daily activity section to profile</a></li>
-  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr/commit/7c2f9936e38b831c0fb495b06e7dbef2612b9ab7">ci: automate profile activity refresh</a></li>
-  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr/commit/99d974ca85dd5da3573641d0c17c1ebfddd23f0f">feat: add profile activity collector</a></li>
+  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr/commit/5c1340cb5c6969b557e0266cf5a50463cb0dc442">Merge pull request #19 from mizzz-ivr/feat/profile-signal-core</a></li>
+  <li><code>COMMIT</code> <strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commit/8e4233d356df3a200af77972dce142bfe4e3db59">Merge pull request #333 from ivRooom/fix/aop-internal-health-checks</a></li>
+  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/commit/0a5341330292feec5b87a50efd1da62c3dd45ee3">Merge pull request #6 from mizzz-ivr/feat/visual-ux-home-foundation</a></li>
+  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr/commit/a7306e50cf9fd77de0a6592f58c4bb7e85c9d5ea">ci: validate and publish Profile Signal widgets</a></li>
+  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr/commit/3c8ec61a58145654e1792eca4514383d5e0dff44">test: cover Profile Signal analytics</a></li>
 </ul>
 
 <p align="center">
@@ -55,6 +67,19 @@
   <sub>Auto-updated by GitHub Actions · Issue done = authored issue closed as completed</sub>
 </p>
 <!-- DAILY-ACTIVITY:END -->
+
+<!-- PROFILE-SIGNAL:FOCUS:START -->
+## CURRENT FOCUS // What is moving now
+
+<table>
+  <tr>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>33% of weighted repository activity · score 117 · 107 events</sub></td>
+    <td width="38%" valign="top"><strong>TODAY&apos;S STACK</strong><br/><code>TypeScript</code> <code>Shell</code> <code>Dockerfile</code> <code>CSS</code></td>
+  </tr>
+</table>
+
+<p align="center"><sub>Focus uses weighted public GitHub events; repository language data comes from the current focus repository.</sub></p>
+<!-- PROFILE-SIGNAL:FOCUS:END -->
 
 ---
 

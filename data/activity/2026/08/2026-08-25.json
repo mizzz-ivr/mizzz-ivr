@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 196,
+    "commits": 199,
     "prs_opened": 12,
     "issues_created": 3,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "test(db): guard concurrent index migrations",
+      "url": "https://github.com/ivRooom/Herta/commit/dc6999ce89453b4e194a8cc47849ae803385fff7",
+      "at": "2026-08-25T22:27:14.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(edge): keep AOP switch isolated to caddy",
+      "url": "https://github.com/ivRooom/Herta/commit/a568201c29067d8575dddc67d6a3b6a914de9dff",
+      "at": "2026-08-25T22:25:32.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
@@ -31,21 +45,7 @@
       "title": "test: separate Vitest unit tests from Playwright",
       "url": "https://github.com/mizzz-ivr/ivmz-home/commit/a81fb35d9300b23f83829ce53e18c0a9a30e794f",
       "at": "2026-08-25T22:07:25.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "fix: make hero scribble lint-safe",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/59ff413dbf97e0e10f51751e9ea1e417e5715c2c",
-      "at": "2026-08-25T22:06:25.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "fix: satisfy PostCSS lint rule",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/5f4ec433b44f500f82ac10e447823d26667c7409",
-      "at": "2026-08-25T22:05:48.000+09:00"
     }
   ],
-  "generated_at": "2026-08-26T16:02:55+09:00"
+  "generated_at": "2026-08-26T18:57:20+09:00"
 }

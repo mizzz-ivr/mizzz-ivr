@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-26",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "status": {
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-08-26T09:55:39Z"
+  },
+  "code_weather": {
+    "label": "STORM",
+    "icon": "🌩️"
+  },
+  "streak": 2,
+  "activity_total": 288,
+  "current_focus": {
+    "repo": "ivRooom/Herta",
+    "score": 117,
+    "events": 107,
+    "share": 33,
+    "stack": [
+      "TypeScript",
+      "Shell",
+      "Dockerfile",
+      "CSS"
+    ]
+  },
+  "generated_at": "2026-08-26T18:57:25+09:00"
+}

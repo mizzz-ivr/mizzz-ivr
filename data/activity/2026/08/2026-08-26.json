@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 87,
-    "prs_opened": 13,
-    "issues_created": 3,
-    "issues_completed": 1
+    "commits": 264,
+    "prs_opened": 16,
+    "issues_created": 5,
+    "issues_completed": 3
   },
   "activity": [
     {
       "type": "commit",
       "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "Merge pull request #18 from mizzz-ivr/feat/profile-daily-activity  feat: add automated daily Git",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/1af10d237fb758298c806067404fc955dc58692d",
-      "at": "2026-08-26T15:52:04.000+09:00"
+      "title": "Merge pull request #19 from mizzz-ivr/feat/profile-signal-core",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/5c1340cb5c6969b557e0266cf5a50463cb0dc442",
+      "at": "2026-08-26T18:55:38.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "Merge pull request #333 from ivRooom/fix/aop-internal-health-checks",
+      "url": "https://github.com/ivRooom/Herta/commit/8e4233d356df3a200af77972dce142bfe4e3db59",
+      "at": "2026-08-26T18:49:04.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Merge pull request #6 from mizzz-ivr/feat/visual-ux-home-foundation",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/0a5341330292feec5b87a50efd1da62c3dd45ee3",
+      "at": "2026-08-26T18:42:02.000+09:00"
     },
     {
       "type": "commit",
       "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "ci: validate activity generator on pull requests",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/af996428d0dbc3977c92f85269a28ccb89c7d776",
-      "at": "2026-08-26T14:44:39.000+09:00"
+      "title": "ci: validate and publish Profile Signal widgets",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/a7306e50cf9fd77de0a6592f58c4bb7e85c9d5ea",
+      "at": "2026-08-26T18:31:16.000+09:00"
     },
     {
       "type": "commit",
       "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "feat: add daily activity section to profile",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/09481ff90bcabb08ca77716212582d6d30e95ace",
-      "at": "2026-08-26T14:43:49.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "ci: automate profile activity refresh",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/7c2f9936e38b831c0fb495b06e7dbef2612b9ab7",
-      "at": "2026-08-26T14:43:14.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "feat: add profile activity collector",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/99d974ca85dd5da3573641d0c17c1ebfddd23f0f",
-      "at": "2026-08-26T14:42:58.000+09:00"
+      "title": "test: cover Profile Signal analytics",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/3c8ec61a58145654e1792eca4514383d5e0dff44",
+      "at": "2026-08-26T18:30:56.000+09:00"
     }
   ],
-  "generated_at": "2026-08-26T16:02:55+09:00"
+  "generated_at": "2026-08-26T18:57:20+09:00"
 }
