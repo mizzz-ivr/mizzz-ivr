@@ -1,20 +1,72 @@
 name: Update profile activity
 
 on:
+  pull_request:
+    paths:
+      - README.md
+      - scripts/update-profile-activity.py
+      - .github/workflows/update-readme.yml
   schedule:
     - cron: "17 */3 * * *"
       timezone: "Asia/Tokyo"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
-  group: profile-activity-update
+  group: profile-activity-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
+  validate-profile-activity:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Validate activity script
+        run: python -m py_compile scripts/update-profile-activity.py
+
+      - name: Generate activity preview
+        env:
+          GITHUB_LOGIN: mizzz-ivr
+          PROFILE_TIMEZONE: Asia/Tokyo
+        run: python scripts/update-profile-activity.py
+
+      - name: Validate generated files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git diff --check -- README.md
+          python - <<'PY'
+          import json
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          logs = sorted(Path("data/activity").glob("*/*/*.json"))
+          if not logs:
+              raise SystemExit("No activity snapshots were generated")
+
+          for path in logs:
+              json.loads(path.read_text(encoding="utf-8"))
+
+          ET.parse("assets/activity-7d.svg")
+          print(f"Validated {len(logs)} JSON snapshots and activity-7d.svg")
+          PY
+
   update-profile-activity:
+    if: github.event_name != 'pull_request'
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 8
 
