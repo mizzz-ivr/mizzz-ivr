@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-25",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 196,
+    "prs_opened": 12,
+    "issues_created": 3,
+    "issues_completed": 0
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "docs: add hosting decision references",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/ec2ee57bfbf4db55ef18a1f734009f6120585973",
+      "at": "2026-08-25T22:11:02.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "ci: include Home TSX in format gate",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/80e9b49c719a496d8816362a4d9174bc10cf7b66",
+      "at": "2026-08-25T22:10:10.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "test: separate Vitest unit tests from Playwright",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/a81fb35d9300b23f83829ce53e18c0a9a30e794f",
+      "at": "2026-08-25T22:07:25.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "fix: make hero scribble lint-safe",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/59ff413dbf97e0e10f51751e9ea1e417e5715c2c",
+      "at": "2026-08-25T22:06:25.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "fix: satisfy PostCSS lint rule",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/5f4ec433b44f500f82ac10e447823d26667c7409",
+      "at": "2026-08-25T22:05:48.000+09:00"
+    }
+  ],
+  "generated_at": "2026-08-26T16:02:55+09:00"
+}

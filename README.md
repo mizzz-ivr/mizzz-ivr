@@ -26,7 +26,34 @@
 ## TODAY // Activity overview
 
 <p align="center">
-  <sub>Public GitHub activity is refreshed automatically in JST.</sub>
+  <sub>2026-08-26 JST · public GitHub activity</sub>
+</p>
+
+<table>
+  <tr>
+    <td width="25%" align="center"><strong>87</strong><br/><sub>COMMITS</sub></td>
+    <td width="25%" align="center"><strong>13</strong><br/><sub>PRS OPENED</sub></td>
+    <td width="25%" align="center"><strong>3</strong><br/><sub>ISSUES CREATED</sub></td>
+    <td width="25%" align="center"><strong>1</strong><br/><sub>ISSUES DONE</sub></td>
+  </tr>
+</table>
+
+<strong>Today&apos;s signal</strong>
+
+<ul>
+  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr/commit/1af10d237fb758298c806067404fc955dc58692d">Merge pull request #18 from mizzz-ivr/feat/profile-daily-activity  feat: add automated daily Git</a></li>
+  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr/commit/af996428d0dbc3977c92f85269a28ccb89c7d776">ci: validate activity generator on pull requests</a></li>
+  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr/commit/09481ff90bcabb08ca77716212582d6d30e95ace">feat: add daily activity section to profile</a></li>
+  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr/commit/7c2f9936e38b831c0fb495b06e7dbef2612b9ab7">ci: automate profile activity refresh</a></li>
+  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr/commit/99d974ca85dd5da3573641d0c17c1ebfddd23f0f">feat: add profile activity collector</a></li>
+</ul>
+
+<p align="center">
+  <img src="./assets/activity-7d.svg" width="100%" alt="7 day public GitHub activity trend" />
+</p>
+
+<p align="center">
+  <sub>Auto-updated by GitHub Actions · Issue done = authored issue closed as completed</sub>
 </p>
 <!-- DAILY-ACTIVITY:END -->
 
