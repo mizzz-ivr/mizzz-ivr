@@ -7,25 +7,24 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-26T09:55:39Z"
+    "last_activity_at": "2026-08-26T10:00:35Z"
   },
   "code_weather": {
     "label": "STORM",
     "icon": "🌩️"
   },
   "streak": 2,
-  "activity_total": 288,
+  "activity_total": 289,
   "current_focus": {
-    "repo": "ivRooom/Herta",
-    "score": 117,
-    "events": 107,
-    "share": 33,
+    "repo": "mizzz-ivr/ivmz-home",
+    "score": 118,
+    "events": 101,
+    "share": 34,
     "stack": [
       "TypeScript",
-      "Shell",
-      "Dockerfile",
-      "CSS"
+      "CSS",
+      "JavaScript"
     ]
   },
-  "generated_at": "2026-08-26T18:57:25+09:00"
+  "generated_at": "2026-08-26T19:00:52+09:00"
 }

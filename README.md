@@ -26,8 +26,8 @@
 
 <table>
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 18:55 JST</sub></td>
-    <td width="34%" align="center"><strong>🌩️ STORM</strong><br/><sub>288 public actions today</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 19:00 JST</sub></td>
+    <td width="34%" align="center"><strong>🌩️ STORM</strong><br/><sub>289 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 2 DAY STREAK</strong><br/><sub>public activity · recent history</sub></td>
   </tr>
 </table>
@@ -44,7 +44,7 @@
   <tr>
     <td width="25%" align="center"><strong>264</strong><br/><sub>COMMITS</sub></td>
     <td width="25%" align="center"><strong>16</strong><br/><sub>PRS OPENED</sub></td>
-    <td width="25%" align="center"><strong>5</strong><br/><sub>ISSUES CREATED</sub></td>
+    <td width="25%" align="center"><strong>6</strong><br/><sub>ISSUES CREATED</sub></td>
     <td width="25%" align="center"><strong>3</strong><br/><sub>ISSUES DONE</sub></td>
   </tr>
 </table>
@@ -73,8 +73,8 @@
 
 <table>
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>33% of weighted repository activity · score 117 · 107 events</sub></td>
-    <td width="38%" valign="top"><strong>TODAY&apos;S STACK</strong><br/><code>TypeScript</code> <code>Shell</code> <code>Dockerfile</code> <code>CSS</code></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>34% of weighted repository activity · score 118 · 101 events</sub></td>
+    <td width="38%" valign="top"><strong>TODAY&apos;S STACK</strong><br/><code>TypeScript</code> <code>CSS</code> <code>JavaScript</code></td>
   </tr>
 </table>
 
