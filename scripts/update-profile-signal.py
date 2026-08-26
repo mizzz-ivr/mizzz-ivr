@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Generate Profile Signal Phase 1 widgets from public GitHub activity.
+"""Generate modular Profile Signal widgets from public GitHub activity.
 
-This script intentionally stays separate from update-profile-activity.py during
-Phase 1. The existing TODAY collector remains stable while this layer adds
-analytics and modular README widgets. A later phase can merge the collectors
-behind a normalized data model once the widgets have been dogfooded.
+TODAY remains the stable Search API collector. This layer consumes its daily
+snapshots plus GitHub's public Events API, derives analytics, and renders the
+profile widgets. Keeping collection and presentation separate lets the profile
+be dogfooded before the collectors are unified behind a normalized data model.
 """
 
 from __future__ import annotations
@@ -16,18 +16,20 @@ import time as time_module
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
 
 from profile_signal import (
+    activity_stream,
     activity_total,
     calculate_streak,
     code_weather,
     current_focus,
     dev_status,
     latest_activity_at,
+    ranked_repositories,
 )
 
 LOGIN = os.getenv("GITHUB_LOGIN", "mizzz-ivr")
@@ -38,6 +40,7 @@ ROOT = Path(__file__).resolve().parents[1]
 README_PATH = ROOT / "README.md"
 LOG_ROOT = ROOT / "data" / "activity"
 STATE_PATH = ROOT / "data" / "profile-signal-state.json"
+PULSE_PATH = ROOT / "assets" / "dev-pulse.svg"
 
 API_BASE = "https://api.github.com"
 API_VERSION = "2022-11-28"
@@ -51,6 +54,12 @@ LIVE_START = "<!-- PROFILE-SIGNAL:LIVE-SIGNAL:START -->"
 LIVE_END = "<!-- PROFILE-SIGNAL:LIVE-SIGNAL:END -->"
 FOCUS_START = "<!-- PROFILE-SIGNAL:FOCUS:START -->"
 FOCUS_END = "<!-- PROFILE-SIGNAL:FOCUS:END -->"
+PULSE_START = "<!-- PROFILE-SIGNAL:PULSE:START -->"
+PULSE_END = "<!-- PROFILE-SIGNAL:PULSE:END -->"
+BUILDING_START = "<!-- PROFILE-SIGNAL:NOW-BUILDING:START -->"
+BUILDING_END = "<!-- PROFILE-SIGNAL:NOW-BUILDING:END -->"
+STREAM_START = "<!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->"
+STREAM_END = "<!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->"
 
 
 def request_json(url: str) -> Any:
@@ -193,6 +202,25 @@ def format_last_activity(value: str | None) -> str:
     return parsed.strftime("%m/%d %H:%M JST")
 
 
+def pulse_series(today: date) -> list[dict[str, Any]]:
+    result: list[dict[str, Any]] = []
+    for offset in range(6, -1, -1):
+        day = today - timedelta(days=offset)
+        snapshot = load_snapshot(day)
+        metrics = dict((snapshot or {}).get("metrics") or {})
+        result.append(
+            {
+                "date": day.isoformat(),
+                "total": activity_total(snapshot),
+                "commits": int(metrics.get("commits", 0) or 0),
+                "prs": int(metrics.get("prs_opened", 0) or 0),
+                "issues": int(metrics.get("issues_created", 0) or 0)
+                + int(metrics.get("issues_completed", 0) or 0),
+            }
+        )
+    return result
+
+
 def build_state(
     snapshot: dict[str, Any],
     public_events: list[dict[str, Any]],
@@ -200,9 +228,9 @@ def build_state(
 ) -> dict[str, Any]:
     today = now.date()
     today_events = [event for event in public_events if event_local_date(event) == today]
-    focus_events = today_events or fallback_events(snapshot)
-    focus = current_focus(focus_events)
+    widget_events = today_events or fallback_events(snapshot)
 
+    focus = current_focus(widget_events)
     if focus is not None:
         try:
             focus["stack"] = fetch_languages(str(focus["repo"]))
@@ -216,7 +244,7 @@ def build_state(
     streak = calculate_streak(local_active_dates(public_events), today)
 
     return {
-        "schema_version": 1,
+        "schema_version": 2,
         "date": today.isoformat(),
         "timezone": TZ_NAME,
         "scope": "public",
@@ -230,6 +258,9 @@ def build_state(
         "streak": streak,
         "activity_total": activity_total(snapshot),
         "current_focus": focus,
+        "dev_pulse": pulse_series(today),
+        "now_building": ranked_repositories(widget_events, limit=3),
+        "activity_stream": activity_stream(widget_events, limit=4),
     }
 
 
@@ -252,6 +283,28 @@ def write_state(state: dict[str, Any], now: datetime) -> dict[str, Any]:
     STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
     STATE_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return payload
+
+
+def render_today(snapshot: dict[str, Any]) -> str:
+    metrics = snapshot.get("metrics") or {}
+    return f'''{DAILY_START}
+## TODAY // Activity overview
+
+<p align="center">
+  <sub>{html.escape(str(snapshot.get("date", "")))} JST · public GitHub activity</sub>
+</p>
+
+<table>
+  <tr>
+    <td width="25%" align="center"><strong>{int(metrics.get("commits", 0) or 0)}</strong><br/><sub>COMMITS</sub></td>
+    <td width="25%" align="center"><strong>{int(metrics.get("prs_opened", 0) or 0)}</strong><br/><sub>PRS OPENED</sub></td>
+    <td width="25%" align="center"><strong>{int(metrics.get("issues_created", 0) or 0)}</strong><br/><sub>ISSUES CREATED</sub></td>
+    <td width="25%" align="center"><strong>{int(metrics.get("issues_completed", 0) or 0)}</strong><br/><sub>ISSUES DONE</sub></td>
+  </tr>
+</table>
+
+<p align="center"><sub>Auto-updated by GitHub Actions · recent events are shown in ACTIVITY STREAM</sub></p>
+{DAILY_END}'''
 
 
 def render_live_signal(state: dict[str, Any]) -> str:
@@ -305,6 +358,170 @@ def render_focus(state: dict[str, Any]) -> str:
 {FOCUS_END}'''
 
 
+def render_pulse_svg(state: dict[str, Any]) -> str:
+    series = list(state.get("dev_pulse") or [])
+    width = 880
+    height = 210
+    chart_top = 58
+    chart_bottom = 148
+    left = 54
+    step = 112
+    maximum = max(1, max((int(item.get("total", 0) or 0) for item in series), default=0))
+
+    points: list[str] = []
+    labels: list[str] = []
+    circles: list[str] = []
+    for index, item in enumerate(series):
+        total = int(item.get("total", 0) or 0)
+        x = left + index * step + 31
+        ratio = total / maximum
+        y = chart_bottom - round((chart_bottom - chart_top) * ratio)
+        points.append(f"{x},{y}")
+        day = str(item.get("date", ""))[5:]
+        labels.append(f'<text class="label" x="{x}" y="177" text-anchor="middle">{day}</text>')
+        labels.append(f'<text class="value" x="{x}" y="{max(38, y - 10)}" text-anchor="middle">{total}</text>')
+        circles.append(f'<circle class="point" cx="{x}" cy="{y}" r="5" />')
+
+    polyline = " ".join(points)
+    area_points = f"{left + 31},{chart_bottom} {polyline} {left + (len(series) - 1) * step + 31},{chart_bottom}" if series else ""
+    latest = series[-1] if series else {}
+    latest_summary = (
+        f"C {int(latest.get('commits', 0) or 0)} · "
+        f"PR {int(latest.get('prs', 0) or 0)} · "
+        f"ISSUE {int(latest.get('issues', 0) or 0)}"
+    )
+
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">
+  <title id="title">Developer activity pulse for the last seven days</title>
+  <desc id="desc">Seven day public GitHub activity totals, with today's commit, pull request and issue counts.</desc>
+  <style>
+    .title {{ fill: #24292f; font: 600 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .08em; }}
+    .meta {{ fill: #57606a; font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }}
+    .label {{ fill: #57606a; font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }}
+    .value {{ fill: #57606a; font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }}
+    .grid {{ stroke: #d0d7de; stroke-width: 1; }}
+    .area {{ fill: #8b5cf6; fill-opacity: .10; }}
+    .line {{ fill: none; stroke: #8b5cf6; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }}
+    .point {{ fill: #8b5cf6; }}
+    @media (prefers-color-scheme: dark) {{
+      .title {{ fill: #f0f6fc; }}
+      .meta, .label, .value {{ fill: #8c959f; }}
+      .grid {{ stroke: #30363d; }}
+      .area {{ fill: #a78bfa; fill-opacity: .12; }}
+      .line {{ stroke: #a78bfa; }}
+      .point {{ fill: #a78bfa; }}
+    }}
+  </style>
+  <text class="title" x="24" y="25">DEV PULSE · LAST 7 DAYS</text>
+  <text class="meta" x="856" y="25" text-anchor="end">{html.escape(latest_summary)}</text>
+  <line class="grid" x1="24" y1="{chart_bottom + 0.5}" x2="856" y2="{chart_bottom + 0.5}" />
+  <polygon class="area" points="{area_points}" />
+  <polyline class="line" points="{polyline}" />
+  {''.join(circles)}
+  {''.join(labels)}
+  <text class="meta" x="24" y="201">activity = commits + PRs opened + issues created + issues done</text>
+</svg>
+'''
+
+
+def write_pulse_svg(state: dict[str, Any]) -> None:
+    PULSE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    rendered = render_pulse_svg(state)
+    if PULSE_PATH.exists() and PULSE_PATH.read_text(encoding="utf-8") == rendered:
+        return
+    PULSE_PATH.write_text(rendered, encoding="utf-8")
+
+
+def render_pulse() -> str:
+    return f'''{PULSE_START}
+## DEV PULSE // Last 7 days
+
+<p align="center">
+  <img src="./assets/dev-pulse.svg" width="100%" alt="7 day public GitHub development pulse" />
+</p>
+{PULSE_END}'''
+
+
+def render_now_building(state: dict[str, Any]) -> str:
+    repos = list(state.get("now_building") or [])
+    if not repos:
+        content = '<p align="center"><sub>No active public repositories detected yet today.</sub></p>'
+    else:
+        cards: list[str] = []
+        for index, item in enumerate(repos, start=1):
+            repo_raw = str(item.get("repo", "unknown"))
+            repo = html.escape(repo_raw)
+            url = html.escape(f"https://github.com/{repo_raw}", quote=True)
+            share = int(item.get("share", 0) or 0)
+            score = int(item.get("score", 0) or 0)
+            events = int(item.get("events", 0) or 0)
+            active = html.escape(format_last_activity(item.get("last_activity_at")))
+            cards.append(
+                f'<td width="33%" valign="top"><strong>{index:02d} · <a href="{url}">{repo}</a></strong><br/>'
+                f'<sub>{share}% weighted activity · score {score} · {events} events<br/>last activity · {active}</sub></td>'
+            )
+        while len(cards) < 3:
+            cards.append('<td width="33%" valign="top"><sub>waiting for activity</sub></td>')
+        content = f'''<table>
+  <tr>
+    {''.join(cards)}
+  </tr>
+</table>'''
+
+    return f'''{BUILDING_START}
+## NOW BUILDING // Active repositories
+
+{content}
+
+<p align="center"><sub>Ranked by weighted public GitHub activity · project health joins this widget in a later phase.</sub></p>
+{BUILDING_END}'''
+
+
+def format_stream_time(value: str, today: date) -> str:
+    if not value:
+        return "--:--"
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00")).astimezone(TZ)
+    except ValueError:
+        return "--:--"
+    if parsed.date() == today:
+        return parsed.strftime("%H:%M")
+    return parsed.strftime("%m/%d")
+
+
+def render_activity_stream(state: dict[str, Any]) -> str:
+    items = list(state.get("activity_stream") or [])
+    today = date.fromisoformat(str(state.get("date")))
+    if not items:
+        rows = '<tr><td colspan="3" align="center"><sub>No public development events recorded yet today.</sub></td></tr>'
+    else:
+        rendered_rows: list[str] = []
+        for item in items:
+            label = html.escape(str(item.get("label", "ACTIVITY")))
+            repo_raw = str(item.get("repo", "unknown"))
+            repo = html.escape(repo_raw)
+            repo_url = html.escape(f"https://github.com/{repo_raw}", quote=True)
+            title = html.escape(str(item.get("title", "Public activity")))
+            url = html.escape(str(item.get("url", repo_url)), quote=True)
+            at = html.escape(format_stream_time(str(item.get("at", "")), today))
+            rendered_rows.append(
+                f'<tr><td width="10%"><code>{at}</code></td>'
+                f'<td width="14%"><code>{label}</code></td>'
+                f'<td><strong><a href="{repo_url}">{repo}</a></strong> — <a href="{url}">{title}</a></td></tr>'
+            )
+        rows = "\n    ".join(rendered_rows)
+
+    return f'''{STREAM_START}
+## ACTIVITY STREAM // Latest public signals
+
+<table>
+  <tbody>
+    {rows}
+  </tbody>
+</table>
+{STREAM_END}'''
+
+
 def replace_marker_block(text: str, start_marker: str, end_marker: str, block: str) -> str:
     if start_marker not in text or end_marker not in text:
         return text
@@ -313,10 +530,20 @@ def replace_marker_block(text: str, start_marker: str, end_marker: str, block: s
     return text[:start] + block + text[end:]
 
 
-def update_readme(state: dict[str, Any]) -> None:
+def insert_after_marker(text: str, end_marker: str, block: str) -> str:
+    if end_marker not in text:
+        raise RuntimeError(f"Could not find insertion marker: {end_marker}")
+    return text.replace(end_marker, f"{end_marker}\n\n{block}", 1)
+
+
+def update_readme(snapshot: dict[str, Any], state: dict[str, Any]) -> None:
     text = README_PATH.read_text(encoding="utf-8")
+    today = render_today(snapshot)
     live = render_live_signal(state)
     focus = render_focus(state)
+    pulse = render_pulse()
+    building = render_now_building(state)
+    stream = render_activity_stream(state)
 
     if LIVE_START in text and LIVE_END in text:
         text = replace_marker_block(text, LIVE_START, LIVE_END, live)
@@ -325,12 +552,30 @@ def update_readme(state: dict[str, Any]) -> None:
     else:
         raise RuntimeError("Could not find DAILY-ACTIVITY marker for LIVE SIGNAL insertion")
 
+    if DAILY_START in text and DAILY_END in text:
+        text = replace_marker_block(text, DAILY_START, DAILY_END, today)
+    else:
+        raise RuntimeError("Could not find DAILY-ACTIVITY marker for TODAY rendering")
+
     if FOCUS_START in text and FOCUS_END in text:
         text = replace_marker_block(text, FOCUS_START, FOCUS_END, focus)
-    elif DAILY_END in text:
-        text = text.replace(DAILY_END, f"{DAILY_END}\n\n{focus}", 1)
     else:
-        raise RuntimeError("Could not find DAILY-ACTIVITY marker for CURRENT FOCUS insertion")
+        text = insert_after_marker(text, DAILY_END, focus)
+
+    if PULSE_START in text and PULSE_END in text:
+        text = replace_marker_block(text, PULSE_START, PULSE_END, pulse)
+    else:
+        text = insert_after_marker(text, FOCUS_END, pulse)
+
+    if BUILDING_START in text and BUILDING_END in text:
+        text = replace_marker_block(text, BUILDING_START, BUILDING_END, building)
+    else:
+        text = insert_after_marker(text, PULSE_END, building)
+
+    if STREAM_START in text and STREAM_END in text:
+        text = replace_marker_block(text, STREAM_START, STREAM_END, stream)
+    else:
+        text = insert_after_marker(text, BUILDING_END, stream)
 
     README_PATH.write_text(text, encoding="utf-8")
 
@@ -348,13 +593,16 @@ def main() -> None:
         public_events = []
 
     state = write_state(build_state(snapshot, public_events, now), now)
-    update_readme(state)
+    write_pulse_svg(state)
+    update_readme(snapshot, state)
     print(
         "Profile Signal refreshed:",
         state["status"]["label"],
         state["code_weather"]["label"],
         state["streak"],
         (state.get("current_focus") or {}).get("repo"),
+        f"building={len(state.get('now_building') or [])}",
+        f"stream={len(state.get('activity_stream') or [])}",
     )
 
 
