@@ -1,0 +1,12 @@
+version: 1
+profile:
+  username: octocat
+  timezone: Asia/Tokyo
+privacy:
+  public_only: true
+preset: terminal
+readme:
+  path: README.md
+  auto_insert_markers: true
+  insert_before: "## About me"
+  empty_disabled: true

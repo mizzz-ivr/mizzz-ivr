@@ -4,6 +4,8 @@ on:
   pull_request:
     paths:
       - README.md
+      - .github/profile-signal.yml
+      - profile-signal-action/**
       - scripts/update-profile-activity.py
       - scripts/profile_signal.py
       - scripts/update-profile-signal.py
@@ -11,6 +13,7 @@ on:
       - scripts/profile_signal_history.py
       - tests/test_profile_signal.py
       - tests/test_profile_signal_history.py
+      - tests/test_profile_signal_action.py
       - .github/workflows/update-readme.yml
   schedule:
     - cron: "17 */3 * * *"
@@ -28,7 +31,7 @@ jobs:
   validate-profile-activity:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 10
 
     steps:
       - name: Checkout
@@ -39,25 +42,22 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Validate Python
+      - name: Validate Python and action config
         run: |
+          python -m pip install --disable-pip-version-check --quiet PyYAML==6.0.2
           python -m py_compile \
             scripts/update-profile-activity.py \
             scripts/profile_signal.py \
             scripts/update-profile-signal.py \
             scripts/profile_signal_operations.py \
-            scripts/profile_signal_history.py
+            scripts/profile_signal_history.py \
+            profile-signal-action/src/orchestrator.py
           python -m unittest discover -s tests -v
 
-      - name: Generate activity preview
-        env:
-          GITHUB_LOGIN: mizzz-ivr
-          PROFILE_TIMEZONE: Asia/Tokyo
-        run: |
-          python scripts/update-profile-activity.py
-          python scripts/update-profile-signal.py
-          python scripts/profile_signal_operations.py
-          python scripts/profile_signal_history.py
+      - name: Generate Profile Signal preview through local action
+        uses: ./profile-signal-action
+        with:
+          config: .github/profile-signal.yml
 
       - name: Validate generated files
         shell: bash
@@ -151,7 +151,7 @@ jobs:
           ET.parse("assets/dev-pulse.svg")
           print(
               f"Validated {len(logs)} daily snapshots, {len(weekly)} weekly reports, "
-              f"{len(monthly)} monthly reports, Profile Signal v4 state and seven profile sections"
+              f"{len(monthly)} monthly reports, Profile Signal v4 state, local action dogfood and seven profile sections"
           )
           PY
 
@@ -160,7 +160,7 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 10
 
     steps:
       - name: Checkout
@@ -174,25 +174,22 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Validate Python
+      - name: Validate Python and action config
         run: |
+          python -m pip install --disable-pip-version-check --quiet PyYAML==6.0.2
           python -m py_compile \
             scripts/update-profile-activity.py \
             scripts/profile_signal.py \
             scripts/update-profile-signal.py \
             scripts/profile_signal_operations.py \
-            scripts/profile_signal_history.py
+            scripts/profile_signal_history.py \
+            profile-signal-action/src/orchestrator.py
           python -m unittest discover -s tests -v
 
-      - name: Update activity snapshot, widgets and README
-        env:
-          GITHUB_LOGIN: mizzz-ivr
-          PROFILE_TIMEZONE: Asia/Tokyo
-        run: |
-          python scripts/update-profile-activity.py
-          python scripts/update-profile-signal.py
-          python scripts/profile_signal_operations.py
-          python scripts/profile_signal_history.py
+      - name: Update profile through local Profile Signal action
+        uses: ./profile-signal-action
+        with:
+          config: .github/profile-signal.yml
 
       - name: Commit generated profile activity
         shell: bash
