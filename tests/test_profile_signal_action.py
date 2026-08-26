@@ -6,7 +6,7 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-ORCHESTRATOR = ROOT / "profile-signal-action" / "src" / "orchestrator.py"
+ORCHESTRATOR = ROOT / ".profile-signal" / "src" / "orchestrator.py"
 spec = importlib.util.spec_from_file_location("profile_signal_action", ORCHESTRATOR)
 if spec is None or spec.loader is None:
     raise RuntimeError("Could not load Profile Signal orchestrator")
@@ -87,6 +87,22 @@ class ProfileSignalActionTests(unittest.TestCase):
         self.assertNotIn("old", updated)
         self.assertIn("PROFILE-SIGNAL:LIVE-SIGNAL:START", updated)
         self.assertIn("PROFILE-SIGNAL:LIVE-SIGNAL:END", updated)
+
+    def test_packaged_runtime_matches_working_scripts(self) -> None:
+        for name in (
+            "update-profile-activity.py",
+            "profile_signal.py",
+            "update-profile-signal.py",
+            "profile_signal_operations.py",
+            "profile_signal_history.py",
+        ):
+            packaged = (ROOT / ".profile-signal" / "scripts" / name).read_text(encoding="utf-8")
+            working = (ROOT / "scripts" / name).read_text(encoding="utf-8")
+            self.assertEqual(packaged, working, f"packaged runtime drifted: {name}")
+
+    def test_packaged_runtime_is_self_contained(self) -> None:
+        source_root = module.locate_source_root(ROOT / ".profile-signal")
+        self.assertEqual(source_root, ROOT / ".profile-signal")
 
 
 if __name__ == "__main__":
