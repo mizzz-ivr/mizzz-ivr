@@ -7,7 +7,6 @@
 <p align="center">
   <strong>Product-minded Full Stack Developer</strong><br/>
   React / TypeScript を軸に、Web・Discord・Realtime AI・API・DB・運用までつなげて実装しています。<br/>
-  <sub>SNSでは「いゔる。」、開発者名義では「mizzz（ずーみー）」を使用しています。</sub>
 </p>
 
 <p align="center">
