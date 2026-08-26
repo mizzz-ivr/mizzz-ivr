@@ -8,7 +8,9 @@ on:
       - scripts/profile_signal.py
       - scripts/update-profile-signal.py
       - scripts/profile_signal_operations.py
+      - scripts/profile_signal_history.py
       - tests/test_profile_signal.py
+      - tests/test_profile_signal_history.py
       - .github/workflows/update-readme.yml
   schedule:
     - cron: "17 */3 * * *"
@@ -43,7 +45,8 @@ jobs:
             scripts/update-profile-activity.py \
             scripts/profile_signal.py \
             scripts/update-profile-signal.py \
-            scripts/profile_signal_operations.py
+            scripts/profile_signal_operations.py \
+            scripts/profile_signal_history.py
           python -m unittest discover -s tests -v
 
       - name: Generate activity preview
@@ -54,6 +57,7 @@ jobs:
           python scripts/update-profile-activity.py
           python scripts/update-profile-signal.py
           python scripts/profile_signal_operations.py
+          python scripts/profile_signal_history.py
 
       - name: Validate generated files
         shell: bash
@@ -72,6 +76,15 @@ jobs:
           for path in logs:
               json.loads(path.read_text(encoding="utf-8"))
 
+          weekly = sorted(Path("data/weekly").glob("*.json"))
+          monthly = sorted(Path("data/monthly").glob("*.json"))
+          if not weekly or not monthly:
+              raise SystemExit("Weekly / monthly history reports were not generated")
+          for path in [*weekly, *monthly]:
+              report = json.loads(path.read_text(encoding="utf-8"))
+              if "metrics" not in report or "coverage" not in report:
+                  raise SystemExit(f"History report missing metrics / coverage: {path}")
+
           state = json.loads(Path("data/profile-signal-state.json").read_text(encoding="utf-8"))
           for key in (
               "status",
@@ -82,12 +95,13 @@ jobs:
               "now_building",
               "activity_stream",
               "ci_signal",
+              "dev_recap",
           ):
               if key not in state:
                   raise SystemExit(f"Missing Profile Signal state key: {key}")
 
-          if state.get("schema_version") != 3:
-              raise SystemExit("Profile Signal state must use schema version 3")
+          if state.get("schema_version") != 4:
+              raise SystemExit("Profile Signal state must use schema version 4")
           if len(state["dev_pulse"]) != 7:
               raise SystemExit("DEV PULSE must contain exactly seven days")
           if len(state["now_building"]) > 3:
@@ -104,6 +118,11 @@ jobs:
               if key not in ci:
                   raise SystemExit(f"CI SIGNAL is missing key: {key}")
 
+          recap = state["dev_recap"]
+          for key in ("tracked_from", "tracked_days", "active_days", "longest_streak", "weekly", "monthly", "achievements"):
+              if key not in recap:
+                  raise SystemExit(f"DEV RECAP is missing key: {key}")
+
           readme = Path("README.md").read_text(encoding="utf-8")
           for marker in (
               "PROFILE-SIGNAL:LIVE-SIGNAL:START",
@@ -112,6 +131,7 @@ jobs:
               "PROFILE-SIGNAL:PULSE:START",
               "PROFILE-SIGNAL:NOW-BUILDING:START",
               "PROFILE-SIGNAL:ACTIVITY-STREAM:START",
+              "PROFILE-SIGNAL:RECAP:START",
           ):
               if marker not in readme:
                   raise SystemExit(f"Missing README marker: {marker}")
@@ -122,12 +142,16 @@ jobs:
               raise SystemExit("DEV PULSE is missing CI SIGNAL")
           if "health combines repository recency" not in readme:
               raise SystemExit("NOW BUILDING is missing project health explanation")
+          if "MONTHLY BUILD REPORT + ACHIEVEMENTS" not in readme:
+              raise SystemExit("DEV RECAP is missing collapsed monthly / achievements content")
+          if "not lifetime GitHub totals" not in readme:
+              raise SystemExit("DEV RECAP must disclose tracked-history scope")
 
           ET.parse("assets/activity-7d.svg")
           ET.parse("assets/dev-pulse.svg")
           print(
-              f"Validated {len(logs)} JSON snapshots, Profile Signal v3 state, "
-              "project health, CI signal, six profile sections and both SVG assets"
+              f"Validated {len(logs)} daily snapshots, {len(weekly)} weekly reports, "
+              f"{len(monthly)} monthly reports, Profile Signal v4 state and seven profile sections"
           )
           PY
 
@@ -156,7 +180,8 @@ jobs:
             scripts/update-profile-activity.py \
             scripts/profile_signal.py \
             scripts/update-profile-signal.py \
-            scripts/profile_signal_operations.py
+            scripts/profile_signal_operations.py \
+            scripts/profile_signal_history.py
           python -m unittest discover -s tests -v
 
       - name: Update activity snapshot, widgets and README
@@ -167,13 +192,14 @@ jobs:
           python scripts/update-profile-activity.py
           python scripts/update-profile-signal.py
           python scripts/profile_signal_operations.py
+          python scripts/profile_signal_history.py
 
       - name: Commit generated profile activity
         shell: bash
         run: |
           set -euo pipefail
 
-          if [ -z "$(git status --porcelain -- README.md assets/activity-7d.svg assets/dev-pulse.svg data/activity data/profile-signal-state.json)" ]; then
+          if [ -z "$(git status --porcelain -- README.md assets/activity-7d.svg assets/dev-pulse.svg data/activity data/weekly data/monthly data/profile-signal-state.json)" ]; then
             echo "No profile activity changes"
             exit 0
           fi
@@ -186,6 +212,8 @@ jobs:
             assets/activity-7d.svg \
             assets/dev-pulse.svg \
             data/activity \
+            data/weekly \
+            data/monthly \
             data/profile-signal-state.json
           git commit -m "chore(profile): refresh Profile Signal [skip ci]"
 
