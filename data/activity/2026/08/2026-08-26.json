@@ -5,7 +5,7 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 394,
+    "commits": 405,
     "prs_opened": 26,
     "issues_created": 8,
     "issues_completed": 4
@@ -13,39 +13,39 @@
   "activity": [
     {
       "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "Merge pull request #8 from mizzz-ivr/docs/github-profile-live-dashboard-finalize",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/4c7f3f1d04f6a232a47c04b37c90566736243447",
-      "at": "2026-08-26T22:49:21.000+09:00"
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "docs(profile): clarify generated action assets",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/aa3a2d02346ab4dbdd98304571c14ab0ce587626",
+      "at": "2026-08-26T23:26:19.000+09:00"
     },
     {
       "type": "commit",
       "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "Merge pull request #22 from mizzz-ivr/feat/profile-signal-phase4-history",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/708bf383a09ad11ffebb4f8edf74dab25a35b4a2",
-      "at": "2026-08-26T22:47:59.000+09:00"
+      "title": "ci(profile): dogfood Profile Signal local action",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/72f2c9c972dc12fe07db499579b8ef140f89e870",
+      "at": "2026-08-26T23:23:54.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "docs: record published GitHub profile activity article",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/4de52a331bbb7c2a883cedd1270cfe077cec56b8",
-      "at": "2026-08-26T22:25:00.000+09:00"
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "docs(profile): add terminal preset example",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/d3f25ecb4fa3990be0aa67d9ed7110d02c72afdb",
+      "at": "2026-08-26T23:23:12.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "docs: reduce live dashboard screenshots to final three",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/4f834503cd5b5c18a1a61790a68bd415518f885a",
-      "at": "2026-08-26T22:24:27.000+09:00"
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "docs(profile): add full preset example",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/98cef9822b20a68d81f33ac31a75cbda1e24219a",
+      "at": "2026-08-26T23:23:01.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "docs: sync live dashboard publication facts",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/6f6c31b1f63d0a82cde1c5939817295468b3c847",
-      "at": "2026-08-26T22:24:08.000+09:00"
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "docs(profile): add standard preset example",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/b17ac5cb1fcedcf5883d1d31bc10817d613c7108",
+      "at": "2026-08-26T23:22:51.000+09:00"
     }
   ],
-  "generated_at": "2026-08-27T01:35:09+09:00"
+  "generated_at": "2026-08-27T07:03:07+09:00"
 }

@@ -5,11 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
+    "commits": 1,
     "prs_opened": 0,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-08-27T01:35:09+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "Merge pull request #23 from mizzz-ivr/feat/profile-signal-phase5-action",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/0f7a425f3791eaa64c49235c09b048ddafd10bdd",
+      "at": "2026-08-27T06:53:38.000+09:00"
+    }
+  ],
+  "generated_at": "2026-08-27T07:03:07+09:00"
 }

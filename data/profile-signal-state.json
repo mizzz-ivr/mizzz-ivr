@@ -5,27 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-08-26T15:00:30Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-08-26T21:57:04Z"
   },
   "code_weather": {
-    "label": "REST DAY",
-    "icon": "🌙"
+    "label": "LIGHT CODING",
+    "icon": "☁️"
   },
   "streak": 3,
-  "activity_total": 0,
+  "activity_total": 1,
   "current_focus": {
-    "repo": "ivRooom/Herta",
-    "score": 1,
-    "events": 1,
-    "last_activity_at": "2026-08-26T15:00:30Z",
-    "share": 100,
+    "repo": "mizzz-ivr/ivmz-home",
+    "score": 3,
+    "events": 3,
+    "last_activity_at": "2026-08-26T21:57:04Z",
+    "share": 60,
     "stack": [
       "TypeScript",
-      "Shell",
-      "Dockerfile",
-      "CSS"
+      "CSS",
+      "JavaScript"
     ]
   },
   "dev_pulse": [
@@ -66,26 +65,50 @@
     },
     {
       "date": "2026-08-26",
-      "total": 432,
-      "commits": 394,
+      "total": 443,
+      "commits": 405,
       "prs": 26,
       "issues": 12
     },
     {
       "date": "2026-08-27",
-      "total": 0,
-      "commits": 0,
+      "total": 1,
+      "commits": 1,
       "prs": 0,
       "issues": 0
     }
   ],
   "now_building": [
     {
+      "repo": "mizzz-ivr/ivmz-home",
+      "score": 3,
+      "events": 3,
+      "last_activity_at": "2026-08-26T21:57:04Z",
+      "share": 60,
+      "ci": {
+        "label": "ATTENTION",
+        "symbol": "!",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 10,
+        "passed": 2,
+        "failed": 8,
+        "ignored": 0,
+        "pass_rate": 20,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "ATTENTION",
+        "symbol": "!",
+        "reason": "recent CI needs attention"
+      }
+    },
+    {
       "repo": "ivRooom/Herta",
       "score": 1,
       "events": 1,
       "last_activity_at": "2026-08-26T15:00:30Z",
-      "share": 100,
+      "share": 20,
       "ci": {
         "label": "ATTENTION",
         "symbol": "!",
@@ -103,34 +126,79 @@
         "symbol": "!",
         "reason": "recent CI needs attention"
       }
+    },
+    {
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "score": 1,
+      "events": 1,
+      "last_activity_at": "2026-08-26T21:53:39Z",
+      "share": 20,
+      "ci": {
+        "label": "STABLE",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 10,
+        "passed": 9,
+        "failed": 1,
+        "ignored": 0,
+        "pass_rate": 90,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
     }
   ],
   "activity_stream": [
     {
       "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to fix/ai-foundation-post-merge-hardening",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-26T15:00:30Z"
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to feat/multi-page-route-foundation",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-08-26T21:57:04Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to feat/multi-page-route-foundation",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-08-26T21:56:18Z"
+    },
+    {
+      "label": "PR",
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "PR merged #23",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr",
+      "at": "2026-08-26T21:53:39Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to feat/multi-page-route-foundation",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-08-26T21:49:59Z"
     }
   ],
-  "generated_at": "2026-08-27T01:35:18+09:00",
+  "generated_at": "2026-08-27T07:03:07+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
     "window_days": 7,
-    "evaluated": 8,
-    "passed": 4,
-    "failed": 4,
+    "evaluated": 28,
+    "passed": 15,
+    "failed": 13,
     "ignored": 2,
-    "pass_rate": 50,
-    "repos_with_signal": 1
+    "pass_rate": 54,
+    "repos_with_signal": 3
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
     "tracked_days": 3,
-    "active_days": 2,
-    "longest_streak": 2,
+    "active_days": 3,
+    "longest_streak": 3,
     "weekly": {
       "schema_version": 1,
       "period": "2026-W35",
@@ -141,16 +209,16 @@
         "start_date": "2026-08-25",
         "end_date": "2026-08-27",
         "tracked_days": 3,
-        "active_days": 2
+        "active_days": 3
       },
       "metrics": {
-        "commits": 593,
+        "commits": 605,
         "prs_opened": 38,
         "issues_created": 11,
         "issues_completed": 4,
-        "activity_total": 646
+        "activity_total": 658
       },
-      "generated_at": "2026-08-27T01:35:18+09:00"
+      "generated_at": "2026-08-27T07:03:07+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -162,16 +230,16 @@
         "start_date": "2026-08-25",
         "end_date": "2026-08-27",
         "tracked_days": 3,
-        "active_days": 2
+        "active_days": 3
       },
       "metrics": {
-        "commits": 593,
+        "commits": 605,
         "prs_opened": 38,
         "issues_created": 11,
         "issues_completed": 4,
-        "activity_total": 646
+        "activity_total": 658
       },
-      "generated_at": "2026-08-27T01:35:18+09:00"
+      "generated_at": "2026-08-27T07:03:07+09:00"
     },
     "achievements": [
       {

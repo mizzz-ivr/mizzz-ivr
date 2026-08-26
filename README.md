@@ -26,8 +26,8 @@
 
 <table>
   <tr>
-    <td width="33%" align="center"><strong>◐ RECENTLY ACTIVE</strong><br/><sub>last public activity · 00:00 JST</sub></td>
-    <td width="34%" align="center"><strong>🌙 REST DAY</strong><br/><sub>0 public actions today</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 06:57 JST</sub></td>
+    <td width="34%" align="center"><strong>☁️ LIGHT CODING</strong><br/><sub>1 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 3 DAY STREAK</strong><br/><sub>public activity · recent history</sub></td>
   </tr>
 </table>
@@ -42,7 +42,7 @@
 
 <table>
   <tr>
-    <td width="25%" align="center"><strong>0</strong><br/><sub>COMMITS</sub></td>
+    <td width="25%" align="center"><strong>1</strong><br/><sub>COMMITS</sub></td>
     <td width="25%" align="center"><strong>0</strong><br/><sub>PRS OPENED</sub></td>
     <td width="25%" align="center"><strong>0</strong><br/><sub>ISSUES CREATED</sub></td>
     <td width="25%" align="center"><strong>0</strong><br/><sub>ISSUES DONE</sub></td>
@@ -57,8 +57,8 @@
 
 <table>
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>100% of weighted repository activity · score 1 · 1 events</sub></td>
-    <td width="38%" valign="top"><strong>TODAY&apos;S STACK</strong><br/><code>TypeScript</code> <code>Shell</code> <code>Dockerfile</code> <code>CSS</code></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>60% of weighted repository activity · score 3 · 3 events</sub></td>
+    <td width="38%" valign="top"><strong>TODAY&apos;S STACK</strong><br/><code>TypeScript</code> <code>CSS</code> <code>JavaScript</code></td>
   </tr>
 </table>
 
@@ -75,9 +75,9 @@
 <table>
   <tr>
     <td width="25%" align="center"><strong>! ATTENTION</strong><br/><sub>CI SIGNAL · last 7 days</sub></td>
-    <td width="25%" align="center"><strong>50%</strong><br/><sub>PASS RATE</sub></td>
-    <td width="25%" align="center"><strong>4 / 8</strong><br/><sub>PASSED / EVALUATED</sub></td>
-    <td width="25%" align="center"><strong>1</strong><br/><sub>REPOS WITH CI</sub></td>
+    <td width="25%" align="center"><strong>54%</strong><br/><sub>PASS RATE</sub></td>
+    <td width="25%" align="center"><strong>15 / 28</strong><br/><sub>PASSED / EVALUATED</sub></td>
+    <td width="25%" align="center"><strong>3</strong><br/><sub>REPOS WITH CI</sub></td>
   </tr>
 </table>
 
@@ -89,7 +89,7 @@
 
 <table>
   <tr>
-    <td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>100% weighted activity · score 1 · 1 events<br/>! ATTENTION · CI · 4/8 passed · 50%<br/>last activity · 00:00 JST</sub></td><td width="33%" valign="top"><sub>waiting for activity</sub></td><td width="33%" valign="top"><sub>waiting for activity</sub></td>
+    <td width="33%" valign="top"><strong>01 · <a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>60% weighted activity · score 3 · 3 events<br/>! ATTENTION · CI · 2/10 passed · 20%<br/>last activity · 06:57 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>20% weighted activity · score 1 · 1 events<br/>! ATTENTION · CI · 4/8 passed · 50%<br/>last activity · 00:00 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong><br/><sub>20% weighted activity · score 1 · 1 events<br/>● HEALTHY · CI · 9/10 passed · 90%<br/>last activity · 06:53 JST</sub></td>
   </tr>
 </table>
 
@@ -101,7 +101,10 @@
 
 <table>
   <tbody>
-    <tr><td width="10%"><code>00:00</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">1 commit pushed to fix/ai-foundation-post-merge-hardening</a></td></tr>
+    <tr><td width="10%"><code>06:57</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/commits">1 commit pushed to feat/multi-page-route-foundation</a></td></tr>
+    <tr><td width="10%"><code>06:56</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/commits">1 commit pushed to feat/multi-page-route-foundation</a></td></tr>
+    <tr><td width="10%"><code>06:53</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr">PR merged #23</a></td></tr>
+    <tr><td width="10%"><code>06:49</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/commits">1 commit pushed to feat/multi-page-route-foundation</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->
@@ -206,14 +209,14 @@
 
 <table>
   <tr>
-    <td width="25%" align="center"><strong>2</strong><br/><sub>ACTIVE DAYS · THIS WEEK</sub></td>
-    <td width="25%" align="center"><strong>593</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>3</strong><br/><sub>ACTIVE DAYS · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>605</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
     <td width="25%" align="center"><strong>38</strong><br/><sub>PRS OPENED · THIS WEEK</sub></td>
     <td width="25%" align="center"><strong>4</strong><br/><sub>ISSUES DONE · THIS WEEK</sub></td>
   </tr>
 </table>
 
-<p align="center"><sub>2026-W35 · tracked since 2026-08-25 · CI · 50% · 4/8 passed</sub></p>
+<p align="center"><sub>2026-W35 · tracked since 2026-08-25 · CI · 54% · 15/28 passed</sub></p>
 
 <details>
 <summary><strong>MONTHLY BUILD REPORT + ACHIEVEMENTS</strong></summary>
@@ -222,11 +225,11 @@
 
 <table>
   <tr>
-    <td width="20%" align="center"><strong>2</strong><br/><sub>ACTIVE DAYS</sub></td>
-    <td width="20%" align="center"><strong>593</strong><br/><sub>COMMITS</sub></td>
+    <td width="20%" align="center"><strong>3</strong><br/><sub>ACTIVE DAYS</sub></td>
+    <td width="20%" align="center"><strong>605</strong><br/><sub>COMMITS</sub></td>
     <td width="20%" align="center"><strong>38</strong><br/><sub>PRS OPENED</sub></td>
     <td width="20%" align="center"><strong>4</strong><br/><sub>ISSUES DONE</sub></td>
-    <td width="20%" align="center"><strong>646</strong><br/><sub>ACTIVITY</sub></td>
+    <td width="20%" align="center"><strong>658</strong><br/><sub>ACTIVITY</sub></td>
   </tr>
 </table>
 
