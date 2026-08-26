@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <a href="https://mizzz.ivrm.jp"><img src="https://img.shields.io/badge/PORTFOLIO-mizzz.ivrm.jp-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://ivmz.ivrm.jp"><img src="https://img.shields.io/badge/WEBSITE-mizzz.ivrm.jp-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="WEBSITE" /></a>
   <a href="https://ivrm.jp"><img src="https://img.shields.io/badge/COMMUNITY-ivRooom-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="ivRooom" /></a>
-  <a href="mailto:mizzz@ivrm.jp"><img src="https://img.shields.io/badge/CONTACT-mizzz%40ivrm.jp-6D5AE6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="mailto:ivmz@ivrm.jp"><img src="https://img.shields.io/badge/CONTACT-mizzz%40ivrm.jp-6D5AE6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 <p align="center">
@@ -189,10 +189,10 @@
 ## SIGNAL // Links
 
 <p align="center">
-  <a href="https://mizzz.ivrm.jp">Portfolio</a> ・
+  <a href="https://ivmz.ivrm.jp">WEBSITE</a> ・
   <a href="https://ivrm.jp">ivRooom</a> ・
   <a href="https://github.com/mizzz-ivr">GitHub</a> ・
-  <a href="mailto:mizzz@ivrm.jp">Contact</a>
+  <a href="mailto:ivmz@ivrm.jp">Contact</a>
 </p>
 
 <p align="center">
