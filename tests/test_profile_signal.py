@@ -6,12 +6,15 @@ from datetime import UTC, date, datetime
 from scripts.profile_signal import (
     activity_stream,
     activity_total,
+    aggregate_ci_signals,
     calculate_streak,
+    ci_summary,
     code_weather,
     current_focus,
     dev_status,
     ranked_repositories,
     relative_age,
+    repository_health,
     score_event,
     summarize_event,
 )
@@ -152,6 +155,57 @@ class ProfileSignalTests(unittest.TestCase):
         self.assertEqual(stream[0]["label"], "PUSH")
         self.assertEqual(stream[0]["repo"], "b/two")
         self.assertEqual(stream[1]["title"], "Opened issue #7")
+
+    def test_ci_summary_marks_latest_failure_attention(self) -> None:
+        now = datetime(2026, 8, 26, 12, 0, tzinfo=UTC)
+        runs = [
+            {"status": "completed", "conclusion": "failure", "run_started_at": "2026-08-26T11:00:00Z"},
+            {"status": "completed", "conclusion": "success", "run_started_at": "2026-08-26T10:00:00Z"},
+            {"status": "completed", "conclusion": "success", "run_started_at": "2026-08-25T10:00:00Z"},
+            {"status": "completed", "conclusion": "success", "run_started_at": "2026-08-24T10:00:00Z"},
+        ]
+        summary = ci_summary(runs, now)
+        self.assertEqual(summary["label"], "ATTENTION")
+        self.assertEqual(summary["passed"], 3)
+        self.assertEqual(summary["failed"], 1)
+        self.assertEqual(summary["pass_rate"], 75)
+
+    def test_ci_summary_excludes_cancelled_from_pass_rate(self) -> None:
+        now = datetime(2026, 8, 26, 12, 0, tzinfo=UTC)
+        runs = [
+            {"status": "completed", "conclusion": "success", "run_started_at": "2026-08-26T10:00:00Z"},
+            {"status": "completed", "conclusion": "cancelled", "run_started_at": "2026-08-26T09:00:00Z"},
+        ]
+        summary = ci_summary(runs, now)
+        self.assertEqual(summary["label"], "PASSING")
+        self.assertEqual(summary["evaluated"], 1)
+        self.assertEqual(summary["ignored"], 1)
+        self.assertEqual(summary["pass_rate"], 100)
+
+    def test_repository_health_combines_recency_and_ci(self) -> None:
+        now = datetime(2026, 8, 26, 12, 0, tzinfo=UTC)
+        passing = {"label": "PASSING"}
+        attention = {"label": "ATTENTION"}
+        active_meta = {"pushed_at": "2026-08-26T11:00:00Z", "archived": False, "disabled": False}
+        quiet_meta = {"pushed_at": "2026-06-01T11:00:00Z", "archived": False, "disabled": False}
+
+        self.assertEqual(repository_health(active_meta, passing, now)["label"], "HEALTHY")
+        self.assertEqual(repository_health(active_meta, attention, now)["label"], "ATTENTION")
+        self.assertEqual(repository_health(quiet_meta, passing, now)["label"], "QUIET")
+
+    def test_aggregate_ci_signals(self) -> None:
+        combined = aggregate_ci_signals(
+            [
+                {"label": "PASSING", "window_days": 7, "passed": 5, "failed": 0, "ignored": 1, "evaluated": 5},
+                {"label": "MIXED", "window_days": 7, "passed": 4, "failed": 1, "ignored": 0, "evaluated": 5},
+                {"label": "NO SIGNAL", "window_days": 7, "passed": 0, "failed": 0, "ignored": 0, "evaluated": 0},
+            ]
+        )
+        self.assertEqual(combined["label"], "MIXED")
+        self.assertEqual(combined["passed"], 9)
+        self.assertEqual(combined["failed"], 1)
+        self.assertEqual(combined["pass_rate"], 90)
+        self.assertEqual(combined["repos_with_signal"], 2)
 
 
 if __name__ == "__main__":
