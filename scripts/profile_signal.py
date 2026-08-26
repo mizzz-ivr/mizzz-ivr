@@ -22,6 +22,14 @@ WEATHER_LEVELS = (
     (50, "HEAVY CODING", "⚡"),
 )
 
+STREAM_EVENT_TYPES = {
+    "PushEvent",
+    "PullRequestEvent",
+    "IssuesEvent",
+    "ReleaseEvent",
+    "CreateEvent",
+}
+
 
 def parse_timestamp(value: str | None) -> datetime | None:
     if not value:
@@ -127,9 +135,24 @@ def repository_activity(events: Iterable[Mapping[str, Any]]) -> list[dict[str, A
         repo = (event.get("repo") or {}).get("name")
         if not repo:
             continue
-        entry = scores.setdefault(repo, {"repo": repo, "score": 0, "events": 0})
+
+        entry = scores.setdefault(
+            str(repo),
+            {
+                "repo": str(repo),
+                "score": 0,
+                "events": 0,
+                "last_activity_at": None,
+            },
+        )
         entry["score"] += score_event(event)
         entry["events"] += 1
+
+        created_at = event.get("created_at")
+        if created_at:
+            current = entry.get("last_activity_at")
+            if current is None or str(created_at) > str(current):
+                entry["last_activity_at"] = str(created_at)
 
     return sorted(
         scores.values(),
@@ -137,14 +160,23 @@ def repository_activity(events: Iterable[Mapping[str, Any]]) -> list[dict[str, A
     )
 
 
-def current_focus(events: Iterable[Mapping[str, Any]]) -> dict[str, Any] | None:
+def ranked_repositories(
+    events: Iterable[Mapping[str, Any]],
+    limit: int = 3,
+) -> list[dict[str, Any]]:
     ranked = repository_activity(events)
-    if not ranked:
-        return None
     total_score = sum(int(item["score"]) for item in ranked)
-    winner = dict(ranked[0])
-    winner["share"] = round((int(winner["score"]) / max(1, total_score)) * 100)
-    return winner
+    result: list[dict[str, Any]] = []
+    for item in ranked[: max(0, limit)]:
+        entry = dict(item)
+        entry["share"] = round((int(entry["score"]) / max(1, total_score)) * 100)
+        result.append(entry)
+    return result
+
+
+def current_focus(events: Iterable[Mapping[str, Any]]) -> dict[str, Any] | None:
+    ranked = ranked_repositories(events, limit=1)
+    return ranked[0] if ranked else None
 
 
 def latest_activity_at(
@@ -167,3 +199,110 @@ def latest_activity_at(
     if not parsed:
         return None
     return max(parsed, key=lambda pair: pair[0])[1]
+
+
+def _event_number(payload: Mapping[str, Any], key: str) -> str:
+    item = payload.get(key) or {}
+    number = item.get("number") or payload.get("number")
+    return f"#{number}" if number is not None else ""
+
+
+def summarize_event(event: Mapping[str, Any]) -> dict[str, str] | None:
+    event_type = str(event.get("type", ""))
+    if event_type not in STREAM_EVENT_TYPES:
+        return None
+
+    repo = str((event.get("repo") or {}).get("name") or "")
+    if not repo:
+        return None
+
+    payload = event.get("payload") or {}
+    created_at = str(event.get("created_at") or "")
+    repo_url = f"https://github.com/{repo}"
+
+    if event_type == "PushEvent":
+        size = max(1, int(payload.get("size", 0) or 0))
+        ref = str(payload.get("ref") or "").removeprefix("refs/heads/")
+        suffix = f" to {ref}" if ref else ""
+        return {
+            "label": "PUSH",
+            "repo": repo,
+            "title": f"{size} commit{'s' if size != 1 else ''} pushed{suffix}",
+            "url": f"{repo_url}/commits",
+            "at": created_at,
+        }
+
+    if event_type == "PullRequestEvent":
+        action = str(payload.get("action") or "updated")
+        pr = payload.get("pull_request") or {}
+        number = _event_number(payload, "pull_request")
+        if action == "closed" and pr.get("merged") is True:
+            verb = "Merged PR"
+        elif action == "opened":
+            verb = "Opened PR"
+        elif action == "reopened":
+            verb = "Reopened PR"
+        elif action == "closed":
+            verb = "Closed PR"
+        else:
+            verb = f"PR {action}"
+        return {
+            "label": "PR",
+            "repo": repo,
+            "title": f"{verb} {number}".strip(),
+            "url": str(pr.get("html_url") or repo_url),
+            "at": created_at,
+        }
+
+    if event_type == "IssuesEvent":
+        action = str(payload.get("action") or "updated")
+        issue = payload.get("issue") or {}
+        number = _event_number(payload, "issue")
+        verb = {
+            "opened": "Opened issue",
+            "closed": "Closed issue",
+            "reopened": "Reopened issue",
+        }.get(action, f"Issue {action}")
+        return {
+            "label": "ISSUE",
+            "repo": repo,
+            "title": f"{verb} {number}".strip(),
+            "url": str(issue.get("html_url") or repo_url),
+            "at": created_at,
+        }
+
+    if event_type == "ReleaseEvent":
+        release = payload.get("release") or {}
+        name = release.get("name") or release.get("tag_name") or "release"
+        return {
+            "label": "RELEASE",
+            "repo": repo,
+            "title": f"Published {name}",
+            "url": str(release.get("html_url") or f"{repo_url}/releases"),
+            "at": created_at,
+        }
+
+    ref_type = str(payload.get("ref_type") or "ref")
+    ref = str(payload.get("ref") or "")
+    title = f"Created {ref_type} {ref}".strip()
+    return {
+        "label": "CREATE",
+        "repo": repo,
+        "title": title,
+        "url": repo_url,
+        "at": created_at,
+    }
+
+
+def activity_stream(
+    events: Iterable[Mapping[str, Any]],
+    limit: int = 4,
+) -> list[dict[str, str]]:
+    items: list[dict[str, str]] = []
+    for event in events:
+        summary = summarize_event(event)
+        if summary is not None:
+            items.append(summary)
+
+    items.sort(key=lambda item: item.get("at", ""), reverse=True)
+    return items[: max(0, limit)]
