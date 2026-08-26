@@ -26,9 +26,9 @@
 
 <table>
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 22:49 JST</sub></td>
-    <td width="34%" align="center"><strong>🌩️ STORM</strong><br/><sub>429 public actions today</sub></td>
-    <td width="33%" align="center"><strong>🔥 2 DAY STREAK</strong><br/><sub>public activity · recent history</sub></td>
+    <td width="33%" align="center"><strong>◐ RECENTLY ACTIVE</strong><br/><sub>last public activity · 00:00 JST</sub></td>
+    <td width="34%" align="center"><strong>🌙 REST DAY</strong><br/><sub>0 public actions today</sub></td>
+    <td width="33%" align="center"><strong>🔥 3 DAY STREAK</strong><br/><sub>public activity · recent history</sub></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:LIVE-SIGNAL:END -->
@@ -37,15 +37,15 @@
 ## TODAY // Activity overview
 
 <p align="center">
-  <sub>2026-08-26 JST · public GitHub activity</sub>
+  <sub>2026-08-27 JST · public GitHub activity</sub>
 </p>
 
 <table>
   <tr>
-    <td width="25%" align="center"><strong>394</strong><br/><sub>COMMITS</sub></td>
-    <td width="25%" align="center"><strong>23</strong><br/><sub>PRS OPENED</sub></td>
-    <td width="25%" align="center"><strong>8</strong><br/><sub>ISSUES CREATED</sub></td>
-    <td width="25%" align="center"><strong>4</strong><br/><sub>ISSUES DONE</sub></td>
+    <td width="25%" align="center"><strong>0</strong><br/><sub>COMMITS</sub></td>
+    <td width="25%" align="center"><strong>0</strong><br/><sub>PRS OPENED</sub></td>
+    <td width="25%" align="center"><strong>0</strong><br/><sub>ISSUES CREATED</sub></td>
+    <td width="25%" align="center"><strong>0</strong><br/><sub>ISSUES DONE</sub></td>
   </tr>
 </table>
 
@@ -57,8 +57,8 @@
 
 <table>
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>34% of weighted repository activity · score 117 · 104 events</sub></td>
-    <td width="38%" valign="top"><strong>TODAY&apos;S STACK</strong><br/><code>TypeScript</code> <code>CSS</code> <code>JavaScript</code></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>100% of weighted repository activity · score 1 · 1 events</sub></td>
+    <td width="38%" valign="top"><strong>TODAY&apos;S STACK</strong><br/><code>TypeScript</code> <code>Shell</code> <code>Dockerfile</code> <code>CSS</code></td>
   </tr>
 </table>
 
@@ -75,9 +75,9 @@
 <table>
   <tr>
     <td width="25%" align="center"><strong>! ATTENTION</strong><br/><sub>CI SIGNAL · last 7 days</sub></td>
-    <td width="25%" align="center"><strong>81%</strong><br/><sub>PASS RATE</sub></td>
-    <td width="25%" align="center"><strong>22 / 27</strong><br/><sub>PASSED / EVALUATED</sub></td>
-    <td width="25%" align="center"><strong>3</strong><br/><sub>REPOS WITH CI</sub></td>
+    <td width="25%" align="center"><strong>50%</strong><br/><sub>PASS RATE</sub></td>
+    <td width="25%" align="center"><strong>4 / 8</strong><br/><sub>PASSED / EVALUATED</sub></td>
+    <td width="25%" align="center"><strong>1</strong><br/><sub>REPOS WITH CI</sub></td>
   </tr>
 </table>
 
@@ -89,7 +89,7 @@
 
 <table>
   <tr>
-    <td width="33%" valign="top"><strong>01 · <a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>34% weighted activity · score 117 · 104 events<br/>! ATTENTION · CI · 5/10 passed · 50%<br/>last activity · 22:23 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>33% weighted activity · score 114 · 108 events<br/>● HEALTHY · CI · 7/7 passed · 100%<br/>last activity · 22:23 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong><br/><sub>13% weighted activity · score 46 · 31 events<br/>● HEALTHY · CI · 10/10 passed · 100%<br/>last activity · 22:48 JST</sub></td>
+    <td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>100% weighted activity · score 1 · 1 events<br/>! ATTENTION · CI · 4/8 passed · 50%<br/>last activity · 00:00 JST</sub></td><td width="33%" valign="top"><sub>waiting for activity</sub></td><td width="33%" valign="top"><sub>waiting for activity</sub></td>
   </tr>
 </table>
 
@@ -101,10 +101,7 @@
 
 <table>
   <tbody>
-    <tr><td width="10%"><code>22:49</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/tech-writing">mizzz-ivr/tech-writing</a></strong> — <a href="https://github.com/mizzz-ivr/tech-writing/commits">1 commit pushed to main</a></td></tr>
-    <tr><td width="10%"><code>22:49</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/tech-writing">mizzz-ivr/tech-writing</a></strong> — <a href="https://github.com/mizzz-ivr/tech-writing">PR merged #8</a></td></tr>
-    <tr><td width="10%"><code>22:48</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr/commits">1 commit pushed to main</a></td></tr>
-    <tr><td width="10%"><code>22:47</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr">PR merged #22</a></td></tr>
+    <tr><td width="10%"><code>00:00</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">1 commit pushed to fix/ai-foundation-post-merge-hardening</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->
@@ -211,12 +208,12 @@
   <tr>
     <td width="25%" align="center"><strong>2</strong><br/><sub>ACTIVE DAYS · THIS WEEK</sub></td>
     <td width="25%" align="center"><strong>593</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
-    <td width="25%" align="center"><strong>35</strong><br/><sub>PRS OPENED · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>38</strong><br/><sub>PRS OPENED · THIS WEEK</sub></td>
     <td width="25%" align="center"><strong>4</strong><br/><sub>ISSUES DONE · THIS WEEK</sub></td>
   </tr>
 </table>
 
-<p align="center"><sub>2026-W35 · tracked since 2026-08-25 · CI · 81% · 22/27 passed</sub></p>
+<p align="center"><sub>2026-W35 · tracked since 2026-08-25 · CI · 50% · 4/8 passed</sub></p>
 
 <details>
 <summary><strong>MONTHLY BUILD REPORT + ACHIEVEMENTS</strong></summary>
@@ -227,9 +224,9 @@
   <tr>
     <td width="20%" align="center"><strong>2</strong><br/><sub>ACTIVE DAYS</sub></td>
     <td width="20%" align="center"><strong>593</strong><br/><sub>COMMITS</sub></td>
-    <td width="20%" align="center"><strong>35</strong><br/><sub>PRS OPENED</sub></td>
+    <td width="20%" align="center"><strong>38</strong><br/><sub>PRS OPENED</sub></td>
     <td width="20%" align="center"><strong>4</strong><br/><sub>ISSUES DONE</sub></td>
-    <td width="20%" align="center"><strong>643</strong><br/><sub>ACTIVITY</sub></td>
+    <td width="20%" align="center"><strong>646</strong><br/><sub>ACTIVITY</sub></td>
   </tr>
 </table>
 
