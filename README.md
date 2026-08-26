@@ -26,8 +26,8 @@
 
 <table>
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 19:00 JST</sub></td>
-    <td width="34%" align="center"><strong>🌩️ STORM</strong><br/><sub>289 public actions today</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 21:45 JST</sub></td>
+    <td width="34%" align="center"><strong>🌩️ STORM</strong><br/><sub>374 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 2 DAY STREAK</strong><br/><sub>public activity · recent history</sub></td>
   </tr>
 </table>
@@ -42,30 +42,14 @@
 
 <table>
   <tr>
-    <td width="25%" align="center"><strong>264</strong><br/><sub>COMMITS</sub></td>
-    <td width="25%" align="center"><strong>16</strong><br/><sub>PRS OPENED</sub></td>
+    <td width="25%" align="center"><strong>345</strong><br/><sub>COMMITS</sub></td>
+    <td width="25%" align="center"><strong>19</strong><br/><sub>PRS OPENED</sub></td>
     <td width="25%" align="center"><strong>6</strong><br/><sub>ISSUES CREATED</sub></td>
-    <td width="25%" align="center"><strong>3</strong><br/><sub>ISSUES DONE</sub></td>
+    <td width="25%" align="center"><strong>4</strong><br/><sub>ISSUES DONE</sub></td>
   </tr>
 </table>
 
-<strong>Today&apos;s signal</strong>
-
-<ul>
-  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr/commit/5c1340cb5c6969b557e0266cf5a50463cb0dc442">Merge pull request #19 from mizzz-ivr/feat/profile-signal-core</a></li>
-  <li><code>COMMIT</code> <strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commit/8e4233d356df3a200af77972dce142bfe4e3db59">Merge pull request #333 from ivRooom/fix/aop-internal-health-checks</a></li>
-  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/commit/0a5341330292feec5b87a50efd1da62c3dd45ee3">Merge pull request #6 from mizzz-ivr/feat/visual-ux-home-foundation</a></li>
-  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr/commit/a7306e50cf9fd77de0a6592f58c4bb7e85c9d5ea">ci: validate and publish Profile Signal widgets</a></li>
-  <li><code>COMMIT</code> <strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr/commit/3c8ec61a58145654e1792eca4514383d5e0dff44">test: cover Profile Signal analytics</a></li>
-</ul>
-
-<p align="center">
-  <img src="./assets/activity-7d.svg" width="100%" alt="7 day public GitHub activity trend" />
-</p>
-
-<p align="center">
-  <sub>Auto-updated by GitHub Actions · Issue done = authored issue closed as completed</sub>
-</p>
+<p align="center"><sub>Auto-updated by GitHub Actions · recent events are shown in ACTIVITY STREAM</sub></p>
 <!-- DAILY-ACTIVITY:END -->
 
 <!-- PROFILE-SIGNAL:FOCUS:START -->
@@ -73,13 +57,46 @@
 
 <table>
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>34% of weighted repository activity · score 118 · 101 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>38% of weighted repository activity · score 128 · 112 events</sub></td>
     <td width="38%" valign="top"><strong>TODAY&apos;S STACK</strong><br/><code>TypeScript</code> <code>CSS</code> <code>JavaScript</code></td>
   </tr>
 </table>
 
 <p align="center"><sub>Focus uses weighted public GitHub events; repository language data comes from the current focus repository.</sub></p>
 <!-- PROFILE-SIGNAL:FOCUS:END -->
+
+<!-- PROFILE-SIGNAL:PULSE:START -->
+## DEV PULSE // Last 7 days
+
+<p align="center">
+  <img src="./assets/dev-pulse.svg" width="100%" alt="7 day public GitHub development pulse" />
+</p>
+<!-- PROFILE-SIGNAL:PULSE:END -->
+
+<!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
+## NOW BUILDING // Active repositories
+
+<table>
+  <tr>
+    <td width="33%" valign="top"><strong>01 · <a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>38% weighted activity · score 128 · 112 events<br/>last activity · 21:42 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>35% weighted activity · score 119 · 112 events<br/>last activity · 21:45 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/mizzz-ivr/roomate-voice">mizzz-ivr/roomate-voice</a></strong><br/><sub>12% weighted activity · score 41 · 35 events<br/>last activity · 11:19 JST</sub></td>
+  </tr>
+</table>
+
+<p align="center"><sub>Ranked by weighted public GitHub activity · project health joins this widget in a later phase.</sub></p>
+<!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
+
+<!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->
+## ACTIVITY STREAM // Latest public signals
+
+<table>
+  <tbody>
+    <tr><td width="10%"><code>21:44</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/mizzz-ivr">mizzz-ivr/mizzz-ivr</a></strong> — <a href="https://github.com/mizzz-ivr/mizzz-ivr">PR merged #20</a></td></tr>
+    <tr><td width="10%"><code>21:42</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/commits">1 commit pushed to feat/multi-page-route-foundation</a></td></tr>
+    <tr><td width="10%"><code>21:40</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/commits">1 commit pushed to feat/multi-page-route-foundation</a></td></tr>
+    <tr><td width="10%"><code>21:38</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/commits">1 commit pushed to feat/multi-page-route-foundation</a></td></tr>
+  </tbody>
+</table>
+<!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->
 
 ---
 

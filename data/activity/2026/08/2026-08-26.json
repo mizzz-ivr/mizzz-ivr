@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 264,
-    "prs_opened": 16,
+    "commits": 345,
+    "prs_opened": 19,
     "issues_created": 6,
-    "issues_completed": 3
+    "issues_completed": 4
   },
   "activity": [
     {
       "type": "commit",
       "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "Merge pull request #19 from mizzz-ivr/feat/profile-signal-core",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/5c1340cb5c6969b557e0266cf5a50463cb0dc442",
-      "at": "2026-08-26T18:55:38.000+09:00"
+      "title": "Merge pull request #20 from mizzz-ivr/feat/profile-signal-phase2-widgets",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/d87b5d2e2ab8eed24e4b67a9fb9f43033a5688d9",
+      "at": "2026-08-26T21:44:09.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "Merge pull request #333 from ivRooom/fix/aop-internal-health-checks",
-      "url": "https://github.com/ivRooom/Herta/commit/8e4233d356df3a200af77972dce142bfe4e3db59",
-      "at": "2026-08-26T18:49:04.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Merge pull request #6 from mizzz-ivr/feat/visual-ux-home-foundation",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/0a5341330292feec5b87a50efd1da62c3dd45ee3",
-      "at": "2026-08-26T18:42:02.000+09:00"
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "Merge pull request #6 from mizzz-ivr/docs/github-profile-daily-activity",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/b31fe9ba0d88caae0df769085426e6b36f005ebd",
+      "at": "2026-08-26T21:35:20.000+09:00"
     },
     {
       "type": "commit",
       "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "ci: validate and publish Profile Signal widgets",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/a7306e50cf9fd77de0a6592f58c4bb7e85c9d5ea",
-      "at": "2026-08-26T18:31:16.000+09:00"
+      "title": "ci: validate Profile Signal phase 2 widgets",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/2dbfa1f3f486b44363ea75f01b4d4da1f0654ac0",
+      "at": "2026-08-26T21:19:21.000+09:00"
     },
     {
       "type": "commit",
       "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "test: cover Profile Signal analytics",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/3c8ec61a58145654e1792eca4514383d5e0dff44",
-      "at": "2026-08-26T18:30:56.000+09:00"
+      "title": "test: cover phase 2 Profile Signal analytics",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/fa57c1fe672e0f0ec3a8564d2c70a8e36804127c",
+      "at": "2026-08-26T21:18:42.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "feat: render phase 2 profile widgets",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/89b45ee9feb90ec3ecc71ba14b1de43758193178",
+      "at": "2026-08-26T21:18:13.000+09:00"
     }
   ],
-  "generated_at": "2026-08-26T19:00:48+09:00"
+  "generated_at": "2026-08-26T21:46:46+09:00"
 }

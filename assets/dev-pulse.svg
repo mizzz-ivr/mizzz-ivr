@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="210" viewBox="0 0 880 210" role="img" aria-labelledby="title desc">
+  <title id="title">Developer activity pulse for the last seven days</title>
+  <desc id="desc">Seven day public GitHub activity totals, with today's commit, pull request and issue counts.</desc>
+  <style>
+    .title { fill: #24292f; font: 600 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .08em; }
+    .meta { fill: #57606a; font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .label { fill: #57606a; font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .value { fill: #57606a; font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .grid { stroke: #d0d7de; stroke-width: 1; }
+    .area { fill: #8b5cf6; fill-opacity: .10; }
+    .line { fill: none; stroke: #8b5cf6; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    .point { fill: #8b5cf6; }
+    @media (prefers-color-scheme: dark) {
+      .title { fill: #f0f6fc; }
+      .meta, .label, .value { fill: #8c959f; }
+      .grid { stroke: #30363d; }
+      .area { fill: #a78bfa; fill-opacity: .12; }
+      .line { stroke: #a78bfa; }
+      .point { fill: #a78bfa; }
+    }
+  </style>
+  <text class="title" x="24" y="25">DEV PULSE · LAST 7 DAYS</text>
+  <text class="meta" x="856" y="25" text-anchor="end">C 345 · PR 19 · ISSUE 10</text>
+  <line class="grid" x1="24" y1="148.5" x2="856" y2="148.5" />
+  <polygon class="area" points="85,148 85,148 197,148 309,148 421,148 533,148 645,97 757,58 757,148" />
+  <polyline class="line" points="85,148 197,148 309,148 421,148 533,148 645,97 757,58" />
+  <circle class="point" cx="85" cy="148" r="5" /><circle class="point" cx="197" cy="148" r="5" /><circle class="point" cx="309" cy="148" r="5" /><circle class="point" cx="421" cy="148" r="5" /><circle class="point" cx="533" cy="148" r="5" /><circle class="point" cx="645" cy="97" r="5" /><circle class="point" cx="757" cy="58" r="5" />
+  <text class="label" x="85" y="177" text-anchor="middle">08-20</text><text class="value" x="85" y="138" text-anchor="middle">0</text><text class="label" x="197" y="177" text-anchor="middle">08-21</text><text class="value" x="197" y="138" text-anchor="middle">0</text><text class="label" x="309" y="177" text-anchor="middle">08-22</text><text class="value" x="309" y="138" text-anchor="middle">0</text><text class="label" x="421" y="177" text-anchor="middle">08-23</text><text class="value" x="421" y="138" text-anchor="middle">0</text><text class="label" x="533" y="177" text-anchor="middle">08-24</text><text class="value" x="533" y="138" text-anchor="middle">0</text><text class="label" x="645" y="177" text-anchor="middle">08-25</text><text class="value" x="645" y="87" text-anchor="middle">214</text><text class="label" x="757" y="177" text-anchor="middle">08-26</text><text class="value" x="757" y="48" text-anchor="middle">374</text>
+  <text class="meta" x="24" y="201">activity = commits + PRs opened + issues created + issues done</text>
+</svg>

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "date": "2026-08-26",
   "timezone": "Asia/Tokyo",
   "scope": "public",
@@ -7,24 +7,129 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-26T10:00:35Z"
+    "last_activity_at": "2026-08-26T12:45:18Z"
   },
   "code_weather": {
     "label": "STORM",
     "icon": "🌩️"
   },
   "streak": 2,
-  "activity_total": 289,
+  "activity_total": 374,
   "current_focus": {
     "repo": "mizzz-ivr/ivmz-home",
-    "score": 118,
-    "events": 101,
-    "share": 34,
+    "score": 128,
+    "events": 112,
+    "last_activity_at": "2026-08-26T12:42:17Z",
+    "share": 38,
     "stack": [
       "TypeScript",
       "CSS",
       "JavaScript"
     ]
   },
-  "generated_at": "2026-08-26T19:00:52+09:00"
+  "dev_pulse": [
+    {
+      "date": "2026-08-20",
+      "total": 0,
+      "commits": 0,
+      "prs": 0,
+      "issues": 0
+    },
+    {
+      "date": "2026-08-21",
+      "total": 0,
+      "commits": 0,
+      "prs": 0,
+      "issues": 0
+    },
+    {
+      "date": "2026-08-22",
+      "total": 0,
+      "commits": 0,
+      "prs": 0,
+      "issues": 0
+    },
+    {
+      "date": "2026-08-23",
+      "total": 0,
+      "commits": 0,
+      "prs": 0,
+      "issues": 0
+    },
+    {
+      "date": "2026-08-24",
+      "total": 0,
+      "commits": 0,
+      "prs": 0,
+      "issues": 0
+    },
+    {
+      "date": "2026-08-25",
+      "total": 214,
+      "commits": 199,
+      "prs": 12,
+      "issues": 3
+    },
+    {
+      "date": "2026-08-26",
+      "total": 374,
+      "commits": 345,
+      "prs": 19,
+      "issues": 10
+    }
+  ],
+  "now_building": [
+    {
+      "repo": "mizzz-ivr/ivmz-home",
+      "score": 128,
+      "events": 112,
+      "last_activity_at": "2026-08-26T12:42:17Z",
+      "share": 38
+    },
+    {
+      "repo": "ivRooom/Herta",
+      "score": 119,
+      "events": 112,
+      "last_activity_at": "2026-08-26T12:45:18Z",
+      "share": 35
+    },
+    {
+      "repo": "mizzz-ivr/roomate-voice",
+      "score": 41,
+      "events": 35,
+      "last_activity_at": "2026-08-26T02:19:27Z",
+      "share": 12
+    }
+  ],
+  "activity_stream": [
+    {
+      "label": "PR",
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "PR merged #20",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr",
+      "at": "2026-08-26T12:44:09Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to feat/multi-page-route-foundation",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-08-26T12:42:17Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to feat/multi-page-route-foundation",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-08-26T12:40:36Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to feat/multi-page-route-foundation",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-08-26T12:38:52Z"
+    }
+  ],
+  "generated_at": "2026-08-26T21:46:49+09:00"
 }
