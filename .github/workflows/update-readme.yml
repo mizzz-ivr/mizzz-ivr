@@ -7,7 +7,9 @@ on:
       - README.en.md
       - .profile-signalignore
       - scripts/profile_signal_customize.py
+      - scripts/localize_profile_activity.py
       - tests/test_profile_signal_customize.py
+      - tests/test_localize_profile_activity.py
       - .github/profile-signal.yml
       - .profile-signal/**
       - .github/workflows/update-readme.yml
@@ -46,8 +48,12 @@ jobs:
           python -m py_compile \
             .profile-signal/src/*.py \
             .profile-signal/scripts/*.py \
-            scripts/profile_signal_customize.py
-          python -m unittest tests.test_profile_signal_customize -v
+            scripts/profile_signal_customize.py \
+            scripts/localize_profile_activity.py
+          python -m unittest \
+            tests.test_profile_signal_customize \
+            tests.test_localize_profile_activity \
+            -v
 
       - name: Generate Profile Signal preview through installed runtime
         uses: ./.profile-signal
@@ -61,6 +67,9 @@ jobs:
 
       - name: Apply Japanese consumer view and repository filters
         run: python scripts/profile_signal_customize.py
+
+      - name: Localize known activity titles
+        run: python scripts/localize_profile_activity.py
 
       - name: Validate generated files
         shell: bash
@@ -149,6 +158,9 @@ jobs:
           for heading in ("## 開発ステータス", "## 今日の活動", "## 現在のフォーカス", "## 現在動いているリポジトリ", "## 最近の公開アクティビティ"):
               if heading not in readme:
                   raise SystemExit(f"Japanese profile heading missing: {heading}")
+          for english_event in ("commit pushed to", "commits pushed to", "PR merged #", "Opened issue #", "Closed issue #"):
+              if english_event in readme:
+                  raise SystemExit(f"Known English activity title remained in Japanese README: {english_event}")
 
           ET.parse("assets/dev-pulse.svg")
           print(
@@ -201,6 +213,9 @@ jobs:
 
       - name: Apply Japanese consumer view and repository filters
         run: python scripts/profile_signal_customize.py
+
+      - name: Localize known activity titles
+        run: python scripts/localize_profile_activity.py
 
       - name: Commit live signal changes
         shell: bash
@@ -262,6 +277,9 @@ jobs:
 
       - name: Apply Japanese consumer view and repository filters
         run: python scripts/profile_signal_customize.py
+
+      - name: Localize known activity titles
+        run: python scripts/localize_profile_activity.py
 
       - name: Commit generated profile activity
         shell: bash
