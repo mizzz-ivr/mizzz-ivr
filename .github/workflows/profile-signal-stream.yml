@@ -10,8 +10,8 @@ permissions:
   contents: write
 
 concurrency:
-  group: profile-signal-stream
-  cancel-in-progress: true
+  group: profile-signal-profile-write-${{ github.event.repository.default_branch }}
+  cancel-in-progress: false
 
 jobs:
   refresh-stream:
