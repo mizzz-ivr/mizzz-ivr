@@ -1,0 +1,9 @@
+version: 1
+id: standard
+description: Balanced default profile signal.
+theme: signal
+widgets:
+  - live_signal
+  - today
+  - current_focus
+  - dev_pulse
