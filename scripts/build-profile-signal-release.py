@@ -30,6 +30,10 @@ REQUIRED_PRESETS = (
     "standard.yml",
     "full.yml",
     "terminal.yml",
+    "compact.yml",
+    "developer.yml",
+    "activity.yml",
+    "oss.yml",
 )
 
 
