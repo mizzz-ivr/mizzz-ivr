@@ -1,0 +1,76 @@
+name: Reactivate profile schedule
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/reactivate-profile-schedule.yml
+
+permissions:
+  actions: write
+  contents: write
+
+jobs:
+  reactivate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Canonicalize schedule and remove one-shot workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python - <<'PY'
+          from pathlib import Path
+
+          target = Path('.github/workflows/update-readme.yml')
+          text = target.read_text(encoding='utf-8')
+          old = '3,8,13,18,23,28,33,38,43,48,53,58 * * * *'
+          new = '*/5 * * * *'
+          count = text.count(old)
+          if count != 2:
+              raise SystemExit(f'Expected two legacy cron references, found {count}')
+          target.write_text(text.replace(old, new), encoding='utf-8')
+          PY
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/reactivate-profile-schedule.yml
+          git add .github/workflows/update-readme.yml
+          git commit -m "fix(profile): re-register Profile Signal schedules [skip ci]"
+
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              break
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "Failed to push schedule re-registration" >&2
+              exit 1
+            fi
+            git fetch origin main
+            git rebase origin/main
+          done
+
+      - name: Enable Update profile activity workflow
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${GITHUB_REPOSITORY}/actions/workflows/update-readme.yml/enable"
+
+      - name: Run manual smoke test
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${GITHUB_REPOSITORY}/actions/workflows/update-readme.yml/dispatches" -f ref=main
+
+      - name: Delete cleanup branch
+        run: |
+          if git ls-remote --exit-code --heads origin fix/profile-schedule-reactivation >/dev/null 2>&1; then
+            git push origin --delete fix/profile-schedule-reactivation
+          fi
