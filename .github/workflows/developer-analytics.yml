@@ -7,11 +7,16 @@ on:
       - .github/profile-signal.yml
       - .github/workflows/developer-analytics.yml
       - scripts/developer_analytics.py
+      - scripts/render_developer_profile.py
       - tests/test_developer_analytics.py
+      - tests/test_developer_profile_renderer.py
       - docs/DEVELOPER_ANALYTICS.md
       - README.md
+      - README.en.md
       - SKILL_SHEET.md
+      - SKILL_SHEET.en.md
       - reports/developer-analytics.md
+      - reports/developer-analytics.en.md
       - data/developer-analytics/**
   workflow_dispatch:
 
@@ -45,6 +50,7 @@ jobs:
       - name: Validate config and unit tests
         run: |
           python scripts/developer_analytics.py --validate-only
+          python -m py_compile scripts/developer_analytics.py scripts/render_developer_profile.py
           python -m unittest discover -s tests -p 'test_*.py' -v
 
       - name: Render offline smoke test
@@ -60,9 +66,19 @@ jobs:
             --report "$tmp/developer-analytics.md" \
             --skill-sheet "$tmp/SKILL_SHEET.md" \
             --readme "$tmp/README.md"
-          grep -q '<!-- DEVELOPER-ANALYTICS:START -->' "$tmp/README.md"
-          grep -q '<!-- DEVELOPER-ANALYTICS:END -->' "$tmp/README.md"
-          grep -q '# Skill Sheet' "$tmp/SKILL_SHEET.md"
+          python scripts/render_developer_profile.py \
+            --data "$tmp/latest.json" \
+            --readme "$tmp/README.md" \
+            --readme-en "$tmp/README.en.md" \
+            --skill-ja "$tmp/SKILL_SHEET.md" \
+            --skill-en "$tmp/SKILL_SHEET.en.md" \
+            --report-ja "$tmp/developer-analytics.md" \
+            --report-en "$tmp/developer-analytics.en.md"
+          grep -q '## エンジニアリングプロフィール' "$tmp/README.md"
+          grep -q '# スキルシート' "$tmp/SKILL_SHEET.md"
+          grep -q '# Skill Sheet' "$tmp/SKILL_SHEET.en.md"
+          grep -q '# Developer Analytics — 詳細分析' "$tmp/developer-analytics.md"
+          grep -q '# Developer Analytics — Detailed Report' "$tmp/developer-analytics.en.md"
           python -m json.tool "$tmp/latest.json" >/dev/null
 
       - name: Validate public GitHub evidence
@@ -80,6 +96,14 @@ jobs:
             --report "$tmp/developer-analytics.md" \
             --skill-sheet "$tmp/SKILL_SHEET.md" \
             --readme "$tmp/README.md"
+          python scripts/render_developer_profile.py \
+            --data "$tmp/latest.json" \
+            --readme "$tmp/README.md" \
+            --readme-en "$tmp/README.en.md" \
+            --skill-ja "$tmp/SKILL_SHEET.md" \
+            --skill-en "$tmp/SKILL_SHEET.en.md" \
+            --report-ja "$tmp/developer-analytics.md" \
+            --report-en "$tmp/developer-analytics.en.md"
           python -m json.tool "$tmp/latest.json" >/dev/null
 
       - name: Ensure Profile Signal runtime is untouched
@@ -118,10 +142,13 @@ jobs:
           python scripts/developer_analytics.py --validate-only
           python -m unittest discover -s tests -p 'test_*.py' -v
 
-      - name: Generate Developer Analytics and Skill Sheet
+      - name: Collect Developer Analytics
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/developer_analytics.py --strict
+
+      - name: Render Japanese and English profile documents
+        run: python scripts/render_developer_profile.py
 
       - name: Upload generated Skill Sheet
         uses: actions/upload-artifact@v7
@@ -129,7 +156,9 @@ jobs:
           name: developer-skill-sheet
           path: |
             SKILL_SHEET.md
+            SKILL_SHEET.en.md
             reports/developer-analytics.md
+            reports/developer-analytics.en.md
             data/developer-analytics/latest.json
           if-no-files-found: error
           retention-days: 30
@@ -140,7 +169,7 @@ jobs:
           TARGET_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           set -euo pipefail
-          paths=(README.md SKILL_SHEET.md reports/developer-analytics.md data/developer-analytics/latest.json data/developer-analytics/snapshots)
+          paths=(README.md README.en.md SKILL_SHEET.md SKILL_SHEET.en.md reports/developer-analytics.md reports/developer-analytics.en.md data/developer-analytics/latest.json data/developer-analytics/snapshots)
           if [ -z "$(git status --porcelain -- "${paths[@]}")" ]; then
             echo 'No Developer Analytics changes'
             exit 0
