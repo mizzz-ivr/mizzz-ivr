@@ -1,0 +1,141 @@
+name: Developer Analytics
+
+on:
+  pull_request:
+    paths:
+      - .github/developer-analytics.yml
+      - .github/workflows/developer-analytics.yml
+      - scripts/developer_analytics.py
+      - tests/test_developer_analytics.py
+      - docs/DEVELOPER_ANALYTICS.md
+      - README.md
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: developer-analytics-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install dependency
+        run: python -m pip install --disable-pip-version-check --quiet PyYAML==6.0.2
+
+      - name: Validate config and unit tests
+        run: |
+          python scripts/developer_analytics.py --validate-only
+          python -m unittest discover -s tests -p 'test_*.py' -v
+
+      - name: Render offline smoke test
+        shell: bash
+        run: |
+          set -euo pipefail
+          tmp="$(mktemp -d)"
+          cp README.md "$tmp/README.md"
+          python scripts/developer_analytics.py \
+            --offline \
+            --no-snapshot \
+            --output "$tmp/latest.json" \
+            --report "$tmp/developer-analytics.md" \
+            --skill-sheet "$tmp/SKILL_SHEET.md" \
+            --readme "$tmp/README.md"
+          grep -q '<!-- DEVELOPER-ANALYTICS:START -->' "$tmp/README.md"
+          grep -q '# Skill Sheet' "$tmp/SKILL_SHEET.md"
+          python -m json.tool "$tmp/latest.json" >/dev/null
+
+      - name: Ensure Profile Signal runtime is untouched
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --name-only "${{ github.event.pull_request.base.sha }}"...HEAD -- .profile-signal | grep -q .; then
+            echo '.profile-signal/** must not be changed by Developer Analytics work.' >&2
+            exit 1
+          fi
+
+  generate:
+    if: github.event_name == 'workflow_dispatch'
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout default branch
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install dependency
+        run: python -m pip install --disable-pip-version-check --quiet PyYAML==6.0.2
+
+      - name: Test and validate
+        run: |
+          python scripts/developer_analytics.py --validate-only
+          python -m unittest discover -s tests -p 'test_*.py' -v
+
+      - name: Generate Developer Analytics and Skill Sheet
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/developer_analytics.py --strict
+
+      - name: Upload generated Skill Sheet
+        uses: actions/upload-artifact@v4
+        with:
+          name: developer-skill-sheet
+          path: |
+            SKILL_SHEET.md
+            reports/developer-analytics.md
+            data/developer-analytics/latest.json
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Commit generated analytics
+        shell: bash
+        env:
+          TARGET_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          set -euo pipefail
+          paths=(README.md SKILL_SHEET.md reports/developer-analytics.md data/developer-analytics/latest.json data/developer-analytics/snapshots)
+          if [ -z "$(git status --porcelain -- "${paths[@]}")" ]; then
+            echo 'No Developer Analytics changes'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "${paths[@]}"
+          if git diff --cached --quiet; then
+            echo 'No staged Developer Analytics changes'
+            exit 0
+          fi
+          git commit -m 'chore(profile): refresh Developer Analytics [skip ci]'
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:${TARGET_BRANCH}"; then
+              exit 0
+            fi
+            echo "Push failed (attempt ${attempt}); rebasing onto origin/${TARGET_BRANCH}"
+            git fetch origin "$TARGET_BRANCH"
+            git rebase "origin/${TARGET_BRANCH}"
+          done
+          echo 'Failed to push Developer Analytics after 3 attempts' >&2
+          exit 1
