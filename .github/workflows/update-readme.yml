@@ -129,7 +129,6 @@ jobs:
               if marker not in readme:
                   raise SystemExit(f"Missing README marker: {marker}")
 
-          ET.parse("assets/activity-7d.svg")
           ET.parse("assets/dev-pulse.svg")
           print(
               f"Validated {len(logs)} daily snapshots, {len(weekly)} weekly reports, "
@@ -172,7 +171,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          if [ -z "$(git status --porcelain -- README.md assets/activity-7d.svg assets/dev-pulse.svg data/activity data/weekly data/monthly data/profile-signal-state.json)" ]; then
+          if [ -z "$(git status --porcelain -- README.md assets/dev-pulse.svg data/activity data/weekly data/monthly data/profile-signal-state.json)" ]; then
             echo "No profile activity changes"
             exit 0
           fi
@@ -182,7 +181,6 @@ jobs:
 
           git add \
             README.md \
-            assets/activity-7d.svg \
             assets/dev-pulse.svg \
             data/activity \
             data/weekly \
