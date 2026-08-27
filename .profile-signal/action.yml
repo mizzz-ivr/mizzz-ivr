@@ -28,4 +28,4 @@ runs:
       shell: bash
       env:
         PROFILE_SIGNAL_CONFIG: ${{ inputs.config }}
-      run: python "${{ github.action_path }}/src/orchestrator.py"
+      run: python "${{ github.action_path }}/src/preset_runtime.py"

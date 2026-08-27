@@ -1,0 +1,7 @@
+version: 1
+id: minimal
+description: Minimal signal for a compact profile.
+theme: signal
+widgets:
+  - live_signal
+  - current_focus

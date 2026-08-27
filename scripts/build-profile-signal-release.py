@@ -18,11 +18,18 @@ REQUIRED_RUNTIME = (
     "action.yml",
     "LICENSE",
     "src/orchestrator.py",
+    "src/preset_runtime.py",
     "scripts/update-profile-activity.py",
     "scripts/profile_signal.py",
     "scripts/update-profile-signal.py",
     "scripts/profile_signal_operations.py",
     "scripts/profile_signal_history.py",
+)
+REQUIRED_PRESETS = (
+    "minimal.yml",
+    "standard.yml",
+    "full.yml",
+    "terminal.yml",
 )
 
 
@@ -35,6 +42,11 @@ def normalize_version(value: str) -> str:
 
 def validate_sources() -> None:
     missing = [path for path in REQUIRED_RUNTIME if not (RUNTIME / path).is_file()]
+    missing.extend(
+        f"presets/{name}"
+        for name in REQUIRED_PRESETS
+        if not (RUNTIME / "presets" / name).is_file()
+    )
     for path in ("profile-signal.yml", "profile-signal-workflow.yml", "INSTALL.md"):
         if not (DISTRIBUTION / path).is_file():
             missing.append(f"distribution/{path}")
