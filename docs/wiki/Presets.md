@@ -2,7 +2,7 @@
 
 Profile Signal では、プロフィールへ挿入する表示セットを `preset` として管理します。
 
-## 現在のPreset
+## Preset一覧
 
 ### `minimal`
 
@@ -36,15 +36,52 @@ Profile Signal では、プロフィールへ挿入する表示セットを `pre
 
 Widget構成は `full` 相当で、Theme指定が無い場合に `terminal` themeを使用します。
 
+### `compact`
+
+短く今日の状況を見せたいProfile向けです。
+
+- TODAY
+- CURRENT FOCUS
+- default theme: `minimal`
+
+### `developer`
+
+今何を開発しているかを中心に見せる構成です。
+
+- LIVE SIGNAL
+- CURRENT FOCUS
+- DEV PULSE
+- NOW BUILDING
+- ACTIVITY STREAM
+
+### `activity`
+
+活動量と履歴を中心に見せる構成です。
+
+- TODAY
+- DEV PULSE
+- ACTIVITY STREAM
+- DEV RECAP
+
+### `oss`
+
+公開Repositoryでの開発活動を中心に見せる構成です。
+
+- LIVE SIGNAL
+- CURRENT FOCUS
+- NOW BUILDING
+- ACTIVITY STREAM
+- DEV RECAP
+
 ## Widget override
 
 Presetを選んだ後でも個別変更できます。
 
 ```yaml
-preset: standard
+preset: developer
 
 widgets:
-  now_building:
+  dev_recap:
     enabled: true
   dev_pulse:
     enabled: false
@@ -62,7 +99,11 @@ Preset定義はruntimeコードから分離し、`.profile-signal/presets/*.yml`
    ├─ minimal.yml
    ├─ standard.yml
    ├─ full.yml
-   └─ terminal.yml
+   ├─ terminal.yml
+   ├─ compact.yml
+   ├─ developer.yml
+   ├─ activity.yml
+   └─ oss.yml
 ```
 
 例えば `standard.yml` は次のような構造です。
@@ -89,8 +130,8 @@ Registry loaderが起動時に全YAMLを検証し、OrchestratorへWidget集合�
 
 ```yaml
 version: 1
-id: compact
-description: Compact profile template.
+id: example
+description: Example profile template.
 theme: minimal
 widgets:
   - today
@@ -100,10 +141,10 @@ widgets:
 ファイル名はPreset IDと一致させます。
 
 ```text
-.profile-signal/presets/compact.yml
+.profile-signal/presets/example.yml
 ```
 
-runtime本体へ `if preset == "compact"` のような分岐を追加する必要はありません。
+runtime本体へ `if preset == "example"` のような分岐を追加する必要はありません。
 
 ## Registry validation
 
@@ -116,9 +157,9 @@ Preset追加時は以下を自動検証します。
 - Widget名が既存Widget contractに存在すること
 - Widgetの重複がないこと
 - Themeが `signal / minimal / terminal` のいずれかであること
-- `minimal / standard / full / terminal` の既存Presetが欠落していないこと
+- `minimal / standard / full / terminal` の互換性Presetが欠落していないこと
 
-CIでは既存4PresetのWidget構成も固定し、Preset追加で既存ユーザーの表示が変わらないようにします。
+CIでは既存PresetのWidget構成も固定し、Preset追加で既存ユーザーの表示が変わらないようにします。
 
 ## 拡張時の互換性ルール
 
@@ -132,7 +173,7 @@ Profile Signal は用途別のPresetを継続追加できる設計にします�
 6. **Preset追加だけで既存READMEを勝手に書き換えない**
 7. **Release ZIPへ全Preset定義を同梱する**
 
-将来的には `compact / developer / portfolio / activity / oss` など、用途別Profile templateを追加できます。名称とWidget構成は実際の利用ケースを確認しながら決定します。
+今後も、実際のProfile用途が明確なものからPresetを増やします。静的な代表作品セクションまで含まない状態で `portfolio` のような広い名前を付けることは避け、Profile Signalが生成するWidgetの責務に合う名前を選びます。
 
 ## PresetとThemeの責務
 
