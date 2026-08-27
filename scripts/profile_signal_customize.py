@@ -5,7 +5,7 @@ import fnmatch
 import html
 import json
 import re
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
@@ -20,42 +20,17 @@ MARKERS = {
     "recap": ("<!-- PROFILE-SIGNAL:RECAP:START -->", "<!-- PROFILE-SIGNAL:RECAP:END -->"),
 }
 
-STATUS_LABELS = {
-    "BUILDING": "開発中",
-    "ACTIVE": "稼働中",
-    "QUIET": "待機中",
-    "SHIPPING": "リリース中",
-}
-WEATHER_LABELS = {
-    "STORM": "高稼働",
-    "FLOW": "集中",
-    "BREEZY": "通常",
-    "REST DAY": "休息",
-}
-HEALTH_LABELS = {
-    "HEALTHY": "安定",
-    "WATCH": "注意",
-    "ATTENTION": "要確認",
-    "ACTIVE": "稼働中",
-}
-STREAM_LABELS = {
-    "PUSH": "PUSH",
-    "PR": "PR",
-    "ISSUE": "ISSUE",
-    "RELEASE": "RELEASE",
-}
+STREAM_LABELS = {"PUSH": "PUSH", "PR": "PR", "ISSUE": "ISSUE", "RELEASE": "RELEASE"}
 
 
 def load_ignore_patterns(path: Path) -> list[str]:
     if not path.exists():
         return []
-    patterns: list[str] = []
-    for raw in path.read_text(encoding="utf-8").splitlines():
-        line = raw.strip()
-        if not line or line.startswith("#"):
-            continue
-        patterns.append(line)
-    return patterns
+    return [
+        line
+        for raw in path.read_text(encoding="utf-8").splitlines()
+        if (line := raw.strip()) and not line.startswith("#")
+    ]
 
 
 def repository_is_ignored(repo: str, patterns: list[str]) -> bool:
@@ -103,18 +78,75 @@ def replace_marker(text: str, name: str, block: str) -> str:
 
 
 def load_today_snapshot(root: Path, state: dict[str, Any]) -> dict[str, Any]:
-    date_text = str(state.get("date") or "")
     try:
-        day = datetime.fromisoformat(date_text).date()
+        day = date.fromisoformat(str(state.get("date") or ""))
     except ValueError:
         return {}
     path = root / "data" / "activity" / f"{day:%Y}" / f"{day:%m}" / f"{day.isoformat()}.json"
-    if not path.exists():
-        return {}
     try:
-        return json.loads(path.read_text(encoding="utf-8"))
+        return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
     except (json.JSONDecodeError, OSError):
         return {}
+
+
+def load_activity_snapshots(root: Path) -> list[dict[str, Any]]:
+    snapshots: list[dict[str, Any]] = []
+    for path in sorted((root / "data" / "activity").glob("*/*/*.json")):
+        try:
+            snapshot = json.loads(path.read_text(encoding="utf-8"))
+            date.fromisoformat(str(snapshot.get("date") or ""))
+        except (OSError, json.JSONDecodeError, ValueError):
+            continue
+        snapshots.append(snapshot)
+    return snapshots
+
+
+def snapshot_activity_total(snapshot: dict[str, Any]) -> int:
+    metrics = snapshot.get("metrics") or {}
+    return sum(
+        int(metrics.get(key, 0) or 0)
+        for key in ("commits", "prs_opened", "issues_created", "issues_completed")
+    )
+
+
+def aggregate_snapshots(snapshots: list[dict[str, Any]]) -> dict[str, Any]:
+    metrics = {"commits": 0, "prs_opened": 0, "issues_created": 0, "issues_completed": 0, "activity_total": 0}
+    dates: list[date] = []
+    active_days = 0
+    for snapshot in snapshots:
+        try:
+            snapshot_date = date.fromisoformat(str(snapshot.get("date") or ""))
+        except ValueError:
+            continue
+        dates.append(snapshot_date)
+        source = snapshot.get("metrics") or {}
+        for key in ("commits", "prs_opened", "issues_created", "issues_completed"):
+            metrics[key] += int(source.get(key, 0) or 0)
+        total = snapshot_activity_total(snapshot)
+        metrics["activity_total"] += total
+        if total > 0:
+            active_days += 1
+    return {
+        "tracked_days": len(dates),
+        "active_days": active_days,
+        "first_date": min(dates).isoformat() if dates else None,
+        "last_date": max(dates).isoformat() if dates else None,
+        "metrics": metrics,
+    }
+
+
+def long_term_summary(root: Path, state: dict[str, Any]) -> dict[str, Any]:
+    snapshots = load_activity_snapshots(root)
+    try:
+        current_year = date.fromisoformat(str(state.get("date") or "")).year
+    except ValueError:
+        current_year = datetime.now().year
+    yearly = [s for s in snapshots if str(s.get("date") or "").startswith(f"{current_year}-")]
+    return {
+        "year": current_year,
+        "yearly": aggregate_snapshots(yearly),
+        "lifetime": aggregate_snapshots(snapshots),
+    }
 
 
 def format_activity_time(value: str | None, timezone_name: str) -> str:
@@ -132,18 +164,16 @@ def format_activity_time(value: str | None, timezone_name: str) -> str:
 def render_live(state: dict[str, Any]) -> str:
     status = state.get("status") or {}
     weather = state.get("code_weather") or {}
-    status_label = STATUS_LABELS.get(str(status.get("label")), str(status.get("label") or "待機中"))
-    weather_label = WEATHER_LABELS.get(str(weather.get("label")), str(weather.get("label") or "通常"))
     timezone = str(state.get("timezone") or "Asia/Tokyo")
     last_at = format_activity_time(status.get("last_activity_at"), timezone)
     return f'''{MARKERS["live"][0]}
-## 開発ステータス
+## LIVE SIGNAL // Development status
 
 <table>
   <tr>
-    <td width="33%" align="center"><strong>{html.escape(str(status.get("symbol") or "○"))} {html.escape(status_label)}</strong><br/><sub>最終公開アクティビティ · {last_at} JST</sub></td>
-    <td width="34%" align="center"><strong>{html.escape(str(weather.get("icon") or "🌙"))} {html.escape(weather_label)}</strong><br/><sub>本日の公開アクション · {int(state.get("activity_total", 0) or 0)}</sub></td>
-    <td width="33%" align="center"><strong>🔥 {int(state.get("streak", 0) or 0)}日連続</strong><br/><sub>公開GitHubアクティビティ</sub></td>
+    <td width="33%" align="center"><strong>{html.escape(str(status.get("symbol") or "○"))} {html.escape(str(status.get("label") or "QUIET"))}</strong><br/><sub>last public activity · {last_at} JST</sub></td>
+    <td width="34%" align="center"><strong>{html.escape(str(weather.get("icon") or "🌙"))} {html.escape(str(weather.get("label") or "REST DAY"))}</strong><br/><sub>{int(state.get("activity_total", 0) or 0)} public actions today</sub></td>
+    <td width="33%" align="center"><strong>🔥 {int(state.get("streak", 0) or 0)} DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
 </table>
 {MARKERS["live"][1]}'''
@@ -153,16 +183,16 @@ def render_today(snapshot: dict[str, Any], state: dict[str, Any]) -> str:
     metrics = snapshot.get("metrics") or {}
     date_text = html.escape(str(snapshot.get("date") or state.get("date") or ""))
     return f'''{MARKERS["today"][0]}
-## 今日の活動
+## TODAY // Activity overview
 
-<p align="center"><sub>{date_text} JST · 公開GitHubアクティビティ</sub></p>
+<p align="center"><sub>{date_text} JST · public GitHub activity</sub></p>
 
 <table>
   <tr>
-    <td width="25%" align="center"><strong>{int(metrics.get("commits", 0) or 0)}</strong><br/><sub>コミット</sub></td>
-    <td width="25%" align="center"><strong>{int(metrics.get("prs_opened", 0) or 0)}</strong><br/><sub>PR作成</sub></td>
-    <td width="25%" align="center"><strong>{int(metrics.get("issues_created", 0) or 0)}</strong><br/><sub>Issue作成</sub></td>
-    <td width="25%" align="center"><strong>{int(metrics.get("issues_completed", 0) or 0)}</strong><br/><sub>Issue完了</sub></td>
+    <td width="25%" align="center"><strong>{int(metrics.get("commits", 0) or 0)}</strong><br/><sub>COMMITS</sub></td>
+    <td width="25%" align="center"><strong>{int(metrics.get("prs_opened", 0) or 0)}</strong><br/><sub>PRS OPENED</sub></td>
+    <td width="25%" align="center"><strong>{int(metrics.get("issues_created", 0) or 0)}</strong><br/><sub>ISSUES CREATED</sub></td>
+    <td width="25%" align="center"><strong>{int(metrics.get("issues_completed", 0) or 0)}</strong><br/><sub>ISSUES DONE</sub></td>
   </tr>
 </table>
 {MARKERS["today"][1]}'''
@@ -178,27 +208,41 @@ def render_focus(state: dict[str, Any]) -> str:
         repo_url = html.escape(f"https://github.com/{repo_raw}", quote=True)
         stack = " ".join(f"<code>{html.escape(str(item))}</code>" for item in focus.get("stack") or [])
         if not stack:
-            stack = "<sub>技術情報は次回フル更新時に取得</sub>"
+            stack = "<sub>technology data will refresh on the next full run</sub>"
         body = f'''<table>
   <tr>
-    <td width="62%" valign="top"><strong><a href="{repo_url}">{repo}</a></strong><br/><sub>加重アクティビティ {int(focus.get("share", 0) or 0)}% · スコア {int(focus.get("score", 0) or 0)} · {int(focus.get("events", 0) or 0)}イベント</sub></td>
-    <td width="38%" valign="top"><strong>主な技術</strong><br/>{stack}</td>
+    <td width="62%" valign="top"><strong><a href="{repo_url}">{repo}</a></strong><br/><sub>weighted activity {int(focus.get("share", 0) or 0)}% · score {int(focus.get("score", 0) or 0)} · {int(focus.get("events", 0) or 0)} events</sub></td>
+    <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/>{stack}</td>
   </tr>
 </table>'''
     return f'''{MARKERS["focus"][0]}
-## 現在のフォーカス
+## CURRENT FOCUS // What is moving now
 
 {body}
 {MARKERS["focus"][1]}'''
 
 
-def render_pulse() -> str:
+def render_pulse(state: dict[str, Any]) -> str:
+    ci = state.get("ci_signal") or {}
+    rate = ci.get("pass_rate")
+    rate_text = "N/A" if rate is None else f"{int(rate)}%"
     return f'''{MARKERS["pulse"][0]}
-## 開発パルス // 直近7日
+## DEV PULSE // Last 7 days
 
 <p align="center">
-  <img src="./assets/dev-pulse.svg" width="100%" alt="直近7日間の公開GitHubアクティビティ" />
+  <img src="./assets/dev-pulse.svg" width="100%" alt="7 day public GitHub development pulse" />
 </p>
+
+### QUALITY SIGNAL // Last 7 days
+
+<table>
+  <tr>
+    <td width="25%" align="center"><strong>{html.escape(str(ci.get("label") or "NO SIGNAL"))}</strong><br/><sub>CI SIGNAL</sub></td>
+    <td width="25%" align="center"><strong>{rate_text}</strong><br/><sub>PASS RATE</sub></td>
+    <td width="25%" align="center"><strong>{int(ci.get("passed", 0) or 0)} / {int(ci.get("evaluated", 0) or 0)}</strong><br/><sub>PASSED / EVALUATED</sub></td>
+    <td width="25%" align="center"><strong>{int(ci.get("repos_with_signal", 0) or 0)}</strong><br/><sub>REPOS WITH CI</sub></td>
+  </tr>
+</table>
 {MARKERS["pulse"][1]}'''
 
 
@@ -213,20 +257,19 @@ def render_building(state: dict[str, Any]) -> str:
             repo = html.escape(repo_raw)
             url = html.escape(f"https://github.com/{repo_raw}", quote=True)
             health = item.get("health") or {}
-            health_label = HEALTH_LABELS.get(str(health.get("label")), str(health.get("label") or "稼働中"))
             ci = item.get("ci") or {}
             pass_rate = ci.get("pass_rate")
-            ci_text = "CI情報なし" if pass_rate is None else f"CI成功率 {pass_rate}%"
+            ci_text = "CI N/A" if pass_rate is None else f"CI pass rate {pass_rate}%"
             last_at = format_activity_time(item.get("last_activity_at"), str(state.get("timezone") or "Asia/Tokyo"))
             cells.append(
                 f'<td width="33%" valign="top"><strong>{index:02d} · <a href="{url}">{repo}</a></strong><br/>'
-                f'<sub>{int(item.get("share", 0) or 0)}% · {html.escape(health_label)} · {html.escape(ci_text)}<br/>最終活動 · {last_at} JST</sub></td>'
+                f'<sub>{int(item.get("share", 0) or 0)}% weighted · {html.escape(str(health.get("label") or "ACTIVE"))} · {html.escape(ci_text)}<br/>last activity · {last_at} JST</sub></td>'
             )
         while len(cells) < 3:
             cells.append('<td width="33%" valign="top"><sub>—</sub></td>')
         content = f'<table><tr>{"".join(cells)}</tr></table>'
     return f'''{MARKERS["building"][0]}
-## 現在動いているリポジトリ
+## NOW BUILDING // Active repositories
 
 {content}
 {MARKERS["building"][1]}'''
@@ -244,7 +287,7 @@ def render_stream(state: dict[str, Any]) -> str:
             repo = html.escape(repo_raw)
             repo_url = html.escape(f"https://github.com/{repo_raw}", quote=True)
             url = html.escape(str(item.get("url") or repo_url), quote=True)
-            title = html.escape(str(item.get("title") or "公開アクティビティ"))
+            title = html.escape(str(item.get("title") or "public activity"))
             label = html.escape(STREAM_LABELS.get(str(item.get("label")), str(item.get("label") or "ACTIVITY")))
             at = format_activity_time(item.get("at"), timezone)
             rendered.append(
@@ -253,7 +296,7 @@ def render_stream(state: dict[str, Any]) -> str:
             )
         rows = "\n    ".join(rendered)
     return f'''{MARKERS["stream"][0]}
-## 最近の公開アクティビティ
+## ACTIVITY STREAM // Latest public signals
 
 <table>
   <tbody>
@@ -263,54 +306,63 @@ def render_stream(state: dict[str, Any]) -> str:
 {MARKERS["stream"][1]}'''
 
 
-def render_recap(state: dict[str, Any]) -> str:
+def summary_table(metrics: dict[str, Any], *, include_active_days: int | None = None) -> str:
+    cells = []
+    if include_active_days is not None:
+        cells.append(f'<td width="20%" align="center"><strong>{include_active_days}</strong><br/><sub>ACTIVE DAYS</sub></td>')
+        width = "20%"
+    else:
+        width = "25%"
+    cells.extend([
+        f'<td width="{width}" align="center"><strong>{int(metrics.get("commits", 0) or 0)}</strong><br/><sub>COMMITS</sub></td>',
+        f'<td width="{width}" align="center"><strong>{int(metrics.get("prs_opened", 0) or 0)}</strong><br/><sub>PRS</sub></td>',
+        f'<td width="{width}" align="center"><strong>{int(metrics.get("issues_completed", 0) or 0)}</strong><br/><sub>ISSUES DONE</sub></td>',
+        f'<td width="{width}" align="center"><strong>{int(metrics.get("activity_total", 0) or 0)}</strong><br/><sub>ACTIVITY</sub></td>',
+    ])
+    return '<table><tr>' + ''.join(cells) + '</tr></table>'
+
+
+def render_recap(state: dict[str, Any], long_term: dict[str, Any]) -> str:
     recap = state.get("dev_recap") or {}
     weekly = recap.get("weekly") or {}
     monthly = recap.get("monthly") or {}
     weekly_metrics = weekly.get("metrics") or {}
     monthly_metrics = monthly.get("metrics") or {}
+    yearly = long_term.get("yearly") or {}
+    lifetime = long_term.get("lifetime") or {}
+    lifetime_since = lifetime.get("first_date") or recap.get("tracked_from") or "not tracked yet"
     return f'''{MARKERS["recap"][0]}
-## 開発サマリー // 記録履歴
+## DEV RECAP // Tracked history
 
 <table>
   <tr>
-    <td width="25%" align="center"><strong>{int(recap.get("active_days", 0) or 0)}</strong><br/><sub>活動日</sub></td>
-    <td width="25%" align="center"><strong>{int(weekly_metrics.get("commits", 0) or 0)}</strong><br/><sub>今週のコミット</sub></td>
-    <td width="25%" align="center"><strong>{int(weekly_metrics.get("prs_opened", 0) or 0)}</strong><br/><sub>今週のPR</sub></td>
-    <td width="25%" align="center"><strong>{int(weekly_metrics.get("issues_completed", 0) or 0)}</strong><br/><sub>今週のIssue完了</sub></td>
+    <td width="25%" align="center"><strong>🔥 {int(state.get("streak", 0) or 0)}</strong><br/><sub>DAY STREAK</sub></td>
+    <td width="25%" align="center"><strong>{int(weekly_metrics.get("commits", 0) or 0)}</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>{int(weekly_metrics.get("prs_opened", 0) or 0)}</strong><br/><sub>PRS · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>{int(weekly_metrics.get("issues_completed", 0) or 0)}</strong><br/><sub>ISSUES DONE · THIS WEEK</sub></td>
   </tr>
 </table>
 
 <details>
-<summary><strong>月次サマリー</strong></summary>
-
+<summary><strong>MONTHLY SUMMARY</strong></summary>
 <br/>
+{summary_table(monthly_metrics)}
+</details>
 
-<table>
-  <tr>
-    <td width="25%" align="center"><strong>{int(monthly_metrics.get("commits", 0) or 0)}</strong><br/><sub>コミット</sub></td>
-    <td width="25%" align="center"><strong>{int(monthly_metrics.get("prs_opened", 0) or 0)}</strong><br/><sub>PR</sub></td>
-    <td width="25%" align="center"><strong>{int(monthly_metrics.get("issues_completed", 0) or 0)}</strong><br/><sub>Issue完了</sub></td>
-    <td width="25%" align="center"><strong>{int(monthly_metrics.get("activity_total", 0) or 0)}</strong><br/><sub>総アクティビティ</sub></td>
-  </tr>
-</table>
+<details>
+<summary><strong>YEARLY SUMMARY // {int(long_term.get("year") or 0)}</strong></summary>
+<br/>
+{summary_table(yearly.get("metrics") or {}, include_active_days=int(yearly.get("active_days", 0) or 0))}
+<p><sub>{int(yearly.get("tracked_days", 0) or 0)} tracked days in {int(long_term.get("year") or 0)}.</sub></p>
+</details>
+
+<details>
+<summary><strong>LIFETIME SUMMARY // Tracked history</strong></summary>
+<br/>
+{summary_table(lifetime.get("metrics") or {}, include_active_days=int(lifetime.get("active_days", 0) or 0))}
+<p><sub>Profile Signal tracked lifetime · tracked since {html.escape(str(lifetime_since))} · {int(lifetime.get("tracked_days", 0) or 0)} tracked days. GitHub account lifetime totalsではありません。</sub></p>
 </details>
 {MARKERS["recap"][1]}'''
-
-
-def localize_pulse_svg(path: Path) -> None:
-    if not path.exists():
-        return
-    text = path.read_text(encoding="utf-8")
-    replacements = {
-        "Developer activity pulse for the last seven days": "直近7日間の開発アクティビティ",
-        "Seven day public GitHub activity totals, with today's commit, pull request and issue counts.": "直近7日間の公開GitHubアクティビティと本日のコミット・PR・Issue数。",
-        "DEV PULSE · LAST 7 DAYS": "開発パルス · 直近7日",
-        "activity = commits + PRs opened + issues created + issues done": "活動量 = コミット + PR作成 + Issue作成 + Issue完了",
-    }
-    for before, after in replacements.items():
-        text = text.replace(before, after)
-    path.write_text(text, encoding="utf-8")
 
 
 def customize(root: Path, readme_path: Path, state_path: Path, ignore_path: Path) -> dict[str, Any]:
@@ -318,25 +370,26 @@ def customize(root: Path, readme_path: Path, state_path: Path, ignore_path: Path
     patterns = load_ignore_patterns(ignore_path)
     state = filter_state(state, patterns)
     snapshot = load_today_snapshot(root, state)
+    long_term = long_term_summary(root, state)
+    state["tracked_summary"] = long_term
     text = readme_path.read_text(encoding="utf-8")
     for name, block in (
         ("live", render_live(state)),
         ("today", render_today(snapshot, state)),
         ("focus", render_focus(state)),
-        ("pulse", render_pulse()),
+        ("pulse", render_pulse(state)),
         ("building", render_building(state)),
         ("stream", render_stream(state)),
-        ("recap", render_recap(state)),
+        ("recap", render_recap(state, long_term)),
     ):
         text = replace_marker(text, name, block)
     readme_path.write_text(text.rstrip() + "\n", encoding="utf-8")
     state_path.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    localize_pulse_svg(root / "assets" / "dev-pulse.svg")
     return state
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Localize and filter Profile Signal consumer output")
+    parser = argparse.ArgumentParser(description="Customize Profile Signal consumer output")
     parser.add_argument("--root", type=Path, default=Path("."))
     parser.add_argument("--readme", type=Path, default=Path("README.md"))
     parser.add_argument("--state", type=Path, default=Path("data/profile-signal-state.json"))
@@ -347,10 +400,12 @@ def main() -> None:
     state = args.state if args.state.is_absolute() else root / args.state
     ignore = args.ignore if args.ignore.is_absolute() else root / args.ignore
     customized = customize(root, readme, state, ignore)
+    tracked = customized.get("tracked_summary") or {}
     print(
         "Customized Profile Signal:",
         f"focus={(customized.get('current_focus') or {}).get('repo', 'none')}",
         f"ignored={len(customized.get('repository_ignore_patterns') or [])}",
+        f"tracked_days={(tracked.get('lifetime') or {}).get('tracked_days', 0)}",
     )
 
 
