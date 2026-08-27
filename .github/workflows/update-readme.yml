@@ -14,7 +14,7 @@ on:
       - .profile-signal/**
       - .github/workflows/update-readme.yml
   schedule:
-    - cron: "3,8,13,18,23,28,33,38,43,48,53,58 * * * *"
+    - cron: "*/5 * * * *"
       timezone: "Asia/Tokyo"
     - cron: "19 */3 * * *"
       timezone: "Asia/Tokyo"
@@ -194,7 +194,7 @@ jobs:
           PY
 
   refresh-profile-stream:
-    if: github.event_name == 'schedule' && github.event.schedule == '3,8,13,18,23,28,33,38,43,48,53,58 * * * *'
+    if: github.event_name == 'schedule' && github.event.schedule == '*/5 * * * *'
     permissions:
       contents: write
     runs-on: ubuntu-latest
