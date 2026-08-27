@@ -4,114 +4,108 @@
 
 ## 目的
 
-GitHub Profileを単なる活動量表示ではなく、公開Repositoryから確認できる開発Evidenceを使って次を継続的に整理します。
+公開GitHub Repositoryから、技術・開発領域・開発手法・Ownership・案件タイプ別の公開実績を整理し、GitHub Profileと案件向けSkill Sheetへ再利用します。
 
-- よく使う技術とRepository breadth
-- 最近使っている技術 / recency
-- Web / AI / Platform / Operations等の開発領域
-- Testing / CI/CD / Security / Observability / Documentation等の開発手法
-- Architecture / Implementation / Testing / Delivery / Operations等のOwnership
-- フリーランス・受託・案件アサイン時に使えるPublic Evidence Coverage
-- 時系列snapshotによるEvidenceの変化
-- Markdown Skill Sheet
+## 表示言語
 
-## 境界
+日本語を既定にします。
 
-### Profile Signal
+- `README.md` — 日本語Profile
+- `README.en.md` — English Profile
+- `SKILL_SHEET.md` — 日本語Skill Sheet
+- `SKILL_SHEET.en.md` — English Skill Sheet
+- `reports/developer-analytics.md` — 日本語詳細分析
+- `reports/developer-analytics.en.md` — English detailed report
 
-`.profile-signal/` と `mizzz-ivr/profile-signal` はDeveloper Analyticsの実装対象外です。
+GitHub READMEではJavaScriptによるタブ切替は使わず、各Markdown上部の `日本語 / English` リンクで切り替えます。
 
-Profile Signalは引き続き `LIVE SIGNAL / TODAY / CURRENT FOCUS / DEV PULSE / NOW BUILDING / ACTIVITY STREAM / DEV RECAP` の「今の活動」を担当します。
-
-Developer Analyticsは「何を作れるか / どの領域のEvidenceがあるか」を担当します。
-
-Consumer側の `.github/profile-signal.yml` はREADME内の挿入位置だけをDeveloper Analytics markerへ合わせます。Profile Signal runtime自体は変更しません。
-
-### Public / Private
-
-Committed outputは **public-safe GitHub evidenceのみ** を対象にします。
-
-- `projects[].public: true` が必須
-- GitHub APIでPrivate Repositoryと判定された場合は生成を失敗させる
-- Forkは明示許可しない限りOriginal Evidenceとして扱わない
-- Private Repository名、顧客情報、秘密情報は公開JSON/Markdownへ出力しない
-- 公開Evidenceが無いことを「未経験」と解釈しない
-
-## Evidence Score
-
-`Evidence Score` は能力値・習熟度・経験年数ではありません。
-
-公開GitHub上で確認できる次のSignalを合成した **Evidence strength** です。
-
-- Repository breadth
-- user-authored PR / Issue
-- merged / completed evidence
-- recency
-- CI / Test / Docs / Docker / Migration / Security / Observability / Release等のdelivery signal
-
-営業利用時はScoreそのものよりEvidence Repositoryと実装内容を説明するために使います。
-
-## Assignment fit
-
-`assignment_profiles` は案件タイプごとに「公開Repositoryで証明したいSignal」を定義します。
-
-Coverageは configured signals のうち現在のPublic Evidence setで何%を確認できるかを示します。採用可能性、単価、実務能力を自動判定する値ではありません。
-
-## Files
+## 構成
 
 ```text
-.github/developer-analytics.yml       # public-safe Evidence mapping / assignment profiles
-scripts/developer_analytics.py       # collector / analytics / renderer
-tests/test_developer_analytics.py    # deterministic unit tests
-.github/workflows/developer-analytics.yml
-SKILL_SHEET.md                       # 営業・案件アサイン向けMarkdown
-reports/developer-analytics.md       # 詳細分析レポート
-data/developer-analytics/latest.json # latest machine-readable state
-data/developer-analytics/snapshots/  # manual runごとのhistory
+.github/developer-analytics.yml        # Public-safe Evidence設定
+scripts/developer_analytics.py         # GitHub Evidence収集 / 集計
+scripts/render_developer_profile.py    # 日本語優先 + ENドキュメント生成
+tests/test_developer_analytics.py
+tests/test_developer_profile_renderer.py
+SKILL_SHEET.md
+SKILL_SHEET.en.md
+reports/developer-analytics.md
+reports/developer-analytics.en.md
+data/developer-analytics/latest.json
+data/developer-analytics/snapshots/
 ```
 
-## Execution policy
+## Skill Sheet方針
+
+Skill Sheetは詳細分析のコピーではなく、短時間で把握できる情報だけに絞ります。
+
+1. 概要
+2. 主な技術
+3. 強み
+4. 代表Public Project
+5. 案件タイプ
+6. 連絡先
+
+技術ごとのEvidence Scoreや全Project一覧などは `reports/developer-analytics*.md` 側へ分離します。
+
+## Public / Private
+
+Committed outputはPublic-safeな情報だけを対象にします。
+
+- `.github/developer-analytics.yml` の `projects[].public: true` が必須
+- Private Repositoryは生成対象外
+- Forkは明示許可しない限りOriginal Evidenceとして扱わない
+- 顧客情報・秘密情報・非公開案件名を出力しない
+
+## Profile Signalとの境界
+
+Profile Signalは「今の活動」、Developer Analyticsは「何を作れるか / 公開実績」を担当します。
+
+技術記事用Repositoryなど、活動量はあるが `CURRENT FOCUS` として表示したくないRepositoryは `.profile-signalignore` で除外します。
+
+現在:
+
+```text
+mizzz-ivr/tech-writing
+```
+
+`.profile-signalignore` は空行と `#` コメントを無視し、`*` / `?` のglob patternを利用できます。
+
+除外対象:
+
+- 現在のフォーカス
+- 現在動いているRepository
+- 最近の公開アクティビティ
+
+TODAY / weekly / monthlyの総活動量はGitHub全体の活動履歴として残します。
+
+## 実行ポリシー
 
 ### Pull Request
 
-PRでは次を検証し、生成物はcommitしません。
+PRでは以下を検証します。
 
-1. config validation
-2. deterministic unit tests
-3. offline render smoke test
-4. GitHub APIによるPublic Repository / Fork / live evidenceのstrict validation
-5. `.profile-signal/**` が変更されていないこと
-
-PR validationで生成するJSON / Markdownは一時directoryへ出力し、Repositoryへcommitしません。
+- Developer Analytics config
+- unit tests
+- offline render
+- Public GitHub live validation
+- JP / EN document render
+- Profile Signal日本語Consumer render
+- `.profile-signalignore` filter
 
 ### Manual
 
-Skill Sheet / Analyticsのユーザー向け再生成は **GitHub Actions `workflow_dispatch` の手動実行のみ** です。Schedule triggerは設定しません。
+Developer Analyticsのユーザー向け再生成は `workflow_dispatch` の手動実行だけです。
 
-手動実行時はGitHub APIでPublic Repositoryの現状を再取得して次を更新します。
+手動実行すると以下を更新します。
 
-1. `README.md` の `ENGINEERING PROFILE`
-2. `SKILL_SHEET.md`
-3. `reports/developer-analytics.md`
-4. `data/developer-analytics/latest.json`
-5. `data/developer-analytics/snapshots/<timestamp>.json`
-6. 同じ内容をGitHub Actions artifactとして30日保持
+- `README.md`
+- `README.en.md`
+- `SKILL_SHEET.md`
+- `SKILL_SHEET.en.md`
+- `reports/developer-analytics.md`
+- `reports/developer-analytics.en.md`
+- `data/developer-analytics/latest.json`
+- `data/developer-analytics/snapshots/<timestamp>.json`
 
-`latest.json` は初回merge時のみ `bootstrap-pending-manual` として配置し、最初の手動実行後に `github-api` collectionへ置き換わります。
-
-## README policy
-
-READMEでは同じ情報を複数箇所へ固定表示しません。
-
-- Profile Signal: 現在のActivity / Focus / Pulse / Recap
-- Developer Analytics: 技術Evidence / Engineering Range / Development Practice / Assignment Coverage
-- Public Builds: 代表Evidenceのみ
-- Skill Sheet: 営業・受託・案件アサイン向け詳細
-
-静的な `NOW / STACK / BUILD LOGIC / PUBLIC REPOSITORIES` はDeveloper Analyticsへ統合します。Hero imageにはProject名・現在のStackなど時間で古くなる情報を埋め込まず、Identity / Engineering directionだけを表示します。
-
-## Maintenance
-
-新しいPublic ProjectをEvidenceへ加えるときはRepositoryを自動推測で分類せず `.github/developer-analytics.yml` に明示的に追加します。
-
-`technologies / domains / capabilities / practices / ownership` はREADME・Docs・実装・PRなどで根拠が確認できるものだけを登録します。
+Profile Signal側は既存scheduleの後に `scripts/profile_signal_customize.py` を実行し、日本語表示とRepository除外を適用します。
