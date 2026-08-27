@@ -1,0 +1,31 @@
+name: Profile Signal
+description: Generate modular GitHub profile widgets from public development activity.
+author: mizzz-ivr
+
+branding:
+  icon: activity
+  color: purple
+
+inputs:
+  config:
+    description: Path to the Profile Signal YAML config in the consumer repository.
+    required: false
+    default: .github/profile-signal.yml
+
+runs:
+  using: composite
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@v6
+      with:
+        python-version: "3.12"
+
+    - name: Install Profile Signal runtime dependency
+      shell: bash
+      run: python -m pip install --disable-pip-version-check --quiet PyYAML==6.0.2
+
+    - name: Generate Profile Signal
+      shell: bash
+      env:
+        PROFILE_SIGNAL_CONFIG: ${{ inputs.config }}
+      run: python "${{ github.action_path }}/src/preset_runtime.py"

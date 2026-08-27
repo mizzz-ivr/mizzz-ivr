@@ -1,0 +1,19 @@
+version: 1
+
+profile:
+  username: YOUR_GITHUB_USERNAME
+  timezone: Asia/Tokyo
+
+privacy:
+  public_only: true
+
+preset: standard
+theme: signal
+
+widgets: {}
+
+readme:
+  path: README.md
+  auto_insert_markers: true
+  insert_before: ""
+  empty_disabled: true

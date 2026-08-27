@@ -1,0 +1,12 @@
+version: 1
+id: terminal
+description: Full dashboard rendered with the terminal theme by default.
+theme: terminal
+widgets:
+  - live_signal
+  - today
+  - current_focus
+  - dev_pulse
+  - now_building
+  - activity_stream
+  - dev_recap

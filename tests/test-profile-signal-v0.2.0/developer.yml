@@ -1,0 +1,10 @@
+version: 1
+id: developer
+description: Development-focused dashboard for current work, pulse, repositories, and recent signals.
+theme: signal
+widgets:
+  - live_signal
+  - current_focus
+  - dev_pulse
+  - now_building
+  - activity_stream

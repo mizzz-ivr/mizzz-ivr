@@ -1,0 +1,9 @@
+version: 1
+id: activity
+description: Activity-first dashboard for daily metrics, pulse, recent events, and tracked history.
+theme: signal
+widgets:
+  - today
+  - dev_pulse
+  - activity_stream
+  - dev_recap
