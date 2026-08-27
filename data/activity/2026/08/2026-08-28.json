@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "date": "2026-08-28",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 6,
+    "prs_opened": 4,
+    "issues_created": 0,
+    "issues_completed": 2
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "docs: update Profile Signal article for standalone v0.4.0 (#37)  Align Qiita #3 source, notes, a",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/7b905200e7641d51eb6014a5e68bc3522601415b",
+      "at": "2026-08-28T01:51:08.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "Merge pull request #36 from mizzz-ivr/fix/qiita-sync-pr-fallback",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/13f7ea5052bf2773b1fa946266c9ac4a1fa2d368",
+      "at": "2026-08-28T01:39:29.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "docs(qiita): document sync PR fallback",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/707639850ef414b557eeb48982156efc1858f534",
+      "at": "2026-08-28T01:31:59.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "fix(qiita): handle disabled Actions PR creation",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/cefad612b64c5e28faa25eee8bbebec98ab6c9d4",
+      "at": "2026-08-28T01:31:11.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "revert: remove accidental probe file",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/f523d61d40ff22c9564bd140eeb8e13689166290",
+      "at": "2026-08-28T01:30:42.000+09:00"
+    }
+  ],
+  "generated_at": "2026-08-28T07:11:14+09:00"
+}

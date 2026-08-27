@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 489,
-    "prs_opened": 52,
+    "commits": 492,
+    "prs_opened": 53,
     "issues_created": 29,
     "issues_completed": 23
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "Merge pull request #35 from mizzz-ivr/sync/qiita-articles-33077628839-1",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/96a90b39abb116f08a9c137925e6723a57ca0df9",
+      "at": "2026-08-27T22:59:21.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "chore: remove Profile Signal schedule reactivation workflow",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/07f35af066a24f581421549d5dfd97c7a0c4fa97",
+      "at": "2026-08-27T22:46:06.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "fix(profile): reactivate schedules with direct workflow edit (#54)  Canonicalize the lightweight",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/78664b44bad57789cdd08cccb7ea56ee28abea5f",
+      "at": "2026-08-27T22:44:51.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/mizzz-ivr",
@@ -24,28 +45,7 @@
       "title": "chore: prune merged profile work branches (#51)  Add a one-shot cleanup workflow to remove merge",
       "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/d86ddf504445b6e24b052662930558089bf352dc",
       "at": "2026-08-27T22:31:04.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "Merge pull request #33 from mizzz-ivr/feat/writing-analytics-visual-dashboard",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/88b2b8893259480ff6d080bc25926a440676043a",
-      "at": "2026-08-27T22:19:01.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "test(analytics): cover snapshot validity and full pipeline rendering",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/b2eae4a60fc68f0871aa160264beb7ecc6458ca7",
-      "at": "2026-08-27T22:03:05.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "fix(analytics): validate snapshot history and uncap pipeline",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/16f3bd56a9acefa538f40cb12b3f39eea0bbc03d",
-      "at": "2026-08-27T22:02:32.000+09:00"
     }
   ],
-  "generated_at": "2026-08-27T22:45:14+09:00"
+  "generated_at": "2026-08-28T07:11:14+09:00"
 }
