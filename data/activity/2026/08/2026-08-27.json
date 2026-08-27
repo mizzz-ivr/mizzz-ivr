@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 270,
-    "prs_opened": 24,
-    "issues_created": 10,
-    "issues_completed": 7
+    "commits": 388,
+    "prs_opened": 33,
+    "issues_created": 15,
+    "issues_completed": 15
   },
   "activity": [
     {
       "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "Merge pull request #17 from mizzz-ivr/chore/normalize-published-metadata  chore: 公開済み記事metadataを",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/cd2654a7ceb0ae7917d84a960ca05efe869700a9",
-      "at": "2026-08-27T13:57:36.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "Merge pull request #347 from ivRooom/feat/ai-artifact-runtime  feat(ai): add Phase 1 artifact ru",
+      "url": "https://github.com/ivRooom/Herta/commit/1cb53194a288482a10ef350cd16e38911fd328ed",
+      "at": "2026-08-27T17:54:57.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/profile-signal",
-      "title": "docs: update Wiki current release to v0.4.0  * docs: mark v0.4.0 as current wiki release  * docs",
-      "url": "https://github.com/mizzz-ivr/profile-signal/commit/ed4a2e96ad3040dcb1c5a6e014db06248174dc44",
-      "at": "2026-08-27T13:57:30.000+09:00"
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "fix(profile): refresh Activity Stream every 5 minutes",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/f1d404120048d7148ea6be1fda3cbd5a89de1ad9",
+      "at": "2026-08-27T17:37:49.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Merge pull request #12 from mizzz-ivr/feat/issue-7-seo-structured-data  feat: harden Issue #7 SE",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/f8da10f449b8b07e29660174eb3f9418f27e0f2f",
-      "at": "2026-08-27T13:47:02.000+09:00"
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "docs: expand SIGNAL links with icon badges",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/913ce2b65224e97c64b84282bda72df94a5beaed",
+      "at": "2026-08-27T17:24:12.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "docs: define explicit N/A classification semantics",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/de05af51edd12e4fd6dbc1c6120e2fb607f9f746",
-      "at": "2026-08-27T13:38:40.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "test(ai): cover image-processing Python script intent",
+      "url": "https://github.com/ivRooom/Herta/commit/45aceb5dd5e775bf5566832bd34960b1585b2e34",
+      "at": "2026-08-27T17:22:41.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "ci: normalize legacy metadata before refresh",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/99b1df9dbdef4072589000b0082e1e4ad55a96ef",
-      "at": "2026-08-27T13:38:08.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "fix(ai): avoid image-processing script misclassification",
+      "url": "https://github.com/ivRooom/Herta/commit/0d7a250ee507ebc4f017553a46d1e4c2bff6bcf6",
+      "at": "2026-08-27T17:22:12.000+09:00"
     }
   ],
-  "generated_at": "2026-08-27T13:59:35+09:00"
+  "generated_at": "2026-08-27T18:15:44+09:00"
 }

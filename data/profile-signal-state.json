@@ -7,25 +7,22 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-27T04:57:58Z"
+    "last_activity_at": "2026-08-27T09:12:06Z"
   },
   "code_weather": {
     "label": "STORM",
     "icon": "🌩️"
   },
   "streak": 3,
-  "activity_total": 311,
+  "activity_total": 451,
   "current_focus": {
-    "repo": "ivRooom/Herta",
-    "score": 109,
-    "events": 95,
-    "last_activity_at": "2026-08-27T04:57:58Z",
-    "share": 30,
+    "repo": "mizzz-ivr/tech-writing",
+    "score": 92,
+    "events": 62,
+    "last_activity_at": "2026-08-27T09:12:06Z",
+    "share": 24,
     "stack": [
-      "TypeScript",
-      "Shell",
-      "Dockerfile",
-      "CSS"
+      "Python"
     ]
   },
   "dev_pulse": [
@@ -73,43 +70,19 @@
     },
     {
       "date": "2026-08-27",
-      "total": 311,
-      "commits": 270,
-      "prs": 24,
-      "issues": 17
+      "total": 451,
+      "commits": 388,
+      "prs": 33,
+      "issues": 30
     }
   ],
   "now_building": [
     {
-      "repo": "ivRooom/Herta",
-      "score": 109,
-      "events": 95,
-      "last_activity_at": "2026-08-27T04:57:58Z",
-      "share": 30,
-      "ci": {
-        "label": "ATTENTION",
-        "symbol": "!",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 2,
-        "passed": 0,
-        "failed": 2,
-        "ignored": 8,
-        "pass_rate": 0,
-        "latest_conclusion": "failure"
-      },
-      "health": {
-        "label": "ATTENTION",
-        "symbol": "!",
-        "reason": "recent CI needs attention"
-      }
-    },
-    {
       "repo": "mizzz-ivr/tech-writing",
-      "score": 72,
-      "events": 50,
-      "last_activity_at": "2026-08-27T04:57:38Z",
-      "share": 20,
+      "score": 92,
+      "events": 62,
+      "last_activity_at": "2026-08-27T09:12:06Z",
+      "share": 24,
       "ci": {
         "label": "MIXED",
         "symbol": "◐",
@@ -129,21 +102,45 @@
       }
     },
     {
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "score": 67,
-      "events": 43,
-      "last_activity_at": "2026-08-27T04:38:04Z",
-      "share": 18,
+      "repo": "ivRooom/Herta",
+      "score": 81,
+      "events": 74,
+      "last_activity_at": "2026-08-27T08:54:59Z",
+      "share": 21,
       "ci": {
-        "label": "PASSING",
+        "label": "ATTENTION",
+        "symbol": "!",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 6,
+        "passed": 4,
+        "failed": 2,
+        "ignored": 4,
+        "pass_rate": 67,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "ATTENTION",
+        "symbol": "!",
+        "reason": "recent CI needs attention"
+      }
+    },
+    {
+      "repo": "mizzz-ivr/profile-signal",
+      "score": 66,
+      "events": 50,
+      "last_activity_at": "2026-08-27T04:57:31Z",
+      "share": 17,
+      "ci": {
+        "label": "STABLE",
         "symbol": "●",
         "window_days": 7,
         "total_runs": 10,
         "evaluated": 10,
-        "passed": 10,
-        "failed": 0,
+        "passed": 9,
+        "failed": 1,
         "ignored": 0,
-        "pass_rate": 100,
+        "pass_rate": 90,
         "latest_conclusion": "success"
       },
       "health": {
@@ -157,42 +154,42 @@
     {
       "label": "ISSUE",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "Closed issue #16",
-      "url": "https://github.com/mizzz-ivr/tech-writing/issues/16",
-      "at": "2026-08-27T04:57:38Z"
-    },
-    {
-      "label": "PR",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "PR merged #17",
-      "url": "https://github.com/mizzz-ivr/tech-writing",
-      "at": "2026-08-27T04:57:37Z"
-    },
-    {
-      "label": "PR",
-      "repo": "mizzz-ivr/profile-signal",
-      "title": "PR merged #6",
-      "url": "https://github.com/mizzz-ivr/profile-signal",
-      "at": "2026-08-27T04:57:31Z"
+      "title": "Opened issue #23",
+      "url": "https://github.com/mizzz-ivr/tech-writing/issues/23",
+      "at": "2026-08-27T09:12:06Z"
     },
     {
       "label": "PUSH",
       "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to feat/ai-artifact-runtime",
+      "title": "1 commit pushed to main",
       "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-27T04:57:22Z"
+      "at": "2026-08-27T08:54:59Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "PR merged #347",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-08-27T08:54:58Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/ivrm-member-site",
+      "title": "Closed issue #56",
+      "url": "https://github.com/ivRooom/ivrm-member-site/issues/56",
+      "at": "2026-08-27T08:41:46Z"
     }
   ],
-  "generated_at": "2026-08-27T13:59:35+09:00",
+  "generated_at": "2026-08-27T18:15:44+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
     "window_days": 7,
-    "evaluated": 20,
-    "passed": 17,
-    "failed": 3,
-    "ignored": 10,
-    "pass_rate": 85,
+    "evaluated": 24,
+    "passed": 20,
+    "failed": 4,
+    "ignored": 6,
+    "pass_rate": 83,
     "repos_with_signal": 3
   },
   "dev_recap": {
@@ -213,13 +210,13 @@
         "active_days": 3
       },
       "metrics": {
-        "commits": 899,
-        "prs_opened": 62,
-        "issues_created": 21,
-        "issues_completed": 11,
-        "activity_total": 993
+        "commits": 1017,
+        "prs_opened": 71,
+        "issues_created": 26,
+        "issues_completed": 19,
+        "activity_total": 1133
       },
-      "generated_at": "2026-08-27T13:59:35+09:00"
+      "generated_at": "2026-08-27T18:15:44+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -234,13 +231,13 @@
         "active_days": 3
       },
       "metrics": {
-        "commits": 899,
-        "prs_opened": 62,
-        "issues_created": 21,
-        "issues_completed": 11,
-        "activity_total": 993
+        "commits": 1017,
+        "prs_opened": 71,
+        "issues_created": 26,
+        "issues_completed": 19,
+        "activity_total": 1133
       },
-      "generated_at": "2026-08-27T13:59:35+09:00"
+      "generated_at": "2026-08-27T18:15:44+09:00"
     },
     "achievements": [
       {
@@ -265,6 +262,12 @@
         "key": "10-issues-done",
         "label": "10+ ISSUES DONE",
         "icon": "✅",
+        "unlocked_on": "2026-08-27"
+      },
+      {
+        "key": "1k-activity",
+        "label": "1K ACTIVITY",
+        "icon": "⚡",
         "unlocked_on": "2026-08-27"
       }
     ]
