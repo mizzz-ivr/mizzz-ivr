@@ -1,22 +1,21 @@
-# Developer Analytics
+<p align="right"><strong>日本語</strong> · <a href="./developer-analytics.en.md">English</a></p>
 
-Generated: `2026-08-27T10:02:46Z` · mode: `offline-config`
+# Developer Analytics — 詳細分析
 
-> Public GitHub evidence only. This is not a proficiency, years-of-experience, productivity, or hiring score. Live recency / PR / Issue / repository delivery signals are collected when the `Developer Analytics` workflow is run manually.
+生成日時: `2026-08-27T10:02:46Z`
 
-## Current bootstrap coverage
+## 集計概要
 
-| Metric | Value |
+| 項目 | 値 |
 | --- | ---: |
-| Tracked public projects | 9 |
-| Assignment profiles | 5 |
-| Public-only policy | enabled |
-| Private repository export | refused |
-| Fork-as-original evidence | refused by default |
+| 対象公開Project | 9 |
+| 技術要素 | 40 |
+| 開発プラクティス | 22 |
+| 案件タイプ | 5 |
 
-## Core technology evidence
+## 技術別の公開実績
 
-| Technology | Evidence | Projects |
+| 技術 | 公開実績 | Project数 |
 | --- | --- | ---: |
 | React | REPEATED | 6 |
 | Docker | REPEATED | 5 |
@@ -28,67 +27,56 @@ Generated: `2026-08-27T10:02:46Z` · mode: `offline-config`
 | Playwright | ESTABLISHED | 2 |
 | Vitest | ESTABLISHED | 2 |
 | GitHub Actions | EMERGING | 2 |
+| GitHub API | EMERGING | 2 |
 | Go | EMERGING | 2 |
+| YAML | EMERGING | 2 |
+| AWS Lightsail | EMERGING | 2 |
+| Discord.js | EMERGING | 2 |
+| Node.js | EMERGING | 2 |
+| Vercel | EMERGING | 2 |
 
-## Engineering practices
+## 開発プラクティス
 
-Public project evidence currently covers:
+| プラクティス | 主な公開Project |
+| --- | --- |
+| Repository中心の開発 | Herta / IVRM Dashboard / ivmz-home / QuizVerse / RooMate Voice |
+| セキュリティを設計段階で考慮 | Herta / IVRM Dashboard / ivRooom Member Site / QuizVerse / RooMate Voice |
+| 自動テスト | ivRooom Member Site / ivmz-home / profile-signal / QuizVerse |
+| アクセシビリティ | ivRooom Member Site / ivmz-home |
+| 可観測性 | IVRM Dashboard |
+| 最小権限 | IVRM Dashboard |
+| Fail-close設計 | RooMate Voice |
+| リリース自動化 | profile-signal |
+| Graceful Shutdown | Site Sentry Go |
+| Performance Budget | ivRooom Member Site |
 
-- repository-driven-development
-- security-by-design
-- automated-testing
-- accessibility-first
-- progressive-enhancement
-- portability
-- observability
-- least-privilege
-- fail-close
-- privacy-conscious-logging
-- release-automation
-- backward-compatibility
-- graceful-shutdown
-- timeout-control
+## 案件タイプ別
 
-## Delivery / Ownership evidence
-
-- Architecture
-- Implementation
-- Testing
-- Documentation
-- Delivery
-- Operations
-- Security
-- Release engineering
-
-These labels describe the areas for which public project evidence is curated. They do not imply exclusive ownership or a specific number of professional years.
-
-## Assignment evidence coverage
-
-| Area | Bootstrap coverage | Current public gap |
+| 分野 | 公開実績カバー率 | 現在の不足シグナル |
 | --- | ---: | --- |
-| Discord / Community Systems | 100% | - |
-| Full-stack Product Development | 100% | - |
-| Platform / Developer Tooling | 100% | - |
-| Realtime AI / Voice | 100% | - |
-| DevOps / Observability | 86% | `ci-cd` live detection pending manual collection |
+| Discord / コミュニティ基盤 | 100% | なし |
+| フルスタック開発 | 100% | なし |
+| プラットフォーム / 開発ツール | 100% | なし |
+| リアルタイムAI / 音声 | 100% | なし |
+| DevOps / 可観測性 | 86% | ci-cd |
 
-Coverage means that configured evidence signals are visible in the curated public project set. It is not an automatic judgment of project suitability.
+## Project別
 
-## Selected evidence repositories
+| Project | 主な領域 | 主な技術 |
+| --- | --- | --- |
+| [Herta](https://github.com/ivRooom/Herta) | Discord / Platform / Backend | TypeScript / NestJS / Next.js / PostgreSQL / Redis / Docker |
+| [RooMate Voice](https://github.com/mizzz-ivr/roomate-voice) | Realtime AI / Voice / Desktop | TypeScript / OpenAI Realtime / Discord Voice / Electron / Docker |
+| [ivmz-home](https://github.com/mizzz-ivr/ivmz-home) | Web Product / CMS / Portfolio | Next.js / React / Payload / PostgreSQL / Playwright |
+| [QuizVerse](https://github.com/mizzz-ivr/quizverse) | Web Product / Learning | React / Flask / PostgreSQL / Docker |
+| [IVRM Dashboard](https://github.com/ivRooom/ivrm-dashboard) | Operations / Observability | TypeScript / Next.js / Go / Supabase / Docker |
+| [ivRooom Member Site](https://github.com/ivRooom/ivrm-member-site) | Web / Creative Frontend | Astro / React / Three.js / Cloudflare Workers |
+| [Site Sentry Go](https://github.com/mizzz-ivr/site-sentry-go) | Monitoring / Backend Tool | Go / SQLite / HTTP / Docker |
+| [Profile Signal](https://github.com/mizzz-ivr/profile-signal) | Developer Tooling / Analytics | Python / GitHub Actions / GitHub API |
+| [Tech Writing](https://github.com/mizzz-ivr/tech-writing) | Technical Writing / Automation | Python / GitHub Actions / Markdown |
 
-- [ivRooom/Herta](https://github.com/ivRooom/Herta) — platform architecture, API, frontend, worker/queue, plugin runtime, PostgreSQL/Redis, operations/security evidence
-- [mizzz-ivr/roomate-voice](https://github.com/mizzz-ivr/roomate-voice) — Realtime AI, Discord Voice, Electron, secret handling, release/installer evidence
-- [mizzz-ivr/ivmz-home](https://github.com/mizzz-ivr/ivmz-home) — Next.js, CMS, PostgreSQL, SEO, accessibility, testing and deployment architecture evidence
-- [mizzz-ivr/quizverse](https://github.com/mizzz-ivr/quizverse) — React/Flask/PostgreSQL full-stack, auth, migration and testing evidence
-- [ivRooom/ivrm-dashboard](https://github.com/ivRooom/ivrm-dashboard) — operations, monitoring, Go agent, infrastructure/security architecture evidence
-- [ivRooom/ivrm-member-site](https://github.com/ivRooom/ivrm-member-site) — frontend, accessibility, performance, testing and Cloudflare evidence
-- [mizzz-ivr/site-sentry-go](https://github.com/mizzz-ivr/site-sentry-go) — Go monitoring, scheduler, timeout and graceful shutdown evidence
-- [mizzz-ivr/profile-signal](https://github.com/mizzz-ivr/profile-signal) — developer tooling, GitHub automation, analytics and release evidence; this repository is consumed but not modified by this feature
-- [mizzz-ivr/tech-writing](https://github.com/mizzz-ivr/tech-writing) — automation, analytics and evidence-based technical communication
+## 補足
 
-## Interpretation / privacy
-
-- No public evidence means **not observed**, not “no experience”.
-- Private repositories, confidential customer/project identifiers and secrets are intentionally excluded from committed outputs.
-- `Evidence Score` is evidence strength derived from public GitHub signals, not a skill rating.
-- The canonical live report is regenerated only by manual `workflow_dispatch`.
+- 集計対象は公開GitHub上で確認できる情報のみです。
+- 非公開Repositoryや顧客情報は出力しません。
+- 公開実績の不足は未経験を意味しません。
+- `tech-writing` はDeveloper Analyticsの実績には含めますが、Profile Signalの「現在のフォーカス / 活動中Repository / 最近のアクティビティ」ランキングからは `.profile-signalignore` により除外します。
