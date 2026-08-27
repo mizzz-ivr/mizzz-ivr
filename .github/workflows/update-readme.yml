@@ -7,6 +7,7 @@ on:
       - .github/profile-signal.yml
       - .profile-signal/**
       - .github/workflows/update-readme.yml
+      - .github/workflows/profile-signal-stream.yml
   schedule:
     - cron: "17 */3 * * *"
       timezone: "Asia/Tokyo"
@@ -45,6 +46,11 @@ jobs:
         uses: ./.profile-signal
         with:
           config: .github/profile-signal.yml
+
+      - name: Validate lightweight latest-signals runtime
+        env:
+          PROFILE_SIGNAL_CONFIG: .github/profile-signal.yml
+        run: python .profile-signal/src/stream_runtime.py
 
       - name: Validate generated files
         shell: bash
