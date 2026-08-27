@@ -1,0 +1,59 @@
+name: Prune stale profile branches
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/prune-stale-profile-branches.yml
+
+permissions:
+  contents: write
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+
+      - name: Delete stale migrated branches
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          branches=(
+            "chore/profile-signal-consumer-cleanup"
+            "chore/profile-signal-consumer-migration"
+            "chore/final-profile-cleanup"
+            "docs/profile-signal-wiki-license-release-ja"
+            "feat/profile-daily-activity"
+            "feat/profile-motion-v6"
+            "feat/profile-signal-consumer-stream"
+            "feat/profile-signal-core"
+            "feat/profile-signal-phase2-widgets"
+            "feat/profile-signal-phase3-operations"
+            "feat/profile-signal-phase4-history"
+            "feat/profile-signal-phase5-action"
+            "feat/profile-signal-preset-registry"
+            "feat/profile-signal-release-distribution"
+            "feat/profile-signal-v02-presets"
+            "feat/profile-signal-wiki-sync"
+            "fix/profile-signal-wiki-bootstrap"
+            "output"
+            "update-now-playing-to-youtube-music-svg"
+            "chore/prune-stale-profile-branches"
+          )
+
+          for branch in "${branches[@]}"; do
+            if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
+              echo "Deleting $branch"
+              git push origin --delete "$branch"
+            else
+              echo "Already absent: $branch"
+            fi
+          done
