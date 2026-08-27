@@ -1,0 +1,91 @@
+name: Profile Signal stream
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+      timezone: "Asia/Tokyo"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-signal-stream
+  cancel-in-progress: true
+
+jobs:
+  refresh-stream:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout default branch
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install runtime dependency
+        run: python -m pip install --disable-pip-version-check --quiet PyYAML==6.0.2
+
+      - name: Resolve configured README path
+        id: profile-config
+        shell: bash
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          from pathlib import Path
+          import yaml
+
+          config = yaml.safe_load(Path('.github/profile-signal.yml').read_text(encoding='utf-8')) or {}
+          readme_path = str((config.get('readme') or {}).get('path') or 'README.md')
+          if '\n' in readme_path or '\r' in readme_path:
+              raise SystemExit('readme.path must not contain newlines')
+          print(f'readme_path={readme_path}')
+          PY
+
+      - name: Refresh live-facing Profile Signal widgets
+        env:
+          PROFILE_SIGNAL_CONFIG: .github/profile-signal.yml
+        run: python .profile-signal/src/stream_runtime.py
+
+      - name: Commit live signal changes
+        shell: bash
+        env:
+          TARGET_BRANCH: ${{ github.event.repository.default_branch }}
+          README_PATH: ${{ steps.profile-config.outputs.readme_path }}
+        run: |
+          set -euo pipefail
+
+          paths=("$README_PATH" data/profile-signal-state.json)
+          if [ -z "$(git status --porcelain -- "${paths[@]}")" ]; then
+            echo "No live signal changes"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "${paths[@]}"
+
+          if git diff --cached --quiet; then
+            echo "No staged live signal changes"
+            exit 0
+          fi
+
+          git commit -m "chore(profile): refresh latest signals [skip ci]"
+
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:${TARGET_BRANCH}"; then
+              exit 0
+            fi
+            echo "Push failed (attempt ${attempt}); rebasing onto origin/${TARGET_BRANCH}"
+            git fetch origin "$TARGET_BRANCH"
+            git rebase "origin/${TARGET_BRANCH}"
+          done
+
+          echo "Failed to push latest signals after 3 attempts" >&2
+          exit 1
