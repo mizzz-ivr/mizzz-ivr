@@ -1,0 +1,58 @@
+name: Cleanup legacy Profile Signal publishing
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/cleanup-profile-signal-legacy.yml
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Remove legacy Profile Signal releases and tags
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          for version in v0.1.0 v0.2.0; do
+            if gh release view "$version" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+              gh release delete "$version" --repo "$GITHUB_REPOSITORY" --cleanup-tag --yes
+              echo "Removed legacy release ${version}"
+            fi
+          done
+
+      - name: Remove legacy Wiki pages
+        env:
+          WIKI_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          work_dir="${RUNNER_TEMP}/legacy-profile-wiki"
+          wiki_url="https://x-access-token:${WIKI_TOKEN}@github.com/${GITHUB_REPOSITORY}.wiki.git"
+
+          if ! git clone --quiet "$wiki_url" "$work_dir"; then
+            echo "Legacy Wiki repository is already unavailable"
+            exit 0
+          fi
+
+          git -C "$work_dir" config user.name "github-actions[bot]"
+          git -C "$work_dir" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          find "$work_dir" -maxdepth 1 -type f -name '*.md' -delete
+          git -C "$work_dir" add --all
+
+          if git -C "$work_dir" diff --cached --quiet; then
+            echo "Legacy Wiki has no pages to remove"
+            exit 0
+          fi
+
+          git -C "$work_dir" commit --quiet -m "docs: remove migrated Profile Signal wiki"
+          git -C "$work_dir" push origin HEAD
+          echo "Removed legacy Profile Signal Wiki pages"
