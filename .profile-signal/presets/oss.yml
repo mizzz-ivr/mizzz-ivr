@@ -1,0 +1,10 @@
+version: 1
+id: oss
+description: OSS-oriented dashboard highlighting focus, active repositories, recent public work, and recap.
+theme: signal
+widgets:
+  - live_signal
+  - current_focus
+  - now_building
+  - activity_stream
+  - dev_recap

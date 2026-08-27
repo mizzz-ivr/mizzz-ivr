@@ -1,0 +1,7 @@
+version: 1
+id: compact
+description: Compact snapshot focused on today's activity and current focus.
+theme: minimal
+widgets:
+  - today
+  - current_focus
