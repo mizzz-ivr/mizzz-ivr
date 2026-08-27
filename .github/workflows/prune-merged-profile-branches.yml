@@ -1,0 +1,72 @@
+name: Prune merged profile branches
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/prune-merged-profile-branches.yml
+
+permissions:
+  contents: write
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Delete merged work branches
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          branches=(
+            "docs/profile-signal-links"
+            "feat/developer-analytics-skill-sheet"
+            "feat/engineering-dna"
+            "feat/profile-ja-en-localization"
+            "feat/profile-long-term-summary"
+            "fix/profile-activity-ja-text"
+            "fix/profile-signal-scheduler-consolidation"
+            "fix/profile-signal-stream-frequency"
+            "chore/post-engineering-dna-cleanup"
+          )
+
+          for branch in "${branches[@]}"; do
+            if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
+              echo "Deleting merged branch: $branch"
+              git push origin --delete "$branch"
+            else
+              echo "Already absent: $branch"
+            fi
+          done
+
+      - name: Remove one-shot cleanup workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          workflow=".github/workflows/prune-merged-profile-branches.yml"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm "$workflow"
+          git commit -m "chore: remove one-shot branch prune workflow [skip ci]"
+
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push failed (attempt ${attempt}); rebasing onto latest main"
+            git fetch origin main
+            git rebase origin/main
+          done
+
+          echo "Failed to remove one-shot cleanup workflow after 3 attempts" >&2
+          exit 1
