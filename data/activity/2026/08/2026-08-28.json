@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 6,
-    "prs_opened": 4,
+    "commits": 17,
+    "prs_opened": 5,
     "issues_created": 0,
-    "issues_completed": 2
+    "issues_completed": 1
   },
   "activity": [
     {
       "type": "commit",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "docs: update Profile Signal article for standalone v0.4.0 (#37)  Align Qiita #3 source, notes, a",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/7b905200e7641d51eb6014a5e68bc3522601415b",
-      "at": "2026-08-28T01:51:08.000+09:00"
+      "title": "Merge pull request #38 from mizzz-ivr/feat/writing-analytics-content-opportunities",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/f8cf5fb7d0dcc5022f431cf07c4606437b58d07a",
+      "at": "2026-08-28T07:13:34.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "Merge pull request #55 from mizzz-ivr/fix/profile-signal-schedule-fallback",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/ec1e97db9767d6888ccf7150cd903a9375aec8f0",
+      "at": "2026-08-28T07:11:00.000+09:00"
     },
     {
       "type": "commit",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "Merge pull request #36 from mizzz-ivr/fix/qiita-sync-pr-fallback",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/13f7ea5052bf2773b1fa946266c9ac4a1fa2d368",
-      "at": "2026-08-28T01:39:29.000+09:00"
+      "title": "docs(analytics): document native Zenn coverage behavior",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/795b4d275965a56d7feef4058b6416e02530fe3b",
+      "at": "2026-08-28T01:58:57.000+09:00"
     },
     {
       "type": "commit",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "docs(qiita): document sync PR fallback",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/707639850ef414b557eeb48982156efc1858f534",
-      "at": "2026-08-28T01:31:59.000+09:00"
+      "title": "test(analytics): cover native Zenn and recency ranking",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/cbb2975a671bb5c0a3c676d9b100b3c487a87e42",
+      "at": "2026-08-28T01:58:21.000+09:00"
     },
     {
       "type": "commit",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "fix(qiita): handle disabled Actions PR creation",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/cefad612b64c5e28faa25eee8bbebec98ab6c9d4",
-      "at": "2026-08-28T01:31:11.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "revert: remove accidental probe file",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/f523d61d40ff22c9564bd140eeb8e13689166290",
-      "at": "2026-08-28T01:30:42.000+09:00"
+      "title": "fix(analytics): include published native Zenn articles in opportunities",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/86279f03f9745942dc4e816bbf40642c8cc0a00d",
+      "at": "2026-08-28T01:57:37.000+09:00"
     }
   ],
-  "generated_at": "2026-08-28T07:11:14+09:00"
+  "generated_at": "2026-08-28T07:24:43+09:00"
 }

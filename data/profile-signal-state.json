@@ -7,19 +7,19 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-27T22:11:02Z"
+    "last_activity_at": "2026-08-27T22:20:01Z"
   },
   "code_weather": {
-    "label": "ACTIVE",
-    "icon": "🌤️"
+    "label": "HEAVY CODING",
+    "icon": "⚡"
   },
   "streak": 4,
-  "activity_total": 12,
+  "activity_total": 23,
   "current_focus": {
     "repo": "mizzz-ivr/mizzz-ivr",
-    "score": 10,
-    "events": 5,
-    "last_activity_at": "2026-08-27T22:11:02Z",
+    "score": 12,
+    "events": 7,
+    "last_activity_at": "2026-08-27T22:14:19Z",
     "share": 18,
     "ci": {
       "label": "STABLE",
@@ -85,18 +85,18 @@
     },
     {
       "date": "2026-08-28",
-      "total": 12,
-      "commits": 6,
-      "prs": 4,
-      "issues": 2
+      "total": 23,
+      "commits": 17,
+      "prs": 5,
+      "issues": 1
     }
   ],
   "now_building": [
     {
       "repo": "mizzz-ivr/mizzz-ivr",
-      "score": 10,
-      "events": 5,
-      "last_activity_at": "2026-08-27T22:11:02Z",
+      "score": 12,
+      "events": 7,
+      "last_activity_at": "2026-08-27T22:14:19Z",
       "share": 18,
       "ci": {
         "label": "STABLE",
@@ -121,7 +121,7 @@
       "score": 7,
       "events": 7,
       "last_activity_at": "2026-08-27T17:03:34Z",
-      "share": 12,
+      "share": 11,
       "ci": {
         "label": "ATTENTION",
         "symbol": "!",
@@ -145,35 +145,21 @@
     {
       "label": "ISSUE",
       "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "Closed issue #52",
+      "title": "Reopened issue #52",
       "url": "https://github.com/mizzz-ivr/mizzz-ivr/issues/52",
-      "at": "2026-08-27T22:11:02Z"
-    },
-    {
-      "label": "PR",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "PR merged #55",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr",
-      "at": "2026-08-27T22:11:01Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "1 commit pushed to security/issue-17-payload-admin-hardening",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
-      "at": "2026-08-27T17:03:34Z"
+      "at": "2026-08-27T22:14:09Z"
     }
   ],
-  "generated_at": "2026-08-28T07:11:14+09:00",
+  "generated_at": "2026-08-28T07:24:43+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
     "window_days": 7,
     "evaluated": 24,
-    "passed": 20,
-    "failed": 4,
+    "passed": 21,
+    "failed": 3,
     "ignored": 6,
-    "pass_rate": 83,
+    "pass_rate": 88,
     "repos_with_signal": 3
   },
   "dev_recap": {
@@ -194,13 +180,13 @@
         "active_days": 4
       },
       "metrics": {
-        "commits": 1127,
-        "prs_opened": 95,
+        "commits": 1138,
+        "prs_opened": 96,
         "issues_created": 40,
-        "issues_completed": 29,
-        "activity_total": 1291
+        "issues_completed": 28,
+        "activity_total": 1302
       },
-      "generated_at": "2026-08-28T07:11:14+09:00"
+      "generated_at": "2026-08-28T07:24:43+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -215,13 +201,13 @@
         "active_days": 4
       },
       "metrics": {
-        "commits": 1127,
-        "prs_opened": 95,
+        "commits": 1138,
+        "prs_opened": 96,
         "issues_created": 40,
-        "issues_completed": 29,
-        "activity_total": 1291
+        "issues_completed": 28,
+        "activity_total": 1302
       },
-      "generated_at": "2026-08-28T07:11:14+09:00"
+      "generated_at": "2026-08-28T07:24:43+09:00"
     },
     "achievements": [
       {
@@ -267,11 +253,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-08-28",
       "metrics": {
-        "commits": 1127,
-        "prs_opened": 95,
+        "commits": 1138,
+        "prs_opened": 96,
         "issues_created": 40,
-        "issues_completed": 29,
-        "activity_total": 1291
+        "issues_completed": 28,
+        "activity_total": 1302
       }
     },
     "lifetime": {
@@ -280,11 +266,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-08-28",
       "metrics": {
-        "commits": 1127,
-        "prs_opened": 95,
+        "commits": 1138,
+        "prs_opened": 96,
         "issues_created": 40,
-        "issues_completed": 29,
-        "activity_total": 1291
+        "issues_completed": 28,
+        "activity_total": 1302
       }
     }
   }
