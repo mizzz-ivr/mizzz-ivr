@@ -25,6 +25,8 @@ Profile Signalは引き続き `LIVE SIGNAL / TODAY / CURRENT FOCUS / DEV PULSE /
 
 Developer Analyticsは「何を作れるか / どの領域のEvidenceがあるか」を担当します。
 
+Consumer側の `.github/profile-signal.yml` はREADME内の挿入位置だけをDeveloper Analytics markerへ合わせます。Profile Signal runtime自体は変更しません。
+
 ### Public / Private
 
 Committed outputは **public-safe GitHub evidenceのみ** を対象にします。
@@ -72,7 +74,15 @@ data/developer-analytics/snapshots/  # manual runごとのhistory
 
 ### Pull Request
 
-PRでは設定・unit test・offline renderだけを検証し、生成物をcommitしません。
+PRでは次を検証し、生成物はcommitしません。
+
+1. config validation
+2. deterministic unit tests
+3. offline render smoke test
+4. GitHub APIによるPublic Repository / Fork / live evidenceのstrict validation
+5. `.profile-signal/**` が変更されていないこと
+
+PR validationで生成するJSON / Markdownは一時directoryへ出力し、Repositoryへcommitしません。
 
 ### Manual
 
@@ -86,6 +96,19 @@ Skill Sheet / Analyticsのユーザー向け再生成は **GitHub Actions `workf
 4. `data/developer-analytics/latest.json`
 5. `data/developer-analytics/snapshots/<timestamp>.json`
 6. 同じ内容をGitHub Actions artifactとして30日保持
+
+`latest.json` は初回merge時のみ `bootstrap-pending-manual` として配置し、最初の手動実行後に `github-api` collectionへ置き換わります。
+
+## README policy
+
+READMEでは同じ情報を複数箇所へ固定表示しません。
+
+- Profile Signal: 現在のActivity / Focus / Pulse / Recap
+- Developer Analytics: 技術Evidence / Engineering Range / Development Practice / Assignment Coverage
+- Public Builds: 代表Evidenceのみ
+- Skill Sheet: 営業・受託・案件アサイン向け詳細
+
+静的な `NOW / STACK / BUILD LOGIC / PUBLIC REPOSITORIES` はDeveloper Analyticsへ統合します。Hero imageにはProject名・現在のStackなど時間で古くなる情報を埋め込まず、Identity / Engineering directionだけを表示します。
 
 ## Maintenance
 
