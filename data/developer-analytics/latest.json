@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-27T10:02:46Z",
+  "scope": "public-github-evidence",
+  "collection_mode": "bootstrap-pending-manual",
+  "profile": {
+    "github_login": "mizzz-ivr",
+    "display_name": "いゔる。 a.k.a. mizzz（ずーみー）",
+    "website": "https://ivmz.ivrm.jp",
+    "contact": "ivmz@ivrm.jp",
+    "headline": "Product-minded Full Stack Developer"
+  },
+  "summary": {
+    "tracked_projects": 9,
+    "live_collection_completed": false
+  },
+  "projects": [],
+  "skills": [],
+  "domains": [],
+  "capabilities": [],
+  "practices": [],
+  "ownership": [],
+  "assignment_fit": [],
+  "trend": {
+    "previous_snapshot_at": null,
+    "new_skills": [],
+    "changed_skills": []
+  },
+  "data_quality": {
+    "errors": [],
+    "limitations": [
+      "Bootstrap state only. Run the Developer Analytics workflow manually to collect live public GitHub evidence.",
+      "This measures public GitHub evidence, not total professional experience or proficiency.",
+      "No public evidence means not observed; it must not be interpreted as no experience.",
+      "Private repositories and confidential project metadata are intentionally excluded from committed outputs."
+    ]
+  }
+}
