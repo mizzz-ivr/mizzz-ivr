@@ -1,0 +1,129 @@
+name: Sync Profile Signal wiki
+
+on:
+  pull_request:
+    paths:
+      - docs/wiki/**
+      - .github/workflows/sync-profile-signal-wiki.yml
+  push:
+    branches:
+      - main
+    paths:
+      - docs/wiki/**
+      - .github/workflows/sync-profile-signal-wiki.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-signal-wiki-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate-wiki:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v7
+
+      - name: Validate wiki pages and internal links
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import re
+          from pathlib import Path
+
+          root = Path('docs/wiki')
+          required = {
+              'Home.md',
+              'Installation.md',
+              'Configuration.md',
+              'Presets.md',
+              'License.md',
+              '_Sidebar.md',
+          }
+
+          existing = {path.name for path in root.glob('*.md')}
+          missing = sorted(required - existing)
+          if missing:
+              raise SystemExit('missing required wiki pages: ' + ', '.join(missing))
+
+          broken: list[str] = []
+          link_pattern = re.compile(r'\[[^\]]+\]\(([^)]+)\)')
+          for path in sorted(root.glob('*.md')):
+              text = path.read_text(encoding='utf-8')
+              for target in link_pattern.findall(text):
+                  if target.startswith(('http://', 'https://', '#', 'mailto:')):
+                      continue
+                  page = target.split('#', 1)[0]
+                  if not page:
+                      continue
+                  candidate = page if page.endswith('.md') else f'{page}.md'
+                  if candidate not in existing:
+                      broken.append(f'{path.name}: {target}')
+
+          if broken:
+              raise SystemExit('broken internal wiki links:\n' + '\n'.join(broken))
+
+          print(f'Validated {len(existing)} wiki Markdown files')
+          PY
+
+  sync-wiki:
+    if: github.event_name != 'pull_request'
+    needs: validate-wiki
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v7
+
+      - name: Sync docs/wiki to GitHub Wiki
+        shell: bash
+        env:
+          WIKI_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          source_dir="$GITHUB_WORKSPACE/docs/wiki"
+          work_dir="$RUNNER_TEMP/profile-signal-wiki"
+          wiki_url="https://x-access-token:${WIKI_TOKEN}@github.com/${GITHUB_REPOSITORY}.wiki.git"
+
+          rm -rf "$work_dir"
+
+          if git clone --quiet "$wiki_url" "$work_dir"; then
+            echo "Existing wiki repository cloned"
+          else
+            echo "Wiki repository is not initialized yet; creating the first wiki commit"
+            mkdir -p "$work_dir"
+            git -C "$work_dir" init --quiet
+            git -C "$work_dir" branch -M master
+            git -C "$work_dir" remote add origin "$wiki_url"
+          fi
+
+          git -C "$work_dir" config user.name "github-actions[bot]"
+          git -C "$work_dir" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          find "$work_dir" -maxdepth 1 -type f -name '*.md' -delete
+          cp "$source_dir"/*.md "$work_dir"/
+
+          git -C "$work_dir" add --all
+
+          if git -C "$work_dir" diff --cached --quiet; then
+            echo "Wiki is already up to date"
+            exit 0
+          fi
+
+          git -C "$work_dir" commit --quiet -m "docs: sync Profile Signal wiki"
+
+          if git -C "$work_dir" rev-parse --verify --quiet '@{u}' >/dev/null 2>&1; then
+            git -C "$work_dir" push origin HEAD
+          else
+            git -C "$work_dir" push --set-upstream origin HEAD:master
+          fi
+
+          echo "Profile Signal wiki synchronized"
