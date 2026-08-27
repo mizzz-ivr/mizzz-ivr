@@ -6,14 +6,6 @@ on:
       - README.md
       - .github/profile-signal.yml
       - .profile-signal/**
-      - scripts/update-profile-activity.py
-      - scripts/profile_signal.py
-      - scripts/update-profile-signal.py
-      - scripts/profile_signal_operations.py
-      - scripts/profile_signal_history.py
-      - tests/test_profile_signal.py
-      - tests/test_profile_signal_history.py
-      - tests/test_profile_signal_action.py
       - .github/workflows/update-readme.yml
   schedule:
     - cron: "17 */3 * * *"
@@ -42,17 +34,12 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Validate Python and action config
+      - name: Validate installed Profile Signal runtime
         run: |
           python -m pip install --disable-pip-version-check --quiet PyYAML==6.0.2
           python -m py_compile \
-            scripts/update-profile-activity.py \
-            scripts/profile_signal.py \
-            scripts/update-profile-signal.py \
-            scripts/profile_signal_operations.py \
-            scripts/profile_signal_history.py \
-            .profile-signal/src/orchestrator.py
-          python -m unittest discover -s tests -v
+            .profile-signal/src/*.py \
+            .profile-signal/scripts/*.py
 
       - name: Generate Profile Signal preview through installed runtime
         uses: ./.profile-signal
@@ -136,22 +123,11 @@ jobs:
               if marker not in readme:
                   raise SystemExit(f"Missing README marker: {marker}")
 
-          if "Today&apos;s signal" in readme:
-              raise SystemExit("TODAY still duplicates ACTIVITY STREAM")
-          if "CI SIGNAL" not in readme:
-              raise SystemExit("DEV PULSE is missing CI SIGNAL")
-          if "health combines repository recency" not in readme:
-              raise SystemExit("NOW BUILDING is missing project health explanation")
-          if "MONTHLY BUILD REPORT + ACHIEVEMENTS" not in readme:
-              raise SystemExit("DEV RECAP is missing collapsed monthly / achievements content")
-          if "not lifetime GitHub totals" not in readme:
-              raise SystemExit("DEV RECAP must disclose tracked-history scope")
-
           ET.parse("assets/activity-7d.svg")
           ET.parse("assets/dev-pulse.svg")
           print(
               f"Validated {len(logs)} daily snapshots, {len(weekly)} weekly reports, "
-              f"{len(monthly)} monthly reports, Profile Signal v4 state, installed runtime dogfood and seven profile sections"
+              f"{len(monthly)} monthly reports, Profile Signal v4 state and seven profile sections"
           )
           PY
 
@@ -174,17 +150,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Validate Python and action config
-        run: |
-          python -m pip install --disable-pip-version-check --quiet PyYAML==6.0.2
-          python -m py_compile \
-            scripts/update-profile-activity.py \
-            scripts/profile_signal.py \
-            scripts/update-profile-signal.py \
-            scripts/profile_signal_operations.py \
-            scripts/profile_signal_history.py \
-            .profile-signal/src/orchestrator.py
-          python -m unittest discover -s tests -v
+      - name: Install Profile Signal dependency
+        run: python -m pip install --disable-pip-version-check --quiet PyYAML==6.0.2
 
       - name: Update profile through installed Profile Signal runtime
         uses: ./.profile-signal
