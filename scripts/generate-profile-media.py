@@ -6,14 +6,13 @@ import random
 import urllib.request
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
+from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
 ASSETS.mkdir(parents=True, exist_ok=True)
 
 W, H = 1600, 640
-AVATAR_SIZE = 1024
 AVATAR_URL = "https://avatars.githubusercontent.com/u/86910433?v=4"
 
 BG_TOP = (7, 7, 18)
@@ -100,40 +99,6 @@ def rounded_panel(draw: ImageDraw.ImageDraw, box, radius: int = 22) -> None:
     draw.rounded_rectangle(box, radius=radius, fill=(13, 15, 32, 218), outline=(147, 112, 222, 120), width=2)
 
 
-def make_avatar() -> None:
-    base = gradient(AVATAR_SIZE, AVATAR_SIZE).convert("RGBA")
-    add_stars(base, 150)
-    add_halftone(base, (80, 90), 860, 850, 24)
-
-    glow = Image.new("RGBA", base.size, (0, 0, 0, 0))
-    gd = ImageDraw.Draw(glow)
-    gd.ellipse((92, 92, 932, 932), fill=(*PURPLE, 72))
-    gd.ellipse((180, 180, 844, 844), fill=(*CYAN, 40))
-    base.alpha_composite(glow.filter(ImageFilter.GaussianBlur(46)))
-
-    avatar = load_current_avatar(920)
-    avatar = ImageEnhance.Contrast(avatar).enhance(1.04)
-    avatar = ImageEnhance.Color(avatar).enhance(1.06)
-    avatar = Image.blend(avatar, Image.new("RGB", avatar.size, (118, 77, 170)), 0.055)
-
-    mask = Image.new("L", (920, 920), 0)
-    ImageDraw.Draw(mask).ellipse((18, 18, 902, 902), fill=255)
-    portrait = Image.new("RGBA", (920, 920), (0, 0, 0, 0))
-    portrait.paste(avatar.convert("RGBA"), (0, 0), mask)
-    base.alpha_composite(portrait, (52, 52))
-
-    overlay = Image.new("RGBA", base.size, (0, 0, 0, 0))
-    draw = ImageDraw.Draw(overlay)
-    for radius, color, start, span in [(454, PURPLE, 208, 245), (432, CYAN, 20, 78), (413, PINK, 112, 66)]:
-        draw.arc((512-radius, 512-radius, 512+radius, 512+radius), start=start, end=start+span, fill=(*color, 235), width=9)
-    draw.ellipse((472, 62, 492, 82), fill=(*CYAN, 255))
-    draw.ellipse((884, 742, 910, 768), fill=(*PINK, 230))
-    draw.rounded_rectangle((90, 854, 276, 904), radius=18, fill=(10, 12, 26, 205), outline=(*PURPLE, 130), width=2)
-    draw.text((112, 867), "BUILD SIGNAL", font=font(17, True), fill=CYAN)
-    base.alpha_composite(overlay)
-    base.convert("RGB").save(ASSETS / "profile-avatar-remix.png", optimize=True, quality=95)
-
-
 def make_hero() -> None:
     base = gradient(W, H).convert("RGBA")
     add_stars(base, 210, 0.9)
@@ -182,7 +147,7 @@ def make_hero() -> None:
     layer.alpha_composite(portrait, (1020, 54))
     for radius, color, start, span in [(276, PURPLE, 200, 270), (257, CYAN, 20, 76), (241, PINK, 118, 54)]:
         draw.arc((1290-radius, 324-radius, 1290+radius, 324+radius), start=start, end=start+span, fill=(*color, 220), width=6)
-    draw.text((1090, 555), "CURRENT AVATAR // REMIX", font=font(13, True), fill=LAVENDER)
+    draw.text((1090, 555), "CURRENT AVATAR", font=font(13, True), fill=LAVENDER)
 
     base.alpha_composite(layer)
     base.convert("RGB").save(ASSETS / "profile-hero.png", optimize=True, quality=95)
@@ -217,7 +182,6 @@ def make_motion() -> None:
 
 
 if __name__ == "__main__":
-    make_avatar()
     make_hero()
     make_motion()
-    print("Generated profile-avatar-remix.png, profile-hero.png and profile-motion.gif")
+    print("Generated profile-hero.png and profile-motion.gif")

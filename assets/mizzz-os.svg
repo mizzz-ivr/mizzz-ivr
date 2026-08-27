@@ -1,9 +1,0 @@
-<svg width="1200" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="mizzz os online panel">
-<rect width="1200" height="200" rx="16" fill="#0b1220"/>
-<rect x="10" y="10" width="1180" height="180" rx="14" fill="none" stroke="#60a5fa" stroke-opacity="0.5"/>
-<text x="34" y="52" fill="#f8fafc" font-size="32" font-family="Segoe UI,Arial">mizzz OS</text>
-<text x="34" y="86" fill="#67e8f9" font-size="16" font-family="Segoe UI,Arial">SYSTEM ONLINE / PRODUCT BUILDER MODE</text>
-<text x="34" y="114" fill="#cbd5e1" font-size="14" font-family="Segoe UI,Arial">AI NATIVE WORKFLOW: ACTIVE</text>
-<rect x="34" y="132" width="420" height="10" rx="5" fill="#1f2937"/><rect x="34" y="132" width="300" height="10" rx="5" fill="#8b5cf6"><animate attributeName="width" values="220;390;280;300" dur="8s" repeatCount="indefinite"/></rect>
-<rect y="0" width="1200" height="2" fill="#38bdf8" opacity="0.45"><animate attributeName="y" values="0;200;0" dur="10s" repeatCount="indefinite"/></rect>
-</svg>

@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" role="img" aria-label="contact portal cyber terminal">
-<defs><linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#020617"/><stop offset="1" stop-color="#111827"/></linearGradient><linearGradient id="b" x1="0" x2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs>
-<rect width="1200" height="240" fill="url(#a)"/><rect x="30" y="24" width="1140" height="192" rx="18" fill="#0f172a" fill-opacity=".72" stroke="#60a5fa" stroke-opacity=".45"/>
-<text x="64" y="62" fill="#f8fafc" font-size="28">CONTACT PORTAL</text>
-<g transform="translate(600 124)"><circle r="54" fill="none" stroke="#1e293b" stroke-width="15"/><circle r="54" fill="none" stroke="url(#b)" stroke-width="5" stroke-dasharray="120 80"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/></circle><circle r="7" fill="#ef4444"><animate attributeName="opacity" values="1;.4;1" dur="4s" repeatCount="indefinite"/></circle></g>
-<g fill="#cbd5e1" font-size="18"><text x="130" y="142">Website</text><text x="340" y="142">Email</text><text x="825" y="142">X</text><text x="1000" y="142">Instagram</text></g>
-<g stroke="url(#b)" stroke-width="2" fill="none"><path d="M185 150 L545 126"/><path d="M390 150 L545 126"/><path d="M655 126 L870 150"/><path d="M655 126 L1040 150"/></g>
-</svg>
