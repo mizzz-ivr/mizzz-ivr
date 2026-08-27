@@ -1,175 +1,64 @@
-# Skill Sheet — いゔる。 / mizzz
+<p align="right"><strong>日本語</strong> · <a href="./SKILL_SHEET.en.md">English</a></p>
 
-> 生成日時: `2026-08-27T10:02:46Z` / Source: Public GitHub Evidence / Mode: `offline-config`  
-> フリーランス・受託・案件アサイン時に再利用できる公開Evidenceベースのスキルシートです。
+# スキルシート — いゔる。 / mizzz
 
-## 基本情報
+## 概要
 
-- **Name / Handle:** いゔる。 a.k.a. mizzz（ずーみー）
-- **GitHub:** https://github.com/mizzz-ivr
-- **Website:** https://ivmz.ivrm.jp
-- **Contact:** ivmz@ivrm.jp
-- **Role:** Product-minded Full Stack Developer
+- **職種:** プロダクト志向のフルスタックエンジニア
+- **得意領域:** React / TypeScriptを軸にしたWeb開発、API / DB、リアルタイムAI、Discord、CI/CD・運用
+- **開発スタイル:** 実装だけで終わらせず、テスト・ドキュメント・デプロイ・運用まで一貫して扱う
 
-## エンジニアリング概要
+## 主な技術
 
-React / TypeScript を軸に、Web FrontendだけでなくAPI・DB・Realtime AI・Discord・Worker・CI/CD・Docker・運用までつなげて実装するFull Stack / Product Engineer。Issue / PR / CI / Docsを実装と同時に更新し、RepositoryをSource of Truthとして小さく出して安全に改善する開発を重視しています。
+<p align="center">
+  <img src="https://img.shields.io/badge/React-1F6FEB?style=flat-square&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-1F6FEB?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Next.js-1F6FEB?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Node.js-1F6FEB?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Python-1F6FEB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Go-1F6FEB?style=flat-square&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/PostgreSQL-1F6FEB?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Docker-1F6FEB?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-1F6FEB?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+</p>
 
-### 公開Evidenceが特に強い技術
+| 分野 | 主な技術 |
+| --- | --- |
+| フロントエンド | TypeScript / React / Next.js / Tailwind CSS / Astro / Vite |
+| バックエンド | Node.js / NestJS / Python / Flask / Go |
+| データ | PostgreSQL / Prisma / Redis / Supabase / SQLite |
+| AI / コミュニティ | OpenAI Realtime API / Discord.js / Discord Voice / Electron |
+| DevOps / インフラ | Docker / GitHub Actions / Netlify / Vercel / AWS Lightsail / OCI |
 
-**React** / **Docker** / **TypeScript** / **PostgreSQL**
+## 強み
 
-## 技術Evidence
+- フロントエンドからAPI / DB / Workerまでつなげるフルスタック実装
+- Realtime AI・Discord Voiceなどリアルタイム処理の実装
+- 認証・権限・Secret管理・最小権限を含む安全な設計
+- CI / 自動テスト / Docker / リリースを含むDelivery
+- Issue / PR / README / Docsを実装と同時に更新するRepository中心の開発
 
-| Technology | Evidence | Score | Projects | Latest public evidence |
-| --- | --- | --- | --- | --- |
-| React | REPEATED | 55 | 6 | not observed |
-| Docker | REPEATED | 55 | 5 | not observed |
-| TypeScript | REPEATED | 55 | 5 | not observed |
-| PostgreSQL | REPEATED | 55 | 4 | not observed |
-| Next.js | ESTABLISHED | 45 | 3 | not observed |
-| Python | ESTABLISHED | 45 | 3 | not observed |
-| Tailwind CSS | ESTABLISHED | 45 | 3 | not observed |
-| Playwright | ESTABLISHED | 35 | 2 | not observed |
-| Vitest | ESTABLISHED | 35 | 2 | not observed |
-| GitHub Actions | EMERGING | 34 | 2 | not observed |
-| GitHub API | EMERGING | 34 | 2 | not observed |
-| Go | EMERGING | 34 | 2 | not observed |
-| YAML | EMERGING | 34 | 2 | not observed |
-| AWS Lightsail | EMERGING | 32 | 2 | not observed |
-| Discord.js | EMERGING | 32 | 2 | not observed |
-| Node.js | EMERGING | 32 | 2 | not observed |
-| Vercel | EMERGING | 30 | 2 | not observed |
-| Astro | EMERGING | 20 | 1 | not observed |
-| AWS S3 | EMERGING | 20 | 1 | not observed |
-| Cloudflare Workers | EMERGING | 20 | 1 | not observed |
+## 主な公開プロジェクト
 
-> `Evidence Score` は公開GitHub上で確認できる証拠の量・広がり・新しさを表す指標です。能力値・習熟度・経験年数ではありません。
-
-## 開発手法 / Engineering Practices
-
-| Practice | Evidence | Projects |
+| Project | 概要 | 主な技術 |
 | --- | --- | --- |
-| repository-driven-development | REPEATED | ivRooom/Herta, ivRooom/ivrm-dashboard, mizzz-ivr/ivmz-home, mizzz-ivr/quizverse, mizzz-ivr/roomate-voice |
-| security-by-design | REPEATED | ivRooom/Herta, ivRooom/ivrm-dashboard, ivRooom/ivrm-member-site, mizzz-ivr/quizverse, mizzz-ivr/roomate-voice |
-| automated-testing | REPEATED | ivRooom/ivrm-member-site, mizzz-ivr/ivmz-home, mizzz-ivr/profile-signal, mizzz-ivr/quizverse |
-| accessibility-first | ESTABLISHED | ivRooom/ivrm-member-site, mizzz-ivr/ivmz-home |
-| dependency-management | EMERGING | ivRooom/ivrm-member-site |
-| performance-budget | EMERGING | ivRooom/ivrm-member-site |
-| portability | EMERGING | mizzz-ivr/ivmz-home |
-| progressive-enhancement | EMERGING | mizzz-ivr/ivmz-home |
-| auditability | EMERGING | ivRooom/Herta |
-| backward-compatibility | EMERGING | mizzz-ivr/profile-signal |
-| configuration-driven-development | EMERGING | mizzz-ivr/profile-signal |
-| fail-close | EMERGING | mizzz-ivr/roomate-voice |
-| fault-isolation | EMERGING | ivRooom/Herta |
-| graceful-shutdown | EMERGING | mizzz-ivr/site-sentry-go |
-| least-privilege | EMERGING | ivRooom/ivrm-dashboard |
-| observability | EMERGING | ivRooom/ivrm-dashboard |
-| privacy-conscious-logging | EMERGING | mizzz-ivr/roomate-voice |
-| release-automation | EMERGING | mizzz-ivr/profile-signal |
+| [Herta](https://github.com/ivRooom/Herta) | Discordコミュニティ基盤。API / Studio / Bot / Worker / Plugin Runtimeを含むモノレポ | TypeScript / NestJS / Next.js / PostgreSQL / Redis |
+| [RooMate Voice](https://github.com/mizzz-ivr/roomate-voice) | Discord Voice × リアルタイム音声AI / Windows Desktop App | TypeScript / OpenAI Realtime / Discord Voice / Electron / Docker |
+| [ivmz-home](https://github.com/mizzz-ivr/ivmz-home) | 個人Web / ポートフォリオ基盤。CMS / SEO / a11y / Testまで対応 | Next.js / React / Payload / PostgreSQL / Playwright |
+| [IVRM Dashboard](https://github.com/ivRooom/ivrm-dashboard) | Minecraft / Web / Cloudを監視する統合運用コンソール | TypeScript / Next.js / Go / Supabase / Docker |
 
-## Delivery / Ownership Evidence
+## 案件タイプ別
 
-| Area | Evidence | Projects |
-| --- | --- | --- |
-| documentation | REPEATED | ivRooom/Herta, ivRooom/ivrm-dashboard, ivRooom/ivrm-member-site, mizzz-ivr/ivmz-home, mizzz-ivr/profile-signal |
-| implementation | REPEATED | ivRooom/Herta, ivRooom/ivrm-dashboard, ivRooom/ivrm-member-site, mizzz-ivr/ivmz-home, mizzz-ivr/profile-signal |
-| architecture | REPEATED | ivRooom/Herta, ivRooom/ivrm-dashboard, ivRooom/ivrm-member-site, mizzz-ivr/ivmz-home, mizzz-ivr/profile-signal |
-| testing | REPEATED | ivRooom/Herta, ivRooom/ivrm-dashboard, ivRooom/ivrm-member-site, mizzz-ivr/ivmz-home, mizzz-ivr/profile-signal |
-| delivery | REPEATED | ivRooom/Herta, ivRooom/ivrm-member-site, mizzz-ivr/ivmz-home, mizzz-ivr/quizverse, mizzz-ivr/roomate-voice |
-| operations | ESTABLISHED | ivRooom/Herta, ivRooom/ivrm-dashboard, mizzz-ivr/roomate-voice |
-| security | ESTABLISHED | ivRooom/Herta, ivRooom/ivrm-dashboard, mizzz-ivr/roomate-voice |
-| release-engineering | EMERGING | mizzz-ivr/profile-signal, mizzz-ivr/tech-writing |
+| 分野 | 公開実績 |
+| --- | ---: |
+| フルスタック開発 | 100% |
+| リアルタイムAI / 音声 | 100% |
+| プラットフォーム / 開発ツール | 100% |
+| Discord / コミュニティ基盤 | 100% |
+| DevOps / 可観測性 | 86% |
 
-## 案件タイプ別 Public Evidence Coverage
+## 連絡先
 
-| Area | Coverage | Public evidence gap |
-| --- | --- | --- |
-| Discord / Community Systems | 100% | Configured signal setでは不足なし |
-| Full-stack Product Development | 100% | Configured signal setでは不足なし |
-| Platform / Developer Tooling | 100% | Configured signal setでは不足なし |
-| Realtime AI / Voice | 100% | Configured signal setでは不足なし |
-| DevOps / Observability | 86% | ci-cd |
-
-> Coverageは採用適合度ではなく、設定した技術・Capability・Practiceを公開Repositoryでどれだけ証明できるかを示します。
-
-## Selected Public Projects
-
-### [Herta](https://github.com/ivRooom/Herta)
-
-Discord Community Operating System。NestJS API / Next.js Studio / Discord Bot / BullMQ Worker / Plugin Runtimeを含むモノレポ。
-
-- **Domains:** backend-platform, community-platform, developer-platform
-- **Technologies:** BullMQ, Discord.js, Docker, NestJS, Next.js, Node.js, PostgreSQL, Prisma, React, Redis, TypeScript
-- **Capabilities:** authentication-authorization, backend-api, frontend, full-stack, observability, platform-architecture, plugin-runtime, worker-queues
-- **Ownership:** architecture, delivery, documentation, implementation, operations, security, testing
-- **Observed delivery / practices:** auditability, fault-isolation, repository-driven-development, security-by-design
-- **Evidence:** [Repository architecture / stack](https://github.com/ivRooom/Herta/blob/main/README.md)
-- **Evidence:** [Plugin Runtime](https://github.com/ivRooom/Herta/blob/main/docs/PLUGIN_RUNTIME.md)
-
-### [ivmz-home](https://github.com/mizzz-ivr/ivmz-home)
-
-Next.js 16 / Payload / PostgreSQLを軸にしたPersonal Web / Portfolio Platform。SEO、a11y、CMS、運用可搬性を重視。
-
-- **Domains:** cms, portfolio-platform, web-product
-- **Technologies:** AWS S3, Netlify, Next.js, Payload CMS, Playwright, PostgreSQL, React, Tailwind CSS, TypeScript, Vitest
-- **Capabilities:** accessibility, cms-integration, database-design, deployment-architecture, frontend, full-stack, seo
-- **Ownership:** architecture, delivery, documentation, implementation, testing
-- **Observed delivery / practices:** accessibility-first, automated-testing, portability, progressive-enhancement, repository-driven-development
-- **Evidence:** [Product principles / foundation stack](https://github.com/mizzz-ivr/ivmz-home/blob/main/README.md)
-- **Evidence:** [Hosting architecture](https://github.com/mizzz-ivr/ivmz-home/blob/main/docs/hosting.md)
-
-### [QuizVerse](https://github.com/mizzz-ivr/quizverse)
-
-React + Flask + PostgreSQLのクイズ / 学習Webプラットフォーム。認証、レビュー、ランキング、履歴、DB migration、テストを実装。
-
-- **Domains:** learning-platform, web-product
-- **Technologies:** Docker, Flask, JavaScript, PostgreSQL, Python, React, SQLAlchemy, Tailwind CSS, Vercel, Vite
-- **Capabilities:** authentication-authorization, backend-api, database-design, frontend, full-stack, schema-migrations
-- **Ownership:** delivery, documentation, implementation, testing
-- **Observed delivery / practices:** automated-testing, repository-driven-development, security-by-design
-- **Evidence:** [Stack / tests / product features](https://github.com/mizzz-ivr/quizverse/blob/main/README.md)
-- **Evidence:** [Review feature specification](https://github.com/mizzz-ivr/quizverse/blob/main/docs/issues/ISSUE-0046.md)
-
-### [RooMate Voice](https://github.com/mizzz-ivr/roomate-voice)
-
-Discord Voice × OpenAI Realtimeの音声AIとWindows Desktop App。音声処理、Secret保護、Release/Installerまで扱う。
-
-- **Domains:** community-platform, desktop-app, realtime-ai
-- **Technologies:** AWS Lightsail, Discord Voice, Discord.js, Docker, Electron, Node.js, OpenAI Realtime API, React, TypeScript
-- **Capabilities:** ai-integration, desktop-application, realtime-systems, release-engineering, secret-management, voice-processing
-- **Ownership:** architecture, delivery, documentation, implementation, operations, security, testing
-- **Observed delivery / practices:** fail-close, privacy-conscious-logging, repository-driven-development, security-by-design
-- **Evidence:** [Voice / Desktop architecture](https://github.com/mizzz-ivr/roomate-voice/blob/main/README.md)
-- **Evidence:** [Windows Desktop Preview release](https://github.com/mizzz-ivr/roomate-voice/releases/tag/v0.1.0)
-
-### [IVRM Dashboard](https://github.com/ivRooom/ivrm-dashboard)
-
-Next.js + Supabase + Go AgentでMinecraft/Web/Cloud基盤を安全に監視する統合運用コンソール。
-
-- **Domains:** infrastructure, minecraft-operations, observability, operations-platform
-- **Technologies:** AWS Lightsail, Docker, Go, Next.js, OCI, PostgreSQL, React, Supabase, TypeScript, Vercel
-- **Capabilities:** agent-architecture, frontend, infrastructure-operations, monitoring, realtime-data, security-architecture
-- **Ownership:** architecture, documentation, implementation, operations, security, testing
-- **Observed delivery / practices:** least-privilege, observability, repository-driven-development, security-by-design
-- **Evidence:** [Architecture / monitoring model](https://github.com/ivRooom/ivrm-dashboard/blob/main/README.md)
-
-### [Site Sentry Go](https://github.com/mizzz-ivr/site-sentry-go)
-
-Go + SQLiteのWebサイト死活監視MVP。Scheduler、timeout、履歴、health check、graceful shutdownを備える。
-
-- **Domains:** backend-tool, developer-tooling, observability
-- **Technologies:** Docker, Go, HTTP, SQLite
-- **Capabilities:** backend-api, monitoring, reliability-engineering, scheduler
-- **Ownership:** architecture, documentation, implementation, testing
-- **Observed delivery / practices:** graceful-shutdown, repository-driven-development, simple-architecture, timeout-control
-- **Evidence:** [Architecture / monitoring behavior](https://github.com/mizzz-ivr/site-sentry-go/blob/main/README.md)
-
-## 利用時の注意
-
-- 公開して問題ないGitHub Evidenceだけに限定しています。
-- Private Repository、顧客情報、秘密情報、非公開案件のRepository名は出力しません。
-- 公開Evidenceが無い項目は **未経験** ではなく **GitHub上では未観測** と扱います。
-- 営業提出時には守秘義務に反しない職務経歴・担当期間・契約条件を必要に応じて別途追記してください。
-- このSkill Sheetは手動実行時だけ再生成され、定期scheduleでは更新しません。
+- GitHub: https://github.com/mizzz-ivr
+- Web: https://ivmz.ivrm.jp
+- Email: ivmz@ivrm.jp
