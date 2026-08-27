@@ -7,6 +7,7 @@ on:
       - .github/profile-signal.yml
       - .profile-signal/**
       - .github/workflows/update-readme.yml
+      - .github/workflows/profile-signal-stream.yml
   schedule:
     - cron: "17 */3 * * *"
       timezone: "Asia/Tokyo"
@@ -16,7 +17,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: profile-activity-${{ github.ref }}
+  group: profile-signal-profile-write-${{ github.event.repository.default_branch }}
   cancel-in-progress: false
 
 jobs:
@@ -45,6 +46,11 @@ jobs:
         uses: ./.profile-signal
         with:
           config: .github/profile-signal.yml
+
+      - name: Validate lightweight latest-signals runtime
+        env:
+          PROFILE_SIGNAL_CONFIG: .github/profile-signal.yml
+        run: python .profile-signal/src/stream_runtime.py
 
       - name: Validate generated files
         shell: bash
@@ -127,7 +133,8 @@ jobs:
           ET.parse("assets/dev-pulse.svg")
           print(
               f"Validated {len(logs)} daily snapshots, {len(weekly)} weekly reports, "
-              f"{len(monthly)} monthly reports, Profile Signal v4 state and seven profile sections"
+              f"{len(monthly)} monthly reports, Profile Signal v4 state, latest-signals runtime "
+              "and seven profile sections"
           )
           PY
 
@@ -139,10 +146,10 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Checkout
+      - name: Checkout default branch
         uses: actions/checkout@v7
         with:
-          ref: main
+          ref: ${{ github.event.repository.default_branch }}
           fetch-depth: 1
 
       - name: Set up Python
@@ -160,6 +167,8 @@ jobs:
 
       - name: Commit generated profile activity
         shell: bash
+        env:
+          TARGET_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           set -euo pipefail
 
@@ -182,13 +191,13 @@ jobs:
           git commit -m "chore(profile): refresh Profile Signal [skip ci]"
 
           for attempt in 1 2 3; do
-            if git push origin HEAD:main; then
+            if git push origin "HEAD:${TARGET_BRANCH}"; then
               exit 0
             fi
 
-            echo "Push failed (attempt ${attempt}); rebasing onto latest main"
-            git fetch origin main
-            git rebase origin/main
+            echo "Push failed (attempt ${attempt}); rebasing onto latest ${TARGET_BRANCH}"
+            git fetch origin "$TARGET_BRANCH"
+            git rebase "origin/${TARGET_BRANCH}"
           done
 
           echo "Failed to push profile activity after 3 attempts" >&2
