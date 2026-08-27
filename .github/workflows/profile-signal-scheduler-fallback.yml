@@ -1,0 +1,210 @@
+name: Profile Signal scheduler fallback
+
+on:
+  pull_request:
+    paths:
+      - .github/workflows/profile-signal-scheduler-fallback.yml
+      - .github/workflows/update-readme.yml
+      - .github/profile-signal.yml
+      - .profile-signal/**
+      - scripts/profile_signal_customize.py
+      - scripts/localize_profile_activity.py
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/profile-signal-scheduler-fallback.yml
+  schedule:
+    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: profile-signal-profile-write-${{ github.event.repository.default_branch }}
+  cancel-in-progress: false
+
+jobs:
+  validate-fallback:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Validate fallback runtime dependencies
+        run: |
+          python -m pip install --disable-pip-version-check --quiet PyYAML==6.0.2
+          python -m py_compile \
+            .profile-signal/src/*.py \
+            .profile-signal/scripts/*.py \
+            scripts/profile_signal_customize.py \
+            scripts/localize_profile_activity.py
+          python -m unittest \
+            tests.test_profile_signal_customize \
+            tests.test_localize_profile_activity \
+            -v
+
+      - name: Validate lightweight refresh path
+        env:
+          PROFILE_SIGNAL_CONFIG: .github/profile-signal.yml
+        run: |
+          python .profile-signal/src/stream_runtime.py
+          python scripts/profile_signal_customize.py
+          python scripts/localize_profile_activity.py
+          git diff --check -- README.md data/profile-signal-state.json
+
+  refresh-if-stale:
+    if: github.event_name != 'pull_request'
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout default branch
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Install runtime dependency
+        run: python -m pip install --disable-pip-version-check --quiet PyYAML==6.0.2
+
+      - name: Decide refresh mode
+        id: refresh-mode
+        env:
+          FORCE_REFRESH: ${{ github.event_name != 'schedule' }}
+        shell: bash
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          import os
+          from datetime import datetime, timezone
+          from pathlib import Path
+          from zoneinfo import ZoneInfo
+
+          now = datetime.now(timezone.utc)
+          jst_now = now.astimezone(ZoneInfo("Asia/Tokyo"))
+          force = os.environ.get("FORCE_REFRESH", "false").lower() == "true"
+
+          def generated_at(path: Path):
+              try:
+                  payload = json.loads(path.read_text(encoding="utf-8"))
+                  value = payload.get("generated_at")
+                  if not value:
+                      return None
+                  parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+                  if parsed.tzinfo is None:
+                      parsed = parsed.replace(tzinfo=timezone.utc)
+                  return parsed.astimezone(timezone.utc)
+              except (OSError, ValueError, json.JSONDecodeError):
+                  return None
+
+          snapshot = Path("data/activity") / jst_now.strftime("%Y/%m/%Y-%m-%d.json")
+          snapshot_at = generated_at(snapshot)
+          state_at = generated_at(Path("data/profile-signal-state.json"))
+
+          snapshot_age = None if snapshot_at is None else max(0.0, (now - snapshot_at).total_seconds() / 60)
+          state_age = None if state_at is None else max(0.0, (now - state_at).total_seconds() / 60)
+
+          if snapshot_at is None or (snapshot_age is not None and snapshot_age >= 190):
+              mode = "full"
+              reason = "missing-or-stale-daily-snapshot"
+          elif force or state_at is None or (state_age is not None and state_age >= 4):
+              mode = "stream"
+              reason = "forced-or-stale-live-state"
+          else:
+              mode = "skip"
+              reason = "primary-scheduler-is-fresh"
+
+          print(f"mode={mode}")
+          print(f"reason={reason}")
+          print(f"snapshot_path={snapshot.as_posix()}")
+          print(f"snapshot_age_minutes={snapshot_age if snapshot_age is not None else 'missing'}")
+          print(f"state_age_minutes={state_age if state_age is not None else 'missing'}")
+          PY
+
+      - name: Report refresh decision
+        run: |
+          echo "mode=${{ steps.refresh-mode.outputs.mode }}"
+          echo "reason=${{ steps.refresh-mode.outputs.reason }}"
+          echo "snapshot=${{ steps.refresh-mode.outputs.snapshot_path }}"
+          echo "snapshot_age_minutes=${{ steps.refresh-mode.outputs.snapshot_age_minutes }}"
+          echo "state_age_minutes=${{ steps.refresh-mode.outputs.state_age_minutes }}"
+
+      - name: Run full Profile Signal refresh
+        if: steps.refresh-mode.outputs.mode == 'full'
+        uses: ./.profile-signal
+        with:
+          config: .github/profile-signal.yml
+
+      - name: Run lightweight Profile Signal refresh
+        if: steps.refresh-mode.outputs.mode == 'stream'
+        env:
+          PROFILE_SIGNAL_CONFIG: .github/profile-signal.yml
+        run: python .profile-signal/src/stream_runtime.py
+
+      - name: Apply consumer view and repository filters
+        if: steps.refresh-mode.outputs.mode != 'skip'
+        run: python scripts/profile_signal_customize.py
+
+      - name: Localize known activity titles
+        if: steps.refresh-mode.outputs.mode != 'skip'
+        run: python scripts/localize_profile_activity.py
+
+      - name: Commit refreshed Profile Signal
+        if: steps.refresh-mode.outputs.mode != 'skip'
+        shell: bash
+        env:
+          TARGET_BRANCH: ${{ github.event.repository.default_branch }}
+          REFRESH_MODE: ${{ steps.refresh-mode.outputs.mode }}
+        run: |
+          set -euo pipefail
+
+          if [ "$REFRESH_MODE" = "full" ]; then
+            paths=(README.md assets/dev-pulse.svg data/activity data/weekly data/monthly data/profile-signal-state.json)
+            message="chore(profile): refresh Profile Signal fallback [skip ci]"
+          else
+            paths=(README.md data/profile-signal-state.json)
+            message="chore(profile): refresh latest signals fallback [skip ci]"
+          fi
+
+          if [ -z "$(git status --porcelain -- "${paths[@]}")" ]; then
+            echo "No Profile Signal changes"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "${paths[@]}"
+          if git diff --cached --quiet; then
+            echo "No staged Profile Signal changes"
+            exit 0
+          fi
+
+          git commit -m "$message"
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:${TARGET_BRANCH}"; then
+              exit 0
+            fi
+            echo "Push failed (attempt ${attempt}); rebasing onto origin/${TARGET_BRANCH}"
+            git fetch origin "$TARGET_BRANCH"
+            git rebase "origin/${TARGET_BRANCH}"
+          done
+
+          echo "Failed to push fallback Profile Signal refresh after 3 attempts" >&2
+          exit 1
