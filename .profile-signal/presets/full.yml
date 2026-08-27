@@ -1,0 +1,12 @@
+version: 1
+id: full
+description: Full Profile Signal dashboard.
+theme: signal
+widgets:
+  - live_signal
+  - today
+  - current_focus
+  - dev_pulse
+  - now_building
+  - activity_stream
+  - dev_recap
