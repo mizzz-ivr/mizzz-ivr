@@ -34,6 +34,16 @@
 
 `Full Stack` `Web Product` `Realtime AI` `Discord` `Platform / Tooling` `DevOps / Observability`
 
+<!-- ENGINEERING-DNA:START -->
+## ENGINEERING DNA // Public evidence profile
+
+<p align="center"><img src="./assets/engineering-dna.svg" width="100%" alt="Engineering DNA public evidence profile" /></p>
+
+<p align="center"><sub>Generated from public repositories, engineering practices and assignment evidence. See <a href="./reports/developer-analytics.en.md">Developer Analytics</a> for details.</sub></p>
+<!-- ENGINEERING-DNA:END -->
+
+---
+
 ## Selected public projects
 
 - **[Herta](https://github.com/ivRooom/Herta)** — Discord Community Operating System with NestJS, Next.js, Discord Bot, BullMQ, PostgreSQL and Redis.

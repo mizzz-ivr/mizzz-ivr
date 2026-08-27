@@ -8,8 +8,10 @@ on:
       - .github/workflows/developer-analytics.yml
       - scripts/developer_analytics.py
       - scripts/render_developer_profile.py
+      - scripts/render_engineering_dna.py
       - tests/test_developer_analytics.py
       - tests/test_developer_profile_renderer.py
+      - tests/test_engineering_dna.py
       - docs/DEVELOPER_ANALYTICS.md
       - README.md
       - README.en.md
@@ -17,6 +19,7 @@ on:
       - SKILL_SHEET.en.md
       - reports/developer-analytics.md
       - reports/developer-analytics.en.md
+      - assets/engineering-dna.svg
       - data/developer-analytics/**
   workflow_dispatch:
 
@@ -50,7 +53,10 @@ jobs:
       - name: Validate config and unit tests
         run: |
           python scripts/developer_analytics.py --validate-only
-          python -m py_compile scripts/developer_analytics.py scripts/render_developer_profile.py
+          python -m py_compile \
+            scripts/developer_analytics.py \
+            scripts/render_developer_profile.py \
+            scripts/render_engineering_dna.py
           python -m unittest discover -s tests -p 'test_*.py' -v
 
       - name: Render offline smoke test
@@ -74,14 +80,23 @@ jobs:
             --skill-en "$tmp/SKILL_SHEET.en.md" \
             --report-ja "$tmp/developer-analytics.md" \
             --report-en "$tmp/developer-analytics.en.md"
+          python scripts/render_engineering_dna.py \
+            --data "$tmp/latest.json" \
+            --config .github/developer-analytics.yml \
+            --readme "$tmp/README.md" \
+            --readme-en "$tmp/README.en.md" \
+            --output "$tmp/engineering-dna.svg"
           grep -q '## ENGINEERING PROFILE' "$tmp/README.md"
           grep -q '### CORE TECHNOLOGIES' "$tmp/README.md"
+          grep -q '## ENGINEERING DNA' "$tmp/README.md"
+          grep -q 'assets/engineering-dna.svg' "$tmp/README.md"
           grep -q '# SKILL SHEET' "$tmp/SKILL_SHEET.md"
           grep -q '## STRENGTHS' "$tmp/SKILL_SHEET.md"
           grep -q '# SKILL SHEET' "$tmp/SKILL_SHEET.en.md"
           grep -q '# DEVELOPER ANALYTICS' "$tmp/developer-analytics.md"
           grep -q '## TECHNOLOGY EVIDENCE' "$tmp/developer-analytics.md"
           grep -q '# DEVELOPER ANALYTICS' "$tmp/developer-analytics.en.md"
+          python -c 'import sys, xml.etree.ElementTree as ET; ET.parse(sys.argv[1])' "$tmp/engineering-dna.svg"
           python -m json.tool "$tmp/latest.json" >/dev/null
 
       - name: Validate public GitHub evidence
@@ -107,9 +122,17 @@ jobs:
             --skill-en "$tmp/SKILL_SHEET.en.md" \
             --report-ja "$tmp/developer-analytics.md" \
             --report-en "$tmp/developer-analytics.en.md"
+          python scripts/render_engineering_dna.py \
+            --data "$tmp/latest.json" \
+            --config .github/developer-analytics.yml \
+            --readme "$tmp/README.md" \
+            --readme-en "$tmp/README.en.md" \
+            --output "$tmp/engineering-dna.svg"
           grep -q '## ENGINEERING PROFILE' "$tmp/README.md"
+          grep -q '## ENGINEERING DNA' "$tmp/README.md"
           grep -q '# SKILL SHEET' "$tmp/SKILL_SHEET.md"
           grep -q '# DEVELOPER ANALYTICS' "$tmp/developer-analytics.md"
+          python -c 'import sys, xml.etree.ElementTree as ET; ET.parse(sys.argv[1])' "$tmp/engineering-dna.svg"
           python -m json.tool "$tmp/latest.json" >/dev/null
 
       - name: Ensure Profile Signal runtime is untouched
@@ -156,6 +179,9 @@ jobs:
       - name: Render Japanese and English profile documents
         run: python scripts/render_developer_profile.py
 
+      - name: Render Engineering DNA
+        run: python scripts/render_engineering_dna.py
+
       - name: Upload generated Skill Sheet
         uses: actions/upload-artifact@v7
         with:
@@ -165,6 +191,7 @@ jobs:
             SKILL_SHEET.en.md
             reports/developer-analytics.md
             reports/developer-analytics.en.md
+            assets/engineering-dna.svg
             data/developer-analytics/latest.json
           if-no-files-found: error
           retention-days: 30
@@ -175,7 +202,7 @@ jobs:
           TARGET_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           set -euo pipefail
-          paths=(README.md README.en.md SKILL_SHEET.md SKILL_SHEET.en.md reports/developer-analytics.md reports/developer-analytics.en.md data/developer-analytics/latest.json data/developer-analytics/snapshots)
+          paths=(README.md README.en.md SKILL_SHEET.md SKILL_SHEET.en.md reports/developer-analytics.md reports/developer-analytics.en.md assets/engineering-dna.svg data/developer-analytics/latest.json data/developer-analytics/snapshots)
           if [ -z "$(git status --porcelain -- "${paths[@]}")" ]; then
             echo 'No Developer Analytics changes'
             exit 0

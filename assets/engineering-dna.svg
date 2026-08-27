@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="420" viewBox="0 0 920 420" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering DNA public evidence profile</title>
+  <desc id="desc">Five-axis public evidence profile generated from Developer Analytics. This is evidence coverage, not a proficiency score.</desc>
+  <style>
+    .title { fill: #24292f; font: 700 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .08em; }
+    .subtitle { fill: #57606a; font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .grid { fill: none; stroke: #d0d7de; stroke-width: 1; }
+    .axis { stroke: #d0d7de; stroke-width: 1; }
+    .profile { fill: #8b5cf6; fill-opacity: .20; stroke: #8b5cf6; stroke-width: 3; stroke-linejoin: round; }
+    .point { fill: #8b5cf6; }
+    .axis-label { fill: #24292f; font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .03em; }
+    .score { fill: #6e7781; font-weight: 500; letter-spacing: 0; }
+    .note { fill: #6e7781; font: 11px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    @media (prefers-color-scheme: dark) {
+      .title, .axis-label { fill: #f0f6fc; }
+      .subtitle, .score, .note { fill: #8c959f; }
+      .grid, .axis { stroke: #30363d; }
+      .profile { fill: #a78bfa; fill-opacity: .20; stroke: #a78bfa; }
+      .point { fill: #a78bfa; }
+    }
+  </style>
+  <text class="title" x="24" y="30">ENGINEERING DNA · PUBLIC EVIDENCE PROFILE</text>
+  <text class="subtitle" x="24" y="50">Developer Analyticsから自動生成した公開Evidenceの5軸プロファイル</text>
+  <polygon class="grid" points="460.0,178.8 489.7,200.3 478.4,235.3 441.6,235.3 430.3,200.3" /><polygon class="grid" points="460.0,147.5 519.4,190.7 496.7,260.6 423.3,260.6 400.6,190.7" /><polygon class="grid" points="460.0,116.2 549.2,181.0 515.1,285.8 404.9,285.8 370.8,181.0" /><polygon class="grid" points="460.0,85.0 578.9,171.4 533.5,311.1 386.5,311.1 341.1,171.4" />
+  <line class="axis" x1="460.0" y1="210.0" x2="460.0" y2="85.0" /><line class="axis" x1="460.0" y1="210.0" x2="578.9" y2="171.4" /><line class="axis" x1="460.0" y1="210.0" x2="533.5" y2="311.1" /><line class="axis" x1="460.0" y1="210.0" x2="386.5" y2="311.1" /><line class="axis" x1="460.0" y1="210.0" x2="341.1" y2="171.4" />
+  <polygon class="profile" points="460.0,85.0 578.9,171.4 533.5,311.1 396.8,297.0 353.0,175.2" />
+  <circle class="point" cx="460.0" cy="85.0" r="4.5" /><circle class="point" cx="578.9" cy="171.4" r="4.5" /><circle class="point" cx="533.5" cy="311.1" r="4.5" /><circle class="point" cx="396.8" cy="297.0" r="4.5" /><circle class="point" cx="353.0" cy="175.2" r="4.5" />
+  <text class="axis-label" x="460.0" y="43.8" text-anchor="middle"><tspan x="460.0" dy="0">FULL STACK</tspan><tspan class="score" x="460.0" dy="18">100% evidence</tspan></text><text class="axis-label" x="618.1" y="158.6" text-anchor="start"><tspan x="618.1" dy="0">REALTIME AI</tspan><tspan class="score" x="618.1" dy="18">100% evidence</tspan></text><text class="axis-label" x="557.7" y="344.5" text-anchor="start"><tspan x="557.7" dy="0">PLATFORM / TOOLING</tspan><tspan class="score" x="557.7" dy="18">100% evidence</tspan></text><text class="axis-label" x="362.3" y="344.5" text-anchor="end"><tspan x="362.3" dy="0">DEVOPS / OPS</tspan><tspan class="score" x="362.3" dy="18">86% evidence</tspan></text><text class="axis-label" x="301.9" y="158.6" text-anchor="end"><tspan x="301.9" dy="0">SECURITY / QUALITY</tspan><tspan class="score" x="301.9" dy="18">90% evidence</tspan></text>
+  <text class="note" x="460" y="402" text-anchor="middle">Evidence coverage, not proficiency · source: public GitHub repositories and engineering practices</text>
+</svg>
