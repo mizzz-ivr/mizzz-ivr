@@ -1,0 +1,4 @@
+# Profile Signalで「開発中の対象」として扱わないRepository
+# 空行と # から始まる行は無視されます。* / ? のglobも利用できます。
+
+mizzz-ivr/tech-writing

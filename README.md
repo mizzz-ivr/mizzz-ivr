@@ -1,107 +1,83 @@
+<p align="right"><strong>日本語</strong> · <a href="./README.en.md">English</a></p>
+
 <p align="center">
-  <img src="./assets/profile-hero.png" width="100%" alt="ivmz profile hero — product engineering, realtime AI, platform and operations" />
+  <img src="./assets/profile-hero.png" width="100%" alt="ivmz 開発者プロフィール" />
 </p>
 
 <h1 align="center">いゔる。 a.k.a. mizzz（ずーみー）</h1>
 
 <p align="center">
-  <strong>Product-minded Full Stack Developer</strong><br/>
-  React / TypeScript を軸に、Web・Discord・Realtime AI・API・DB・運用までつなげて実装しています。<br/>
+  <strong>プロダクト志向のフルスタックエンジニア</strong><br/>
+  React / TypeScript を軸に、Web・Discord・リアルタイムAI・API・DB・運用までつなげて実装しています。
 </p>
 
 <p align="center">
-  <a href="https://ivmz.ivrm.jp"><img src="https://img.shields.io/badge/WEBSITE-ivmz.ivrm.jp-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="WEBSITE" /></a>
+  <a href="https://ivmz.ivrm.jp"><img src="https://img.shields.io/badge/WEB-ivmz.ivrm.jp-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web" /></a>
   <a href="https://ivrm.jp"><img src="https://img.shields.io/badge/COMMUNITY-ivRooom-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="ivRooom" /></a>
   <a href="mailto:ivmz@ivrm.jp"><img src="https://img.shields.io/badge/CONTACT-ivmz%40ivrm.jp-6D5AE6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
-<p align="center">
-  <sub>BUILD SMALL · POLISH FAST · OPERATE SAFELY</sub>
-</p>
+<p align="center"><sub>小さく作る · 速く磨く · 安全に運用する</sub></p>
 
 ---
 
 <!-- PROFILE-SIGNAL:LIVE-SIGNAL:START -->
-## LIVE SIGNAL // Development status
+## 開発ステータス
 
 <table>
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 18:12 JST</sub></td>
-    <td width="34%" align="center"><strong>🌩️ STORM</strong><br/><sub>451 public actions today</sub></td>
-    <td width="33%" align="center"><strong>🔥 3 DAY STREAK</strong><br/><sub>public activity · recent history</sub></td>
+    <td width="33%" align="center"><strong>● 開発中</strong><br/><sub>最終公開アクティビティ · 18:12 JST</sub></td>
+    <td width="34%" align="center"><strong>🌩️ 高稼働</strong><br/><sub>本日の公開アクション · 451</sub></td>
+    <td width="33%" align="center"><strong>🔥 3日連続</strong><br/><sub>公開GitHubアクティビティ</sub></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:LIVE-SIGNAL:END -->
 
 <!-- DAILY-ACTIVITY:START -->
-## TODAY // Activity overview
+## 今日の活動
 
-<p align="center">
-  <sub>2026-08-27 JST · public GitHub activity</sub>
-</p>
+<p align="center"><sub>2026-08-27 JST · 公開GitHubアクティビティ</sub></p>
 
 <table>
   <tr>
-    <td width="25%" align="center"><strong>388</strong><br/><sub>COMMITS</sub></td>
-    <td width="25%" align="center"><strong>33</strong><br/><sub>PRS OPENED</sub></td>
-    <td width="25%" align="center"><strong>15</strong><br/><sub>ISSUES CREATED</sub></td>
-    <td width="25%" align="center"><strong>15</strong><br/><sub>ISSUES DONE</sub></td>
+    <td width="25%" align="center"><strong>388</strong><br/><sub>コミット</sub></td>
+    <td width="25%" align="center"><strong>33</strong><br/><sub>PR作成</sub></td>
+    <td width="25%" align="center"><strong>15</strong><br/><sub>Issue作成</sub></td>
+    <td width="25%" align="center"><strong>15</strong><br/><sub>Issue完了</sub></td>
   </tr>
 </table>
-
-<p align="center"><sub>Auto-updated by GitHub Actions · recent events are shown in ACTIVITY STREAM</sub></p>
 <!-- DAILY-ACTIVITY:END -->
 
 <!-- PROFILE-SIGNAL:FOCUS:START -->
-## CURRENT FOCUS // What is moving now
+## 現在のフォーカス
 
 <table>
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/mizzz-ivr/tech-writing">mizzz-ivr/tech-writing</a></strong><br/><sub>24% of weighted repository activity · score 92 · 62 events</sub></td>
-    <td width="38%" valign="top"><strong>TODAY&apos;S STACK</strong><br/><code>Python</code></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>加重アクティビティ 21% · スコア 81 · 74イベント</sub></td>
+    <td width="38%" valign="top"><strong>主な技術</strong><br/><sub>技術情報は次回フル更新時に取得</sub></td>
   </tr>
 </table>
-
-<p align="center"><sub>Focus uses weighted public GitHub events; repository language data comes from the current focus repository.</sub></p>
 <!-- PROFILE-SIGNAL:FOCUS:END -->
 
 <!-- PROFILE-SIGNAL:PULSE:START -->
-## DEV PULSE // Last 7 days
+## 開発パルス // 直近7日
 
 <p align="center">
-  <img src="./assets/dev-pulse.svg" width="100%" alt="7 day public GitHub development pulse" />
+  <img src="./assets/dev-pulse.svg" width="100%" alt="直近7日間の公開GitHubアクティビティ" />
 </p>
-
-<table>
-  <tr>
-    <td width="25%" align="center"><strong>! ATTENTION</strong><br/><sub>CI SIGNAL · last 7 days</sub></td>
-    <td width="25%" align="center"><strong>83%</strong><br/><sub>PASS RATE</sub></td>
-    <td width="25%" align="center"><strong>20 / 24</strong><br/><sub>PASSED / EVALUATED</sub></td>
-    <td width="25%" align="center"><strong>3</strong><br/><sub>REPOS WITH CI</sub></td>
-  </tr>
-</table>
-
-<p align="center"><sub>GitHub Actions · completed runs from active repositories · cancelled / skipped / neutral runs are excluded from pass rate</sub></p>
 <!-- PROFILE-SIGNAL:PULSE:END -->
 
 <!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
-## NOW BUILDING // Active repositories
+## 現在動いているリポジトリ
 
-<table>
-  <tr>
-    <td width="33%" valign="top"><strong>01 · <a href="https://github.com/mizzz-ivr/tech-writing">mizzz-ivr/tech-writing</a></strong><br/><sub>24% weighted activity · score 92 · 62 events<br/>◐ WATCH · CI · 7/8 passed · 88%<br/>last activity · 18:12 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>21% weighted activity · score 81 · 74 events<br/>! ATTENTION · CI · 4/6 passed · 67%<br/>last activity · 17:54 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/mizzz-ivr/profile-signal">mizzz-ivr/profile-signal</a></strong><br/><sub>17% weighted activity · score 66 · 50 events<br/>● HEALTHY · CI · 9/10 passed · 90%<br/>last activity · 13:57 JST</sub></td>
-  </tr>
-</table>
-
-<p align="center"><sub>Ranked by weighted public GitHub activity · health combines repository recency with recent GitHub Actions signal</sub></p>
+<table><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>21% · 要確認 · CI成功率 67%<br/>最終活動 · 17:54 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/mizzz-ivr/profile-signal">mizzz-ivr/profile-signal</a></strong><br/><sub>17% · 安定 · CI成功率 90%<br/>最終活動 · 13:57 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
 <!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
 
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->
-## ACTIVITY STREAM // Latest public signals
+## 最近の公開アクティビティ
 
 <table>
   <tbody>
-    <tr><td width="10%"><code>18:12</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/mizzz-ivr/tech-writing">mizzz-ivr/tech-writing</a></strong> — <a href="https://github.com/mizzz-ivr/tech-writing/issues/23">Opened issue #23</a></td></tr>
     <tr><td width="10%"><code>17:54</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">1 commit pushed to main</a></td></tr>
     <tr><td width="10%"><code>17:54</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">PR merged #347</a></td></tr>
     <tr><td width="10%"><code>17:41</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-member-site">ivRooom/ivrm-member-site</a></strong> — <a href="https://github.com/ivRooom/ivrm-member-site/issues/56">Closed issue #56</a></td></tr>
@@ -112,127 +88,113 @@
 ---
 
 <!-- DEVELOPER-ANALYTICS:START -->
-## ENGINEERING PROFILE // Public evidence
+## エンジニアリングプロフィール
 
-公開Repositoryの実装・構成・技術選定・開発プロセスを、営業・受託・フリーランス・案件アサインでも再利用できるEvidenceとして整理しています。  
-**Evidence Scoreは能力点ではなく、公開GitHub上で確認できる証拠の強さです。公開Evidenceが無いことを未経験とは扱いません。**
+### 主な技術
 
-### Core technology signals
+<p align="center">
+  <img src="https://img.shields.io/badge/React-1F6FEB?style=flat-square&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Docker-1F6FEB?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/TypeScript-1F6FEB?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/PostgreSQL-1F6FEB?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Next.js-1F6FEB?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Python-1F6FEB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-1F6FEB?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Playwright-1F6FEB?style=flat-square&logo=playwright&logoColor=white" alt="Playwright" />
+</p>
 
-| Technology | Evidence | Projects |
-| --- | --- | --- |
-| React | REPEATED | 6 |
-| Docker | REPEATED | 5 |
-| TypeScript | REPEATED | 5 |
-| PostgreSQL | REPEATED | 4 |
-| Next.js | ESTABLISHED | 3 |
-| Python | ESTABLISHED | 3 |
-| Tailwind CSS | ESTABLISHED | 3 |
-| Playwright | ESTABLISHED | 2 |
+### 対応領域
 
-### Engineering range
+`フルスタック` `フロントエンド` `バックエンド / API` `リアルタイムAI` `デスクトップアプリ` `開発プラットフォーム` `可観測性` `インフラ`
 
-`full-stack` `frontend` `backend-api` `realtime-ai` `desktop-app` `developer-platform` `observability` `infrastructure`
+### 開発スタイル
 
-### How I ship
+`Repository中心の開発` `セキュリティを設計段階で考慮` `自動テスト` `アクセシビリティ` `可観測性` `最小権限` `Fail-close設計` `リリース自動化`
 
-`repository-driven-development` `security-by-design` `automated-testing` `accessibility-first` `observability` `least-privilege` `fail-close` `release-automation`
+### 案件タイプ別の公開実績
 
-### Assignment evidence coverage
-
-| Area | Public evidence coverage |
+| 分野 | 公開実績カバー率 |
 | --- | ---: |
-| Discord / Community Systems | 100% |
-| Full-stack Product Development | 100% |
-| Platform / Developer Tooling | 100% |
-| Realtime AI / Voice | 100% |
-| DevOps / Observability | 86% |
+| Discord / コミュニティ基盤 | 100% |
+| フルスタック開発 | 100% |
+| プラットフォーム / 開発ツール | 100% |
+| リアルタイムAI / 音声 | 100% |
+| DevOps / 可観測性 | 86% |
 
-<p align="center"><sub>Bootstrap from curated public evidence · live GitHub recency / PR / Issue / delivery signals are collected only when Developer Analytics is run manually · <a href="./SKILL_SHEET.md">SKILL_SHEET.md</a> · <a href="./reports/developer-analytics.md">Detailed analytics</a></sub></p>
+<p align="center"><sub><a href="./SKILL_SHEET.md">スキルシート</a> · <a href="./reports/developer-analytics.md">詳細分析</a> · <a href="./SKILL_SHEET.en.md">Skill Sheet (EN)</a></sub></p>
 <!-- DEVELOPER-ANALYTICS:END -->
 
 ---
 
-## PUBLIC BUILDS // Selected evidence
+## 主な公開プロジェクト
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/ivRooom/Herta">Herta</a></h3>
-      <p><strong>Discord Community Operating System / Platform</strong></p>
+      <p><strong>Discordコミュニティ基盤 / Platform</strong></p>
       <p>NestJS API、Next.js Studio、Discord Bot、BullMQ Worker、Plugin Runtime、PostgreSQL / Redisを含むモノレポ。</p>
       <p><code>TypeScript</code> <code>NestJS</code> <code>Next.js</code> <code>PostgreSQL</code> <code>Redis</code></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mizzz-ivr/roomate-voice">RooMate Voice</a></h3>
-      <p><strong>Discord × Realtime AI Voice / Windows Desktop</strong></p>
-      <p>Realtime音声AI、Discord Voice、barge-in、Secret保護、Electron Desktop、Installer / Releaseまで扱うOSS。</p>
+      <p><strong>Discord × リアルタイム音声AI / Windows Desktop</strong></p>
+      <p>リアルタイム音声AI、Discord Voice、割り込み、Secret保護、Electron Desktop、Installer / Releaseまで扱うOSS。</p>
       <p><code>TypeScript</code> <code>OpenAI Realtime</code> <code>Discord Voice</code> <code>Electron</code> <code>Docker</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/mizzz-ivr/ivmz-home">ivmz-home</a></h3>
-      <p><strong>Personal Web / Portfolio Platform</strong></p>
-      <p>Next.js / Payload / PostgreSQLを軸に、CMS、SEO、Accessibility、Testing、運用可搬性まで含めるWeb Platform。</p>
+      <p><strong>個人Web / ポートフォリオ基盤</strong></p>
+      <p>Next.js / Payload / PostgreSQLを軸に、CMS、SEO、アクセシビリティ、テスト、運用可搬性まで含めるWeb Platform。</p>
       <p><code>Next.js</code> <code>React</code> <code>Payload</code> <code>PostgreSQL</code> <code>Playwright</code></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/ivRooom/ivrm-dashboard">IVRM Dashboard</a></h3>
-      <p><strong>Operations / Observability Platform</strong></p>
+      <p><strong>運用 / 可観測性プラットフォーム</strong></p>
       <p>Next.js + Supabase + Go AgentでMinecraft / Web / Cloud基盤を安全に監視する統合運用コンソール。</p>
       <p><code>TypeScript</code> <code>Next.js</code> <code>Go</code> <code>Supabase</code> <code>Docker</code></p>
     </td>
   </tr>
 </table>
 
-<p align="center"><sub>Selected projects are public implementation evidence. Additional projects and evidence are included in the generated Skill Sheet.</sub></p>
-
 ---
 
 <!-- PROFILE-SIGNAL:RECAP:START -->
-## DEV RECAP // Tracked history
+## 開発サマリー // 記録履歴
 
 <table>
   <tr>
-    <td width="25%" align="center"><strong>3</strong><br/><sub>ACTIVE DAYS · THIS WEEK</sub></td>
-    <td width="25%" align="center"><strong>1017</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
-    <td width="25%" align="center"><strong>71</strong><br/><sub>PRS OPENED · THIS WEEK</sub></td>
-    <td width="25%" align="center"><strong>19</strong><br/><sub>ISSUES DONE · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>3</strong><br/><sub>活動日</sub></td>
+    <td width="25%" align="center"><strong>1017</strong><br/><sub>今週のコミット</sub></td>
+    <td width="25%" align="center"><strong>71</strong><br/><sub>今週のPR</sub></td>
+    <td width="25%" align="center"><strong>19</strong><br/><sub>今週のIssue完了</sub></td>
   </tr>
 </table>
 
-<p align="center"><sub>2026-W35 · tracked since 2026-08-25 · CI · 83% · 20/24 passed</sub></p>
-
 <details>
-<summary><strong>MONTHLY BUILD REPORT + ACHIEVEMENTS</strong></summary>
+<summary><strong>月次サマリー</strong></summary>
 
 <br/>
 
 <table>
   <tr>
-    <td width="20%" align="center"><strong>3</strong><br/><sub>ACTIVE DAYS</sub></td>
-    <td width="20%" align="center"><strong>1017</strong><br/><sub>COMMITS</sub></td>
-    <td width="20%" align="center"><strong>71</strong><br/><sub>PRS OPENED</sub></td>
-    <td width="20%" align="center"><strong>19</strong><br/><sub>ISSUES DONE</sub></td>
-    <td width="20%" align="center"><strong>1133</strong><br/><sub>ACTIVITY</sub></td>
+    <td width="25%" align="center"><strong>1017</strong><br/><sub>コミット</sub></td>
+    <td width="25%" align="center"><strong>71</strong><br/><sub>PR</sub></td>
+    <td width="25%" align="center"><strong>19</strong><br/><sub>Issue完了</sub></td>
+    <td width="25%" align="center"><strong>1133</strong><br/><sub>総アクティビティ</sub></td>
   </tr>
 </table>
-
-<p><strong>2026-08 // tracked report</strong></p>
-
-<p><code>📡 FIRST SIGNAL</code> <code>🏗️ 100+ COMMITS</code> <code>🚢 10+ PRS</code> <code>✅ 10+ ISSUES DONE</code> <code>⚡ 1K ACTIVITY</code></p>
-
-<p><sub>Achievements and reports are based only on Profile Signal tracked public history, not lifetime GitHub totals.</sub></p>
 </details>
 <!-- PROFILE-SIGNAL:RECAP:END -->
 
 ---
 
-## SIGNAL // Links
+## リンク
 
 <p align="center">
-  <a href="https://ivmz.ivrm.jp"><img src="https://img.shields.io/badge/WEBSITE-8B5CF6?style=flat-square&logo=googlechrome&logoColor=white" alt="WEBSITE" /></a>
+  <a href="https://ivmz.ivrm.jp"><img src="https://img.shields.io/badge/WEB-8B5CF6?style=flat-square&logo=googlechrome&logoColor=white" alt="Web" /></a>
   <a href="https://ivrm.jp"><img src="https://img.shields.io/badge/ivRooom-6D5AE6?style=flat-square&logo=discord&logoColor=white" alt="ivRooom" /></a>
   <a href="https://github.com/mizzz-ivr"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://discord.gg/RqUEyS3FdB"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
@@ -246,8 +208,4 @@
   <a href="https://www.instagram.com/ivurugg/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
   <a href="https://www.tiktok.com/@ivurugg"><img src="https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white" alt="TikTok" /></a>
   <a href="https://www.youtube.com/channel/UCClGQH-Q0HXHfWLZboGUX0Q"><img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" /></a>
-</p>
-
-<p align="center">
-  <sub>Activity widgets are maintained by Profile Signal; Developer Analytics and the Skill Sheet are maintained only in this profile repository.</sub>
 </p>
