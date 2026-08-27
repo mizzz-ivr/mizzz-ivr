@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 388,
-    "prs_opened": 33,
-    "issues_created": 15,
-    "issues_completed": 15
+    "commits": 489,
+    "prs_opened": 52,
+    "issues_created": 29,
+    "issues_completed": 23
   },
   "activity": [
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "Merge pull request #347 from ivRooom/feat/ai-artifact-runtime  feat(ai): add Phase 1 artifact ru",
-      "url": "https://github.com/ivRooom/Herta/commit/1cb53194a288482a10ef350cd16e38911fd328ed",
-      "at": "2026-08-27T17:54:57.000+09:00"
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "fix(profile): re-register Profile Signal schedules (#53)  Re-register the Profile Signal schedul",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/65eb68c9273a9151ca5633729fb099a12b05b81a",
+      "at": "2026-08-27T22:39:44.000+09:00"
     },
     {
       "type": "commit",
       "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "fix(profile): refresh Activity Stream every 5 minutes",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/f1d404120048d7148ea6be1fda3cbd5a89de1ad9",
-      "at": "2026-08-27T17:37:49.000+09:00"
+      "title": "chore: prune merged profile work branches (#51)  Add a one-shot cleanup workflow to remove merge",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/d86ddf504445b6e24b052662930558089bf352dc",
+      "at": "2026-08-27T22:31:04.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "docs: expand SIGNAL links with icon badges",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/913ce2b65224e97c64b84282bda72df94a5beaed",
-      "at": "2026-08-27T17:24:12.000+09:00"
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "Merge pull request #33 from mizzz-ivr/feat/writing-analytics-visual-dashboard",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/88b2b8893259480ff6d080bc25926a440676043a",
+      "at": "2026-08-27T22:19:01.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "test(ai): cover image-processing Python script intent",
-      "url": "https://github.com/ivRooom/Herta/commit/45aceb5dd5e775bf5566832bd34960b1585b2e34",
-      "at": "2026-08-27T17:22:41.000+09:00"
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "test(analytics): cover snapshot validity and full pipeline rendering",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/b2eae4a60fc68f0871aa160264beb7ecc6458ca7",
+      "at": "2026-08-27T22:03:05.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(ai): avoid image-processing script misclassification",
-      "url": "https://github.com/ivRooom/Herta/commit/0d7a250ee507ebc4f017553a46d1e4c2bff6bcf6",
-      "at": "2026-08-27T17:22:12.000+09:00"
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "fix(analytics): validate snapshot history and uncap pipeline",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/16f3bd56a9acefa538f40cb12b3f39eea0bbc03d",
+      "at": "2026-08-27T22:02:32.000+09:00"
     }
   ],
-  "generated_at": "2026-08-27T18:15:44+09:00"
+  "generated_at": "2026-08-27T22:45:14+09:00"
 }
