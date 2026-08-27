@@ -1,6 +1,10 @@
 name: Sync Profile Signal wiki
 
 on:
+  pull_request:
+    paths:
+      - docs/wiki/**
+      - .github/workflows/sync-profile-signal-wiki.yml
   push:
     branches:
       - main
@@ -13,11 +17,64 @@ permissions:
   contents: write
 
 concurrency:
-  group: profile-signal-wiki-sync
+  group: profile-signal-wiki-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
+  validate-wiki:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v7
+
+      - name: Validate wiki pages and internal links
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import re
+          from pathlib import Path
+
+          root = Path('docs/wiki')
+          required = {
+              'Home.md',
+              'Installation.md',
+              'Configuration.md',
+              'Presets.md',
+              'License.md',
+              '_Sidebar.md',
+          }
+
+          existing = {path.name for path in root.glob('*.md')}
+          missing = sorted(required - existing)
+          if missing:
+              raise SystemExit('missing required wiki pages: ' + ', '.join(missing))
+
+          broken: list[str] = []
+          link_pattern = re.compile(r'\[[^\]]+\]\(([^)]+)\)')
+          for path in sorted(root.glob('*.md')):
+              text = path.read_text(encoding='utf-8')
+              for target in link_pattern.findall(text):
+                  if target.startswith(('http://', 'https://', '#', 'mailto:')):
+                      continue
+                  page = target.split('#', 1)[0]
+                  if not page:
+                      continue
+                  candidate = page if page.endswith('.md') else f'{page}.md'
+                  if candidate not in existing:
+                      broken.append(f'{path.name}: {target}')
+
+          if broken:
+              raise SystemExit('broken internal wiki links:\n' + '\n'.join(broken))
+
+          print(f'Validated {len(existing)} wiki Markdown files')
+          PY
+
   sync-wiki:
+    if: github.event_name != 'pull_request'
+    needs: validate-wiki
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
@@ -35,11 +92,6 @@ jobs:
           source_dir="$GITHUB_WORKSPACE/docs/wiki"
           work_dir="$RUNNER_TEMP/profile-signal-wiki"
           wiki_url="https://x-access-token:${WIKI_TOKEN}@github.com/${GITHUB_REPOSITORY}.wiki.git"
-
-          if [ ! -f "$source_dir/Home.md" ]; then
-            echo "docs/wiki/Home.md is required" >&2
-            exit 1
-          fi
 
           rm -rf "$work_dir"
 
