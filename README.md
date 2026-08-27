@@ -137,6 +137,16 @@
 
 ---
 
+<!-- ENGINEERING-DNA:START -->
+## ENGINEERING DNA // Public evidence profile
+
+<p align="center"><img src="./assets/engineering-dna.svg" width="100%" alt="Engineering DNA public evidence profile" /></p>
+
+<p align="center"><sub>公開Repository / Engineering Practice / Assignment Evidenceから自動生成。詳細は <a href="./reports/developer-analytics.md">Developer Analytics</a>。</sub></p>
+<!-- ENGINEERING-DNA:END -->
+
+---
+
 ## PUBLIC BUILDS
 
 <table>
