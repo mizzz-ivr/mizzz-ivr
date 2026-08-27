@@ -16,14 +16,29 @@
   "streak": 3,
   "activity_total": 451,
   "current_focus": {
-    "repo": "mizzz-ivr/tech-writing",
-    "score": 92,
-    "events": 62,
-    "last_activity_at": "2026-08-27T09:12:06Z",
-    "share": 24,
-    "stack": [
-      "Python"
-    ]
+    "repo": "ivRooom/Herta",
+    "score": 81,
+    "events": 74,
+    "last_activity_at": "2026-08-27T08:54:59Z",
+    "share": 21,
+    "ci": {
+      "label": "ATTENTION",
+      "symbol": "!",
+      "window_days": 7,
+      "total_runs": 10,
+      "evaluated": 6,
+      "passed": 4,
+      "failed": 2,
+      "ignored": 4,
+      "pass_rate": 67,
+      "latest_conclusion": "success"
+    },
+    "health": {
+      "label": "ATTENTION",
+      "symbol": "!",
+      "reason": "recent CI needs attention"
+    },
+    "stack": []
   },
   "dev_pulse": [
     {
@@ -78,30 +93,6 @@
   ],
   "now_building": [
     {
-      "repo": "mizzz-ivr/tech-writing",
-      "score": 92,
-      "events": 62,
-      "last_activity_at": "2026-08-27T09:12:06Z",
-      "share": 24,
-      "ci": {
-        "label": "MIXED",
-        "symbol": "◐",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 8,
-        "passed": 7,
-        "failed": 1,
-        "ignored": 2,
-        "pass_rate": 88,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "WATCH",
-        "symbol": "◐",
-        "reason": "recent CI is mixed"
-      }
-    },
-    {
       "repo": "ivRooom/Herta",
       "score": 81,
       "events": 74,
@@ -151,13 +142,6 @@
     }
   ],
   "activity_stream": [
-    {
-      "label": "ISSUE",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "Opened issue #23",
-      "url": "https://github.com/mizzz-ivr/tech-writing/issues/23",
-      "at": "2026-08-27T09:12:06Z"
-    },
     {
       "label": "PUSH",
       "repo": "ivRooom/Herta",
@@ -271,5 +255,37 @@
         "unlocked_on": "2026-08-27"
       }
     ]
+  },
+  "repository_ignore_patterns": [
+    "mizzz-ivr/tech-writing"
+  ],
+  "tracked_summary": {
+    "year": 2026,
+    "yearly": {
+      "tracked_days": 3,
+      "active_days": 3,
+      "first_date": "2026-08-25",
+      "last_date": "2026-08-27",
+      "metrics": {
+        "commits": 1017,
+        "prs_opened": 71,
+        "issues_created": 26,
+        "issues_completed": 19,
+        "activity_total": 1133
+      }
+    },
+    "lifetime": {
+      "tracked_days": 3,
+      "active_days": 3,
+      "first_date": "2026-08-25",
+      "last_date": "2026-08-27",
+      "metrics": {
+        "commits": 1017,
+        "prs_opened": 71,
+        "issues_created": 26,
+        "issues_completed": 19,
+        "activity_total": 1133
+      }
+    }
   }
 }

@@ -42,46 +42,46 @@ TECH_LOGOS = {
 
 PRACTICE_JA = {
     "repository-driven-development": "Repository中心の開発",
-    "security-by-design": "セキュリティを設計段階で考慮",
+    "security-by-design": "Security by Design",
     "automated-testing": "自動テスト",
-    "accessibility-first": "アクセシビリティ",
-    "observability": "可観測性",
-    "least-privilege": "最小権限",
-    "fail-close": "Fail-close設計",
-    "release-automation": "リリース自動化",
-    "documentation": "ドキュメント整備",
-    "containerization": "コンテナ運用",
+    "accessibility-first": "Accessibility",
+    "observability": "Observability",
+    "least-privilege": "Least Privilege",
+    "fail-close": "Fail-close",
+    "release-automation": "Release Automation",
+    "documentation": "Documentation",
+    "containerization": "Containerization",
     "ci-cd": "CI/CD",
 }
 
 ASSIGNMENT_JA = {
-    "Full-stack Product Development": "フルスタック開発",
-    "Realtime AI / Voice": "リアルタイムAI / 音声",
-    "Platform / Developer Tooling": "プラットフォーム / 開発ツール",
-    "DevOps / Observability": "DevOps / 可観測性",
-    "Discord / Community Systems": "Discord / コミュニティ基盤",
+    "Full-stack Product Development": "Full-stack Product Development",
+    "Realtime AI / Voice": "Realtime AI / Voice",
+    "Platform / Developer Tooling": "Platform / Developer Tooling",
+    "DevOps / Observability": "DevOps / Observability",
+    "Discord / Community Systems": "Discord / Community Systems",
 }
 
 DOMAIN_JA = {
-    "full-stack": "フルスタック",
-    "frontend": "フロントエンド",
-    "backend-api": "バックエンド / API",
-    "realtime-ai": "リアルタイムAI",
-    "desktop-app": "デスクトップアプリ",
-    "developer-platform": "開発プラットフォーム",
-    "observability": "可観測性",
-    "infrastructure": "インフラ",
-    "community-platform": "コミュニティ基盤",
-    "developer-tooling": "開発ツール",
-    "web-product": "Webプロダクト",
+    "full-stack": "Full Stack",
+    "frontend": "Frontend",
+    "backend-api": "Backend / API",
+    "realtime-ai": "Realtime AI",
+    "desktop-app": "Desktop App",
+    "developer-platform": "Developer Platform",
+    "observability": "Observability",
+    "infrastructure": "Infrastructure",
+    "community-platform": "Community Platform",
+    "developer-tooling": "Developer Tooling",
+    "web-product": "Web Product",
 }
 
 CATEGORY_TECH = {
-    "フロントエンド": ["TypeScript", "React", "Next.js", "Tailwind CSS", "Astro", "Vite"],
-    "バックエンド": ["Node.js", "NestJS", "Python", "Flask", "Go"],
-    "データ": ["PostgreSQL", "Prisma", "Redis", "Supabase", "SQLite"],
-    "AI / コミュニティ": ["OpenAI Realtime API", "Discord.js", "Discord Voice", "Electron"],
-    "DevOps / インフラ": ["Docker", "GitHub Actions", "Netlify", "Vercel", "AWS Lightsail", "OCI", "Cloudflare Workers"],
+    "Frontend": ["TypeScript", "React", "Next.js", "Tailwind CSS", "Astro", "Vite"],
+    "Backend": ["Node.js", "NestJS", "Python", "Flask", "Go"],
+    "Data": ["PostgreSQL", "Prisma", "Redis", "Supabase", "SQLite"],
+    "AI / Community": ["OpenAI Realtime API", "Discord.js", "Discord Voice", "Electron"],
+    "DevOps / Infra": ["Docker", "GitHub Actions", "Netlify", "Vercel", "AWS Lightsail", "OCI", "Cloudflare Workers"],
 }
 
 
@@ -95,6 +95,8 @@ def bootstrap_from_config(config: dict[str, Any], generated_at: str) -> dict[str
     practices: dict[str, set[str]] = {}
     domains: dict[str, set[str]] = {}
     capabilities: dict[str, set[str]] = {}
+    ownership: dict[str, set[str]] = {}
+
     for project in config.get("projects") or []:
         row = {
             "repo": project["repo"],
@@ -121,10 +123,22 @@ def bootstrap_from_config(config: dict[str, Any], generated_at: str) -> dict[str
             domains.setdefault(item, set()).add(row["repo"])
         for item in row["capabilities"]:
             capabilities.setdefault(item, set()).add(row["repo"])
+        for item in row["ownership"]:
+            ownership.setdefault(item, set()).add(row["repo"])
 
     def aggregate(values: dict[str, set[str]]) -> list[dict[str, Any]]:
         return sorted(
-            ({"name": key, "project_count": len(repos), "projects": sorted(repos), "score": 0, "level": "CURATED", "recency_days": None} for key, repos in values.items()),
+            (
+                {
+                    "name": key,
+                    "project_count": len(repos),
+                    "projects": sorted(repos),
+                    "score": 0,
+                    "level": "CURATED",
+                    "recency_days": None,
+                }
+                for key, repos in values.items()
+            ),
             key=lambda row: (-row["project_count"], row["name"].lower()),
         )
 
@@ -143,8 +157,15 @@ def bootstrap_from_config(config: dict[str, Any], generated_at: str) -> dict[str
             category, value = next(iter(signal.items()))
             (matched if str(value).lower() in available[category] else missing).append({"category": category, "value": value})
         total = len(matched) + len(missing)
-        fits.append({"id": profile["id"], "label": profile.get("label") or profile["id"], "score": round(len(matched) / total * 100) if total else 0, "matched": matched, "missing": missing})
+        fits.append({
+            "id": profile["id"],
+            "label": profile.get("label") or profile["id"],
+            "score": round(len(matched) / total * 100) if total else 0,
+            "matched": matched,
+            "missing": missing,
+        })
     fits.sort(key=lambda row: (-row["score"], row["label"]))
+
     return {
         "generated_at": generated_at,
         "collection_mode": "curated-config",
@@ -155,7 +176,7 @@ def bootstrap_from_config(config: dict[str, Any], generated_at: str) -> dict[str
         "domains": aggregate(domains),
         "capabilities": aggregate(capabilities),
         "practices": aggregate(practices),
-        "ownership": [],
+        "ownership": aggregate(ownership),
         "assignment_fit": fits,
         "data_quality": {"errors": [], "limitations": []},
     }
@@ -178,8 +199,8 @@ def tech_badge(name: str) -> str:
 
 
 def language_nav(ja: str, en: str, *, japanese: bool) -> str:
-    ja_text = "**日本語**" if japanese else "[日本語](%s)" % ja
-    en_text = "[English](%s)" % en if japanese else "**English**"
+    ja_text = "**日本語**" if japanese else f"[日本語]({ja})"
+    en_text = f"[English]({en})" if japanese else "**English**"
     return f'<p align="right">{ja_text} · {en_text}</p>'
 
 
@@ -195,45 +216,9 @@ def translate_assignment(label: str) -> str:
     return ASSIGNMENT_JA.get(label, label)
 
 
-def render_readme_block_ja(data: dict[str, Any]) -> str:
-    techs = top_skill_names(data, 10)
-    domain_names = [DOMAIN_JA.get(str(row["name"]), str(row["name"])) for row in (data.get("capabilities") or data.get("domains") or [])[:8]]
-    practices = [PRACTICE_JA.get(str(row["name"]), str(row["name"])) for row in (data.get("practices") or [])[:8]]
-    fits = data.get("assignment_fit") or []
-    fit_rows = "\n".join(f"| {translate_assignment(str(row['label']))} | {int(row.get('score', 0))}% |" for row in fits[:5])
-    return "\n".join([
-        README_START,
-        "## エンジニアリングプロフィール",
-        "",
-        "### 主な技術",
-        "",
-        render_badges(techs),
-        "",
-        "### 対応領域",
-        "",
-        " ".join(f"`{name}`" for name in domain_names),
-        "",
-        "### 開発スタイル",
-        "",
-        " ".join(f"`{name}`" for name in practices),
-        "",
-        "### 案件タイプ別の公開実績",
-        "",
-        "| 分野 | 公開実績カバー率 |",
-        "| --- | ---: |",
-        fit_rows,
-        "",
-        '<p align="center"><sub><a href="./SKILL_SHEET.md">スキルシート</a> · <a href="./reports/developer-analytics.md">詳細分析</a> · <a href="./SKILL_SHEET.en.md">Skill Sheet (EN)</a></sub></p>',
-        README_END,
-    ])
-
-
-def replace_readme_block(text: str, block: str) -> str:
-    if README_START not in text or README_END not in text:
-        raise ValueError("README Developer Analytics marker pair is missing")
-    start = text.index(README_START)
-    end = text.index(README_END, start) + len(README_END)
-    return text[:start] + block + text[end:]
+def selected_projects(data: dict[str, Any], limit: int = 4) -> list[dict[str, Any]]:
+    projects = [row for row in data.get("projects") or [] if row.get("featured")]
+    return (projects or list(data.get("projects") or []))[:limit]
 
 
 def tech_category_rows(data: dict[str, Any]) -> list[tuple[str, str]]:
@@ -246,9 +231,52 @@ def tech_category_rows(data: dict[str, Any]) -> list[tuple[str, str]]:
     return rows
 
 
-def selected_projects(data: dict[str, Any], limit: int = 4) -> list[dict[str, Any]]:
-    projects = [row for row in data.get("projects") or [] if row.get("featured")]
-    return (projects or list(data.get("projects") or []))[:limit]
+def render_readme_block_ja(data: dict[str, Any]) -> str:
+    techs = top_skill_names(data, 10)
+    domain_names = [DOMAIN_JA.get(str(row["name"]), str(row["name"])) for row in (data.get("capabilities") or data.get("domains") or [])[:8]]
+    practices = [PRACTICE_JA.get(str(row["name"]), str(row["name"])) for row in (data.get("practices") or [])[:8]]
+    fits = data.get("assignment_fit") or []
+    fit_rows = "\n".join(f"| {translate_assignment(str(row['label']))} | {int(row.get('score', 0))}% |" for row in fits[:5])
+    return "\n".join([
+        README_START,
+        "## ENGINEERING PROFILE",
+        "",
+        "### CORE TECHNOLOGIES",
+        "",
+        render_badges(techs),
+        "",
+        "### ENGINEERING RANGE",
+        "",
+        " ".join(f"`{name}`" for name in domain_names),
+        "",
+        "### HOW I BUILD",
+        "",
+        " ".join(f"`{name}`" for name in practices),
+        "",
+        "### ASSIGNMENT FIT",
+        "",
+        "| Area | Public evidence coverage |",
+        "| --- | ---: |",
+        fit_rows,
+        "",
+        '<p align="center"><sub><a href="./SKILL_SHEET.md">Skill Sheet</a> · <a href="./reports/developer-analytics.md">Developer Analytics</a> · <a href="./SKILL_SHEET.en.md">English</a></sub></p>',
+        README_END,
+    ])
+
+
+def replace_readme_block(text: str, block: str) -> str:
+    if README_START not in text or README_END not in text:
+        raise ValueError("README Developer Analytics marker pair is missing")
+    start = text.index(README_START)
+    end = text.index(README_END, start) + len(README_END)
+    return text[:start] + block + text[end:]
+
+
+def role_ja(profile: dict[str, Any]) -> str:
+    headline = str(profile.get("headline") or "Product-minded Full Stack Developer")
+    if headline == "Product-minded Full Stack Developer":
+        return "プロダクト志向のフルスタックエンジニア"
+    return headline
 
 
 def render_skill_sheet_ja(data: dict[str, Any]) -> str:
@@ -258,29 +286,51 @@ def render_skill_sheet_ja(data: dict[str, Any]) -> str:
     fits = data.get("assignment_fit") or []
     lines = [
         language_nav("./SKILL_SHEET.md", "./SKILL_SHEET.en.md", japanese=True),
-        "# スキルシート — いゔる。 / mizzz",
+        "# SKILL SHEET — いゔる。 / mizzz",
         "",
-        "## 概要",
+        "## PROFILE",
         "",
-        f"- **職種:** {profile.get('headline', 'Full Stack Developer')}",
-        "- **得意領域:** React / TypeScriptを軸にしたWeb開発、API / DB、Realtime AI、Discord、CI/CD・運用",
-        "- **開発スタイル:** 実装だけで終わらせず、テスト・ドキュメント・デプロイ・運用まで一貫して扱う",
+        f"- **Role:** {role_ja(profile)}",
+        "- **Focus:** React / TypeScriptを軸にしたWeb開発、API / DB、Realtime AI、Discord、CI/CD・運用",
+        "- **Style:** 実装だけで終わらせず、テスト・Docs・Deploy・運用まで一貫して扱う",
         "",
-        "## 主な技術",
+        "## CORE TECHNOLOGIES",
         "",
         render_badges(top_skill_names(data, 10)),
         "",
-        "| 分野 | 主な技術 |",
+        "| Area | Technologies |",
         "| --- | --- |",
     ]
     lines += [f"| {label} | {values} |" for label, values in rows]
-    lines += ["", "## 強み", "", "- フロントエンドからAPI / DB / Workerまでつなげるフルスタック実装", "- Realtime AI・Discord Voiceなどリアルタイム処理の実装", "- 認証・権限・Secret管理・最小権限を含む安全な設計", "- CI / 自動テスト / Docker / リリースを含むDelivery", "- Issue / PR / README / Docsを実装と同時に更新するRepository中心の開発", "", "## 主な公開プロジェクト", "", "| Project | 概要 | 主な技術 |", "| --- | --- | --- |"]
+    lines += [
+        "",
+        "## STRENGTHS",
+        "",
+        "- FrontendからAPI / DB / WorkerまでつなげるFull-stack実装",
+        "- Realtime AI・Discord VoiceなどRealtime処理の実装",
+        "- 認証・権限・Secret管理・Least Privilegeを含むSecurity設計",
+        "- CI / 自動テスト / Docker / Releaseを含むDelivery",
+        "- Issue / PR / README / Docsを実装と同時に更新するRepository中心の開発",
+        "",
+        "## SELECTED PROJECTS",
+        "",
+        "| Project | Summary | Core Tech |",
+        "| --- | --- | --- |",
+    ]
     for project in projects:
         tech = " / ".join(project.get("technologies") or [])
         lines.append(f"| [{project.get('title')}]({project.get('url')}) | {project.get('description') or '-'} | {tech[:90]} |")
-    lines += ["", "## 案件タイプ別", "", "| 分野 | 公開実績 |", "| --- | ---: |"]
+    lines += ["", "## ASSIGNMENT FIT", "", "| Area | Public evidence |", "| --- | ---: |"]
     lines += [f"| {translate_assignment(str(row['label']))} | {int(row.get('score', 0))}% |" for row in fits[:5]]
-    lines += ["", "## 連絡先", "", f"- GitHub: https://github.com/{profile.get('github_login', 'mizzz-ivr')}", f"- Web: {profile.get('website', 'https://ivmz.ivrm.jp')}", f"- Email: {profile.get('contact', 'ivmz@ivrm.jp')}", ""]
+    lines += [
+        "",
+        "## CONTACT",
+        "",
+        f"- GitHub: https://github.com/{profile.get('github_login', 'mizzz-ivr')}",
+        f"- Web: {profile.get('website', 'https://ivmz.ivrm.jp')}",
+        f"- Email: {profile.get('contact', 'ivmz@ivrm.jp')}",
+        "",
+    ]
     return "\n".join(lines)
 
 
@@ -288,51 +338,139 @@ def render_skill_sheet_en(data: dict[str, Any]) -> str:
     profile = data.get("profile") or {}
     projects = selected_projects(data)
     fits = data.get("assignment_fit") or []
-    lines = [language_nav("./SKILL_SHEET.md", "./SKILL_SHEET.en.md", japanese=False), "# Skill Sheet — Ivoru / mizzz", "", "## Summary", "", f"- **Role:** {profile.get('headline', 'Product-minded Full Stack Developer')}", "- **Focus:** React / TypeScript web products, APIs / databases, realtime AI, Discord, CI/CD and operations", "- **Style:** End-to-end delivery from implementation through testing, documentation, deployment and operations", "", "## Core technologies", "", render_badges(top_skill_names(data, 10)), "", "## Strengths", "", "- Full-stack delivery across frontend, API, database and worker layers", "- Realtime AI and Discord Voice integration", "- Security-conscious authentication, authorization and secret handling", "- CI, automated tests, Docker and release engineering", "- Repository-driven development with Issues, PRs, README and Docs kept current", "", "## Selected public projects", "", "| Project | Summary |", "| --- | --- |"]
+    lines = [
+        language_nav("./SKILL_SHEET.md", "./SKILL_SHEET.en.md", japanese=False),
+        "# SKILL SHEET — Ivoru / mizzz",
+        "",
+        "## PROFILE",
+        "",
+        f"- **Role:** {profile.get('headline', 'Product-minded Full Stack Developer')}",
+        "- **Focus:** React / TypeScript web products, APIs / databases, realtime AI, Discord, CI/CD and operations",
+        "- **Style:** End-to-end delivery from implementation through testing, documentation, deployment and operations",
+        "",
+        "## CORE TECHNOLOGIES",
+        "",
+        render_badges(top_skill_names(data, 10)),
+        "",
+        "## STRENGTHS",
+        "",
+        "- Full-stack delivery across frontend, API, database and worker layers",
+        "- Realtime AI and Discord Voice integration",
+        "- Security-conscious authentication, authorization and secret handling",
+        "- CI, automated tests, Docker and release engineering",
+        "- Repository-driven development with Issues, PRs, README and Docs kept current",
+        "",
+        "## SELECTED PROJECTS",
+        "",
+        "| Project | Summary |",
+        "| --- | --- |",
+    ]
     for project in projects:
         lines.append(f"| [{project.get('title')}]({project.get('url')}) | {project.get('description') or '-'} |")
-    lines += ["", "## Public evidence by assignment type", "", "| Area | Coverage |", "| --- | ---: |"]
+    lines += ["", "## ASSIGNMENT FIT", "", "| Area | Coverage |", "| --- | ---: |"]
     lines += [f"| {row['label']} | {int(row.get('score', 0))}% |" for row in fits[:5]]
-    lines += ["", "## Contact", "", f"- GitHub: https://github.com/{profile.get('github_login', 'mizzz-ivr')}", f"- Web: {profile.get('website', 'https://ivmz.ivrm.jp')}", f"- Email: {profile.get('contact', 'ivmz@ivrm.jp')}", ""]
+    lines += [
+        "",
+        "## CONTACT",
+        "",
+        f"- GitHub: https://github.com/{profile.get('github_login', 'mizzz-ivr')}",
+        f"- Web: {profile.get('website', 'https://ivmz.ivrm.jp')}",
+        f"- Email: {profile.get('contact', 'ivmz@ivrm.jp')}",
+        "",
+    ]
     return "\n".join(lines)
 
 
 def render_report_ja(data: dict[str, Any]) -> str:
     summary = data.get("summary") or {}
-    lines = [language_nav("./developer-analytics.md", "./developer-analytics.en.md", japanese=True), "# Developer Analytics — 詳細分析", "", f"生成日時: `{data.get('generated_at', '')}`", "", "## 集計範囲", "", "| 項目 | 値 |", "| --- | ---: |", f"| 対象公開Project | {summary.get('tracked_projects', len(data.get('projects') or []))} |", f"| 直近90日で活動あり | {summary.get('active_projects_90d', '-')} |", f"| 技術要素 | {len(data.get('skills') or [])} |", f"| 開発プラクティス | {len(data.get('practices') or [])} |", "", "## 技術別の公開実績", "", "| 技術 | Evidence | Project数 | 最新 |", "| --- | --- | ---: | --- |"]
+    lines = [
+        language_nav("./developer-analytics.md", "./developer-analytics.en.md", japanese=True),
+        "# DEVELOPER ANALYTICS",
+        "",
+        f"Generated: `{data.get('generated_at', '')}`",
+        "",
+        "## SUMMARY",
+        "",
+        "| Metric | Value |",
+        "| --- | ---: |",
+        f"| Tracked public projects | {summary.get('tracked_projects', len(data.get('projects') or []))} |",
+        f"| Active projects (90d) | {summary.get('active_projects_90d', '-')} |",
+        f"| Technologies | {len(data.get('skills') or [])} |",
+        f"| Engineering practices | {len(data.get('practices') or [])} |",
+        "",
+        "## TECHNOLOGY EVIDENCE",
+        "",
+        "| Technology | Evidence | Projects | Latest |",
+        "| --- | --- | ---: | --- |",
+    ]
     for row in (data.get("skills") or [])[:25]:
-        latest = "未観測" if row.get("recency_days") is None else ("今日" if row.get("recency_days") == 0 else f"{row['recency_days']}日前")
+        latest = "未観測" if row.get("recency_days") is None else ("today" if row.get("recency_days") == 0 else f"{row['recency_days']}d ago")
         lines.append(f"| {row['name']} | {row.get('level', '-')} | {row.get('project_count', 0)} | {latest} |")
-    lines += ["", "## 開発プラクティス", "", "| プラクティス | Project数 |", "| --- | ---: |"]
+    lines += ["", "## ENGINEERING PRACTICES", "", "| Practice | Projects |", "| --- | ---: |"]
     for row in (data.get("practices") or [])[:20]:
         lines.append(f"| {PRACTICE_JA.get(str(row['name']), str(row['name']))} | {row.get('project_count', 0)} |")
-    lines += ["", "## 案件タイプ別", "", "| 分野 | 公開実績カバー率 | 不足シグナル |", "| --- | ---: | --- |"]
+    lines += ["", "## ASSIGNMENT FIT", "", "| Area | Coverage | Missing signal |", "| --- | ---: | --- |"]
     for row in data.get("assignment_fit") or []:
         missing = ", ".join(str(item.get("value")) for item in row.get("missing") or []) or "なし"
         lines.append(f"| {translate_assignment(str(row['label']))} | {int(row.get('score', 0))}% | {missing} |")
-    lines += ["", "## Project別", "", "| Project | Evidence | 主な技術 |", "| --- | --- | --- |"]
+    lines += ["", "## PROJECTS", "", "| Project | Evidence | Core Tech |", "| --- | --- | --- |"]
     for project in data.get("projects") or []:
         tech = ", ".join(project.get("technologies") or [])[:120]
         lines.append(f"| [{project.get('repo')}]({project.get('url')}) | {project.get('evidence_level', '-')} | {tech} |")
-    lines += ["", "## 補足", "", "- 集計対象は公開GitHub上で確認できる情報のみです。", "- 非公開Repositoryや顧客情報は出力しません。", "- 公開実績の不足は未経験を意味しません。", ""]
+    lines += [
+        "",
+        "## NOTES",
+        "",
+        "- 集計対象は公開GitHub上で確認できる情報のみです。",
+        "- Private Repositoryや顧客情報は出力しません。",
+        "- 公開Evidenceの不足は未経験を意味しません。",
+        "",
+    ]
     return "\n".join(lines)
 
 
 def render_report_en(data: dict[str, Any]) -> str:
     summary = data.get("summary") or {}
-    lines = [language_nav("./developer-analytics.md", "./developer-analytics.en.md", japanese=False), "# Developer Analytics — Detailed Report", "", f"Generated: `{data.get('generated_at', '')}`", "", "## Coverage", "", "| Metric | Value |", "| --- | ---: |", f"| Tracked public projects | {summary.get('tracked_projects', len(data.get('projects') or []))} |", f"| Active projects (90d) | {summary.get('active_projects_90d', '-')} |", f"| Technologies | {len(data.get('skills') or [])} |", f"| Engineering practices | {len(data.get('practices') or [])} |", "", "## Technology evidence", "", "| Technology | Evidence | Projects | Latest |", "| --- | --- | ---: | --- |"]
+    lines = [
+        language_nav("./developer-analytics.md", "./developer-analytics.en.md", japanese=False),
+        "# DEVELOPER ANALYTICS",
+        "",
+        f"Generated: `{data.get('generated_at', '')}`",
+        "",
+        "## SUMMARY",
+        "",
+        "| Metric | Value |",
+        "| --- | ---: |",
+        f"| Tracked public projects | {summary.get('tracked_projects', len(data.get('projects') or []))} |",
+        f"| Active projects (90d) | {summary.get('active_projects_90d', '-')} |",
+        f"| Technologies | {len(data.get('skills') or [])} |",
+        f"| Engineering practices | {len(data.get('practices') or [])} |",
+        "",
+        "## TECHNOLOGY EVIDENCE",
+        "",
+        "| Technology | Evidence | Projects | Latest |",
+        "| --- | --- | ---: | --- |",
+    ]
     for row in (data.get("skills") or [])[:25]:
         latest = "not observed" if row.get("recency_days") is None else ("today" if row.get("recency_days") == 0 else f"{row['recency_days']}d ago")
         lines.append(f"| {row['name']} | {row.get('level', '-')} | {row.get('project_count', 0)} | {latest} |")
-    lines += ["", "## Assignment coverage", "", "| Area | Coverage | Missing public signal |", "| --- | ---: | --- |"]
+    lines += ["", "## ASSIGNMENT FIT", "", "| Area | Coverage | Missing public signal |", "| --- | ---: | --- |"]
     for row in data.get("assignment_fit") or []:
         missing = ", ".join(str(item.get("value")) for item in row.get("missing") or []) or "None"
         lines.append(f"| {row['label']} | {int(row.get('score', 0))}% | {missing} |")
-    lines += ["", "## Projects", "", "| Project | Evidence | Technologies |", "| --- | --- | --- |"]
+    lines += ["", "## PROJECTS", "", "| Project | Evidence | Technologies |", "| --- | --- | --- |"]
     for project in data.get("projects") or []:
         tech = ", ".join(project.get("technologies") or [])[:120]
         lines.append(f"| [{project.get('repo')}]({project.get('url')}) | {project.get('evidence_level', '-')} | {tech} |")
-    lines += ["", "## Notes", "", "- Only public GitHub evidence is included.", "- Private repositories and confidential customer information are excluded.", "- Missing public evidence does not mean missing experience.", ""]
+    lines += [
+        "",
+        "## NOTES",
+        "",
+        "- Only public GitHub evidence is included.",
+        "- Private repositories and confidential customer information are excluded.",
+        "- Missing public evidence does not mean missing experience.",
+        "",
+    ]
     return "\n".join(lines)
 
 
@@ -348,19 +486,19 @@ def render_readme_en(data: dict[str, Any]) -> str:
         "",
         '<p align="center"><strong>Product-minded Full Stack Developer</strong><br/>Building web products, realtime AI, Discord systems, APIs, databases and operations end to end.</p>',
         "",
-        "## Core technologies",
+        "## CORE TECHNOLOGIES",
         "",
         render_badges(top_skill_names(data, 10)),
         "",
-        "## What I work on",
+        "## ENGINEERING RANGE",
         "",
         "`Full Stack` `Web Product` `Realtime AI` `Discord` `Platform / Tooling` `DevOps / Observability`",
         "",
-        "## Selected public projects",
+        "## SELECTED PROJECTS",
         "",
         project_rows,
         "",
-        "## Links",
+        "## LINKS",
         "",
         f"- Website: {profile.get('website', 'https://ivmz.ivrm.jp')}",
         "- GitHub: https://github.com/mizzz-ivr",
@@ -395,7 +533,7 @@ def main() -> None:
     args = parser.parse_args()
     data = load_render_data(args.data, args.config)
     write_outputs(data, readme=args.readme, readme_en=args.readme_en, skill_ja=args.skill_ja, skill_en=args.skill_en, report_ja=args.report_ja, report_en=args.report_en)
-    print(f"Rendered Japanese-first developer profile: skills={len(data.get('skills') or [])} projects={len(data.get('projects') or [])}")
+    print(f"Rendered developer profile: skills={len(data.get('skills') or [])} projects={len(data.get('projects') or [])}")
 
 
 if __name__ == "__main__":

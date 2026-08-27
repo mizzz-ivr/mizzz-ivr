@@ -39,22 +39,45 @@ class ProfileSignalCustomizeTest(unittest.TestCase):
         self.assertEqual([item["repo"] for item in filtered["now_building"]], ["ivRooom/Herta"])
         self.assertEqual([item["repo"] for item in filtered["activity_stream"]], ["ivRooom/Herta"])
 
-    def test_customize_renders_japanese_sections(self) -> None:
+    def test_long_term_summary_aggregates_year_and_tracked_lifetime(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            for day, commits in (("2025-12-31", 2), ("2026-01-01", 3), ("2026-08-27", 5)):
+                path = root / "data" / "activity" / day[:4] / day[5:7] / f"{day}.json"
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps({
+                    "date": day,
+                    "metrics": {
+                        "commits": commits,
+                        "prs_opened": 1,
+                        "issues_created": 1,
+                        "issues_completed": 1,
+                    },
+                }), encoding="utf-8")
+            summary = custom.long_term_summary(root, {"date": "2026-08-27"})
+        self.assertEqual(summary["year"], 2026)
+        self.assertEqual(summary["yearly"]["metrics"]["commits"], 8)
+        self.assertEqual(summary["yearly"]["tracked_days"], 2)
+        self.assertEqual(summary["lifetime"]["metrics"]["commits"], 10)
+        self.assertEqual(summary["lifetime"]["tracked_days"], 3)
+        self.assertEqual(summary["lifetime"]["first_date"], "2025-12-31")
+
+    def test_customize_renders_hybrid_profile_and_long_term_recap(self) -> None:
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)
             readme = root / "README.md"
             state_path = root / "data/profile-signal-state.json"
             ignore = root / ".profile-signalignore"
             activity = root / "data/activity/2026/08/2026-08-27.json"
-            svg = root / "assets/dev-pulse.svg"
             readme.parent.mkdir(parents=True, exist_ok=True)
             state_path.parent.mkdir(parents=True, exist_ok=True)
             activity.parent.mkdir(parents=True, exist_ok=True)
-            svg.parent.mkdir(parents=True, exist_ok=True)
             readme.write_text("\n\n".join(f"{start}\nold\n{end}" for start, end in custom.MARKERS.values()), encoding="utf-8")
             ignore.write_text("mizzz-ivr/tech-writing\n", encoding="utf-8")
-            activity.write_text(json.dumps({"date": "2026-08-27", "metrics": {"commits": 1, "prs_opened": 2, "issues_created": 3, "issues_completed": 4}}), encoding="utf-8")
-            svg.write_text("<svg><text>DEV PULSE · LAST 7 DAYS</text></svg>", encoding="utf-8")
+            activity.write_text(json.dumps({
+                "date": "2026-08-27",
+                "metrics": {"commits": 1, "prs_opened": 2, "issues_created": 3, "issues_completed": 4},
+            }), encoding="utf-8")
             state = {
                 "schema_version": 4,
                 "date": "2026-08-27",
@@ -65,18 +88,28 @@ class ProfileSignalCustomizeTest(unittest.TestCase):
                 "streak": 3,
                 "current_focus": {"repo": "mizzz-ivr/tech-writing", "score": 90, "share": 50, "events": 5, "stack": ["Python"]},
                 "now_building": [{"repo": "ivRooom/Herta", "score": 80, "share": 30, "events": 4, "health": {"label": "HEALTHY"}, "ci": {"pass_rate": 100}}],
-                "activity_stream": [{"repo": "ivRooom/Herta", "label": "PR", "title": "merged", "at": "2026-08-27T09:00:00Z"}],
-                "dev_recap": {"active_days": 1, "weekly": {"metrics": {}}, "monthly": {"metrics": {}}},
+                "activity_stream": [{"repo": "ivRooom/Herta", "label": "PR", "title": "PR #1をマージ", "at": "2026-08-27T09:00:00Z"}],
+                "ci_signal": {"label": "HEALTHY", "pass_rate": 100, "passed": 4, "evaluated": 4, "repos_with_signal": 1},
+                "dev_recap": {
+                    "tracked_from": "2026-08-27",
+                    "weekly": {"metrics": {"commits": 1, "prs_opened": 2, "issues_completed": 4}},
+                    "monthly": {"metrics": {"commits": 1, "prs_opened": 2, "issues_completed": 4, "activity_total": 10}},
+                },
             }
             state_path.write_text(json.dumps(state), encoding="utf-8")
             custom.customize(root, readme, state_path, ignore)
             rendered = readme.read_text(encoding="utf-8")
             persisted = json.loads(state_path.read_text(encoding="utf-8"))
-            self.assertIn("## 現在のフォーカス", rendered)
-            self.assertIn("## 今日の活動", rendered)
+            self.assertIn("## CURRENT FOCUS // What is moving now", rendered)
+            self.assertIn("weighted activity", rendered)
+            self.assertIn("## TODAY // Activity overview", rendered)
+            self.assertIn("### QUALITY SIGNAL // Last 7 days", rendered)
+            self.assertIn("YEARLY SUMMARY // 2026", rendered)
+            self.assertIn("LIFETIME SUMMARY // Tracked history", rendered)
+            self.assertNotIn("加重アクティビティ", rendered)
             self.assertNotIn("mizzz-ivr/tech-writing", rendered)
             self.assertEqual(persisted["current_focus"]["repo"], "ivRooom/Herta")
-            self.assertIn("開発パルス · 直近7日", svg.read_text(encoding="utf-8"))
+            self.assertEqual(persisted["tracked_summary"]["lifetime"]["tracked_days"], 1)
 
 
 if __name__ == "__main__":

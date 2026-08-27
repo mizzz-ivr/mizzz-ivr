@@ -65,7 +65,7 @@ jobs:
           PROFILE_SIGNAL_CONFIG: .github/profile-signal.yml
         run: python .profile-signal/src/stream_runtime.py
 
-      - name: Apply Japanese consumer view and repository filters
+      - name: Apply consumer view and repository filters
         run: python scripts/profile_signal_customize.py
 
       - name: Localize known activity titles
@@ -107,6 +107,7 @@ jobs:
               "activity_stream",
               "ci_signal",
               "dev_recap",
+              "tracked_summary",
           ):
               if key not in state:
                   raise SystemExit(f"Missing Profile Signal state key: {key}")
@@ -119,6 +120,15 @@ jobs:
               raise SystemExit("NOW BUILDING must contain at most three repositories")
           if len(state["activity_stream"]) > 4:
               raise SystemExit("ACTIVITY STREAM must contain at most four events")
+
+          tracked = state["tracked_summary"]
+          for scope in ("yearly", "lifetime"):
+              summary = tracked.get(scope) or {}
+              for key in ("tracked_days", "active_days", "metrics"):
+                  if key not in summary:
+                      raise SystemExit(f"Tracked {scope} summary missing key: {key}")
+          if tracked["lifetime"]["tracked_days"] < tracked["yearly"]["tracked_days"]:
+              raise SystemExit("Lifetime tracked days cannot be lower than yearly tracked days")
 
           ignored = {line.strip() for line in Path('.profile-signalignore').read_text(encoding='utf-8').splitlines() if line.strip() and not line.lstrip().startswith('#') and '*' not in line and '?' not in line}
           focus_repo = str((state.get('current_focus') or {}).get('repo') or '')
@@ -155,9 +165,23 @@ jobs:
           ):
               if marker not in readme:
                   raise SystemExit(f"Missing README marker: {marker}")
-          for heading in ("## 開発ステータス", "## 今日の活動", "## 現在のフォーカス", "## 現在動いているリポジトリ", "## 最近の公開アクティビティ"):
+          for heading in (
+              "## LIVE SIGNAL // Development status",
+              "## TODAY // Activity overview",
+              "## CURRENT FOCUS // What is moving now",
+              "## DEV PULSE // Last 7 days",
+              "### QUALITY SIGNAL // Last 7 days",
+              "## NOW BUILDING // Active repositories",
+              "## ACTIVITY STREAM // Latest public signals",
+              "## DEV RECAP // Tracked history",
+          ):
               if heading not in readme:
-                  raise SystemExit(f"Japanese profile heading missing: {heading}")
+                  raise SystemExit(f"Profile heading missing: {heading}")
+          for summary_heading in ("MONTHLY SUMMARY", "YEARLY SUMMARY //", "LIFETIME SUMMARY // Tracked history"):
+              if summary_heading not in readme:
+                  raise SystemExit(f"Long-term summary missing: {summary_heading}")
+          if "加重アクティビティ" in readme or "スコア " in readme:
+              raise SystemExit("Unnatural translated engineering metric remained in README")
           for english_event in ("commit pushed to", "commits pushed to", "PR merged #", "Opened issue #", "Closed issue #"):
               if english_event in readme:
                   raise SystemExit(f"Known English activity title remained in Japanese README: {english_event}")
@@ -165,7 +189,7 @@ jobs:
           ET.parse("assets/dev-pulse.svg")
           print(
               f"Validated {len(logs)} daily snapshots, {len(weekly)} weekly reports, "
-              f"{len(monthly)} monthly reports, repository filters and Japanese consumer rendering"
+              f"{len(monthly)} monthly reports, repository filters, hybrid rendering and long-term summaries"
           )
           PY
 
@@ -211,7 +235,7 @@ jobs:
           PROFILE_SIGNAL_CONFIG: .github/profile-signal.yml
         run: python .profile-signal/src/stream_runtime.py
 
-      - name: Apply Japanese consumer view and repository filters
+      - name: Apply consumer view and repository filters
         run: python scripts/profile_signal_customize.py
 
       - name: Localize known activity titles
@@ -224,7 +248,7 @@ jobs:
           README_PATH: ${{ steps.profile-config.outputs.readme_path }}
         run: |
           set -euo pipefail
-          paths=("$README_PATH" assets/dev-pulse.svg data/profile-signal-state.json)
+          paths=("$README_PATH" data/profile-signal-state.json)
           if [ -z "$(git status --porcelain -- "${paths[@]}")" ]; then
             echo "No live signal changes"
             exit 0
@@ -275,7 +299,7 @@ jobs:
         with:
           config: .github/profile-signal.yml
 
-      - name: Apply Japanese consumer view and repository filters
+      - name: Apply consumer view and repository filters
         run: python scripts/profile_signal_customize.py
 
       - name: Localize known activity titles
