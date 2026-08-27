@@ -28,8 +28,18 @@ Release ZIPは以下を追加し、既存README自体は含みません。
 .profile-signal/
 ├─ action.yml
 ├─ LICENSE
+├─ presets/
+│  ├─ minimal.yml
+│  ├─ standard.yml
+│  ├─ full.yml
+│  ├─ terminal.yml
+│  ├─ compact.yml
+│  ├─ developer.yml
+│  ├─ activity.yml
+│  └─ oss.yml
 ├─ src/
-│  └─ orchestrator.py
+│  ├─ orchestrator.py
+│  └─ preset_runtime.py
 └─ scripts/
    ├─ update-profile-activity.py
    ├─ profile_signal.py
@@ -48,12 +58,31 @@ PROFILE_SIGNAL_VERSION
 
 ## Preset
 
+### 基本Preset
+
 - `minimal` — LIVE SIGNAL + CURRENT FOCUS
 - `standard` — LIVE SIGNAL + TODAY + CURRENT FOCUS + DEV PULSE
 - `full` — 全Widget
 - `terminal` — 全Widget + terminal theme既定
 
-Presetは今後追加できるよう拡張していきます。既存Presetの意味は破壊的に変更せず、新しい用途は新Presetとして追加する方針です。
+### 用途別Preset
+
+- `compact` — TODAY + CURRENT FOCUS。短く現在地だけ表示
+- `developer` — LIVE SIGNAL + CURRENT FOCUS + DEV PULSE + NOW BUILDING + ACTIVITY STREAM
+- `activity` — TODAY + DEV PULSE + ACTIVITY STREAM + DEV RECAP
+- `oss` — LIVE SIGNAL + CURRENT FOCUS + NOW BUILDING + ACTIVITY STREAM + DEV RECAP
+
+Preset定義は `.profile-signal/presets/*.yml` に分離されています。既存Presetの意味は破壊的に変更せず、新しい用途は新Presetとして追加する方針です。
+
+個別WidgetはPreset選択後も上書きできます。
+
+```yaml
+preset: developer
+
+widgets:
+  dev_recap:
+    enabled: true
+```
 
 ## Theme
 
@@ -61,7 +90,7 @@ Presetは今後追加できるよう拡張していきます。既存Presetの�
 - `minimal`
 - `terminal`
 
-Presetは表示するWidget構成、Themeは見せ方を担当します。
+Presetは表示するWidget構成と既定Theme、Themeは見せ方を担当します。
 
 ## README挿入位置
 
