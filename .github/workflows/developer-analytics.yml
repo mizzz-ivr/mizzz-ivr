@@ -74,11 +74,14 @@ jobs:
             --skill-en "$tmp/SKILL_SHEET.en.md" \
             --report-ja "$tmp/developer-analytics.md" \
             --report-en "$tmp/developer-analytics.en.md"
-          grep -q '## エンジニアリングプロフィール' "$tmp/README.md"
-          grep -q '# スキルシート' "$tmp/SKILL_SHEET.md"
-          grep -q '# Skill Sheet' "$tmp/SKILL_SHEET.en.md"
-          grep -q '# Developer Analytics — 詳細分析' "$tmp/developer-analytics.md"
-          grep -q '# Developer Analytics — Detailed Report' "$tmp/developer-analytics.en.md"
+          grep -q '## ENGINEERING PROFILE' "$tmp/README.md"
+          grep -q '### CORE TECHNOLOGIES' "$tmp/README.md"
+          grep -q '# SKILL SHEET' "$tmp/SKILL_SHEET.md"
+          grep -q '## STRENGTHS' "$tmp/SKILL_SHEET.md"
+          grep -q '# SKILL SHEET' "$tmp/SKILL_SHEET.en.md"
+          grep -q '# DEVELOPER ANALYTICS' "$tmp/developer-analytics.md"
+          grep -q '## TECHNOLOGY EVIDENCE' "$tmp/developer-analytics.md"
+          grep -q '# DEVELOPER ANALYTICS' "$tmp/developer-analytics.en.md"
           python -m json.tool "$tmp/latest.json" >/dev/null
 
       - name: Validate public GitHub evidence
@@ -104,6 +107,9 @@ jobs:
             --skill-en "$tmp/SKILL_SHEET.en.md" \
             --report-ja "$tmp/developer-analytics.md" \
             --report-en "$tmp/developer-analytics.en.md"
+          grep -q '## ENGINEERING PROFILE' "$tmp/README.md"
+          grep -q '# SKILL SHEET' "$tmp/SKILL_SHEET.md"
+          grep -q '# DEVELOPER ANALYTICS' "$tmp/developer-analytics.md"
           python -m json.tool "$tmp/latest.json" >/dev/null
 
       - name: Ensure Profile Signal runtime is untouched
