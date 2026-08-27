@@ -2,7 +2,9 @@ name: Profile Signal stream
 
 on:
   schedule:
-    - cron: "7,37 * * * *"
+    # GitHub Actions supports a minimum 5-minute interval. Offset from minute 0
+    # to reduce the chance of schedule delays during the busiest part of the hour.
+    - cron: "3/5 * * * *"
       timezone: "Asia/Tokyo"
   workflow_dispatch:
 
