@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import json
 import tempfile
 import unittest
 from pathlib import Path
@@ -63,23 +62,32 @@ class DeveloperProfileRendererTest(unittest.TestCase):
             ],
         }
 
-    def test_readme_block_is_japanese_and_uses_logo_badges(self) -> None:
+    def test_readme_block_uses_english_headings_and_logo_badges(self) -> None:
         block = renderer.render_readme_block_ja(self.sample_data())
-        self.assertIn("## エンジニアリングプロフィール", block)
-        self.assertIn("### 主な技術", block)
+        self.assertIn("## ENGINEERING PROFILE", block)
+        self.assertIn("### CORE TECHNOLOGIES", block)
+        self.assertIn("### HOW I BUILD", block)
         self.assertIn("logo=typescript", block)
-        self.assertNotIn("公開Repositoryの実装・構成・技術選定", block)
+        self.assertNotIn("エンジニアリングプロフィール", block)
         self.assertNotIn("Evidence Scoreは能力点", block)
 
-    def test_skill_sheet_is_concise_and_bilingual(self) -> None:
+    def test_skill_sheet_is_concise_hybrid_and_bilingual(self) -> None:
         ja = renderer.render_skill_sheet_ja(self.sample_data())
         en = renderer.render_skill_sheet_en(self.sample_data())
-        self.assertIn("# スキルシート", ja)
-        self.assertIn("## 強み", ja)
+        self.assertIn("# SKILL SHEET", ja)
+        self.assertIn("## STRENGTHS", ja)
+        self.assertIn("プロダクト志向のフルスタックエンジニア", ja)
         self.assertIn("[English](./SKILL_SHEET.en.md)", ja)
         self.assertNotIn("## 技術Evidence", ja)
-        self.assertIn("# Skill Sheet", en)
+        self.assertIn("# SKILL SHEET", en)
         self.assertLess(len(ja.splitlines()), 90)
+
+    def test_report_uses_english_headings_with_japanese_notes(self) -> None:
+        report = renderer.render_report_ja(self.sample_data())
+        self.assertIn("# DEVELOPER ANALYTICS", report)
+        self.assertIn("## TECHNOLOGY EVIDENCE", report)
+        self.assertIn("## ENGINEERING PRACTICES", report)
+        self.assertIn("集計対象は公開GitHub", report)
 
     def test_write_outputs_creates_language_variants(self) -> None:
         data = self.sample_data()
@@ -96,11 +104,11 @@ class DeveloperProfileRendererTest(unittest.TestCase):
                 report_ja=root / "reports/developer-analytics.md",
                 report_en=root / "reports/developer-analytics.en.md",
             )
-            self.assertIn("## エンジニアリングプロフィール", readme.read_text(encoding="utf-8"))
+            self.assertIn("## ENGINEERING PROFILE", readme.read_text(encoding="utf-8"))
             self.assertTrue((root / "README.en.md").exists())
             self.assertTrue((root / "SKILL_SHEET.en.md").exists())
             self.assertTrue((root / "reports/developer-analytics.en.md").exists())
-            self.assertIn("# Developer Analytics — 詳細分析", (root / "reports/developer-analytics.md").read_text(encoding="utf-8"))
+            self.assertIn("# DEVELOPER ANALYTICS", (root / "reports/developer-analytics.md").read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":
