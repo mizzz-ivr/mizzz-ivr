@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-27T22:20:01Z"
+    "last_activity_at": "2026-08-27T23:02:49Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -143,14 +143,21 @@
   ],
   "activity_stream": [
     {
-      "label": "ISSUE",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "Reopened issue #52",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/issues/52",
-      "at": "2026-08-27T22:14:09Z"
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-27T23:00:39Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "PR merged #349",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-08-27T23:00:38Z"
     }
   ],
-  "generated_at": "2026-08-28T07:24:43+09:00",
+  "generated_at": "2026-08-28T08:03:47+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
