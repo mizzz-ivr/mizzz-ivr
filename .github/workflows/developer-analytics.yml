@@ -4,11 +4,15 @@ on:
   pull_request:
     paths:
       - .github/developer-analytics.yml
+      - .github/profile-signal.yml
       - .github/workflows/developer-analytics.yml
       - scripts/developer_analytics.py
       - tests/test_developer_analytics.py
       - docs/DEVELOPER_ANALYTICS.md
       - README.md
+      - SKILL_SHEET.md
+      - reports/developer-analytics.md
+      - data/developer-analytics/**
   workflow_dispatch:
 
 permissions:
@@ -22,14 +26,14 @@ jobs:
   validate:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
@@ -55,7 +59,25 @@ jobs:
             --skill-sheet "$tmp/SKILL_SHEET.md" \
             --readme "$tmp/README.md"
           grep -q '<!-- DEVELOPER-ANALYTICS:START -->' "$tmp/README.md"
+          grep -q '<!-- DEVELOPER-ANALYTICS:END -->' "$tmp/README.md"
           grep -q '# Skill Sheet' "$tmp/SKILL_SHEET.md"
+          python -m json.tool "$tmp/latest.json" >/dev/null
+
+      - name: Validate public GitHub evidence
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          tmp="$(mktemp -d)"
+          cp README.md "$tmp/README.md"
+          python scripts/developer_analytics.py \
+            --strict \
+            --no-snapshot \
+            --output "$tmp/latest.json" \
+            --report "$tmp/developer-analytics.md" \
+            --skill-sheet "$tmp/SKILL_SHEET.md" \
+            --readme "$tmp/README.md"
           python -m json.tool "$tmp/latest.json" >/dev/null
 
       - name: Ensure Profile Signal runtime is untouched
@@ -76,13 +98,13 @@ jobs:
 
     steps:
       - name: Checkout default branch
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
         with:
           ref: ${{ github.event.repository.default_branch }}
           fetch-depth: 1
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
