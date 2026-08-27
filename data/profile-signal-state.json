@@ -7,20 +7,20 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-27T00:49:05Z"
+    "last_activity_at": "2026-08-27T04:57:58Z"
   },
   "code_weather": {
     "label": "STORM",
     "icon": "🌩️"
   },
   "streak": 3,
-  "activity_total": 69,
+  "activity_total": 311,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 76,
-    "events": 65,
-    "last_activity_at": "2026-08-27T00:49:05Z",
-    "share": 60,
+    "score": 109,
+    "events": 95,
+    "last_activity_at": "2026-08-27T04:57:58Z",
+    "share": 30,
     "stack": [
       "TypeScript",
       "Shell",
@@ -66,36 +66,36 @@
     },
     {
       "date": "2026-08-26",
-      "total": 460,
-      "commits": 422,
+      "total": 468,
+      "commits": 430,
       "prs": 26,
       "issues": 12
     },
     {
       "date": "2026-08-27",
-      "total": 69,
-      "commits": 59,
-      "prs": 5,
-      "issues": 5
+      "total": 311,
+      "commits": 270,
+      "prs": 24,
+      "issues": 17
     }
   ],
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 76,
-      "events": 65,
-      "last_activity_at": "2026-08-27T00:49:05Z",
-      "share": 60,
+      "score": 109,
+      "events": 95,
+      "last_activity_at": "2026-08-27T04:57:58Z",
+      "share": 30,
       "ci": {
         "label": "ATTENTION",
         "symbol": "!",
         "window_days": 7,
         "total_runs": 10,
-        "evaluated": 6,
-        "passed": 1,
-        "failed": 5,
-        "ignored": 4,
-        "pass_rate": 17,
+        "evaluated": 2,
+        "passed": 0,
+        "failed": 2,
+        "ignored": 8,
+        "pass_rate": 0,
         "latest_conclusion": "failure"
       },
       "health": {
@@ -105,21 +105,21 @@
       }
     },
     {
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "score": 25,
-      "events": 19,
-      "last_activity_at": "2026-08-26T23:52:59Z",
+      "repo": "mizzz-ivr/tech-writing",
+      "score": 72,
+      "events": 50,
+      "last_activity_at": "2026-08-27T04:57:38Z",
       "share": 20,
       "ci": {
         "label": "MIXED",
         "symbol": "◐",
         "window_days": 7,
         "total_runs": 10,
-        "evaluated": 10,
-        "passed": 8,
-        "failed": 2,
-        "ignored": 0,
-        "pass_rate": 80,
+        "evaluated": 8,
+        "passed": 7,
+        "failed": 1,
+        "ignored": 2,
+        "pass_rate": 88,
         "latest_conclusion": "success"
       },
       "health": {
@@ -129,70 +129,70 @@
       }
     },
     {
-      "repo": "mizzz-ivr/ivmz-home",
-      "score": 17,
-      "events": 17,
-      "last_activity_at": "2026-08-27T00:00:38Z",
-      "share": 13,
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "score": 67,
+      "events": 43,
+      "last_activity_at": "2026-08-27T04:38:04Z",
+      "share": 18,
       "ci": {
-        "label": "MIXED",
-        "symbol": "◐",
+        "label": "PASSING",
+        "symbol": "●",
         "window_days": 7,
         "total_runs": 10,
-        "evaluated": 6,
-        "passed": 5,
-        "failed": 1,
-        "ignored": 4,
-        "pass_rate": 83,
+        "evaluated": 10,
+        "passed": 10,
+        "failed": 0,
+        "ignored": 0,
+        "pass_rate": 100,
         "latest_conclusion": "success"
       },
       "health": {
-        "label": "WATCH",
-        "symbol": "◐",
-        "reason": "recent CI is mixed"
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
       }
     }
   ],
   "activity_stream": [
     {
+      "label": "ISSUE",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "Closed issue #16",
+      "url": "https://github.com/mizzz-ivr/tech-writing/issues/16",
+      "at": "2026-08-27T04:57:38Z"
+    },
+    {
       "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "Opened PR #346",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-08-27T00:49:05Z"
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "PR merged #17",
+      "url": "https://github.com/mizzz-ivr/tech-writing",
+      "at": "2026-08-27T04:57:37Z"
+    },
+    {
+      "label": "PR",
+      "repo": "mizzz-ivr/profile-signal",
+      "title": "PR merged #6",
+      "url": "https://github.com/mizzz-ivr/profile-signal",
+      "at": "2026-08-27T04:57:31Z"
     },
     {
       "label": "PUSH",
       "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to feat/ai-conversation-policy",
+      "title": "1 commit pushed to feat/ai-artifact-runtime",
       "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-27T00:48:02Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to feat/ai-conversation-policy",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-27T00:47:50Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to feat/ai-conversation-policy",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-27T00:47:00Z"
+      "at": "2026-08-27T04:57:22Z"
     }
   ],
-  "generated_at": "2026-08-27T09:51:22+09:00",
+  "generated_at": "2026-08-27T13:59:35+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
     "window_days": 7,
-    "evaluated": 22,
-    "passed": 14,
-    "failed": 8,
-    "ignored": 8,
-    "pass_rate": 64,
+    "evaluated": 20,
+    "passed": 17,
+    "failed": 3,
+    "ignored": 10,
+    "pass_rate": 85,
     "repos_with_signal": 3
   },
   "dev_recap": {
@@ -213,13 +213,13 @@
         "active_days": 3
       },
       "metrics": {
-        "commits": 680,
-        "prs_opened": 43,
-        "issues_created": 16,
-        "issues_completed": 4,
-        "activity_total": 743
+        "commits": 899,
+        "prs_opened": 62,
+        "issues_created": 21,
+        "issues_completed": 11,
+        "activity_total": 993
       },
-      "generated_at": "2026-08-27T09:51:22+09:00"
+      "generated_at": "2026-08-27T13:59:35+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -234,13 +234,13 @@
         "active_days": 3
       },
       "metrics": {
-        "commits": 680,
-        "prs_opened": 43,
-        "issues_created": 16,
-        "issues_completed": 4,
-        "activity_total": 743
+        "commits": 899,
+        "prs_opened": 62,
+        "issues_created": 21,
+        "issues_completed": 11,
+        "activity_total": 993
       },
-      "generated_at": "2026-08-27T09:51:22+09:00"
+      "generated_at": "2026-08-27T13:59:35+09:00"
     },
     "achievements": [
       {
@@ -260,6 +260,12 @@
         "label": "10+ PRS",
         "icon": "🚢",
         "unlocked_on": "2026-08-25"
+      },
+      {
+        "key": "10-issues-done",
+        "label": "10+ ISSUES DONE",
+        "icon": "✅",
+        "unlocked_on": "2026-08-27"
       }
     ]
   }

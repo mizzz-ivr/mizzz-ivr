@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 59,
-    "prs_opened": 5,
-    "issues_created": 5,
-    "issues_completed": 0
+    "commits": 270,
+    "prs_opened": 24,
+    "issues_created": 10,
+    "issues_completed": 7
   },
   "activity": [
     {
       "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Merge pull request #10 from mizzz-ivr/feat/multi-page-route-foundation",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/9f56d1e2611d308e9e4d79098987f67417c6b9c6",
-      "at": "2026-08-27T09:00:37.000+09:00"
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "Merge pull request #17 from mizzz-ivr/chore/normalize-published-metadata  chore: 公開済み記事metadataを",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/cd2654a7ceb0ae7917d84a960ca05efe869700a9",
+      "at": "2026-08-27T13:57:36.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "docs: add Profile Signal wiki, license scope and Japanese release notes  * docs: add Profile Sig",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/ad420fba12b6a49e60224aae97869962611ee8f7",
-      "at": "2026-08-27T08:52:57.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "test: use runner WebKit UA for remote previews",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/0687139aba24edfdbba9f6fc2b61def769a71d46",
-      "at": "2026-08-27T08:30:33.000+09:00"
+      "repo": "mizzz-ivr/profile-signal",
+      "title": "docs: update Wiki current release to v0.4.0  * docs: mark v0.4.0 as current wiki release  * docs",
+      "url": "https://github.com/mizzz-ivr/profile-signal/commit/ed4a2e96ad3040dcb1c5a6e014db06248174dc44",
+      "at": "2026-08-27T13:57:30.000+09:00"
     },
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "test: expose navigation status for preview failures",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/4fbaf3a9340f66929be5f2c6073d0bdf7e972bab",
-      "at": "2026-08-27T08:24:27.000+09:00"
+      "title": "Merge pull request #12 from mizzz-ivr/feat/issue-7-seo-structured-data  feat: harden Issue #7 SE",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/f8da10f449b8b07e29660174eb3f9418f27e0f2f",
+      "at": "2026-08-27T13:47:02.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "style: format Home Payload fail-safe",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/22e9afddb46a7140e60883e626f7312319180218",
-      "at": "2026-08-27T08:22:21.000+09:00"
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "docs: define explicit N/A classification semantics",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/de05af51edd12e4fd6dbc1c6120e2fb607f9f746",
+      "at": "2026-08-27T13:38:40.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "ci: normalize legacy metadata before refresh",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/99b1df9dbdef4072589000b0082e1e4ad55a96ef",
+      "at": "2026-08-27T13:38:08.000+09:00"
     }
   ],
-  "generated_at": "2026-08-27T09:51:22+09:00"
+  "generated_at": "2026-08-27T13:59:35+09:00"
 }

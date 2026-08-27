@@ -5,7 +5,7 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 422,
+    "commits": 430,
     "prs_opened": 26,
     "issues_created": 8,
     "issues_completed": 4
@@ -13,39 +13,39 @@
   "activity": [
     {
       "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "docs(profile): clarify generated action assets",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/aa3a2d02346ab4dbdd98304571c14ab0ce587626",
-      "at": "2026-08-26T23:26:19.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "style(ai): apply prettier wrapping",
+      "url": "https://github.com/ivRooom/Herta/commit/d90790d5eee7bc8ab5b7d2f214efdec06006d607",
+      "at": "2026-08-26T23:58:39.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "ci(profile): dogfood Profile Signal local action",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/72f2c9c972dc12fe07db499579b8ef140f89e870",
-      "at": "2026-08-26T23:23:54.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "style(ai): normalize hardening test formatting",
+      "url": "https://github.com/ivRooom/Herta/commit/c26b2f4c6eb62cc830dabe423d1f7dbcc5b8d7b0",
+      "at": "2026-08-26T23:56:23.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "docs(profile): add terminal preset example",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/d3f25ecb4fa3990be0aa67d9ed7110d02c72afdb",
-      "at": "2026-08-26T23:23:12.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "fix(prod): align AI request cost guard fallback",
+      "url": "https://github.com/ivRooom/Herta/commit/33952e7fb06ef0e360e61b1d46ed5b5540c73a9c",
+      "at": "2026-08-26T23:49:28.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "docs(profile): add full preset example",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/98cef9822b20a68d81f33ac31a75cbda1e24219a",
-      "at": "2026-08-26T23:23:01.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "docs(env): align production AI cost guard default",
+      "url": "https://github.com/ivRooom/Herta/commit/0bf6f340387d8a310e47d9ed4d4b620fb68ad74e",
+      "at": "2026-08-26T23:48:49.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "docs(profile): add standard preset example",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/b17ac5cb1fcedcf5883d1d31bc10817d613c7108",
-      "at": "2026-08-26T23:22:51.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "docs(env): align AI request cost guard default",
+      "url": "https://github.com/ivRooom/Herta/commit/81a736182f0cc713c2c3d99ea11f0046c7a6a616",
+      "at": "2026-08-26T23:48:19.000+09:00"
     }
   ],
-  "generated_at": "2026-08-27T09:51:22+09:00"
+  "generated_at": "2026-08-27T13:59:35+09:00"
 }
