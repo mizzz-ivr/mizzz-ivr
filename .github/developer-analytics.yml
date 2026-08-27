@@ -1,0 +1,207 @@
+version: 1
+
+profile:
+  github_login: mizzz-ivr
+  display_name: "いゔる。 a.k.a. mizzz（ずーみー）"
+  website: https://ivmz.ivrm.jp
+  contact: ivmz@ivrm.jp
+  headline: Product-minded Full Stack Developer
+  summary: >-
+    React / TypeScript を軸に、Web FrontendだけでなくAPI・DB・Realtime AI・Discord・
+    Worker・CI/CD・Docker・運用までつなげて実装するFull Stack / Product Engineer。
+    Issue / PR / CI / Docsを実装と同時に更新し、RepositoryをSource of Truthとして
+    小さく出して安全に改善する開発を重視しています。
+
+projects:
+  - repo: ivRooom/Herta
+    public: true
+    featured: true
+    title: Herta
+    summary: Discord Community Operating System。NestJS API / Next.js Studio / Discord Bot / BullMQ Worker / Plugin Runtimeを含むモノレポ。
+    technologies: [TypeScript, Node.js, NestJS, Next.js, React, PostgreSQL, Prisma, Redis, BullMQ, Discord.js, Docker]
+    domains: [community-platform, developer-platform, backend-platform]
+    capabilities: [full-stack, backend-api, frontend, worker-queues, plugin-runtime, authentication-authorization, observability, platform-architecture]
+    practices: [repository-driven-development, security-by-design, fault-isolation, auditability]
+    ownership: [architecture, implementation, testing, documentation, delivery, operations, security]
+    evidence:
+      - label: Repository architecture / stack
+        url: https://github.com/ivRooom/Herta/blob/main/README.md
+      - label: Plugin Runtime
+        url: https://github.com/ivRooom/Herta/blob/main/docs/PLUGIN_RUNTIME.md
+
+  - repo: mizzz-ivr/roomate-voice
+    public: true
+    featured: true
+    title: RooMate Voice
+    summary: Discord Voice × OpenAI Realtimeの音声AIとWindows Desktop App。音声処理、Secret保護、Release/Installerまで扱う。
+    technologies: [TypeScript, Node.js, React, Electron, OpenAI Realtime API, Discord.js, Discord Voice, Docker, AWS Lightsail]
+    domains: [realtime-ai, desktop-app, community-platform]
+    capabilities: [realtime-systems, voice-processing, desktop-application, ai-integration, secret-management, release-engineering]
+    practices: [repository-driven-development, security-by-design, fail-close, privacy-conscious-logging]
+    ownership: [architecture, implementation, testing, documentation, delivery, operations, security]
+    evidence:
+      - label: Voice / Desktop architecture
+        url: https://github.com/mizzz-ivr/roomate-voice/blob/main/README.md
+      - label: Windows Desktop Preview release
+        url: https://github.com/mizzz-ivr/roomate-voice/releases/tag/v0.1.0
+
+  - repo: mizzz-ivr/ivmz-home
+    public: true
+    featured: true
+    title: ivmz-home
+    summary: Next.js 16 / Payload / PostgreSQLを軸にしたPersonal Web / Portfolio Platform。SEO、a11y、CMS、運用可搬性を重視。
+    technologies: [TypeScript, Next.js, React, Tailwind CSS, Payload CMS, PostgreSQL, Vitest, Playwright, Netlify, AWS S3]
+    domains: [web-product, portfolio-platform, cms]
+    capabilities: [full-stack, frontend, cms-integration, database-design, seo, accessibility, deployment-architecture]
+    practices: [repository-driven-development, automated-testing, accessibility-first, progressive-enhancement, portability]
+    ownership: [architecture, implementation, testing, documentation, delivery]
+    evidence:
+      - label: Product principles / foundation stack
+        url: https://github.com/mizzz-ivr/ivmz-home/blob/main/README.md
+      - label: Hosting architecture
+        url: https://github.com/mizzz-ivr/ivmz-home/blob/main/docs/hosting.md
+
+  - repo: mizzz-ivr/quizverse
+    public: true
+    featured: true
+    title: QuizVerse
+    summary: React + Flask + PostgreSQLのクイズ / 学習Webプラットフォーム。認証、レビュー、ランキング、履歴、DB migration、テストを実装。
+    technologies: [React, JavaScript, Vite, Tailwind CSS, Python, Flask, PostgreSQL, SQLAlchemy, Docker, Vercel]
+    domains: [web-product, learning-platform]
+    capabilities: [full-stack, frontend, backend-api, authentication-authorization, database-design, schema-migrations]
+    practices: [automated-testing, security-by-design, repository-driven-development]
+    ownership: [implementation, testing, documentation, delivery]
+    evidence:
+      - label: Stack / tests / product features
+        url: https://github.com/mizzz-ivr/quizverse/blob/main/README.md
+      - label: Review feature specification
+        url: https://github.com/mizzz-ivr/quizverse/blob/main/docs/issues/ISSUE-0046.md
+
+  - repo: ivRooom/ivrm-dashboard
+    public: true
+    featured: true
+    title: IVRM Dashboard
+    summary: Next.js + Supabase + Go AgentでMinecraft/Web/Cloud基盤を安全に監視する統合運用コンソール。
+    technologies: [TypeScript, Next.js, React, Go, Supabase, PostgreSQL, Docker, Vercel, OCI, AWS Lightsail]
+    domains: [operations-platform, observability, infrastructure, minecraft-operations]
+    capabilities: [frontend, monitoring, agent-architecture, realtime-data, infrastructure-operations, security-architecture]
+    practices: [security-by-design, observability, least-privilege, repository-driven-development]
+    ownership: [architecture, implementation, testing, documentation, operations, security]
+    evidence:
+      - label: Architecture / monitoring model
+        url: https://github.com/ivRooom/ivrm-dashboard/blob/main/README.md
+
+  - repo: ivRooom/ivrm-member-site
+    public: true
+    featured: false
+    title: ivRooom Member Site
+    summary: Astro / React / Cloudflareを用いた多言語Web。Motion/3Dと同時にa11y、Performance Budget、Visual Regressionを重視。
+    technologies: [TypeScript, Astro, React, Tailwind CSS, Three.js, React Three Fiber, Cloudflare Workers, Vitest, Playwright]
+    domains: [web-product, content-platform, creative-frontend]
+    capabilities: [frontend, accessibility, performance-engineering, edge-functions, 3d-web]
+    practices: [automated-testing, accessibility-first, performance-budget, dependency-management, security-by-design]
+    ownership: [architecture, implementation, testing, documentation, delivery]
+    evidence:
+      - label: Technology / quality / accessibility
+        url: https://github.com/ivRooom/ivrm-member-site/blob/main/README.md
+
+  - repo: mizzz-ivr/site-sentry-go
+    public: true
+    featured: true
+    title: Site Sentry Go
+    summary: Go + SQLiteのWebサイト死活監視MVP。Scheduler、timeout、履歴、health check、graceful shutdownを備える。
+    technologies: [Go, SQLite, HTTP, Docker]
+    domains: [observability, developer-tooling, backend-tool]
+    capabilities: [backend-api, monitoring, scheduler, reliability-engineering]
+    practices: [simple-architecture, graceful-shutdown, timeout-control, repository-driven-development]
+    ownership: [architecture, implementation, testing, documentation]
+    evidence:
+      - label: Architecture / monitoring behavior
+        url: https://github.com/mizzz-ivr/site-sentry-go/blob/main/README.md
+
+  - repo: mizzz-ivr/profile-signal
+    public: true
+    featured: false
+    title: Profile Signal
+    summary: Public GitHub activityをREADME widget / historyへ変換するconfig-driven OSS。Release ZIPとlocal runtimeで配布。
+    technologies: [Python, GitHub Actions, GitHub API, YAML]
+    domains: [developer-tooling, developer-productivity, analytics, oss]
+    capabilities: [automation, analytics, github-integration, release-engineering]
+    practices: [configuration-driven-development, automated-testing, release-automation, backward-compatibility]
+    ownership: [architecture, implementation, testing, documentation, release-engineering]
+    evidence:
+      - label: OSS design / widgets / distribution
+        url: https://github.com/mizzz-ivr/profile-signal/blob/main/README.md
+      - label: v0.4.0 release
+        url: https://github.com/mizzz-ivr/profile-signal/releases/tag/v0.4.0
+
+  - repo: mizzz-ivr/tech-writing
+    public: true
+    featured: false
+    title: Tech Writing
+    summary: 技術記事・検証記録・Writing AnalyticsをRepositoryで管理し、実装Evidenceと技術発信をつなぐSource of Truth。
+    technologies: [Python, GitHub Actions, GitHub API, Markdown, YAML]
+    domains: [technical-writing, developer-productivity, analytics]
+    capabilities: [automation, analytics, technical-communication, portfolio-engineering]
+    practices: [repository-driven-development, metadata-driven-content, evidence-based-documentation]
+    ownership: [architecture, implementation, documentation, release-engineering]
+    evidence:
+      - label: Repository / writing source
+        url: https://github.com/mizzz-ivr/tech-writing
+
+assignment_profiles:
+  - id: full-stack-product
+    label: Full-stack Product Development
+    note: Web ProductをFrontendからAPI/DB/Test/Deliveryまで担当する案件向けの公開Evidence coverage。
+    signals:
+      - {technology: TypeScript}
+      - {technology: React}
+      - {capability: frontend}
+      - {capability: backend-api}
+      - {capability: database-design}
+      - {capability: full-stack}
+      - {practice: automated-testing}
+      - {ownership: delivery}
+  - id: realtime-ai
+    label: Realtime AI / Voice
+    note: Realtime AI、音声、Discord integrationを含む案件向け。
+    signals:
+      - {technology: TypeScript}
+      - {technology: OpenAI Realtime API}
+      - {technology: Discord Voice}
+      - {capability: realtime-systems}
+      - {capability: ai-integration}
+      - {capability: voice-processing}
+      - {practice: security-by-design}
+  - id: platform-automation
+    label: Platform / Developer Tooling
+    note: Platform、Automation、Developer Experience、OSS/Tooling案件向け。
+    signals:
+      - {technology: GitHub Actions}
+      - {domain: developer-tooling}
+      - {domain: developer-platform}
+      - {capability: automation}
+      - {capability: platform-architecture}
+      - {practice: repository-driven-development}
+      - {ownership: architecture}
+  - id: devops-observability
+    label: DevOps / Observability
+    note: CI/CD、Docker、監視、運用設計を含む案件向け。
+    signals:
+      - {technology: Docker}
+      - {domain: observability}
+      - {capability: monitoring}
+      - {capability: infrastructure-operations}
+      - {practice: ci-cd}
+      - {practice: observability}
+      - {ownership: operations}
+  - id: community-discord
+    label: Discord / Community Systems
+    note: Discord Bot、Community Platform、管理Dashboard/Automationを含む案件向け。
+    signals:
+      - {technology: Discord.js}
+      - {domain: community-platform}
+      - {capability: full-stack}
+      - {capability: backend-api}
+      - {capability: authentication-authorization}
+      - {ownership: operations}
