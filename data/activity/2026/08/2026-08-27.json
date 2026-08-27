@@ -5,19 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 0,
-    "issues_created": 0,
+    "commits": 59,
+    "prs_opened": 5,
+    "issues_created": 5,
     "issues_completed": 0
   },
   "activity": [
     {
       "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Merge pull request #10 from mizzz-ivr/feat/multi-page-route-foundation",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/9f56d1e2611d308e9e4d79098987f67417c6b9c6",
+      "at": "2026-08-27T09:00:37.000+09:00"
+    },
+    {
+      "type": "commit",
       "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "Merge pull request #23 from mizzz-ivr/feat/profile-signal-phase5-action",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/0f7a425f3791eaa64c49235c09b048ddafd10bdd",
-      "at": "2026-08-27T06:53:38.000+09:00"
+      "title": "docs: add Profile Signal wiki, license scope and Japanese release notes  * docs: add Profile Sig",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/ad420fba12b6a49e60224aae97869962611ee8f7",
+      "at": "2026-08-27T08:52:57.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "test: use runner WebKit UA for remote previews",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/0687139aba24edfdbba9f6fc2b61def769a71d46",
+      "at": "2026-08-27T08:30:33.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "test: expose navigation status for preview failures",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/4fbaf3a9340f66929be5f2c6073d0bdf7e972bab",
+      "at": "2026-08-27T08:24:27.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "style: format Home Payload fail-safe",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/22e9afddb46a7140e60883e626f7312319180218",
+      "at": "2026-08-27T08:22:21.000+09:00"
     }
   ],
-  "generated_at": "2026-08-27T07:03:07+09:00"
+  "generated_at": "2026-08-27T09:51:22+09:00"
 }
