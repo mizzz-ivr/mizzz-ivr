@@ -29,5 +29,5 @@ widgets:
 readme:
   path: README.md
   auto_insert_markers: true
-  insert_before: "## NOW // What I build"
+  insert_before: "<!-- DEVELOPER-ANALYTICS:START -->"
   empty_disabled: true
