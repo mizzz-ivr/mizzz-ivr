@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="210" viewBox="0 0 880 210" role="img" aria-labelledby="title desc">
-  <title id="title">直近7日間の開発アクティビティ</title>
-  <desc id="desc">直近7日間の公開GitHubアクティビティと本日のコミット・PR・Issue数。</desc>
+  <title id="title">Developer activity pulse for the last seven days</title>
+  <desc id="desc">Seven day public GitHub activity totals, with today's commit, pull request and issue counts.</desc>
   <style>
     .title { fill: #24292f; font: 600 14px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: .08em; }
     .meta { fill: #57606a; font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
@@ -19,12 +19,12 @@
       .point { fill: #a78bfa; }
     }
   </style>
-  <text class="title" x="24" y="25">開発パルス · 直近7日</text>
+  <text class="title" x="24" y="25">DEV PULSE · LAST 7 DAYS</text>
   <text class="meta" x="856" y="25" text-anchor="end">C 388 · PR 33 · ISSUE 30</text>
   <line class="grid" x1="24" y1="148.5" x2="856" y2="148.5" />
   <polygon class="area" points="85,148 85,148 197,148 309,148 421,148 533,107 645,58 757,61 757,148" />
   <polyline class="line" points="85,148 197,148 309,148 421,148 533,107 645,58 757,61" />
   <circle class="point" cx="85" cy="148" r="5" /><circle class="point" cx="197" cy="148" r="5" /><circle class="point" cx="309" cy="148" r="5" /><circle class="point" cx="421" cy="148" r="5" /><circle class="point" cx="533" cy="107" r="5" /><circle class="point" cx="645" cy="58" r="5" /><circle class="point" cx="757" cy="61" r="5" />
   <text class="label" x="85" y="177" text-anchor="middle">08-21</text><text class="value" x="85" y="138" text-anchor="middle">0</text><text class="label" x="197" y="177" text-anchor="middle">08-22</text><text class="value" x="197" y="138" text-anchor="middle">0</text><text class="label" x="309" y="177" text-anchor="middle">08-23</text><text class="value" x="309" y="138" text-anchor="middle">0</text><text class="label" x="421" y="177" text-anchor="middle">08-24</text><text class="value" x="421" y="138" text-anchor="middle">0</text><text class="label" x="533" y="177" text-anchor="middle">08-25</text><text class="value" x="533" y="97" text-anchor="middle">214</text><text class="label" x="645" y="177" text-anchor="middle">08-26</text><text class="value" x="645" y="48" text-anchor="middle">468</text><text class="label" x="757" y="177" text-anchor="middle">08-27</text><text class="value" x="757" y="51" text-anchor="middle">451</text>
-  <text class="meta" x="24" y="201">活動量 = コミット + PR作成 + Issue作成 + Issue完了</text>
+  <text class="meta" x="24" y="201">activity = commits + PRs opened + issues created + issues done</text>
 </svg>
