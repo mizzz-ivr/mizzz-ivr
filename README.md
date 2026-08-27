@@ -280,10 +280,20 @@
 ## SIGNAL // Links
 
 <p align="center">
-  <a href="https://ivmz.ivrm.jp">WEBSITE</a> ・
-  <a href="https://ivrm.jp">ivRooom</a> ・
-  <a href="https://github.com/mizzz-ivr">GitHub</a> ・
-  <a href="mailto:ivmz@ivrm.jp">Contact</a>
+  <a href="https://ivmz.ivrm.jp"><img src="https://img.shields.io/badge/WEBSITE-8B5CF6?style=flat-square&logo=googlechrome&logoColor=white" alt="WEBSITE" /></a>
+  <a href="https://ivrm.jp"><img src="https://img.shields.io/badge/ivRooom-6D5AE6?style=flat-square&logo=discord&logoColor=white" alt="ivRooom" /></a>
+  <a href="https://github.com/mizzz-ivr"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://discord.gg/RqUEyS3FdB"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="mailto:ivmz@ivrm.jp"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://qiita.com/mizzz-ivr"><img src="https://img.shields.io/badge/Qiita-55C500?style=flat-square&logo=qiita&logoColor=white" alt="Qiita" /></a>
+</p>
+<p align="center">
+  <a href="https://zenn.dev/"><img src="https://img.shields.io/badge/Zenn-3EA8FF?style=flat-square&logo=zenn&logoColor=white" alt="Zenn" /></a>
+  <a href="https://note.com/"><img src="https://img.shields.io/badge/Note-41C9B4?style=flat-square&logo=note&logoColor=white" alt="Note" /></a>
+  <a href="https://x.com/ivuruGG"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white" alt="X" /></a>
+  <a href="https://www.instagram.com/ivurugg/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://www.tiktok.com/@ivurugg"><img src="https://img.shields.io/badge/TikTok-000000?style=flat-square&logo=tiktok&logoColor=white" alt="TikTok" /></a>
+  <a href="https://www.youtube.com/channel/UCClGQH-Q0HXHfWLZboGUX0Q"><img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" /></a>
 </p>
 
 <p align="center">
