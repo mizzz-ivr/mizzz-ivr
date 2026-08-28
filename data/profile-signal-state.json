@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-28T11:33:28Z"
+    "last_activity_at": "2026-08-28T11:45:16Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,9 +17,9 @@
   "activity_total": 246,
   "current_focus": {
     "repo": "mizzz-ivr/ivmz-home",
-    "score": 65,
-    "events": 43,
-    "last_activity_at": "2026-08-28T11:33:28Z",
+    "score": 66,
+    "events": 44,
+    "last_activity_at": "2026-08-28T11:44:29Z",
     "share": 43,
     "stack": [
       "TypeScript",
@@ -134,31 +134,31 @@
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to feat/350-discord-conversation-rollout",
       "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-28T11:24:21Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to feat/350-discord-conversation-rollout",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-28T11:23:12Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to feat/350-discord-conversation-rollout",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-28T11:22:58Z"
+      "at": "2026-08-28T11:45:16Z"
     },
     {
       "label": "PR",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR merged #26",
+      "title": "PR merged #28",
       "url": "https://github.com/mizzz-ivr/ivmz-home",
-      "at": "2026-08-28T11:19:25Z"
+      "at": "2026-08-28T11:44:29Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commits",
+      "at": "2026-08-28T11:44:05Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to feat/350-discord-conversation-rollout",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-28T11:24:21Z"
     }
   ],
-  "generated_at": "2026-08-28T20:40:29+09:00",
+  "generated_at": "2026-08-28T20:45:30+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
