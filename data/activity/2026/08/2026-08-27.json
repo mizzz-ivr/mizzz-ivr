@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 492,
+    "commits": 513,
     "prs_opened": 53,
     "issues_created": 29,
     "issues_completed": 23
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "chore(ci): temporarily format PR 349",
+      "url": "https://github.com/ivRooom/Herta/commit/250e2c0ad6969cc841a71a4b7b7c8d2cf687ae76",
+      "at": "2026-08-27T22:59:51.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/tech-writing",
@@ -20,32 +27,25 @@
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "chore: remove Profile Signal schedule reactivation workflow",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/07f35af066a24f581421549d5dfd97c7a0c4fa97",
-      "at": "2026-08-27T22:46:06.000+09:00"
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "docs: align Payload rate limit runbook with login protection",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/a05d6bda06fc5c8fe6eed47dcd3d77d74b1cb590",
+      "at": "2026-08-27T22:56:54.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "fix(profile): reactivate schedules with direct workflow edit (#54)  Canonicalize the lightweight",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/78664b44bad57789cdd08cccb7ea56ee28abea5f",
-      "at": "2026-08-27T22:44:51.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "fix(ai): enforce image pixel bound during decode",
+      "url": "https://github.com/ivRooom/Herta/commit/621540ca43626be0ea71eb0337845fd5cff28adf",
+      "at": "2026-08-27T22:55:56.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "fix(profile): re-register Profile Signal schedules (#53)  Re-register the Profile Signal schedul",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/65eb68c9273a9151ca5633729fb099a12b05b81a",
-      "at": "2026-08-27T22:39:44.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "chore: prune merged profile work branches (#51)  Add a one-shot cleanup workflow to remove merge",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/d86ddf504445b6e24b052662930558089bf352dc",
-      "at": "2026-08-27T22:31:04.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "test(ai): verify Foundation gates precede image tool concurrency",
+      "url": "https://github.com/ivRooom/Herta/commit/d71780cd2ecdef4c56f373d49ffbc0fe83e96749",
+      "at": "2026-08-27T22:55:19.000+09:00"
     }
   ],
-  "generated_at": "2026-08-28T07:11:14+09:00"
+  "generated_at": "2026-08-28T15:09:18+09:00"
 }

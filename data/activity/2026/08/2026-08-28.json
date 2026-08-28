@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 17,
-    "prs_opened": 5,
-    "issues_created": 0,
-    "issues_completed": 1
+    "commits": 156,
+    "prs_opened": 25,
+    "issues_created": 15,
+    "issues_completed": 13
   },
   "activity": [
     {
       "type": "commit",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "Merge pull request #38 from mizzz-ivr/feat/writing-analytics-content-opportunities",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/f8cf5fb7d0dcc5022f431cf07c4606437b58d07a",
-      "at": "2026-08-28T07:13:34.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "Merge pull request #55 from mizzz-ivr/fix/profile-signal-schedule-fallback",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/ec1e97db9767d6888ccf7150cd903a9375aec8f0",
-      "at": "2026-08-28T07:11:00.000+09:00"
+      "title": "Merge pull request #66 from mizzz-ivr/feat/github-funnel-theme-grouping  feat(analytics): GitHub",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/0f1023f49f603b811c1c3f204c713073d0eec08a",
+      "at": "2026-08-28T12:41:24.000+09:00"
     },
     {
       "type": "commit",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "docs(analytics): document native Zenn coverage behavior",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/795b4d275965a56d7feef4058b6416e02530fe3b",
-      "at": "2026-08-28T01:58:57.000+09:00"
+      "title": "feat(analytics): rebase funnel theme grouping onto latest main",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/a9e64eefd5cc8dd408719ab3ae545baf790185c8",
+      "at": "2026-08-28T12:29:51.000+09:00"
     },
     {
       "type": "commit",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "test(analytics): cover native Zenn and recency ranking",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/cbb2975a671bb5c0a3c676d9b100b3c487a87e42",
-      "at": "2026-08-28T01:58:21.000+09:00"
+      "title": "Merge pull request #64 from mizzz-ivr/fix/native-analytics-data-quality",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/25ccf663679e2e57c560a4ea519488e27e6fd3fa",
+      "at": "2026-08-28T12:24:43.000+09:00"
     },
     {
       "type": "commit",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "fix(analytics): include published native Zenn articles in opportunities",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/86279f03f9745942dc4e816bbf40642c8cc0a00d",
-      "at": "2026-08-28T01:57:37.000+09:00"
+      "title": "test(analytics): patch catalog dependency directly",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/7c427b13e8c936eb5817752e212f83098bed5247",
+      "at": "2026-08-28T11:58:06.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "test(analytics): isolate native catalog fixtures",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/5f78d37feb94c53002ff8a04f75670d143551c44",
+      "at": "2026-08-28T11:56:25.000+09:00"
     }
   ],
-  "generated_at": "2026-08-28T07:24:43+09:00"
+  "generated_at": "2026-08-28T15:09:18+09:00"
 }
