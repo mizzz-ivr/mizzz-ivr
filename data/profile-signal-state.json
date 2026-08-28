@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-28T12:06:10Z"
+    "last_activity_at": "2026-08-28T12:17:04Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -20,7 +20,7 @@
     "score": 77,
     "events": 48,
     "last_activity_at": "2026-08-28T12:06:10Z",
-    "share": 47,
+    "share": 46,
     "stack": [
       "TypeScript",
       "CSS",
@@ -131,6 +131,13 @@
   "activity_stream": [
     {
       "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to feat/350-discord-conversation-rollout",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-28T12:17:04Z"
+    },
+    {
+      "label": "PUSH",
       "repo": "mizzz-ivr/ivmz-home",
       "title": "1 commit pushed to security/issue-29-csp-observation",
       "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
@@ -149,16 +156,9 @@
       "title": "Closed issue #52",
       "url": "https://github.com/mizzz-ivr/mizzz-ivr/issues/52",
       "at": "2026-08-28T11:55:00Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "Closed issue #56",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/issues/56",
-      "at": "2026-08-28T11:46:45Z"
     }
   ],
-  "generated_at": "2026-08-28T21:15:31+09:00",
+  "generated_at": "2026-08-28T21:20:25+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
