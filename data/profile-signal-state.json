@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-28T11:45:16Z"
+    "last_activity_at": "2026-08-28T11:46:45Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,10 +17,10 @@
   "activity_total": 246,
   "current_focus": {
     "repo": "mizzz-ivr/ivmz-home",
-    "score": 66,
-    "events": 44,
-    "last_activity_at": "2026-08-28T11:44:29Z",
-    "share": 43,
+    "score": 72,
+    "events": 46,
+    "last_activity_at": "2026-08-28T11:46:27Z",
+    "share": 45,
     "stack": [
       "TypeScript",
       "CSS",
@@ -130,35 +130,35 @@
   ],
   "activity_stream": [
     {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to feat/350-discord-conversation-rollout",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-28T11:45:16Z"
-    },
-    {
-      "label": "PR",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR merged #28",
-      "url": "https://github.com/mizzz-ivr/ivmz-home",
-      "at": "2026-08-28T11:44:29Z"
-    },
-    {
-      "label": "PUSH",
+      "label": "ISSUE",
       "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "1 commit pushed to main",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commits",
-      "at": "2026-08-28T11:44:05Z"
+      "title": "Closed issue #56",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/issues/56",
+      "at": "2026-08-28T11:46:45Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Closed issue #25",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/25",
+      "at": "2026-08-28T11:46:27Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Closed issue #27",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/27",
+      "at": "2026-08-28T11:46:25Z"
     },
     {
       "label": "PUSH",
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to feat/350-discord-conversation-rollout",
       "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-28T11:24:21Z"
+      "at": "2026-08-28T11:45:49Z"
     }
   ],
-  "generated_at": "2026-08-28T20:45:30+09:00",
+  "generated_at": "2026-08-28T20:50:29+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
