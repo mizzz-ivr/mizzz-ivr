@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "BUILDING",
-    "symbol": "●",
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
     "last_activity_at": "2026-08-28T13:43:29Z"
   },
   "code_weather": {
@@ -148,17 +148,17 @@
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to feat/350-discord-conversation-rollout",
       "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-28T12:17:04Z"
+      "at": "2026-08-28T12:22:15Z"
     },
     {
       "label": "PUSH",
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to feat/350-discord-conversation-rollout",
       "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-28T12:07:04Z"
+      "at": "2026-08-28T12:17:04Z"
     }
   ],
-  "generated_at": "2026-08-28T23:40:29+09:00",
+  "generated_at": "2026-08-28T23:45:32+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
