@@ -17,8 +17,8 @@
   "activity_total": 0,
   "current_focus": {
     "repo": "mizzz-ivr/ivmz-home",
-    "score": 8,
-    "events": 5,
+    "score": 9,
+    "events": 6,
     "last_activity_at": "2026-08-28T17:46:47Z",
     "share": 100,
     "stack": [
@@ -102,14 +102,14 @@
       "at": "2026-08-28T17:45:48Z"
     },
     {
-      "label": "PR",
+      "label": "PUSH",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR merged #34",
-      "url": "https://github.com/mizzz-ivr/ivmz-home",
-      "at": "2026-08-28T17:37:50Z"
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-08-28T17:37:51Z"
     }
   ],
-  "generated_at": "2026-08-29T02:50:25+09:00",
+  "generated_at": "2026-08-29T02:55:23+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
