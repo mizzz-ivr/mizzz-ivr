@@ -81,10 +81,10 @@
   "now_building": [
     {
       "repo": "mizzz-ivr/ivmz-home",
-      "score": 9,
-      "events": 6,
-      "last_activity_at": "2026-08-28T17:46:47Z",
-      "share": 90,
+      "score": 11,
+      "events": 7,
+      "last_activity_at": "2026-08-28T18:38:53Z",
+      "share": 73,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -105,26 +105,50 @@
     },
     {
       "repo": "ivRooom/Herta",
-      "score": 1,
-      "events": 1,
-      "last_activity_at": "2026-08-28T18:06:37Z",
-      "share": 10,
+      "score": 3,
+      "events": 3,
+      "last_activity_at": "2026-08-28T18:14:23Z",
+      "share": 20,
       "ci": {
         "label": "ATTENTION",
         "symbol": "!",
         "window_days": 7,
         "total_runs": 10,
-        "evaluated": 5,
-        "passed": 3,
+        "evaluated": 6,
+        "passed": 4,
         "failed": 2,
-        "ignored": 5,
-        "pass_rate": 60,
-        "latest_conclusion": "failure"
+        "ignored": 4,
+        "pass_rate": 67,
+        "latest_conclusion": "success"
       },
       "health": {
         "label": "ATTENTION",
         "symbol": "!",
         "reason": "recent CI needs attention"
+      }
+    },
+    {
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "score": 1,
+      "events": 1,
+      "last_activity_at": "2026-08-28T20:38:58Z",
+      "share": 7,
+      "ci": {
+        "label": "PASSING",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 10,
+        "passed": 10,
+        "failed": 0,
+        "ignored": 0,
+        "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
       }
     }
   ],
@@ -158,17 +182,17 @@
       "at": "2026-08-28T17:46:07Z"
     }
   ],
-  "generated_at": "2026-08-29T06:05:24+09:00",
+  "generated_at": "2026-08-29T06:09:23+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
     "window_days": 7,
-    "evaluated": 11,
-    "passed": 9,
+    "evaluated": 22,
+    "passed": 20,
     "failed": 2,
-    "ignored": 9,
-    "pass_rate": 82,
-    "repos_with_signal": 2
+    "ignored": 8,
+    "pass_rate": 91,
+    "repos_with_signal": 3
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
