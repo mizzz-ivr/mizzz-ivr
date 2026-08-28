@@ -152,13 +152,13 @@
     },
     {
       "label": "PUSH",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "1 commit pushed to security/issue-29-csp-observation",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
-      "at": "2026-08-28T12:06:10Z"
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to feat/350-discord-conversation-rollout",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-28T12:07:04Z"
     }
   ],
-  "generated_at": "2026-08-28T23:20:30+09:00",
+  "generated_at": "2026-08-28T23:25:23+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
