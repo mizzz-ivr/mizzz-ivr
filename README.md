@@ -26,7 +26,7 @@
 
 <table>
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 15:45 JST</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 20:24 JST</sub></td>
     <td width="34%" align="center"><strong>🌩️ STORM</strong><br/><sub>209 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 4 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
@@ -53,8 +53,8 @@
 
 <table>
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>weighted activity 17% · score 37 · 26 events</sub></td>
-    <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><sub>technology data will refresh on the next full run</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>weighted activity 41% · score 63 · 41 events</sub></td>
+    <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>CSS</code> <code>JavaScript</code></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:FOCUS:END -->
@@ -89,10 +89,10 @@
 
 <table>
   <tbody>
-    <tr><td width="10%"><code>15:45</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/issues/33">Issue #33を作成</a></td></tr>
-    <tr><td width="10%"><code>15:44</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/issues/32">Issue #32を作成</a></td></tr>
-    <tr><td width="10%"><code>15:44</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/issues/31">Issue #31を作成</a></td></tr>
-    <tr><td width="10%"><code>15:44</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/issues/30">Issue #30を作成</a></td></tr>
+    <tr><td width="10%"><code>20:24</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">feat/350-discord-conversation-rolloutへ1コミットをPush</a></td></tr>
+    <tr><td width="10%"><code>20:23</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">feat/350-discord-conversation-rolloutへ1コミットをPush</a></td></tr>
+    <tr><td width="10%"><code>20:22</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">feat/350-discord-conversation-rolloutへ1コミットをPush</a></td></tr>
+    <tr><td width="10%"><code>20:19</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home">PR #26をマージ</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->

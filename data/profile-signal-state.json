@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-28T06:45:06Z"
+    "last_activity_at": "2026-08-28T11:24:21Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,28 +17,15 @@
   "activity_total": 209,
   "current_focus": {
     "repo": "mizzz-ivr/ivmz-home",
-    "score": 37,
-    "events": 26,
-    "last_activity_at": "2026-08-28T03:51:02Z",
-    "share": 17,
-    "ci": {
-      "label": "MIXED",
-      "symbol": "◐",
-      "window_days": 7,
-      "total_runs": 10,
-      "evaluated": 4,
-      "passed": 3,
-      "failed": 1,
-      "ignored": 6,
-      "pass_rate": 75,
-      "latest_conclusion": "success"
-    },
-    "health": {
-      "label": "WATCH",
-      "symbol": "◐",
-      "reason": "recent CI is mixed"
-    },
-    "stack": []
+    "score": 63,
+    "events": 41,
+    "last_activity_at": "2026-08-28T11:19:25Z",
+    "share": 41,
+    "stack": [
+      "TypeScript",
+      "CSS",
+      "JavaScript"
+    ]
   },
   "dev_pulse": [
     {
@@ -143,35 +130,35 @@
   ],
   "activity_stream": [
     {
-      "label": "ISSUE",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Opened issue #33",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/33",
-      "at": "2026-08-28T06:45:06Z"
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to feat/350-discord-conversation-rollout",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-28T11:24:21Z"
     },
     {
-      "label": "ISSUE",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Opened issue #32",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/32",
-      "at": "2026-08-28T06:44:52Z"
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to feat/350-discord-conversation-rollout",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-28T11:23:12Z"
     },
     {
-      "label": "ISSUE",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Opened issue #31",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/31",
-      "at": "2026-08-28T06:44:42Z"
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to feat/350-discord-conversation-rollout",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-28T11:22:58Z"
     },
     {
-      "label": "ISSUE",
+      "label": "PR",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "Opened issue #30",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/30",
-      "at": "2026-08-28T06:44:28Z"
+      "title": "PR merged #26",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-08-28T11:19:25Z"
     }
   ],
-  "generated_at": "2026-08-28T15:52:10+09:00",
+  "generated_at": "2026-08-28T20:25:25+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
