@@ -26,7 +26,7 @@
 
 <table>
   <tr>
-    <td width="33%" align="center"><strong>○ QUIET</strong><br/><sub>last public activity · --:-- JST</sub></td>
+    <td width="33%" align="center"><strong>◐ RECENTLY ACTIVE</strong><br/><sub>last public activity · 08/28 22:43 JST</sub></td>
     <td width="34%" align="center"><strong>🌙 REST DAY</strong><br/><sub>0 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 0 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
