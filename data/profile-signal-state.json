@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-28T11:55:00Z"
+    "last_activity_at": "2026-08-28T11:58:31Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,10 +17,10 @@
   "activity_total": 246,
   "current_focus": {
     "repo": "mizzz-ivr/ivmz-home",
-    "score": 73,
+    "score": 76,
     "events": 47,
-    "last_activity_at": "2026-08-28T11:55:00Z",
-    "share": 45,
+    "last_activity_at": "2026-08-28T11:58:31Z",
+    "share": 46,
     "stack": [
       "TypeScript",
       "CSS",
@@ -130,6 +130,13 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Opened PR #34",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-08-28T11:58:31Z"
+    },
+    {
       "label": "ISSUE",
       "repo": "mizzz-ivr/mizzz-ivr",
       "title": "Closed issue #52",
@@ -149,16 +156,9 @@
       "title": "Closed issue #25",
       "url": "https://github.com/mizzz-ivr/ivmz-home/issues/25",
       "at": "2026-08-28T11:46:27Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Closed issue #27",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/27",
-      "at": "2026-08-28T11:46:25Z"
     }
   ],
-  "generated_at": "2026-08-28T20:55:22+09:00",
+  "generated_at": "2026-08-28T21:01:04+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
