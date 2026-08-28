@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-28T18:14:23Z"
+    "last_activity_at": "2026-08-28T18:38:53Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,10 +17,10 @@
   "activity_total": 5,
   "current_focus": {
     "repo": "mizzz-ivr/ivmz-home",
-    "score": 9,
-    "events": 6,
-    "last_activity_at": "2026-08-28T17:46:47Z",
-    "share": 75,
+    "score": 11,
+    "events": 7,
+    "last_activity_at": "2026-08-28T18:38:53Z",
+    "share": 79,
     "stack": [
       "TypeScript",
       "CSS",
@@ -130,6 +130,13 @@
   ],
   "activity_stream": [
     {
+      "label": "ISSUE",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Opened issue #38",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/38",
+      "at": "2026-08-28T18:38:53Z"
+    },
+    {
       "label": "PUSH",
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to feat/350-discord-conversation-rollout",
@@ -149,16 +156,9 @@
       "title": "Opened issue #36",
       "url": "https://github.com/mizzz-ivr/ivmz-home/issues/36",
       "at": "2026-08-28T17:46:07Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Opened issue #35",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/35",
-      "at": "2026-08-28T17:45:48Z"
     }
   ],
-  "generated_at": "2026-08-29T03:35:24+09:00",
+  "generated_at": "2026-08-29T03:40:31+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
