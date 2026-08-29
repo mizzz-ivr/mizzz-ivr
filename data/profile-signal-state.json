@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-08-28T20:38:58Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-08-29T00:28:22Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,10 +17,10 @@
   "activity_total": 5,
   "current_focus": {
     "repo": "mizzz-ivr/ivmz-home",
-    "score": 11,
-    "events": 7,
-    "last_activity_at": "2026-08-28T18:38:53Z",
-    "share": 73,
+    "score": 18,
+    "events": 11,
+    "last_activity_at": "2026-08-29T00:28:22Z",
+    "share": 82,
     "stack": [
       "TypeScript",
       "CSS",
@@ -154,6 +154,20 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Opened PR #39",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-08-29T00:27:05Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Created branch ops/issue-38-production-git-sync",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-08-29T00:26:36Z"
+    },
+    {
       "label": "ISSUE",
       "repo": "mizzz-ivr/ivmz-home",
       "title": "Opened issue #38",
@@ -166,23 +180,9 @@
       "title": "1 commit pushed to feat/350-discord-conversation-rollout",
       "url": "https://github.com/ivRooom/Herta/commits",
       "at": "2026-08-28T18:00:58Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Opened issue #37",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/37",
-      "at": "2026-08-28T17:46:26Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Opened issue #36",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/36",
-      "at": "2026-08-28T17:46:07Z"
     }
   ],
-  "generated_at": "2026-08-29T09:25:22+09:00",
+  "generated_at": "2026-08-29T09:30:35+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
