@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T06:43:39Z"
+    "last_activity_at": "2026-08-29T06:52:10Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -16,15 +16,16 @@
   "streak": 5,
   "activity_total": 10,
   "current_focus": {
-    "repo": "mizzz-ivr/ivmz-home",
+    "repo": "ivRooom/Herta",
     "score": 21,
-    "events": 14,
-    "last_activity_at": "2026-08-29T04:09:08Z",
-    "share": 40,
+    "events": 19,
+    "last_activity_at": "2026-08-29T06:52:10Z",
+    "share": 39,
     "stack": [
       "TypeScript",
-      "CSS",
-      "JavaScript"
+      "Shell",
+      "Dockerfile",
+      "CSS"
     ]
   },
   "dev_pulse": [
@@ -182,7 +183,7 @@
       "at": "2026-08-29T04:33:06Z"
     }
   ],
-  "generated_at": "2026-08-29T15:50:23+09:00",
+  "generated_at": "2026-08-29T15:55:20+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
