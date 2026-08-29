@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 48,
-    "prs_opened": 4,
-    "issues_created": 7,
+    "commits": 78,
+    "prs_opened": 7,
+    "issues_created": 9,
     "issues_completed": 3
   },
   "activity": [
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "Merge pull request #352 from ivRooom/dependabot/npm_and_yarn/production-dependencies-5292194420",
-      "url": "https://github.com/ivRooom/Herta/commit/ca6b12b7cff04ba6f42f2330e654961e80589e3e",
-      "at": "2026-08-29T20:59:35.000+09:00"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Merge pull request #72 from ivRooom/feat/console-shell-navigation",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/005b9ef06dffdc092c6a851173ed866a3a2ac346",
+      "at": "2026-08-29T22:32:46.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "fix(deps): Sharpの見かけ上の更新を除外",
-      "url": "https://github.com/ivRooom/Herta/commit/9e68f468962ae955e7422ca341bb9b365be9603d",
-      "at": "2026-08-29T20:29:48.000+09:00"
+      "title": "Merge pull request #355 from ivRooom/docs/354-production-e2e-runbook",
+      "url": "https://github.com/ivRooom/Herta/commit/9179a3879bdfef72dec5b14251a37e96d80e738f",
+      "at": "2026-08-29T22:05:28.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(deps): Next.js security overrideをlockfileと整合",
-      "url": "https://github.com/ivRooom/Herta/commit/01eaeabfdf2889a4b520ea9140d3b9ed5b16e4fc",
-      "at": "2026-08-29T20:27:34.000+09:00"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "fix: Consoleページのmain landmarkを共通化する",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/e2bfba0ee5d9c60a48424547a1be58fe91ff730e",
+      "at": "2026-08-29T22:02:31.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "Merge pull request #353 from ivRooom/feat/345-code-interpreter-binary-artifacts",
-      "url": "https://github.com/ivRooom/Herta/commit/9f1e3b47b26c247aa0a92a185bcf1649a1567a5c",
-      "at": "2026-08-29T16:57:11.000+09:00"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "fix: 共通Shellにmain landmarkを復元する",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/0c4c415eb93cf4d6519e2738c3fdb9dbc014e7ad",
+      "at": "2026-08-29T22:02:11.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "chore(ci): package.jsonをmainと完全一致へ戻す",
-      "url": "https://github.com/ivRooom/Herta/commit/318cce6ae5002c15ff7be8e8bad63468f1221e4f",
-      "at": "2026-08-29T16:12:42.000+09:00"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "fix: Navigation遷移でrangeを引き継ぐ",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/8dd07a760576d8a277a16201422b9c5105938d29",
+      "at": "2026-08-29T22:01:50.000+09:00"
     }
   ],
-  "generated_at": "2026-08-29T21:09:15+09:00"
+  "generated_at": "2026-08-29T23:32:54+09:00"
 }
