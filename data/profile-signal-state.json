@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T12:51:57Z"
+    "last_activity_at": "2026-08-29T12:57:41Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -159,6 +159,13 @@
       "repo": "mizzz-ivr/ivmz-home",
       "title": "1 commit pushed to ops/issue-38-production-git-sync",
       "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-08-29T12:57:41Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to ops/issue-38-production-git-sync",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
       "at": "2026-08-29T12:51:57Z"
     },
     {
@@ -174,16 +181,9 @@
       "title": "Opened PR #72",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-29T12:34:33Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to feat/console-shell-navigation",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-29T12:31:50Z"
     }
   ],
-  "generated_at": "2026-08-29T21:55:17+09:00",
+  "generated_at": "2026-08-29T22:00:45+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
