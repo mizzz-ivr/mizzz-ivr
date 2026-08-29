@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T13:32:47Z"
+    "last_activity_at": "2026-08-29T13:39:41Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -20,7 +20,7 @@
     "score": 64,
     "events": 53,
     "last_activity_at": "2026-08-29T13:16:40Z",
-    "share": 52,
+    "share": 51,
     "stack": [
       "TypeScript",
       "Shell",
@@ -155,6 +155,20 @@
   ],
   "activity_stream": [
     {
+      "label": "CREATE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Created branch fix/discord-oauth-retry-diagnostics",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-29T13:39:41Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened issue #73",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/73",
+      "at": "2026-08-29T13:39:33Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "PR merged #72",
@@ -167,23 +181,9 @@
       "title": "1 commit pushed to main",
       "url": "https://github.com/ivRooom/Herta/commits",
       "at": "2026-08-29T13:05:30Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR merged #355",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-08-29T13:05:28Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to feat/console-shell-navigation",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-29T13:01:42Z"
     }
   ],
-  "generated_at": "2026-08-29T22:35:20+09:00",
+  "generated_at": "2026-08-29T22:40:22+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
