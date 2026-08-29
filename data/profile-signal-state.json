@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T14:39:50Z"
+    "last_activity_at": "2026-08-29T14:49:01Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,10 +17,10 @@
   "activity_total": 97,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 77,
-    "events": 62,
-    "last_activity_at": "2026-08-29T14:39:50Z",
-    "share": 52,
+    "score": 81,
+    "events": 66,
+    "last_activity_at": "2026-08-29T14:49:01Z",
+    "share": 53,
     "stack": [
       "TypeScript",
       "Shell",
@@ -159,6 +159,13 @@
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to fix/runtime-secret-key-ssm-injection",
       "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-29T14:48:49Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to fix/runtime-secret-key-ssm-injection",
+      "url": "https://github.com/ivRooom/Herta/commits",
       "at": "2026-08-29T14:39:38Z"
     },
     {
@@ -174,16 +181,9 @@
       "title": "Created branch fix/runtime-secret-key-ssm-injection",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-08-29T14:14:04Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Opened issue #356",
-      "url": "https://github.com/ivRooom/Herta/issues/356",
-      "at": "2026-08-29T14:13:47Z"
     }
   ],
-  "generated_at": "2026-08-29T23:45:29+09:00",
+  "generated_at": "2026-08-29T23:50:23+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
