@@ -7,20 +7,20 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T07:01:52Z"
+    "last_activity_at": "2026-08-29T07:09:33Z"
   },
   "code_weather": {
-    "label": "ACTIVE",
-    "icon": "🌤️"
+    "label": "HEAVY CODING",
+    "icon": "⚡"
   },
   "streak": 5,
-  "activity_total": 10,
+  "activity_total": 36,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 28,
-    "events": 23,
-    "last_activity_at": "2026-08-29T07:01:52Z",
-    "share": 46,
+    "score": 29,
+    "events": 24,
+    "last_activity_at": "2026-08-29T07:09:33Z",
+    "share": 47,
     "stack": [
       "TypeScript",
       "Shell",
@@ -66,26 +66,50 @@
     },
     {
       "date": "2026-08-28",
-      "total": 279,
-      "commits": 209,
+      "total": 339,
+      "commits": 269,
       "prs": 29,
       "issues": 41
     },
     {
       "date": "2026-08-29",
-      "total": 10,
-      "commits": 2,
-      "prs": 2,
-      "issues": 6
+      "total": 36,
+      "commits": 26,
+      "prs": 3,
+      "issues": 7
     }
   ],
   "now_building": [
+    {
+      "repo": "ivRooom/Herta",
+      "score": 29,
+      "events": 24,
+      "last_activity_at": "2026-08-29T07:09:33Z",
+      "share": 47,
+      "ci": {
+        "label": "ATTENTION",
+        "symbol": "!",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 6,
+        "passed": 0,
+        "failed": 6,
+        "ignored": 4,
+        "pass_rate": 0,
+        "latest_conclusion": "failure"
+      },
+      "health": {
+        "label": "ATTENTION",
+        "symbol": "!",
+        "reason": "recent CI needs attention"
+      }
+    },
     {
       "repo": "mizzz-ivr/ivmz-home",
       "score": 21,
       "events": 14,
       "last_activity_at": "2026-08-29T04:09:08Z",
-      "share": 44,
+      "share": 34,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -105,35 +129,11 @@
       }
     },
     {
-      "repo": "ivRooom/Herta",
-      "score": 15,
-      "events": 15,
-      "last_activity_at": "2026-08-29T04:52:36Z",
-      "share": 31,
-      "ci": {
-        "label": "ATTENTION",
-        "symbol": "!",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 7,
-        "passed": 4,
-        "failed": 3,
-        "ignored": 3,
-        "pass_rate": 57,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "ATTENTION",
-        "symbol": "!",
-        "reason": "recent CI needs attention"
-      }
-    },
-    {
       "repo": "mizzz-ivr/mizzz-ivr",
       "score": 12,
       "events": 6,
       "last_activity_at": "2026-08-29T04:33:07Z",
-      "share": 25,
+      "share": 19,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -159,6 +159,13 @@
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to feat/345-code-interpreter-binary-artifacts",
       "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-29T07:09:33Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to feat/345-code-interpreter-binary-artifacts",
+      "url": "https://github.com/ivRooom/Herta/commits",
       "at": "2026-08-29T07:01:52Z"
     },
     {
@@ -174,25 +181,18 @@
       "title": "1 commit pushed to feat/345-code-interpreter-binary-artifacts",
       "url": "https://github.com/ivRooom/Herta/commits",
       "at": "2026-08-29T07:00:41Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "Opened PR #353",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-08-29T06:59:49Z"
     }
   ],
-  "generated_at": "2026-08-29T16:05:23+09:00",
+  "generated_at": "2026-08-29T16:10:15+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
     "window_days": 7,
-    "evaluated": 24,
-    "passed": 21,
-    "failed": 3,
-    "ignored": 6,
-    "pass_rate": 88,
+    "evaluated": 23,
+    "passed": 17,
+    "failed": 6,
+    "ignored": 7,
+    "pass_rate": 74,
     "repos_with_signal": 3
   },
   "dev_recap": {
@@ -213,13 +213,13 @@
         "active_days": 5
       },
       "metrics": {
-        "commits": 1353,
-        "prs_opened": 122,
+        "commits": 1437,
+        "prs_opened": 123,
         "issues_created": 68,
-        "issues_completed": 46,
-        "activity_total": 1589
+        "issues_completed": 47,
+        "activity_total": 1675
       },
-      "generated_at": "2026-08-29T15:09:13+09:00"
+      "generated_at": "2026-08-29T16:10:15+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -234,13 +234,13 @@
         "active_days": 5
       },
       "metrics": {
-        "commits": 1353,
-        "prs_opened": 122,
+        "commits": 1437,
+        "prs_opened": 123,
         "issues_created": 68,
-        "issues_completed": 46,
-        "activity_total": 1589
+        "issues_completed": 47,
+        "activity_total": 1675
       },
-      "generated_at": "2026-08-29T15:09:13+09:00"
+      "generated_at": "2026-08-29T16:10:15+09:00"
     },
     "achievements": [
       {
@@ -286,11 +286,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-08-29",
       "metrics": {
-        "commits": 1353,
-        "prs_opened": 122,
+        "commits": 1437,
+        "prs_opened": 123,
         "issues_created": 68,
-        "issues_completed": 46,
-        "activity_total": 1589
+        "issues_completed": 47,
+        "activity_total": 1675
       }
     },
     "lifetime": {
@@ -299,11 +299,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-08-29",
       "metrics": {
-        "commits": 1353,
-        "prs_opened": 122,
+        "commits": 1437,
+        "prs_opened": 123,
         "issues_created": 68,
-        "issues_completed": 46,
-        "activity_total": 1589
+        "issues_completed": 47,
+        "activity_total": 1675
       }
     }
   }

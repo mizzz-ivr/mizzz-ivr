@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 2,
-    "prs_opened": 2,
+    "commits": 26,
+    "prs_opened": 3,
     "issues_created": 5,
-    "issues_completed": 1
+    "issues_completed": 2
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "Merge pull request #351 from ivRooom/feat/350-discord-conversation-rollout",
+      "url": "https://github.com/ivRooom/Herta/commit/8a2d381d194062b8e66ce0693aebbba5398ffc48",
+      "at": "2026-08-29T15:43:38.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "test: 番号のみのrepository参照を回帰固定する",
+      "url": "https://github.com/ivRooom/Herta/commit/ab3940d5fa883b81992f9ce9d6de2037bfd16754",
+      "at": "2026-08-29T13:55:01.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix: 番号のみのrepository参照をgrounding対象にする",
+      "url": "https://github.com/ivRooom/Herta/commit/776b502ec46e55bd6ffba149a7d3cc4580cf2d19",
+      "at": "2026-08-29T13:54:45.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/mizzz-ivr",
@@ -19,33 +40,12 @@
       "at": "2026-08-29T13:33:06.000+09:00"
     },
     {
-      "type": "done",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "Issue #58 fix(profile): expand Profile Signal dashboard sections to full width",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/issues/58",
-      "at": "2026-08-29T04:33:07Z"
-    },
-    {
-      "type": "pr",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "PR #59 fix(profile): make Profile Signal dashboard full width",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/pull/59",
-      "at": "2026-08-29T04:32:01Z"
-    },
-    {
-      "type": "issue",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "Issue #58 fix(profile): expand Profile Signal dashboard sections to full width",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/issues/58",
-      "at": "2026-08-29T04:29:15Z"
-    },
-    {
       "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Merge pull request #34 from mizzz-ivr/security/issue-29-csp-observation",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/f99ec389a098477b46d37136aa7339b52b30c17a",
-      "at": "2026-08-29T02:37:49.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "test: 予報とruntime URLの回帰を追加する",
+      "url": "https://github.com/ivRooom/Herta/commit/eab02412c2a6ab9545c44ed761e19773c517423d",
+      "at": "2026-08-29T13:11:49.000+09:00"
     }
   ],
-  "generated_at": "2026-08-29T15:09:13+09:00"
+  "generated_at": "2026-08-29T16:10:15+09:00"
 }

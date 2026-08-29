@@ -5,7 +5,7 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 209,
+    "commits": 269,
     "prs_opened": 29,
     "issues_created": 23,
     "issues_completed": 18
@@ -34,18 +34,18 @@
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "docs(security): clarify CSP inventory handling",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/cc26be416ce6ade0a1810d974c25fda9422a5fd4",
-      "at": "2026-08-28T21:12:01.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "fix: grounding例外と拒否rate limitを安全化",
+      "url": "https://github.com/ivRooom/Herta/commit/f7994346602c01906dd898ba02504db896e40ea3",
+      "at": "2026-08-28T22:25:22.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "ci: restore standard format gate after diagnostic",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/3063dd9d84a32df88c477ad27e84291faca972ee",
-      "at": "2026-08-28T21:09:34.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "fix: リポジトリ由来成果物をgrounding不足として扱う",
+      "url": "https://github.com/ivRooom/Herta/commit/933e575f1d7f452f0c7dcedfebe73b3c1e6f18ff",
+      "at": "2026-08-28T22:14:32.000+09:00"
     }
   ],
-  "generated_at": "2026-08-29T03:09:18+09:00"
+  "generated_at": "2026-08-29T16:10:15+09:00"
 }
