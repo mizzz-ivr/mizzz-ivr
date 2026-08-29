@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T12:49:29Z"
+    "last_activity_at": "2026-08-29T12:51:57Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -20,7 +20,7 @@
     "score": 60,
     "events": 49,
     "last_activity_at": "2026-08-29T12:18:41Z",
-    "share": 56,
+    "share": 55,
     "stack": [
       "TypeScript",
       "Shell",
@@ -159,6 +159,13 @@
       "repo": "mizzz-ivr/ivmz-home",
       "title": "1 commit pushed to ops/issue-38-production-git-sync",
       "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-08-29T12:51:57Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to ops/issue-38-production-git-sync",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
       "at": "2026-08-29T12:49:29Z"
     },
     {
@@ -174,16 +181,9 @@
       "title": "1 commit pushed to feat/console-shell-navigation",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
       "at": "2026-08-29T12:31:50Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to feat/console-shell-navigation",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-29T12:29:33Z"
     }
   ],
-  "generated_at": "2026-08-29T21:50:40+09:00",
+  "generated_at": "2026-08-29T21:55:17+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
