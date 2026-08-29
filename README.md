@@ -53,7 +53,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>weighted activity 51% · score 60 · 49 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>weighted activity 52% · score 62 · 51 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>Shell</code> <code>Dockerfile</code> <code>CSS</code></td>
   </tr>
 </table>
@@ -89,10 +89,10 @@
 
 <table width="100%">
   <tbody>
+    <tr><td width="10%"><code>22:05</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">mainへ1コミットをPush</a></td></tr>
+    <tr><td width="10%"><code>22:05</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">PR #355をマージ</a></td></tr>
     <tr><td width="10%"><code>22:01</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong> — <a href="https://github.com/ivRooom/ivrm-dashboard/commits">feat/console-shell-navigationへ1コミットをPush</a></td></tr>
     <tr><td width="10%"><code>21:57</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/commits">ops/issue-38-production-git-syncへ1コミットをPush</a></td></tr>
-    <tr><td width="10%"><code>21:51</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/commits">ops/issue-38-production-git-syncへ1コミットをPush</a></td></tr>
-    <tr><td width="10%"><code>21:49</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/commits">ops/issue-38-production-git-syncへ1コミットをPush</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->
