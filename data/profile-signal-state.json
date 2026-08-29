@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T07:58:53Z"
+    "last_activity_at": "2026-08-29T08:12:32Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -17,10 +17,10 @@
   "activity_total": 36,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 35,
-    "events": 29,
-    "last_activity_at": "2026-08-29T07:58:53Z",
-    "share": 51,
+    "score": 39,
+    "events": 31,
+    "last_activity_at": "2026-08-29T08:12:32Z",
+    "share": 54,
     "stack": [
       "TypeScript",
       "Shell",
@@ -157,6 +157,13 @@
     {
       "label": "ISSUE",
       "repo": "ivRooom/Herta",
+      "title": "Closed issue #345",
+      "url": "https://github.com/ivRooom/Herta/issues/345",
+      "at": "2026-08-29T08:12:32Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
       "title": "Opened issue #354",
       "url": "https://github.com/ivRooom/Herta/issues/354",
       "at": "2026-08-29T07:58:53Z"
@@ -174,16 +181,9 @@
       "title": "1 commit pushed to feat/345-code-interpreter-binary-artifacts",
       "url": "https://github.com/ivRooom/Herta/commits",
       "at": "2026-08-29T07:12:43Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to feat/345-code-interpreter-binary-artifacts",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-29T07:09:33Z"
     }
   ],
-  "generated_at": "2026-08-29T17:10:21+09:00",
+  "generated_at": "2026-08-29T17:15:35+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
