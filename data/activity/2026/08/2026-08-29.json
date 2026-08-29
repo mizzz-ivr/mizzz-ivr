@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 45,
-    "prs_opened": 3,
+    "commits": 48,
+    "prs_opened": 4,
     "issues_created": 7,
     "issues_completed": 3
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "Merge pull request #352 from ivRooom/dependabot/npm_and_yarn/production-dependencies-5292194420",
+      "url": "https://github.com/ivRooom/Herta/commit/ca6b12b7cff04ba6f42f2330e654961e80589e3e",
+      "at": "2026-08-29T20:59:35.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(deps): Sharpの見かけ上の更新を除外",
+      "url": "https://github.com/ivRooom/Herta/commit/9e68f468962ae955e7422ca341bb9b365be9603d",
+      "at": "2026-08-29T20:29:48.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(deps): Next.js security overrideをlockfileと整合",
+      "url": "https://github.com/ivRooom/Herta/commit/01eaeabfdf2889a4b520ea9140d3b9ed5b16e4fc",
+      "at": "2026-08-29T20:27:34.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -24,28 +45,7 @@
       "title": "chore(ci): package.jsonをmainと完全一致へ戻す",
       "url": "https://github.com/ivRooom/Herta/commit/318cce6ae5002c15ff7be8e8bad63468f1221e4f",
       "at": "2026-08-29T16:12:42.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "chore(ci): format診断scriptを元へ戻す",
-      "url": "https://github.com/ivRooom/Herta/commit/17a6dbd16ed470a2030387209f0fc8b0a504d070",
-      "at": "2026-08-29T16:12:05.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "style(ai): execution artifact validatorをPrettier出力へ合わせる",
-      "url": "https://github.com/ivRooom/Herta/commit/ad22abddd11144b071cdf01ae3df9f3168a05284",
-      "at": "2026-08-29T16:11:54.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "style(ai): Code Interpreter binary testをPrettier出力へ合わせる",
-      "url": "https://github.com/ivRooom/Herta/commit/53002bb041e1b1b6de50d5f775957a332c80ed16",
-      "at": "2026-08-29T16:11:42.000+09:00"
     }
   ],
-  "generated_at": "2026-08-29T18:09:14+09:00"
+  "generated_at": "2026-08-29T21:09:15+09:00"
 }

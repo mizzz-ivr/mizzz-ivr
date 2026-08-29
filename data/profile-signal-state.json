@@ -7,14 +7,14 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T11:40:43Z"
+    "last_activity_at": "2026-08-29T20:59:35.000+09:00"
   },
   "code_weather": {
     "label": "STORM",
     "icon": "🌩️"
   },
   "streak": 5,
-  "activity_total": 58,
+  "activity_total": 62,
   "current_focus": {
     "repo": "ivRooom/Herta",
     "score": 54,
@@ -73,30 +73,30 @@
     },
     {
       "date": "2026-08-29",
-      "total": 58,
-      "commits": 45,
-      "prs": 3,
+      "total": 62,
+      "commits": 48,
+      "prs": 4,
       "issues": 10
     }
   ],
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 40,
-      "events": 32,
-      "last_activity_at": "2026-08-29T08:12:32Z",
-      "share": 52,
+      "score": 54,
+      "events": 43,
+      "last_activity_at": "2026-08-29T11:40:43Z",
+      "share": 59,
       "ci": {
         "label": "ATTENTION",
         "symbol": "!",
         "window_days": 7,
         "total_runs": 10,
-        "evaluated": 6,
-        "passed": 3,
-        "failed": 3,
-        "ignored": 4,
-        "pass_rate": 50,
-        "latest_conclusion": "success"
+        "evaluated": 8,
+        "passed": 6,
+        "failed": 2,
+        "ignored": 2,
+        "pass_rate": 75,
+        "latest_conclusion": "failure"
       },
       "health": {
         "label": "ATTENTION",
@@ -109,7 +109,7 @@
       "score": 21,
       "events": 14,
       "last_activity_at": "2026-08-29T04:09:08Z",
-      "share": 27,
+      "share": 23,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -130,10 +130,10 @@
     },
     {
       "repo": "mizzz-ivr/mizzz-ivr",
-      "score": 12,
-      "events": 6,
+      "score": 13,
+      "events": 7,
       "last_activity_at": "2026-08-29T04:33:07Z",
-      "share": 16,
+      "share": 14,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -183,16 +183,16 @@
       "at": "2026-08-29T08:46:18Z"
     }
   ],
-  "generated_at": "2026-08-29T21:05:23+09:00",
+  "generated_at": "2026-08-29T21:09:15+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
     "window_days": 7,
-    "evaluated": 23,
-    "passed": 20,
-    "failed": 3,
-    "ignored": 7,
-    "pass_rate": 87,
+    "evaluated": 25,
+    "passed": 23,
+    "failed": 2,
+    "ignored": 5,
+    "pass_rate": 92,
     "repos_with_signal": 3
   },
   "dev_recap": {
@@ -213,13 +213,13 @@
         "active_days": 5
       },
       "metrics": {
-        "commits": 1456,
-        "prs_opened": 123,
+        "commits": 1459,
+        "prs_opened": 124,
         "issues_created": 70,
         "issues_completed": 48,
-        "activity_total": 1697
+        "activity_total": 1701
       },
-      "generated_at": "2026-08-29T18:09:14+09:00"
+      "generated_at": "2026-08-29T21:09:15+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -234,13 +234,13 @@
         "active_days": 5
       },
       "metrics": {
-        "commits": 1456,
-        "prs_opened": 123,
+        "commits": 1459,
+        "prs_opened": 124,
         "issues_created": 70,
         "issues_completed": 48,
-        "activity_total": 1697
+        "activity_total": 1701
       },
-      "generated_at": "2026-08-29T18:09:14+09:00"
+      "generated_at": "2026-08-29T21:09:15+09:00"
     },
     "achievements": [
       {
@@ -286,11 +286,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-08-29",
       "metrics": {
-        "commits": 1456,
-        "prs_opened": 123,
+        "commits": 1459,
+        "prs_opened": 124,
         "issues_created": 70,
         "issues_completed": 48,
-        "activity_total": 1697
+        "activity_total": 1701
       }
     },
     "lifetime": {
@@ -299,11 +299,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-08-29",
       "metrics": {
-        "commits": 1456,
-        "prs_opened": 123,
+        "commits": 1459,
+        "prs_opened": 124,
         "issues_created": 70,
         "issues_completed": 48,
-        "activity_total": 1697
+        "activity_total": 1701
       }
     }
   }
