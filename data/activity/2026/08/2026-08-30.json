@@ -5,11 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
+    "commits": 1,
     "prs_opened": 0,
     "issues_created": 0,
-    "issues_completed": 0
+    "issues_completed": 1
   },
-  "activity": [],
-  "generated_at": "2026-08-30T00:09:17+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "Merge pull request #357 from ivRooom/fix/runtime-secret-key-ssm-injection  fix(deploy): Runtime ",
+      "url": "https://github.com/ivRooom/Herta/commit/8ccc41dfca6546bb4c77d6dc2a8729017759cfe2",
+      "at": "2026-08-30T01:04:43.000+09:00"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #356 fix(deploy): production deploy時にHERTA_RUNTIME_SECRET_KEYを注入する経路がない",
+      "url": "https://github.com/ivRooom/Herta/issues/356",
+      "at": "2026-08-29T16:04:45Z"
+    }
+  ],
+  "generated_at": "2026-08-30T03:09:16+09:00"
 }

@@ -10,11 +10,11 @@
     "last_activity_at": "2026-08-29T16:04:45Z"
   },
   "code_weather": {
-    "label": "REST DAY",
-    "icon": "🌙"
+    "label": "LIGHT CODING",
+    "icon": "☁️"
   },
   "streak": 6,
-  "activity_total": 0,
+  "activity_total": 2,
   "current_focus": {
     "repo": "ivRooom/Herta",
     "score": 13,
@@ -73,13 +73,38 @@
     },
     {
       "date": "2026-08-30",
-      "total": 0,
-      "commits": 0,
+      "total": 2,
+      "commits": 1,
       "prs": 0,
-      "issues": 0
+      "issues": 1
     }
   ],
-  "now_building": [],
+  "now_building": [
+    {
+      "repo": "ivRooom/Herta",
+      "score": 13,
+      "events": 11,
+      "last_activity_at": "2026-08-29T16:04:45Z",
+      "share": 100,
+      "ci": {
+        "label": "PASSING",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 9,
+        "passed": 9,
+        "failed": 0,
+        "ignored": 1,
+        "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
+    }
+  ],
   "activity_stream": [
     {
       "label": "ISSUE",
@@ -96,23 +121,23 @@
       "at": "2026-08-29T16:04:44Z"
     }
   ],
-  "generated_at": "2026-08-30T03:05:24+09:00",
+  "generated_at": "2026-08-30T03:09:16+09:00",
   "ci_signal": {
-    "label": "NO SIGNAL",
-    "symbol": "○",
+    "label": "PASSING",
+    "symbol": "●",
     "window_days": 7,
-    "evaluated": 0,
-    "passed": 0,
+    "evaluated": 9,
+    "passed": 9,
     "failed": 0,
-    "ignored": 0,
-    "pass_rate": null,
-    "repos_with_signal": 0
+    "ignored": 1,
+    "pass_rate": 100,
+    "repos_with_signal": 1
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
     "tracked_days": 6,
-    "active_days": 5,
-    "longest_streak": 5,
+    "active_days": 6,
+    "longest_streak": 6,
     "weekly": {
       "schema_version": 1,
       "period": "2026-W35",
@@ -123,16 +148,16 @@
         "start_date": "2026-08-25",
         "end_date": "2026-08-30",
         "tracked_days": 6,
-        "active_days": 5
+        "active_days": 6
       },
       "metrics": {
-        "commits": 1489,
+        "commits": 1490,
         "prs_opened": 127,
         "issues_created": 72,
-        "issues_completed": 48,
-        "activity_total": 1736
+        "issues_completed": 49,
+        "activity_total": 1738
       },
-      "generated_at": "2026-08-30T00:09:17+09:00"
+      "generated_at": "2026-08-30T03:09:16+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -144,16 +169,16 @@
         "start_date": "2026-08-25",
         "end_date": "2026-08-30",
         "tracked_days": 6,
-        "active_days": 5
+        "active_days": 6
       },
       "metrics": {
-        "commits": 1489,
+        "commits": 1490,
         "prs_opened": 127,
         "issues_created": 72,
-        "issues_completed": 48,
-        "activity_total": 1736
+        "issues_completed": 49,
+        "activity_total": 1738
       },
-      "generated_at": "2026-08-30T00:09:17+09:00"
+      "generated_at": "2026-08-30T03:09:16+09:00"
     },
     "achievements": [
       {
@@ -195,28 +220,28 @@
     "year": 2026,
     "yearly": {
       "tracked_days": 6,
-      "active_days": 5,
+      "active_days": 6,
       "first_date": "2026-08-25",
       "last_date": "2026-08-30",
       "metrics": {
-        "commits": 1489,
+        "commits": 1490,
         "prs_opened": 127,
         "issues_created": 72,
-        "issues_completed": 48,
-        "activity_total": 1736
+        "issues_completed": 49,
+        "activity_total": 1738
       }
     },
     "lifetime": {
       "tracked_days": 6,
-      "active_days": 5,
+      "active_days": 6,
       "first_date": "2026-08-25",
       "last_date": "2026-08-30",
       "metrics": {
-        "commits": 1489,
+        "commits": 1490,
         "prs_opened": 127,
         "issues_created": 72,
-        "issues_completed": 48,
-        "activity_total": 1736
+        "issues_completed": 49,
+        "activity_total": 1738
       }
     }
   }
