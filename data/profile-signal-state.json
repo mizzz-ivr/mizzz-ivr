@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T14:29:13Z"
+    "last_activity_at": "2026-08-29T14:39:50Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,10 +17,10 @@
   "activity_total": 97,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 72,
-    "events": 57,
-    "last_activity_at": "2026-08-29T14:29:13Z",
-    "share": 50,
+    "score": 77,
+    "events": 62,
+    "last_activity_at": "2026-08-29T14:39:50Z",
+    "share": 52,
     "stack": [
       "TypeScript",
       "Shell",
@@ -155,6 +155,13 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to fix/runtime-secret-key-ssm-injection",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-29T14:39:38Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/Herta",
       "title": "Opened PR #357",
@@ -174,16 +181,9 @@
       "title": "Opened issue #356",
       "url": "https://github.com/ivRooom/Herta/issues/356",
       "at": "2026-08-29T14:13:47Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to fix/discord-oauth-retry-diagnostics",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-29T13:56:13Z"
     }
   ],
-  "generated_at": "2026-08-29T23:35:18+09:00",
+  "generated_at": "2026-08-29T23:40:26+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
