@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T15:58:37Z"
+    "last_activity_at": "2026-08-29T16:04:45Z"
   },
   "code_weather": {
     "label": "REST DAY",
@@ -17,9 +17,9 @@
   "activity_total": 0,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 9,
-    "events": 9,
-    "last_activity_at": "2026-08-29T15:58:37Z",
+    "score": 13,
+    "events": 11,
+    "last_activity_at": "2026-08-29T16:04:45Z",
     "share": 100,
     "stack": [
       "TypeScript",
@@ -80,8 +80,23 @@
     }
   ],
   "now_building": [],
-  "activity_stream": [],
-  "generated_at": "2026-08-30T01:00:50+09:00",
+  "activity_stream": [
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Closed issue #356",
+      "url": "https://github.com/ivRooom/Herta/issues/356",
+      "at": "2026-08-29T16:04:45Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "PR merged #357",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-08-29T16:04:44Z"
+    }
+  ],
+  "generated_at": "2026-08-30T01:05:23+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
