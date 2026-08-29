@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 1,
-    "issues_created": 4,
-    "issues_completed": 0
+    "commits": 2,
+    "prs_opened": 2,
+    "issues_created": 5,
+    "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "fix(profile): make Profile Signal dashboard full width (#59)  Render generated Profile Signal da",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/0e6007b1f7010ac2b50c002e604e34fffa89979e",
+      "at": "2026-08-29T13:33:06.000+09:00"
+    },
+    {
+      "type": "done",
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "Issue #58 fix(profile): expand Profile Signal dashboard sections to full width",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/issues/58",
+      "at": "2026-08-29T04:33:07Z"
+    },
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "PR #59 fix(profile): make Profile Signal dashboard full width",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/pull/59",
+      "at": "2026-08-29T04:32:01Z"
+    },
+    {
+      "type": "issue",
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "Issue #58 fix(profile): expand Profile Signal dashboard sections to full width",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/issues/58",
+      "at": "2026-08-29T04:29:15Z"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
       "title": "Merge pull request #34 from mizzz-ivr/security/issue-29-csp-observation",
       "url": "https://github.com/mizzz-ivr/ivmz-home/commit/f99ec389a098477b46d37136aa7339b52b30c17a",
       "at": "2026-08-29T02:37:49.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR #39 docs(ops): document Production Git sync recovery",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/39",
-      "at": "2026-08-29T00:27:05Z"
-    },
-    {
-      "type": "issue",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Issue #38 ops(deploy): restore main-to-Netlify Production Git synchronization",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/38",
-      "at": "2026-08-28T17:48:48Z"
-    },
-    {
-      "type": "issue",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Issue #37 feat(social): evolve social hub and external activity integrations",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/37",
-      "at": "2026-08-28T17:46:25Z"
-    },
-    {
-      "type": "issue",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Issue #36 feat(design): evolve playful motion system, loading states, and scroll interactions",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/36",
-      "at": "2026-08-28T17:46:05Z"
     }
   ],
-  "generated_at": "2026-08-29T10:55:02+09:00"
+  "generated_at": "2026-08-29T15:09:13+09:00"
 }
