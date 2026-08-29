@@ -70,11 +70,16 @@ def marker_pattern(start: str, end: str) -> re.Pattern[str]:
     return re.compile(re.escape(start) + r".*?" + re.escape(end), re.DOTALL)
 
 
+def normalize_dashboard_tables(block: str) -> str:
+    """Keep generated dashboard tables visually balanced in GitHub Markdown."""
+    return block.replace("<table>", '<table width="100%">')
+
+
 def replace_marker(text: str, name: str, block: str) -> str:
     start, end = MARKERS[name]
     if start not in text or end not in text:
         raise RuntimeError(f"README marker pair missing: {name}")
-    return marker_pattern(start, end).sub(block, text, count=1)
+    return marker_pattern(start, end).sub(normalize_dashboard_tables(block), text, count=1)
 
 
 def load_today_snapshot(root: Path, state: dict[str, Any]) -> dict[str, Any]:
