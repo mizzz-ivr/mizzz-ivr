@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T13:52:54Z"
+    "last_activity_at": "2026-08-29T13:59:23Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -20,7 +20,7 @@
     "score": 64,
     "events": 53,
     "last_activity_at": "2026-08-29T13:16:40Z",
-    "share": 49,
+    "share": 47,
     "stack": [
       "TypeScript",
       "Shell",
@@ -159,6 +159,20 @@
       "repo": "ivRooom/ivrm-dashboard",
       "title": "1 commit pushed to fix/discord-oauth-retry-diagnostics",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-29T13:56:13Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to fix/discord-oauth-retry-diagnostics",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-29T13:55:46Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to fix/discord-oauth-retry-diagnostics",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
       "at": "2026-08-29T13:52:54Z"
     },
     {
@@ -167,23 +181,9 @@
       "title": "Opened PR #74",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-29T13:45:26Z"
-    },
-    {
-      "label": "CREATE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Created branch fix/discord-oauth-retry-diagnostics",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-29T13:39:41Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened issue #73",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/73",
-      "at": "2026-08-29T13:39:33Z"
     }
   ],
-  "generated_at": "2026-08-29T22:55:23+09:00",
+  "generated_at": "2026-08-29T23:00:44+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
