@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T08:12:32Z"
+    "last_activity_at": "2026-08-29T08:46:31Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -20,7 +20,7 @@
     "score": 39,
     "events": 31,
     "last_activity_at": "2026-08-29T08:12:32Z",
-    "share": 54,
+    "share": 51,
     "stack": [
       "TypeScript",
       "Shell",
@@ -156,6 +156,13 @@
   "activity_stream": [
     {
       "label": "ISSUE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened issue #71",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/71",
+      "at": "2026-08-29T08:46:18Z"
+    },
+    {
+      "label": "ISSUE",
       "repo": "ivRooom/Herta",
       "title": "Closed issue #345",
       "url": "https://github.com/ivRooom/Herta/issues/345",
@@ -174,16 +181,9 @@
       "title": "PR merged #353",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-08-29T07:57:11Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to feat/345-code-interpreter-binary-artifacts",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-29T07:12:43Z"
     }
   ],
-  "generated_at": "2026-08-29T17:45:21+09:00",
+  "generated_at": "2026-08-29T17:50:23+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
