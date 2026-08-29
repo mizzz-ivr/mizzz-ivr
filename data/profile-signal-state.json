@@ -7,15 +7,27 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T14:49:01Z"
+    "last_activity_at": "2026-08-29T15:27:25Z"
   },
   "code_weather": {
     "label": "REST DAY",
     "icon": "🌙"
   },
-  "streak": 0,
+  "streak": 6,
   "activity_total": 0,
-  "current_focus": null,
+  "current_focus": {
+    "repo": "ivRooom/Herta",
+    "score": 1,
+    "events": 1,
+    "last_activity_at": "2026-08-29T15:27:25Z",
+    "share": 100,
+    "stack": [
+      "TypeScript",
+      "Shell",
+      "Dockerfile",
+      "CSS"
+    ]
+  },
   "dev_pulse": [
     {
       "date": "2026-08-24",
@@ -69,7 +81,7 @@
   ],
   "now_building": [],
   "activity_stream": [],
-  "generated_at": "2026-08-30T00:25:23+09:00",
+  "generated_at": "2026-08-30T00:30:29+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
