@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T13:16:40Z"
+    "last_activity_at": "2026-08-29T13:32:47Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -20,7 +20,7 @@
     "score": 64,
     "events": 53,
     "last_activity_at": "2026-08-29T13:16:40Z",
-    "share": 53,
+    "share": 52,
     "stack": [
       "TypeScript",
       "Shell",
@@ -155,6 +155,13 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #72",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-29T13:32:47Z"
+    },
+    {
       "label": "PUSH",
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to main",
@@ -174,16 +181,9 @@
       "title": "1 commit pushed to feat/console-shell-navigation",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
       "at": "2026-08-29T13:01:42Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "1 commit pushed to ops/issue-38-production-git-sync",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
-      "at": "2026-08-29T12:57:41Z"
     }
   ],
-  "generated_at": "2026-08-29T22:30:32+09:00",
+  "generated_at": "2026-08-29T22:35:20+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
