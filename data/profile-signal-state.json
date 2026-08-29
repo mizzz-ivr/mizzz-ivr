@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T20:59:35.000+09:00"
+    "last_activity_at": "2026-08-29T12:18:41Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,10 +17,10 @@
   "activity_total": 62,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 54,
-    "events": 43,
-    "last_activity_at": "2026-08-29T11:40:43Z",
-    "share": 59,
+    "score": 59,
+    "events": 48,
+    "last_activity_at": "2026-08-29T12:18:41Z",
+    "share": 61,
     "stack": [
       "TypeScript",
       "Shell",
@@ -157,33 +157,33 @@
     {
       "label": "PR",
       "repo": "ivRooom/Herta",
-      "title": "Opened PR #355",
+      "title": "Reopened PR #355",
       "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-08-29T11:31:36Z"
+      "at": "2026-08-29T12:18:26Z"
     },
     {
       "label": "PUSH",
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to docs/354-production-e2e-runbook",
       "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-29T11:31:26Z"
+      "at": "2026-08-29T12:18:15Z"
     },
     {
-      "label": "CREATE",
+      "label": "PR",
       "repo": "ivRooom/Herta",
-      "title": "Created branch docs/354-production-e2e-runbook",
+      "title": "Closed PR #355",
       "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-08-29T11:30:46Z"
+      "at": "2026-08-29T11:40:38Z"
     },
     {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened issue #71",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/71",
-      "at": "2026-08-29T08:46:18Z"
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "Opened PR #355",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-08-29T11:31:36Z"
     }
   ],
-  "generated_at": "2026-08-29T21:15:30+09:00",
+  "generated_at": "2026-08-29T21:20:27+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
