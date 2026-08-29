@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T01:53:43Z"
+    "last_activity_at": "2026-08-29T01:57:49Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -20,7 +20,7 @@
     "score": 19,
     "events": 12,
     "last_activity_at": "2026-08-29T00:32:33Z",
-    "share": 76,
+    "share": 73,
     "stack": [
       "TypeScript",
       "CSS",
@@ -158,6 +158,13 @@
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to feat/350-discord-conversation-rollout",
       "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-29T01:57:49Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to feat/350-discord-conversation-rollout",
+      "url": "https://github.com/ivRooom/Herta/commits",
       "at": "2026-08-29T01:53:13Z"
     },
     {
@@ -173,16 +180,9 @@
       "title": "Created branch ops/issue-38-production-git-sync",
       "url": "https://github.com/mizzz-ivr/ivmz-home",
       "at": "2026-08-29T00:26:36Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Opened issue #38",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/38",
-      "at": "2026-08-28T18:38:53Z"
     }
   ],
-  "generated_at": "2026-08-29T10:55:24+09:00",
+  "generated_at": "2026-08-29T11:00:49+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
