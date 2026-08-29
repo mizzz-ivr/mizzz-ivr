@@ -26,7 +26,7 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 23:49 JST</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 08/29 23:49 JST</sub></td>
     <td width="34%" align="center"><strong>🌩️ STORM</strong><br/><sub>97 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 5 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
@@ -81,7 +81,7 @@
 <!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
 ## NOW BUILDING // Active repositories
 
-<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>50% weighted · WATCH · CI pass rate 89%<br/>last activity · 23:29 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>24% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 22:59 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>17% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 21:57 JST</sub></td></tr></table>
+<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>50% weighted · WATCH · CI pass rate 89%<br/>last activity · 08/29 23:29 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>24% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 08/29 22:59 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>17% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 08/29 21:57 JST</sub></td></tr></table>
 <!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
 
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->
@@ -89,10 +89,10 @@
 
 <table width="100%">
   <tbody>
-    <tr><td width="10%"><code>23:48</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">fix/runtime-secret-key-ssm-injectionへ1コミットをPush</a></td></tr>
-    <tr><td width="10%"><code>23:39</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">fix/runtime-secret-key-ssm-injectionへ1コミットをPush</a></td></tr>
-    <tr><td width="10%"><code>23:14</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">PR #357を作成</a></td></tr>
-    <tr><td width="10%"><code>23:14</code></td><td width="14%"><code>CREATE</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">Created branch fix/runtime-secret-key-ssm-injection</a></td></tr>
+    <tr><td width="10%"><code>08/29 23:48</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">fix/runtime-secret-key-ssm-injectionへ1コミットをPush</a></td></tr>
+    <tr><td width="10%"><code>08/29 23:39</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">fix/runtime-secret-key-ssm-injectionへ1コミットをPush</a></td></tr>
+    <tr><td width="10%"><code>08/29 23:14</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">PR #357を作成</a></td></tr>
+    <tr><td width="10%"><code>08/29 23:14</code></td><td width="14%"><code>CREATE</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">Created branch fix/runtime-secret-key-ssm-injection</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->
