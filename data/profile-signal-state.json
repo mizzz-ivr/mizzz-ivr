@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T06:59:49Z"
+    "last_activity_at": "2026-08-29T07:01:52Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,10 +17,10 @@
   "activity_total": 10,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 25,
-    "events": 20,
-    "last_activity_at": "2026-08-29T06:59:49Z",
-    "share": 43,
+    "score": 28,
+    "events": 23,
+    "last_activity_at": "2026-08-29T07:01:52Z",
+    "share": 46,
     "stack": [
       "TypeScript",
       "Shell",
@@ -155,35 +155,35 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to feat/345-code-interpreter-binary-artifacts",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-29T07:01:52Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to feat/345-code-interpreter-binary-artifacts",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-29T07:01:05Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to feat/345-code-interpreter-binary-artifacts",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-29T07:00:41Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/Herta",
       "title": "Opened PR #353",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-08-29T06:59:49Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Closed issue #350",
-      "url": "https://github.com/ivRooom/Herta/issues/350",
-      "at": "2026-08-29T06:43:39Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR merged #351",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-08-29T06:43:38Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "Closed issue #58",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/issues/58",
-      "at": "2026-08-29T04:33:07Z"
     }
   ],
-  "generated_at": "2026-08-29T16:00:41+09:00",
+  "generated_at": "2026-08-29T16:05:23+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
