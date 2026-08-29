@@ -21,12 +21,7 @@
     "events": 31,
     "last_activity_at": "2026-08-29T08:12:32Z",
     "share": 54,
-    "stack": [
-      "TypeScript",
-      "Shell",
-      "Dockerfile",
-      "CSS"
-    ]
+    "stack": []
   },
   "dev_pulse": [
     {
@@ -183,7 +178,7 @@
       "at": "2026-08-29T07:12:43Z"
     }
   ],
-  "generated_at": "2026-08-29T17:15:35+09:00",
+  "generated_at": "2026-08-29T17:20:20+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
