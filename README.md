@@ -26,7 +26,7 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 20:26 JST</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 20:32 JST</sub></td>
     <td width="34%" align="center"><strong>🌩️ STORM</strong><br/><sub>58 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 5 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
@@ -53,7 +53,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>weighted activity 54% · score 45 · 37 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>weighted activity 58% · score 52 · 41 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>Shell</code> <code>Dockerfile</code> <code>CSS</code></td>
   </tr>
 </table>
@@ -89,10 +89,10 @@
 
 <table width="100%">
   <tbody>
+    <tr><td width="10%"><code>20:31</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">PR #355を作成</a></td></tr>
+    <tr><td width="10%"><code>20:31</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">docs/354-production-e2e-runbookへ1コミットをPush</a></td></tr>
+    <tr><td width="10%"><code>20:30</code></td><td width="14%"><code>CREATE</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">Created branch docs/354-production-e2e-runbook</a></td></tr>
     <tr><td width="10%"><code>17:46</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong> — <a href="https://github.com/ivRooom/ivrm-dashboard/issues/71">Issue #71を作成</a></td></tr>
-    <tr><td width="10%"><code>17:12</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/issues/345">Issue #345を完了</a></td></tr>
-    <tr><td width="10%"><code>16:58</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/issues/354">Issue #354を作成</a></td></tr>
-    <tr><td width="10%"><code>16:57</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">PR #353をマージ</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->
