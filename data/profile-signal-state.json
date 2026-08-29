@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-08-29T04:52:36Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-08-29T06:43:39Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -20,7 +20,7 @@
     "score": 21,
     "events": 14,
     "last_activity_at": "2026-08-29T04:09:08Z",
-    "share": 44,
+    "share": 40,
     "stack": [
       "TypeScript",
       "CSS",
@@ -155,6 +155,20 @@
   "activity_stream": [
     {
       "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Closed issue #350",
+      "url": "https://github.com/ivRooom/Herta/issues/350",
+      "at": "2026-08-29T06:43:39Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "PR merged #351",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-08-29T06:43:38Z"
+    },
+    {
+      "label": "ISSUE",
       "repo": "mizzz-ivr/mizzz-ivr",
       "title": "Closed issue #58",
       "url": "https://github.com/mizzz-ivr/mizzz-ivr/issues/58",
@@ -166,23 +180,9 @@
       "title": "PR merged #59",
       "url": "https://github.com/mizzz-ivr/mizzz-ivr",
       "at": "2026-08-29T04:33:06Z"
-    },
-    {
-      "label": "PR",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "Opened PR #59",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr",
-      "at": "2026-08-29T04:32:01Z"
-    },
-    {
-      "label": "CREATE",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "Created branch fix/profile-dashboard-full-width",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr",
-      "at": "2026-08-29T04:29:23Z"
     }
   ],
-  "generated_at": "2026-08-29T15:40:28+09:00",
+  "generated_at": "2026-08-29T15:50:23+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
