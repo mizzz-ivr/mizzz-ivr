@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T04:09:10Z"
+    "last_activity_at": "2026-08-29T04:29:23Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -20,7 +20,7 @@
     "score": 20,
     "events": 13,
     "last_activity_at": "2026-08-29T04:09:08Z",
-    "share": 57,
+    "share": 53,
     "stack": [
       "TypeScript",
       "CSS",
@@ -154,6 +154,20 @@
   ],
   "activity_stream": [
     {
+      "label": "CREATE",
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "Created branch fix/profile-dashboard-full-width",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr",
+      "at": "2026-08-29T04:29:23Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "Opened issue #58",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/issues/58",
+      "at": "2026-08-29T04:29:17Z"
+    },
+    {
       "label": "PUSH",
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to feat/350-discord-conversation-rollout",
@@ -166,23 +180,9 @@
       "title": "1 commit pushed to feat/350-discord-conversation-rollout",
       "url": "https://github.com/ivRooom/Herta/commits",
       "at": "2026-08-29T02:03:13Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to feat/350-discord-conversation-rollout",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-29T01:57:49Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to feat/350-discord-conversation-rollout",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-29T01:53:13Z"
     }
   ],
-  "generated_at": "2026-08-29T13:25:18+09:00",
+  "generated_at": "2026-08-29T13:30:35+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
