@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T12:18:41Z"
+    "last_activity_at": "2026-08-29T12:23:58Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -20,7 +20,7 @@
     "score": 59,
     "events": 48,
     "last_activity_at": "2026-08-29T12:18:41Z",
-    "share": 61,
+    "share": 60,
     "stack": [
       "TypeScript",
       "Shell",
@@ -155,6 +155,13 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to feat/console-shell-navigation",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-29T12:23:58Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/Herta",
       "title": "Reopened PR #355",
@@ -174,16 +181,9 @@
       "title": "Closed PR #355",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-08-29T11:40:38Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "Opened PR #355",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-08-29T11:31:36Z"
     }
   ],
-  "generated_at": "2026-08-29T21:20:27+09:00",
+  "generated_at": "2026-08-29T21:25:30+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
