@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-29T13:59:23Z"
+    "last_activity_at": "2026-08-29T14:14:28Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,10 +17,10 @@
   "activity_total": 62,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 64,
-    "events": 53,
-    "last_activity_at": "2026-08-29T13:16:40Z",
-    "share": 47,
+    "score": 71,
+    "events": 56,
+    "last_activity_at": "2026-08-29T14:14:28Z",
+    "share": 50,
     "stack": [
       "TypeScript",
       "Shell",
@@ -155,35 +155,35 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "Opened PR #357",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-08-29T14:14:28Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "ivRooom/Herta",
+      "title": "Created branch fix/runtime-secret-key-ssm-injection",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-08-29T14:14:04Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Opened issue #356",
+      "url": "https://github.com/ivRooom/Herta/issues/356",
+      "at": "2026-08-29T14:13:47Z"
+    },
+    {
       "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "1 commit pushed to fix/discord-oauth-retry-diagnostics",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
       "at": "2026-08-29T13:56:13Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to fix/discord-oauth-retry-diagnostics",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-29T13:55:46Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to fix/discord-oauth-retry-diagnostics",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-29T13:52:54Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #74",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-29T13:45:26Z"
     }
   ],
-  "generated_at": "2026-08-29T23:10:21+09:00",
+  "generated_at": "2026-08-29T23:15:58+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
