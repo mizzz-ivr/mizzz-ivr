@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 26,
+    "commits": 45,
     "prs_opened": 3,
-    "issues_created": 5,
-    "issues_completed": 2
+    "issues_created": 7,
+    "issues_completed": 3
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "Merge pull request #351 from ivRooom/feat/350-discord-conversation-rollout",
-      "url": "https://github.com/ivRooom/Herta/commit/8a2d381d194062b8e66ce0693aebbba5398ffc48",
-      "at": "2026-08-29T15:43:38.000+09:00"
+      "title": "Merge pull request #353 from ivRooom/feat/345-code-interpreter-binary-artifacts",
+      "url": "https://github.com/ivRooom/Herta/commit/9f1e3b47b26c247aa0a92a185bcf1649a1567a5c",
+      "at": "2026-08-29T16:57:11.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "test: 番号のみのrepository参照を回帰固定する",
-      "url": "https://github.com/ivRooom/Herta/commit/ab3940d5fa883b81992f9ce9d6de2037bfd16754",
-      "at": "2026-08-29T13:55:01.000+09:00"
+      "title": "chore(ci): package.jsonをmainと完全一致へ戻す",
+      "url": "https://github.com/ivRooom/Herta/commit/318cce6ae5002c15ff7be8e8bad63468f1221e4f",
+      "at": "2026-08-29T16:12:42.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "fix: 番号のみのrepository参照をgrounding対象にする",
-      "url": "https://github.com/ivRooom/Herta/commit/776b502ec46e55bd6ffba149a7d3cc4580cf2d19",
-      "at": "2026-08-29T13:54:45.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/mizzz-ivr",
-      "title": "fix(profile): make Profile Signal dashboard full width (#59)  Render generated Profile Signal da",
-      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/0e6007b1f7010ac2b50c002e604e34fffa89979e",
-      "at": "2026-08-29T13:33:06.000+09:00"
+      "title": "chore(ci): format診断scriptを元へ戻す",
+      "url": "https://github.com/ivRooom/Herta/commit/17a6dbd16ed470a2030387209f0fc8b0a504d070",
+      "at": "2026-08-29T16:12:05.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "test: 予報とruntime URLの回帰を追加する",
-      "url": "https://github.com/ivRooom/Herta/commit/eab02412c2a6ab9545c44ed761e19773c517423d",
-      "at": "2026-08-29T13:11:49.000+09:00"
+      "title": "style(ai): execution artifact validatorをPrettier出力へ合わせる",
+      "url": "https://github.com/ivRooom/Herta/commit/ad22abddd11144b071cdf01ae3df9f3168a05284",
+      "at": "2026-08-29T16:11:54.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "style(ai): Code Interpreter binary testをPrettier出力へ合わせる",
+      "url": "https://github.com/ivRooom/Herta/commit/53002bb041e1b1b6de50d5f775957a332c80ed16",
+      "at": "2026-08-29T16:11:42.000+09:00"
     }
   ],
-  "generated_at": "2026-08-29T16:10:15+09:00"
+  "generated_at": "2026-08-29T18:09:14+09:00"
 }
