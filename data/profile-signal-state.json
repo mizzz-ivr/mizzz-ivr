@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T14:34:47Z"
+    "last_activity_at": "2026-08-30T14:39:43Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,9 +17,9 @@
   "activity_total": 110,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 292,
+    "score": 294,
     "events": 200,
-    "last_activity_at": "2026-08-30T14:34:47Z",
+    "last_activity_at": "2026-08-30T14:39:43Z",
     "share": 74,
     "stack": [
       "TypeScript",
@@ -155,6 +155,20 @@
   ],
   "activity_stream": [
     {
+      "label": "ISSUE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Closed issue #102",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/102",
+      "at": "2026-08-30T14:38:25Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #104",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T14:38:24Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "Opened PR #104",
@@ -167,23 +181,9 @@
       "title": "PR merged #103",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T14:28:02Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #103",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T13:48:23Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to feat/read-only-log-viewer-refresh",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-30T13:46:10Z"
     }
   ],
-  "generated_at": "2026-08-30T23:35:22+09:00",
+  "generated_at": "2026-08-30T23:40:21+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
