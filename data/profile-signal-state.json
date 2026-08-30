@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T07:41:03Z"
+    "last_activity_at": "2026-08-30T07:49:36Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,10 +17,10 @@
   "activity_total": 53,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 150,
-    "events": 102,
-    "last_activity_at": "2026-08-30T07:41:03Z",
-    "share": 74,
+    "score": 157,
+    "events": 106,
+    "last_activity_at": "2026-08-30T07:49:36Z",
+    "share": 75,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -155,35 +155,35 @@
   ],
   "activity_stream": [
     {
-      "label": "PR",
+      "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #90",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T07:39:55Z"
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T07:49:36Z"
     },
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #90",
+      "title": "PR merged #91",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T07:36:09Z"
+      "at": "2026-08-30T07:49:35Z"
     },
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #89",
+      "title": "Opened PR #91",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T07:31:11Z"
+      "at": "2026-08-30T07:46:10Z"
     },
     {
       "label": "PUSH",
-      "repo": "ivRooom/ivrm-status",
-      "title": "1 commit pushed to feat/status-portal-ui",
-      "url": "https://github.com/ivRooom/ivrm-status/commits",
-      "at": "2026-08-30T07:28:33Z"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to feat/console-history-consistency-phase-d7a",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T07:45:48Z"
     }
   ],
-  "generated_at": "2026-08-30T16:45:18+09:00",
+  "generated_at": "2026-08-30T16:50:21+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
