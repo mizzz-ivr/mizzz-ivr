@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T00:08:17Z"
+    "last_activity_at": "2026-08-30T00:09:23Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -20,7 +20,7 @@
     "score": 14,
     "events": 12,
     "last_activity_at": "2026-08-29T16:04:45Z",
-    "share": 82,
+    "share": 74,
     "stack": [
       "TypeScript",
       "Shell",
@@ -159,7 +159,7 @@
       "at": "2026-08-29T15:26:47Z"
     }
   ],
-  "generated_at": "2026-08-30T09:09:13+09:00",
+  "generated_at": "2026-08-30T09:10:20+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
