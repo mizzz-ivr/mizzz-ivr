@@ -5,11 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
-    "issues_created": 0,
+    "commits": 4,
+    "prs_opened": 4,
+    "issues_created": 1,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-08-31T00:09:13+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Vercelの明示Production再Deployトリガーを追加する (#105)  Vercel Ignored Build Stepに`[vercel-deploy]` escape h",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/02f803628e9f6d9ecdb636681c10ec8518f26e8a",
+      "at": "2026-08-31T00:28:14.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "chore(deploy): retrigger Vercel production after quota reset",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/8e67f7dd53a5ee1e7b0e4677f177d96352a7a505",
+      "at": "2026-08-31T00:25:02.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "revert: remove accidental placeholder article",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/d24a5068c20517585c1e0565fbdea11e8dc0eee6",
+      "at": "2026-08-31T00:14:15.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "docs: add custom domain email Qiita draft",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/d71c1e624116104b4be70db40a91575173c1b8ef",
+      "at": "2026-08-31T00:13:54.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR #107 Status lifecycle event / channel delivery基盤を追加する",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/107",
+      "at": "2026-08-30T16:18:46Z"
+    }
+  ],
+  "generated_at": "2026-08-31T01:46:04+09:00"
 }
