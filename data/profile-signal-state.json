@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T13:33:05Z"
+    "last_activity_at": "2026-08-30T13:37:00Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,10 +17,10 @@
   "activity_total": 110,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 275,
-    "events": 189,
-    "last_activity_at": "2026-08-30T13:32:31Z",
-    "share": 75,
+    "score": 276,
+    "events": 190,
+    "last_activity_at": "2026-08-30T13:37:00Z",
+    "share": 74,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -159,6 +159,13 @@
       "repo": "ivRooom/ivrm-dashboard",
       "title": "1 commit pushed to feat/read-only-log-viewer-refresh",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T13:37:00Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to feat/read-only-log-viewer-refresh",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
       "at": "2026-08-30T13:32:31Z"
     },
     {
@@ -174,16 +181,9 @@
       "title": "1 commit pushed to feat/status-center-announcement-mutations",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
       "at": "2026-08-30T13:03:40Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened issue #102",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/102",
-      "at": "2026-08-30T13:01:43Z"
     }
   ],
-  "generated_at": "2026-08-30T22:35:20+09:00",
+  "generated_at": "2026-08-30T22:40:21+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
