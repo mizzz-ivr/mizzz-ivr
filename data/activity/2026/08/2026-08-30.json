@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 65,
-    "prs_opened": 28,
-    "issues_created": 9,
-    "issues_completed": 8
+    "commits": 68,
+    "prs_opened": 31,
+    "issues_created": 10,
+    "issues_completed": 10
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Status Center: Announcement作成・予約公開・Archiveを実装する (#104)  Closes #102  Announcement Create Draft /",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/35febce84f719abf0b7e0fb03cd55640bf34a627",
+      "at": "2026-08-30T23:38:23.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Issue #68 Phase A: Read-only Log Viewerを現行Consoleへ復活する (#103)  Read-only Log Viewerを現行Console Sh",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/56e9489f9c4485a6132a23619c014eb1db0e9062",
+      "at": "2026-08-30T23:28:02.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Status Center: Maintenance作成・予約公開・取消を実装する (#101)  Closes #99  Public Maintenance NoticeのCreate D",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/9399f2440c89b582a509de92579003d4691212a8",
+      "at": "2026-08-30T21:56:17.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
@@ -24,28 +45,7 @@
       "title": "fix: preserve main commit SHA for OCI asset version (#35)  Fix Issue #34 by passing GITHUB_SHA a",
       "url": "https://github.com/ivRooom/ivrm-status/commit/88e6a3db3efa432472c0b62837dc56e85a36913b",
       "at": "2026-08-30T20:10:35.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-status",
-      "title": "fix: include Status Portal test in OCI release package (#33)  Fix Issue #32 by including scripts",
-      "url": "https://github.com/ivRooom/ivrm-status/commit/b2499bfbfcb220bc5903b00d3dfc13eaec3eb212",
-      "at": "2026-08-30T20:07:24.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Console Phase D-11: Host DetailをDesign Systemへ統一する (#98)  * Host詳細をShared Console UIへ統一  * Host詳",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/d85b15ecbecd7ab1018a9ac5aa1a3af178970cb0",
-      "at": "2026-08-30T20:04:36.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-status",
-      "title": "feat: complete public status portal UI (#31)  Complete Issue #29 Status Portal UI with public In",
-      "url": "https://github.com/ivRooom/ivrm-status/commit/a81cbb03b5d84f7aec607b5d3c7fe4b4dc12a849",
-      "at": "2026-08-30T20:04:13.000+09:00"
     }
   ],
-  "generated_at": "2026-08-30T21:00:40+09:00"
+  "generated_at": "2026-08-31T00:09:13+09:00"
 }
