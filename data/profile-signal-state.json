@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T02:31:37Z"
+    "last_activity_at": "2026-08-30T03:18:07Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -17,10 +17,10 @@
   "activity_total": 27,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 75,
-    "events": 54,
-    "last_activity_at": "2026-08-30T02:31:37Z",
-    "share": 76,
+    "score": 81,
+    "events": 57,
+    "last_activity_at": "2026-08-30T03:18:07Z",
+    "share": 77,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -155,35 +155,35 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #82",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T03:18:07Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to feat/status-center-foundation",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T03:17:40Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to feat/status-center-foundation",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T03:16:54Z"
+    },
+    {
       "label": "ISSUE",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "Opened issue #81",
       "url": "https://github.com/ivRooom/ivrm-dashboard/issues/81",
       "at": "2026-08-30T02:31:37Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-status",
-      "title": "Opened issue #29",
-      "url": "https://github.com/ivRooom/ivrm-status/issues/29",
-      "at": "2026-08-30T02:31:13Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-status",
-      "title": "Opened issue #28",
-      "url": "https://github.com/ivRooom/ivrm-status/issues/28",
-      "at": "2026-08-30T02:30:53Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-status",
-      "title": "Opened issue #27",
-      "url": "https://github.com/ivRooom/ivrm-status/issues/27",
-      "at": "2026-08-30T02:29:46Z"
     }
   ],
-  "generated_at": "2026-08-30T12:15:21+09:00",
+  "generated_at": "2026-08-30T12:20:20+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
