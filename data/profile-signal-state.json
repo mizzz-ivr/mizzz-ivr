@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T11:25:03Z"
+    "last_activity_at": "2026-08-30T11:28:30Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,10 +17,10 @@
   "activity_total": 80,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 227,
-    "events": 154,
-    "last_activity_at": "2026-08-30T11:25:03Z",
-    "share": 71,
+    "score": 233,
+    "events": 158,
+    "last_activity_at": "2026-08-30T11:28:30Z",
+    "share": 72,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -155,6 +155,20 @@
   ],
   "activity_stream": [
     {
+      "label": "CREATE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Created branch feat/console-login-consistency-phase-d12",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T11:28:30Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Closed issue #73",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/73",
+      "at": "2026-08-30T11:26:09Z"
+    },
+    {
       "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "1 commit pushed to feat/status-center-maintenance-mutations",
@@ -167,23 +181,9 @@
       "title": "1 commit pushed to feat/status-center-maintenance-mutations",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
       "at": "2026-08-30T11:22:41Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "Opened PR #359",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-08-30T11:22:36Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to feat/ai-followup-persona",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-30T11:21:38Z"
     }
   ],
-  "generated_at": "2026-08-30T20:25:15+09:00",
+  "generated_at": "2026-08-30T20:30:29+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
