@@ -17,8 +17,8 @@
   "activity_total": 2,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 13,
-    "events": 11,
+    "score": 14,
+    "events": 12,
     "last_activity_at": "2026-08-29T16:04:45Z",
     "share": 100,
     "stack": [
@@ -119,9 +119,16 @@
       "title": "PR merged #357",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-08-29T16:04:44Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to fix/runtime-secret-key-ssm-injection",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-29T15:26:47Z"
     }
   ],
-  "generated_at": "2026-08-30T08:55:17+09:00",
+  "generated_at": "2026-08-30T09:00:52+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
