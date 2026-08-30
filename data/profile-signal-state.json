@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-08-30T11:43:44Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-08-30T12:49:50Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,9 +17,9 @@
   "activity_total": 110,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 253,
-    "events": 173,
-    "last_activity_at": "2026-08-30T11:43:44Z",
+    "score": 257,
+    "events": 174,
+    "last_activity_at": "2026-08-30T12:49:50Z",
     "share": 73,
     "stack": [
       "TypeScript",
@@ -155,6 +155,20 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #101",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T12:49:50Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to feat/ai-followup-persona",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-30T12:47:09Z"
+    },
+    {
       "label": "ISSUE",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "Closed issue #71",
@@ -167,23 +181,9 @@
       "title": "PR merged #100",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T11:39:39Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #100",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T11:30:50Z"
-    },
-    {
-      "label": "CREATE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Created branch feat/console-login-consistency-phase-d12",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T11:28:30Z"
     }
   ],
-  "generated_at": "2026-08-30T21:45:24+09:00",
+  "generated_at": "2026-08-30T21:50:25+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
