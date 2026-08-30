@@ -85,7 +85,7 @@
       "score": 14,
       "events": 12,
       "last_activity_at": "2026-08-29T16:04:45Z",
-      "share": 82,
+      "share": 52,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -106,26 +106,26 @@
     },
     {
       "repo": "ivRooom/ivrm-dashboard",
-      "score": 3,
-      "events": 3,
-      "last_activity_at": "2026-08-30T00:08:17Z",
-      "share": 18,
+      "score": 13,
+      "events": 13,
+      "last_activity_at": "2026-08-30T00:25:05Z",
+      "share": 48,
       "ci": {
-        "label": "PASSING",
-        "symbol": "●",
+        "label": "MIXED",
+        "symbol": "◐",
         "window_days": 7,
         "total_runs": 10,
         "evaluated": 10,
-        "passed": 10,
-        "failed": 0,
+        "passed": 8,
+        "failed": 2,
         "ignored": 0,
-        "pass_rate": 100,
+        "pass_rate": 80,
         "latest_conclusion": "success"
       },
       "health": {
-        "label": "HEALTHY",
-        "symbol": "●",
-        "reason": "active with passing recent CI"
+        "label": "WATCH",
+        "symbol": "◐",
+        "reason": "recent CI is mixed"
       }
     }
   ],
@@ -159,16 +159,16 @@
       "at": "2026-08-29T15:26:47Z"
     }
   ],
-  "generated_at": "2026-08-30T09:40:24+09:00",
+  "generated_at": "2026-08-30T09:42:30+09:00",
   "ci_signal": {
-    "label": "PASSING",
-    "symbol": "●",
+    "label": "MIXED",
+    "symbol": "◐",
     "window_days": 7,
     "evaluated": 19,
-    "passed": 19,
-    "failed": 0,
+    "passed": 17,
+    "failed": 2,
     "ignored": 1,
-    "pass_rate": 100,
+    "pass_rate": 89,
     "repos_with_signal": 2
   },
   "dev_recap": {
