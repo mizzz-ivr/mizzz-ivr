@@ -17,10 +17,10 @@
   "activity_total": 110,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 271,
-    "events": 185,
+    "score": 272,
+    "events": 186,
     "last_activity_at": "2026-08-30T13:03:40Z",
-    "share": 74,
+    "share": 75,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -183,7 +183,7 @@
       "at": "2026-08-30T12:56:17Z"
     }
   ],
-  "generated_at": "2026-08-30T22:25:26+09:00",
+  "generated_at": "2026-08-30T22:30:30+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
