@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T02:04:22Z"
+    "last_activity_at": "2026-08-30T02:06:26Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,9 +17,9 @@
   "activity_total": 2,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 70,
-    "events": 50,
-    "last_activity_at": "2026-08-30T02:04:22Z",
+    "score": 73,
+    "events": 53,
+    "last_activity_at": "2026-08-30T02:06:26Z",
     "share": 80,
     "stack": [
       "TypeScript",
@@ -131,6 +131,20 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T02:05:40Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #80",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T02:05:39Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "Opened PR #80",
@@ -143,23 +157,9 @@
       "title": "1 commit pushed to feat/console-consistency-phase-d1",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
       "at": "2026-08-30T02:02:57Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #79",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T01:58:39Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #79",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T01:52:27Z"
     }
   ],
-  "generated_at": "2026-08-30T11:05:18+09:00",
+  "generated_at": "2026-08-30T11:10:19+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
