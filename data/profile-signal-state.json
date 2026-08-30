@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T07:49:36Z"
+    "last_activity_at": "2026-08-30T07:55:09Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,10 +17,10 @@
   "activity_total": 53,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 157,
-    "events": 106,
-    "last_activity_at": "2026-08-30T07:49:36Z",
-    "share": 75,
+    "score": 163,
+    "events": 109,
+    "last_activity_at": "2026-08-30T07:55:09Z",
+    "share": 76,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -155,6 +155,20 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #92",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T07:55:09Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Created branch feat/console-incidents-consistency-phase-d8",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T07:53:34Z"
+    },
+    {
       "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "1 commit pushed to main",
@@ -167,23 +181,9 @@
       "title": "PR merged #91",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T07:49:35Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #91",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T07:46:10Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to feat/console-history-consistency-phase-d7a",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-30T07:45:48Z"
     }
   ],
-  "generated_at": "2026-08-30T16:50:21+09:00",
+  "generated_at": "2026-08-30T16:55:16+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
