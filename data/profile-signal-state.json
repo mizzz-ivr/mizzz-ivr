@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T15:18:47Z"
+    "last_activity_at": "2026-08-30T15:28:14Z"
   },
   "code_weather": {
     "label": "REST DAY",
@@ -68,8 +68,30 @@
     }
   ],
   "now_building": [],
-  "activity_stream": [],
-  "generated_at": "2026-08-31T00:25:19+09:00",
+  "activity_stream": [
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #105",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T15:28:14Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened issue #106",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/106",
+      "at": "2026-08-30T15:27:42Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #105",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T15:26:32Z"
+    }
+  ],
+  "generated_at": "2026-08-31T00:30:33+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
