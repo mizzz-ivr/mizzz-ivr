@@ -5,26 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 0,
-    "issues_created": 0,
-    "issues_completed": 1
+    "commits": 15,
+    "prs_opened": 5,
+    "issues_created": 5,
+    "issues_completed": 2
   },
   "activity": [
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "Merge pull request #357 from ivRooom/fix/runtime-secret-key-ssm-injection  fix(deploy): Runtime ",
-      "url": "https://github.com/ivRooom/Herta/commit/8ccc41dfca6546bb4c77d6dc2a8729017759cfe2",
-      "at": "2026-08-30T01:04:43.000+09:00"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Console Phase D-1: Operations / SecurityをDesign Systemへ統一する (#80)  Issue #71 Phase D-1としてOperati",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/566c8f115cff5764379df904996494ea45ca9f94",
+      "at": "2026-08-30T11:05:38.000+09:00"
     },
     {
-      "type": "done",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #356 fix(deploy): production deploy時にHERTA_RUNTIME_SECRET_KEYを注入する経路がない",
-      "url": "https://github.com/ivRooom/Herta/issues/356",
-      "at": "2026-08-29T16:04:45Z"
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Console Phase C: Overviewを運用判断中心へ刷新する (#79)  Issue #71 Phase CとしてOverviewをSystem Status / Needs ",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/2d25a085cf43fe1d05cd0bb3cd877975397106da",
+      "at": "2026-08-30T10:58:39.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Console Phase B: Design TokenとShared Componentを導入する (#78)  Issue #71 Phase BとしてSemantic Design T",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/ae608be69c9640a5b939f78932e724ec63c1d83f",
+      "at": "2026-08-30T10:42:59.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Burn Rate ReconcilerのProxy除外をRoute境界へ限定する (#77)  PR #76 merge後に残っていたCodex P2 reviewを修正し、machine ",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/99b87d71cad2a43eeb64bab556866ff6eedefdb5",
+      "at": "2026-08-30T10:30:40.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Merge pull request #76 from ivRooom/fix/reliability-burn-reconcile-proxy  Burn Rate Reconcilerの専",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/632f38450ccae120d387700eb04be6d917982ca4",
+      "at": "2026-08-30T10:06:56.000+09:00"
     }
   ],
-  "generated_at": "2026-08-30T03:09:16+09:00"
+  "generated_at": "2026-08-30T12:09:11+09:00"
 }

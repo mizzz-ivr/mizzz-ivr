@@ -5,7 +5,7 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 78,
+    "commits": 89,
     "prs_opened": 7,
     "issues_created": 9,
     "issues_completed": 3
@@ -14,38 +14,38 @@
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Merge pull request #72 from ivRooom/feat/console-shell-navigation",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/005b9ef06dffdc092c6a851173ed866a3a2ac346",
-      "at": "2026-08-29T22:32:46.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "Merge pull request #355 from ivRooom/docs/354-production-e2e-runbook",
-      "url": "https://github.com/ivRooom/Herta/commit/9179a3879bdfef72dec5b14251a37e96d80e738f",
-      "at": "2026-08-29T22:05:28.000+09:00"
+      "title": "chore: Supabase migration versionをProduction履歴へ合わせる",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/31b814f7b1ca4e5b20fd27fb1548c7b10087a2e2",
+      "at": "2026-08-29T23:00:17.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "fix: Consoleページのmain landmarkを共通化する",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/e2bfba0ee5d9c60a48424547a1be58fe91ff730e",
-      "at": "2026-08-29T22:02:31.000+09:00"
+      "title": "fix: Discord OAuth callbackを試行単位で消費する",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/8813910e9e7f941cd5edf012f318469fd7296607",
+      "at": "2026-08-29T22:56:13.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "fix: 共通Shellにmain landmarkを復元する",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/0c4c415eb93cf4d6519e2738c3fdb9dbc014e7ad",
-      "at": "2026-08-29T22:02:11.000+09:00"
+      "title": "fix: Discord OAuth startを独立Cookie化する",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/38e43be681465b85f801621039622b3b8bd8fd9b",
+      "at": "2026-08-29T22:55:56.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "fix: Navigation遷移でrangeを引き継ぐ",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/8dd07a760576d8a277a16201422b9c5105938d29",
-      "at": "2026-08-29T22:01:50.000+09:00"
+      "title": "fix: Discord OAuth試行ごとにCookieを分離する",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/f25070e7b6e07a8f90d20d0a90c8d58e624395e6",
+      "at": "2026-08-29T22:55:45.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "fix: Discord Provider errorを監査画面に表示する",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/c228b7d42160ed95afbe57ab09dc7563c513b3f9",
+      "at": "2026-08-29T22:52:53.000+09:00"
     }
   ],
-  "generated_at": "2026-08-29T23:32:54+09:00"
+  "generated_at": "2026-08-30T12:09:11+09:00"
 }
