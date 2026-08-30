@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 15,
-    "prs_opened": 5,
+    "commits": 36,
+    "prs_opened": 10,
     "issues_created": 5,
     "issues_completed": 2
   },
@@ -14,38 +14,38 @@
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Console Phase D-1: Operations / SecurityをDesign Systemへ統一する (#80)  Issue #71 Phase D-1としてOperati",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/566c8f115cff5764379df904996494ea45ca9f94",
-      "at": "2026-08-30T11:05:38.000+09:00"
+      "title": "Console Phase D-3a: Containers一覧をDesign Systemへ統一する (#86)  Issue #71 Phase D-3aとしてContainers一覧をS",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/3b7444c2597b5719f2c7bcc6496214a70dff7ccf",
+      "at": "2026-08-30T12:44:39.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Console Phase C: Overviewを運用判断中心へ刷新する (#79)  Issue #71 Phase CとしてOverviewをSystem Status / Needs ",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/2d25a085cf43fe1d05cd0bb3cd877975397106da",
-      "at": "2026-08-30T10:58:39.000+09:00"
+      "title": "Console Phase D-2: Minecraft画面をDesign Systemへ統一する (#85)  Issue #71 Phase D-2としてMinecraft画面のPrese",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/9ac4b07a4bf9df2f0aa4b5c635dd24c97af74f30",
+      "at": "2026-08-30T12:39:53.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Console Phase B: Design TokenとShared Componentを導入する (#78)  Issue #71 Phase BとしてSemantic Design T",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/ae608be69c9640a5b939f78932e724ec63c1d83f",
-      "at": "2026-08-30T10:42:59.000+09:00"
+      "title": "Merge pull request #84 from ivRooom/feat/status-public-feed-endpoint  公開Status Feed APIを追加",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/7ad90a7f733cae7ca5ad1c084c7596af8b280150",
+      "at": "2026-08-30T12:36:58.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Burn Rate ReconcilerのProxy除外をRoute境界へ限定する (#77)  PR #76 merge後に残っていたCodex P2 reviewを修正し、machine ",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/99b87d71cad2a43eeb64bab556866ff6eedefdb5",
-      "at": "2026-08-30T10:30:40.000+09:00"
+      "title": "公開Status Feedを認証Proxy対象外にする",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/708abcda48f838f5923a84ccec8be30e362b7766",
+      "at": "2026-08-30T12:29:58.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Merge pull request #76 from ivRooom/fix/reliability-burn-reconcile-proxy  Burn Rate Reconcilerの専",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/632f38450ccae120d387700eb04be6d917982ca4",
-      "at": "2026-08-30T10:06:56.000+09:00"
+      "title": "公開Status Feed APIを追加",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/956bfc008f1f1f596c279b7b547b66006b62f0eb",
+      "at": "2026-08-30T12:29:34.000+09:00"
     }
   ],
-  "generated_at": "2026-08-30T12:09:11+09:00"
+  "generated_at": "2026-08-30T14:31:25+09:00"
 }
