@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T07:13:47Z"
+    "last_activity_at": "2026-08-30T07:18:49Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -20,7 +20,7 @@
     "score": 141,
     "events": 96,
     "last_activity_at": "2026-08-30T07:11:42Z",
-    "share": 77,
+    "share": 76,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -159,6 +159,13 @@
       "repo": "ivRooom/ivrm-status",
       "title": "1 commit pushed to feat/status-portal-ui",
       "url": "https://github.com/ivRooom/ivrm-status/commits",
+      "at": "2026-08-30T07:18:49Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-status",
+      "title": "1 commit pushed to feat/status-portal-ui",
+      "url": "https://github.com/ivRooom/ivrm-status/commits",
       "at": "2026-08-30T07:13:47Z"
     },
     {
@@ -174,16 +181,9 @@
       "title": "Opened PR #89",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T07:11:42Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #88",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T07:07:46Z"
     }
   ],
-  "generated_at": "2026-08-30T16:15:20+09:00",
+  "generated_at": "2026-08-30T16:20:20+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
