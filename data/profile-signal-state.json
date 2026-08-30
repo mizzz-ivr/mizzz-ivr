@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-08-30T03:45:51Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-08-30T06:54:07Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,10 +17,10 @@
   "activity_total": 53,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 123,
-    "events": 87,
-    "last_activity_at": "2026-08-30T03:45:51Z",
-    "share": 79,
+    "score": 127,
+    "events": 88,
+    "last_activity_at": "2026-08-30T06:54:07Z",
+    "share": 76,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -155,35 +155,35 @@
   ],
   "activity_stream": [
     {
-      "label": "PUSH",
+      "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to main",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-30T03:44:40Z"
+      "title": "Opened PR #87",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T06:54:07Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/ivrm-status",
+      "title": "Closed issue #28",
+      "url": "https://github.com/ivRooom/ivrm-status/issues/28",
+      "at": "2026-08-30T06:54:07Z"
     },
     {
       "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #86",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T03:44:39Z"
+      "repo": "ivRooom/ivrm-status",
+      "title": "PR merged #30",
+      "url": "https://github.com/ivRooom/ivrm-status",
+      "at": "2026-08-30T06:54:05Z"
     },
     {
       "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #86",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T03:43:28Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #85",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T03:39:53Z"
+      "repo": "ivRooom/ivrm-status",
+      "title": "Opened PR #30",
+      "url": "https://github.com/ivRooom/ivrm-status",
+      "at": "2026-08-30T06:51:32Z"
     }
   ],
-  "generated_at": "2026-08-30T15:50:24+09:00",
+  "generated_at": "2026-08-30T15:55:16+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
