@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "OFFLINE",
-    "symbol": "○",
-    "last_activity_at": "2026-08-29T16:04:45Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-08-30T00:08:17Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -20,7 +20,7 @@
     "score": 14,
     "events": 12,
     "last_activity_at": "2026-08-29T16:04:45Z",
-    "share": 100,
+    "share": 82,
     "stack": [
       "TypeScript",
       "Shell",
@@ -82,10 +82,10 @@
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 13,
-      "events": 11,
+      "score": 14,
+      "events": 12,
       "last_activity_at": "2026-08-29T16:04:45Z",
-      "share": 100,
+      "share": 82,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -103,9 +103,40 @@
         "symbol": "●",
         "reason": "active with passing recent CI"
       }
+    },
+    {
+      "repo": "ivRooom/ivrm-dashboard",
+      "score": 3,
+      "events": 3,
+      "last_activity_at": "2026-08-30T00:08:17Z",
+      "share": 18,
+      "ci": {
+        "label": "PASSING",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 10,
+        "passed": 10,
+        "failed": 0,
+        "ignored": 0,
+        "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
     }
   ],
   "activity_stream": [
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to fix/discord-oauth-retry-diagnostics",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T00:08:09Z"
+    },
     {
       "label": "ISSUE",
       "repo": "ivRooom/Herta",
@@ -128,17 +159,17 @@
       "at": "2026-08-29T15:26:47Z"
     }
   ],
-  "generated_at": "2026-08-30T09:05:20+09:00",
+  "generated_at": "2026-08-30T09:09:13+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
     "window_days": 7,
-    "evaluated": 9,
-    "passed": 9,
+    "evaluated": 19,
+    "passed": 19,
     "failed": 0,
     "ignored": 1,
     "pass_rate": 100,
-    "repos_with_signal": 1
+    "repos_with_signal": 2
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",

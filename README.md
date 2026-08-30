@@ -26,7 +26,7 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>○ OFFLINE</strong><br/><sub>last public activity · 01:04 JST</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 09:08 JST</sub></td>
     <td width="34%" align="center"><strong>☁️ LIGHT CODING</strong><br/><sub>2 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 6 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
@@ -53,7 +53,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>weighted activity 100% · score 14 · 12 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>weighted activity 82% · score 14 · 12 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>Shell</code> <code>Dockerfile</code> <code>CSS</code></td>
   </tr>
 </table>
@@ -72,8 +72,8 @@
   <tr>
     <td width="25%" align="center"><strong>PASSING</strong><br/><sub>CI SIGNAL</sub></td>
     <td width="25%" align="center"><strong>100%</strong><br/><sub>PASS RATE</sub></td>
-    <td width="25%" align="center"><strong>9 / 9</strong><br/><sub>PASSED / EVALUATED</sub></td>
-    <td width="25%" align="center"><strong>1</strong><br/><sub>REPOS WITH CI</sub></td>
+    <td width="25%" align="center"><strong>19 / 19</strong><br/><sub>PASSED / EVALUATED</sub></td>
+    <td width="25%" align="center"><strong>2</strong><br/><sub>REPOS WITH CI</sub></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:PULSE:END -->
@@ -81,7 +81,7 @@
 <!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
 ## NOW BUILDING // Active repositories
 
-<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>100% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 01:04 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
+<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>82% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 01:04 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>18% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 09:08 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
 <!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
 
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->
@@ -89,6 +89,7 @@
 
 <table width="100%">
   <tbody>
+    <tr><td width="10%"><code>09:08</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong> — <a href="https://github.com/ivRooom/ivrm-dashboard/commits">fix/discord-oauth-retry-diagnosticsへ1コミットをPush</a></td></tr>
     <tr><td width="10%"><code>01:04</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/issues/356">Issue #356を完了</a></td></tr>
     <tr><td width="10%"><code>01:04</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">PR #357をマージ</a></td></tr>
     <tr><td width="10%"><code>00:26</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">fix/runtime-secret-key-ssm-injectionへ1コミットをPush</a></td></tr>
