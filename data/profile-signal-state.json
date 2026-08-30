@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T03:39:53Z"
+    "last_activity_at": "2026-08-30T03:44:39Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -17,10 +17,10 @@
   "activity_total": 27,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 101,
-    "events": 68,
-    "last_activity_at": "2026-08-30T03:39:53Z",
-    "share": 79,
+    "score": 108,
+    "events": 72,
+    "last_activity_at": "2026-08-30T03:44:39Z",
+    "share": 80,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -157,6 +157,20 @@
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #86",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T03:44:39Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #86",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T03:43:28Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
       "title": "PR merged #85",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T03:39:53Z"
@@ -167,23 +181,9 @@
       "title": "Opened PR #85",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T03:38:36Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to feat/console-minecraft-consistency-phase-d2",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-30T03:38:04Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #84",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T03:36:58Z"
     }
   ],
-  "generated_at": "2026-08-30T12:40:21+09:00",
+  "generated_at": "2026-08-30T12:45:23+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
