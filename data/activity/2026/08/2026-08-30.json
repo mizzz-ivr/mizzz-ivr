@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 36,
-    "prs_opened": 10,
+    "commits": 54,
+    "prs_opened": 18,
     "issues_created": 5,
-    "issues_completed": 2
+    "issues_completed": 3
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Console Phase D-3a: Containers一覧をDesign Systemへ統一する (#86)  Issue #71 Phase D-3aとしてContainers一覧をS",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/3b7444c2597b5719f2c7bcc6496214a70dff7ccf",
-      "at": "2026-08-30T12:44:39.000+09:00"
+      "title": "Console Phase D-7a: History基礎UIをDesign Systemへ統一する (#91)  Issue #71 Phase D-7aとしてHistoryのHeader/",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/9f60a0e9339a63b14ebfa4d8cad187f44bf31258",
+      "at": "2026-08-30T16:49:35.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Console Phase D-2: Minecraft画面をDesign Systemへ統一する (#85)  Issue #71 Phase D-2としてMinecraft画面のPrese",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/9ac4b07a4bf9df2f0aa4b5c635dd24c97af74f30",
-      "at": "2026-08-30T12:39:53.000+09:00"
+      "title": "Console Phase D-6: NotificationsをDesign Systemへ統一する (#90)  Issue #71 Phase D-6としてNotificationsのP",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/9ae7fcba665b2c3cf22d580b6ca361d22ecd8ba2",
+      "at": "2026-08-30T16:39:55.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Merge pull request #84 from ivRooom/feat/status-public-feed-endpoint  公開Status Feed APIを追加",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/7ad90a7f733cae7ca5ad1c084c7596af8b280150",
-      "at": "2026-08-30T12:36:58.000+09:00"
+      "title": "Console Phase D-5: Backup CenterをDesign Systemへ統一する (#89)  Issue #71 Phase D-5としてBackup CenterのP",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/86a549226024b983a72ba308510bc643da151939",
+      "at": "2026-08-30T16:31:10.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "公開Status Feedを認証Proxy対象外にする",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/708abcda48f838f5923a84ccec8be30e362b7766",
-      "at": "2026-08-30T12:29:58.000+09:00"
+      "title": "Console Phase D-4: Events画面をDesign Systemへ統一する (#88)  Issue #71 Phase D-4としてEvents画面のHeader/Summ",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/5bbf14039c5881aeeec2b8ff61cc8053de4a9669",
+      "at": "2026-08-30T16:07:45.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "公開Status Feed APIを追加",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/956bfc008f1f1f596c279b7b547b66006b62f0eb",
-      "at": "2026-08-30T12:29:34.000+09:00"
+      "title": "Console Phase D-3b: Container詳細をDesign Systemへ統一する (#87)  Issue #71 Phase D-3bとしてContainer詳細Pres",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/979bc627a54ddbe9b65daed75952521214179cef",
+      "at": "2026-08-30T16:01:22.000+09:00"
     }
   ],
-  "generated_at": "2026-08-30T14:31:25+09:00"
+  "generated_at": "2026-08-30T18:09:22+09:00"
 }
