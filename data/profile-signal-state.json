@@ -17,8 +17,8 @@
   "activity_total": 80,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 243,
-    "events": 163,
+    "score": 244,
+    "events": 164,
     "last_activity_at": "2026-08-30T11:43:44Z",
     "share": 73,
     "stack": [
@@ -183,7 +183,7 @@
       "at": "2026-08-30T11:28:30Z"
     }
   ],
-  "generated_at": "2026-08-30T20:50:20+09:00",
+  "generated_at": "2026-08-30T20:55:17+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
