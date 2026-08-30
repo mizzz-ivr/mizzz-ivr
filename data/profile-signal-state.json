@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T10:44:54Z"
+    "last_activity_at": "2026-08-30T10:47:48Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,9 +17,9 @@
   "activity_total": 80,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 211,
-    "events": 142,
-    "last_activity_at": "2026-08-30T10:44:54Z",
+    "score": 213,
+    "events": 144,
+    "last_activity_at": "2026-08-30T10:47:48Z",
     "share": 79,
     "stack": [
       "TypeScript",
@@ -157,6 +157,13 @@
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #97",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T10:46:40Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
       "title": "Opened PR #97",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T10:44:54Z"
@@ -174,16 +181,9 @@
       "title": "Opened PR #96",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T10:40:17Z"
-    },
-    {
-      "label": "CREATE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Created branch feat/console-security-audit-consistency-phase-d10a",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T10:39:03Z"
     }
   ],
-  "generated_at": "2026-08-30T19:45:23+09:00",
+  "generated_at": "2026-08-30T19:50:21+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
