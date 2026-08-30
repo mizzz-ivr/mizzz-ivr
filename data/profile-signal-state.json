@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T01:25:10Z"
+    "last_activity_at": "2026-08-30T01:29:40Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,10 +17,10 @@
   "activity_total": 2,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 34,
-    "events": 26,
-    "last_activity_at": "2026-08-30T01:10:29Z",
-    "share": 68,
+    "score": 39,
+    "events": 28,
+    "last_activity_at": "2026-08-30T01:29:40Z",
+    "share": 70,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -131,6 +131,20 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #77",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T01:29:40Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Created branch fix/burn-reconcile-proxy-boundary",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T01:29:16Z"
+    },
+    {
       "label": "ISSUE",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "Closed issue #75",
@@ -143,23 +157,9 @@
       "title": "PR merged #76",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T01:06:57Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #76",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T01:02:38Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to fix/reliability-burn-reconcile-proxy",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-30T01:02:25Z"
     }
   ],
-  "generated_at": "2026-08-30T10:25:21+09:00",
+  "generated_at": "2026-08-30T10:30:30+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
