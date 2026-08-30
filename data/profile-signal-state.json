@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T01:52:27Z"
+    "last_activity_at": "2026-08-30T02:00:23Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,10 +17,10 @@
   "activity_total": 2,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 59,
-    "events": 42,
-    "last_activity_at": "2026-08-30T01:52:27Z",
-    "share": 77,
+    "score": 63,
+    "events": 46,
+    "last_activity_at": "2026-08-30T02:00:23Z",
+    "share": 78,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -133,6 +133,13 @@
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #79",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T01:58:39Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
       "title": "Opened PR #79",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T01:52:27Z"
@@ -150,16 +157,9 @@
       "title": "PR merged #78",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T01:42:59Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #78",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T01:34:08Z"
     }
   ],
-  "generated_at": "2026-08-30T10:55:19+09:00",
+  "generated_at": "2026-08-30T11:00:44+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
