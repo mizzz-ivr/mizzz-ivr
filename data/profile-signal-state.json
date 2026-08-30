@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T00:25:05Z"
+    "last_activity_at": "2026-08-30T00:44:28Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -16,16 +16,16 @@
   "streak": 6,
   "activity_total": 2,
   "current_focus": {
-    "repo": "ivRooom/Herta",
+    "repo": "ivRooom/ivrm-dashboard",
     "score": 14,
-    "events": 12,
-    "last_activity_at": "2026-08-29T16:04:45Z",
-    "share": 52,
+    "events": 14,
+    "last_activity_at": "2026-08-30T00:44:28Z",
+    "share": 50,
     "stack": [
       "TypeScript",
-      "Shell",
-      "Dockerfile",
-      "CSS"
+      "PLpgSQL",
+      "CSS",
+      "Python"
     ]
   },
   "dev_pulse": [
@@ -159,7 +159,7 @@
       "at": "2026-08-29T15:26:47Z"
     }
   ],
-  "generated_at": "2026-08-30T09:42:30+09:00",
+  "generated_at": "2026-08-30T09:45:23+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
