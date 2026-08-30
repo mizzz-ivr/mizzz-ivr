@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T15:58:18Z"
+    "last_activity_at": "2026-08-30T16:18:46Z"
   },
   "code_weather": {
     "label": "REST DAY",
@@ -72,12 +72,12 @@
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #105",
+      "title": "Opened PR #107",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T15:28:14Z"
+      "at": "2026-08-30T16:18:46Z"
     }
   ],
-  "generated_at": "2026-08-31T01:15:23+09:00",
+  "generated_at": "2026-08-31T01:20:26+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
