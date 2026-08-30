@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T11:19:00Z"
+    "last_activity_at": "2026-08-30T11:25:03Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,10 +17,10 @@
   "activity_total": 80,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 223,
-    "events": 151,
-    "last_activity_at": "2026-08-30T11:09:09Z",
-    "share": 72,
+    "score": 227,
+    "events": 154,
+    "last_activity_at": "2026-08-30T11:25:03Z",
+    "share": 71,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -156,34 +156,34 @@
   "activity_stream": [
     {
       "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to feat/ai-followup-persona",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-30T11:19:00Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Opened issue #358",
-      "url": "https://github.com/ivRooom/Herta/issues/358",
-      "at": "2026-08-30T11:12:31Z"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to feat/status-center-maintenance-mutations",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T11:25:03Z"
     },
     {
       "label": "PUSH",
-      "repo": "ivRooom/ivrm-status",
-      "title": "1 commit pushed to main",
-      "url": "https://github.com/ivRooom/ivrm-status/commits",
-      "at": "2026-08-30T11:10:37Z"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to feat/status-center-maintenance-mutations",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T11:22:41Z"
     },
     {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-status",
-      "title": "Closed issue #34",
-      "url": "https://github.com/ivRooom/ivrm-status/issues/34",
-      "at": "2026-08-30T11:10:37Z"
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "Opened PR #359",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-08-30T11:22:36Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to feat/ai-followup-persona",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-30T11:21:38Z"
     }
   ],
-  "generated_at": "2026-08-30T20:20:21+09:00",
+  "generated_at": "2026-08-30T20:25:15+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
