@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T03:32:52Z"
+    "last_activity_at": "2026-08-30T03:39:53Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -17,10 +17,10 @@
   "activity_total": 27,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 94,
-    "events": 64,
-    "last_activity_at": "2026-08-30T03:30:07Z",
-    "share": 78,
+    "score": 101,
+    "events": 68,
+    "last_activity_at": "2026-08-30T03:39:53Z",
+    "share": 79,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -155,35 +155,35 @@
   ],
   "activity_stream": [
     {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-status",
-      "title": "1 commit pushed to feat/public-status-content-feed",
-      "url": "https://github.com/ivRooom/ivrm-status/commits",
-      "at": "2026-08-30T03:32:52Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-status",
-      "title": "1 commit pushed to feat/public-status-content-feed",
-      "url": "https://github.com/ivRooom/ivrm-status/commits",
-      "at": "2026-08-30T03:31:44Z"
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #85",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T03:39:53Z"
     },
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #84",
+      "title": "Opened PR #85",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T03:30:07Z"
+      "at": "2026-08-30T03:38:36Z"
     },
     {
       "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to feat/status-public-feed-endpoint",
+      "title": "1 commit pushed to feat/console-minecraft-consistency-phase-d2",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-30T03:29:25Z"
+      "at": "2026-08-30T03:38:04Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #84",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T03:36:58Z"
     }
   ],
-  "generated_at": "2026-08-30T12:35:27+09:00",
+  "generated_at": "2026-08-30T12:40:21+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
