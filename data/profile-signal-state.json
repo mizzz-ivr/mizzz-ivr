@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T01:29:40Z"
+    "last_activity_at": "2026-08-30T01:34:24Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,10 +17,10 @@
   "activity_total": 2,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 39,
-    "events": 28,
-    "last_activity_at": "2026-08-30T01:29:40Z",
-    "share": 70,
+    "score": 50,
+    "events": 36,
+    "last_activity_at": "2026-08-30T01:34:24Z",
+    "share": 75,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -133,33 +133,33 @@
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #77",
+      "title": "Opened PR #78",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T01:29:40Z"
+      "at": "2026-08-30T01:34:08Z"
     },
     {
-      "label": "CREATE",
+      "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Created branch fix/burn-reconcile-proxy-boundary",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T01:29:16Z"
+      "title": "1 commit pushed to feat/console-design-system-phase-b",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T01:33:56Z"
     },
     {
-      "label": "ISSUE",
+      "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Closed issue #75",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/75",
-      "at": "2026-08-30T01:06:58Z"
+      "title": "1 commit pushed to feat/console-design-system-phase-b",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T01:33:25Z"
     },
     {
-      "label": "PR",
+      "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #76",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T01:06:57Z"
+      "title": "1 commit pushed to feat/console-design-system-phase-b",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T01:33:05Z"
     }
   ],
-  "generated_at": "2026-08-30T10:30:30+09:00",
+  "generated_at": "2026-08-30T10:35:22+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
