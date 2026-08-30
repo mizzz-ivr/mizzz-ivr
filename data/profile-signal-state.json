@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T07:02:49Z"
+    "last_activity_at": "2026-08-30T07:09:06Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,10 +17,10 @@
   "activity_total": 53,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 131,
-    "events": 92,
-    "last_activity_at": "2026-08-30T07:02:49Z",
-    "share": 76,
+    "score": 137,
+    "events": 95,
+    "last_activity_at": "2026-08-30T07:09:06Z",
+    "share": 77,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -157,6 +157,20 @@
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #88",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T07:07:46Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #88",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T07:05:25Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
       "title": "PR merged #87",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T07:01:23Z"
@@ -167,23 +181,9 @@
       "title": "Opened PR #87",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T06:54:07Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-status",
-      "title": "Closed issue #28",
-      "url": "https://github.com/ivRooom/ivrm-status/issues/28",
-      "at": "2026-08-30T06:54:07Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-status",
-      "title": "PR merged #30",
-      "url": "https://github.com/ivRooom/ivrm-status",
-      "at": "2026-08-30T06:54:05Z"
     }
   ],
-  "generated_at": "2026-08-30T16:05:19+09:00",
+  "generated_at": "2026-08-30T16:10:18+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
