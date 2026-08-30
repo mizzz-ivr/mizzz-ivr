@@ -17,8 +17,8 @@
   "activity_total": 53,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 122,
-    "events": 86,
+    "score": 123,
+    "events": 87,
     "last_activity_at": "2026-08-30T03:45:51Z",
     "share": 79,
     "stack": [
@@ -155,6 +155,13 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T03:44:40Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "PR merged #86",
@@ -174,16 +181,9 @@
       "title": "PR merged #85",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T03:39:53Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #85",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T03:38:36Z"
     }
   ],
-  "generated_at": "2026-08-30T15:35:25+09:00",
+  "generated_at": "2026-08-30T15:40:24+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
