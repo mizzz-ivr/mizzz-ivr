@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T11:04:38Z"
+    "last_activity_at": "2026-08-30T11:09:58Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,10 +17,10 @@
   "activity_total": 80,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 220,
-    "events": 148,
-    "last_activity_at": "2026-08-30T11:04:38Z",
-    "share": 78,
+    "score": 223,
+    "events": 151,
+    "last_activity_at": "2026-08-30T11:09:09Z",
+    "share": 74,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -155,35 +155,35 @@
   ],
   "activity_stream": [
     {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to main",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-30T11:04:38Z"
-    },
-    {
       "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #98",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T11:04:37Z"
+      "repo": "ivRooom/ivrm-status",
+      "title": "Opened PR #35",
+      "url": "https://github.com/ivRooom/ivrm-status",
+      "at": "2026-08-30T11:09:58Z"
     },
     {
       "label": "ISSUE",
       "repo": "ivRooom/ivrm-status",
-      "title": "Closed issue #29",
-      "url": "https://github.com/ivRooom/ivrm-status/issues/29",
-      "at": "2026-08-30T11:04:15Z"
+      "title": "Opened issue #34",
+      "url": "https://github.com/ivRooom/ivrm-status/issues/34",
+      "at": "2026-08-30T11:09:13Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/ivrm-status",
+      "title": "Closed issue #32",
+      "url": "https://github.com/ivRooom/ivrm-status/issues/32",
+      "at": "2026-08-30T11:07:26Z"
     },
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-status",
-      "title": "PR merged #31",
+      "title": "PR merged #33",
       "url": "https://github.com/ivRooom/ivrm-status",
-      "at": "2026-08-30T11:04:13Z"
+      "at": "2026-08-30T11:07:25Z"
     }
   ],
-  "generated_at": "2026-08-30T20:05:22+09:00",
+  "generated_at": "2026-08-30T20:10:20+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
