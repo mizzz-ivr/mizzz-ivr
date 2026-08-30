@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T15:37:24Z"
+    "last_activity_at": "2026-08-30T15:58:18Z"
   },
   "code_weather": {
     "label": "REST DAY",
@@ -75,16 +75,9 @@
       "title": "PR merged #105",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T15:28:14Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened issue #106",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/106",
-      "at": "2026-08-30T15:27:42Z"
     }
   ],
-  "generated_at": "2026-08-31T00:55:23+09:00",
+  "generated_at": "2026-08-31T01:00:45+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
