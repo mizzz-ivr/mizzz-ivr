@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T10:24:15Z"
+    "last_activity_at": "2026-08-30T10:29:08Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,9 +17,9 @@
   "activity_total": 80,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 187,
-    "events": 130,
-    "last_activity_at": "2026-08-30T10:24:15Z",
+    "score": 194,
+    "events": 134,
+    "last_activity_at": "2026-08-30T10:29:08Z",
     "share": 77,
     "stack": [
       "TypeScript",
@@ -155,35 +155,35 @@
   ],
   "activity_stream": [
     {
-      "label": "CREATE",
+      "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Created branch feat/console-capacity-consistency-phase-d9b",
+      "title": "PR merged #94",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T10:24:15Z"
+      "at": "2026-08-30T10:27:59Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #94",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T10:26:29Z"
     },
     {
       "label": "PUSH",
       "repo": "ivRooom/ivrm-status",
       "title": "1 commit pushed to feat/status-portal-ui",
       "url": "https://github.com/ivRooom/ivrm-status/commits",
-      "at": "2026-08-30T10:22:40Z"
+      "at": "2026-08-30T10:26:15Z"
     },
     {
       "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to main",
+      "title": "1 commit pushed to feat/console-capacity-consistency-phase-d9b",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-30T10:13:03Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #93",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T10:13:02Z"
+      "at": "2026-08-30T10:26:10Z"
     }
   ],
-  "generated_at": "2026-08-30T19:25:20+09:00",
+  "generated_at": "2026-08-30T19:30:27+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
