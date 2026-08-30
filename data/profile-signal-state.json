@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T01:34:24Z"
+    "last_activity_at": "2026-08-30T01:44:59Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,9 +17,9 @@
   "activity_total": 2,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 50,
-    "events": 36,
-    "last_activity_at": "2026-08-30T01:34:24Z",
+    "score": 53,
+    "events": 39,
+    "last_activity_at": "2026-08-30T01:44:59Z",
     "share": 75,
     "stack": [
       "TypeScript",
@@ -133,6 +133,13 @@
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #78",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T01:42:59Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
       "title": "Opened PR #78",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T01:34:08Z"
@@ -150,16 +157,9 @@
       "title": "1 commit pushed to feat/console-design-system-phase-b",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
       "at": "2026-08-30T01:33:25Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to feat/console-design-system-phase-b",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-30T01:33:05Z"
     }
   ],
-  "generated_at": "2026-08-30T10:35:22+09:00",
+  "generated_at": "2026-08-30T10:45:26+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
