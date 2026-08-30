@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T00:44:28Z"
+    "last_activity_at": "2026-08-30T00:52:12Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,10 +17,10 @@
   "activity_total": 2,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 14,
-    "events": 14,
-    "last_activity_at": "2026-08-30T00:44:28Z",
-    "share": 50,
+    "score": 18,
+    "events": 16,
+    "last_activity_at": "2026-08-30T00:52:12Z",
+    "share": 55,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -131,6 +131,20 @@
   ],
   "activity_stream": [
     {
+      "label": "ISSUE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Closed issue #73",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/73",
+      "at": "2026-08-30T00:52:12Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #74",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T00:52:10Z"
+    },
+    {
       "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "1 commit pushed to fix/discord-oauth-retry-diagnostics",
@@ -143,23 +157,9 @@
       "title": "Closed issue #356",
       "url": "https://github.com/ivRooom/Herta/issues/356",
       "at": "2026-08-29T16:04:45Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR merged #357",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-08-29T16:04:44Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to fix/runtime-secret-key-ssm-injection",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-29T15:26:47Z"
     }
   ],
-  "generated_at": "2026-08-30T09:50:24+09:00",
+  "generated_at": "2026-08-30T09:55:20+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
