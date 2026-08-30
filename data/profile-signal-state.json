@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T11:39:39Z"
+    "last_activity_at": "2026-08-30T11:43:44Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,10 +17,10 @@
   "activity_total": 80,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 238,
-    "events": 160,
-    "last_activity_at": "2026-08-30T11:39:39Z",
-    "share": 72,
+    "score": 243,
+    "events": 163,
+    "last_activity_at": "2026-08-30T11:43:44Z",
+    "share": 73,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -155,6 +155,13 @@
   ],
   "activity_stream": [
     {
+      "label": "ISSUE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Closed issue #71",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/71",
+      "at": "2026-08-30T11:43:44Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "PR merged #100",
@@ -174,16 +181,9 @@
       "title": "Created branch feat/console-login-consistency-phase-d12",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T11:28:30Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Closed issue #73",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/73",
-      "at": "2026-08-30T11:26:09Z"
     }
   ],
-  "generated_at": "2026-08-30T20:40:19+09:00",
+  "generated_at": "2026-08-30T20:45:25+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
