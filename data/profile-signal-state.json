@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T10:03:48Z"
+    "last_activity_at": "2026-08-30T10:07:58Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,9 +17,9 @@
   "activity_total": 80,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 177,
-    "events": 123,
-    "last_activity_at": "2026-08-30T10:03:48Z",
+    "score": 181,
+    "events": 124,
+    "last_activity_at": "2026-08-30T10:07:58Z",
     "share": 77,
     "stack": [
       "TypeScript",
@@ -155,6 +155,20 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #93",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T10:07:58Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-status",
+      "title": "1 commit pushed to feat/status-portal-ui",
+      "url": "https://github.com/ivRooom/ivrm-status/commits",
+      "at": "2026-08-30T10:07:15Z"
+    },
+    {
       "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "1 commit pushed to main",
@@ -167,23 +181,9 @@
       "title": "PR merged #92",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T10:02:46Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #92",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T07:55:09Z"
-    },
-    {
-      "label": "CREATE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Created branch feat/console-incidents-consistency-phase-d8",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T07:53:34Z"
     }
   ],
-  "generated_at": "2026-08-30T19:05:18+09:00",
+  "generated_at": "2026-08-30T19:10:21+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
