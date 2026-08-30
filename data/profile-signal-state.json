@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T07:32:25Z"
+    "last_activity_at": "2026-08-30T07:39:55Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,10 +17,10 @@
   "activity_total": 53,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 143,
-    "events": 98,
-    "last_activity_at": "2026-08-30T07:32:25Z",
-    "share": 73,
+    "score": 149,
+    "events": 101,
+    "last_activity_at": "2026-08-30T07:39:55Z",
+    "share": 74,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -157,6 +157,20 @@
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #90",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T07:39:55Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #90",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T07:36:09Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
       "title": "PR merged #89",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T07:31:11Z"
@@ -167,23 +181,9 @@
       "title": "1 commit pushed to feat/status-portal-ui",
       "url": "https://github.com/ivRooom/ivrm-status/commits",
       "at": "2026-08-30T07:28:33Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-status",
-      "title": "Opened PR #31",
-      "url": "https://github.com/ivRooom/ivrm-status",
-      "at": "2026-08-30T07:23:40Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-status",
-      "title": "1 commit pushed to feat/status-portal-ui",
-      "url": "https://github.com/ivRooom/ivrm-status/commits",
-      "at": "2026-08-30T07:22:51Z"
     }
   ],
-  "generated_at": "2026-08-30T16:35:16+09:00",
+  "generated_at": "2026-08-30T16:40:18+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
