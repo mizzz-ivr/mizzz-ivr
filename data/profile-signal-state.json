@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T03:18:07Z"
+    "last_activity_at": "2026-08-30T03:23:59Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -17,10 +17,10 @@
   "activity_total": 27,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 81,
-    "events": 57,
-    "last_activity_at": "2026-08-30T03:18:07Z",
-    "share": 77,
+    "score": 83,
+    "events": 59,
+    "last_activity_at": "2026-08-30T03:23:59Z",
+    "share": 78,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -155,6 +155,20 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to feat/status-center-incident-mutations",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T03:23:59Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #82",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T03:20:57Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "Opened PR #82",
@@ -167,23 +181,9 @@
       "title": "1 commit pushed to feat/status-center-foundation",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
       "at": "2026-08-30T03:17:40Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to feat/status-center-foundation",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-30T03:16:54Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened issue #81",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/81",
-      "at": "2026-08-30T02:31:37Z"
     }
   ],
-  "generated_at": "2026-08-30T12:20:20+09:00",
+  "generated_at": "2026-08-30T12:25:22+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
