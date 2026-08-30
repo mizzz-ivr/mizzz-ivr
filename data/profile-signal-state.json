@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T10:34:46Z"
+    "last_activity_at": "2026-08-30T10:40:17Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,9 +17,9 @@
   "activity_total": 80,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 199,
-    "events": 136,
-    "last_activity_at": "2026-08-30T10:34:46Z",
+    "score": 205,
+    "events": 139,
+    "last_activity_at": "2026-08-30T10:40:17Z",
     "share": 78,
     "stack": [
       "TypeScript",
@@ -157,6 +157,20 @@
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #96",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T10:40:17Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Created branch feat/console-security-audit-consistency-phase-d10a",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T10:39:03Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
       "title": "PR merged #95",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T10:34:46Z"
@@ -167,23 +181,9 @@
       "title": "Opened PR #95",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T10:33:11Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #94",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T10:27:59Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #94",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T10:26:29Z"
     }
   ],
-  "generated_at": "2026-08-30T19:35:16+09:00",
+  "generated_at": "2026-08-30T19:40:21+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
