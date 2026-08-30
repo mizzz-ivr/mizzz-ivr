@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T11:30:50Z"
+    "last_activity_at": "2026-08-30T11:39:39Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,9 +17,9 @@
   "activity_total": 80,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 237,
-    "events": 159,
-    "last_activity_at": "2026-08-30T11:30:50Z",
+    "score": 238,
+    "events": 160,
+    "last_activity_at": "2026-08-30T11:39:39Z",
     "share": 72,
     "stack": [
       "TypeScript",
@@ -157,6 +157,13 @@
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #100",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T11:39:39Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
       "title": "Opened PR #100",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T11:30:50Z"
@@ -174,16 +181,9 @@
       "title": "Closed issue #73",
       "url": "https://github.com/ivRooom/ivrm-dashboard/issues/73",
       "at": "2026-08-30T11:26:09Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to feat/status-center-maintenance-mutations",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-30T11:25:03Z"
     }
   ],
-  "generated_at": "2026-08-30T20:35:17+09:00",
+  "generated_at": "2026-08-30T20:40:19+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
