@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-08-30T07:55:09Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-08-30T10:03:48Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,10 +17,10 @@
   "activity_total": 80,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 170,
-    "events": 116,
-    "last_activity_at": "2026-08-30T07:55:09Z",
-    "share": 76,
+    "score": 177,
+    "events": 123,
+    "last_activity_at": "2026-08-30T10:03:48Z",
+    "share": 77,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -155,6 +155,20 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T10:02:47Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #92",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T10:02:46Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "Opened PR #92",
@@ -167,23 +181,9 @@
       "title": "Created branch feat/console-incidents-consistency-phase-d8",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T07:53:34Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to main",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-30T07:49:36Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #91",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T07:49:35Z"
     }
   ],
-  "generated_at": "2026-08-30T19:00:38+09:00",
+  "generated_at": "2026-08-30T19:05:18+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
