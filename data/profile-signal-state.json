@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T03:30:07Z"
+    "last_activity_at": "2026-08-30T03:32:52Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -20,7 +20,7 @@
     "score": 94,
     "events": 64,
     "last_activity_at": "2026-08-30T03:30:07Z",
-    "share": 80,
+    "share": 78,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -155,6 +155,20 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-status",
+      "title": "1 commit pushed to feat/public-status-content-feed",
+      "url": "https://github.com/ivRooom/ivrm-status/commits",
+      "at": "2026-08-30T03:32:52Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-status",
+      "title": "1 commit pushed to feat/public-status-content-feed",
+      "url": "https://github.com/ivRooom/ivrm-status/commits",
+      "at": "2026-08-30T03:31:44Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "Opened PR #84",
@@ -167,23 +181,9 @@
       "title": "1 commit pushed to feat/status-public-feed-endpoint",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
       "at": "2026-08-30T03:29:25Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #83",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T03:27:58Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #83",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T03:27:02Z"
     }
   ],
-  "generated_at": "2026-08-30T12:30:34+09:00",
+  "generated_at": "2026-08-30T12:35:27+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
