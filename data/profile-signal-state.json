@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T13:48:43Z"
+    "last_activity_at": "2026-08-30T14:29:31Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,9 +17,9 @@
   "activity_total": 110,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 287,
-    "events": 198,
-    "last_activity_at": "2026-08-30T13:48:43Z",
+    "score": 294,
+    "events": 202,
+    "last_activity_at": "2026-08-30T14:29:31Z",
     "share": 74,
     "stack": [
       "TypeScript",
@@ -157,6 +157,20 @@
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #104",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T14:29:31Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #103",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T14:28:02Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
       "title": "Opened PR #103",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T13:48:23Z"
@@ -167,23 +181,9 @@
       "title": "1 commit pushed to feat/read-only-log-viewer-refresh",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
       "at": "2026-08-30T13:46:10Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to feat/read-only-log-viewer-refresh",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-30T13:44:57Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to feat/read-only-log-viewer-refresh",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-30T13:37:00Z"
     }
   ],
-  "generated_at": "2026-08-30T23:25:22+09:00",
+  "generated_at": "2026-08-30T23:30:27+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
