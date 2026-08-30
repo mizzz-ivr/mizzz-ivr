@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T13:03:40Z"
+    "last_activity_at": "2026-08-30T13:33:05Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,9 +17,9 @@
   "activity_total": 110,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 272,
-    "events": 186,
-    "last_activity_at": "2026-08-30T13:03:40Z",
+    "score": 275,
+    "events": 189,
+    "last_activity_at": "2026-08-30T13:32:31Z",
     "share": 75,
     "stack": [
       "TypeScript",
@@ -157,6 +157,20 @@
     {
       "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to feat/read-only-log-viewer-refresh",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T13:32:31Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to feat/read-only-log-viewer-refresh",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T13:31:08Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
       "title": "1 commit pushed to feat/status-center-announcement-mutations",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
       "at": "2026-08-30T13:03:40Z"
@@ -167,23 +181,9 @@
       "title": "Opened issue #102",
       "url": "https://github.com/ivRooom/ivrm-dashboard/issues/102",
       "at": "2026-08-30T13:01:43Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Closed issue #99",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/99",
-      "at": "2026-08-30T12:56:19Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #101",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T12:56:17Z"
     }
   ],
-  "generated_at": "2026-08-30T22:30:30+09:00",
+  "generated_at": "2026-08-30T22:35:20+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
