@@ -26,7 +26,7 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 23:29 JST</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 23:34 JST</sub></td>
     <td width="34%" align="center"><strong>🌩️ STORM</strong><br/><sub>110 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 6 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
@@ -53,7 +53,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>weighted activity 74% · score 294 · 202 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>weighted activity 74% · score 292 · 200 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>PLpgSQL</code> <code>CSS</code> <code>Python</code></td>
   </tr>
 </table>

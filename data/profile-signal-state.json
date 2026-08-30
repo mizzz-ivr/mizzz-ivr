@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T14:29:31Z"
+    "last_activity_at": "2026-08-30T14:34:47Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,9 +17,9 @@
   "activity_total": 110,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 294,
-    "events": 202,
-    "last_activity_at": "2026-08-30T14:29:31Z",
+    "score": 292,
+    "events": 200,
+    "last_activity_at": "2026-08-30T14:34:47Z",
     "share": 74,
     "stack": [
       "TypeScript",
@@ -183,7 +183,7 @@
       "at": "2026-08-30T13:46:10Z"
     }
   ],
-  "generated_at": "2026-08-30T23:30:27+09:00",
+  "generated_at": "2026-08-30T23:35:22+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
