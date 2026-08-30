@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-30T00:57:52Z"
+    "last_activity_at": "2026-08-30T01:04:11Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,10 +17,10 @@
   "activity_total": 2,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 22,
-    "events": 19,
-    "last_activity_at": "2026-08-30T00:57:52Z",
-    "share": 59,
+    "score": 29,
+    "events": 23,
+    "last_activity_at": "2026-08-30T01:04:11Z",
+    "share": 66,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -131,35 +131,35 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #76",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T01:02:38Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to fix/reliability-burn-reconcile-proxy",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-30T01:02:25Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Created branch fix/reliability-burn-reconcile-proxy",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-30T01:02:06Z"
+    },
+    {
       "label": "ISSUE",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "Opened issue #75",
       "url": "https://github.com/ivRooom/ivrm-dashboard/issues/75",
       "at": "2026-08-30T00:57:52Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Reopened issue #73",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/73",
-      "at": "2026-08-30T00:55:34Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Closed issue #73",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/73",
-      "at": "2026-08-30T00:52:12Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #74",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T00:52:10Z"
     }
   ],
-  "generated_at": "2026-08-30T10:00:44+09:00",
+  "generated_at": "2026-08-30T10:05:18+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
