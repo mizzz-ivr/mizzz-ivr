@@ -17,10 +17,10 @@
   "activity_total": 9,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 16,
-    "events": 9,
+    "score": 17,
+    "events": 10,
     "last_activity_at": "2026-08-30T16:22:01Z",
-    "share": 41,
+    "share": 38,
     "ci": {
       "label": "PASSING",
       "symbol": "●",
@@ -94,10 +94,10 @@
   "now_building": [
     {
       "repo": "ivRooom/ivrm-dashboard",
-      "score": 16,
-      "events": 9,
+      "score": 17,
+      "events": 10,
       "last_activity_at": "2026-08-30T16:22:01Z",
-      "share": 41,
+      "share": 38,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -114,6 +114,30 @@
         "label": "HEALTHY",
         "symbol": "●",
         "reason": "active with passing recent CI"
+      }
+    },
+    {
+      "repo": "ivRooom/Herta",
+      "score": 5,
+      "events": 5,
+      "last_activity_at": "2026-08-30T23:43:45Z",
+      "share": 11,
+      "ci": {
+        "label": "ATTENTION",
+        "symbol": "!",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 6,
+        "passed": 0,
+        "failed": 6,
+        "ignored": 4,
+        "pass_rate": 0,
+        "latest_conclusion": "failure"
+      },
+      "health": {
+        "label": "ATTENTION",
+        "symbol": "!",
+        "reason": "recent CI needs attention"
       }
     }
   ],
@@ -147,17 +171,17 @@
       "at": "2026-08-30T16:18:16Z"
     }
   ],
-  "generated_at": "2026-08-31T08:50:29+09:00",
+  "generated_at": "2026-08-31T08:52:58+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
     "window_days": 7,
-    "evaluated": 20,
+    "evaluated": 26,
     "passed": 15,
-    "failed": 5,
-    "ignored": 0,
-    "pass_rate": 75,
-    "repos_with_signal": 2
+    "failed": 11,
+    "ignored": 4,
+    "pass_rate": 58,
+    "repos_with_signal": 3
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
