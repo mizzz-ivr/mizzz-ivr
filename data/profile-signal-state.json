@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-08-31T12:59:08Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-08-31T14:09:45Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,10 +17,10 @@
   "activity_total": 14,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 37,
-    "events": 24,
-    "last_activity_at": "2026-08-31T10:48:39Z",
-    "share": 48,
+    "score": 43,
+    "events": 27,
+    "last_activity_at": "2026-08-31T14:09:45Z",
+    "share": 52,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -131,6 +131,20 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #111",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-31T14:08:00Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #111",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-31T14:06:21Z"
+    },
+    {
       "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "1 commit pushed to main",
@@ -143,23 +157,9 @@
       "title": "PR merged #110",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-31T10:44:35Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #110",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-31T10:39:08Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to fix/agent-hmac-proxy-bypass",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-31T10:38:43Z"
     }
   ],
-  "generated_at": "2026-08-31T23:05:25+09:00",
+  "generated_at": "2026-08-31T23:10:22+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
