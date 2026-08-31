@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-08-30T23:43:45Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-08-31T01:50:08Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -147,31 +147,31 @@
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to feat/ai-followup-persona",
       "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-30T23:43:45Z"
+      "at": "2026-08-31T01:50:08Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Closed issue #106",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/106",
+      "at": "2026-08-31T01:48:46Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #107",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-31T01:48:45Z"
     },
     {
       "label": "PUSH",
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to feat/ai-followup-persona",
       "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-30T23:38:09Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to feat/status-lifecycle-channel-deliveries",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-30T16:22:01Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #107",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-30T16:18:46Z"
+      "at": "2026-08-30T23:43:45Z"
     }
   ],
-  "generated_at": "2026-08-31T10:45:24+09:00",
+  "generated_at": "2026-08-31T10:50:20+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
