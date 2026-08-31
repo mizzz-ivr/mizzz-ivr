@@ -143,16 +143,9 @@
       "title": "1 commit pushed to feat/ai-followup-persona",
       "url": "https://github.com/ivRooom/Herta/commits",
       "at": "2026-08-31T01:51:05Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to feat/ai-followup-persona",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-31T01:50:39Z"
     }
   ],
-  "generated_at": "2026-08-31T14:50:17+09:00",
+  "generated_at": "2026-08-31T14:55:17+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
