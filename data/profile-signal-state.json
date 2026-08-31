@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-08-31T16:41:37Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-08-31T22:08:03Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -20,7 +20,7 @@
     "score": 7,
     "events": 4,
     "last_activity_at": "2026-08-31T16:41:37Z",
-    "share": 100,
+    "share": 64,
     "stack": [
       "Python",
       "JavaScript",
@@ -108,6 +108,20 @@
   "activity_stream": [
     {
       "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Closed issue #358",
+      "url": "https://github.com/ivRooom/Herta/issues/358",
+      "at": "2026-08-31T22:08:03Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "PR merged #359",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-08-31T22:08:01Z"
+    },
+    {
+      "label": "ISSUE",
       "repo": "ivRooom/ivrm-status",
       "title": "Opened issue #36",
       "url": "https://github.com/ivRooom/ivrm-status/issues/36",
@@ -119,23 +133,9 @@
       "title": "Closed issue #36",
       "url": "https://github.com/ivRooom/ivrm-status/issues/36",
       "at": "2026-08-31T15:05:53Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-status",
-      "title": "1 commit pushed to main",
-      "url": "https://github.com/ivRooom/ivrm-status/commits",
-      "at": "2026-08-31T15:05:52Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-status",
-      "title": "PR merged #37",
-      "url": "https://github.com/ivRooom/ivrm-status",
-      "at": "2026-08-31T15:05:50Z"
     }
   ],
-  "generated_at": "2026-09-01T07:05:21+09:00",
+  "generated_at": "2026-09-01T07:10:28+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
