@@ -53,7 +53,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-status">ivRooom/ivrm-status</a></strong><br/><sub>weighted activity 100% · score 6 · 3 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-status">ivRooom/ivrm-status</a></strong><br/><sub>weighted activity 100% · score 7 · 4 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>Python</code> <code>JavaScript</code> <code>CSS</code> <code>HTML</code></td>
   </tr>
 </table>
@@ -91,6 +91,7 @@
   <tbody>
     <tr><td width="10%"><code>01:41</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-status">ivRooom/ivrm-status</a></strong> — <a href="https://github.com/ivRooom/ivrm-status/issues/36">Issue #36を作成</a></td></tr>
     <tr><td width="10%"><code>00:05</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-status">ivRooom/ivrm-status</a></strong> — <a href="https://github.com/ivRooom/ivrm-status/issues/36">Issue #36を完了</a></td></tr>
+    <tr><td width="10%"><code>00:05</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-status">ivRooom/ivrm-status</a></strong> — <a href="https://github.com/ivRooom/ivrm-status/commits">mainへ1コミットをPush</a></td></tr>
     <tr><td width="10%"><code>00:05</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-status">ivRooom/ivrm-status</a></strong> — <a href="https://github.com/ivRooom/ivrm-status">PR #37をマージ</a></td></tr>
   </tbody>
 </table>
