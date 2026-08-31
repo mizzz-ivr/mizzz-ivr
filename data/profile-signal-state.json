@@ -82,9 +82,9 @@
   "now_building": [
     {
       "repo": "ivRooom/ivrm-dashboard",
-      "score": 36,
-      "events": 23,
-      "last_activity_at": "2026-08-31T10:47:50Z",
+      "score": 37,
+      "events": 24,
+      "last_activity_at": "2026-08-31T10:48:39Z",
       "share": 48,
       "ci": {
         "label": "PASSING",
@@ -109,7 +109,7 @@
       "score": 14,
       "events": 14,
       "last_activity_at": "2026-08-31T01:51:41Z",
-      "share": 19,
+      "share": 18,
       "ci": {
         "label": "ATTENTION",
         "symbol": "!",
@@ -159,7 +159,7 @@
       "at": "2026-08-31T10:38:43Z"
     }
   ],
-  "generated_at": "2026-08-31T23:00:45+09:00",
+  "generated_at": "2026-08-31T23:03:28+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
