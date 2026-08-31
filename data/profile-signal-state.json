@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-08-31T01:59:27Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-08-31T03:35:00Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -20,7 +20,7 @@
     "score": 25,
     "events": 15,
     "last_activity_at": "2026-08-31T01:59:27Z",
-    "share": 42,
+    "share": 41,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -150,16 +150,9 @@
       "title": "1 commit pushed to feat/ai-followup-persona",
       "url": "https://github.com/ivRooom/Herta/commits",
       "at": "2026-08-31T01:50:08Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Closed issue #106",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/106",
-      "at": "2026-08-31T01:48:46Z"
     }
   ],
-  "generated_at": "2026-08-31T12:30:32+09:00",
+  "generated_at": "2026-08-31T12:35:21+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
