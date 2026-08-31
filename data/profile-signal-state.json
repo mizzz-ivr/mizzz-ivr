@@ -151,6 +151,13 @@
     },
     {
       "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to feat/ai-followup-persona",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-30T23:38:09Z"
+    },
+    {
+      "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "1 commit pushed to feat/status-lifecycle-channel-deliveries",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
@@ -162,16 +169,9 @@
       "title": "Opened PR #107",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-30T16:18:46Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to feat/status-lifecycle-channel-deliveries",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-30T16:18:16Z"
     }
   ],
-  "generated_at": "2026-08-31T09:50:26+09:00",
+  "generated_at": "2026-08-31T10:00:45+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
