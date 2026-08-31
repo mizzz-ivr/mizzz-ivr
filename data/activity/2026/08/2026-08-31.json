@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 4,
+    "commits": 5,
     "prs_opened": 4,
-    "issues_created": 1,
-    "issues_completed": 0
+    "issues_created": 2,
+    "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Status lifecycle event / channel delivery基盤を追加する (#107)  Closes #106  Status lifecycle logical e",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/8b70d1085ed7e1f8fffe17bd5f9c74798da6b3a9",
+      "at": "2026-08-31T10:48:44.000+09:00"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Issue #108 Status Center: Maintenance started / completed time-driven lifecycle Reconcilerを実装する",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/108",
+      "at": "2026-08-31T01:59:06Z"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Issue #106 Status Center: lifecycle notification event / Channel別Delivery基盤を実装する",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/106",
+      "at": "2026-08-31T01:48:46Z"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
@@ -24,28 +45,7 @@
       "title": "chore(deploy): retrigger Vercel production after quota reset",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commit/8e67f7dd53a5ee1e7b0e4677f177d96352a7a505",
       "at": "2026-08-31T00:25:02.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "revert: remove accidental placeholder article",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/d24a5068c20517585c1e0565fbdea11e8dc0eee6",
-      "at": "2026-08-31T00:14:15.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "docs: add custom domain email Qiita draft",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/d71c1e624116104b4be70db40a91575173c1b8ef",
-      "at": "2026-08-31T00:13:54.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR #107 Status lifecycle event / channel delivery基盤を追加する",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/107",
-      "at": "2026-08-30T16:18:46Z"
     }
   ],
-  "generated_at": "2026-08-31T01:46:04+09:00"
+  "generated_at": "2026-08-31T12:09:13+09:00"
 }
