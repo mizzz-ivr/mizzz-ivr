@@ -17,8 +17,8 @@
   "activity_total": 14,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 43,
-    "events": 27,
+    "score": 44,
+    "events": 28,
     "last_activity_at": "2026-08-31T14:09:45Z",
     "share": 52,
     "stack": [
@@ -145,21 +145,21 @@
       "at": "2026-08-31T14:06:21Z"
     },
     {
+      "label": "CREATE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Created branch fix/mobile-log-message-layout",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-31T14:05:20Z"
+    },
+    {
       "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "1 commit pushed to main",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
       "at": "2026-08-31T10:44:37Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #110",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-31T10:44:35Z"
     }
   ],
-  "generated_at": "2026-08-31T23:20:29+09:00",
+  "generated_at": "2026-08-31T23:25:20+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
