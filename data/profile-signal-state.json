@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-08-31T15:05:53Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-08-31T16:41:37Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,9 +17,9 @@
   "activity_total": 2,
   "current_focus": {
     "repo": "ivRooom/ivrm-status",
-    "score": 4,
-    "events": 2,
-    "last_activity_at": "2026-08-31T15:05:53Z",
+    "score": 6,
+    "events": 3,
+    "last_activity_at": "2026-08-31T16:41:37Z",
     "share": 100,
     "stack": [
       "Python",
@@ -109,6 +109,13 @@
     {
       "label": "ISSUE",
       "repo": "ivRooom/ivrm-status",
+      "title": "Opened issue #36",
+      "url": "https://github.com/ivRooom/ivrm-status/issues/36",
+      "at": "2026-08-31T16:41:37Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/ivrm-status",
       "title": "Closed issue #36",
       "url": "https://github.com/ivRooom/ivrm-status/issues/36",
       "at": "2026-08-31T15:05:53Z"
@@ -121,7 +128,7 @@
       "at": "2026-08-31T15:05:50Z"
     }
   ],
-  "generated_at": "2026-09-01T01:40:25+09:00",
+  "generated_at": "2026-09-01T01:45:24+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
