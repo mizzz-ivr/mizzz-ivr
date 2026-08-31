@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-08-31T22:32:48Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-08-31T23:37:51Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -16,16 +16,16 @@
   "streak": 8,
   "activity_total": 2,
   "current_focus": {
-    "repo": "ivRooom/ivrm-status",
-    "score": 7,
+    "repo": "ivRooom/Herta",
+    "score": 9,
     "events": 4,
-    "last_activity_at": "2026-08-31T16:41:37Z",
-    "share": 41,
+    "last_activity_at": "2026-08-31T23:37:51Z",
+    "share": 43,
     "stack": [
-      "Python",
-      "JavaScript",
-      "CSS",
-      "HTML"
+      "TypeScript",
+      "Shell",
+      "Dockerfile",
+      "CSS"
     ]
   },
   "dev_pulse": [
@@ -108,6 +108,13 @@
   "activity_stream": [
     {
       "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "Opened PR #361",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-08-31T23:37:51Z"
+    },
+    {
+      "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "Opened PR #112",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
@@ -126,16 +133,9 @@
       "title": "PR merged #359",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-08-31T22:08:01Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-status",
-      "title": "Opened issue #36",
-      "url": "https://github.com/ivRooom/ivrm-status/issues/36",
-      "at": "2026-08-31T16:41:37Z"
     }
   ],
-  "generated_at": "2026-09-01T08:35:22+09:00",
+  "generated_at": "2026-09-01T08:40:23+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
