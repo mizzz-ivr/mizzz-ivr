@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "OFFLINE",
-    "symbol": "○",
-    "last_activity_at": "2026-08-31T03:35:00Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-08-31T10:00:46Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,10 +17,10 @@
   "activity_total": 12,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 26,
-    "events": 16,
-    "last_activity_at": "2026-08-31T01:59:27Z",
-    "share": 40,
+    "score": 27,
+    "events": 17,
+    "last_activity_at": "2026-08-31T10:00:46Z",
+    "share": 41,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -82,10 +82,10 @@
   "now_building": [
     {
       "repo": "ivRooom/ivrm-dashboard",
-      "score": 26,
-      "events": 16,
-      "last_activity_at": "2026-08-31T01:59:27Z",
-      "share": 40,
+      "score": 27,
+      "events": 17,
+      "last_activity_at": "2026-08-31T10:00:46Z",
+      "share": 41,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -109,7 +109,7 @@
       "score": 14,
       "events": 14,
       "last_activity_at": "2026-08-31T01:51:41Z",
-      "share": 22,
+      "share": 21,
       "ci": {
         "label": "ATTENTION",
         "symbol": "!",
@@ -145,7 +145,7 @@
       "at": "2026-08-31T01:51:05Z"
     }
   ],
-  "generated_at": "2026-08-31T19:00:39+09:00",
+  "generated_at": "2026-08-31T19:03:56+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
