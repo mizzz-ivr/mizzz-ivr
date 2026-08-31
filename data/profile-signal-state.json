@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-31T23:37:51Z"
+    "last_activity_at": "2026-08-31T23:43:45Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,10 +17,10 @@
   "activity_total": 2,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 9,
-    "events": 4,
-    "last_activity_at": "2026-08-31T23:37:51Z",
-    "share": 43,
+    "score": 11,
+    "events": 6,
+    "last_activity_at": "2026-08-31T23:43:45Z",
+    "share": 48,
     "stack": [
       "TypeScript",
       "Shell",
@@ -107,6 +107,13 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to docs/issue-354-production-acceptance-refresh",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-31T23:43:37Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/Herta",
       "title": "Opened PR #361",
@@ -126,16 +133,9 @@
       "title": "Closed issue #358",
       "url": "https://github.com/ivRooom/Herta/issues/358",
       "at": "2026-08-31T22:08:03Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR merged #359",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-08-31T22:08:01Z"
     }
   ],
-  "generated_at": "2026-09-01T08:40:23+09:00",
+  "generated_at": "2026-09-01T08:45:30+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
