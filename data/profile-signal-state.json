@@ -109,7 +109,7 @@
       "score": 13,
       "events": 13,
       "last_activity_at": "2026-08-31T01:51:41Z",
-      "share": 21,
+      "share": 20,
       "ci": {
         "label": "ATTENTION",
         "symbol": "!",
@@ -145,7 +145,7 @@
       "at": "2026-08-31T01:51:05Z"
     }
   ],
-  "generated_at": "2026-08-31T15:05:17+09:00",
+  "generated_at": "2026-08-31T15:09:11+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
