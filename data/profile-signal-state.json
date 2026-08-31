@@ -82,8 +82,8 @@
   "now_building": [
     {
       "repo": "ivRooom/ivrm-status",
-      "score": 6,
-      "events": 3,
+      "score": 7,
+      "events": 4,
       "last_activity_at": "2026-08-31T16:41:37Z",
       "share": 100,
       "ci": {
@@ -135,7 +135,7 @@
       "at": "2026-08-31T15:05:50Z"
     }
   ],
-  "generated_at": "2026-09-01T07:00:42+09:00",
+  "generated_at": "2026-09-01T07:02:06+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
