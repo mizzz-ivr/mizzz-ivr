@@ -85,7 +85,7 @@
       "score": 26,
       "events": 16,
       "last_activity_at": "2026-08-31T01:59:27Z",
-      "share": 41,
+      "share": 40,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -106,10 +106,10 @@
     },
     {
       "repo": "ivRooom/Herta",
-      "score": 13,
-      "events": 13,
+      "score": 14,
+      "events": 14,
       "last_activity_at": "2026-08-31T01:51:41Z",
-      "share": 20,
+      "share": 22,
       "ci": {
         "label": "ATTENTION",
         "symbol": "!",
@@ -145,7 +145,7 @@
       "at": "2026-08-31T01:51:05Z"
     }
   ],
-  "generated_at": "2026-08-31T18:05:17+09:00",
+  "generated_at": "2026-08-31T18:09:14+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
