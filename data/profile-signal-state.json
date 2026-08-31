@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-31T10:39:08Z"
+    "last_activity_at": "2026-08-31T10:44:35Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,10 +17,10 @@
   "activity_total": 12,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 31,
-    "events": 18,
-    "last_activity_at": "2026-08-31T10:39:08Z",
-    "share": 44,
+    "score": 32,
+    "events": 19,
+    "last_activity_at": "2026-08-31T10:44:35Z",
+    "share": 45,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -133,19 +133,19 @@
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #110",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-08-31T10:44:35Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
       "title": "Opened PR #110",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-31T10:39:08Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened issue #108",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/108",
-      "at": "2026-08-31T01:59:07Z"
     }
   ],
-  "generated_at": "2026-08-31T19:40:23+09:00",
+  "generated_at": "2026-08-31T19:45:21+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
