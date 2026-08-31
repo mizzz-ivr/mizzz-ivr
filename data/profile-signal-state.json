@@ -20,7 +20,7 @@
     "score": 26,
     "events": 16,
     "last_activity_at": "2026-08-31T01:59:27Z",
-    "share": 42,
+    "share": 41,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -149,10 +149,10 @@
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to feat/ai-followup-persona",
       "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-31T01:50:08Z"
+      "at": "2026-08-31T01:50:39Z"
     }
   ],
-  "generated_at": "2026-08-31T13:15:23+09:00",
+  "generated_at": "2026-08-31T13:20:23+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
