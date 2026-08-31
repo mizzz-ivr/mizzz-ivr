@@ -17,8 +17,8 @@
   "activity_total": 2,
   "current_focus": {
     "repo": "ivRooom/ivrm-status",
-    "score": 3,
-    "events": 1,
+    "score": 4,
+    "events": 2,
     "last_activity_at": "2026-08-31T15:05:53Z",
     "share": 100,
     "stack": [
@@ -112,9 +112,16 @@
       "title": "Closed issue #36",
       "url": "https://github.com/ivRooom/ivrm-status/issues/36",
       "at": "2026-08-31T15:05:53Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-status",
+      "title": "PR merged #37",
+      "url": "https://github.com/ivRooom/ivrm-status",
+      "at": "2026-08-31T15:05:50Z"
     }
   ],
-  "generated_at": "2026-09-01T00:10:25+09:00",
+  "generated_at": "2026-09-01T00:15:43+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
