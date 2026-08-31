@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-31T01:51:41Z"
+    "last_activity_at": "2026-08-31T01:59:27Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,28 +17,16 @@
   "activity_total": 9,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 17,
-    "events": 10,
-    "last_activity_at": "2026-08-30T16:22:01Z",
-    "share": 38,
-    "ci": {
-      "label": "PASSING",
-      "symbol": "●",
-      "window_days": 7,
-      "total_runs": 10,
-      "evaluated": 10,
-      "passed": 10,
-      "failed": 0,
-      "ignored": 0,
-      "pass_rate": 100,
-      "latest_conclusion": "success"
-    },
-    "health": {
-      "label": "HEALTHY",
-      "symbol": "●",
-      "reason": "active with passing recent CI"
-    },
-    "stack": []
+    "score": 25,
+    "events": 15,
+    "last_activity_at": "2026-08-31T01:59:27Z",
+    "share": 43,
+    "stack": [
+      "TypeScript",
+      "PLpgSQL",
+      "CSS",
+      "Python"
+    ]
   },
   "dev_pulse": [
     {
@@ -143,6 +131,13 @@
   ],
   "activity_stream": [
     {
+      "label": "ISSUE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened issue #108",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/108",
+      "at": "2026-08-31T01:59:07Z"
+    },
+    {
       "label": "PUSH",
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to feat/ai-followup-persona",
@@ -162,16 +157,9 @@
       "title": "PR merged #107",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-31T01:48:45Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to feat/ai-followup-persona",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-30T23:43:45Z"
     }
   ],
-  "generated_at": "2026-08-31T10:55:15+09:00",
+  "generated_at": "2026-08-31T11:00:39+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
