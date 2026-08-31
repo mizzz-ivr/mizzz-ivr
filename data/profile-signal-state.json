@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-31T22:08:03Z"
+    "last_activity_at": "2026-08-31T22:18:34Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -20,7 +20,7 @@
     "score": 7,
     "events": 4,
     "last_activity_at": "2026-08-31T16:41:37Z",
-    "share": 64,
+    "share": 54,
     "stack": [
       "Python",
       "JavaScript",
@@ -135,7 +135,7 @@
       "at": "2026-08-31T15:05:53Z"
     }
   ],
-  "generated_at": "2026-09-01T07:15:24+09:00",
+  "generated_at": "2026-09-01T07:20:24+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
