@@ -142,6 +142,13 @@
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to feat/ai-followup-persona",
       "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-08-31T01:51:05Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to feat/ai-followup-persona",
+      "url": "https://github.com/ivRooom/Herta/commits",
       "at": "2026-08-31T01:50:08Z"
     },
     {
@@ -150,16 +157,9 @@
       "title": "Closed issue #106",
       "url": "https://github.com/ivRooom/ivrm-dashboard/issues/106",
       "at": "2026-08-31T01:48:46Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #107",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-08-31T01:48:45Z"
     }
   ],
-  "generated_at": "2026-08-31T12:00:44+09:00",
+  "generated_at": "2026-08-31T12:05:19+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
