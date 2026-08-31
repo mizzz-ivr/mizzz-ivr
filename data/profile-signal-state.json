@@ -82,10 +82,10 @@
   "now_building": [
     {
       "repo": "ivRooom/ivrm-dashboard",
-      "score": 25,
-      "events": 15,
+      "score": 26,
+      "events": 16,
       "last_activity_at": "2026-08-31T01:59:27Z",
-      "share": 42,
+      "share": 41,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -106,10 +106,10 @@
     },
     {
       "repo": "ivRooom/Herta",
-      "score": 12,
-      "events": 12,
+      "score": 13,
+      "events": 13,
       "last_activity_at": "2026-08-31T01:51:41Z",
-      "share": 20,
+      "share": 21,
       "ci": {
         "label": "ATTENTION",
         "symbol": "!",
@@ -152,16 +152,16 @@
       "at": "2026-08-31T01:50:39Z"
     }
   ],
-  "generated_at": "2026-08-31T14:40:19+09:00",
+  "generated_at": "2026-08-31T14:45:02+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
     "window_days": 7,
     "evaluated": 28,
-    "passed": 19,
-    "failed": 9,
+    "passed": 20,
+    "failed": 8,
     "ignored": 2,
-    "pass_rate": 68,
+    "pass_rate": 71,
     "repos_with_signal": 3
   },
   "dev_recap": {
