@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-08-31T10:44:35Z"
+    "last_activity_at": "2026-08-31T10:47:50Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,10 +17,10 @@
   "activity_total": 12,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 32,
-    "events": 19,
-    "last_activity_at": "2026-08-31T10:44:35Z",
-    "share": 45,
+    "score": 35,
+    "events": 22,
+    "last_activity_at": "2026-08-31T10:47:50Z",
+    "share": 47,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -131,6 +131,13 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-31T10:44:37Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "PR merged #110",
@@ -143,9 +150,16 @@
       "title": "Opened PR #110",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-08-31T10:39:08Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to fix/agent-hmac-proxy-bypass",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-08-31T10:38:43Z"
     }
   ],
-  "generated_at": "2026-08-31T19:45:21+09:00",
+  "generated_at": "2026-08-31T19:50:19+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
