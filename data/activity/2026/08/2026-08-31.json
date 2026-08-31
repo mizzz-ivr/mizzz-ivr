@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 5,
-    "prs_opened": 4,
+    "commits": 6,
+    "prs_opened": 5,
     "issues_created": 2,
     "issues_completed": 1
   },
@@ -14,9 +14,23 @@
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
+      "title": "Fix Agent HMAC endpoints bypassing Discord proxy (#110)  Agent HMAC endpoints for backups/logs m",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/21c1a6d250d0593723d53eec1ac035163d8b797e",
+      "at": "2026-08-31T19:44:35.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
       "title": "Status lifecycle event / channel delivery基盤を追加する (#107)  Closes #106  Status lifecycle logical e",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commit/8b70d1085ed7e1f8fffe17bd5f9c74798da6b3a9",
       "at": "2026-08-31T10:48:44.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR #110 Fix Agent HMAC endpoints bypassing Discord proxy",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/110",
+      "at": "2026-08-31T10:39:08Z"
     },
     {
       "type": "issue",
@@ -31,21 +45,7 @@
       "title": "Issue #106 Status Center: lifecycle notification event / Channel別Delivery基盤を実装する",
       "url": "https://github.com/ivRooom/ivrm-dashboard/issues/106",
       "at": "2026-08-31T01:48:46Z"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Vercelの明示Production再Deployトリガーを追加する (#105)  Vercel Ignored Build Stepに`[vercel-deploy]` escape h",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/02f803628e9f6d9ecdb636681c10ec8518f26e8a",
-      "at": "2026-08-31T00:28:14.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "chore(deploy): retrigger Vercel production after quota reset",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/8e67f7dd53a5ee1e7b0e4677f177d96352a7a505",
-      "at": "2026-08-31T00:25:02.000+09:00"
     }
   ],
-  "generated_at": "2026-08-31T12:09:13+09:00"
+  "generated_at": "2026-08-31T21:09:14+09:00"
 }
