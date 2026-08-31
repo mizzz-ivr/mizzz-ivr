@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-01",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 1,
+    "prs_opened": 0,
+    "issues_created": 0,
+    "issues_completed": 1
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "Merge pull request #37 from ivRooom/feat/status-ui-refresh-admin-cms",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/cb7308d3e7b274abf4fa83d3d726c514adbfe6c4",
+      "at": "2026-09-01T00:05:50.000+09:00"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/ivrm-status",
+      "title": "Issue #36 Status Portal UI Renewal: public status UXを再設計しAdmin CMS移行境界を整理する",
+      "url": "https://github.com/ivRooom/ivrm-status/issues/36",
+      "at": "2026-08-31T15:05:52Z"
+    }
+  ],
+  "generated_at": "2026-09-01T00:09:22+09:00"
+}

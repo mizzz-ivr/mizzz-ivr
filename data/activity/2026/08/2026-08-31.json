@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 6,
-    "prs_opened": 5,
-    "issues_created": 2,
+    "commits": 9,
+    "prs_opened": 7,
+    "issues_created": 3,
     "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "docs: document status UI renewal and admin CMS boundary (#36)",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/9ecfa95c8a9a1744141636114fc7c89ba4dcc63f",
+      "at": "2026-08-31T23:53:54.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "feat: refresh public status portal visual hierarchy (#36)",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/093d410bed68d121b0fb7a279c5c013320edb48f",
+      "at": "2026-08-31T23:53:25.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Fix mobile log messages in Read-only Log Viewer (#111)  Show log metadata on the first mobile ro",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/61189a7af3efb60f09aa06da720e79be8533ffd6",
+      "at": "2026-08-31T23:08:00.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
@@ -19,33 +40,12 @@
       "at": "2026-08-31T19:44:35.000+09:00"
     },
     {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Status lifecycle event / channel delivery基盤を追加する (#107)  Closes #106  Status lifecycle logical e",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/8b70d1085ed7e1f8fffe17bd5f9c74798da6b3a9",
-      "at": "2026-08-31T10:48:44.000+09:00"
-    },
-    {
       "type": "pr",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR #110 Fix Agent HMAC endpoints bypassing Discord proxy",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/110",
-      "at": "2026-08-31T10:39:08Z"
-    },
-    {
-      "type": "issue",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Issue #108 Status Center: Maintenance started / completed time-driven lifecycle Reconcilerを実装する",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/108",
-      "at": "2026-08-31T01:59:06Z"
-    },
-    {
-      "type": "done",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Issue #106 Status Center: lifecycle notification event / Channel別Delivery基盤を実装する",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/106",
-      "at": "2026-08-31T01:48:46Z"
+      "repo": "ivRooom/ivrm-status",
+      "title": "PR #37 Status Portal UIを再設計しAdmin CMS移行境界を整理",
+      "url": "https://github.com/ivRooom/ivrm-status/pull/37",
+      "at": "2026-08-31T14:54:12Z"
     }
   ],
-  "generated_at": "2026-08-31T21:09:14+09:00"
+  "generated_at": "2026-09-01T00:09:22+09:00"
 }

@@ -26,9 +26,9 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 08/31 23:54 JST</sub></td>
-    <td width="34%" align="center"><strong>🌤️ ACTIVE</strong><br/><sub>14 public actions today</sub></td>
-    <td width="33%" align="center"><strong>🔥 7 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 00:05 JST</sub></td>
+    <td width="34%" align="center"><strong>☁️ LIGHT CODING</strong><br/><sub>2 public actions today</sub></td>
+    <td width="33%" align="center"><strong>🔥 8 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:LIVE-SIGNAL:END -->
@@ -36,13 +36,13 @@
 <!-- DAILY-ACTIVITY:START -->
 ## TODAY // Activity overview
 
-<p align="center"><sub>2026-08-31 JST · public GitHub activity</sub></p>
+<p align="center"><sub>2026-09-01 JST · public GitHub activity</sub></p>
 
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><strong>6</strong><br/><sub>COMMITS</sub></td>
-    <td width="25%" align="center"><strong>5</strong><br/><sub>PRS OPENED</sub></td>
-    <td width="25%" align="center"><strong>2</strong><br/><sub>ISSUES CREATED</sub></td>
+    <td width="25%" align="center"><strong>1</strong><br/><sub>COMMITS</sub></td>
+    <td width="25%" align="center"><strong>0</strong><br/><sub>PRS OPENED</sub></td>
+    <td width="25%" align="center"><strong>0</strong><br/><sub>ISSUES CREATED</sub></td>
     <td width="25%" align="center"><strong>1</strong><br/><sub>ISSUES DONE</sub></td>
   </tr>
 </table>
@@ -53,8 +53,8 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>weighted activity 51% · score 45 · 29 events</sub></td>
-    <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>PLpgSQL</code> <code>CSS</code> <code>Python</code></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-status">ivRooom/ivrm-status</a></strong><br/><sub>weighted activity 100% · score 3 · 1 events</sub></td>
+    <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>Python</code> <code>JavaScript</code> <code>CSS</code> <code>HTML</code></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:FOCUS:END -->
@@ -70,10 +70,10 @@
 
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><strong>ATTENTION</strong><br/><sub>CI SIGNAL</sub></td>
-    <td width="25%" align="center"><strong>71%</strong><br/><sub>PASS RATE</sub></td>
-    <td width="25%" align="center"><strong>20 / 28</strong><br/><sub>PASSED / EVALUATED</sub></td>
-    <td width="25%" align="center"><strong>3</strong><br/><sub>REPOS WITH CI</sub></td>
+    <td width="25%" align="center"><strong>PASSING</strong><br/><sub>CI SIGNAL</sub></td>
+    <td width="25%" align="center"><strong>100%</strong><br/><sub>PASS RATE</sub></td>
+    <td width="25%" align="center"><strong>9 / 9</strong><br/><sub>PASSED / EVALUATED</sub></td>
+    <td width="25%" align="center"><strong>1</strong><br/><sub>REPOS WITH CI</sub></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:PULSE:END -->
@@ -81,7 +81,7 @@
 <!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
 ## NOW BUILDING // Active repositories
 
-<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>48% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 08/31 19:48 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>18% weighted · ATTENTION · CI pass rate 50%<br/>last activity · 08/31 10:51 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
+<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/ivrm-status">ivRooom/ivrm-status</a></strong><br/><sub>100% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 00:05 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
 <!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
 
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->
@@ -89,10 +89,7 @@
 
 <table width="100%">
   <tbody>
-    <tr><td width="10%"><code>08/31 23:54</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-status">ivRooom/ivrm-status</a></strong> — <a href="https://github.com/ivRooom/ivrm-status">PR #37を作成</a></td></tr>
-    <tr><td width="10%"><code>08/31 23:08</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong> — <a href="https://github.com/ivRooom/ivrm-dashboard">PR #111をマージ</a></td></tr>
-    <tr><td width="10%"><code>08/31 23:06</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong> — <a href="https://github.com/ivRooom/ivrm-dashboard">PR #111を作成</a></td></tr>
-    <tr><td width="10%"><code>08/31 23:05</code></td><td width="14%"><code>CREATE</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong> — <a href="https://github.com/ivRooom/ivrm-dashboard">Created branch fix/mobile-log-message-layout</a></td></tr>
+    <tr><td width="10%"><code>00:05</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-status">ivRooom/ivrm-status</a></strong> — <a href="https://github.com/ivRooom/ivrm-status/issues/36">Issue #36を完了</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->
@@ -188,31 +185,31 @@
 
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><strong>🔥 7</strong><br/><sub>DAY STREAK</sub></td>
-    <td width="25%" align="center"><strong>6</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
-    <td width="25%" align="center"><strong>5</strong><br/><sub>PRS · THIS WEEK</sub></td>
-    <td width="25%" align="center"><strong>1</strong><br/><sub>ISSUES DONE · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>🔥 8</strong><br/><sub>DAY STREAK</sub></td>
+    <td width="25%" align="center"><strong>10</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>7</strong><br/><sub>PRS · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>2</strong><br/><sub>ISSUES DONE · THIS WEEK</sub></td>
   </tr>
 </table>
 
 <details>
 <summary><strong>MONTHLY SUMMARY</strong></summary>
 <br/>
-<table width="100%"><tr><td width="25%" align="center"><strong>1574</strong><br/><sub>COMMITS</sub></td><td width="25%" align="center"><strong>163</strong><br/><sub>PRS</sub></td><td width="25%" align="center"><strong>59</strong><br/><sub>ISSUES DONE</sub></td><td width="25%" align="center"><strong>1880</strong><br/><sub>ACTIVITY</sub></td></tr></table>
+<table width="100%"><tr><td width="25%" align="center"><strong>1</strong><br/><sub>COMMITS</sub></td><td width="25%" align="center"><strong>0</strong><br/><sub>PRS</sub></td><td width="25%" align="center"><strong>1</strong><br/><sub>ISSUES DONE</sub></td><td width="25%" align="center"><strong>2</strong><br/><sub>ACTIVITY</sub></td></tr></table>
 </details>
 
 <details>
 <summary><strong>YEARLY SUMMARY // 2026</strong></summary>
 <br/>
-<table width="100%"><tr><td width="20%" align="center"><strong>7</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1574</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>163</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>59</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>1880</strong><br/><sub>ACTIVITY</sub></td></tr></table>
-<p><sub>7 tracked days in 2026.</sub></p>
+<table width="100%"><tr><td width="20%" align="center"><strong>8</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1578</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>165</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>60</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>1888</strong><br/><sub>ACTIVITY</sub></td></tr></table>
+<p><sub>8 tracked days in 2026.</sub></p>
 </details>
 
 <details>
 <summary><strong>LIFETIME SUMMARY // Tracked history</strong></summary>
 <br/>
-<table width="100%"><tr><td width="20%" align="center"><strong>7</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1574</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>163</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>59</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>1880</strong><br/><sub>ACTIVITY</sub></td></tr></table>
-<p><sub>Profile Signal tracked lifetime · tracked since 2026-08-25 · 7 tracked days. GitHub account lifetime totalsではありません。</sub></p>
+<table width="100%"><tr><td width="20%" align="center"><strong>8</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1578</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>165</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>60</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>1888</strong><br/><sub>ACTIVITY</sub></td></tr></table>
+<p><sub>Profile Signal tracked lifetime · tracked since 2026-08-25 · 8 tracked days. GitHub account lifetime totalsではありません。</sub></p>
 </details>
 <!-- PROFILE-SIGNAL:RECAP:END -->
 

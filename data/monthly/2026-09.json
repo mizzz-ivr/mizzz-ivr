@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
-  "period": "2026-W36",
+  "period": "2026-09",
   "timezone": "Asia/Tokyo",
   "scope": "public",
   "github_login": "mizzz-ivr",
   "coverage": {
-    "start_date": "2026-08-31",
+    "start_date": "2026-09-01",
     "end_date": "2026-09-01",
-    "tracked_days": 2,
-    "active_days": 2
+    "tracked_days": 1,
+    "active_days": 1
   },
   "metrics": {
-    "commits": 10,
-    "prs_opened": 7,
-    "issues_created": 3,
-    "issues_completed": 2,
-    "activity_total": 22
+    "commits": 1,
+    "prs_opened": 0,
+    "issues_created": 0,
+    "issues_completed": 1,
+    "activity_total": 2
   },
   "generated_at": "2026-09-01T00:09:22+09:00"
 }
