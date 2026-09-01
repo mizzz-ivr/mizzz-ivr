@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-09-01T21:45:43Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-09-01T23:19:30Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,9 +17,9 @@
   "activity_total": 6,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 31,
-    "events": 18,
-    "last_activity_at": "2026-09-01T21:45:43Z",
+    "score": 32,
+    "events": 19,
+    "last_activity_at": "2026-09-01T23:19:30Z",
     "share": 97,
     "stack": [
       "TypeScript",
@@ -131,6 +131,13 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "PR merged #366",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-01T23:19:30Z"
+    },
+    {
       "label": "ISSUE",
       "repo": "ivRooom/Herta",
       "title": "Opened issue #363",
@@ -150,16 +157,9 @@
       "title": "Opened PR #366",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-09-01T18:19:12Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Reopened issue #362",
-      "url": "https://github.com/ivRooom/Herta/issues/362",
-      "at": "2026-09-01T18:18:59Z"
     }
   ],
-  "generated_at": "2026-09-02T08:15:23+09:00",
+  "generated_at": "2026-09-02T08:20:27+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
