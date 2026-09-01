@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-01T23:33:13Z"
+    "last_activity_at": "2026-09-01T23:44:38Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,10 +17,10 @@
   "activity_total": 11,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 32,
-    "events": 19,
-    "last_activity_at": "2026-09-01T23:19:30Z",
-    "share": 76,
+    "score": 41,
+    "events": 23,
+    "last_activity_at": "2026-09-01T23:44:38Z",
+    "share": 80,
     "stack": [
       "TypeScript",
       "Shell",
@@ -131,35 +131,35 @@
   ],
   "activity_stream": [
     {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-mcmod",
-      "title": "Opened PR #6",
-      "url": "https://github.com/ivRooom/ivrm-mcmod",
-      "at": "2026-09-01T23:22:42Z"
-    },
-    {
-      "label": "PR",
+      "label": "ISSUE",
       "repo": "ivRooom/Herta",
-      "title": "PR merged #366",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-01T23:19:30Z"
+      "title": "Closed issue #369",
+      "url": "https://github.com/ivRooom/Herta/issues/369",
+      "at": "2026-09-01T23:44:38Z"
     },
     {
       "label": "ISSUE",
       "repo": "ivRooom/Herta",
-      "title": "Opened issue #363",
-      "url": "https://github.com/ivRooom/Herta/issues/363",
-      "at": "2026-09-01T21:45:43Z"
+      "title": "Opened issue #369",
+      "url": "https://github.com/ivRooom/Herta/issues/369",
+      "at": "2026-09-01T23:44:33Z"
     },
     {
       "label": "ISSUE",
       "repo": "ivRooom/Herta",
-      "title": "Opened issue #362",
-      "url": "https://github.com/ivRooom/Herta/issues/362",
-      "at": "2026-09-01T21:08:46Z"
+      "title": "Opened issue #368",
+      "url": "https://github.com/ivRooom/Herta/issues/368",
+      "at": "2026-09-01T23:44:28Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Opened issue #367",
+      "url": "https://github.com/ivRooom/Herta/issues/367",
+      "at": "2026-09-01T23:44:15Z"
     }
   ],
-  "generated_at": "2026-09-02T08:40:20+09:00",
+  "generated_at": "2026-09-02T08:45:21+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
