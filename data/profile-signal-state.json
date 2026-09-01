@@ -20,7 +20,7 @@
     "score": 13,
     "events": 10,
     "last_activity_at": "2026-09-01T00:05:45Z",
-    "share": 41,
+    "share": 39,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -183,7 +183,7 @@
       "at": "2026-08-31T23:43:37Z"
     }
   ],
-  "generated_at": "2026-09-01T09:25:20+09:00",
+  "generated_at": "2026-09-01T09:30:34+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
