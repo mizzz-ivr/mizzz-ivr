@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-01T01:55:34Z"
+    "last_activity_at": "2026-09-01T02:54:15Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -20,7 +20,7 @@
     "score": 22,
     "events": 19,
     "last_activity_at": "2026-09-01T01:55:34Z",
-    "share": 47,
+    "share": 45,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -156,6 +156,20 @@
   "activity_stream": [
     {
       "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-09-01T02:54:15Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "PR merged #361",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-01T02:54:14Z"
+    },
+    {
+      "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "1 commit pushed to main",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
@@ -167,23 +181,9 @@
       "title": "PR merged #112",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-09-01T00:05:45Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to feat/issue-68-mc-main-safe-lifecycle",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-08-31T23:59:13Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to docs/issue-354-production-acceptance-refresh",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-08-31T23:58:58Z"
     }
   ],
-  "generated_at": "2026-09-01T11:50:22+09:00",
+  "generated_at": "2026-09-01T11:55:23+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
