@@ -5,7 +5,7 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
+    "commits": 6,
     "prs_opened": 2,
     "issues_created": 3,
     "issues_completed": 0
@@ -14,38 +14,38 @@
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "fix(ai): detailed Discord replyを安全に1 messageへ収束 (#365)  Closes #362 Related: #354 Related: #363",
-      "url": "https://github.com/ivRooom/Herta/commit/33e7d6d84254a75ccfb94d0ce3bc7bb1475d4a21",
-      "at": "2026-09-02T03:15:03.000+09:00"
+      "title": "Merge pull request #366 from ivRooom/feat/ai-discord-typing-indicator",
+      "url": "https://github.com/ivRooom/Herta/commit/d087f91fbbcdbddcca3eb3beedb5cc7b9c8ddf1a",
+      "at": "2026-09-02T08:19:29.000+09:00"
     },
     {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "PR #366 feat(ai): verified Discord AI request中にtypingを表示",
-      "url": "https://github.com/ivRooom/Herta/pull/366",
-      "at": "2026-09-01T18:19:12Z"
+      "title": "style(ai): typing indicator testをPrettier整形",
+      "url": "https://github.com/ivRooom/Herta/commit/c92c3263492e291c7a74edd79ba55c992e996c89",
+      "at": "2026-09-02T03:21:47.000+09:00"
     },
     {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "PR #365 fix(ai): detailed Discord replyを安全に1 messageへ収束",
-      "url": "https://github.com/ivRooom/Herta/pull/365",
-      "at": "2026-09-01T18:03:37Z"
+      "title": "feat(ai): verified request中だけtypingを表示",
+      "url": "https://github.com/ivRooom/Herta/commit/bebcb9aea34f0ab878d4db2304fcf79839110acd",
+      "at": "2026-09-02T03:18:29.000+09:00"
     },
     {
-      "type": "issue",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "Issue #364 chore: accidental placeholder (closed)",
-      "url": "https://github.com/ivRooom/Herta/issues/364",
-      "at": "2026-09-01T18:03:17Z"
+      "title": "test(ai): typing candidateとlifecycleを固定",
+      "url": "https://github.com/ivRooom/Herta/commit/54947748d431f87e19f3e8cfc5e8fe789c327c28",
+      "at": "2026-09-02T03:17:55.000+09:00"
     },
     {
-      "type": "issue",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "Issue #363 feat(ai): Discord AI処理中にtyping indicatorを表示する",
-      "url": "https://github.com/ivRooom/Herta/issues/363",
-      "at": "2026-09-01T17:53:52Z"
+      "title": "feat(ai): typing indicator lifecycleを追加",
+      "url": "https://github.com/ivRooom/Herta/commit/336b9799ad6c88c93addeeaba9e06ece195e5183",
+      "at": "2026-09-02T03:17:30.000+09:00"
     }
   ],
-  "generated_at": "2026-09-02T03:36:49+09:00"
+  "generated_at": "2026-09-02T08:22:12+09:00"
 }
