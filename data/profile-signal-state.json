@@ -82,8 +82,8 @@
   "now_building": [
     {
       "repo": "ivRooom/ivrm-dashboard",
-      "score": 29,
-      "events": 23,
+      "score": 30,
+      "events": 24,
       "last_activity_at": "2026-09-01T03:59:22Z",
       "share": 48,
       "ci": {
@@ -183,7 +183,7 @@
       "at": "2026-09-01T03:53:22Z"
     }
   ],
-  "generated_at": "2026-09-01T18:05:19+09:00",
+  "generated_at": "2026-09-01T18:09:13+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
