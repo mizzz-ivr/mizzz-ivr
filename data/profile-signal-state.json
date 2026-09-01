@@ -17,10 +17,10 @@
   "activity_total": 8,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 13,
-    "events": 10,
+    "score": 16,
+    "events": 13,
     "last_activity_at": "2026-09-01T00:05:45Z",
-    "share": 39,
+    "share": 44,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -82,10 +82,10 @@
   "now_building": [
     {
       "repo": "ivRooom/ivrm-dashboard",
-      "score": 12,
-      "events": 9,
+      "score": 16,
+      "events": 13,
       "last_activity_at": "2026-09-01T00:05:45Z",
-      "share": 39,
+      "share": 44,
       "ci": {
         "label": "MIXED",
         "symbol": "◐",
@@ -106,10 +106,10 @@
     },
     {
       "repo": "ivRooom/Herta",
-      "score": 11,
-      "events": 6,
+      "score": 12,
+      "events": 7,
       "last_activity_at": "2026-08-31T23:43:45Z",
-      "share": 35,
+      "share": 33,
       "ci": {
         "label": "MIXED",
         "symbol": "◐",
@@ -133,7 +133,7 @@
       "score": 7,
       "events": 4,
       "last_activity_at": "2026-08-31T16:41:37Z",
-      "share": 23,
+      "share": 19,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -183,7 +183,7 @@
       "at": "2026-08-31T23:43:37Z"
     }
   ],
-  "generated_at": "2026-09-01T09:35:24+09:00",
+  "generated_at": "2026-09-01T09:39:55+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
