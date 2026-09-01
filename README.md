@@ -81,7 +81,7 @@
 <!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
 ## NOW BUILDING // Active repositories
 
-<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>48% weighted · WATCH · CI pass rate 70%<br/>last activity · 12:59 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>31% weighted · WATCH · CI pass rate 88%<br/>last activity · 12:51 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/ivRooom/ivrm-status">ivRooom/ivrm-status</a></strong><br/><sub>11% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 01:41 JST</sub></td></tr></table>
+<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>49% weighted · WATCH · CI pass rate 70%<br/>last activity · 20:10 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>31% weighted · WATCH · CI pass rate 88%<br/>last activity · 19:56 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/ivRooom/ivrm-status">ivRooom/ivrm-status</a></strong><br/><sub>11% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 01:41 JST</sub></td></tr></table>
 <!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
 
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->

@@ -82,10 +82,10 @@
   "now_building": [
     {
       "repo": "ivRooom/ivrm-dashboard",
-      "score": 30,
-      "events": 24,
-      "last_activity_at": "2026-09-01T03:59:22Z",
-      "share": 48,
+      "score": 32,
+      "events": 26,
+      "last_activity_at": "2026-09-01T11:10:45Z",
+      "share": 49,
       "ci": {
         "label": "MIXED",
         "symbol": "◐",
@@ -106,9 +106,9 @@
     },
     {
       "repo": "ivRooom/Herta",
-      "score": 19,
-      "events": 14,
-      "last_activity_at": "2026-09-01T03:51:46Z",
+      "score": 20,
+      "events": 15,
+      "last_activity_at": "2026-09-01T10:56:36Z",
       "share": 31,
       "ci": {
         "label": "MIXED",
@@ -183,7 +183,7 @@
       "at": "2026-09-01T03:54:44Z"
     }
   ],
-  "generated_at": "2026-09-01T20:45:20+09:00",
+  "generated_at": "2026-09-01T20:48:51+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
