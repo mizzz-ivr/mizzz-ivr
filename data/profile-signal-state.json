@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-01T12:45:17Z"
+    "last_activity_at": "2026-09-01T12:47:19Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,10 +17,10 @@
   "activity_total": 5,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 36,
-    "events": 27,
-    "last_activity_at": "2026-09-01T12:45:17Z",
-    "share": 52,
+    "score": 38,
+    "events": 29,
+    "last_activity_at": "2026-09-01T12:47:19Z",
+    "share": 54,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -157,6 +157,13 @@
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #114",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-09-01T12:46:40Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
       "title": "Opened PR #114",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-09-01T12:45:17Z"
@@ -174,16 +181,9 @@
       "title": "PR merged #39",
       "url": "https://github.com/mizzz-ivr/ivmz-home",
       "at": "2026-09-01T03:58:33Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to main",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-09-01T03:54:47Z"
     }
   ],
-  "generated_at": "2026-09-01T21:45:30+09:00",
+  "generated_at": "2026-09-01T21:50:19+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
