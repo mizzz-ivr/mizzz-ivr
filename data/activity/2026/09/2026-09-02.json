@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 1,
+    "commits": 1,
+    "prs_opened": 2,
     "issues_created": 3,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(ai): detailed Discord replyを安全に1 messageへ収束 (#365)  Closes #362 Related: #354 Related: #363",
+      "url": "https://github.com/ivRooom/Herta/commit/33e7d6d84254a75ccfb94d0ce3bc7bb1475d4a21",
+      "at": "2026-09-02T03:15:03.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #366 feat(ai): verified Discord AI request中にtypingを表示",
+      "url": "https://github.com/ivRooom/Herta/pull/366",
+      "at": "2026-09-01T18:19:12Z"
+    },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
@@ -31,14 +45,7 @@
       "title": "Issue #363 feat(ai): Discord AI処理中にtyping indicatorを表示する",
       "url": "https://github.com/ivRooom/Herta/issues/363",
       "at": "2026-09-01T17:53:52Z"
-    },
-    {
-      "type": "issue",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #362 fix(ai): detailed Discord replyが1900 UTF-16上限を超えるとoutput_too_largeになる",
-      "url": "https://github.com/ivRooom/Herta/issues/362",
-      "at": "2026-09-01T17:53:38Z"
     }
   ],
-  "generated_at": "2026-09-02T03:09:15+09:00"
+  "generated_at": "2026-09-02T03:36:49+09:00"
 }
