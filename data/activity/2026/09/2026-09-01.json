@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 0,
+    "commits": 4,
+    "prs_opened": 2,
     "issues_created": 0,
-    "issues_completed": 1
+    "issues_completed": 2
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Issue #68 Phase B-1: mc-main Safe Lifecycle Execution Bridge  Safe lifecycle execution bridge fo",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/6a95901a9b1e3862d8eb0e29c6a5b4633cc98d70",
+      "at": "2026-09-01T09:05:45.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "Merge pull request #359 from ivRooom/feat/ai-followup-persona",
+      "url": "https://github.com/ivRooom/Herta/commit/7db6c96f71e618c3ab9570960b8d5cf3cdfd30c5",
+      "at": "2026-09-01T07:08:00.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "test(ai): align runtime persona assertion",
+      "url": "https://github.com/ivRooom/Herta/commit/4cb85a6619f522d728fa829d6b506f56f41d1d8d",
+      "at": "2026-09-01T03:08:09.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-status",
@@ -19,12 +40,12 @@
       "at": "2026-09-01T00:05:50.000+09:00"
     },
     {
-      "type": "done",
-      "repo": "ivRooom/ivrm-status",
-      "title": "Issue #36 Status Portal UI Renewal: public status UXを再設計しAdmin CMS移行境界を整理する",
-      "url": "https://github.com/ivRooom/ivrm-status/issues/36",
-      "at": "2026-08-31T15:05:52Z"
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #361 docs(ai): #354 production acceptanceを#359後の境界へ更新",
+      "url": "https://github.com/ivRooom/Herta/pull/361",
+      "at": "2026-08-31T23:37:51Z"
     }
   ],
-  "generated_at": "2026-09-01T00:09:22+09:00"
+  "generated_at": "2026-09-01T09:09:14+09:00"
 }
