@@ -10,11 +10,11 @@
     "last_activity_at": "2026-09-01T11:10:45Z"
   },
   "code_weather": {
-    "label": "ACTIVE",
-    "icon": "🌤️"
+    "label": "LIGHT CODING",
+    "icon": "☁️"
   },
   "streak": 8,
-  "activity_total": 13,
+  "activity_total": 5,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
     "score": 32,
@@ -73,8 +73,8 @@
     },
     {
       "date": "2026-09-01",
-      "total": 13,
-      "commits": 8,
+      "total": 5,
+      "commits": 0,
       "prs": 3,
       "issues": 2
     }
@@ -183,7 +183,7 @@
       "at": "2026-09-01T03:54:44Z"
     }
   ],
-  "generated_at": "2026-09-01T21:05:20+09:00",
+  "generated_at": "2026-09-01T21:09:17+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
@@ -213,13 +213,13 @@
         "active_days": 2
       },
       "metrics": {
-        "commits": 28,
+        "commits": 20,
         "prs_opened": 10,
         "issues_created": 3,
         "issues_completed": 3,
-        "activity_total": 44
+        "activity_total": 36
       },
-      "generated_at": "2026-09-01T15:09:15+09:00"
+      "generated_at": "2026-09-01T21:09:17+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -234,13 +234,13 @@
         "active_days": 1
       },
       "metrics": {
-        "commits": 8,
+        "commits": 0,
         "prs_opened": 3,
         "issues_created": 0,
         "issues_completed": 2,
-        "activity_total": 13
+        "activity_total": 5
       },
-      "generated_at": "2026-09-01T15:09:15+09:00"
+      "generated_at": "2026-09-01T21:09:17+09:00"
     },
     "achievements": [
       {
@@ -292,11 +292,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-09-01",
       "metrics": {
-        "commits": 1596,
+        "commits": 1588,
         "prs_opened": 168,
         "issues_created": 85,
         "issues_completed": 61,
-        "activity_total": 1910
+        "activity_total": 1902
       }
     },
     "lifetime": {
@@ -305,11 +305,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-09-01",
       "metrics": {
-        "commits": 1596,
+        "commits": 1588,
         "prs_opened": 168,
         "issues_created": 85,
         "issues_completed": 61,
-        "activity_total": 1910
+        "activity_total": 1902
       }
     }
   }

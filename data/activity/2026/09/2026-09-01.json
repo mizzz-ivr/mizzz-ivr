@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 8,
+    "commits": 0,
     "prs_opened": 3,
     "issues_created": 0,
     "issues_completed": 2
   },
   "activity": [
     {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Merge pull request #39 from mizzz-ivr/ops/issue-38-production-git-sync  docs(ops): document Prod",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/dde4288ec18e7a2db44c454e4750803eaa2afacc",
-      "at": "2026-09-01T12:58:32.000+09:00"
-    },
-    {
-      "type": "commit",
+      "type": "pr",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Issue #68: mc-main claimのPL/pgSQL列名衝突を修正  Production rollback-only contract testで検出したclaim_mc_ma",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/dbf1d5165b5d750136f60154592ab20eb0dc21ba",
-      "at": "2026-09-01T12:54:44.000+09:00"
+      "title": "PR #113 Issue #68: mc-main claimのPL/pgSQL列名衝突を修正",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/113",
+      "at": "2026-09-01T03:53:22Z"
     },
     {
-      "type": "commit",
+      "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "docs(ai): #354 production acceptanceを#359後の境界へ更新 (#361)  * docs(ai): #354 production acceptanceを",
-      "url": "https://github.com/ivRooom/Herta/commit/e170a7a87d09f0dcff597dc86f2ac2a5ad58ce2a",
-      "at": "2026-09-01T11:54:14.000+09:00"
+      "title": "PR #361 docs(ai): #354 production acceptanceを#359後の境界へ更新",
+      "url": "https://github.com/ivRooom/Herta/pull/361",
+      "at": "2026-08-31T23:37:51Z"
     },
     {
-      "type": "commit",
+      "type": "pr",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Issue #68 Phase B-1: mc-main Safe Lifecycle Execution Bridge  Safe lifecycle execution bridge fo",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/6a95901a9b1e3862d8eb0e29c6a5b4633cc98d70",
-      "at": "2026-09-01T09:05:45.000+09:00"
+      "title": "PR #112 Issue #68 Phase B-1: mc-main Safe Lifecycle Execution Bridge",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/112",
+      "at": "2026-08-31T22:32:48Z"
     },
     {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "docs(ops): recheck Netlify after credit reset",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/b694e9c2446d2dad48b534734cea4dd10b8ac49c",
-      "at": "2026-09-01T08:25:48.000+09:00"
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #358 feat(ai): Discord返信継続とHertaらしい会話ペルソナを追加する",
+      "url": "https://github.com/ivRooom/Herta/issues/358",
+      "at": "2026-08-31T22:08:02Z"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/ivrm-status",
+      "title": "Issue #36 Status Portal UI Renewal: public status UXを再設計しAdmin CMS移行境界を整理する",
+      "url": "https://github.com/ivRooom/ivrm-status/issues/36",
+      "at": "2026-08-31T15:05:52Z"
     }
   ],
-  "generated_at": "2026-09-01T15:09:15+09:00"
+  "generated_at": "2026-09-01T21:09:17+09:00"
 }
