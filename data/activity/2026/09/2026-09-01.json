@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 4,
+    "commits": 5,
     "prs_opened": 2,
     "issues_created": 0,
     "issues_completed": 2
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "docs(ai): #354 production acceptanceを#359後の境界へ更新 (#361)  * docs(ai): #354 production acceptanceを",
+      "url": "https://github.com/ivRooom/Herta/commit/e170a7a87d09f0dcff597dc86f2ac2a5ad58ce2a",
+      "at": "2026-09-01T11:54:14.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
@@ -38,14 +45,7 @@
       "title": "Merge pull request #37 from ivRooom/feat/status-ui-refresh-admin-cms",
       "url": "https://github.com/ivRooom/ivrm-status/commit/cb7308d3e7b274abf4fa83d3d726c514adbfe6c4",
       "at": "2026-09-01T00:05:50.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #361 docs(ai): #354 production acceptanceを#359後の境界へ更新",
-      "url": "https://github.com/ivRooom/Herta/pull/361",
-      "at": "2026-08-31T23:37:51Z"
     }
   ],
-  "generated_at": "2026-09-01T09:09:14+09:00"
+  "generated_at": "2026-09-01T12:09:14+09:00"
 }
