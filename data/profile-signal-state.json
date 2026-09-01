@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-01T21:08:46Z"
+    "last_activity_at": "2026-09-01T21:45:43Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,10 +17,10 @@
   "activity_total": 6,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 26,
-    "events": 14,
-    "last_activity_at": "2026-09-01T21:08:46Z",
-    "share": 96,
+    "score": 28,
+    "events": 15,
+    "last_activity_at": "2026-09-01T21:45:43Z",
+    "share": 97,
     "stack": [
       "TypeScript",
       "Shell",
@@ -133,6 +133,13 @@
     {
       "label": "ISSUE",
       "repo": "ivRooom/Herta",
+      "title": "Opened issue #363",
+      "url": "https://github.com/ivRooom/Herta/issues/363",
+      "at": "2026-09-01T21:45:43Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
       "title": "Opened issue #362",
       "url": "https://github.com/ivRooom/Herta/issues/362",
       "at": "2026-09-01T21:08:46Z"
@@ -150,16 +157,9 @@
       "title": "Reopened issue #362",
       "url": "https://github.com/ivRooom/Herta/issues/362",
       "at": "2026-09-01T18:18:59Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Closed issue #362",
-      "url": "https://github.com/ivRooom/Herta/issues/362",
-      "at": "2026-09-01T18:15:06Z"
     }
   ],
-  "generated_at": "2026-09-02T06:45:31+09:00",
+  "generated_at": "2026-09-02T06:50:18+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
