@@ -17,10 +17,10 @@
   "activity_total": 13,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 30,
-    "events": 24,
+    "score": 31,
+    "events": 25,
     "last_activity_at": "2026-09-01T03:59:22Z",
-    "share": 48,
+    "share": 49,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -169,21 +169,21 @@
       "at": "2026-09-01T03:58:33Z"
     },
     {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-09-01T03:54:47Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "PR merged #113",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-09-01T03:54:44Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #113",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-09-01T03:53:22Z"
     }
   ],
-  "generated_at": "2026-09-01T18:35:17+09:00",
+  "generated_at": "2026-09-01T18:40:18+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",

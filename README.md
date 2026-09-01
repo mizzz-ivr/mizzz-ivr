@@ -53,7 +53,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>weighted activity 48% · score 30 · 24 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>weighted activity 49% · score 31 · 25 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>PLpgSQL</code> <code>CSS</code> <code>Python</code></td>
   </tr>
 </table>
@@ -91,8 +91,8 @@
   <tbody>
     <tr><td width="10%"><code>12:58</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/commits">mainへ1コミットをPush</a></td></tr>
     <tr><td width="10%"><code>12:58</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home">PR #39をマージ</a></td></tr>
+    <tr><td width="10%"><code>12:54</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong> — <a href="https://github.com/ivRooom/ivrm-dashboard/commits">mainへ1コミットをPush</a></td></tr>
     <tr><td width="10%"><code>12:54</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong> — <a href="https://github.com/ivRooom/ivrm-dashboard">PR #113をマージ</a></td></tr>
-    <tr><td width="10%"><code>12:53</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong> — <a href="https://github.com/ivRooom/ivrm-dashboard">PR #113を作成</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->
