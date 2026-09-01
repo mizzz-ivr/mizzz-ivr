@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-01T23:19:30Z"
+    "last_activity_at": "2026-09-01T23:22:42Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -20,7 +20,7 @@
     "score": 32,
     "events": 19,
     "last_activity_at": "2026-09-01T23:19:30Z",
-    "share": 97,
+    "share": 86,
     "stack": [
       "TypeScript",
       "Shell",
@@ -132,6 +132,13 @@
   "activity_stream": [
     {
       "label": "PR",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "Opened PR #6",
+      "url": "https://github.com/ivRooom/ivrm-mcmod",
+      "at": "2026-09-01T23:22:42Z"
+    },
+    {
+      "label": "PR",
       "repo": "ivRooom/Herta",
       "title": "PR merged #366",
       "url": "https://github.com/ivRooom/Herta",
@@ -150,16 +157,9 @@
       "title": "Opened issue #362",
       "url": "https://github.com/ivRooom/Herta/issues/362",
       "at": "2026-09-01T21:08:46Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "Opened PR #366",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-01T18:19:12Z"
     }
   ],
-  "generated_at": "2026-09-02T08:22:12+09:00",
+  "generated_at": "2026-09-02T08:25:17+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
