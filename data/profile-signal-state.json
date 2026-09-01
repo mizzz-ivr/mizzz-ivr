@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-01T20:18:55Z"
+    "last_activity_at": "2026-09-01T21:08:46Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,9 +17,9 @@
   "activity_total": 6,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 24,
-    "events": 13,
-    "last_activity_at": "2026-09-01T20:18:55Z",
+    "score": 26,
+    "events": 14,
+    "last_activity_at": "2026-09-01T21:08:46Z",
     "share": 96,
     "stack": [
       "TypeScript",
@@ -82,9 +82,9 @@
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 22,
-      "events": 11,
-      "last_activity_at": "2026-09-01T18:19:33Z",
+      "score": 26,
+      "events": 14,
+      "last_activity_at": "2026-09-01T21:08:46Z",
       "share": 96,
       "ci": {
         "label": "MIXED",
@@ -131,6 +131,13 @@
   ],
   "activity_stream": [
     {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Opened issue #362",
+      "url": "https://github.com/ivRooom/Herta/issues/362",
+      "at": "2026-09-01T21:08:46Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/Herta",
       "title": "Opened PR #366",
@@ -150,16 +157,9 @@
       "title": "Closed issue #362",
       "url": "https://github.com/ivRooom/Herta/issues/362",
       "at": "2026-09-01T18:15:06Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR merged #365",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-01T18:15:04Z"
     }
   ],
-  "generated_at": "2026-09-02T06:05:25+09:00",
+  "generated_at": "2026-09-02T06:09:15+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
