@@ -155,6 +155,13 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-09-01T03:58:34Z"
+    },
+    {
       "label": "PR",
       "repo": "mizzz-ivr/ivmz-home",
       "title": "PR merged #39",
@@ -174,16 +181,9 @@
       "title": "Opened PR #113",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-09-01T03:53:22Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to main",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-09-01T02:54:15Z"
     }
   ],
-  "generated_at": "2026-09-01T16:40:29+09:00",
+  "generated_at": "2026-09-01T16:45:18+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
