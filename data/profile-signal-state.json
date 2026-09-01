@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-01T18:07:39Z"
+    "last_activity_at": "2026-09-01T18:15:06Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,10 +17,10 @@
   "activity_total": 4,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 12,
-    "events": 6,
-    "last_activity_at": "2026-09-01T18:07:39Z",
-    "share": 92,
+    "score": 16,
+    "events": 8,
+    "last_activity_at": "2026-09-01T18:15:06Z",
+    "share": 94,
     "stack": [
       "TypeScript",
       "Shell",
@@ -131,6 +131,20 @@
   ],
   "activity_stream": [
     {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Closed issue #362",
+      "url": "https://github.com/ivRooom/Herta/issues/362",
+      "at": "2026-09-01T18:15:06Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "PR merged #365",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-01T18:15:04Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/Herta",
       "title": "Opened PR #365",
@@ -143,23 +157,9 @@
       "title": "Closed issue #364",
       "url": "https://github.com/ivRooom/Herta/issues/364",
       "at": "2026-09-01T18:03:24Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Opened issue #364",
-      "url": "https://github.com/ivRooom/Herta/issues/364",
-      "at": "2026-09-01T18:03:19Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Issue assigned #363",
-      "url": "https://github.com/ivRooom/Herta/issues/363",
-      "at": "2026-09-01T17:53:54Z"
     }
   ],
-  "generated_at": "2026-09-02T03:10:21+09:00",
+  "generated_at": "2026-09-02T03:15:26+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
