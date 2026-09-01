@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-01T17:53:54Z"
+    "last_activity_at": "2026-09-01T17:59:16Z"
   },
   "code_weather": {
     "label": "REST DAY",
@@ -20,7 +20,7 @@
     "score": 2,
     "events": 2,
     "last_activity_at": "2026-09-01T17:53:54Z",
-    "share": 100,
+    "share": 67,
     "stack": [
       "TypeScript",
       "Shell",
@@ -96,7 +96,7 @@
       "at": "2026-09-01T17:53:39Z"
     }
   ],
-  "generated_at": "2026-09-02T02:55:21+09:00",
+  "generated_at": "2026-09-02T03:00:52+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
