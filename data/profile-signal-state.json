@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-01T02:54:15Z"
+    "last_activity_at": "2026-09-01T03:54:54Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,10 +17,10 @@
   "activity_total": 9,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 22,
-    "events": 19,
-    "last_activity_at": "2026-09-01T01:55:34Z",
-    "share": 45,
+    "score": 27,
+    "events": 21,
+    "last_activity_at": "2026-09-01T03:54:44Z",
+    "share": 48,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -155,6 +155,20 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #113",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-09-01T03:54:44Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #113",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-09-01T03:53:22Z"
+    },
+    {
       "label": "PUSH",
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to main",
@@ -167,23 +181,9 @@
       "title": "PR merged #361",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-09-01T02:54:14Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to main",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-09-01T00:05:46Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #112",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-09-01T00:05:45Z"
     }
   ],
-  "generated_at": "2026-09-01T12:50:21+09:00",
+  "generated_at": "2026-09-01T12:55:21+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
