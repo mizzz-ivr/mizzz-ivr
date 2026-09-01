@@ -5,17 +5,29 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-09-01T12:47:19Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-09-01T17:53:54Z"
   },
   "code_weather": {
     "label": "REST DAY",
     "icon": "🌙"
   },
-  "streak": 0,
+  "streak": 9,
   "activity_total": 0,
-  "current_focus": null,
+  "current_focus": {
+    "repo": "ivRooom/Herta",
+    "score": 2,
+    "events": 2,
+    "last_activity_at": "2026-09-01T17:53:54Z",
+    "share": 100,
+    "stack": [
+      "TypeScript",
+      "Shell",
+      "Dockerfile",
+      "CSS"
+    ]
+  },
   "dev_pulse": [
     {
       "date": "2026-08-27",
@@ -68,8 +80,23 @@
     }
   ],
   "now_building": [],
-  "activity_stream": [],
-  "generated_at": "2026-09-02T02:50:22+09:00",
+  "activity_stream": [
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Issue assigned #363",
+      "url": "https://github.com/ivRooom/Herta/issues/363",
+      "at": "2026-09-01T17:53:54Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Issue assigned #362",
+      "url": "https://github.com/ivRooom/Herta/issues/362",
+      "at": "2026-09-01T17:53:39Z"
+    }
+  ],
+  "generated_at": "2026-09-02T02:55:21+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
