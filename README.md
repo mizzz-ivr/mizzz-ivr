@@ -26,7 +26,7 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 10:21 JST</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 10:55 JST</sub></td>
     <td width="34%" align="center"><strong>🌤️ ACTIVE</strong><br/><sub>8 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 8 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
@@ -53,7 +53,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>weighted activity 45% · score 20 · 17 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>weighted activity 46% · score 21 · 18 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>PLpgSQL</code> <code>CSS</code> <code>Python</code></td>
   </tr>
 </table>
@@ -91,8 +91,8 @@
   <tbody>
     <tr><td width="10%"><code>09:05</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong> — <a href="https://github.com/ivRooom/ivrm-dashboard">PR #112をマージ</a></td></tr>
     <tr><td width="10%"><code>08:59</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong> — <a href="https://github.com/ivRooom/ivrm-dashboard/commits">feat/issue-68-mc-main-safe-lifecycleへ1コミットをPush</a></td></tr>
+    <tr><td width="10%"><code>08:58</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">docs/issue-354-production-acceptance-refreshへ1コミットをPush</a></td></tr>
     <tr><td width="10%"><code>08:56</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong> — <a href="https://github.com/ivRooom/ivrm-dashboard/commits">feat/issue-68-mc-main-safe-lifecycleへ1コミットをPush</a></td></tr>
-    <tr><td width="10%"><code>08:49</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">docs/issue-354-production-acceptance-refreshへ1コミットをPush</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->
