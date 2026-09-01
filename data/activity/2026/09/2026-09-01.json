@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 5,
-    "prs_opened": 2,
+    "commits": 8,
+    "prs_opened": 3,
     "issues_created": 0,
     "issues_completed": 2
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Merge pull request #39 from mizzz-ivr/ops/issue-38-production-git-sync  docs(ops): document Prod",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/dde4288ec18e7a2db44c454e4750803eaa2afacc",
+      "at": "2026-09-01T12:58:32.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Issue #68: mc-main claimのPL/pgSQL列名衝突を修正  Production rollback-only contract testで検出したclaim_mc_ma",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/dbf1d5165b5d750136f60154592ab20eb0dc21ba",
+      "at": "2026-09-01T12:54:44.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -27,25 +41,11 @@
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "Merge pull request #359 from ivRooom/feat/ai-followup-persona",
-      "url": "https://github.com/ivRooom/Herta/commit/7db6c96f71e618c3ab9570960b8d5cf3cdfd30c5",
-      "at": "2026-09-01T07:08:00.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "test(ai): align runtime persona assertion",
-      "url": "https://github.com/ivRooom/Herta/commit/4cb85a6619f522d728fa829d6b506f56f41d1d8d",
-      "at": "2026-09-01T03:08:09.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-status",
-      "title": "Merge pull request #37 from ivRooom/feat/status-ui-refresh-admin-cms",
-      "url": "https://github.com/ivRooom/ivrm-status/commit/cb7308d3e7b274abf4fa83d3d726c514adbfe6c4",
-      "at": "2026-09-01T00:05:50.000+09:00"
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "docs(ops): recheck Netlify after credit reset",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/b694e9c2446d2dad48b534734cea4dd10b8ac49c",
+      "at": "2026-09-01T08:25:48.000+09:00"
     }
   ],
-  "generated_at": "2026-09-01T12:09:14+09:00"
+  "generated_at": "2026-09-01T15:09:15+09:00"
 }
