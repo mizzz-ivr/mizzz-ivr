@@ -17,10 +17,10 @@
   "activity_total": 5,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 39,
-    "events": 30,
+    "score": 40,
+    "events": 31,
     "last_activity_at": "2026-09-01T12:47:19Z",
-    "share": 53,
+    "share": 54,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -169,21 +169,21 @@
       "at": "2026-09-01T12:45:17Z"
     },
     {
+      "label": "CREATE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Created branch fix/issue-68-oci-python39-compat",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-09-01T12:44:25Z"
+    },
+    {
       "label": "PUSH",
       "repo": "mizzz-ivr/ivmz-home",
       "title": "1 commit pushed to main",
       "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
       "at": "2026-09-01T03:58:34Z"
-    },
-    {
-      "label": "PR",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR merged #39",
-      "url": "https://github.com/mizzz-ivr/ivmz-home",
-      "at": "2026-09-01T03:58:33Z"
     }
   ],
-  "generated_at": "2026-09-01T22:50:32+09:00",
+  "generated_at": "2026-09-01T22:55:20+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
