@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-02T03:53:44Z"
+    "last_activity_at": "2026-09-02T03:56:36Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -20,7 +20,7 @@
     "score": 53,
     "events": 29,
     "last_activity_at": "2026-09-02T00:06:33Z",
-    "share": 77,
+    "share": 76,
     "stack": [
       "TypeScript",
       "Shell",
@@ -157,6 +157,13 @@
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #115",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-09-02T03:56:36Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
       "title": "Opened PR #115",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-09-02T03:53:44Z"
@@ -174,16 +181,9 @@
       "title": "Opened PR #370",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-09-01T23:50:35Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Closed issue #369",
-      "url": "https://github.com/ivRooom/Herta/issues/369",
-      "at": "2026-09-01T23:44:38Z"
     }
   ],
-  "generated_at": "2026-09-02T12:55:19+09:00",
+  "generated_at": "2026-09-02T13:00:38+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
