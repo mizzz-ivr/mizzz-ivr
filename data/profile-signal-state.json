@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-02T23:39:34Z"
+    "last_activity_at": "2026-09-02T23:44:11Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -16,16 +16,13 @@
   "streak": 10,
   "activity_total": 4,
   "current_focus": {
-    "repo": "ivRooom/ivrm-dashboard",
-    "score": 10,
-    "events": 6,
-    "last_activity_at": "2026-09-02T23:39:34Z",
-    "share": 40,
+    "repo": "ivRooom/ivrm-mcmod",
+    "score": 13,
+    "events": 13,
+    "last_activity_at": "2026-09-02T23:44:11Z",
+    "share": 41,
     "stack": [
-      "TypeScript",
-      "PLpgSQL",
-      "CSS",
-      "Python"
+      "Java"
     ]
   },
   "dev_pulse": [
@@ -157,6 +154,13 @@
     {
       "label": "PR",
       "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR merged #41",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-09-02T23:41:28Z"
+    },
+    {
+      "label": "PR",
+      "repo": "mizzz-ivr/ivmz-home",
       "title": "Opened PR #41",
       "url": "https://github.com/mizzz-ivr/ivmz-home",
       "at": "2026-09-02T23:21:43Z"
@@ -174,16 +178,9 @@
       "title": "Issue assigned #117",
       "url": "https://github.com/ivRooom/ivrm-dashboard/issues/117",
       "at": "2026-09-02T23:03:21Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened issue #117",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/117",
-      "at": "2026-09-02T23:03:20Z"
     }
   ],
-  "generated_at": "2026-09-03T08:40:19+09:00",
+  "generated_at": "2026-09-03T08:45:24+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
