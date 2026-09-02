@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 8,
+    "commits": 9,
     "prs_opened": 6,
     "issues_created": 6,
-    "issues_completed": 1
+    "issues_completed": 2
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(ai): Studio設定RoleメンションをAI triggerへ追加 (#370)  * feat(ai): AI trigger Role pickerを追加  * feat(",
+      "url": "https://github.com/ivRooom/Herta/commit/c90208221b93a2dd3258ea3f82ce888076bfd70c",
+      "at": "2026-09-02T13:53:32.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -35,17 +42,10 @@
     {
       "type": "done",
       "repo": "ivRooom/Herta",
-      "title": "Issue #367 fix(ai): Discord detailed conversationの12秒timeoutを30秒へ調整する",
-      "url": "https://github.com/ivRooom/Herta/issues/367",
-      "at": "2026-09-02T04:42:37Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR #115 Issue #68: Operation request gate ON状態を明示表示",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/115",
-      "at": "2026-09-02T03:53:44Z"
+      "title": "Issue #368 feat(ai): Studio設定した単一RoleメンションをDiscord AI triggerとして許可する",
+      "url": "https://github.com/ivRooom/Herta/issues/368",
+      "at": "2026-09-02T04:53:33Z"
     }
   ],
-  "generated_at": "2026-09-02T13:43:54+09:00"
+  "generated_at": "2026-09-02T15:09:14+09:00"
 }
