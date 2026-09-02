@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "date": "2026-09-02",
+  "date": "2026-09-03",
   "timezone": "Asia/Tokyo",
   "scope": "public",
   "github_login": "mizzz-ivr",
@@ -10,32 +10,13 @@
     "last_activity_at": "2026-09-02T10:44:48Z"
   },
   "code_weather": {
-    "label": "HEAVY CODING",
-    "icon": "⚡"
+    "label": "REST DAY",
+    "icon": "🌙"
   },
-  "streak": 9,
-  "activity_total": 27,
-  "current_focus": {
-    "repo": "ivRooom/Herta",
-    "score": 93,
-    "events": 57,
-    "last_activity_at": "2026-09-02T10:30:56Z",
-    "share": 63,
-    "stack": [
-      "TypeScript",
-      "Shell",
-      "Dockerfile",
-      "CSS"
-    ]
-  },
+  "streak": 0,
+  "activity_total": 0,
+  "current_focus": null,
   "dev_pulse": [
-    {
-      "date": "2026-08-27",
-      "total": 618,
-      "commits": 513,
-      "prs": 53,
-      "issues": 52
-    },
     {
       "date": "2026-08-28",
       "total": 339,
@@ -77,127 +58,32 @@
       "commits": 9,
       "prs": 8,
       "issues": 10
+    },
+    {
+      "date": "2026-09-03",
+      "total": 0,
+      "commits": 0,
+      "prs": 0,
+      "issues": 0
     }
   ],
-  "now_building": [
-    {
-      "repo": "ivRooom/Herta",
-      "score": 91,
-      "events": 55,
-      "last_activity_at": "2026-09-02T10:30:56Z",
-      "share": 63,
-      "ci": {
-        "label": "ATTENTION",
-        "symbol": "!",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 7,
-        "passed": 5,
-        "failed": 2,
-        "ignored": 3,
-        "pass_rate": 71,
-        "latest_conclusion": "failure"
-      },
-      "health": {
-        "label": "ATTENTION",
-        "symbol": "!",
-        "reason": "recent CI needs attention"
-      }
-    },
-    {
-      "repo": "ivRooom/ivrm-mcmod",
-      "score": 43,
-      "events": 40,
-      "last_activity_at": "2026-09-02T10:44:48Z",
-      "share": 30,
-      "ci": {
-        "label": "MIXED",
-        "symbol": "◐",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 10,
-        "passed": 7,
-        "failed": 3,
-        "ignored": 0,
-        "pass_rate": 70,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "WATCH",
-        "symbol": "◐",
-        "reason": "recent CI is mixed"
-      }
-    },
-    {
-      "repo": "ivRooom/ivrm-dashboard",
-      "score": 10,
-      "events": 7,
-      "last_activity_at": "2026-09-02T09:54:11Z",
-      "share": 7,
-      "ci": {
-        "label": "STABLE",
-        "symbol": "●",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 10,
-        "passed": 9,
-        "failed": 1,
-        "ignored": 0,
-        "pass_rate": 90,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "HEALTHY",
-        "symbol": "●",
-        "reason": "active with passing recent CI"
-      }
-    }
-  ],
-  "activity_stream": [
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "Opened PR #375",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-02T10:29:56Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "Opened PR #374",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-02T10:25:42Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Opened issue #373",
-      "url": "https://github.com/ivRooom/Herta/issues/373",
-      "at": "2026-09-02T10:19:44Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Opened issue #372",
-      "url": "https://github.com/ivRooom/Herta/issues/372",
-      "at": "2026-09-02T10:19:29Z"
-    }
-  ],
-  "generated_at": "2026-09-02T23:55:17+09:00",
+  "now_building": [],
+  "activity_stream": [],
+  "generated_at": "2026-09-03T00:08:08+09:00",
   "ci_signal": {
-    "label": "ATTENTION",
-    "symbol": "!",
+    "label": "NO SIGNAL",
+    "symbol": "○",
     "window_days": 7,
-    "evaluated": 27,
-    "passed": 21,
-    "failed": 6,
-    "ignored": 3,
-    "pass_rate": 78,
-    "repos_with_signal": 3
+    "evaluated": 0,
+    "passed": 0,
+    "failed": 0,
+    "ignored": 0,
+    "pass_rate": null,
+    "repos_with_signal": 0
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
-    "tracked_days": 9,
+    "tracked_days": 10,
     "active_days": 9,
     "longest_streak": 9,
     "weekly": {
@@ -208,8 +94,8 @@
       "github_login": "mizzz-ivr",
       "coverage": {
         "start_date": "2026-08-31",
-        "end_date": "2026-09-02",
-        "tracked_days": 3,
+        "end_date": "2026-09-03",
+        "tracked_days": 4,
         "active_days": 3
       },
       "metrics": {
@@ -219,7 +105,7 @@
         "issues_completed": 5,
         "activity_total": 73
       },
-      "generated_at": "2026-09-02T20:12:49+09:00"
+      "generated_at": "2026-09-03T00:08:08+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -229,8 +115,8 @@
       "github_login": "mizzz-ivr",
       "coverage": {
         "start_date": "2026-09-01",
-        "end_date": "2026-09-02",
-        "tracked_days": 2,
+        "end_date": "2026-09-03",
+        "tracked_days": 3,
         "active_days": 2
       },
       "metrics": {
@@ -240,7 +126,7 @@
         "issues_completed": 4,
         "activity_total": 42
       },
-      "generated_at": "2026-09-02T20:12:49+09:00"
+      "generated_at": "2026-09-03T00:08:08+09:00"
     },
     "achievements": [
       {
@@ -287,10 +173,10 @@
   "tracked_summary": {
     "year": 2026,
     "yearly": {
-      "tracked_days": 9,
+      "tracked_days": 10,
       "active_days": 9,
       "first_date": "2026-08-25",
-      "last_date": "2026-09-02",
+      "last_date": "2026-09-03",
       "metrics": {
         "commits": 1606,
         "prs_opened": 177,
@@ -300,10 +186,10 @@
       }
     },
     "lifetime": {
-      "tracked_days": 9,
+      "tracked_days": 10,
       "active_days": 9,
       "first_date": "2026-08-25",
-      "last_date": "2026-09-02",
+      "last_date": "2026-09-03",
       "metrics": {
         "commits": 1606,
         "prs_opened": 177,
