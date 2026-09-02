@@ -6,8 +6,8 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 9,
-    "prs_opened": 6,
-    "issues_created": 6,
+    "prs_opened": 8,
+    "issues_created": 8,
     "issues_completed": 2
   },
   "activity": [
@@ -33,19 +33,19 @@
       "at": "2026-09-02T12:56:35.000+09:00"
     },
     {
-      "type": "commit",
+      "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "Merge pull request #366 from ivRooom/feat/ai-discord-typing-indicator",
-      "url": "https://github.com/ivRooom/Herta/commit/d087f91fbbcdbddcca3eb3beedb5cc7b9c8ddf1a",
-      "at": "2026-09-02T08:19:29.000+09:00"
+      "title": "PR #375 fix(ai): detailed会話へrequest-scoped output budgetを追加",
+      "url": "https://github.com/ivRooom/Herta/pull/375",
+      "at": "2026-09-02T10:29:56Z"
     },
     {
-      "type": "done",
+      "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "Issue #368 feat(ai): Studio設定した単一RoleメンションをDiscord AI triggerとして許可する",
-      "url": "https://github.com/ivRooom/Herta/issues/368",
-      "at": "2026-09-02T04:53:33Z"
+      "title": "PR #374 fix(studio): mobile Config Studio pickerのoverlay被りを修正",
+      "url": "https://github.com/ivRooom/Herta/pull/374",
+      "at": "2026-09-02T10:25:42Z"
     }
   ],
-  "generated_at": "2026-09-02T15:09:14+09:00"
+  "generated_at": "2026-09-02T20:12:49+09:00"
 }
