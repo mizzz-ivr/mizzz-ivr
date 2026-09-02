@@ -82,20 +82,20 @@
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 49,
-      "events": 25,
+      "score": 53,
+      "events": 29,
       "last_activity_at": "2026-09-02T00:06:33Z",
-      "share": 83,
+      "share": 82,
       "ci": {
         "label": "ATTENTION",
         "symbol": "!",
         "window_days": 7,
         "total_runs": 10,
         "evaluated": 10,
-        "passed": 4,
-        "failed": 6,
+        "passed": 5,
+        "failed": 5,
         "ignored": 0,
-        "pass_rate": 40,
+        "pass_rate": 50,
         "latest_conclusion": "failure"
       },
       "health": {
@@ -106,8 +106,8 @@
     },
     {
       "repo": "ivRooom/ivrm-mcmod",
-      "score": 9,
-      "events": 6,
+      "score": 10,
+      "events": 7,
       "last_activity_at": "2026-09-01T23:33:13Z",
       "share": 15,
       "ci": {
@@ -130,10 +130,10 @@
     },
     {
       "repo": "ivRooom/ivrm-dashboard",
-      "score": 1,
-      "events": 1,
-      "last_activity_at": "2026-09-01T17:59:16Z",
-      "share": 2,
+      "score": 2,
+      "events": 2,
+      "last_activity_at": "2026-09-01T23:18:39Z",
+      "share": 3,
       "ci": {
         "label": "MIXED",
         "symbol": "◐",
@@ -183,16 +183,16 @@
       "at": "2026-09-01T23:44:33Z"
     }
   ],
-  "generated_at": "2026-09-02T12:05:17+09:00",
+  "generated_at": "2026-09-02T12:09:25+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
     "window_days": 7,
     "evaluated": 24,
-    "passed": 15,
-    "failed": 9,
+    "passed": 16,
+    "failed": 8,
     "ignored": 0,
-    "pass_rate": 62,
+    "pass_rate": 67,
     "repos_with_signal": 3
   },
   "dev_recap": {
