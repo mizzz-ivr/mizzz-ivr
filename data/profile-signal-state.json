@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-02T23:03:21Z"
+    "last_activity_at": "2026-09-02T23:19:46Z"
   },
   "code_weather": {
     "label": "REST DAY",
@@ -20,7 +20,7 @@
     "score": 9,
     "events": 5,
     "last_activity_at": "2026-09-02T23:03:21Z",
-    "share": 100,
+    "share": 50,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -83,6 +83,13 @@
   "activity_stream": [
     {
       "label": "ISSUE",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Opened issue #40",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/40",
+      "at": "2026-09-02T23:18:20Z"
+    },
+    {
+      "label": "ISSUE",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "Issue assigned #117",
       "url": "https://github.com/ivRooom/ivrm-dashboard/issues/117",
@@ -101,16 +108,9 @@
       "title": "PR merged #116",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-09-02T22:58:57Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #116",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-09-02T22:57:27Z"
     }
   ],
-  "generated_at": "2026-09-03T08:15:17+09:00",
+  "generated_at": "2026-09-03T08:20:17+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
