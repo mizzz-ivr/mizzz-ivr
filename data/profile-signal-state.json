@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-02T23:44:11Z"
+    "last_activity_at": "2026-09-02T23:54:51Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,10 +17,10 @@
   "activity_total": 4,
   "current_focus": {
     "repo": "ivRooom/ivrm-mcmod",
-    "score": 13,
-    "events": 13,
-    "last_activity_at": "2026-09-02T23:44:11Z",
-    "share": 41,
+    "score": 17,
+    "events": 17,
+    "last_activity_at": "2026-09-02T23:54:51Z",
+    "share": 47,
     "stack": [
       "Java"
     ]
@@ -180,7 +180,7 @@
       "at": "2026-09-02T23:03:21Z"
     }
   ],
-  "generated_at": "2026-09-03T08:50:22+09:00",
+  "generated_at": "2026-09-03T08:55:13+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
