@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-02T10:19:44Z"
+    "last_activity_at": "2026-09-02T10:29:56Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -17,10 +17,10 @@
   "activity_total": 23,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 80,
-    "events": 50,
-    "last_activity_at": "2026-09-02T10:19:44Z",
-    "share": 70,
+    "score": 88,
+    "events": 52,
+    "last_activity_at": "2026-09-02T10:29:56Z",
+    "share": 68,
     "stack": [
       "TypeScript",
       "Shell",
@@ -155,6 +155,20 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "Opened PR #375",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-02T10:29:56Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "Opened PR #374",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-02T10:25:42Z"
+    },
+    {
       "label": "ISSUE",
       "repo": "ivRooom/Herta",
       "title": "Opened issue #373",
@@ -167,23 +181,9 @@
       "title": "Opened issue #372",
       "url": "https://github.com/ivRooom/Herta/issues/372",
       "at": "2026-09-02T10:19:29Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Closed issue #368",
-      "url": "https://github.com/ivRooom/Herta/issues/368",
-      "at": "2026-09-02T04:53:33Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR merged #370",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-02T04:53:32Z"
     }
   ],
-  "generated_at": "2026-09-02T19:25:14+09:00",
+  "generated_at": "2026-09-02T19:30:28+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
