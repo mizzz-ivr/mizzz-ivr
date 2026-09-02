@@ -17,8 +17,8 @@
   "activity_total": 27,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 89,
-    "events": 53,
+    "score": 90,
+    "events": 54,
     "last_activity_at": "2026-09-02T10:30:56Z",
     "share": 65,
     "stack": [
@@ -183,7 +183,7 @@
       "at": "2026-09-02T10:19:29Z"
     }
   ],
-  "generated_at": "2026-09-02T20:15:22+09:00",
+  "generated_at": "2026-09-02T20:20:20+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
