@@ -5,11 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
+    "commits": 10,
+    "prs_opened": 5,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-09-04T00:01:05+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "docs: Graviton follow-up記事の未公開状態を反映  Qiita側で修正した記事末尾をRepositoryへ同期し、follow-up記事は未投稿であることを明確化。pub",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/ecdd46279fdaf337d4ad01a9ec76af576b0cd346",
+      "at": "2026-09-04T08:08:09.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "fix(analytics): main writer競合時も最新mainからrefreshする  Qiita PublishとWriting Analyticsのmain writerが共有",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/e4da3eac5d6ecdf48b26cce9d8dec153a73dd349",
+      "at": "2026-09-04T07:55:20.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "fix(qiita): publish metadata競合を防ぎGraviton記事の公開記録を確定  Qiita publishを最新mainから実行するよう修正し、Graviton ru",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/5a53191211b7dd1f011be1da40de142b10e9f814",
+      "at": "2026-09-04T07:52:02.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "docs(qiita): self-hosted runner記事の用語・料金情報を公開前更新  repository / public / private の用語を統一し、2026-09-0",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/ce344a57d283df945a0cdde202534c034adb4c26",
+      "at": "2026-09-04T07:46:02.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "Merge pull request #69 from mizzz-ivr/fix/qiita-math-render-and-options  fix: Qiitaの数式レンダリング崩れ修正",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/6048b76aec3320ae8311a7238364f0d35877c9dc",
+      "at": "2026-09-04T07:20:13.000+09:00"
+    }
+  ],
+  "generated_at": "2026-09-04T08:19:32+09:00"
 }
