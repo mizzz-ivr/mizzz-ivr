@@ -82,7 +82,7 @@
       "score": 18,
       "events": 18,
       "last_activity_at": "2026-09-02T23:55:20Z",
-      "share": 49,
+      "share": 46,
       "ci": {
         "label": "ATTENTION",
         "symbol": "!",
@@ -102,35 +102,11 @@
       }
     },
     {
-      "repo": "ivRooom/ivrm-dashboard",
-      "score": 10,
-      "events": 6,
-      "last_activity_at": "2026-09-02T23:39:34Z",
-      "share": 27,
-      "ci": {
-        "label": "STABLE",
-        "symbol": "●",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 10,
-        "passed": 9,
-        "failed": 1,
-        "ignored": 0,
-        "pass_rate": 90,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "HEALTHY",
-        "symbol": "●",
-        "reason": "active with passing recent CI"
-      }
-    },
-    {
       "repo": "mizzz-ivr/ivmz-home",
-      "score": 9,
-      "events": 5,
-      "last_activity_at": "2026-09-02T23:41:28Z",
-      "share": 24,
+      "score": 11,
+      "events": 7,
+      "last_activity_at": "2026-09-03T02:09:15Z",
+      "share": 28,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -141,6 +117,30 @@
         "failed": 0,
         "ignored": 0,
         "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
+    },
+    {
+      "repo": "ivRooom/ivrm-dashboard",
+      "score": 10,
+      "events": 6,
+      "last_activity_at": "2026-09-02T23:39:34Z",
+      "share": 26,
+      "ci": {
+        "label": "STABLE",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 10,
+        "passed": 9,
+        "failed": 1,
+        "ignored": 0,
+        "pass_rate": 90,
         "latest_conclusion": "success"
       },
       "health": {
@@ -180,7 +180,7 @@
       "at": "2026-09-02T23:03:21Z"
     }
   ],
-  "generated_at": "2026-09-03T12:05:17+09:00",
+  "generated_at": "2026-09-03T12:09:14+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
