@@ -5,40 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 1,
+    "commits": 7,
+    "prs_opened": 2,
     "issues_created": 2,
     "issues_completed": 0
   },
   "activity": [
     {
       "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Issue #68: Phase B-1 Production handoffをRunbookへ反映  Production start_backend acceptance、Restore ",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/8b09f4e127a9c998ce54a071534232e77e88104f",
-      "at": "2026-09-03T07:58:56.000+09:00"
-    },
-    {
-      "type": "issue",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "Issue #40 ops(netlify): move Profile Signal scheduling to GitHub Actions",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/40",
-      "at": "2026-09-02T23:18:18Z"
+      "title": "Merge pull request #41 from mizzz-ivr/ops/netlify-credit-profile-signal-scheduler  ops(netlify):",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/c40568ed33b7f2715dea0239903e0bc5a5b0a76d",
+      "at": "2026-09-03T08:41:28.000+09:00"
     },
     {
-      "type": "issue",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Issue #117 Issue #68 Phase B-2: Restore Readinessを証明してrestart / stop Production Acceptanceを完了する",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/117",
-      "at": "2026-09-02T23:03:19Z"
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "docs(ops): document GitHub Profile Signal scheduler ownership",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/0fee7c56b5b75dba28da227049d19ee21a0d64ed",
+      "at": "2026-09-03T08:21:07.000+09:00"
     },
     {
-      "type": "pr",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR #116 Issue #68: Phase B-1 Production handoffをRunbookへ反映",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/116",
-      "at": "2026-09-02T22:57:27Z"
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "ops(netlify): remove obsolete Profile Signal token example",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/3ed6f705b48b58fc2eef19796bd7cb4a05653675",
+      "at": "2026-09-03T08:20:33.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "ops(netlify): remove Profile Signal full dispatcher",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/0e99b6283b61349f3a55a3ef12df9809478d934b",
+      "at": "2026-09-03T08:20:21.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "ops(netlify): remove Profile Signal stream dispatcher",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/9f0257070681c0a4a19beff78257ca0b9964080f",
+      "at": "2026-09-03T08:20:15.000+09:00"
     }
   ],
-  "generated_at": "2026-09-03T08:21:44+09:00"
+  "generated_at": "2026-09-03T09:09:17+09:00"
 }
