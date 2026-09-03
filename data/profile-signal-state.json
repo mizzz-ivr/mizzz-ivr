@@ -79,10 +79,10 @@
   "now_building": [
     {
       "repo": "ivRooom/ivrm-mcmod",
-      "score": 22,
-      "events": 22,
+      "score": 23,
+      "events": 23,
       "last_activity_at": "2026-09-02T23:55:20Z",
-      "share": 51,
+      "share": 48,
       "ci": {
         "label": "ATTENTION",
         "symbol": "!",
@@ -103,10 +103,10 @@
     },
     {
       "repo": "mizzz-ivr/ivmz-home",
-      "score": 11,
-      "events": 7,
+      "score": 13,
+      "events": 9,
       "last_activity_at": "2026-09-03T02:09:15Z",
-      "share": 26,
+      "share": 27,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -127,10 +127,10 @@
     },
     {
       "repo": "ivRooom/ivrm-dashboard",
-      "score": 10,
-      "events": 6,
-      "last_activity_at": "2026-09-02T23:39:34Z",
-      "share": 23,
+      "score": 12,
+      "events": 8,
+      "last_activity_at": "2026-09-03T09:56:09Z",
+      "share": 25,
       "ci": {
         "label": "STABLE",
         "symbol": "●",
@@ -180,7 +180,7 @@
       "at": "2026-09-02T23:21:08Z"
     }
   ],
-  "generated_at": "2026-09-03T20:10:17+09:00",
+  "generated_at": "2026-09-03T20:10:35+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
