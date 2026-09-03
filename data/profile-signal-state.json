@@ -79,10 +79,10 @@
   "now_building": [
     {
       "repo": "ivRooom/ivrm-mcmod",
-      "score": 18,
-      "events": 18,
+      "score": 22,
+      "events": 22,
       "last_activity_at": "2026-09-02T23:55:20Z",
-      "share": 46,
+      "share": 51,
       "ci": {
         "label": "ATTENTION",
         "symbol": "!",
@@ -106,7 +106,7 @@
       "score": 11,
       "events": 7,
       "last_activity_at": "2026-09-03T02:09:15Z",
-      "share": 28,
+      "share": 26,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -130,7 +130,7 @@
       "score": 10,
       "events": 6,
       "last_activity_at": "2026-09-02T23:39:34Z",
-      "share": 26,
+      "share": 23,
       "ci": {
         "label": "STABLE",
         "symbol": "●",
@@ -180,7 +180,7 @@
       "at": "2026-09-02T23:03:21Z"
     }
   ],
-  "generated_at": "2026-09-03T18:05:15+09:00",
+  "generated_at": "2026-09-03T18:09:14+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
