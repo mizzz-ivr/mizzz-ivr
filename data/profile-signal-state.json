@@ -17,10 +17,10 @@
   "activity_total": 11,
   "current_focus": {
     "repo": "ivRooom/ivrm-mcmod",
-    "score": 22,
-    "events": 22,
+    "score": 23,
+    "events": 23,
     "last_activity_at": "2026-09-02T23:55:20Z",
-    "share": 47,
+    "share": 48,
     "stack": [
       "Java"
     ]
@@ -159,6 +159,13 @@
       "at": "2026-09-02T23:41:28Z"
     },
     {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "1 commit pushed to feat/4-activity-event-sender",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/commits",
+      "at": "2026-09-02T23:30:54Z"
+    },
+    {
       "label": "PR",
       "repo": "mizzz-ivr/ivmz-home",
       "title": "Opened PR #41",
@@ -171,16 +178,9 @@
       "title": "1 commit pushed to ops/netlify-credit-profile-signal-scheduler",
       "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
       "at": "2026-09-02T23:21:08Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "1 commit pushed to ops/netlify-credit-profile-signal-scheduler",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
-      "at": "2026-09-02T23:20:16Z"
     }
   ],
-  "generated_at": "2026-09-03T19:20:20+09:00",
+  "generated_at": "2026-09-03T19:25:13+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
