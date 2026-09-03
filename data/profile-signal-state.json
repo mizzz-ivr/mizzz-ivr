@@ -20,10 +20,8 @@
     "score": 22,
     "events": 22,
     "last_activity_at": "2026-09-02T23:55:20Z",
-    "share": 49,
-    "stack": [
-      "Java"
-    ]
+    "share": 48,
+    "stack": []
   },
   "dev_pulse": [
     {
@@ -166,21 +164,21 @@
       "at": "2026-09-02T23:21:43Z"
     },
     {
+      "label": "PUSH",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to ops/netlify-credit-profile-signal-scheduler",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-09-02T23:20:16Z"
+    },
+    {
       "label": "ISSUE",
       "repo": "mizzz-ivr/ivmz-home",
       "title": "Opened issue #40",
       "url": "https://github.com/mizzz-ivr/ivmz-home/issues/40",
       "at": "2026-09-02T23:18:20Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Issue assigned #117",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/117",
-      "at": "2026-09-02T23:03:21Z"
     }
   ],
-  "generated_at": "2026-09-03T19:10:15+09:00",
+  "generated_at": "2026-09-03T19:15:17+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
