@@ -53,7 +53,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-mcmod">ivRooom/ivrm-mcmod</a></strong><br/><sub>weighted activity 46% · score 18 · 18 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-mcmod">ivRooom/ivrm-mcmod</a></strong><br/><sub>weighted activity 48% · score 19 · 19 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>Java</code></td>
   </tr>
 </table>
