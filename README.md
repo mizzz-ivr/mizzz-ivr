@@ -181,7 +181,7 @@
 <table width="100%">
   <tr>
     <td width="25%" align="center"><strong>🔥 0</strong><br/><sub>DAY STREAK</sub></td>
-    <td width="25%" align="center"><strong>45</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>59</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
     <td width="25%" align="center"><strong>31</strong><br/><sub>PRS · THIS WEEK</sub></td>
     <td width="25%" align="center"><strong>5</strong><br/><sub>ISSUES DONE · THIS WEEK</sub></td>
   </tr>
@@ -190,20 +190,20 @@
 <details>
 <summary><strong>MONTHLY SUMMARY</strong></summary>
 <br/>
-<table width="100%"><tr><td width="25%" align="center"><strong>25</strong><br/><sub>COMMITS</sub></td><td width="25%" align="center"><strong>24</strong><br/><sub>PRS</sub></td><td width="25%" align="center"><strong>4</strong><br/><sub>ISSUES DONE</sub></td><td width="25%" align="center"><strong>67</strong><br/><sub>ACTIVITY</sub></td></tr></table>
+<table width="100%"><tr><td width="25%" align="center"><strong>39</strong><br/><sub>COMMITS</sub></td><td width="25%" align="center"><strong>24</strong><br/><sub>PRS</sub></td><td width="25%" align="center"><strong>4</strong><br/><sub>ISSUES DONE</sub></td><td width="25%" align="center"><strong>81</strong><br/><sub>ACTIVITY</sub></td></tr></table>
 </details>
 
 <details>
 <summary><strong>YEARLY SUMMARY // 2026</strong></summary>
 <br/>
-<table width="100%"><tr><td width="20%" align="center"><strong>11</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1613</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>189</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>63</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>1964</strong><br/><sub>ACTIVITY</sub></td></tr></table>
+<table width="100%"><tr><td width="20%" align="center"><strong>11</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1627</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>189</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>63</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>1978</strong><br/><sub>ACTIVITY</sub></td></tr></table>
 <p><sub>12 tracked days in 2026.</sub></p>
 </details>
 
 <details>
 <summary><strong>LIFETIME SUMMARY // Tracked history</strong></summary>
 <br/>
-<table width="100%"><tr><td width="20%" align="center"><strong>11</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1613</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>189</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>63</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>1964</strong><br/><sub>ACTIVITY</sub></td></tr></table>
+<table width="100%"><tr><td width="20%" align="center"><strong>11</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1627</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>189</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>63</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>1978</strong><br/><sub>ACTIVITY</sub></td></tr></table>
 <p><sub>Profile Signal tracked lifetime · tracked since 2026-08-25 · 12 tracked days. GitHub account lifetime totalsではありません。</sub></p>
 </details>
 <!-- PROFILE-SIGNAL:RECAP:END -->

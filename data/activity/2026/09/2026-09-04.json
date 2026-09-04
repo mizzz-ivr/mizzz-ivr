@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
+    "commits": 14,
     "prs_opened": 10,
     "issues_created": 4,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "docs(note): 既存note原稿のストーリー性を強化  既存note原稿2本を場面・違和感・変化を中心に再構成し、今後のnote執筆用Storytelling Guideを追加。",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/a80864eb16c5a404284b72111d3002ca34f12415",
+      "at": "2026-09-04T22:17:41.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "docs(qiita): scale-to-zero runner記事のストーリー性を強化",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/6a9c89d34d92d827aea366f3f9261d8763b393c3",
+      "at": "2026-09-04T21:58:39.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "refactor(articles): lifecycle directoryでdraft/review/published/oldを整理  共通原稿をdraft/review/publish",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/75a92638c89279b07669f5326f4429e47ac0ac80",
+      "at": "2026-09-04T20:22:49.000+09:00"
+    },
     {
       "type": "pr",
       "repo": "mizzz-ivr/tech-writing",
@@ -24,28 +45,7 @@
       "title": "PR #81 docs(qiita): scale-to-zero runner記事のストーリー性を強化",
       "url": "https://github.com/mizzz-ivr/tech-writing/pull/81",
       "at": "2026-09-04T12:57:39Z"
-    },
-    {
-      "type": "pr",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "PR #80 docs(note): エンジニア思考エッセイをストーリー構成へ再編集",
-      "url": "https://github.com/mizzz-ivr/tech-writing/pull/80",
-      "at": "2026-09-04T12:54:44Z"
-    },
-    {
-      "type": "pr",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "PR #79 refactor(articles): lifecycle directoryでdraft/review/published/oldを整理",
-      "url": "https://github.com/mizzz-ivr/tech-writing/pull/79",
-      "at": "2026-09-04T11:15:17Z"
-    },
-    {
-      "type": "pr",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "PR #78 draft(qiita): scale-to-zero runner移行失敗談をストーリー構成へ再編集",
-      "url": "https://github.com/mizzz-ivr/tech-writing/pull/78",
-      "at": "2026-09-03T23:33:21Z"
     }
   ],
-  "generated_at": "2026-09-05T00:09:15+09:00"
+  "generated_at": "2026-09-05T01:27:50+09:00"
 }
