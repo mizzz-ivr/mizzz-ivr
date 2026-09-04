@@ -7,20 +7,20 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-04T11:22:49Z"
+    "last_activity_at": "2026-09-04T20:22:49.000+09:00"
   },
   "code_weather": {
     "label": "HEAVY CODING",
     "icon": "⚡"
   },
   "streak": 11,
-  "activity_total": 21,
+  "activity_total": 23,
   "current_focus": {
     "repo": "ivRooom/ivrm-mcmod",
     "score": 8,
     "events": 8,
     "last_activity_at": "2026-09-03T23:19:19Z",
-    "share": 15,
+    "share": 13,
     "ci": {
       "label": "MIXED",
       "symbol": "◐",
@@ -85,9 +85,9 @@
     },
     {
       "date": "2026-09-04",
-      "total": 21,
-      "commits": 11,
-      "prs": 6,
+      "total": 23,
+      "commits": 12,
+      "prs": 7,
       "issues": 4
     }
   ],
@@ -97,7 +97,7 @@
       "score": 8,
       "events": 8,
       "last_activity_at": "2026-09-03T23:19:19Z",
-      "share": 15,
+      "share": 13,
       "ci": {
         "label": "MIXED",
         "symbol": "◐",
@@ -115,20 +115,44 @@
         "symbol": "◐",
         "reason": "recent CI is mixed"
       }
+    },
+    {
+      "repo": "ivRooom/ivrm-dashboard",
+      "score": 1,
+      "events": 1,
+      "last_activity_at": "2026-09-04T10:50:36Z",
+      "share": 2,
+      "ci": {
+        "label": "STABLE",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 10,
+        "passed": 9,
+        "failed": 1,
+        "ignored": 0,
+        "pass_rate": 90,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
     }
   ],
   "activity_stream": [],
-  "generated_at": "2026-09-04T20:25:14+09:00",
+  "generated_at": "2026-09-04T20:27:12+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
     "window_days": 7,
-    "evaluated": 20,
-    "passed": 18,
-    "failed": 2,
-    "ignored": 0,
-    "pass_rate": 90,
-    "repos_with_signal": 2
+    "evaluated": 28,
+    "passed": 25,
+    "failed": 3,
+    "ignored": 2,
+    "pass_rate": 89,
+    "repos_with_signal": 3
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
@@ -148,13 +172,13 @@
         "active_days": 5
       },
       "metrics": {
-        "commits": 56,
-        "prs_opened": 27,
+        "commits": 57,
+        "prs_opened": 28,
         "issues_created": 17,
         "issues_completed": 5,
-        "activity_total": 105
+        "activity_total": 107
       },
-      "generated_at": "2026-09-04T09:09:14+09:00"
+      "generated_at": "2026-09-04T20:27:12+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -169,13 +193,13 @@
         "active_days": 4
       },
       "metrics": {
-        "commits": 36,
-        "prs_opened": 20,
+        "commits": 37,
+        "prs_opened": 21,
         "issues_created": 14,
         "issues_completed": 4,
-        "activity_total": 74
+        "activity_total": 76
       },
-      "generated_at": "2026-09-04T09:09:14+09:00"
+      "generated_at": "2026-09-04T20:27:12+09:00"
     },
     "achievements": [
       {
@@ -227,11 +251,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-09-04",
       "metrics": {
-        "commits": 1624,
-        "prs_opened": 185,
+        "commits": 1625,
+        "prs_opened": 186,
         "issues_created": 99,
         "issues_completed": 63,
-        "activity_total": 1971
+        "activity_total": 1973
       }
     },
     "lifetime": {
@@ -240,11 +264,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-09-04",
       "metrics": {
-        "commits": 1624,
-        "prs_opened": 185,
+        "commits": 1625,
+        "prs_opened": 186,
         "issues_created": 99,
         "issues_completed": 63,
-        "activity_total": 1971
+        "activity_total": 1973
       }
     }
   }

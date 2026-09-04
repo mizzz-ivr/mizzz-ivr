@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 11,
-    "prs_opened": 6,
+    "commits": 12,
+    "prs_opened": 7,
     "issues_created": 4,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "refactor(articles): lifecycle directoryでdraft/review/published/oldを整理  共通原稿をdraft/review/publish",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/75a92638c89279b07669f5326f4429e47ac0ac80",
+      "at": "2026-09-04T20:22:49.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "PR #79 refactor(articles): lifecycle directoryでdraft/review/published/oldを整理",
+      "url": "https://github.com/mizzz-ivr/tech-writing/pull/79",
+      "at": "2026-09-04T11:15:17Z"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/tech-writing",
@@ -31,21 +45,7 @@
       "title": "fix(analytics): main writer競合時も最新mainからrefreshする  Qiita PublishとWriting Analyticsのmain writerが共有",
       "url": "https://github.com/mizzz-ivr/tech-writing/commit/e4da3eac5d6ecdf48b26cce9d8dec153a73dd349",
       "at": "2026-09-04T07:55:20.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "fix(qiita): publish metadata競合を防ぎGraviton記事の公開記録を確定  Qiita publishを最新mainから実行するよう修正し、Graviton ru",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/5a53191211b7dd1f011be1da40de142b10e9f814",
-      "at": "2026-09-04T07:52:02.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "docs(qiita): self-hosted runner記事の用語・料金情報を公開前更新  repository / public / private の用語を統一し、2026-09-0",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/ce344a57d283df945a0cdde202534c034adb4c26",
-      "at": "2026-09-04T07:46:02.000+09:00"
     }
   ],
-  "generated_at": "2026-09-04T09:09:14+09:00"
+  "generated_at": "2026-09-04T20:27:12+09:00"
 }
