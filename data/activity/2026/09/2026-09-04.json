@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 10,
-    "prs_opened": 5,
-    "issues_created": 0,
+    "commits": 11,
+    "prs_opened": 6,
+    "issues_created": 4,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "draft(qiita): scale-to-zero runner移行失敗談をストーリー構成へ再編集  2026-09-09 Qiita公開に向け、scale-to-zero移行の失敗談を時",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/a829987f4ec04386785582644d348ae9615745f7",
+      "at": "2026-09-04T08:35:40.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/tech-writing",
@@ -38,14 +45,7 @@
       "title": "docs(qiita): self-hosted runner記事の用語・料金情報を公開前更新  repository / public / private の用語を統一し、2026-09-0",
       "url": "https://github.com/mizzz-ivr/tech-writing/commit/ce344a57d283df945a0cdde202534c034adb4c26",
       "at": "2026-09-04T07:46:02.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "Merge pull request #69 from mizzz-ivr/fix/qiita-math-render-and-options  fix: Qiitaの数式レンダリング崩れ修正",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/6048b76aec3320ae8311a7238364f0d35877c9dc",
-      "at": "2026-09-04T07:20:13.000+09:00"
     }
   ],
-  "generated_at": "2026-09-04T08:19:32+09:00"
+  "generated_at": "2026-09-04T09:09:14+09:00"
 }
