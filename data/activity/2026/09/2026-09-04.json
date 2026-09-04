@@ -5,18 +5,32 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 12,
-    "prs_opened": 7,
+    "commits": 0,
+    "prs_opened": 10,
     "issues_created": 4,
     "issues_completed": 0
   },
   "activity": [
     {
-      "type": "commit",
+      "type": "pr",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "refactor(articles): lifecycle directoryでdraft/review/published/oldを整理  共通原稿をdraft/review/publish",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/75a92638c89279b07669f5326f4429e47ac0ac80",
-      "at": "2026-09-04T20:22:49.000+09:00"
+      "title": "PR #82 docs(note): 既存note原稿のストーリー性を強化",
+      "url": "https://github.com/mizzz-ivr/tech-writing/pull/82",
+      "at": "2026-09-04T13:15:17Z"
+    },
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "PR #81 docs(qiita): scale-to-zero runner記事のストーリー性を強化",
+      "url": "https://github.com/mizzz-ivr/tech-writing/pull/81",
+      "at": "2026-09-04T12:57:39Z"
+    },
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "PR #80 docs(note): エンジニア思考エッセイをストーリー構成へ再編集",
+      "url": "https://github.com/mizzz-ivr/tech-writing/pull/80",
+      "at": "2026-09-04T12:54:44Z"
     },
     {
       "type": "pr",
@@ -26,26 +40,12 @@
       "at": "2026-09-04T11:15:17Z"
     },
     {
-      "type": "commit",
+      "type": "pr",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "draft(qiita): scale-to-zero runner移行失敗談をストーリー構成へ再編集  2026-09-09 Qiita公開に向け、scale-to-zero移行の失敗談を時",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/a829987f4ec04386785582644d348ae9615745f7",
-      "at": "2026-09-04T08:35:40.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "docs: Graviton follow-up記事の未公開状態を反映  Qiita側で修正した記事末尾をRepositoryへ同期し、follow-up記事は未投稿であることを明確化。pub",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/ecdd46279fdaf337d4ad01a9ec76af576b0cd346",
-      "at": "2026-09-04T08:08:09.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "fix(analytics): main writer競合時も最新mainからrefreshする  Qiita PublishとWriting Analyticsのmain writerが共有",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/e4da3eac5d6ecdf48b26cce9d8dec153a73dd349",
-      "at": "2026-09-04T07:55:20.000+09:00"
+      "title": "PR #78 draft(qiita): scale-to-zero runner移行失敗談をストーリー構成へ再編集",
+      "url": "https://github.com/mizzz-ivr/tech-writing/pull/78",
+      "at": "2026-09-03T23:33:21Z"
     }
   ],
-  "generated_at": "2026-09-04T20:27:12+09:00"
+  "generated_at": "2026-09-05T00:09:15+09:00"
 }
