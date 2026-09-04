@@ -53,7 +53,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-mcmod">ivRooom/ivrm-mcmod</a></strong><br/><sub>weighted activity 13% · score 8 · 8 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-mcmod">ivRooom/ivrm-mcmod</a></strong><br/><sub>weighted activity 12% · score 8 · 8 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><sub>technology data will refresh on the next full run</sub></td>
   </tr>
 </table>
@@ -81,7 +81,7 @@
 <!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
 ## NOW BUILDING // Active repositories
 
-<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/ivrm-mcmod">ivRooom/ivrm-mcmod</a></strong><br/><sub>13% weighted · WATCH · CI pass rate 80%<br/>last activity · 08:19 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>2% weighted · HEALTHY · CI pass rate 90%<br/>last activity · 19:50 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
+<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/ivrm-mcmod">ivRooom/ivrm-mcmod</a></strong><br/><sub>12% weighted · WATCH · CI pass rate 80%<br/>last activity · 08:19 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>1% weighted · HEALTHY · CI pass rate 90%<br/>last activity · 19:50 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
 <!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
 
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->

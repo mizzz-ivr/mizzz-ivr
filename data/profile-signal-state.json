@@ -20,7 +20,7 @@
     "score": 8,
     "events": 8,
     "last_activity_at": "2026-09-03T23:19:19Z",
-    "share": 13,
+    "share": 12,
     "ci": {
       "label": "MIXED",
       "symbol": "◐",
@@ -97,7 +97,7 @@
       "score": 8,
       "events": 8,
       "last_activity_at": "2026-09-03T23:19:19Z",
-      "share": 13,
+      "share": 12,
       "ci": {
         "label": "MIXED",
         "symbol": "◐",
@@ -121,7 +121,7 @@
       "score": 1,
       "events": 1,
       "last_activity_at": "2026-09-04T10:50:36Z",
-      "share": 2,
+      "share": 1,
       "ci": {
         "label": "STABLE",
         "symbol": "●",
@@ -142,7 +142,7 @@
     }
   ],
   "activity_stream": [],
-  "generated_at": "2026-09-04T21:05:13+09:00",
+  "generated_at": "2026-09-04T21:09:12+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
