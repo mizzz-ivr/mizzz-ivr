@@ -15,31 +15,7 @@
   },
   "streak": 11,
   "activity_total": 21,
-  "current_focus": {
-    "repo": "ivRooom/ivrm-mcmod",
-    "score": 8,
-    "events": 8,
-    "last_activity_at": "2026-09-03T23:19:19Z",
-    "share": 15,
-    "ci": {
-      "label": "MIXED",
-      "symbol": "◐",
-      "window_days": 7,
-      "total_runs": 10,
-      "evaluated": 10,
-      "passed": 8,
-      "failed": 2,
-      "ignored": 0,
-      "pass_rate": 80,
-      "latest_conclusion": "success"
-    },
-    "health": {
-      "label": "WATCH",
-      "symbol": "◐",
-      "reason": "recent CI is mixed"
-    },
-    "stack": []
-  },
+  "current_focus": null,
   "dev_pulse": [
     {
       "date": "2026-08-29",
@@ -91,44 +67,19 @@
       "issues": 4
     }
   ],
-  "now_building": [
-    {
-      "repo": "ivRooom/ivrm-mcmod",
-      "score": 8,
-      "events": 8,
-      "last_activity_at": "2026-09-03T23:19:19Z",
-      "share": 15,
-      "ci": {
-        "label": "MIXED",
-        "symbol": "◐",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 10,
-        "passed": 8,
-        "failed": 2,
-        "ignored": 0,
-        "pass_rate": 80,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "WATCH",
-        "symbol": "◐",
-        "reason": "recent CI is mixed"
-      }
-    }
-  ],
+  "now_building": [],
   "activity_stream": [],
-  "generated_at": "2026-09-04T15:05:13+09:00",
+  "generated_at": "2026-09-04T15:09:13+09:00",
   "ci_signal": {
-    "label": "MIXED",
-    "symbol": "◐",
+    "label": "NO SIGNAL",
+    "symbol": "○",
     "window_days": 7,
-    "evaluated": 20,
-    "passed": 18,
-    "failed": 2,
+    "evaluated": 0,
+    "passed": 0,
+    "failed": 0,
     "ignored": 0,
-    "pass_rate": 90,
-    "repos_with_signal": 2
+    "pass_rate": null,
+    "repos_with_signal": 0
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
