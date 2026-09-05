@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-09-05T00:20:45Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-09-05T02:01:44Z"
   },
   "code_weather": {
     "label": "REST DAY",
@@ -20,7 +20,7 @@
     "score": 8,
     "events": 5,
     "last_activity_at": "2026-09-05T00:19:03Z",
-    "share": 62,
+    "share": 40,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -83,20 +83,27 @@
   "activity_stream": [
     {
       "label": "ISSUE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Issue labeled #117",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/117",
-      "at": "2026-09-05T00:18:16Z"
+      "repo": "ivRooom/Herta",
+      "title": "Issue assigned #376",
+      "url": "https://github.com/ivRooom/Herta/issues/376",
+      "at": "2026-09-05T02:01:15Z"
     },
     {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #118",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-09-05T00:17:41Z"
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Issue labeled #376",
+      "url": "https://github.com/ivRooom/Herta/issues/376",
+      "at": "2026-09-05T02:01:14Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Opened issue #376",
+      "url": "https://github.com/ivRooom/Herta/issues/376",
+      "at": "2026-09-05T02:01:14Z"
     }
   ],
-  "generated_at": "2026-09-05T11:00:27+09:00",
+  "generated_at": "2026-09-05T11:05:12+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
