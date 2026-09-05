@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-05T04:55:44Z"
+    "last_activity_at": "2026-09-05T05:05:32Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,10 +17,10 @@
   "activity_total": 8,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 15,
-    "events": 11,
-    "last_activity_at": "2026-09-05T04:55:44Z",
-    "share": 47,
+    "score": 18,
+    "events": 14,
+    "last_activity_at": "2026-09-05T05:05:32Z",
+    "share": 51,
     "stack": [
       "TypeScript",
       "Shell",
@@ -159,7 +159,7 @@
       "at": "2026-09-05T02:01:14Z"
     }
   ],
-  "generated_at": "2026-09-05T14:05:12+09:00",
+  "generated_at": "2026-09-05T14:10:13+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
