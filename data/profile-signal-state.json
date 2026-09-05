@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-09-05T02:45:17Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-09-05T04:45:03Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -16,16 +16,16 @@
   "streak": 12,
   "activity_total": 8,
   "current_focus": {
-    "repo": "ivRooom/ivrm-dashboard",
-    "score": 9,
-    "events": 6,
-    "last_activity_at": "2026-09-05T02:40:05Z",
+    "repo": "ivRooom/Herta",
+    "score": 12,
+    "events": 8,
+    "last_activity_at": "2026-09-05T04:45:03Z",
     "share": 41,
     "stack": [
       "TypeScript",
-      "PLpgSQL",
-      "CSS",
-      "Python"
+      "Shell",
+      "Dockerfile",
+      "CSS"
     ]
   },
   "dev_pulse": [
@@ -131,6 +131,20 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "PR labeled #377",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-05T04:45:03Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "Opened PR #377",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-05T04:45:03Z"
+    },
+    {
       "label": "ISSUE",
       "repo": "ivRooom/Herta",
       "title": "Issue assigned #376",
@@ -143,16 +157,9 @@
       "title": "Issue labeled #376",
       "url": "https://github.com/ivRooom/Herta/issues/376",
       "at": "2026-09-05T02:01:14Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Opened issue #376",
-      "url": "https://github.com/ivRooom/Herta/issues/376",
-      "at": "2026-09-05T02:01:14Z"
     }
   ],
-  "generated_at": "2026-09-05T13:40:19+09:00",
+  "generated_at": "2026-09-05T13:45:17+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
