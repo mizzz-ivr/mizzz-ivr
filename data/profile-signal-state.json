@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-05T00:19:51Z"
+    "last_activity_at": "2026-09-05T00:20:45Z"
   },
   "code_weather": {
     "label": "REST DAY",
@@ -20,7 +20,7 @@
     "score": 8,
     "events": 5,
     "last_activity_at": "2026-09-05T00:19:03Z",
-    "share": 67,
+    "share": 62,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -94,16 +94,9 @@
       "title": "PR merged #118",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-09-05T00:17:41Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #118",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-09-05T00:16:37Z"
     }
   ],
-  "generated_at": "2026-09-05T09:20:17+09:00",
+  "generated_at": "2026-09-05T09:25:15+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
