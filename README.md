@@ -26,7 +26,7 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 23:38 JST</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 09/05 23:38 JST</sub></td>
     <td width="34%" align="center"><strong>⚡ HEAVY CODING</strong><br/><sub>21 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 12 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
@@ -81,7 +81,7 @@
 <!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
 ## NOW BUILDING // Active repositories
 
-<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>58% weighted · WATCH · CI pass rate 75%<br/>last activity · 18:35 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>21% weighted · HEALTHY · CI pass rate 90%<br/>last activity · 13:40 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
+<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>58% weighted · WATCH · CI pass rate 75%<br/>last activity · 09/05 18:35 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>21% weighted · HEALTHY · CI pass rate 90%<br/>last activity · 09/05 13:40 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
 <!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
 
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->
@@ -89,10 +89,10 @@
 
 <table width="100%">
   <tbody>
-    <tr><td width="10%"><code>23:38</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">fix/372-studio-picker-mobile-overlayへ1コミットをPush</a></td></tr>
-    <tr><td width="10%"><code>23:32</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">fix/372-studio-picker-mobile-overlayへ1コミットをPush</a></td></tr>
-    <tr><td width="10%"><code>23:29</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">fix/372-studio-picker-mobile-overlayへ1コミットをPush</a></td></tr>
-    <tr><td width="10%"><code>23:20</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">fix/372-studio-picker-mobile-overlayへ1コミットをPush</a></td></tr>
+    <tr><td width="10%"><code>09/05 23:38</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">fix/372-studio-picker-mobile-overlayへ1コミットをPush</a></td></tr>
+    <tr><td width="10%"><code>09/05 23:32</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">fix/372-studio-picker-mobile-overlayへ1コミットをPush</a></td></tr>
+    <tr><td width="10%"><code>09/05 23:29</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">fix/372-studio-picker-mobile-overlayへ1コミットをPush</a></td></tr>
+    <tr><td width="10%"><code>09/05 23:20</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/commits">fix/372-studio-picker-mobile-overlayへ1コミットをPush</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->
