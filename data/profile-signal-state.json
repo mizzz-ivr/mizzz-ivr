@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-05T14:17:31Z"
+    "last_activity_at": "2026-09-05T14:29:37Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -17,10 +17,10 @@
   "activity_total": 21,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 28,
-    "events": 22,
-    "last_activity_at": "2026-09-05T09:35:13Z",
-    "share": 55,
+    "score": 29,
+    "events": 23,
+    "last_activity_at": "2026-09-05T14:29:37Z",
+    "share": 56,
     "stack": [
       "TypeScript",
       "Shell",
@@ -131,6 +131,13 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to fix/372-studio-picker-mobile-overlay",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-09-05T14:29:37Z"
+    },
+    {
       "label": "ISSUE",
       "repo": "ivRooom/Herta",
       "title": "Closed issue #376",
@@ -150,16 +157,9 @@
       "title": "1 commit pushed to fix/376-security-gate",
       "url": "https://github.com/ivRooom/Herta/commits",
       "at": "2026-09-05T04:56:33Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR labeled #377",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-05T04:45:03Z"
     }
   ],
-  "generated_at": "2026-09-05T23:25:17+09:00",
+  "generated_at": "2026-09-05T23:30:21+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
