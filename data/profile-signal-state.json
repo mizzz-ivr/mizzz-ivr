@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-05T02:40:05Z"
+    "last_activity_at": "2026-09-05T02:45:17Z"
   },
   "code_weather": {
     "label": "REST DAY",
@@ -20,7 +20,7 @@
     "score": 9,
     "events": 6,
     "last_activity_at": "2026-09-05T02:40:05Z",
-    "share": 43,
+    "share": 41,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -103,7 +103,7 @@
       "at": "2026-09-05T02:01:14Z"
     }
   ],
-  "generated_at": "2026-09-05T11:45:17+09:00",
+  "generated_at": "2026-09-05T11:50:19+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
