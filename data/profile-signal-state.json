@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-05T14:29:37Z"
+    "last_activity_at": "2026-09-05T14:32:42Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -17,10 +17,10 @@
   "activity_total": 21,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 29,
-    "events": 23,
-    "last_activity_at": "2026-09-05T14:29:37Z",
-    "share": 56,
+    "score": 30,
+    "events": 24,
+    "last_activity_at": "2026-09-05T14:32:42Z",
+    "share": 57,
     "stack": [
       "TypeScript",
       "Shell",
@@ -135,6 +135,13 @@
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to fix/372-studio-picker-mobile-overlay",
       "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-09-05T14:32:42Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to fix/372-studio-picker-mobile-overlay",
+      "url": "https://github.com/ivRooom/Herta/commits",
       "at": "2026-09-05T14:29:37Z"
     },
     {
@@ -150,16 +157,9 @@
       "title": "PR merged #377",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-09-05T09:22:20Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to fix/376-security-gate",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-09-05T04:56:33Z"
     }
   ],
-  "generated_at": "2026-09-05T23:30:21+09:00",
+  "generated_at": "2026-09-05T23:35:12+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
