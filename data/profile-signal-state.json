@@ -5,17 +5,29 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "OFFLINE",
-    "symbol": "○",
-    "last_activity_at": "2026-09-04T13:17:42Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-09-05T00:19:51Z"
   },
   "code_weather": {
     "label": "REST DAY",
     "icon": "🌙"
   },
-  "streak": 0,
+  "streak": 12,
   "activity_total": 0,
-  "current_focus": null,
+  "current_focus": {
+    "repo": "ivRooom/ivrm-dashboard",
+    "score": 8,
+    "events": 5,
+    "last_activity_at": "2026-09-05T00:19:03Z",
+    "share": 67,
+    "stack": [
+      "TypeScript",
+      "PLpgSQL",
+      "CSS",
+      "Python"
+    ]
+  },
   "dev_pulse": [
     {
       "date": "2026-08-30",
@@ -68,8 +80,30 @@
     }
   ],
   "now_building": [],
-  "activity_stream": [],
-  "generated_at": "2026-09-05T09:15:15+09:00",
+  "activity_stream": [
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Issue labeled #117",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/117",
+      "at": "2026-09-05T00:18:16Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #118",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-09-05T00:17:41Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #118",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-09-05T00:16:37Z"
+    }
+  ],
+  "generated_at": "2026-09-05T09:20:17+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
