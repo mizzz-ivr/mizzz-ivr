@@ -5,11 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
-    "issues_created": 0,
+    "commits": 5,
+    "prs_opened": 2,
+    "issues_created": 1,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-09-05T00:09:15+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "Merge pull request #360 from ivRooom/dependabot/npm_and_yarn/production-dependencies-4bc8dd9f10",
+      "url": "https://github.com/ivRooom/Herta/commit/7dbee1ed438c345683b729578770420d891484b4",
+      "at": "2026-09-05T10:45:45.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "docs(zenn): Idempotency-KeyをUI・API・DBで貫通させる記事を追加  初心者向けのambiguous failure導入から、fingerprint、replay",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/7f4503e41f78bd51ac2006f916a92c66e1f2a5f7",
+      "at": "2026-09-05T09:20:44.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "revert accidental temporary article file",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/2d35f5caf36f1e2db298a0be2a1a7b11160c82c4",
+      "at": "2026-09-05T09:18:32.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "TEMP should not run",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/31519f6e443d1bfd94f22d1b1f4996b1a2a2079a",
+      "at": "2026-09-05T09:18:10.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Issue #117: Operation Agent内部エラーをbounded分類 (#118)  再発したOperation Agent claim APIのgeneric interna",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/4174b2cfda45be93fee77f1649541d6614d2062a",
+      "at": "2026-09-05T09:17:40.000+09:00"
+    }
+  ],
+  "generated_at": "2026-09-05T12:09:16+09:00"
 }
