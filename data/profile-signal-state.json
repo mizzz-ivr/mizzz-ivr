@@ -16,16 +16,13 @@
   "streak": 13,
   "activity_total": 0,
   "current_focus": {
-    "repo": "ivRooom/Herta",
-    "score": 6,
-    "events": 6,
-    "last_activity_at": "2026-09-06T02:45:58Z",
-    "share": 43,
+    "repo": "ivRooom/ivrm-mcmod",
+    "score": 7,
+    "events": 7,
+    "last_activity_at": "2026-09-06T02:30:41Z",
+    "share": 47,
     "stack": [
-      "TypeScript",
-      "Shell",
-      "Dockerfile",
-      "CSS"
+      "Java"
     ]
   },
   "dev_pulse": [
@@ -160,9 +157,16 @@
       "title": "1 commit pushed to feat/4-activity-event-sender",
       "url": "https://github.com/ivRooom/ivrm-mcmod/commits",
       "at": "2026-09-06T02:25:20Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "1 commit pushed to feat/4-activity-event-sender",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/commits",
+      "at": "2026-09-06T02:22:22Z"
     }
   ],
-  "generated_at": "2026-09-06T12:50:16+09:00",
+  "generated_at": "2026-09-06T12:55:13+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
