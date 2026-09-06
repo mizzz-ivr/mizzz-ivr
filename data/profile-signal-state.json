@@ -5,17 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "OFFLINE",
-    "symbol": "○",
-    "last_activity_at": "2026-09-05T14:38:40Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-09-06T02:20:10Z"
   },
   "code_weather": {
     "label": "REST DAY",
     "icon": "🌙"
   },
-  "streak": 0,
+  "streak": 13,
   "activity_total": 0,
-  "current_focus": null,
+  "current_focus": {
+    "repo": "ivRooom/ivrm-mcmod",
+    "score": 2,
+    "events": 2,
+    "last_activity_at": "2026-09-06T02:20:10Z",
+    "share": 100,
+    "stack": [
+      "Java"
+    ]
+  },
   "dev_pulse": [
     {
       "date": "2026-08-31",
@@ -69,7 +78,7 @@
   ],
   "now_building": [],
   "activity_stream": [],
-  "generated_at": "2026-09-06T11:15:15+09:00",
+  "generated_at": "2026-09-06T11:20:16+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",

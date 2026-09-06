@@ -26,9 +26,9 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>○ OFFLINE</strong><br/><sub>last public activity · 09/05 23:38 JST</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 11:20 JST</sub></td>
     <td width="34%" align="center"><strong>🌙 REST DAY</strong><br/><sub>0 public actions today</sub></td>
-    <td width="33%" align="center"><strong>🔥 0 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
+    <td width="33%" align="center"><strong>🔥 13 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:LIVE-SIGNAL:END -->
@@ -51,7 +51,12 @@
 <!-- PROFILE-SIGNAL:FOCUS:START -->
 ## CURRENT FOCUS // What is moving now
 
-<p align="center"><sub>現在フォーカス中の公開Repositoryはありません。</sub></p>
+<table width="100%">
+  <tr>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-mcmod">ivRooom/ivrm-mcmod</a></strong><br/><sub>weighted activity 100% · score 2 · 2 events</sub></td>
+    <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>Java</code></td>
+  </tr>
+</table>
 <!-- PROFILE-SIGNAL:FOCUS:END -->
 
 <!-- PROFILE-SIGNAL:PULSE:START -->
@@ -180,7 +185,7 @@
 
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><strong>🔥 0</strong><br/><sub>DAY STREAK</sub></td>
+    <td width="25%" align="center"><strong>🔥 13</strong><br/><sub>DAY STREAK</sub></td>
     <td width="25%" align="center"><strong>75</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
     <td width="25%" align="center"><strong>34</strong><br/><sub>PRS · THIS WEEK</sub></td>
     <td width="25%" align="center"><strong>6</strong><br/><sub>ISSUES DONE · THIS WEEK</sub></td>
