@@ -5,11 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
+    "commits": 7,
     "prs_opened": 0,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-09-06T00:06:02+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "Merge pull request #374 from ivRooom/fix/372-studio-picker-mobile-overlay  fix(studio): mobile C",
+      "url": "https://github.com/ivRooom/Herta/commit/e62a6c399c528fa162f2920e24fff7be0d9ce9cc",
+      "at": "2026-09-06T21:58:15.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "Merge pull request #6 from ivRooom/feat/4-activity-event-sender",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/commit/b7b91ef5148b279a25fa3f4768149735a715540e",
+      "at": "2026-09-06T21:52:15.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "test(studio): verify picker keyboard and focus regressions",
+      "url": "https://github.com/ivRooom/Herta/commit/24f79b18870e671fa53c6615fc26d0e94da756e3",
+      "at": "2026-09-06T11:31:57.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "test(studio): cover channel and emoji picker regressions",
+      "url": "https://github.com/ivRooom/Herta/commit/60c4683af6ae66b80cd7401beabb36281502077d",
+      "at": "2026-09-06T11:31:40.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "fix: repair only regular activity journal files",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/commit/e28d42e6dfaf43d004d1f99d2b1de31d40be604c",
+      "at": "2026-09-06T11:25:19.000+09:00"
+    }
+  ],
+  "generated_at": "2026-09-06T22:05:09+09:00"
 }

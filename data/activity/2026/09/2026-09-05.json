@@ -5,7 +5,7 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 16,
+    "commits": 37,
     "prs_opened": 3,
     "issues_created": 1,
     "issues_completed": 1
@@ -14,38 +14,38 @@
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "Merge pull request #377 from ivRooom/fix/376-security-gate",
-      "url": "https://github.com/ivRooom/Herta/commit/ac55324cbebaf4dc22cd4c919d83127a93d49172",
-      "at": "2026-09-05T18:22:20.000+09:00"
+      "title": "test(studio): keep E2E health probe unavailable in production",
+      "url": "https://github.com/ivRooom/Herta/commit/e4ef90797a9a23b8e596def86e49ab4c7f1dfa7a",
+      "at": "2026-09-05T23:38:48.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "chore(ci): remove temporary #376 lockfile workflow",
-      "url": "https://github.com/ivRooom/Herta/commit/4c715e2b115f35fc6ebbaead61f231858316185f",
-      "at": "2026-09-05T13:57:51.000+09:00"
+      "title": "test(studio): keep E2E fixture unavailable in production",
+      "url": "https://github.com/ivRooom/Herta/commit/089b1db123944fb0f35338b54a57adf9b5639e2a",
+      "at": "2026-09-05T23:38:39.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "fix(security): bump fast-uri to 4.1.4",
-      "url": "https://github.com/ivRooom/Herta/commit/1a7ad6726772fa613cd171db311f40265b5f0b04",
-      "at": "2026-09-05T13:56:44.000+09:00"
+      "title": "test(studio): run mobile device profile on Chromium",
+      "url": "https://github.com/ivRooom/Herta/commit/bd5f32b152fa535f9677b8bde5d7830f52b4c0b8",
+      "at": "2026-09-05T23:34:44.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "test(security): require fast-uri 4.1.4",
-      "url": "https://github.com/ivRooom/Herta/commit/b1ebcf6ad79e2b9ecfc8f6f84097fd17444fc2b4",
-      "at": "2026-09-05T13:56:33.000+09:00"
+      "title": "test(studio): remove unroutable private E2E health route",
+      "url": "https://github.com/ivRooom/Herta/commit/0bdab6a536cad29ea5aa25001262a329144096ce",
+      "at": "2026-09-05T23:32:58.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "chore(ci): add temporary #376 lockfile regeneration workflow",
-      "url": "https://github.com/ivRooom/Herta/commit/9a078de627e9e94f147795624de8f4e928c84775",
-      "at": "2026-09-05T13:56:25.000+09:00"
+      "title": "test(studio): remove unroutable private E2E fixture",
+      "url": "https://github.com/ivRooom/Herta/commit/676da58decae34874055463502dd1f6e9afcc572",
+      "at": "2026-09-05T23:32:51.000+09:00"
     }
   ],
-  "generated_at": "2026-09-05T19:43:04+09:00"
+  "generated_at": "2026-09-06T22:05:09+09:00"
 }
