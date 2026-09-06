@@ -8,7 +8,7 @@
     "commits": 7,
     "prs_opened": 0,
     "issues_created": 0,
-    "issues_completed": 0
+    "issues_completed": 1
   },
   "activity": [
     {
@@ -26,6 +26,13 @@
       "at": "2026-09-06T21:52:15.000+09:00"
     },
     {
+      "type": "done",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "Issue #4 NeoForge Activity Event Senderを実装する",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/issues/4",
+      "at": "2026-09-06T13:07:48Z"
+    },
+    {
       "type": "commit",
       "repo": "ivRooom/Herta",
       "title": "test(studio): verify picker keyboard and focus regressions",
@@ -38,14 +45,7 @@
       "title": "test(studio): cover channel and emoji picker regressions",
       "url": "https://github.com/ivRooom/Herta/commit/60c4683af6ae66b80cd7401beabb36281502077d",
       "at": "2026-09-06T11:31:40.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-mcmod",
-      "title": "fix: repair only regular activity journal files",
-      "url": "https://github.com/ivRooom/ivrm-mcmod/commit/e28d42e6dfaf43d004d1f99d2b1de31d40be604c",
-      "at": "2026-09-06T11:25:19.000+09:00"
     }
   ],
-  "generated_at": "2026-09-06T22:05:09+09:00"
+  "generated_at": "2026-09-07T00:09:12+09:00"
 }
