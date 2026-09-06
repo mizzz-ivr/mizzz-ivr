@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-06T02:27:45Z"
+    "last_activity_at": "2026-09-06T02:30:41Z"
   },
   "code_weather": {
     "label": "REST DAY",
@@ -17,10 +17,10 @@
   "activity_total": 0,
   "current_focus": {
     "repo": "ivRooom/ivrm-mcmod",
-    "score": 4,
-    "events": 4,
-    "last_activity_at": "2026-09-06T02:27:45Z",
-    "share": 67,
+    "score": 6,
+    "events": 6,
+    "last_activity_at": "2026-09-06T02:30:41Z",
+    "share": 75,
     "stack": [
       "Java"
     ]
@@ -77,8 +77,16 @@
     }
   ],
   "now_building": [],
-  "activity_stream": [],
-  "generated_at": "2026-09-06T11:30:19+09:00",
+  "activity_stream": [
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "1 commit pushed to feat/4-activity-event-sender",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/commits",
+      "at": "2026-09-06T02:25:20Z"
+    }
+  ],
+  "generated_at": "2026-09-06T11:35:12+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
