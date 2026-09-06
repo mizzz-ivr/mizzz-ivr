@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-06T13:05:20Z"
+    "last_activity_at": "2026-09-06T13:07:48Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -16,16 +16,13 @@
   "streak": 13,
   "activity_total": 7,
   "current_focus": {
-    "repo": "ivRooom/Herta",
-    "score": 10,
+    "repo": "ivRooom/ivrm-mcmod",
+    "score": 12,
     "events": 10,
-    "last_activity_at": "2026-09-06T13:05:20Z",
-    "share": 45,
+    "last_activity_at": "2026-09-06T13:07:48Z",
+    "share": 48,
     "stack": [
-      "TypeScript",
-      "Shell",
-      "Dockerfile",
-      "CSS"
+      "Java"
     ]
   },
   "dev_pulse": [
@@ -155,6 +152,13 @@
   ],
   "activity_stream": [
     {
+      "label": "ISSUE",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "Closed issue #4",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/issues/4",
+      "at": "2026-09-06T13:07:48Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/Herta",
       "title": "PR merged #374",
@@ -174,16 +178,9 @@
       "title": "PR merged #6",
       "url": "https://github.com/ivRooom/ivrm-mcmod",
       "at": "2026-09-06T12:52:16Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-mcmod",
-      "title": "1 commit pushed to feat/4-activity-event-sender",
-      "url": "https://github.com/ivRooom/ivrm-mcmod/commits",
-      "at": "2026-09-06T02:25:20Z"
     }
   ],
-  "generated_at": "2026-09-06T22:05:25+09:00",
+  "generated_at": "2026-09-06T22:10:13+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
