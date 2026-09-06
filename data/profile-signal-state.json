@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-06T12:52:18Z"
+    "last_activity_at": "2026-09-06T12:58:16Z"
   },
   "code_weather": {
     "label": "REST DAY",
@@ -20,7 +20,7 @@
     "score": 9,
     "events": 9,
     "last_activity_at": "2026-09-06T12:52:18Z",
-    "share": 50,
+    "share": 47,
     "stack": [
       "Java"
     ]
@@ -152,6 +152,13 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "PR merged #374",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-06T12:58:16Z"
+    },
+    {
       "label": "PUSH",
       "repo": "ivRooom/ivrm-mcmod",
       "title": "1 commit pushed to main",
@@ -171,16 +178,9 @@
       "title": "1 commit pushed to feat/4-activity-event-sender",
       "url": "https://github.com/ivRooom/ivrm-mcmod/commits",
       "at": "2026-09-06T02:25:20Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-mcmod",
-      "title": "1 commit pushed to feat/4-activity-event-sender",
-      "url": "https://github.com/ivRooom/ivrm-mcmod/commits",
-      "at": "2026-09-06T02:22:22Z"
     }
   ],
-  "generated_at": "2026-09-06T21:55:16+09:00",
+  "generated_at": "2026-09-06T22:00:27+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
