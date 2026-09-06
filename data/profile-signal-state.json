@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-06T02:23:24Z"
+    "last_activity_at": "2026-09-06T02:27:45Z"
   },
   "code_weather": {
     "label": "REST DAY",
@@ -16,16 +16,13 @@
   "streak": 13,
   "activity_total": 0,
   "current_focus": {
-    "repo": "ivRooom/ivrm-dashboard",
-    "score": 2,
-    "events": 2,
-    "last_activity_at": "2026-09-06T02:23:24Z",
-    "share": 50,
+    "repo": "ivRooom/ivrm-mcmod",
+    "score": 4,
+    "events": 4,
+    "last_activity_at": "2026-09-06T02:27:45Z",
+    "share": 67,
     "stack": [
-      "TypeScript",
-      "PLpgSQL",
-      "CSS",
-      "Python"
+      "Java"
     ]
   },
   "dev_pulse": [
@@ -81,7 +78,7 @@
   ],
   "now_building": [],
   "activity_stream": [],
-  "generated_at": "2026-09-06T11:25:13+09:00",
+  "generated_at": "2026-09-06T11:30:19+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
