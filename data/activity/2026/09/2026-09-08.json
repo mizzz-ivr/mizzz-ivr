@@ -7,10 +7,17 @@
   "metrics": {
     "commits": 3,
     "prs_opened": 3,
-    "issues_created": 0,
+    "issues_created": 1,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #381 ops(security): Lightsail SSH ingress / SSM / instance snapshotをhardeningする",
+      "url": "https://github.com/ivRooom/Herta/issues/381",
+      "at": "2026-09-08T10:32:47Z"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/tech-writing",
@@ -38,14 +45,7 @@
       "title": "PR #88 fix(analytics): Zenn公開記事の二重計上を解消",
       "url": "https://github.com/mizzz-ivr/tech-writing/pull/88",
       "at": "2026-09-07T21:34:48Z"
-    },
-    {
-      "type": "pr",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "PR #87 chore(zenn): 公開済みPR/CI記事を記録",
-      "url": "https://github.com/mizzz-ivr/tech-writing/pull/87",
-      "at": "2026-09-07T21:31:54Z"
     }
   ],
-  "generated_at": "2026-09-08T07:06:36+09:00"
+  "generated_at": "2026-09-08T20:27:05+09:00"
 }
