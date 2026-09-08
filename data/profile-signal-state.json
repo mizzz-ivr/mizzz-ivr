@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "OFFLINE",
-    "symbol": "○",
-    "last_activity_at": "2026-09-07T21:35:39Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-09-08T10:33:14Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -68,8 +68,16 @@
     }
   ],
   "now_building": [],
-  "activity_stream": [],
-  "generated_at": "2026-09-08T19:30:21+09:00",
+  "activity_stream": [
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Opened issue #381",
+      "url": "https://github.com/ivRooom/Herta/issues/381",
+      "at": "2026-09-08T10:32:49Z"
+    }
+  ],
+  "generated_at": "2026-09-08T19:35:14+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
