@@ -6,10 +6,25 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 0,
-    "issues_created": 0,
+    "prs_opened": 1,
+    "issues_created": 1,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-09-09T00:09:17+09:00"
+  "activity": [
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "PR #90 docs(qiita): GPT-6 Astraで変わる「仕事の単位」を記事化",
+      "url": "https://github.com/mizzz-ivr/tech-writing/pull/90",
+      "at": "2026-09-08T23:18:20Z"
+    },
+    {
+      "type": "issue",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "Issue #89 docs(qiita): GPT-6 Astraで「仕事の単位」がどう変わるかを記事化する",
+      "url": "https://github.com/mizzz-ivr/tech-writing/issues/89",
+      "at": "2026-09-08T23:16:34Z"
+    }
+  ],
+  "generated_at": "2026-09-09T08:26:53+09:00"
 }
