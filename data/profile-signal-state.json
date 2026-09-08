@@ -5,15 +5,15 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "OFFLINE",
-    "symbol": "○",
-    "last_activity_at": "2026-09-08T10:33:14Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-09-08T23:18:20Z"
   },
   "code_weather": {
     "label": "REST DAY",
     "icon": "🌙"
   },
-  "streak": 0,
+  "streak": 16,
   "activity_total": 0,
   "current_focus": null,
   "dev_pulse": [
@@ -69,7 +69,7 @@
   ],
   "now_building": [],
   "activity_stream": [],
-  "generated_at": "2026-09-09T08:15:15+09:00",
+  "generated_at": "2026-09-09T08:20:17+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
