@@ -20,11 +20,11 @@
     }
   </style>
   <text class="title" x="24" y="25">DEV PULSE · LAST 7 DAYS</text>
-  <text class="meta" x="856" y="25" text-anchor="end">C 3 · PR 3 · ISSUE 1</text>
+  <text class="meta" x="856" y="25" text-anchor="end">C 0 · PR 0 · ISSUE 0</text>
   <line class="grid" x1="24" y1="148.5" x2="856" y2="148.5" />
-  <polygon class="area" points="85,148 85,90 197,124 309,88 421,58 533,129 645,124 757,133 757,148" />
-  <polyline class="line" points="85,90 197,124 309,88 421,58 533,129 645,124 757,133" />
-  <circle class="point" cx="85" cy="90" r="5" /><circle class="point" cx="197" cy="124" r="5" /><circle class="point" cx="309" cy="88" r="5" /><circle class="point" cx="421" cy="58" r="5" /><circle class="point" cx="533" cy="129" r="5" /><circle class="point" cx="645" cy="124" r="5" /><circle class="point" cx="757" cy="133" r="5" />
-  <text class="label" x="85" y="177" text-anchor="middle">09-02</text><text class="value" x="85" y="80" text-anchor="middle">27</text><text class="label" x="197" y="177" text-anchor="middle">09-03</text><text class="value" x="197" y="114" text-anchor="middle">11</text><text class="label" x="309" y="177" text-anchor="middle">09-04</text><text class="value" x="309" y="78" text-anchor="middle">28</text><text class="label" x="421" y="177" text-anchor="middle">09-05</text><text class="value" x="421" y="48" text-anchor="middle">42</text><text class="label" x="533" y="177" text-anchor="middle">09-06</text><text class="value" x="533" y="119" text-anchor="middle">9</text><text class="label" x="645" y="177" text-anchor="middle">09-07</text><text class="value" x="645" y="114" text-anchor="middle">11</text><text class="label" x="757" y="177" text-anchor="middle">09-08</text><text class="value" x="757" y="123" text-anchor="middle">7</text>
+  <polygon class="area" points="85,148 85,124 197,88 309,58 421,129 533,124 645,133 757,148 757,148" />
+  <polyline class="line" points="85,124 197,88 309,58 421,129 533,124 645,133 757,148" />
+  <circle class="point" cx="85" cy="124" r="5" /><circle class="point" cx="197" cy="88" r="5" /><circle class="point" cx="309" cy="58" r="5" /><circle class="point" cx="421" cy="129" r="5" /><circle class="point" cx="533" cy="124" r="5" /><circle class="point" cx="645" cy="133" r="5" /><circle class="point" cx="757" cy="148" r="5" />
+  <text class="label" x="85" y="177" text-anchor="middle">09-03</text><text class="value" x="85" y="114" text-anchor="middle">11</text><text class="label" x="197" y="177" text-anchor="middle">09-04</text><text class="value" x="197" y="78" text-anchor="middle">28</text><text class="label" x="309" y="177" text-anchor="middle">09-05</text><text class="value" x="309" y="48" text-anchor="middle">42</text><text class="label" x="421" y="177" text-anchor="middle">09-06</text><text class="value" x="421" y="119" text-anchor="middle">9</text><text class="label" x="533" y="177" text-anchor="middle">09-07</text><text class="value" x="533" y="114" text-anchor="middle">11</text><text class="label" x="645" y="177" text-anchor="middle">09-08</text><text class="value" x="645" y="123" text-anchor="middle">7</text><text class="label" x="757" y="177" text-anchor="middle">09-09</text><text class="value" x="757" y="138" text-anchor="middle">0</text>
   <text class="meta" x="24" y="201">activity = commits + PRs opened + issues created + issues done</text>
 </svg>
