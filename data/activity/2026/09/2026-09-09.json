@@ -5,16 +5,30 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
+    "commits": 1,
     "prs_opened": 1,
     "issues_created": 1,
-    "issues_completed": 0
+    "issues_completed": 1
   },
   "activity": [
     {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "docs(qiita): GPT-6 Astra、PC操作47%高速化と仕事の変化を記事化  Closes #89",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/f74d732c772eca64f481ad588dca1395b926c7f7",
+      "at": "2026-09-09T09:00:05.000+09:00"
+    },
+    {
+      "type": "done",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "Issue #89 docs(qiita): GPT-6 Astraで「仕事の単位」がどう変わるかを記事化する",
+      "url": "https://github.com/mizzz-ivr/tech-writing/issues/89",
+      "at": "2026-09-09T00:00:07Z"
+    },
+    {
       "type": "pr",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "PR #90 docs(qiita): GPT-6 Astraで変わる「仕事の単位」を記事化",
+      "title": "PR #90 docs(qiita): GPT-6 Astra、PC操作47%高速化と仕事の変化を記事化",
       "url": "https://github.com/mizzz-ivr/tech-writing/pull/90",
       "at": "2026-09-08T23:18:20Z"
     },
@@ -26,5 +40,5 @@
       "at": "2026-09-08T23:16:34Z"
     }
   ],
-  "generated_at": "2026-09-09T08:26:53+09:00"
+  "generated_at": "2026-09-09T09:09:10+09:00"
 }
