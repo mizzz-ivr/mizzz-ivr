@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "OFFLINE",
-    "symbol": "○",
-    "last_activity_at": "2026-09-09T03:21:43Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-09-09T11:59:49Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -68,8 +68,16 @@
     }
   ],
   "now_building": [],
-  "activity_stream": [],
-  "generated_at": "2026-09-09T20:55:16+09:00",
+  "activity_stream": [
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Closed issue #373",
+      "url": "https://github.com/ivRooom/Herta/issues/373",
+      "at": "2026-09-09T11:59:35Z"
+    }
+  ],
+  "generated_at": "2026-09-09T21:00:31+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
