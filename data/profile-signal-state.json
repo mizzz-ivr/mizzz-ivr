@@ -1,6 +1,6 @@
 {
   "schema_version": 4,
-  "date": "2026-09-10",
+  "date": "2026-09-11",
   "timezone": "Asia/Tokyo",
   "scope": "public",
   "github_login": "mizzz-ivr",
@@ -17,13 +17,6 @@
   "activity_total": 0,
   "current_focus": null,
   "dev_pulse": [
-    {
-      "date": "2026-09-04",
-      "total": 28,
-      "commits": 14,
-      "prs": 10,
-      "issues": 4
-    },
     {
       "date": "2026-09-05",
       "total": 42,
@@ -65,11 +58,18 @@
       "commits": 0,
       "prs": 0,
       "issues": 0
+    },
+    {
+      "date": "2026-09-11",
+      "total": 0,
+      "commits": 0,
+      "prs": 0,
+      "issues": 0
     }
   ],
   "now_building": [],
   "activity_stream": [],
-  "generated_at": "2026-09-10T23:55:16+09:00",
+  "generated_at": "2026-09-11T00:09:25+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
@@ -83,7 +83,7 @@
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
-    "tracked_days": 17,
+    "tracked_days": 18,
     "active_days": 16,
     "longest_streak": 16,
     "weekly": {
@@ -94,8 +94,8 @@
       "github_login": "mizzz-ivr",
       "coverage": {
         "start_date": "2026-09-07",
-        "end_date": "2026-09-10",
-        "tracked_days": 4,
+        "end_date": "2026-09-11",
+        "tracked_days": 5,
         "active_days": 3
       },
       "metrics": {
@@ -105,7 +105,7 @@
         "issues_completed": 2,
         "activity_total": 25
       },
-      "generated_at": "2026-09-10T00:09:52+09:00"
+      "generated_at": "2026-09-11T00:09:25+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -115,8 +115,8 @@
       "github_login": "mizzz-ivr",
       "coverage": {
         "start_date": "2026-09-01",
-        "end_date": "2026-09-10",
-        "tracked_days": 10,
+        "end_date": "2026-09-11",
+        "tracked_days": 11,
         "active_days": 9
       },
       "metrics": {
@@ -126,7 +126,7 @@
         "issues_completed": 8,
         "activity_total": 157
       },
-      "generated_at": "2026-09-10T00:09:52+09:00"
+      "generated_at": "2026-09-11T00:09:25+09:00"
     },
     "achievements": [
       {
@@ -173,10 +173,10 @@
   "tracked_summary": {
     "year": 2026,
     "yearly": {
-      "tracked_days": 17,
+      "tracked_days": 18,
       "active_days": 16,
       "first_date": "2026-08-25",
-      "last_date": "2026-09-10",
+      "last_date": "2026-09-11",
       "metrics": {
         "commits": 1685,
         "prs_opened": 199,
@@ -186,10 +186,10 @@
       }
     },
     "lifetime": {
-      "tracked_days": 17,
+      "tracked_days": 18,
       "active_days": 16,
       "first_date": "2026-08-25",
-      "last_date": "2026-09-10",
+      "last_date": "2026-09-11",
       "metrics": {
         "commits": 1685,
         "prs_opened": 199,

@@ -36,7 +36,7 @@
 <!-- DAILY-ACTIVITY:START -->
 ## TODAY // Activity overview
 
-<p align="center"><sub>2026-09-10 JST · public GitHub activity</sub></p>
+<p align="center"><sub>2026-09-11 JST · public GitHub activity</sub></p>
 
 <table width="100%">
   <tr>
@@ -197,14 +197,14 @@
 <summary><strong>YEARLY SUMMARY // 2026</strong></summary>
 <br/>
 <table width="100%"><tr><td width="20%" align="center"><strong>16</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1685</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>199</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>67</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>2054</strong><br/><sub>ACTIVITY</sub></td></tr></table>
-<p><sub>17 tracked days in 2026.</sub></p>
+<p><sub>18 tracked days in 2026.</sub></p>
 </details>
 
 <details>
 <summary><strong>LIFETIME SUMMARY // Tracked history</strong></summary>
 <br/>
 <table width="100%"><tr><td width="20%" align="center"><strong>16</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1685</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>199</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>67</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>2054</strong><br/><sub>ACTIVITY</sub></td></tr></table>
-<p><sub>Profile Signal tracked lifetime · tracked since 2026-08-25 · 17 tracked days. GitHub account lifetime totalsではありません。</sub></p>
+<p><sub>Profile Signal tracked lifetime · tracked since 2026-08-25 · 18 tracked days. GitHub account lifetime totalsではありません。</sub></p>
 </details>
 <!-- PROFILE-SIGNAL:RECAP:END -->
 
