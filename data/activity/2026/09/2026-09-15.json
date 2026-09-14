@@ -5,11 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
+    "commits": 3,
     "prs_opened": 0,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-09-15T00:09:18+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "chore(articles): remove duplicate infra operations draft",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/189f92e567d779d17c65eb5ee426bb989e32e77d",
+      "at": "2026-09-15T08:49:38.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "docs: make infra failure article more narrative",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/dbfa63b368b36929503a6e516670fc7889210dc4",
+      "at": "2026-09-15T08:46:06.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "docs: add infra operations failure lessons article",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/45ac014389219bb7de5c7f638a11d76ded3a2c62",
+      "at": "2026-09-15T08:44:42.000+09:00"
+    }
+  ],
+  "generated_at": "2026-09-15T08:53:34+09:00"
 }
