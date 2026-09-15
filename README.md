@@ -27,8 +27,8 @@
 <table width="100%">
   <tr>
     <td width="33%" align="center"><strong>○ OFFLINE</strong><br/><sub>last public activity · 09/15 09:18 JST</sub></td>
-    <td width="34%" align="center"><strong>🌤️ ACTIVE</strong><br/><sub>14 public actions today</sub></td>
-    <td width="33%" align="center"><strong>🔥 1 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
+    <td width="34%" align="center"><strong>🌙 REST DAY</strong><br/><sub>0 public actions today</sub></td>
+    <td width="33%" align="center"><strong>🔥 0 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:LIVE-SIGNAL:END -->
@@ -36,14 +36,14 @@
 <!-- DAILY-ACTIVITY:START -->
 ## TODAY // Activity overview
 
-<p align="center"><sub>2026-09-15 JST · public GitHub activity</sub></p>
+<p align="center"><sub>2026-09-16 JST · public GitHub activity</sub></p>
 
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><strong>8</strong><br/><sub>COMMITS</sub></td>
-    <td width="25%" align="center"><strong>5</strong><br/><sub>PRS OPENED</sub></td>
+    <td width="25%" align="center"><strong>0</strong><br/><sub>COMMITS</sub></td>
+    <td width="25%" align="center"><strong>0</strong><br/><sub>PRS OPENED</sub></td>
     <td width="25%" align="center"><strong>0</strong><br/><sub>ISSUES CREATED</sub></td>
-    <td width="25%" align="center"><strong>1</strong><br/><sub>ISSUES DONE</sub></td>
+    <td width="25%" align="center"><strong>0</strong><br/><sub>ISSUES DONE</sub></td>
   </tr>
 </table>
 <!-- DAILY-ACTIVITY:END -->
@@ -65,10 +65,10 @@
 
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><strong>STABLE</strong><br/><sub>CI SIGNAL</sub></td>
-    <td width="25%" align="center"><strong>90%</strong><br/><sub>PASS RATE</sub></td>
-    <td width="25%" align="center"><strong>9 / 10</strong><br/><sub>PASSED / EVALUATED</sub></td>
-    <td width="25%" align="center"><strong>1</strong><br/><sub>REPOS WITH CI</sub></td>
+    <td width="25%" align="center"><strong>NO SIGNAL</strong><br/><sub>CI SIGNAL</sub></td>
+    <td width="25%" align="center"><strong>N/A</strong><br/><sub>PASS RATE</sub></td>
+    <td width="25%" align="center"><strong>0 / 0</strong><br/><sub>PASSED / EVALUATED</sub></td>
+    <td width="25%" align="center"><strong>0</strong><br/><sub>REPOS WITH CI</sub></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:PULSE:END -->
@@ -180,7 +180,7 @@
 
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><strong>🔥 1</strong><br/><sub>DAY STREAK</sub></td>
+    <td width="25%" align="center"><strong>🔥 0</strong><br/><sub>DAY STREAK</sub></td>
     <td width="25%" align="center"><strong>8</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
     <td width="25%" align="center"><strong>5</strong><br/><sub>PRS · THIS WEEK</sub></td>
     <td width="25%" align="center"><strong>1</strong><br/><sub>ISSUES DONE · THIS WEEK</sub></td>
@@ -197,14 +197,14 @@
 <summary><strong>YEARLY SUMMARY // 2026</strong></summary>
 <br/>
 <table width="100%"><tr><td width="20%" align="center"><strong>17</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1693</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>204</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>68</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>2068</strong><br/><sub>ACTIVITY</sub></td></tr></table>
-<p><sub>22 tracked days in 2026.</sub></p>
+<p><sub>23 tracked days in 2026.</sub></p>
 </details>
 
 <details>
 <summary><strong>LIFETIME SUMMARY // Tracked history</strong></summary>
 <br/>
 <table width="100%"><tr><td width="20%" align="center"><strong>17</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1693</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>204</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>68</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>2068</strong><br/><sub>ACTIVITY</sub></td></tr></table>
-<p><sub>Profile Signal tracked lifetime · tracked since 2026-08-25 · 22 tracked days. GitHub account lifetime totalsではありません。</sub></p>
+<p><sub>Profile Signal tracked lifetime · tracked since 2026-08-25 · 23 tracked days. GitHub account lifetime totalsではありません。</sub></p>
 </details>
 <!-- PROFILE-SIGNAL:RECAP:END -->
 
