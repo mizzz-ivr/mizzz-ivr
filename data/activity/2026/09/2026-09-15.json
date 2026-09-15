@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 4,
-    "prs_opened": 1,
+    "commits": 8,
+    "prs_opened": 5,
     "issues_created": 0,
     "issues_completed": 1
   },
@@ -14,38 +14,38 @@
     {
       "type": "commit",
       "repo": "mizzz-ivr/tech-writing",
+      "title": "docs(qiita): Graviton記事からscale-to-zero続編へリンク (#96)  Qiita側の最新canonicalを保持したまま、公開済みscale-to-zero記",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/d233f9b3f7da49d6201faaaa365f9fe8b684fde0",
+      "at": "2026-09-15T09:17:59.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "chore(qiita): Qiita最新canonicalを同期 (#95)  Qiita側の最新canonicalをGitHubへ同期し、続編リンクを安全に再適用できる状態へ戻す。",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/cde3c91731619923939ac89051e318075161bf75",
+      "at": "2026-09-15T09:16:04.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "chore(qiita): post-publish syncを起動 (#94)  Qiita側の最新canonicalを安全にpullするため、設定値を変えずに既存sync workflow",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/41952c9c308f6da3906258372e2c2b184cc355af",
+      "at": "2026-09-15T09:14:26.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "chore(qiita): scale-to-zero記事の公開記録を確定 (#93)  公開済みmetadata、published履歴、前回Graviton記事からの続編リンクを確定する。",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/5f8749ff25962319a131ca3a0e85861d10b765af",
+      "at": "2026-09-15T09:10:32.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
       "title": "publish(qiita): scale-to-zero runner移行記事を公開 (#92)  Qiita canonicalを追加し、2026-09-15のsource fact ch",
       "url": "https://github.com/mizzz-ivr/tech-writing/commit/01156d769642b147de32d2a8e1e9bf90132b923d",
       "at": "2026-09-15T09:05:49.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "chore(articles): remove duplicate infra operations draft",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/189f92e567d779d17c65eb5ee426bb989e32e77d",
-      "at": "2026-09-15T08:49:38.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "docs: make infra failure article more narrative",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/dbfa63b368b36929503a6e516670fc7889210dc4",
-      "at": "2026-09-15T08:46:06.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "docs: add infra operations failure lessons article",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/45ac014389219bb7de5c7f638a11d76ded3a2c62",
-      "at": "2026-09-15T08:44:42.000+09:00"
-    },
-    {
-      "type": "done",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "Issue #74 Qiita: scale-to-zero runner記事をストーリー構成で9/9公開する",
-      "url": "https://github.com/mizzz-ivr/tech-writing/issues/74",
-      "at": "2026-09-15T00:05:51Z"
     }
   ],
-  "generated_at": "2026-09-15T09:09:13+09:00"
+  "generated_at": "2026-09-15T12:09:10+09:00"
 }
