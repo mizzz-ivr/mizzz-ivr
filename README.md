@@ -26,8 +26,8 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 09:05 JST</sub></td>
-    <td width="34%" align="center"><strong>☁️ LIGHT CODING</strong><br/><sub>3 public actions today</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 09:08 JST</sub></td>
+    <td width="34%" align="center"><strong>🌤️ ACTIVE</strong><br/><sub>6 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 1 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
 </table>
@@ -40,10 +40,10 @@
 
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><strong>3</strong><br/><sub>COMMITS</sub></td>
-    <td width="25%" align="center"><strong>0</strong><br/><sub>PRS OPENED</sub></td>
+    <td width="25%" align="center"><strong>4</strong><br/><sub>COMMITS</sub></td>
+    <td width="25%" align="center"><strong>1</strong><br/><sub>PRS OPENED</sub></td>
     <td width="25%" align="center"><strong>0</strong><br/><sub>ISSUES CREATED</sub></td>
-    <td width="25%" align="center"><strong>0</strong><br/><sub>ISSUES DONE</sub></td>
+    <td width="25%" align="center"><strong>1</strong><br/><sub>ISSUES DONE</sub></td>
   </tr>
 </table>
 <!-- DAILY-ACTIVITY:END -->
@@ -181,29 +181,29 @@
 <table width="100%">
   <tr>
     <td width="25%" align="center"><strong>🔥 1</strong><br/><sub>DAY STREAK</sub></td>
-    <td width="25%" align="center"><strong>3</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
-    <td width="25%" align="center"><strong>0</strong><br/><sub>PRS · THIS WEEK</sub></td>
-    <td width="25%" align="center"><strong>0</strong><br/><sub>ISSUES DONE · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>4</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>1</strong><br/><sub>PRS · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>1</strong><br/><sub>ISSUES DONE · THIS WEEK</sub></td>
   </tr>
 </table>
 
 <details>
 <summary><strong>MONTHLY SUMMARY</strong></summary>
 <br/>
-<table width="100%"><tr><td width="25%" align="center"><strong>100</strong><br/><sub>COMMITS</sub></td><td width="25%" align="center"><strong>34</strong><br/><sub>PRS</sub></td><td width="25%" align="center"><strong>8</strong><br/><sub>ISSUES DONE</sub></td><td width="25%" align="center"><strong>160</strong><br/><sub>ACTIVITY</sub></td></tr></table>
+<table width="100%"><tr><td width="25%" align="center"><strong>101</strong><br/><sub>COMMITS</sub></td><td width="25%" align="center"><strong>35</strong><br/><sub>PRS</sub></td><td width="25%" align="center"><strong>9</strong><br/><sub>ISSUES DONE</sub></td><td width="25%" align="center"><strong>163</strong><br/><sub>ACTIVITY</sub></td></tr></table>
 </details>
 
 <details>
 <summary><strong>YEARLY SUMMARY // 2026</strong></summary>
 <br/>
-<table width="100%"><tr><td width="20%" align="center"><strong>17</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1688</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>199</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>67</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>2057</strong><br/><sub>ACTIVITY</sub></td></tr></table>
+<table width="100%"><tr><td width="20%" align="center"><strong>17</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1689</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>200</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>68</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>2060</strong><br/><sub>ACTIVITY</sub></td></tr></table>
 <p><sub>22 tracked days in 2026.</sub></p>
 </details>
 
 <details>
 <summary><strong>LIFETIME SUMMARY // Tracked history</strong></summary>
 <br/>
-<table width="100%"><tr><td width="20%" align="center"><strong>17</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1688</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>199</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>67</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>2057</strong><br/><sub>ACTIVITY</sub></td></tr></table>
+<table width="100%"><tr><td width="20%" align="center"><strong>17</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1689</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>200</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>68</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>2060</strong><br/><sub>ACTIVITY</sub></td></tr></table>
 <p><sub>Profile Signal tracked lifetime · tracked since 2026-08-25 · 22 tracked days. GitHub account lifetime totalsではありません。</sub></p>
 </details>
 <!-- PROFILE-SIGNAL:RECAP:END -->

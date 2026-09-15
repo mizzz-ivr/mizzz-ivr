@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 3,
-    "prs_opened": 0,
+    "commits": 4,
+    "prs_opened": 1,
     "issues_created": 0,
-    "issues_completed": 0
+    "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "publish(qiita): scale-to-zero runner移行記事を公開 (#92)  Qiita canonicalを追加し、2026-09-15のsource fact ch",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/01156d769642b147de32d2a8e1e9bf90132b923d",
+      "at": "2026-09-15T09:05:49.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/tech-writing",
@@ -31,7 +38,14 @@
       "title": "docs: add infra operations failure lessons article",
       "url": "https://github.com/mizzz-ivr/tech-writing/commit/45ac014389219bb7de5c7f638a11d76ded3a2c62",
       "at": "2026-09-15T08:44:42.000+09:00"
+    },
+    {
+      "type": "done",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "Issue #74 Qiita: scale-to-zero runner記事をストーリー構成で9/9公開する",
+      "url": "https://github.com/mizzz-ivr/tech-writing/issues/74",
+      "at": "2026-09-15T00:05:51Z"
     }
   ],
-  "generated_at": "2026-09-15T08:53:34+09:00"
+  "generated_at": "2026-09-15T09:09:13+09:00"
 }
