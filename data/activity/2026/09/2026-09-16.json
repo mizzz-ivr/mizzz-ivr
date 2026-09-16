@@ -6,10 +6,18 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 0,
+    "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-09-16T00:09:13+09:00"
+  "activity": [
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "PR #97 feat: bridge iPhone Shortcuts context into life daily brief",
+      "url": "https://github.com/mizzz-ivr/tech-writing/pull/97",
+      "at": "2026-09-16T00:18:55Z"
+    }
+  ],
+  "generated_at": "2026-09-16T09:31:46+09:00"
 }

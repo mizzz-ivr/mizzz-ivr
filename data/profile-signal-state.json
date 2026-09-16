@@ -10,11 +10,11 @@
     "last_activity_at": "2026-09-16T00:18:55Z"
   },
   "code_weather": {
-    "label": "REST DAY",
-    "icon": "🌙"
+    "label": "LIGHT CODING",
+    "icon": "☁️"
   },
   "streak": 2,
-  "activity_total": 0,
+  "activity_total": 1,
   "current_focus": null,
   "dev_pulse": [
     {
@@ -61,30 +61,30 @@
     },
     {
       "date": "2026-09-16",
-      "total": 0,
+      "total": 1,
       "commits": 0,
-      "prs": 0,
+      "prs": 1,
       "issues": 0
     }
   ],
   "now_building": [],
   "activity_stream": [],
-  "generated_at": "2026-09-16T09:30:15+09:00",
+  "generated_at": "2026-09-16T09:31:46+09:00",
   "ci_signal": {
-    "label": "NO SIGNAL",
-    "symbol": "○",
+    "label": "PASSING",
+    "symbol": "●",
     "window_days": 7,
-    "evaluated": 0,
-    "passed": 0,
+    "evaluated": 10,
+    "passed": 10,
     "failed": 0,
     "ignored": 0,
-    "pass_rate": null,
-    "repos_with_signal": 0
+    "pass_rate": 100,
+    "repos_with_signal": 1
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
     "tracked_days": 23,
-    "active_days": 17,
+    "active_days": 18,
     "longest_streak": 16,
     "weekly": {
       "schema_version": 1,
@@ -96,16 +96,16 @@
         "start_date": "2026-09-14",
         "end_date": "2026-09-16",
         "tracked_days": 3,
-        "active_days": 1
+        "active_days": 2
       },
       "metrics": {
         "commits": 8,
-        "prs_opened": 5,
+        "prs_opened": 6,
         "issues_created": 0,
         "issues_completed": 1,
-        "activity_total": 14
+        "activity_total": 15
       },
-      "generated_at": "2026-09-16T00:09:13+09:00"
+      "generated_at": "2026-09-16T09:31:46+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -117,16 +117,16 @@
         "start_date": "2026-09-01",
         "end_date": "2026-09-16",
         "tracked_days": 16,
-        "active_days": 10
+        "active_days": 11
       },
       "metrics": {
         "commits": 105,
-        "prs_opened": 39,
+        "prs_opened": 40,
         "issues_created": 18,
         "issues_completed": 9,
-        "activity_total": 171
+        "activity_total": 172
       },
-      "generated_at": "2026-09-16T00:09:13+09:00"
+      "generated_at": "2026-09-16T09:31:46+09:00"
     },
     "achievements": [
       {
@@ -174,28 +174,28 @@
     "year": 2026,
     "yearly": {
       "tracked_days": 23,
-      "active_days": 17,
+      "active_days": 18,
       "first_date": "2026-08-25",
       "last_date": "2026-09-16",
       "metrics": {
         "commits": 1693,
-        "prs_opened": 204,
+        "prs_opened": 205,
         "issues_created": 103,
         "issues_completed": 68,
-        "activity_total": 2068
+        "activity_total": 2069
       }
     },
     "lifetime": {
       "tracked_days": 23,
-      "active_days": 17,
+      "active_days": 18,
       "first_date": "2026-08-25",
       "last_date": "2026-09-16",
       "metrics": {
         "commits": 1693,
-        "prs_opened": 204,
+        "prs_opened": 205,
         "issues_created": 103,
         "issues_completed": 68,
-        "activity_total": 2068
+        "activity_total": 2069
       }
     }
   }
