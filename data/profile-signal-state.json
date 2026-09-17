@@ -78,9 +78,34 @@
       "issues": 0
     }
   ],
-  "now_building": [],
+  "now_building": [
+    {
+      "repo": "mizzz-ivr/ivmz-home",
+      "score": 2,
+      "events": 2,
+      "last_activity_at": "2026-09-17T03:28:28Z",
+      "share": 100,
+      "ci": {
+        "label": "NO SIGNAL",
+        "symbol": "○",
+        "window_days": 7,
+        "total_runs": 0,
+        "evaluated": 0,
+        "passed": 0,
+        "failed": 0,
+        "ignored": 0,
+        "pass_rate": null,
+        "latest_conclusion": null
+      },
+      "health": {
+        "label": "ACTIVE",
+        "symbol": "●",
+        "reason": "active; no evaluated CI signal"
+      }
+    }
+  ],
   "activity_stream": [],
-  "generated_at": "2026-09-17T13:55:14+09:00",
+  "generated_at": "2026-09-17T13:59:40+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
