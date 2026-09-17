@@ -87,21 +87,21 @@
       "last_activity_at": "2026-09-17T15:01:09Z",
       "share": 100,
       "ci": {
-        "label": "ATTENTION",
-        "symbol": "!",
+        "label": "NO SIGNAL",
+        "symbol": "○",
         "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 10,
-        "passed": 8,
-        "failed": 2,
+        "total_runs": 0,
+        "evaluated": 0,
+        "passed": 0,
+        "failed": 0,
         "ignored": 0,
-        "pass_rate": 80,
-        "latest_conclusion": "failure"
+        "pass_rate": null,
+        "latest_conclusion": null
       },
       "health": {
-        "label": "ATTENTION",
-        "symbol": "!",
-        "reason": "recent CI needs attention"
+        "label": "ACTIVE",
+        "symbol": "●",
+        "reason": "active; no evaluated CI signal"
       }
     }
   ],
@@ -121,17 +121,17 @@
       "at": "2026-09-17T15:01:08Z"
     }
   ],
-  "generated_at": "2026-09-18T03:05:13+09:00",
+  "generated_at": "2026-09-18T03:09:14+09:00",
   "ci_signal": {
-    "label": "ATTENTION",
-    "symbol": "!",
+    "label": "NO SIGNAL",
+    "symbol": "○",
     "window_days": 7,
-    "evaluated": 10,
-    "passed": 8,
-    "failed": 2,
+    "evaluated": 0,
+    "passed": 0,
+    "failed": 0,
     "ignored": 0,
-    "pass_rate": 80,
-    "repos_with_signal": 1
+    "pass_rate": null,
+    "repos_with_signal": 0
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
