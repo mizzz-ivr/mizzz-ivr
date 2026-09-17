@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
+    "label": "OFFLINE",
+    "symbol": "○",
     "last_activity_at": "2026-09-17T03:28:28Z"
   },
   "code_weather": {
@@ -105,7 +105,7 @@
     }
   ],
   "activity_stream": [],
-  "generated_at": "2026-09-17T18:25:14+09:00",
+  "generated_at": "2026-09-17T18:30:17+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
