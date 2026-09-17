@@ -5,19 +5,40 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
+    "commits": 3,
     "prs_opened": 0,
     "issues_created": 0,
-    "issues_completed": 0
+    "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "test(ai): typing indicator lifecycleをaiPlugin統合レベルで固定する (#384)  Issue #363のDiscord AI typing ind",
+      "url": "https://github.com/ivRooom/Herta/commit/8616e4472445966ed81346edb896e16b4f18b128",
+      "at": "2026-09-18T07:35:08.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Merge pull request #42 from mizzz-ivr/ops/issue-38-credit-recovery-20260917  docs(ops): record N",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/01fc137f5f44d200fadd43a6a2c95e22a2c1bab9",
+      "at": "2026-09-18T07:24:20.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
       "title": "fix: CIセキュリティゲート失敗の原因となった推移依存のHigh CVEを解消 (#385)  pnpm.overridesでピン留めしていたsharp/multer/js-yamlの固定",
       "url": "https://github.com/ivRooom/Herta/commit/3b4d6154fde1314dc229485ee703fa78b17bc3a6",
       "at": "2026-09-18T00:01:07.000+09:00"
+    },
+    {
+      "type": "done",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Issue #38 ops(deploy): restore main-to-Netlify Production Git synchronization",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/38",
+      "at": "2026-09-17T22:36:44Z"
     }
   ],
-  "generated_at": "2026-09-18T00:09:14+09:00"
+  "generated_at": "2026-09-18T07:39:32+09:00"
 }

@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
+    "commits": 2,
     "prs_opened": 3,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "docs(ops): record preview database recovery for issue 38",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/cebe981b7fff1a5d6c7982b7489debf08027059c",
+      "at": "2026-09-17T21:50:13.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "docs(ops): record Netlify credit recovery for issue 38",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/bb59316477495e82e2662ac3d5c3dbe39fe7f3b8",
+      "at": "2026-09-17T21:43:52.000+09:00"
+    },
     {
       "type": "pr",
       "repo": "mizzz-ivr/ivmz-home",
@@ -33,5 +47,5 @@
       "at": "2026-09-17T10:58:44Z"
     }
   ],
-  "generated_at": "2026-09-18T00:09:14+09:00"
+  "generated_at": "2026-09-18T07:39:32+09:00"
 }
