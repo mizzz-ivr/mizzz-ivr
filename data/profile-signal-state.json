@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-09-17T10:58:44Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-09-17T12:44:07Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,10 +17,10 @@
   "activity_total": 1,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 4,
-    "events": 1,
-    "last_activity_at": "2026-09-17T10:58:44Z",
-    "share": 67,
+    "score": 9,
+    "events": 3,
+    "last_activity_at": "2026-09-17T12:42:22Z",
+    "share": 56,
     "stack": [
       "TypeScript",
       "Shell",
@@ -132,13 +132,34 @@
   "activity_stream": [
     {
       "label": "PR",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Opened PR #42",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-09-17T12:44:07Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to ops/issue-38-credit-recovery-20260917",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-09-17T12:43:54Z"
+    },
+    {
+      "label": "PR",
       "repo": "ivRooom/Herta",
-      "title": "Opened PR #384",
+      "title": "Opened PR #385",
       "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-17T10:58:44Z"
+      "at": "2026-09-17T12:42:22Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "ivRooom/Herta",
+      "title": "Created branch fix/384-security-deps",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-17T12:41:57Z"
     }
   ],
-  "generated_at": "2026-09-17T21:40:29+09:00",
+  "generated_at": "2026-09-17T21:45:14+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
