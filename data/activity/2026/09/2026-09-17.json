@@ -6,11 +6,25 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 1,
+    "prs_opened": 3,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR #42 docs(ops): record Netlify credit recovery for issue #38",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/42",
+      "at": "2026-09-17T12:44:07Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #385 fix: Grype Highゲートで検出された推移依存3件のCVEをoverridesで解消",
+      "url": "https://github.com/ivRooom/Herta/pull/385",
+      "at": "2026-09-17T12:42:22Z"
+    },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
@@ -19,5 +33,5 @@
       "at": "2026-09-17T10:58:44Z"
     }
   ],
-  "generated_at": "2026-09-17T20:50:28+09:00"
+  "generated_at": "2026-09-18T00:09:14+09:00"
 }

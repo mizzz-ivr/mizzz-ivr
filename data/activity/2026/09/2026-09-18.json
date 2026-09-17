@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-18",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 1,
+    "prs_opened": 0,
+    "issues_created": 0,
+    "issues_completed": 0
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix: CIセキュリティゲート失敗の原因となった推移依存のHigh CVEを解消 (#385)  pnpm.overridesでピン留めしていたsharp/multer/js-yamlの固定",
+      "url": "https://github.com/ivRooom/Herta/commit/3b4d6154fde1314dc229485ee703fa78b17bc3a6",
+      "at": "2026-09-18T00:01:07.000+09:00"
+    }
+  ],
+  "generated_at": "2026-09-18T00:09:14+09:00"
+}
