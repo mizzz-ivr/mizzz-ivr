@@ -6,10 +6,18 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 0,
+    "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-09-17T00:09:15+09:00"
+  "activity": [
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #384 test(ai): typing indicator lifecycleをaiPlugin統合レベルで固定する",
+      "url": "https://github.com/ivRooom/Herta/pull/384",
+      "at": "2026-09-17T10:58:44Z"
+    }
+  ],
+  "generated_at": "2026-09-17T20:50:28+09:00"
 }

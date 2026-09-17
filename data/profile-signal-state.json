@@ -10,11 +10,11 @@
     "last_activity_at": "2026-09-17T10:58:44Z"
   },
   "code_weather": {
-    "label": "REST DAY",
-    "icon": "🌙"
+    "label": "LIGHT CODING",
+    "icon": "☁️"
   },
   "streak": 3,
-  "activity_total": 0,
+  "activity_total": 1,
   "current_focus": {
     "repo": "ivRooom/Herta",
     "score": 4,
@@ -73,19 +73,43 @@
     },
     {
       "date": "2026-09-17",
-      "total": 0,
+      "total": 1,
       "commits": 0,
-      "prs": 0,
+      "prs": 1,
       "issues": 0
     }
   ],
   "now_building": [
     {
+      "repo": "ivRooom/Herta",
+      "score": 4,
+      "events": 1,
+      "last_activity_at": "2026-09-17T10:58:44Z",
+      "share": 67,
+      "ci": {
+        "label": "ATTENTION",
+        "symbol": "!",
+        "window_days": 7,
+        "total_runs": 9,
+        "evaluated": 9,
+        "passed": 5,
+        "failed": 4,
+        "ignored": 0,
+        "pass_rate": 56,
+        "latest_conclusion": "failure"
+      },
+      "health": {
+        "label": "ATTENTION",
+        "symbol": "!",
+        "reason": "recent CI needs attention"
+      }
+    },
+    {
       "repo": "mizzz-ivr/ivmz-home",
       "score": 2,
       "events": 2,
       "last_activity_at": "2026-09-17T03:28:28Z",
-      "share": 100,
+      "share": 33,
       "ci": {
         "label": "NO SIGNAL",
         "symbol": "○",
@@ -114,22 +138,22 @@
       "at": "2026-09-17T10:58:44Z"
     }
   ],
-  "generated_at": "2026-09-17T20:50:14+09:00",
+  "generated_at": "2026-09-17T20:50:28+09:00",
   "ci_signal": {
-    "label": "NO SIGNAL",
-    "symbol": "○",
+    "label": "ATTENTION",
+    "symbol": "!",
     "window_days": 7,
-    "evaluated": 0,
-    "passed": 0,
-    "failed": 0,
+    "evaluated": 9,
+    "passed": 5,
+    "failed": 4,
     "ignored": 0,
-    "pass_rate": null,
-    "repos_with_signal": 0
+    "pass_rate": 56,
+    "repos_with_signal": 1
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
     "tracked_days": 24,
-    "active_days": 18,
+    "active_days": 19,
     "longest_streak": 16,
     "weekly": {
       "schema_version": 1,
@@ -141,16 +165,16 @@
         "start_date": "2026-09-14",
         "end_date": "2026-09-17",
         "tracked_days": 4,
-        "active_days": 2
+        "active_days": 3
       },
       "metrics": {
         "commits": 8,
-        "prs_opened": 6,
+        "prs_opened": 7,
         "issues_created": 0,
         "issues_completed": 1,
-        "activity_total": 15
+        "activity_total": 16
       },
-      "generated_at": "2026-09-17T00:09:15+09:00"
+      "generated_at": "2026-09-17T20:50:28+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -162,16 +186,16 @@
         "start_date": "2026-09-01",
         "end_date": "2026-09-17",
         "tracked_days": 17,
-        "active_days": 11
+        "active_days": 12
       },
       "metrics": {
         "commits": 105,
-        "prs_opened": 40,
+        "prs_opened": 41,
         "issues_created": 18,
         "issues_completed": 9,
-        "activity_total": 172
+        "activity_total": 173
       },
-      "generated_at": "2026-09-17T00:09:15+09:00"
+      "generated_at": "2026-09-17T20:50:28+09:00"
     },
     "achievements": [
       {
@@ -219,28 +243,28 @@
     "year": 2026,
     "yearly": {
       "tracked_days": 24,
-      "active_days": 18,
+      "active_days": 19,
       "first_date": "2026-08-25",
       "last_date": "2026-09-17",
       "metrics": {
         "commits": 1693,
-        "prs_opened": 205,
+        "prs_opened": 206,
         "issues_created": 103,
         "issues_completed": 68,
-        "activity_total": 2069
+        "activity_total": 2070
       }
     },
     "lifetime": {
       "tracked_days": 24,
-      "active_days": 18,
+      "active_days": 19,
       "first_date": "2026-08-25",
       "last_date": "2026-09-17",
       "metrics": {
         "commits": 1693,
-        "prs_opened": 205,
+        "prs_opened": 206,
         "issues_created": 103,
         "issues_completed": 68,
-        "activity_total": 2069
+        "activity_total": 2070
       }
     }
   }
