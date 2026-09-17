@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-17T22:10:37Z"
+    "last_activity_at": "2026-09-17T22:24:21Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -20,7 +20,7 @@
     "score": 3,
     "events": 3,
     "last_activity_at": "2026-09-17T22:10:37Z",
-    "share": 100,
+    "share": 75,
     "stack": [
       "TypeScript",
       "Shell",
@@ -107,6 +107,13 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR merged #42",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-09-17T22:24:21Z"
+    },
+    {
       "label": "PUSH",
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to feat/363-ai-typing-indicator-tests",
@@ -128,7 +135,7 @@
       "at": "2026-09-17T15:01:08Z"
     }
   ],
-  "generated_at": "2026-09-18T07:20:14+09:00",
+  "generated_at": "2026-09-18T07:25:15+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
