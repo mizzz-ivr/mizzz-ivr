@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-09-18T10:21:03Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-09-18T11:32:12Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -20,7 +20,7 @@
     "score": 47,
     "events": 34,
     "last_activity_at": "2026-09-18T10:21:03Z",
-    "share": 65,
+    "share": 64,
     "stack": [
       "TypeScript",
       "CSS",
@@ -154,6 +154,13 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to fix/387-388-ai-conversation-policy",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-09-18T11:32:12Z"
+    },
+    {
       "label": "PR",
       "repo": "mizzz-ivr/ivmz-home",
       "title": "Closed PR #45",
@@ -173,16 +180,9 @@
       "title": "Opened PR #45",
       "url": "https://github.com/mizzz-ivr/ivmz-home",
       "at": "2026-09-18T10:15:19Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "1 commit pushed to spike/issue-29-next-sri-webpack",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
-      "at": "2026-09-18T10:15:09Z"
     }
   ],
-  "generated_at": "2026-09-18T20:26:04+09:00",
+  "generated_at": "2026-09-18T20:46:13+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
