@@ -6,9 +6,9 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 3,
-    "prs_opened": 0,
-    "issues_created": 0,
-    "issues_completed": 1
+    "prs_opened": 2,
+    "issues_created": 3,
+    "issues_completed": 4
   },
   "activity": [
     {
@@ -26,19 +26,26 @@
       "at": "2026-09-18T07:24:20.000+09:00"
     },
     {
-      "type": "commit",
+      "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "fix: CIセキュリティゲート失敗の原因となった推移依存のHigh CVEを解消 (#385)  pnpm.overridesでピン留めしていたsharp/multer/js-yamlの固定",
-      "url": "https://github.com/ivRooom/Herta/commit/3b4d6154fde1314dc229485ee703fa78b17bc3a6",
-      "at": "2026-09-18T00:01:07.000+09:00"
+      "title": "PR #389 fix(ai): 現在日付をLLMへ渡し非対応形式の黙示的差し替えを禁止する",
+      "url": "https://github.com/ivRooom/Herta/pull/389",
+      "at": "2026-09-18T04:11:16Z"
     },
     {
-      "type": "done",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Issue #38 ops(deploy): restore main-to-Netlify Production Git synchronization",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/38",
-      "at": "2026-09-17T22:36:44Z"
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #388 fix(ai): Hertaが現在の実際の日付を認識しておらず過去日付を「まだ未来」と誤判定する",
+      "url": "https://github.com/ivRooom/Herta/issues/388",
+      "at": "2026-09-18T04:01:35Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #387 fix(ai): 非対応ファイル形式を要求されたとき黙って別形式へ差し替えて成功報告する",
+      "url": "https://github.com/ivRooom/Herta/issues/387",
+      "at": "2026-09-18T04:01:19Z"
     }
   ],
-  "generated_at": "2026-09-18T07:39:32+09:00"
+  "generated_at": "2026-09-18T13:51:53+09:00"
 }
