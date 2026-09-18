@@ -6,11 +6,25 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 3,
-    "prs_opened": 2,
+    "prs_opened": 4,
     "issues_created": 3,
     "issues_completed": 4
   },
   "activity": [
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR #45 spike(security): compare Next.js SRI with webpack on Netlify",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/45",
+      "at": "2026-09-18T10:15:19Z"
+    },
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR #44 spike(security): verify Next.js SRI on Netlify Turbopack",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/44",
+      "at": "2026-09-18T10:06:20Z"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -31,21 +45,7 @@
       "title": "PR #389 fix(ai): 現在日付をLLMへ渡し非対応形式の黙示的差し替えを禁止する",
       "url": "https://github.com/ivRooom/Herta/pull/389",
       "at": "2026-09-18T04:11:16Z"
-    },
-    {
-      "type": "issue",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #388 fix(ai): Hertaが現在の実際の日付を認識しておらず過去日付を「まだ未来」と誤判定する",
-      "url": "https://github.com/ivRooom/Herta/issues/388",
-      "at": "2026-09-18T04:01:35Z"
-    },
-    {
-      "type": "issue",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #387 fix(ai): 非対応ファイル形式を要求されたとき黙って別形式へ差し替えて成功報告する",
-      "url": "https://github.com/ivRooom/Herta/issues/387",
-      "at": "2026-09-18T04:01:19Z"
     }
   ],
-  "generated_at": "2026-09-18T13:51:53+09:00"
+  "generated_at": "2026-09-18T20:26:04+09:00"
 }
