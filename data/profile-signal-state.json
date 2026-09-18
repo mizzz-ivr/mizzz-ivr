@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "BUILDING",
-    "symbol": "●",
-    "last_activity_at": "2026-09-17T22:36:44Z"
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
+    "last_activity_at": "2026-09-17T23:21:28Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -16,16 +16,15 @@
   "streak": 4,
   "activity_total": 4,
   "current_focus": {
-    "repo": "ivRooom/Herta",
-    "score": 6,
-    "events": 6,
-    "last_activity_at": "2026-09-17T22:35:09Z",
-    "share": 50,
+    "repo": "mizzz-ivr/ivmz-home",
+    "score": 26,
+    "events": 19,
+    "last_activity_at": "2026-09-17T23:21:28Z",
+    "share": 62,
     "stack": [
       "TypeScript",
-      "Shell",
-      "Dockerfile",
-      "CSS"
+      "CSS",
+      "JavaScript"
     ]
   },
   "dev_pulse": [
@@ -131,35 +130,35 @@
   ],
   "activity_stream": [
     {
-      "label": "ISSUE",
+      "label": "PUSH",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "Closed issue #38",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/38",
-      "at": "2026-09-17T22:36:44Z"
+      "title": "1 commit pushed to security/issue-29-production-csp-observation",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-09-17T23:21:03Z"
     },
     {
       "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to main",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-09-17T22:35:09Z"
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to security/issue-29-production-csp-observation",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-09-17T23:14:30Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to security/issue-29-production-csp-observation",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-09-17T23:13:08Z"
     },
     {
       "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR merged #384",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-17T22:35:08Z"
-    },
-    {
-      "label": "PUSH",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "1 commit pushed to main",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
-      "at": "2026-09-17T22:24:22Z"
+      "title": "Opened PR #43",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-09-17T23:06:02Z"
     }
   ],
-  "generated_at": "2026-09-18T07:39:32+09:00",
+  "generated_at": "2026-09-18T10:29:03+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
