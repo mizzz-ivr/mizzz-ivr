@@ -6,10 +6,25 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 0,
-    "issues_created": 0,
+    "prs_opened": 1,
+    "issues_created": 1,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-09-19T00:13:07+09:00"
+  "activity": [
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #391 security(deps): zlib CVE-2026-85091を期限付きgrype allowlistへ登録する",
+      "url": "https://github.com/ivRooom/Herta/pull/391",
+      "at": "2026-09-19T00:55:20Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #390 security(deps): zlib CVE-2026-85091に修正版が存在しないためgrype allowlistへ期限付き例外登録する",
+      "url": "https://github.com/ivRooom/Herta/issues/390",
+      "at": "2026-09-19T00:41:16Z"
+    }
+  ],
+  "generated_at": "2026-09-19T10:20:03+09:00"
 }
