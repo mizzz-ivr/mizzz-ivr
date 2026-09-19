@@ -5,33 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 1,
-    "issues_created": 1,
-    "issues_completed": 0
+    "commits": 4,
+    "prs_opened": 3,
+    "issues_created": 2,
+    "issues_completed": 2
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "security(deps): zlib CVE-2026-85091を期限付きでgrype allowlistへ登録する (#391)  production runtime Dockerイ",
-      "url": "https://github.com/ivRooom/Herta/commit/55c8b5ab068c5413358efe2e488396737d536ef1",
-      "at": "2026-09-19T10:47:40.000+09:00"
+      "title": "feat(ai): 気象庁(JMA)公開データを実況・予報のgrounding sourceとして追加する (#394)  Issue #393: Hertaが天気の実況・予報質問に実データで",
+      "url": "https://github.com/ivRooom/Herta/commit/3ebcc91ebbec58e6f802543ee52a2f5261151e54",
+      "at": "2026-09-19T22:37:40.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(ai): timezone追加前に保存されたAI Runtime Settingsを読み込めるようにする (#392)  PR #389のdeploy後、production Stud",
+      "url": "https://github.com/ivRooom/Herta/commit/a6ed47dc448e7b3524d844f57160f5bfa75eff4e",
+      "at": "2026-09-19T21:13:05.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(ai): 現在日付をLLMへ渡し非対応形式の黙示的差し替えを禁止する (#389)  * fix(ai): 現在日付を渡し非対応形式の黙示的差し替えを禁止する  Issue #354の",
+      "url": "https://github.com/ivRooom/Herta/commit/252930fa03e83e84a238e31bff1c5467dfacb499",
+      "at": "2026-09-19T20:24:44.000+09:00"
     },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #391 security(deps): zlib CVE-2026-85091を期限付きgrype allowlistへ登録する",
-      "url": "https://github.com/ivRooom/Herta/pull/391",
-      "at": "2026-09-19T00:55:20Z"
+      "title": "PR #394 feat(ai): 気象庁(JMA)公開データを実況・予報のgrounding sourceとして追加する",
+      "url": "https://github.com/ivRooom/Herta/pull/394",
+      "at": "2026-09-19T12:56:23Z"
     },
     {
       "type": "issue",
       "repo": "ivRooom/Herta",
-      "title": "Issue #390 security(deps): zlib CVE-2026-85091に修正版が存在しないためgrype allowlistへ期限付き例外登録する",
-      "url": "https://github.com/ivRooom/Herta/issues/390",
-      "at": "2026-09-19T00:41:16Z"
+      "title": "Issue #393 feat(ai): 気象庁(JMA)公開データを実況・予報のgrounding sourceとしてAI Foundationへ追加する",
+      "url": "https://github.com/ivRooom/Herta/issues/393",
+      "at": "2026-09-19T12:28:26Z"
     }
   ],
-  "generated_at": "2026-09-19T13:44:21+09:00"
+  "generated_at": "2026-09-19T23:12:29+09:00"
 }
