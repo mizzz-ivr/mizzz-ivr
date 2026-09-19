@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
+    "commits": 1,
     "prs_opened": 1,
     "issues_created": 1,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "security(deps): zlib CVE-2026-85091を期限付きでgrype allowlistへ登録する (#391)  production runtime Dockerイ",
+      "url": "https://github.com/ivRooom/Herta/commit/55c8b5ab068c5413358efe2e488396737d536ef1",
+      "at": "2026-09-19T10:47:40.000+09:00"
+    },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
@@ -26,5 +33,5 @@
       "at": "2026-09-19T00:41:16Z"
     }
   ],
-  "generated_at": "2026-09-19T10:20:03+09:00"
+  "generated_at": "2026-09-19T13:44:21+09:00"
 }
