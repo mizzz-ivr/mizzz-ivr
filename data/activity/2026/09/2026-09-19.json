@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 4,
-    "prs_opened": 3,
+    "commits": 5,
+    "prs_opened": 4,
     "issues_created": 2,
     "issues_completed": 2
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(ai): 天気の「明日」「明後日」リクエストで正しい日付の予報を返す (#395)  production確認で、「東京の明日の天気は？」に対して常に今日の予報(くもり/降水確率60%",
+      "url": "https://github.com/ivRooom/Herta/commit/5747cc2353e9d75614053bdb75d6ae2a4623e67c",
+      "at": "2026-09-19T23:23:17.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -35,17 +42,10 @@
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #394 feat(ai): 気象庁(JMA)公開データを実況・予報のgrounding sourceとして追加する",
-      "url": "https://github.com/ivRooom/Herta/pull/394",
-      "at": "2026-09-19T12:56:23Z"
-    },
-    {
-      "type": "issue",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #393 feat(ai): 気象庁(JMA)公開データを実況・予報のgrounding sourceとしてAI Foundationへ追加する",
-      "url": "https://github.com/ivRooom/Herta/issues/393",
-      "at": "2026-09-19T12:28:26Z"
+      "title": "PR #395 fix(ai): 天気の「明日」「明後日」リクエストで正しい日付の予報を返す",
+      "url": "https://github.com/ivRooom/Herta/pull/395",
+      "at": "2026-09-19T14:12:45Z"
     }
   ],
-  "generated_at": "2026-09-19T23:12:29+09:00"
+  "generated_at": "2026-09-20T00:56:32+09:00"
 }
