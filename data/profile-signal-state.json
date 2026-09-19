@@ -5,16 +5,16 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "BUILDING",
-    "symbol": "●",
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
     "last_activity_at": "2026-09-19T16:20:39Z"
   },
   "code_weather": {
-    "label": "REST DAY",
-    "icon": "🌙"
+    "label": "LIGHT CODING",
+    "icon": "☁️"
   },
   "streak": 6,
-  "activity_total": 0,
+  "activity_total": 1,
   "current_focus": {
     "repo": "ivRooom/Herta",
     "score": 4,
@@ -73,13 +73,38 @@
     },
     {
       "date": "2026-09-20",
-      "total": 0,
+      "total": 1,
       "commits": 0,
       "prs": 0,
-      "issues": 0
+      "issues": 1
     }
   ],
-  "now_building": [],
+  "now_building": [
+    {
+      "repo": "ivRooom/Herta",
+      "score": 4,
+      "events": 2,
+      "last_activity_at": "2026-09-19T16:20:39Z",
+      "share": 100,
+      "ci": {
+        "label": "PASSING",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 10,
+        "passed": 10,
+        "failed": 0,
+        "ignored": 0,
+        "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
+    }
+  ],
   "activity_stream": [
     {
       "label": "ISSUE",
@@ -89,22 +114,22 @@
       "at": "2026-09-19T16:20:39Z"
     }
   ],
-  "generated_at": "2026-09-20T02:19:05+09:00",
+  "generated_at": "2026-09-20T04:23:43+09:00",
   "ci_signal": {
-    "label": "NO SIGNAL",
-    "symbol": "○",
+    "label": "PASSING",
+    "symbol": "●",
     "window_days": 7,
-    "evaluated": 0,
-    "passed": 0,
+    "evaluated": 10,
+    "passed": 10,
     "failed": 0,
     "ignored": 0,
-    "pass_rate": null,
-    "repos_with_signal": 0
+    "pass_rate": 100,
+    "repos_with_signal": 1
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
     "tracked_days": 27,
-    "active_days": 21,
+    "active_days": 22,
     "longest_streak": 16,
     "weekly": {
       "schema_version": 1,
@@ -116,16 +141,16 @@
         "start_date": "2026-09-14",
         "end_date": "2026-09-20",
         "tracked_days": 7,
-        "active_days": 5
+        "active_days": 6
       },
       "metrics": {
         "commits": 18,
         "prs_opened": 17,
         "issues_created": 5,
-        "issues_completed": 7,
-        "activity_total": 47
+        "issues_completed": 8,
+        "activity_total": 48
       },
-      "generated_at": "2026-09-20T00:56:32+09:00"
+      "generated_at": "2026-09-20T04:23:43+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -137,16 +162,16 @@
         "start_date": "2026-09-01",
         "end_date": "2026-09-20",
         "tracked_days": 20,
-        "active_days": 14
+        "active_days": 15
       },
       "metrics": {
         "commits": 115,
         "prs_opened": 51,
         "issues_created": 23,
-        "issues_completed": 15,
-        "activity_total": 204
+        "issues_completed": 16,
+        "activity_total": 205
       },
-      "generated_at": "2026-09-20T00:56:32+09:00"
+      "generated_at": "2026-09-20T04:23:43+09:00"
     },
     "achievements": [
       {
@@ -194,28 +219,28 @@
     "year": 2026,
     "yearly": {
       "tracked_days": 27,
-      "active_days": 21,
+      "active_days": 22,
       "first_date": "2026-08-25",
       "last_date": "2026-09-20",
       "metrics": {
         "commits": 1703,
         "prs_opened": 216,
         "issues_created": 108,
-        "issues_completed": 74,
-        "activity_total": 2101
+        "issues_completed": 75,
+        "activity_total": 2102
       }
     },
     "lifetime": {
       "tracked_days": 27,
-      "active_days": 21,
+      "active_days": 22,
       "first_date": "2026-08-25",
       "last_date": "2026-09-20",
       "metrics": {
         "commits": 1703,
         "prs_opened": 216,
         "issues_created": 108,
-        "issues_completed": 74,
-        "activity_total": 2101
+        "issues_completed": 75,
+        "activity_total": 2102
       }
     }
   }
