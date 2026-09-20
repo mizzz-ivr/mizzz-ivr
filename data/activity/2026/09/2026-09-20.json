@@ -8,9 +8,16 @@
     "commits": 0,
     "prs_opened": 0,
     "issues_created": 0,
-    "issues_completed": 1
+    "issues_completed": 2
   },
   "activity": [
+    {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #354 chore(ai): Limited Guild rolloutで会話・Artifact Runtimeの本番E2Eを検証する",
+      "url": "https://github.com/ivRooom/Herta/issues/354",
+      "at": "2026-09-20T02:37:37Z"
+    },
     {
       "type": "done",
       "repo": "ivRooom/Herta",
@@ -19,5 +26,5 @@
       "at": "2026-09-19T16:20:39Z"
     }
   ],
-  "generated_at": "2026-09-20T04:23:43+09:00"
+  "generated_at": "2026-09-20T14:00:16+09:00"
 }
