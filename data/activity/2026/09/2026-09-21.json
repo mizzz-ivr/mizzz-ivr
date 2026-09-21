@@ -5,11 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
+    "commits": 1,
+    "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-09-21T01:14:16+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "AI Foundationに第2 providerとしてAnthropic Claudeを追加する (#340) (#399)  * feat(ai): AI FoundationにAnthr",
+      "url": "https://github.com/ivRooom/Herta/commit/6c7fb8cebee2d9a192c1bf25a40e7d072473e05c",
+      "at": "2026-09-21T11:15:19.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #399 AI Foundationに第2 providerとしてAnthropic Claudeを追加する (#340)",
+      "url": "https://github.com/ivRooom/Herta/pull/399",
+      "at": "2026-09-21T01:27:49Z"
+    }
+  ],
+  "generated_at": "2026-09-21T14:05:53+09:00"
 }
