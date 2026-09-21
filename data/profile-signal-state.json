@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-09-21T11:15:19.000+09:00"
+    "label": "OFFLINE",
+    "symbol": "○",
+    "last_activity_at": "2026-09-21T02:15:21Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,9 +17,9 @@
   "activity_total": 2,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 7,
-    "events": 4,
-    "last_activity_at": "2026-09-21T02:15:19Z",
+    "score": 9,
+    "events": 6,
+    "last_activity_at": "2026-09-21T02:15:21Z",
     "share": 100,
     "stack": [
       "TypeScript",
@@ -82,9 +82,9 @@
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 7,
-      "events": 4,
-      "last_activity_at": "2026-09-21T02:15:19Z",
+      "score": 9,
+      "events": 6,
+      "last_activity_at": "2026-09-21T02:15:21Z",
       "share": 100,
       "ci": {
         "label": "STABLE",
@@ -107,6 +107,13 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-09-21T02:15:20Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/Herta",
       "title": "PR merged #399",
@@ -126,16 +133,9 @@
       "title": "Opened PR #399",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-09-21T01:27:49Z"
-    },
-    {
-      "label": "CREATE",
-      "repo": "ivRooom/Herta",
-      "title": "Created branch feat/340-anthropic-provider",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-21T01:27:00Z"
     }
   ],
-  "generated_at": "2026-09-21T15:28:06+09:00",
+  "generated_at": "2026-09-21T21:58:52+09:00",
   "ci_signal": {
     "label": "STABLE",
     "symbol": "●",
