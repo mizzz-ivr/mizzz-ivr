@@ -5,11 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
+    "commits": 1,
+    "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-09-22T03:46:26+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(ai): AI Foundationに第3 providerとしてGoogle Gemini(provider id: google)を追加する (#341) (#400)  Ant",
+      "url": "https://github.com/ivRooom/Herta/commit/026d563483537bd5965729c6a88b0d0f07e62b3f",
+      "at": "2026-09-22T13:44:19.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #400 AI Foundationに第3 providerとしてGoogle Gemini(provider id: google)を追加する (#341)",
+      "url": "https://github.com/ivRooom/Herta/pull/400",
+      "at": "2026-09-22T02:59:38Z"
+    }
+  ],
+  "generated_at": "2026-09-22T14:07:24+09:00"
 }
