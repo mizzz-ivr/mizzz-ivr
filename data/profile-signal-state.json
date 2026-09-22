@@ -5,21 +5,21 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "BUILDING",
-    "symbol": "●",
-    "last_activity_at": "2026-09-22T05:35:36Z"
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
+    "last_activity_at": "2026-09-22T06:54:10Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
     "icon": "☁️"
   },
   "streak": 8,
-  "activity_total": 2,
+  "activity_total": 4,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 13,
-    "events": 7,
-    "last_activity_at": "2026-09-22T05:35:36Z",
+    "score": 16,
+    "events": 10,
+    "last_activity_at": "2026-09-22T06:54:10Z",
     "share": 100,
     "stack": [
       "TypeScript",
@@ -73,18 +73,18 @@
     },
     {
       "date": "2026-09-22",
-      "total": 2,
-      "commits": 1,
-      "prs": 1,
+      "total": 4,
+      "commits": 2,
+      "prs": 2,
       "issues": 0
     }
   ],
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 7,
-      "events": 4,
-      "last_activity_at": "2026-09-22T04:44:21Z",
+      "score": 16,
+      "events": 10,
+      "last_activity_at": "2026-09-22T06:54:10Z",
       "share": 100,
       "ci": {
         "label": "PASSING",
@@ -107,6 +107,20 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-09-22T06:54:10Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "PR merged #401",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-22T06:54:09Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/Herta",
       "title": "Opened PR #401",
@@ -119,23 +133,9 @@
       "title": "Created branch feat/342-kimi-provider",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-09-22T05:34:55Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to main",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-09-22T04:44:20Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR merged #400",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-22T04:44:19Z"
     }
   ],
-  "generated_at": "2026-09-22T15:00:09+09:00",
+  "generated_at": "2026-09-22T20:26:44+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
@@ -165,13 +165,13 @@
         "active_days": 2
       },
       "metrics": {
-        "commits": 2,
-        "prs_opened": 2,
+        "commits": 3,
+        "prs_opened": 3,
         "issues_created": 0,
         "issues_completed": 0,
-        "activity_total": 4
+        "activity_total": 6
       },
-      "generated_at": "2026-09-22T14:07:24+09:00"
+      "generated_at": "2026-09-22T20:26:44+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -186,13 +186,13 @@
         "active_days": 17
       },
       "metrics": {
-        "commits": 117,
-        "prs_opened": 53,
+        "commits": 118,
+        "prs_opened": 54,
         "issues_created": 23,
         "issues_completed": 17,
-        "activity_total": 210
+        "activity_total": 212
       },
-      "generated_at": "2026-09-22T14:07:24+09:00"
+      "generated_at": "2026-09-22T20:26:44+09:00"
     },
     "achievements": [
       {
@@ -244,11 +244,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-09-22",
       "metrics": {
-        "commits": 1705,
-        "prs_opened": 218,
+        "commits": 1706,
+        "prs_opened": 219,
         "issues_created": 108,
         "issues_completed": 76,
-        "activity_total": 2107
+        "activity_total": 2109
       }
     },
     "lifetime": {
@@ -257,11 +257,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-09-22",
       "metrics": {
-        "commits": 1705,
-        "prs_opened": 218,
+        "commits": 1706,
+        "prs_opened": 219,
         "issues_created": 108,
         "issues_completed": 76,
-        "activity_total": 2107
+        "activity_total": 2109
       }
     }
   }

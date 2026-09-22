@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 1,
+    "commits": 2,
+    "prs_opened": 2,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(ai): AI Foundationに第4 providerとしてMoonshot Kimi(provider id: moonshot)を追加する (#401)  Co-autho",
+      "url": "https://github.com/ivRooom/Herta/commit/f81ed7a0cba3a8175f1222fb377202379d7c807f",
+      "at": "2026-09-22T15:54:08.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -21,10 +28,17 @@
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
+      "title": "PR #401 feat(ai): AI Foundationに第4 providerとしてMoonshot Kimi(provider id: moonshot)を追加する",
+      "url": "https://github.com/ivRooom/Herta/pull/401",
+      "at": "2026-09-22T05:35:36Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
       "title": "PR #400 AI Foundationに第3 providerとしてGoogle Gemini(provider id: google)を追加する (#341)",
       "url": "https://github.com/ivRooom/Herta/pull/400",
       "at": "2026-09-22T02:59:38Z"
     }
   ],
-  "generated_at": "2026-09-22T14:07:24+09:00"
+  "generated_at": "2026-09-22T20:26:44+09:00"
 }
