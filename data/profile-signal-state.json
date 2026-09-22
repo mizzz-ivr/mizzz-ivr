@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-22T04:44:21Z"
+    "last_activity_at": "2026-09-22T05:35:36Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,9 +17,9 @@
   "activity_total": 2,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 7,
-    "events": 4,
-    "last_activity_at": "2026-09-22T04:44:21Z",
+    "score": 13,
+    "events": 7,
+    "last_activity_at": "2026-09-22T05:35:36Z",
     "share": 100,
     "stack": [
       "TypeScript",
@@ -109,26 +109,33 @@
     {
       "label": "PR",
       "repo": "ivRooom/Herta",
-      "title": "PR merged #400",
+      "title": "Opened PR #401",
       "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-22T04:44:19Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "Opened PR #400",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-22T02:59:37Z"
+      "at": "2026-09-22T05:35:36Z"
     },
     {
       "label": "CREATE",
       "repo": "ivRooom/Herta",
-      "title": "Created branch feat/341-gemini-provider",
+      "title": "Created branch feat/342-kimi-provider",
       "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-22T02:58:51Z"
+      "at": "2026-09-22T05:34:55Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-09-22T04:44:20Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "PR merged #400",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-22T04:44:19Z"
     }
   ],
-  "generated_at": "2026-09-22T14:07:24+09:00",
+  "generated_at": "2026-09-22T15:00:09+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
