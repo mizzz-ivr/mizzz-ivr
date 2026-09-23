@@ -5,21 +5,21 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "BUILDING",
-    "symbol": "●",
-    "last_activity_at": "2026-09-23T04:19:13Z"
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
+    "last_activity_at": "2026-09-23T06:28:30Z"
   },
   "code_weather": {
     "label": "ACTIVE",
     "icon": "🌤️"
   },
   "streak": 9,
-  "activity_total": 9,
+  "activity_total": 12,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 35,
-    "events": 20,
-    "last_activity_at": "2026-09-23T04:19:13Z",
+    "score": 49,
+    "events": 31,
+    "last_activity_at": "2026-09-23T06:28:30Z",
     "share": 100,
     "stack": [
       "TypeScript",
@@ -73,78 +73,78 @@
     },
     {
       "date": "2026-09-23",
-      "total": 9,
-      "commits": 4,
-      "prs": 5,
+      "total": 12,
+      "commits": 6,
+      "prs": 6,
       "issues": 0
     }
   ],
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 35,
-      "events": 20,
-      "last_activity_at": "2026-09-23T04:19:13Z",
+      "score": 49,
+      "events": 31,
+      "last_activity_at": "2026-09-23T06:28:30Z",
       "share": 100,
       "ci": {
-        "label": "MIXED",
-        "symbol": "◐",
+        "label": "STABLE",
+        "symbol": "●",
         "window_days": 7,
         "total_runs": 10,
         "evaluated": 10,
-        "passed": 7,
-        "failed": 3,
+        "passed": 9,
+        "failed": 1,
         "ignored": 0,
-        "pass_rate": 70,
+        "pass_rate": 90,
         "latest_conclusion": "success"
       },
       "health": {
-        "label": "WATCH",
-        "symbol": "◐",
-        "reason": "recent CI is mixed"
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
       }
     }
   ],
   "activity_stream": [
     {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "Opened PR #406",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-23T04:19:13Z"
-    },
-    {
-      "label": "CREATE",
-      "repo": "ivRooom/Herta",
-      "title": "Created branch fix/381-ssm-register-diagnostics",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-23T04:18:52Z"
-    },
-    {
       "label": "PUSH",
       "repo": "ivRooom/Herta",
       "title": "1 commit pushed to main",
       "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-09-23T04:09:02Z"
+      "at": "2026-09-23T06:28:30Z"
     },
     {
       "label": "PR",
       "repo": "ivRooom/Herta",
-      "title": "PR merged #405",
+      "title": "PR merged #407",
       "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-23T04:09:01Z"
+      "at": "2026-09-23T06:28:29Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "Opened PR #407",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-23T06:12:46Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "ivRooom/Herta",
+      "title": "Created branch docs/381-ssm-step2-done",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-23T06:12:32Z"
     }
   ],
-  "generated_at": "2026-09-23T14:12:23+09:00",
+  "generated_at": "2026-09-23T19:02:53+09:00",
   "ci_signal": {
-    "label": "MIXED",
-    "symbol": "◐",
+    "label": "STABLE",
+    "symbol": "●",
     "window_days": 7,
     "evaluated": 10,
-    "passed": 7,
-    "failed": 3,
+    "passed": 9,
+    "failed": 1,
     "ignored": 0,
-    "pass_rate": 70,
+    "pass_rate": 90,
     "repos_with_signal": 1
   },
   "dev_recap": {
@@ -165,13 +165,13 @@
         "active_days": 3
       },
       "metrics": {
-        "commits": 7,
-        "prs_opened": 8,
+        "commits": 9,
+        "prs_opened": 9,
         "issues_created": 0,
         "issues_completed": 0,
-        "activity_total": 15
+        "activity_total": 18
       },
-      "generated_at": "2026-09-23T13:52:09+09:00"
+      "generated_at": "2026-09-23T19:02:53+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -186,13 +186,13 @@
         "active_days": 18
       },
       "metrics": {
-        "commits": 122,
-        "prs_opened": 59,
+        "commits": 124,
+        "prs_opened": 60,
         "issues_created": 23,
         "issues_completed": 17,
-        "activity_total": 221
+        "activity_total": 224
       },
-      "generated_at": "2026-09-23T13:52:09+09:00"
+      "generated_at": "2026-09-23T19:02:53+09:00"
     },
     "achievements": [
       {
@@ -244,11 +244,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-09-23",
       "metrics": {
-        "commits": 1710,
-        "prs_opened": 224,
+        "commits": 1712,
+        "prs_opened": 225,
         "issues_created": 108,
         "issues_completed": 76,
-        "activity_total": 2118
+        "activity_total": 2121
       }
     },
     "lifetime": {
@@ -257,11 +257,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-09-23",
       "metrics": {
-        "commits": 1710,
-        "prs_opened": 224,
+        "commits": 1712,
+        "prs_opened": 225,
         "issues_created": 108,
         "issues_completed": 76,
-        "activity_total": 2118
+        "activity_total": 2121
       }
     }
   }

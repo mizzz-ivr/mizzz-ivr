@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 4,
-    "prs_opened": 5,
+    "commits": 6,
+    "prs_opened": 6,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "docs(ops): SSM hybrid activation登録完了をRunbookへ反映する (#407)  Co-authored-by: Ubuntu <ubuntu@ip-172-",
+      "url": "https://github.com/ivRooom/Herta/commit/0fce647db7528a45a4f6fc02b07251ae0e1eccbf",
+      "at": "2026-09-23T15:28:28.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(ops): SSM Agent実行ファイルを複数候補パス探索+診断出力で解決する (#406)  Co-authored-by: Ubuntu <ubuntu@ip-172-26-4-",
+      "url": "https://github.com/ivRooom/Herta/commit/d04708350979c0c7fe180143eefe256331c5b3f1",
+      "at": "2026-09-23T15:01:09.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -31,21 +45,7 @@
       "title": "ops(security): SSM hybrid activation登録workflowを追加する (#403)  Co-authored-by: Ubuntu <ubuntu@ip-17",
       "url": "https://github.com/ivRooom/Herta/commit/b49afe8c294bc6db411772cc3dde4b23bb507e4c",
       "at": "2026-09-23T11:43:46.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "ops(security): Lightsail hardening設計とRunbookを追加する (#402)  Co-authored-by: Ubuntu <ubuntu@ip-172-",
-      "url": "https://github.com/ivRooom/Herta/commit/df71eb237e16bf049f75b0501fff82927d63ef00",
-      "at": "2026-09-23T10:54:18.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #406 fix(ops): SSM Agent実行ファイルを複数候補パス探索+診断出力で解決する",
-      "url": "https://github.com/ivRooom/Herta/pull/406",
-      "at": "2026-09-23T04:19:13Z"
     }
   ],
-  "generated_at": "2026-09-23T13:52:09+09:00"
+  "generated_at": "2026-09-23T19:02:53+09:00"
 }
