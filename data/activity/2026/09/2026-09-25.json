@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 1,
+    "commits": 1,
+    "prs_opened": 2,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(ai): AI Foundationを使ったアキネーター風キャラ当てゲーム/akinatorを追加する (#413)  Co-authored-by: Ubuntu <ubuntu@",
+      "url": "https://github.com/ivRooom/Herta/commit/bf0da7f74b1d377e3700563438fe384c28878c81",
+      "at": "2026-09-25T07:09:40.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #414 feat(mini-games): MBTI診断を50問5段階Likert化しRole自動付与を追加する",
+      "url": "https://github.com/ivRooom/Herta/pull/414",
+      "at": "2026-09-24T22:14:56Z"
+    },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
@@ -19,5 +33,5 @@
       "at": "2026-09-24T17:25:31Z"
     }
   ],
-  "generated_at": "2026-09-25T04:16:08+09:00"
+  "generated_at": "2026-09-25T07:31:11+09:00"
 }
