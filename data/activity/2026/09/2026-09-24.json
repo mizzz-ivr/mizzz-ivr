@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 1,
-    "issues_created": 1,
-    "issues_completed": 1
+    "commits": 2,
+    "prs_opened": 2,
+    "issues_created": 2,
+    "issues_completed": 2
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): AI Foundation利用状況をanalyticsダッシュボードへ追加する (#411)  Co-authored-by: Ubuntu <ubuntu@ip-",
+      "url": "https://github.com/ivRooom/Herta/commit/bab8c1aea99920f0ccd8e2925153f84e45e17622",
+      "at": "2026-09-24T12:09:38.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -21,24 +28,24 @@
     {
       "type": "done",
       "repo": "ivRooom/Herta",
-      "title": "Issue #408 feat(commands): 投票・Giveaway参加・Event RSVP等の個人統計を表示する/community-statsコマンドを追加する",
-      "url": "https://github.com/ivRooom/Herta/issues/408",
-      "at": "2026-09-23T23:50:49Z"
+      "title": "Issue #410 feat(studio): AI Foundation利用状況(provider別リクエスト数・成否・推定コスト)をanalyticsダッシュボードへ追加する",
+      "url": "https://github.com/ivRooom/Herta/issues/410",
+      "at": "2026-09-24T03:17:17Z"
     },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #409 feat(commands): 投票・Giveaway参加・Event RSVP等の個人統計を表示する/community-statsコマンドを追加する",
-      "url": "https://github.com/ivRooom/Herta/pull/409",
-      "at": "2026-09-23T23:19:51Z"
+      "title": "PR #411 feat(studio): AI Foundation利用状況をanalyticsダッシュボードへ追加する",
+      "url": "https://github.com/ivRooom/Herta/pull/411",
+      "at": "2026-09-24T01:35:48Z"
     },
     {
       "type": "issue",
       "repo": "ivRooom/Herta",
-      "title": "Issue #408 feat(commands): 投票・Giveaway参加・Event RSVP等の個人統計を表示する/community-statsコマンドを追加する",
-      "url": "https://github.com/ivRooom/Herta/issues/408",
-      "at": "2026-09-23T23:13:25Z"
+      "title": "Issue #410 feat(studio): AI Foundation利用状況(provider別リクエスト数・成否・推定コスト)をanalyticsダッシュボードへ追加する",
+      "url": "https://github.com/ivRooom/Herta/issues/410",
+      "at": "2026-09-24T01:16:56Z"
     }
   ],
-  "generated_at": "2026-09-24T09:31:36+09:00"
+  "generated_at": "2026-09-24T14:00:58+09:00"
 }
