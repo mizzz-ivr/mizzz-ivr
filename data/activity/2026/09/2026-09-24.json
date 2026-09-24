@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 2,
-    "prs_opened": 2,
+    "commits": 3,
+    "prs_opened": 3,
     "issues_created": 2,
     "issues_completed": 2
   },
@@ -14,9 +14,23 @@
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
+      "title": "feat(mini-games): MBTI風性格診断コマンド/mbtiを追加する (#412)  Co-authored-by: Ubuntu <ubuntu@ip-172-26-4-233",
+      "url": "https://github.com/ivRooom/Herta/commit/4a071ad68bca80852fb5d6462d3e8217a99bcc7b",
+      "at": "2026-09-24T18:32:52.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
       "title": "feat(studio): AI Foundation利用状況をanalyticsダッシュボードへ追加する (#411)  Co-authored-by: Ubuntu <ubuntu@ip-",
       "url": "https://github.com/ivRooom/Herta/commit/bab8c1aea99920f0ccd8e2925153f84e45e17622",
       "at": "2026-09-24T12:09:38.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #412 feat(mini-games): MBTI風性格診断コマンド/mbtiを追加する",
+      "url": "https://github.com/ivRooom/Herta/pull/412",
+      "at": "2026-09-24T09:17:02Z"
     },
     {
       "type": "commit",
@@ -31,21 +45,7 @@
       "title": "Issue #410 feat(studio): AI Foundation利用状況(provider別リクエスト数・成否・推定コスト)をanalyticsダッシュボードへ追加する",
       "url": "https://github.com/ivRooom/Herta/issues/410",
       "at": "2026-09-24T03:17:17Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #411 feat(studio): AI Foundation利用状況をanalyticsダッシュボードへ追加する",
-      "url": "https://github.com/ivRooom/Herta/pull/411",
-      "at": "2026-09-24T01:35:48Z"
-    },
-    {
-      "type": "issue",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #410 feat(studio): AI Foundation利用状況(provider別リクエスト数・成否・推定コスト)をanalyticsダッシュボードへ追加する",
-      "url": "https://github.com/ivRooom/Herta/issues/410",
-      "at": "2026-09-24T01:16:56Z"
     }
   ],
-  "generated_at": "2026-09-24T14:00:58+09:00"
+  "generated_at": "2026-09-24T19:14:09+09:00"
 }
