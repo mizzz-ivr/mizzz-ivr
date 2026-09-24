@@ -5,11 +5,40 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
-    "issues_created": 0,
-    "issues_completed": 0
+    "commits": 1,
+    "prs_opened": 1,
+    "issues_created": 1,
+    "issues_completed": 1
   },
-  "activity": [],
-  "generated_at": "2026-09-24T02:11:41+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(commands): 投票・Giveaway参加・Event RSVP等の個人統計を表示する/community-statsコマンドを追加する (#409)  * docs(ops)",
+      "url": "https://github.com/ivRooom/Herta/commit/135be66dae245161b5fb0368a2908db59591ece9",
+      "at": "2026-09-24T08:50:33.000+09:00"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #408 feat(commands): 投票・Giveaway参加・Event RSVP等の個人統計を表示する/community-statsコマンドを追加する",
+      "url": "https://github.com/ivRooom/Herta/issues/408",
+      "at": "2026-09-23T23:50:49Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #409 feat(commands): 投票・Giveaway参加・Event RSVP等の個人統計を表示する/community-statsコマンドを追加する",
+      "url": "https://github.com/ivRooom/Herta/pull/409",
+      "at": "2026-09-23T23:19:51Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #408 feat(commands): 投票・Giveaway参加・Event RSVP等の個人統計を表示する/community-statsコマンドを追加する",
+      "url": "https://github.com/ivRooom/Herta/issues/408",
+      "at": "2026-09-23T23:13:25Z"
+    }
+  ],
+  "generated_at": "2026-09-24T09:31:36+09:00"
 }
