@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 4,
-    "prs_opened": 5,
+    "commits": 6,
+    "prs_opened": 6,
     "issues_created": 1,
     "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(db): MBTI診断の回答・結果をGuild別匿名統計として記録する (#416)  * feat(db): MBTI診断の回答・結果をGuild別匿名統計として記録する  診断完",
+      "url": "https://github.com/ivRooom/Herta/commit/b7199c5c3ed801778d6c6020960be1bbad332ffc",
+      "at": "2026-09-25T19:03:51.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(mini-games): MBTI診断の質問をSVG画像カード表示にする (#415)  * feat(mini-games): MBTI診断の質問をSVG画像カード表示にする  s",
+      "url": "https://github.com/ivRooom/Herta/commit/3826c20a17c651c54eec007e3a0d92354446c1f2",
+      "at": "2026-09-25T19:03:48.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/tech-writing",
@@ -19,33 +33,19 @@
       "at": "2026-09-25T11:31:01.000+09:00"
     },
     {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #417 fix(studio): ログインセッションを8時間で確実に失効させる",
+      "url": "https://github.com/ivRooom/Herta/pull/417",
+      "at": "2026-09-25T10:20:39Z"
+    },
+    {
       "type": "commit",
       "repo": "mizzz-ivr/tech-writing",
       "title": "publish Zenn article: Idempotency-Key across UI API DB",
       "url": "https://github.com/mizzz-ivr/tech-writing/commit/4e8c3354d85cf9af2777b21beb9c467b8ef72afc",
       "at": "2026-09-25T07:55:20.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(mini-games): MBTI診断を50問5段階Likert化しRole自動付与を追加する (#414)  Co-authored-by: Ubuntu <ubuntu@ip-1",
-      "url": "https://github.com/ivRooom/Herta/commit/dcea65b66ba119679bf9aed70b55fbf7a57e858d",
-      "at": "2026-09-25T07:30:54.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(ai): AI Foundationを使ったアキネーター風キャラ当てゲーム/akinatorを追加する (#413)  Co-authored-by: Ubuntu <ubuntu@",
-      "url": "https://github.com/ivRooom/Herta/commit/bf0da7f74b1d377e3700563438fe384c28878c81",
-      "at": "2026-09-25T07:09:40.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #416 feat(db): MBTI診断の回答・結果をGuild別匿名統計として記録する",
-      "url": "https://github.com/ivRooom/Herta/pull/416",
-      "at": "2026-09-25T04:53:54Z"
     }
   ],
-  "generated_at": "2026-09-25T14:04:51+09:00"
+  "generated_at": "2026-09-25T19:30:10+09:00"
 }
