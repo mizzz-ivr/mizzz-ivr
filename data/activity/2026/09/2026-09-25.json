@@ -6,7 +6,7 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 6,
-    "prs_opened": 6,
+    "prs_opened": 7,
     "issues_created": 1,
     "issues_completed": 1
   },
@@ -35,17 +35,17 @@
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
+      "title": "PR #418 refactor(plugins): MBTIをmini-gamesから独立したPluginへ分離する",
+      "url": "https://github.com/ivRooom/Herta/pull/418",
+      "at": "2026-09-25T11:14:00Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
       "title": "PR #417 fix(studio): ログインセッションを8時間で確実に失効させる",
       "url": "https://github.com/ivRooom/Herta/pull/417",
       "at": "2026-09-25T10:20:39Z"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "publish Zenn article: Idempotency-Key across UI API DB",
-      "url": "https://github.com/mizzz-ivr/tech-writing/commit/4e8c3354d85cf9af2777b21beb9c467b8ef72afc",
-      "at": "2026-09-25T07:55:20.000+09:00"
     }
   ],
-  "generated_at": "2026-09-25T19:30:10+09:00"
+  "generated_at": "2026-09-25T20:58:27+09:00"
 }
