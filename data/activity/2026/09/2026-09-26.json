@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 3,
-    "prs_opened": 4,
+    "commits": 6,
+    "prs_opened": 5,
     "issues_created": 0,
     "issues_completed": 0
   },
@@ -14,38 +14,38 @@
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
+      "title": "feat(mbti): 質問カードをシンプルなデザインへ刷新し改行位置を読みやすくする (#422)  * feat(mbti): 質問カードをシンプルなデザインへ刷新し改行位置を読みやすくす",
+      "url": "https://github.com/ivRooom/Herta/commit/6174611f30d82d937e887dd0add1ef8902943979",
+      "at": "2026-09-26T21:28:54.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(mbti): 出題プールを100問に拡張し人ごとに設問・順序をランダム化する (#421)  * feat(mbti): 出題プールを100問に拡張し人ごとに設問・順序をランダム化す",
+      "url": "https://github.com/ivRooom/Herta/commit/f0ca82691418c3f535039f0de8e57f0f03b8de3a",
+      "at": "2026-09-26T21:28:43.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): MBTI診断の統計をAnalyticsダッシュボードへ追加する (#420)  * feat(studio): MBTI診断の統計をAnalyticsダッシュボード",
+      "url": "https://github.com/ivRooom/Herta/commit/2287f5499239637d9aad1ec5755425db74534178",
+      "at": "2026-09-26T21:28:32.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #422 feat(mbti): 質問カードをシンプルなデザインへ刷新し改行位置を読みやすくする",
+      "url": "https://github.com/ivRooom/Herta/pull/422",
+      "at": "2026-09-26T11:46:04Z"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
       "title": "feat(studio): セッション失効時にダッシュボードから自動でログイン画面へ戻す (#419)  * feat(studio): セッション失効時にダッシュボードから自動でログイン画面",
       "url": "https://github.com/ivRooom/Herta/commit/bae6af8dd1d4f9c3129a14e178487a8d081e6cd3",
       "at": "2026-09-26T11:45:38.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "refactor(plugins): MBTIをmini-gamesから独立したPluginへ分離する (#418)  * refactor(plugins): MBTIをmini-games",
-      "url": "https://github.com/ivRooom/Herta/commit/1ef7b7147729c7256a8acf1be7341b3b5370bd2b",
-      "at": "2026-09-26T08:58:30.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(studio): ログインセッションを8時間で確実に失効させる (#417)  session.maxAgeを未指定にしていたためNextAuthの既定30日+スライディング延長 (u",
-      "url": "https://github.com/ivRooom/Herta/commit/b397cfa1c02ba21d47733234ee7759e700126af3",
-      "at": "2026-09-26T08:58:16.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #421 feat(mbti): 出題プールを100問に拡張し人ごとに設問・順序をランダム化する",
-      "url": "https://github.com/ivRooom/Herta/pull/421",
-      "at": "2026-09-26T04:57:10Z"
-    },
-    {
-      "type": "pr",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR #46 feat(contact): add secure contact form core",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/46",
-      "at": "2026-09-26T04:54:40Z"
     }
   ],
-  "generated_at": "2026-09-26T14:07:53+09:00"
+  "generated_at": "2026-09-27T00:00:46+09:00"
 }
