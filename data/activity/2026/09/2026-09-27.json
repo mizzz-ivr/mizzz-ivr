@@ -6,10 +6,25 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 0,
+    "prs_opened": 2,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-09-27T00:00:46+09:00"
+  "activity": [
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #424 docs: AWS Bedrock移行・RAG導入の検討メモを追加する",
+      "url": "https://github.com/ivRooom/Herta/pull/424",
+      "at": "2026-09-26T23:25:52Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #423 feat(dev): 開発用docker-composeにPrisma Studioを常時起動サービスとして追加する",
+      "url": "https://github.com/ivRooom/Herta/pull/423",
+      "at": "2026-09-26T23:21:47Z"
+    }
+  ],
+  "generated_at": "2026-09-27T08:40:17+09:00"
 }

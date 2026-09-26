@@ -5,17 +5,29 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "OFFLINE",
-    "symbol": "○",
-    "last_activity_at": "2026-09-26T12:31:38Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-09-26T23:25:52Z"
   },
   "code_weather": {
-    "label": "REST DAY",
-    "icon": "🌙"
+    "label": "LIGHT CODING",
+    "icon": "☁️"
   },
-  "streak": 0,
-  "activity_total": 0,
-  "current_focus": null,
+  "streak": 13,
+  "activity_total": 2,
+  "current_focus": {
+    "repo": "ivRooom/Herta",
+    "score": 10,
+    "events": 4,
+    "last_activity_at": "2026-09-26T23:25:52Z",
+    "share": 100,
+    "stack": [
+      "TypeScript",
+      "Shell",
+      "Dockerfile",
+      "CSS"
+    ]
+  },
   "dev_pulse": [
     {
       "date": "2026-09-21",
@@ -61,30 +73,84 @@
     },
     {
       "date": "2026-09-27",
-      "total": 0,
+      "total": 2,
       "commits": 0,
-      "prs": 0,
+      "prs": 2,
       "issues": 0
     }
   ],
-  "now_building": [],
-  "activity_stream": [],
-  "generated_at": "2026-09-27T06:29:27+09:00",
+  "now_building": [
+    {
+      "repo": "ivRooom/Herta",
+      "score": 10,
+      "events": 4,
+      "last_activity_at": "2026-09-26T23:25:52Z",
+      "share": 100,
+      "ci": {
+        "label": "PASSING",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 7,
+        "passed": 7,
+        "failed": 0,
+        "ignored": 3,
+        "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
+    }
+  ],
+  "activity_stream": [
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "Opened PR #424",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-26T23:25:52Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "ivRooom/Herta",
+      "title": "Created branch docs/bedrock-rag-evaluation",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-26T23:25:31Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "Opened PR #423",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-26T23:21:47Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "ivRooom/Herta",
+      "title": "Created branch feature/dev-prisma-studio-service",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-26T23:21:23Z"
+    }
+  ],
+  "generated_at": "2026-09-27T08:40:17+09:00",
   "ci_signal": {
-    "label": "NO SIGNAL",
-    "symbol": "○",
+    "label": "PASSING",
+    "symbol": "●",
     "window_days": 7,
-    "evaluated": 0,
-    "passed": 0,
+    "evaluated": 7,
+    "passed": 7,
     "failed": 0,
-    "ignored": 0,
-    "pass_rate": null,
-    "repos_with_signal": 0
+    "ignored": 3,
+    "pass_rate": 100,
+    "repos_with_signal": 1
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
     "tracked_days": 34,
-    "active_days": 28,
+    "active_days": 29,
     "longest_streak": 16,
     "weekly": {
       "schema_version": 1,
@@ -96,16 +162,16 @@
         "start_date": "2026-09-21",
         "end_date": "2026-09-27",
         "tracked_days": 7,
-        "active_days": 6
+        "active_days": 7
       },
       "metrics": {
         "commits": 24,
-        "prs_opened": 24,
+        "prs_opened": 26,
         "issues_created": 3,
         "issues_completed": 3,
-        "activity_total": 54
+        "activity_total": 56
       },
-      "generated_at": "2026-09-27T00:00:46+09:00"
+      "generated_at": "2026-09-27T08:40:17+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -117,16 +183,16 @@
         "start_date": "2026-09-01",
         "end_date": "2026-09-27",
         "tracked_days": 27,
-        "active_days": 21
+        "active_days": 22
       },
       "metrics": {
         "commits": 139,
-        "prs_opened": 75,
+        "prs_opened": 77,
         "issues_created": 26,
         "issues_completed": 20,
-        "activity_total": 260
+        "activity_total": 262
       },
-      "generated_at": "2026-09-27T00:00:46+09:00"
+      "generated_at": "2026-09-27T08:40:17+09:00"
     },
     "achievements": [
       {
@@ -174,28 +240,28 @@
     "year": 2026,
     "yearly": {
       "tracked_days": 34,
-      "active_days": 28,
+      "active_days": 29,
       "first_date": "2026-08-25",
       "last_date": "2026-09-27",
       "metrics": {
         "commits": 1727,
-        "prs_opened": 240,
+        "prs_opened": 242,
         "issues_created": 111,
         "issues_completed": 79,
-        "activity_total": 2157
+        "activity_total": 2159
       }
     },
     "lifetime": {
       "tracked_days": 34,
-      "active_days": 28,
+      "active_days": 29,
       "first_date": "2026-08-25",
       "last_date": "2026-09-27",
       "metrics": {
         "commits": 1727,
-        "prs_opened": 240,
+        "prs_opened": 242,
         "issues_created": 111,
         "issues_completed": 79,
-        "activity_total": 2157
+        "activity_total": 2159
       }
     }
   }
