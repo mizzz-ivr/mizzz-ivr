@@ -5,11 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
+    "commits": 2,
     "prs_opened": 0,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-09-26T00:30:31+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "refactor(plugins): MBTIをmini-gamesから独立したPluginへ分離する (#418)  * refactor(plugins): MBTIをmini-games",
+      "url": "https://github.com/ivRooom/Herta/commit/1ef7b7147729c7256a8acf1be7341b3b5370bd2b",
+      "at": "2026-09-26T08:58:30.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(studio): ログインセッションを8時間で確実に失効させる (#417)  session.maxAgeを未指定にしていたためNextAuthの既定30日+スライディング延長 (u",
+      "url": "https://github.com/ivRooom/Herta/commit/b397cfa1c02ba21d47733234ee7759e700126af3",
+      "at": "2026-09-26T08:58:16.000+09:00"
+    }
+  ],
+  "generated_at": "2026-09-26T09:57:03+09:00"
 }
