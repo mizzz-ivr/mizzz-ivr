@@ -6,11 +6,18 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 3,
+    "prs_opened": 4,
     "issues_created": 0,
     "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #426 feat(mbti): 診断完了時にMBTI結果をivrm-webへfire-and-forgetで同期する",
+      "url": "https://github.com/ivRooom/Herta/pull/426",
+      "at": "2026-09-27T13:41:49Z"
+    },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
@@ -40,5 +47,5 @@
       "at": "2026-09-26T23:21:47Z"
     }
   ],
-  "generated_at": "2026-09-27T14:25:30+09:00"
+  "generated_at": "2026-09-27T23:04:40+09:00"
 }
