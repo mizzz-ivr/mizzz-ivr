@@ -6,11 +6,25 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 2,
+    "prs_opened": 3,
     "issues_created": 0,
-    "issues_completed": 0
+    "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #425 docs(ops): deploy workflowのSSM移行でシークレットをCloudTrailへ漏らさない設計を明記する",
+      "url": "https://github.com/ivRooom/Herta/pull/425",
+      "at": "2026-09-27T04:01:21Z"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #362 fix(ai): detailed Discord replyが1900 UTF-16上限を超えるとoutput_too_largeになる",
+      "url": "https://github.com/ivRooom/Herta/issues/362",
+      "at": "2026-09-27T00:54:21Z"
+    },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
@@ -26,5 +40,5 @@
       "at": "2026-09-26T23:21:47Z"
     }
   ],
-  "generated_at": "2026-09-27T08:40:17+09:00"
+  "generated_at": "2026-09-27T14:25:30+09:00"
 }
