@@ -6,7 +6,7 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 2,
-    "prs_opened": 1,
+    "prs_opened": 3,
     "issues_created": 0,
     "issues_completed": 0
   },
@@ -17,6 +17,20 @@
       "title": "docs(qiita): Microsoft Copilot Home / Code / Autopilot記事を追加  * docs(qiita): add Microsoft Copilo",
       "url": "https://github.com/mizzz-ivr/tech-writing/commit/48444e16f79afa8ab14efdf0c51bf892091614f2",
       "at": "2026-09-28T14:58:32.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #428 feat(studio): 未ログインユーザーもDiscordアイコン・名前で表示し、Role作成への導線を追加する",
+      "url": "https://github.com/ivRooom/Herta/pull/428",
+      "at": "2026-09-28T12:38:25Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #427 ops(deploy): 本番deploy workflowへHERTA_MBTI_SYNC_SECRETの配線を追加する",
+      "url": "https://github.com/ivRooom/Herta/pull/427",
+      "at": "2026-09-28T12:21:58Z"
     },
     {
       "type": "commit",
@@ -33,5 +47,5 @@
       "at": "2026-09-28T05:20:26Z"
     }
   ],
-  "generated_at": "2026-09-28T20:09:51+09:00"
+  "generated_at": "2026-09-28T23:08:36+09:00"
 }

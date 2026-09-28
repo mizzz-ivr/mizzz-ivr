@@ -7,38 +7,26 @@
   "status": {
     "label": "RECENTLY ACTIVE",
     "symbol": "◐",
-    "last_activity_at": "2026-09-28T05:58:33Z"
+    "last_activity_at": "2026-09-28T12:38:25Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
     "icon": "☁️"
   },
   "streak": 14,
-  "activity_total": 3,
+  "activity_total": 5,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 3,
-    "events": 3,
-    "last_activity_at": "2026-09-27T23:29:59Z",
-    "share": 23,
-    "ci": {
-      "label": "MIXED",
-      "symbol": "◐",
-      "window_days": 7,
-      "total_runs": 10,
-      "evaluated": 10,
-      "passed": 8,
-      "failed": 2,
-      "ignored": 0,
-      "pass_rate": 80,
-      "latest_conclusion": "success"
-    },
-    "health": {
-      "label": "WATCH",
-      "symbol": "◐",
-      "reason": "recent CI is mixed"
-    },
-    "stack": []
+    "score": 13,
+    "events": 7,
+    "last_activity_at": "2026-09-28T12:38:25Z",
+    "share": 57,
+    "stack": [
+      "TypeScript",
+      "Shell",
+      "Dockerfile",
+      "CSS"
+    ]
   },
   "dev_pulse": [
     {
@@ -85,19 +73,19 @@
     },
     {
       "date": "2026-09-28",
-      "total": 3,
+      "total": 5,
       "commits": 2,
-      "prs": 1,
+      "prs": 3,
       "issues": 0
     }
   ],
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 3,
-      "events": 3,
-      "last_activity_at": "2026-09-27T23:29:59Z",
-      "share": 23,
+      "score": 13,
+      "events": 7,
+      "last_activity_at": "2026-09-28T12:38:25Z",
+      "share": 57,
       "ci": {
         "label": "MIXED",
         "symbol": "◐",
@@ -117,8 +105,37 @@
       }
     }
   ],
-  "activity_stream": [],
-  "generated_at": "2026-09-28T20:09:51+09:00",
+  "activity_stream": [
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "Opened PR #428",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-28T12:38:25Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "ivRooom/Herta",
+      "title": "Created branch feat/studio-discord-identity-and-role-shortcut",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-28T12:37:56Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "Opened PR #427",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-28T12:21:58Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "ivRooom/Herta",
+      "title": "Created branch ops/deploy-mbti-sync-secret-wiring",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-28T12:21:30Z"
+    }
+  ],
+  "generated_at": "2026-09-28T23:08:36+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
@@ -149,12 +166,12 @@
       },
       "metrics": {
         "commits": 2,
-        "prs_opened": 1,
+        "prs_opened": 3,
         "issues_created": 0,
         "issues_completed": 0,
-        "activity_total": 3
+        "activity_total": 5
       },
-      "generated_at": "2026-09-28T20:09:51+09:00"
+      "generated_at": "2026-09-28T23:08:36+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -170,12 +187,12 @@
       },
       "metrics": {
         "commits": 141,
-        "prs_opened": 80,
+        "prs_opened": 82,
         "issues_created": 26,
         "issues_completed": 21,
-        "activity_total": 268
+        "activity_total": 270
       },
-      "generated_at": "2026-09-28T20:09:51+09:00"
+      "generated_at": "2026-09-28T23:08:36+09:00"
     },
     "achievements": [
       {
@@ -228,10 +245,10 @@
       "last_date": "2026-09-28",
       "metrics": {
         "commits": 1729,
-        "prs_opened": 245,
+        "prs_opened": 247,
         "issues_created": 111,
         "issues_completed": 80,
-        "activity_total": 2165
+        "activity_total": 2167
       }
     },
     "lifetime": {
@@ -241,10 +258,10 @@
       "last_date": "2026-09-28",
       "metrics": {
         "commits": 1729,
-        "prs_opened": 245,
+        "prs_opened": 247,
         "issues_created": 111,
         "issues_completed": 80,
-        "activity_total": 2165
+        "activity_total": 2167
       }
     }
   }
