@@ -6,10 +6,18 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 0,
+    "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-09-29T03:36:17+09:00"
+  "activity": [
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "PR #101 Qiita: Amazon Bedrockを「AWS版LLM API」以上の基盤として整理",
+      "url": "https://github.com/mizzz-ivr/tech-writing/pull/101",
+      "at": "2026-09-28T23:03:49Z"
+    }
+  ],
+  "generated_at": "2026-09-29T08:29:58+09:00"
 }
