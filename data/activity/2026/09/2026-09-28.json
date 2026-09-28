@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 2,
+    "commits": 4,
     "prs_opened": 3,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): 未ログインユーザーもDiscordアイコン・名前で表示し、Role作成への導線を追加する (#428)  コミュニティ活動ランキング(dashboard/commu",
+      "url": "https://github.com/ivRooom/Herta/commit/d35c720f863c3973918d475e54fc3385b8c17d63",
+      "at": "2026-09-28T23:33:03.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "ops(deploy): 本番deploy workflowへHERTA_MBTI_SYNC_SECRETの配線を追加する (#427)  ivRooom/Herta#426でmbti-ivr",
+      "url": "https://github.com/ivRooom/Herta/commit/5d431ed1559619a8e3b550399f55671511716378",
+      "at": "2026-09-28T23:31:23.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/tech-writing",
@@ -31,21 +45,7 @@
       "title": "PR #427 ops(deploy): 本番deploy workflowへHERTA_MBTI_SYNC_SECRETの配線を追加する",
       "url": "https://github.com/ivRooom/Herta/pull/427",
       "at": "2026-09-28T12:21:58Z"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(mbti): 診断完了時にMBTI結果をivrm-webへfire-and-forgetで同期する (#426)  Discordユーザーの診断結果をHerta側では永続化せず、me",
-      "url": "https://github.com/ivRooom/Herta/commit/4ba791aafa15975792dbfdb2438af6d8df3ceb35",
-      "at": "2026-09-28T08:29:57.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "PR #100 docs(qiita): Microsoft Copilot Home / Code / Autopilot記事を追加",
-      "url": "https://github.com/mizzz-ivr/tech-writing/pull/100",
-      "at": "2026-09-28T05:20:26Z"
     }
   ],
-  "generated_at": "2026-09-28T23:08:36+09:00"
+  "generated_at": "2026-09-29T03:36:17+09:00"
 }
