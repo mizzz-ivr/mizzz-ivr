@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
+    "commits": 2,
     "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "docs(qiita): Microsoft Copilot Home / Code / Autopilot記事を追加  * docs(qiita): add Microsoft Copilo",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/48444e16f79afa8ab14efdf0c51bf892091614f2",
+      "at": "2026-09-28T14:58:32.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -26,5 +33,5 @@
       "at": "2026-09-28T05:20:26Z"
     }
   ],
-  "generated_at": "2026-09-28T14:33:04+09:00"
+  "generated_at": "2026-09-28T20:09:51+09:00"
 }
