@@ -6,7 +6,7 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 1,
-    "prs_opened": 0,
+    "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
@@ -17,7 +17,14 @@
       "title": "feat(mbti): 診断完了時にMBTI結果をivrm-webへfire-and-forgetで同期する (#426)  Discordユーザーの診断結果をHerta側では永続化せず、me",
       "url": "https://github.com/ivRooom/Herta/commit/4ba791aafa15975792dbfdb2438af6d8df3ceb35",
       "at": "2026-09-28T08:29:57.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "PR #100 docs(qiita): Microsoft Copilot Home / Code / Autopilot記事を追加",
+      "url": "https://github.com/mizzz-ivr/tech-writing/pull/100",
+      "at": "2026-09-28T05:20:26Z"
     }
   ],
-  "generated_at": "2026-09-28T08:55:01+09:00"
+  "generated_at": "2026-09-28T14:33:04+09:00"
 }
