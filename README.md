@@ -26,7 +26,7 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 08:03 JST</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 09:13 JST</sub></td>
     <td width="34%" align="center"><strong>☁️ LIGHT CODING</strong><br/><sub>1 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 15 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
@@ -51,7 +51,12 @@
 <!-- PROFILE-SIGNAL:FOCUS:START -->
 ## CURRENT FOCUS // What is moving now
 
-<p align="center"><sub>現在フォーカス中の公開Repositoryはありません。</sub></p>
+<table width="100%">
+  <tr>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>weighted activity 14% · score 1 · 1 events</sub></td>
+    <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><sub>technology data will refresh on the next full run</sub></td>
+  </tr>
+</table>
 <!-- PROFILE-SIGNAL:FOCUS:END -->
 
 <!-- PROFILE-SIGNAL:PULSE:START -->
@@ -67,8 +72,8 @@
   <tr>
     <td width="25%" align="center"><strong>PASSING</strong><br/><sub>CI SIGNAL</sub></td>
     <td width="25%" align="center"><strong>100%</strong><br/><sub>PASS RATE</sub></td>
-    <td width="25%" align="center"><strong>10 / 10</strong><br/><sub>PASSED / EVALUATED</sub></td>
-    <td width="25%" align="center"><strong>1</strong><br/><sub>REPOS WITH CI</sub></td>
+    <td width="25%" align="center"><strong>19 / 19</strong><br/><sub>PASSED / EVALUATED</sub></td>
+    <td width="25%" align="center"><strong>2</strong><br/><sub>REPOS WITH CI</sub></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:PULSE:END -->
@@ -76,7 +81,7 @@
 <!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
 ## NOW BUILDING // Active repositories
 
-<p align="center"><sub>現在アクティブな公開Repositoryはありません。</sub></p>
+<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>14% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 09:13 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
 <!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
 
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->
@@ -84,7 +89,7 @@
 
 <table width="100%">
   <tbody>
-    <tr><td colspan="3" align="center"><sub>最近の公開アクティビティはありません。</sub></td></tr>
+    <tr><td width="10%"><code>09:13</code></td><td width="14%"><code>CREATE</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">Created branch feat/community-leaderboard-custom-period</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->

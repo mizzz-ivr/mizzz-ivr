@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-28T23:03:49Z"
+    "last_activity_at": "2026-09-29T00:13:01Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -15,7 +15,31 @@
   },
   "streak": 15,
   "activity_total": 1,
-  "current_focus": null,
+  "current_focus": {
+    "repo": "ivRooom/Herta",
+    "score": 1,
+    "events": 1,
+    "last_activity_at": "2026-09-29T00:13:01Z",
+    "share": 14,
+    "ci": {
+      "label": "PASSING",
+      "symbol": "●",
+      "window_days": 7,
+      "total_runs": 10,
+      "evaluated": 9,
+      "passed": 9,
+      "failed": 0,
+      "ignored": 1,
+      "pass_rate": 100,
+      "latest_conclusion": "success"
+    },
+    "health": {
+      "label": "HEALTHY",
+      "symbol": "●",
+      "reason": "active with passing recent CI"
+    },
+    "stack": []
+  },
   "dev_pulse": [
     {
       "date": "2026-09-23",
@@ -67,19 +91,52 @@
       "issues": 0
     }
   ],
-  "now_building": [],
-  "activity_stream": [],
-  "generated_at": "2026-09-29T08:29:58+09:00",
+  "now_building": [
+    {
+      "repo": "ivRooom/Herta",
+      "score": 1,
+      "events": 1,
+      "last_activity_at": "2026-09-29T00:13:01Z",
+      "share": 14,
+      "ci": {
+        "label": "PASSING",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 9,
+        "passed": 9,
+        "failed": 0,
+        "ignored": 1,
+        "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
+    }
+  ],
+  "activity_stream": [
+    {
+      "label": "CREATE",
+      "repo": "ivRooom/Herta",
+      "title": "Created branch feat/community-leaderboard-custom-period",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-29T00:13:01Z"
+    }
+  ],
+  "generated_at": "2026-09-29T10:03:17+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
     "window_days": 7,
-    "evaluated": 10,
-    "passed": 10,
+    "evaluated": 19,
+    "passed": 19,
     "failed": 0,
-    "ignored": 0,
+    "ignored": 1,
     "pass_rate": 100,
-    "repos_with_signal": 1
+    "repos_with_signal": 2
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
