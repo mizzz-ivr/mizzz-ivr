@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 1,
+    "commits": 1,
+    "prs_opened": 3,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): コミュニティ活動・リーダーボードの集計期間を1日〜10年で自由指定できるようにする (#429)  これまで/dashboard/communityは7日/30日固",
+      "url": "https://github.com/ivRooom/Herta/commit/b8931f5b7a86404eb9e4219e3ae9fd76d7bc8549",
+      "at": "2026-09-29T14:45:12.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "PR #102 Qiita: ちいかわPOP UP STOREで考えるイベント情報のDB設計",
+      "url": "https://github.com/mizzz-ivr/tech-writing/pull/102",
+      "at": "2026-09-29T08:21:13Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #429 feat(studio): コミュニティ活動・リーダーボードの集計期間を1日〜10年で自由指定できるようにする",
+      "url": "https://github.com/ivRooom/Herta/pull/429",
+      "at": "2026-09-29T03:43:40Z"
+    },
     {
       "type": "pr",
       "repo": "mizzz-ivr/tech-writing",
@@ -19,5 +40,5 @@
       "at": "2026-09-28T23:03:49Z"
     }
   ],
-  "generated_at": "2026-09-29T10:03:17+09:00"
+  "generated_at": "2026-09-29T18:05:05+09:00"
 }
