@@ -5,11 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
+    "commits": 1,
     "prs_opened": 0,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-09-30T00:45:33+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(community): 発言・リアクション・VCのチャンネル別内訳を記録・表示する (#431)  集計項目拡充フェーズ2。既存のcommunity_activity_dailyには",
+      "url": "https://github.com/ivRooom/Herta/commit/d4adef6a5ffabae79a554efcd95ad4f5c78a2c7c",
+      "at": "2026-09-30T07:10:14.000+09:00"
+    }
+  ],
+  "generated_at": "2026-09-30T07:22:28+09:00"
 }
