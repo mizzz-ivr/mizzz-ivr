@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 3,
+    "commits": 2,
+    "prs_opened": 6,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): コミュニティ活動ページへDAU/WAU/MAUと新規・復帰ユーザー内訳を追加する (#430)  集計項目拡充の第1弾。既存のcommunity_activity_",
+      "url": "https://github.com/ivRooom/Herta/commit/9f8fc8bc5663c8822f60663396958187c9388c33",
+      "at": "2026-09-29T21:33:52.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -20,25 +27,25 @@
     },
     {
       "type": "pr",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "PR #102 Qiita: ちいかわPOP UP STOREで考えるイベント情報のDB設計",
-      "url": "https://github.com/mizzz-ivr/tech-writing/pull/102",
-      "at": "2026-09-29T08:21:13Z"
+      "repo": "ivRooom/Herta",
+      "title": "PR #431 feat(community): 発言・リアクション・VCのチャンネル別内訳を記録・表示する",
+      "url": "https://github.com/ivRooom/Herta/pull/431",
+      "at": "2026-09-29T13:27:09Z"
     },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #429 feat(studio): コミュニティ活動・リーダーボードの集計期間を1日〜10年で自由指定できるようにする",
-      "url": "https://github.com/ivRooom/Herta/pull/429",
-      "at": "2026-09-29T03:43:40Z"
+      "title": "PR #430 feat(studio): コミュニティ活動ページへDAU/WAU/MAUと新規・復帰ユーザー内訳を追加する",
+      "url": "https://github.com/ivRooom/Herta/pull/430",
+      "at": "2026-09-29T10:55:36Z"
     },
     {
       "type": "pr",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "PR #101 Qiita: AWSを開いたらGPT-6もClaudeもいた。Amazon Bedrockって結局何者？",
-      "url": "https://github.com/mizzz-ivr/tech-writing/pull/101",
-      "at": "2026-09-28T23:03:49Z"
+      "title": "PR #103 Qiita: ちいかわの相関図でGraph DBを使う理由を考える",
+      "url": "https://github.com/mizzz-ivr/tech-writing/pull/103",
+      "at": "2026-09-29T10:29:41Z"
     }
   ],
-  "generated_at": "2026-09-29T18:05:05+09:00"
+  "generated_at": "2026-09-30T00:45:33+09:00"
 }
