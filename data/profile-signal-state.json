@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-30T07:10:14.000+09:00"
+    "last_activity_at": "2026-09-29T23:44:04Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,9 +17,9 @@
   "activity_total": 1,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 1,
-    "events": 1,
-    "last_activity_at": "2026-09-29T22:10:14Z",
+    "score": 12,
+    "events": 6,
+    "last_activity_at": "2026-09-29T23:44:04Z",
     "share": 100,
     "stack": [
       "TypeScript",
@@ -109,12 +109,33 @@
     {
       "label": "PR",
       "repo": "ivRooom/Herta",
-      "title": "PR merged #431",
+      "title": "Opened PR #433",
       "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-29T22:10:14Z"
+      "at": "2026-09-29T23:44:04Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "PR merged #432",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-29T23:36:23Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "Opened PR #432",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-29T22:49:53Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "ivRooom/Herta",
+      "title": "Created branch feat/studio-mobile-nav-drawer",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-29T22:49:35Z"
     }
   ],
-  "generated_at": "2026-09-30T07:22:28+09:00",
+  "generated_at": "2026-09-30T08:46:55+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
