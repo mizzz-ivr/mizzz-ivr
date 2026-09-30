@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 5,
+    "commits": 6,
     "prs_opened": 6,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix: undiciをCVE-2026-19534対応の6.28.1へ更新 (#437)  CVE-2026-19534 (undici未リクエストWebSocket subprotocol",
+      "url": "https://github.com/ivRooom/Herta/commit/e4fbbb0473e0ac850ebc4230671eeddd1ea512fc",
+      "at": "2026-09-30T22:16:28.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -38,14 +45,7 @@
       "title": "feat(studio): ダッシュボードトップの重複したBot状態カードを整理する (#433)  UIUX強化フェーズ3、ダッシュボードトップの見せ方(サマリ/カードデザイン)。  Her",
       "url": "https://github.com/ivRooom/Herta/commit/1a12c19540c5ab8906197c581ae93102077a9481",
       "at": "2026-09-30T10:39:18.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #436 feat(community): Community Pointsを新設し、放置/個人プレイで稼げる指標を弱く設計する",
-      "url": "https://github.com/ivRooom/Herta/pull/436",
-      "at": "2026-09-30T10:09:13Z"
     }
   ],
-  "generated_at": "2026-09-30T21:45:15+09:00"
+  "generated_at": "2026-10-01T00:49:05+09:00"
 }
