@@ -6,7 +6,7 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 5,
-    "prs_opened": 4,
+    "prs_opened": 6,
     "issues_created": 0,
     "issues_completed": 0
   },
@@ -26,6 +26,13 @@
       "at": "2026-09-30T15:47:39.000+09:00"
     },
     {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #437 fix: undiciをCVE-2026-19534対応の6.28.1へ更新",
+      "url": "https://github.com/ivRooom/Herta/pull/437",
+      "at": "2026-09-30T11:38:19Z"
+    },
+    {
       "type": "commit",
       "repo": "ivRooom/Herta",
       "title": "feat(studio): ダッシュボードトップの重複したBot状態カードを整理する (#433)  UIUX強化フェーズ3、ダッシュボードトップの見せ方(サマリ/カードデザイン)。  Her",
@@ -33,19 +40,12 @@
       "at": "2026-09-30T10:39:18.000+09:00"
     },
     {
-      "type": "commit",
+      "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "feat(studio): モバイルナビゲーションを横スクロールpillからドロワーへ刷新する (#432)  UIUX強化フェーズ3の第1弾(モバイル/レスポンシブ対応)。  これまでlg未",
-      "url": "https://github.com/ivRooom/Herta/commit/80eda07a4becd0ce526a28195e09a84f01bee8c8",
-      "at": "2026-09-30T08:36:22.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(community): 発言・リアクション・VCのチャンネル別内訳を記録・表示する (#431)  集計項目拡充フェーズ2。既存のcommunity_activity_dailyには",
-      "url": "https://github.com/ivRooom/Herta/commit/d4adef6a5ffabae79a554efcd95ad4f5c78a2c7c",
-      "at": "2026-09-30T07:10:14.000+09:00"
+      "title": "PR #436 feat(community): Community Pointsを新設し、放置/個人プレイで稼げる指標を弱く設計する",
+      "url": "https://github.com/ivRooom/Herta/pull/436",
+      "at": "2026-09-30T10:09:13Z"
     }
   ],
-  "generated_at": "2026-09-30T17:56:36+09:00"
+  "generated_at": "2026-09-30T21:45:15+09:00"
 }
