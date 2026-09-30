@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 0,
+    "commits": 3,
+    "prs_opened": 2,
     "issues_created": 0,
     "issues_completed": 0
   },
@@ -14,10 +14,38 @@
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
+      "title": "feat(studio): ダッシュボードトップの重複したBot状態カードを整理する (#433)  UIUX強化フェーズ3、ダッシュボードトップの見せ方(サマリ/カードデザイン)。  Her",
+      "url": "https://github.com/ivRooom/Herta/commit/1a12c19540c5ab8906197c581ae93102077a9481",
+      "at": "2026-09-30T10:39:18.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): モバイルナビゲーションを横スクロールpillからドロワーへ刷新する (#432)  UIUX強化フェーズ3の第1弾(モバイル/レスポンシブ対応)。  これまでlg未",
+      "url": "https://github.com/ivRooom/Herta/commit/80eda07a4becd0ce526a28195e09a84f01bee8c8",
+      "at": "2026-09-30T08:36:22.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
       "title": "feat(community): 発言・リアクション・VCのチャンネル別内訳を記録・表示する (#431)  集計項目拡充フェーズ2。既存のcommunity_activity_dailyには",
       "url": "https://github.com/ivRooom/Herta/commit/d4adef6a5ffabae79a554efcd95ad4f5c78a2c7c",
       "at": "2026-09-30T07:10:14.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #433 feat(studio): ダッシュボードトップの重複したBot状態カードを整理する",
+      "url": "https://github.com/ivRooom/Herta/pull/433",
+      "at": "2026-09-29T23:44:04Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #432 feat(studio): モバイルナビゲーションを横スクロールpillからドロワーへ刷新する",
+      "url": "https://github.com/ivRooom/Herta/pull/432",
+      "at": "2026-09-29T22:49:53Z"
     }
   ],
-  "generated_at": "2026-09-30T07:22:28+09:00"
+  "generated_at": "2026-09-30T11:28:29+09:00"
 }

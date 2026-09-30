@@ -7,19 +7,19 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-09-29T23:44:04Z"
+    "last_activity_at": "2026-09-30T01:39:19Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
     "icon": "☁️"
   },
   "streak": 16,
-  "activity_total": 1,
+  "activity_total": 5,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 12,
-    "events": 6,
-    "last_activity_at": "2026-09-29T23:44:04Z",
+    "score": 16,
+    "events": 10,
+    "last_activity_at": "2026-09-30T01:39:19Z",
     "share": 100,
     "stack": [
       "TypeScript",
@@ -73,18 +73,18 @@
     },
     {
       "date": "2026-09-30",
-      "total": 1,
-      "commits": 1,
-      "prs": 0,
+      "total": 5,
+      "commits": 3,
+      "prs": 2,
       "issues": 0
     }
   ],
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 1,
-      "events": 1,
-      "last_activity_at": "2026-09-29T22:10:14Z",
+      "score": 16,
+      "events": 10,
+      "last_activity_at": "2026-09-30T01:39:19Z",
       "share": 100,
       "ci": {
         "label": "PASSING",
@@ -107,6 +107,20 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-09-30T01:39:19Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "PR merged #433",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-09-30T01:39:18Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/Herta",
       "title": "Opened PR #433",
@@ -114,28 +128,14 @@
       "at": "2026-09-29T23:44:04Z"
     },
     {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR merged #432",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-29T23:36:23Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "Opened PR #432",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-29T22:49:53Z"
-    },
-    {
       "label": "CREATE",
       "repo": "ivRooom/Herta",
-      "title": "Created branch feat/studio-mobile-nav-drawer",
+      "title": "Created branch feat/studio-dashboard-top-redesign",
       "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-29T22:49:35Z"
+      "at": "2026-09-29T23:43:48Z"
     }
   ],
-  "generated_at": "2026-09-30T08:46:55+09:00",
+  "generated_at": "2026-09-30T11:28:29+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
@@ -165,13 +165,13 @@
         "active_days": 3
       },
       "metrics": {
-        "commits": 7,
-        "prs_opened": 9,
+        "commits": 9,
+        "prs_opened": 11,
         "issues_created": 0,
         "issues_completed": 0,
-        "activity_total": 16
+        "activity_total": 20
       },
-      "generated_at": "2026-09-30T07:22:28+09:00"
+      "generated_at": "2026-09-30T11:28:29+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -186,13 +186,13 @@
         "active_days": 25
       },
       "metrics": {
-        "commits": 146,
-        "prs_opened": 88,
+        "commits": 148,
+        "prs_opened": 90,
         "issues_created": 26,
         "issues_completed": 21,
-        "activity_total": 281
+        "activity_total": 285
       },
-      "generated_at": "2026-09-30T07:22:28+09:00"
+      "generated_at": "2026-09-30T11:28:29+09:00"
     },
     "achievements": [
       {
@@ -244,11 +244,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-09-30",
       "metrics": {
-        "commits": 1734,
-        "prs_opened": 253,
+        "commits": 1736,
+        "prs_opened": 255,
         "issues_created": 111,
         "issues_completed": 80,
-        "activity_total": 2178
+        "activity_total": 2182
       }
     },
     "lifetime": {
@@ -257,11 +257,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-09-30",
       "metrics": {
-        "commits": 1734,
-        "prs_opened": 253,
+        "commits": 1736,
+        "prs_opened": 255,
         "issues_created": 111,
         "issues_completed": 80,
-        "activity_total": 2178
+        "activity_total": 2182
       }
     }
   }
