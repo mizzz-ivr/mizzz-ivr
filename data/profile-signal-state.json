@@ -5,22 +5,22 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-10-01T03:19:03Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-10-01T09:50:02Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
     "icon": "☁️"
   },
   "streak": 17,
-  "activity_total": 3,
+  "activity_total": 5,
   "current_focus": {
     "repo": "ivRooom/Herta",
     "score": 10,
     "events": 7,
     "last_activity_at": "2026-10-01T03:19:03Z",
-    "share": 100,
+    "share": 62,
     "stack": [
       "TypeScript",
       "Shell",
@@ -73,10 +73,10 @@
     },
     {
       "date": "2026-10-01",
-      "total": 3,
+      "total": 5,
       "commits": 2,
-      "prs": 1,
-      "issues": 0
+      "prs": 2,
+      "issues": 1
     }
   ],
   "now_building": [
@@ -85,7 +85,7 @@
       "score": 10,
       "events": 7,
       "last_activity_at": "2026-10-01T03:19:03Z",
-      "share": 100,
+      "share": 62,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -119,33 +119,19 @@
       "title": "Opened PR #438",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-09-30T23:14:02Z"
-    },
-    {
-      "label": "CREATE",
-      "repo": "ivRooom/Herta",
-      "title": "Created branch feat/community-activity-ivrm-sync",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-09-30T23:13:38Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to main",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-09-30T22:08:56Z"
     }
   ],
-  "generated_at": "2026-10-01T14:41:23+09:00",
+  "generated_at": "2026-10-01T19:16:31+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
     "window_days": 7,
-    "evaluated": 10,
-    "passed": 10,
+    "evaluated": 20,
+    "passed": 20,
     "failed": 0,
     "ignored": 0,
     "pass_rate": 100,
-    "repos_with_signal": 1
+    "repos_with_signal": 2
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
@@ -166,12 +152,12 @@
       },
       "metrics": {
         "commits": 14,
-        "prs_opened": 16,
-        "issues_created": 0,
+        "prs_opened": 17,
+        "issues_created": 1,
         "issues_completed": 0,
-        "activity_total": 30
+        "activity_total": 32
       },
-      "generated_at": "2026-10-01T14:41:23+09:00"
+      "generated_at": "2026-10-01T19:16:31+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -187,12 +173,12 @@
       },
       "metrics": {
         "commits": 2,
-        "prs_opened": 1,
-        "issues_created": 0,
+        "prs_opened": 2,
+        "issues_created": 1,
         "issues_completed": 0,
-        "activity_total": 3
+        "activity_total": 5
       },
-      "generated_at": "2026-10-01T14:41:23+09:00"
+      "generated_at": "2026-10-01T19:16:31+09:00"
     },
     "achievements": [
       {
@@ -245,10 +231,10 @@
       "last_date": "2026-10-01",
       "metrics": {
         "commits": 1741,
-        "prs_opened": 260,
-        "issues_created": 111,
+        "prs_opened": 261,
+        "issues_created": 112,
         "issues_completed": 80,
-        "activity_total": 2192
+        "activity_total": 2194
       }
     },
     "lifetime": {
@@ -258,10 +244,10 @@
       "last_date": "2026-10-01",
       "metrics": {
         "commits": 1741,
-        "prs_opened": 260,
-        "issues_created": 111,
+        "prs_opened": 261,
+        "issues_created": 112,
         "issues_completed": 80,
-        "activity_total": 2192
+        "activity_total": 2194
       }
     }
   }
