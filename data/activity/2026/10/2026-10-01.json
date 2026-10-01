@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
+    "commits": 2,
     "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(activity): 活動統計をivrm-webへfire-and-forgetで同期する (#438)  Community Points上位ユーザー(現状のクエリ実装の上限である",
+      "url": "https://github.com/ivRooom/Herta/commit/5301a4751ff5dbb34251e4c0972dd21b7516c89a",
+      "at": "2026-10-01T12:19:01.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -26,5 +33,5 @@
       "at": "2026-09-30T23:14:02Z"
     }
   ],
-  "generated_at": "2026-10-01T09:00:52+09:00"
+  "generated_at": "2026-10-01T14:41:23+09:00"
 }
