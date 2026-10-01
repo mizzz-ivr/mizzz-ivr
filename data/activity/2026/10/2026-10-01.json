@@ -21,14 +21,14 @@
     {
       "type": "pr",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "PR #105 Qiita: AI Agentって結局何者？業務導入の始め方を考える",
+      "title": "PR #105 Qiita: AI Agentが主流になる今、結局何者？業務に入れるまで",
       "url": "https://github.com/mizzz-ivr/tech-writing/pull/105",
       "at": "2026-10-01T09:42:58Z"
     },
     {
       "type": "issue",
       "repo": "mizzz-ivr/tech-writing",
-      "title": "Issue #104 docs(qiita): AI Agentの正体と業務導入の始め方を記事化する",
+      "title": "Issue #104 docs(qiita): AI Agentの正体と業務導入を記事化する",
       "url": "https://github.com/mizzz-ivr/tech-writing/issues/104",
       "at": "2026-10-01T09:42:50Z"
     },
@@ -47,5 +47,5 @@
       "at": "2026-09-30T23:14:02Z"
     }
   ],
-  "generated_at": "2026-10-01T19:16:31+09:00"
+  "generated_at": "2026-10-02T07:00:39+09:00"
 }
