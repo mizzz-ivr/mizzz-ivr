@@ -5,11 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
+    "commits": 1,
+    "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-10-01T00:49:05+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(community): Community Pointsを新設し、放置/個人プレイで稼げる指標を弱く設計する (#436)  ユーザーからの要望: リーダーボードのオンライン時間・ゲ",
+      "url": "https://github.com/ivRooom/Herta/commit/72e04ec50eb3435e0ff153d4a18d9835e0d4ff86",
+      "at": "2026-10-01T07:08:54.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #438 feat(activity): 活動統計をivrm-webへfire-and-forgetで同期する",
+      "url": "https://github.com/ivRooom/Herta/pull/438",
+      "at": "2026-09-30T23:14:02Z"
+    }
+  ],
+  "generated_at": "2026-10-01T09:00:52+09:00"
 }
