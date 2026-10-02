@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 5,
-    "prs_opened": 7,
+    "commits": 6,
+    "prs_opened": 9,
     "issues_created": 1,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "Merge pull request #43 from ivRooom/feat/history-ignore-brief-blips  feat: ignore brief restarts",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/f9513288f07c1c4481a35446c106e82313e3e542",
+      "at": "2026-10-02T17:41:58.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-status",
@@ -26,26 +33,19 @@
       "at": "2026-10-02T12:06:39.000+09:00"
     },
     {
-      "type": "commit",
+      "type": "pr",
       "repo": "ivRooom/ivrm-status",
-      "title": "Merge pull request #39 from ivRooom/feat/history-ui-compact  feat: compact history page and tapp",
-      "url": "https://github.com/ivRooom/ivrm-status/commit/7939d53a7a747c0999d5c4b21faf2b34ebc40e28",
-      "at": "2026-10-02T07:32:45.000+09:00"
+      "title": "PR #45 feat: persist Minecraft collector samples for 30 day history",
+      "url": "https://github.com/ivRooom/ivrm-status/pull/45",
+      "at": "2026-10-02T08:49:49Z"
     },
     {
       "type": "pr",
       "repo": "ivRooom/ivrm-status",
-      "title": "PR #43 feat: ignore brief restarts when computing daily history status",
-      "url": "https://github.com/ivRooom/ivrm-status/pull/43",
-      "at": "2026-10-02T06:38:29Z"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-status",
-      "title": "Merge pull request #38 from ivRooom/feat/status-ui-compact  feat: compact status hero, summary r",
-      "url": "https://github.com/ivRooom/ivrm-status/commit/2ade617e7e7ca86c67d08f60894e406521a3d4c6",
-      "at": "2026-10-02T06:33:57.000+09:00"
+      "title": "PR #44 feat: apply the brief-blip rule to 24h timelines and sparse sampling",
+      "url": "https://github.com/ivRooom/ivrm-status/pull/44",
+      "at": "2026-10-02T08:48:19Z"
     }
   ],
-  "generated_at": "2026-10-02T16:30:58+09:00"
+  "generated_at": "2026-10-02T18:53:43+09:00"
 }
