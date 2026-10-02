@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 6,
-    "prs_opened": 9,
+    "commits": 8,
+    "prs_opened": 10,
     "issues_created": 1,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "Merge pull request #45 from ivRooom/feat/persist-minecraft-history  feat: persist Minecraft coll",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/9254727067b16b81b3ae6532a09452f2f1a12e37",
+      "at": "2026-10-02T19:37:55.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "Merge pull request #44 from ivRooom/feat/timeline-ignore-brief-blips  feat: apply the brief-blip",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/ea34c274a4aaeaeb24fdd7111d182deeb1a82705",
+      "at": "2026-10-02T19:37:13.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-status",
@@ -31,21 +45,7 @@
       "title": "Merge pull request #40 from ivRooom/feat/status-ui-dedupe  feat: remove duplicated freshness and",
       "url": "https://github.com/ivRooom/ivrm-status/commit/b67535d261db6f3f09e2e581d67b96d25561ad6c",
       "at": "2026-10-02T12:06:39.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/ivrm-status",
-      "title": "PR #45 feat: persist Minecraft collector samples for 30 day history",
-      "url": "https://github.com/ivRooom/ivrm-status/pull/45",
-      "at": "2026-10-02T08:49:49Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/ivrm-status",
-      "title": "PR #44 feat: apply the brief-blip rule to 24h timelines and sparse sampling",
-      "url": "https://github.com/ivRooom/ivrm-status/pull/44",
-      "at": "2026-10-02T08:48:19Z"
     }
   ],
-  "generated_at": "2026-10-02T18:53:43+09:00"
+  "generated_at": "2026-10-02T23:05:52+09:00"
 }
