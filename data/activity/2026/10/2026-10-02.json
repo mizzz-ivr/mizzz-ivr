@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 2,
+    "commits": 3,
     "prs_opened": 3,
     "issues_created": 1,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "Merge pull request #39 from ivRooom/feat/history-ui-compact  feat: compact history page and tapp",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/7939d53a7a747c0999d5c4b21faf2b34ebc40e28",
+      "at": "2026-10-02T07:32:45.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-status",
@@ -38,14 +45,7 @@
       "title": "PR #38 feat: compact status hero, summary row and timeline legend",
       "url": "https://github.com/ivRooom/ivrm-status/pull/38",
       "at": "2026-10-01T21:14:05Z"
-    },
-    {
-      "type": "issue",
-      "repo": "mizzz-ivr/tech-writing",
-      "title": "Issue #106 research(zenn): 海外先行の次世代技術候補を調査する",
-      "url": "https://github.com/mizzz-ivr/tech-writing/issues/106",
-      "at": "2026-10-01T20:51:00Z"
     }
   ],
-  "generated_at": "2026-10-02T07:00:39+09:00"
+  "generated_at": "2026-10-02T09:52:27+09:00"
 }
