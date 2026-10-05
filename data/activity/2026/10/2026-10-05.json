@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
+    "commits": 1,
     "prs_opened": 3,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(community): LFG・Team Split・Poll参加をCommunity Pointsへ加点する (#441)  Community Points(#436)で見送って",
+      "url": "https://github.com/ivRooom/Herta/commit/0e61cf8241803ef639d3706a6b6a79968abdca54",
+      "at": "2026-10-05T16:54:28.000+09:00"
+    },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
@@ -33,5 +40,5 @@
       "at": "2026-10-05T00:25:20Z"
     }
   ],
-  "generated_at": "2026-10-05T14:51:26+09:00"
+  "generated_at": "2026-10-05T18:22:04+09:00"
 }
