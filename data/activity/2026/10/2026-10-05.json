@@ -5,40 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 3,
+    "commits": 6,
+    "prs_opened": 5,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(community): LFG・Team Split・Poll参加をCommunity Pointsへ加点する (#441)  Community Points(#436)で見送って",
-      "url": "https://github.com/ivRooom/Herta/commit/0e61cf8241803ef639d3706a6b6a79968abdca54",
-      "at": "2026-10-05T16:54:28.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #441 feat(community): LFG・Team Split・Poll参加をCommunity Pointsへ加点する",
-      "url": "https://github.com/ivRooom/Herta/pull/441",
-      "at": "2026-10-05T05:49:48Z"
-    },
-    {
-      "type": "pr",
       "repo": "ivRooom/ivrm-status",
-      "title": "PR #48 feat: add ops-gate, a ticket-verifying gate for allowlisted server operations",
-      "url": "https://github.com/ivRooom/ivrm-status/pull/48",
-      "at": "2026-10-05T01:36:06Z"
+      "title": "Merge pull request #49 from ivRooom/fix/ops-agent-review-findings  fix: address review findings ",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/5a91d9f873c383fc2725fefe311434104a036e6c",
+      "at": "2026-10-05T22:44:06.000+09:00"
     },
     {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/ivrm-status",
-      "title": "PR #47 feat: propose a draft-only actor for the AI agent in ivrm-core",
-      "url": "https://github.com/ivRooom/ivrm-status/pull/47",
-      "at": "2026-10-05T00:25:20Z"
+      "title": "Merge pull request #48 from ivRooom/feat/ops-gate  feat: add ops-gate, a ticket-verifying gate f",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/e12e4523da1cb228f81ecf08b1c255db3474c2e4",
+      "at": "2026-10-05T22:43:58.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "Merge pull request #42 from ivRooom/docs/llm-ops-agent-design  docs: propose LLM ops agent desig",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/beefdb049fcaf7f84740045cd4e4fa9fbcea1932",
+      "at": "2026-10-05T22:43:50.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "Merge pull request #47 from ivRooom/feat/ai-draft-actor-proposal  feat: propose a draft-only act",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/deadbab2ed7300d618d00b17277027433a5df0c2",
+      "at": "2026-10-05T22:43:43.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "Merge pull request #46 from ivRooom/feat/ops-agent-phase0  feat: add read-only ops-agent (Phase ",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/2f48ff98f56b10c3567e04dc7d055ae571b7f9c0",
+      "at": "2026-10-05T22:21:04.000+09:00"
     }
   ],
-  "generated_at": "2026-10-05T18:22:04+09:00"
+  "generated_at": "2026-10-05T23:54:27+09:00"
 }
