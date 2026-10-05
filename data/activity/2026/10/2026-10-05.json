@@ -6,11 +6,18 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 2,
+    "prs_opened": 3,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #441 feat(community): LFG・Team Split・Poll参加をCommunity Pointsへ加点する",
+      "url": "https://github.com/ivRooom/Herta/pull/441",
+      "at": "2026-10-05T05:49:48Z"
+    },
     {
       "type": "pr",
       "repo": "ivRooom/ivrm-status",
@@ -26,5 +33,5 @@
       "at": "2026-10-05T00:25:20Z"
     }
   ],
-  "generated_at": "2026-10-05T11:21:33+09:00"
+  "generated_at": "2026-10-05T14:51:26+09:00"
 }

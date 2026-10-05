@@ -7,20 +7,20 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-10-05T01:36:06Z"
+    "last_activity_at": "2026-10-05T05:49:48Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
     "icon": "☁️"
   },
   "streak": 1,
-  "activity_total": 2,
+  "activity_total": 3,
   "current_focus": {
     "repo": "ivRooom/ivrm-status",
     "score": 10,
     "events": 4,
     "last_activity_at": "2026-10-05T01:36:06Z",
-    "share": 100,
+    "share": 67,
     "stack": [
       "Python",
       "JavaScript",
@@ -73,9 +73,9 @@
     },
     {
       "date": "2026-10-05",
-      "total": 2,
+      "total": 3,
       "commits": 0,
-      "prs": 2,
+      "prs": 3,
       "issues": 0
     }
   ],
@@ -85,7 +85,7 @@
       "score": 10,
       "events": 4,
       "last_activity_at": "2026-10-05T01:36:06Z",
-      "share": 100,
+      "share": 67,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -103,9 +103,47 @@
         "symbol": "●",
         "reason": "active with passing recent CI"
       }
+    },
+    {
+      "repo": "ivRooom/Herta",
+      "score": 5,
+      "events": 2,
+      "last_activity_at": "2026-10-05T05:49:48Z",
+      "share": 33,
+      "ci": {
+        "label": "MIXED",
+        "symbol": "◐",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 10,
+        "passed": 8,
+        "failed": 2,
+        "ignored": 0,
+        "pass_rate": 80,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "WATCH",
+        "symbol": "◐",
+        "reason": "recent CI is mixed"
+      }
     }
   ],
   "activity_stream": [
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "Opened PR #441",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-10-05T05:49:48Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "ivRooom/Herta",
+      "title": "Created branch feat/community-points-lfg-team-split-poll",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-10-05T05:49:14Z"
+    },
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-status",
@@ -119,33 +157,19 @@
       "title": "1 commit pushed to docs/llm-ops-agent-design",
       "url": "https://github.com/ivRooom/ivrm-status/commits",
       "at": "2026-10-05T01:36:03Z"
-    },
-    {
-      "label": "CREATE",
-      "repo": "ivRooom/ivrm-status",
-      "title": "Created branch feat/ops-gate",
-      "url": "https://github.com/ivRooom/ivrm-status",
-      "at": "2026-10-05T01:35:31Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-status",
-      "title": "Opened PR #47",
-      "url": "https://github.com/ivRooom/ivrm-status",
-      "at": "2026-10-05T00:25:20Z"
     }
   ],
-  "generated_at": "2026-10-05T11:21:33+09:00",
+  "generated_at": "2026-10-05T14:51:26+09:00",
   "ci_signal": {
-    "label": "PASSING",
-    "symbol": "●",
+    "label": "MIXED",
+    "symbol": "◐",
     "window_days": 7,
-    "evaluated": 9,
-    "passed": 9,
-    "failed": 0,
+    "evaluated": 19,
+    "passed": 17,
+    "failed": 2,
     "ignored": 1,
-    "pass_rate": 100,
-    "repos_with_signal": 1
+    "pass_rate": 89,
+    "repos_with_signal": 2
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
@@ -166,12 +190,12 @@
       },
       "metrics": {
         "commits": 0,
-        "prs_opened": 2,
+        "prs_opened": 3,
         "issues_created": 0,
         "issues_completed": 0,
-        "activity_total": 2
+        "activity_total": 3
       },
-      "generated_at": "2026-10-05T11:21:33+09:00"
+      "generated_at": "2026-10-05T14:51:26+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -187,12 +211,12 @@
       },
       "metrics": {
         "commits": 10,
-        "prs_opened": 14,
+        "prs_opened": 15,
         "issues_created": 2,
         "issues_completed": 0,
-        "activity_total": 26
+        "activity_total": 27
       },
-      "generated_at": "2026-10-05T11:21:33+09:00"
+      "generated_at": "2026-10-05T14:51:26+09:00"
     },
     "achievements": [
       {
@@ -245,10 +269,10 @@
       "last_date": "2026-10-05",
       "metrics": {
         "commits": 1749,
-        "prs_opened": 273,
+        "prs_opened": 274,
         "issues_created": 113,
         "issues_completed": 80,
-        "activity_total": 2215
+        "activity_total": 2216
       }
     },
     "lifetime": {
@@ -258,10 +282,10 @@
       "last_date": "2026-10-05",
       "metrics": {
         "commits": 1749,
-        "prs_opened": 273,
+        "prs_opened": 274,
         "issues_created": 113,
         "issues_completed": 80,
-        "activity_total": 2215
+        "activity_total": 2216
       }
     }
   }
