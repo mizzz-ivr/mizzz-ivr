@@ -6,10 +6,25 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 0,
+    "prs_opened": 2,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-10-05T02:47:44+09:00"
+  "activity": [
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-status",
+      "title": "PR #48 feat: add ops-gate, a ticket-verifying gate for allowlisted server operations",
+      "url": "https://github.com/ivRooom/ivrm-status/pull/48",
+      "at": "2026-10-05T01:36:06Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-status",
+      "title": "PR #47 feat: propose a draft-only actor for the AI agent in ivrm-core",
+      "url": "https://github.com/ivRooom/ivrm-status/pull/47",
+      "at": "2026-10-05T00:25:20Z"
+    }
+  ],
+  "generated_at": "2026-10-05T11:21:33+09:00"
 }
