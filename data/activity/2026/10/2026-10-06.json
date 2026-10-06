@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 0,
+    "commits": 3,
+    "prs_opened": 3,
     "issues_created": 0,
     "issues_completed": 0
   },
@@ -14,10 +14,38 @@
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
+      "title": "feat(valorant): Riot ID連携とVALORANT戦績確認(/valorant)を追加する (#443)  VALOBOT(https://valobot.com/)相当の機",
+      "url": "https://github.com/ivRooom/Herta/commit/c9abb59cd92f32e48884a11d3fd8a5ef6ac0c584",
+      "at": "2026-10-06T17:57:40.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix: source-map-jsとproxy-addrをCVE対応版へ更新する (#444)  CVE-2026-93749 (source-map-js, High, イベントループDo",
+      "url": "https://github.com/ivRooom/Herta/commit/536fd1f8c38f57540b6a347da6557f6ef2555fe9",
+      "at": "2026-10-06T17:36:38.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
       "title": "feat(community): MBTI診断完了を一回限りのAchievementとしてCommunity Pointsへ加点する (#442)  Community Points(#436",
       "url": "https://github.com/ivRooom/Herta/commit/b9087df799b6bbe9af6100b7724bb0669cc145e7",
       "at": "2026-10-06T15:30:33.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #445 ops(deploy): HENRIKDEV_API_KEYを本番へ配線する",
+      "url": "https://github.com/ivRooom/Herta/pull/445",
+      "at": "2026-10-06T13:08:52Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #444 fix: source-map-jsとproxy-addrをCVE対応版へ更新する",
+      "url": "https://github.com/ivRooom/Herta/pull/444",
+      "at": "2026-10-06T08:16:13Z"
     }
   ],
-  "generated_at": "2026-10-06T15:39:08+09:00"
+  "generated_at": "2026-10-06T22:38:25+09:00"
 }
