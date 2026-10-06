@@ -6,7 +6,7 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 3,
-    "prs_opened": 3,
+    "prs_opened": 4,
     "issues_created": 0,
     "issues_completed": 0
   },
@@ -35,17 +35,17 @@
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #445 ops(deploy): HENRIKDEV_API_KEYを本番へ配線する",
-      "url": "https://github.com/ivRooom/Herta/pull/445",
-      "at": "2026-10-06T13:08:52Z"
+      "title": "PR #446 feat(activity-log): VC入退室・メッセージ作成/編集/削除・絵文字登録を記録するPluginを追加する",
+      "url": "https://github.com/ivRooom/Herta/pull/446",
+      "at": "2026-10-06T13:41:30Z"
     },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #444 fix: source-map-jsとproxy-addrをCVE対応版へ更新する",
-      "url": "https://github.com/ivRooom/Herta/pull/444",
-      "at": "2026-10-06T08:16:13Z"
+      "title": "PR #445 ops(deploy): HENRIKDEV_API_KEYを本番へ配線する",
+      "url": "https://github.com/ivRooom/Herta/pull/445",
+      "at": "2026-10-06T13:08:52Z"
     }
   ],
-  "generated_at": "2026-10-06T22:38:25+09:00"
+  "generated_at": "2026-10-07T01:00:48+09:00"
 }
