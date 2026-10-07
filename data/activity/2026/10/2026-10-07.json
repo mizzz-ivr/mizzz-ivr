@@ -5,11 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
+    "commits": 2,
+    "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-10-07T01:00:48+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(activity-log): VC入退室・メッセージ作成/編集/削除・絵文字登録を記録するPluginを追加する (#446)  モデレーション調査・統計分析の両方に使える、メンバー",
+      "url": "https://github.com/ivRooom/Herta/commit/17d444a870587b0451d6d226d9d3f1a540b648fa",
+      "at": "2026-10-07T09:37:13.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "ops(deploy): HENRIKDEV_API_KEYを本番へ配線する (#445)  operatorがHenrikDev APIキーを発行し、AWS SSM Parameter St",
+      "url": "https://github.com/ivRooom/Herta/commit/79a469ebbcba35a364c37210411ba4fcafea5c70",
+      "at": "2026-10-07T09:37:10.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #447 feat(activity-log): 編集/削除/絵文字を既存のコミュニティ集計へ連携し、連投・連続削除を検知する",
+      "url": "https://github.com/ivRooom/Herta/pull/447",
+      "at": "2026-10-07T01:20:41Z"
+    }
+  ],
+  "generated_at": "2026-10-07T11:17:32+09:00"
 }
