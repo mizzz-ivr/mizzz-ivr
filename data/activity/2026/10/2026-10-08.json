@@ -5,11 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
+    "commits": 2,
+    "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-10-08T01:06:54+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(activity-log): アバター/ニックネーム/ロール/サーバーアイコン変更の記録と文字ポイント集計を追加 (#451)  Co-authored-by: Ubuntu <ub",
+      "url": "https://github.com/ivRooom/Herta/commit/cfc2e41771d4e8e48b939f334c5e126f36f0a1c1",
+      "at": "2026-10-08T09:31:22.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix: sharpをCVE-2026-96889対応版(0.35.5)へ更新する (#452)  Co-authored-by: Ubuntu <ubuntu@ip-172-26-4-233",
+      "url": "https://github.com/ivRooom/Herta/commit/61a9c07c19c7e8df1dcf766b77f42085648def18",
+      "at": "2026-10-08T09:15:30.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-status",
+      "title": "PR #53 feat: notify through a private channel webhook, with a --test-notify command",
+      "url": "https://github.com/ivRooom/ivrm-status/pull/53",
+      "at": "2026-10-08T00:44:59Z"
+    }
+  ],
+  "generated_at": "2026-10-08T10:03:17+09:00"
 }
