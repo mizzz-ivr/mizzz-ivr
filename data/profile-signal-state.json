@@ -7,25 +7,25 @@
   "status": {
     "label": "RECENTLY ACTIVE",
     "symbol": "◐",
-    "last_activity_at": "2026-10-08T04:33:11Z"
+    "last_activity_at": "2026-10-08T08:59:08Z"
   },
   "code_weather": {
-    "label": "LIGHT CODING",
-    "icon": "☁️"
+    "label": "ACTIVE",
+    "icon": "🌤️"
   },
   "streak": 4,
-  "activity_total": 4,
+  "activity_total": 8,
   "current_focus": {
-    "repo": "ivRooom/ivrm-status",
-    "score": 6,
-    "events": 3,
-    "last_activity_at": "2026-10-08T04:33:11Z",
-    "share": 75,
+    "repo": "ivRooom/Herta",
+    "score": 13,
+    "events": 7,
+    "last_activity_at": "2026-10-08T08:56:57Z",
+    "share": 43,
     "stack": [
-      "Python",
-      "JavaScript",
-      "CSS",
-      "Shell"
+      "TypeScript",
+      "Shell",
+      "Dockerfile",
+      "CSS"
     ]
   },
   "dev_pulse": [
@@ -73,19 +73,43 @@
     },
     {
       "date": "2026-10-08",
-      "total": 4,
+      "total": 8,
       "commits": 3,
-      "prs": 1,
+      "prs": 5,
       "issues": 0
     }
   ],
   "now_building": [
     {
+      "repo": "ivRooom/Herta",
+      "score": 13,
+      "events": 7,
+      "last_activity_at": "2026-10-08T08:56:57Z",
+      "share": 43,
+      "ci": {
+        "label": "MIXED",
+        "symbol": "◐",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 9,
+        "passed": 7,
+        "failed": 2,
+        "ignored": 1,
+        "pass_rate": 78,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "WATCH",
+        "symbol": "◐",
+        "reason": "recent CI is mixed"
+      }
+    },
+    {
       "repo": "ivRooom/ivrm-status",
-      "score": 6,
-      "events": 3,
-      "last_activity_at": "2026-10-08T04:33:11Z",
-      "share": 75,
+      "score": 11,
+      "events": 5,
+      "last_activity_at": "2026-10-08T07:52:16Z",
+      "share": 37,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -105,71 +129,71 @@
       }
     },
     {
-      "repo": "ivRooom/Herta",
-      "score": 2,
-      "events": 2,
-      "last_activity_at": "2026-10-08T00:31:22Z",
-      "share": 25,
+      "repo": "mizzz-ivr/ivmz-home",
+      "score": 6,
+      "events": 3,
+      "last_activity_at": "2026-10-08T08:59:08Z",
+      "share": 20,
       "ci": {
-        "label": "MIXED",
-        "symbol": "◐",
+        "label": "ATTENTION",
+        "symbol": "!",
         "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 10,
-        "passed": 8,
-        "failed": 2,
+        "total_runs": 6,
+        "evaluated": 6,
+        "passed": 3,
+        "failed": 3,
         "ignored": 0,
-        "pass_rate": 80,
+        "pass_rate": 50,
         "latest_conclusion": "success"
       },
       "health": {
-        "label": "WATCH",
-        "symbol": "◐",
-        "reason": "recent CI is mixed"
+        "label": "ATTENTION",
+        "symbol": "!",
+        "reason": "recent CI needs attention"
       }
     }
   ],
   "activity_stream": [
     {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-status",
-      "title": "PR merged #53",
-      "url": "https://github.com/ivRooom/ivrm-status",
-      "at": "2026-10-08T04:33:11Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-status",
-      "title": "Opened PR #53",
-      "url": "https://github.com/ivRooom/ivrm-status",
-      "at": "2026-10-08T00:44:59Z"
-    },
-    {
-      "label": "CREATE",
-      "repo": "ivRooom/ivrm-status",
-      "title": "Created branch feat/ops-agent-webhook",
-      "url": "https://github.com/ivRooom/ivrm-status",
-      "at": "2026-10-08T00:44:44Z"
+      "label": "PUSH",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to claude/pensive-ramanujan-9j2xu5",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-10-08T08:59:08Z"
     },
     {
       "label": "PR",
       "repo": "ivRooom/Herta",
-      "title": "PR merged #451",
+      "title": "Opened PR #455",
       "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-10-08T00:31:22Z"
+      "at": "2026-10-08T08:56:57Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "ivRooom/Herta",
+      "title": "Created branch fix/giveaway-create-permission",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-10-08T08:56:39Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to claude/pensive-ramanujan-9j2xu5",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-10-08T08:55:15Z"
     }
   ],
-  "generated_at": "2026-10-08T16:19:09+09:00",
+  "generated_at": "2026-10-08T19:43:39+09:00",
   "ci_signal": {
-    "label": "MIXED",
-    "symbol": "◐",
+    "label": "ATTENTION",
+    "symbol": "!",
     "window_days": 7,
-    "evaluated": 20,
-    "passed": 18,
-    "failed": 2,
-    "ignored": 0,
-    "pass_rate": 90,
-    "repos_with_signal": 2
+    "evaluated": 25,
+    "passed": 20,
+    "failed": 5,
+    "ignored": 1,
+    "pass_rate": 80,
+    "repos_with_signal": 3
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
@@ -190,12 +214,12 @@
       },
       "metrics": {
         "commits": 21,
-        "prs_opened": 19,
+        "prs_opened": 23,
         "issues_created": 0,
         "issues_completed": 0,
-        "activity_total": 40
+        "activity_total": 44
       },
-      "generated_at": "2026-10-08T16:19:09+09:00"
+      "generated_at": "2026-10-08T19:43:39+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -211,12 +235,12 @@
       },
       "metrics": {
         "commits": 31,
-        "prs_opened": 31,
+        "prs_opened": 35,
         "issues_created": 2,
         "issues_completed": 0,
-        "activity_total": 64
+        "activity_total": 68
       },
-      "generated_at": "2026-10-08T16:19:09+09:00"
+      "generated_at": "2026-10-08T19:43:39+09:00"
     },
     "achievements": [
       {
@@ -269,10 +293,10 @@
       "last_date": "2026-10-08",
       "metrics": {
         "commits": 1770,
-        "prs_opened": 290,
+        "prs_opened": 294,
         "issues_created": 113,
         "issues_completed": 80,
-        "activity_total": 2253
+        "activity_total": 2257
       }
     },
     "lifetime": {
@@ -282,10 +306,10 @@
       "last_date": "2026-10-08",
       "metrics": {
         "commits": 1770,
-        "prs_opened": 290,
+        "prs_opened": 294,
         "issues_created": 113,
         "issues_completed": 80,
-        "activity_total": 2253
+        "activity_total": 2257
       }
     }
   }

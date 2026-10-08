@@ -6,7 +6,7 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 3,
-    "prs_opened": 1,
+    "prs_opened": 5,
     "issues_created": 0,
     "issues_completed": 0
   },
@@ -34,11 +34,18 @@
     },
     {
       "type": "pr",
-      "repo": "ivRooom/ivrm-status",
-      "title": "PR #53 feat: notify through a private channel webhook, with a --test-notify command",
-      "url": "https://github.com/ivRooom/ivrm-status/pull/53",
-      "at": "2026-10-08T00:44:59Z"
+      "repo": "ivRooom/Herta",
+      "title": "PR #455 fix(giveaway): /giveaway createにサーバーの管理権限チェックを追加",
+      "url": "https://github.com/ivRooom/Herta/pull/455",
+      "at": "2026-10-08T08:56:57Z"
+    },
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR #47 feat(home): enrich content and strengthen UI/UX",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/47",
+      "at": "2026-10-08T08:50:47Z"
     }
   ],
-  "generated_at": "2026-10-08T16:19:09+09:00"
+  "generated_at": "2026-10-08T19:43:39+09:00"
 }
