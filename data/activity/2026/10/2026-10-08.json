@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 2,
+    "commits": 3,
     "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "Merge pull request #53 from ivRooom/feat/ops-agent-webhook  feat: notify through a private chann",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/2cc5123775d373fd5f79aa53a410954a19849523",
+      "at": "2026-10-08T13:33:10.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -33,5 +40,5 @@
       "at": "2026-10-08T00:44:59Z"
     }
   ],
-  "generated_at": "2026-10-08T10:03:17+09:00"
+  "generated_at": "2026-10-08T16:19:09+09:00"
 }

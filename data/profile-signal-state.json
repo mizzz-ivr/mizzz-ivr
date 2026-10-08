@@ -5,22 +5,22 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "BUILDING",
-    "symbol": "●",
-    "last_activity_at": "2026-10-08T00:44:59Z"
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
+    "last_activity_at": "2026-10-08T04:33:11Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
     "icon": "☁️"
   },
   "streak": 4,
-  "activity_total": 3,
+  "activity_total": 4,
   "current_focus": {
     "repo": "ivRooom/ivrm-status",
-    "score": 4,
-    "events": 1,
-    "last_activity_at": "2026-10-08T00:44:59Z",
-    "share": 67,
+    "score": 6,
+    "events": 3,
+    "last_activity_at": "2026-10-08T04:33:11Z",
+    "share": 75,
     "stack": [
       "Python",
       "JavaScript",
@@ -73,8 +73,8 @@
     },
     {
       "date": "2026-10-08",
-      "total": 3,
-      "commits": 2,
+      "total": 4,
+      "commits": 3,
       "prs": 1,
       "issues": 0
     }
@@ -82,10 +82,10 @@
   "now_building": [
     {
       "repo": "ivRooom/ivrm-status",
-      "score": 4,
-      "events": 1,
-      "last_activity_at": "2026-10-08T00:44:59Z",
-      "share": 67,
+      "score": 6,
+      "events": 3,
+      "last_activity_at": "2026-10-08T04:33:11Z",
+      "share": 75,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -109,7 +109,7 @@
       "score": 2,
       "events": 2,
       "last_activity_at": "2026-10-08T00:31:22Z",
-      "share": 33,
+      "share": 25,
       "ci": {
         "label": "MIXED",
         "symbol": "◐",
@@ -133,9 +133,23 @@
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-status",
+      "title": "PR merged #53",
+      "url": "https://github.com/ivRooom/ivrm-status",
+      "at": "2026-10-08T04:33:11Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-status",
       "title": "Opened PR #53",
       "url": "https://github.com/ivRooom/ivrm-status",
       "at": "2026-10-08T00:44:59Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "ivRooom/ivrm-status",
+      "title": "Created branch feat/ops-agent-webhook",
+      "url": "https://github.com/ivRooom/ivrm-status",
+      "at": "2026-10-08T00:44:44Z"
     },
     {
       "label": "PR",
@@ -143,16 +157,9 @@
       "title": "PR merged #451",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-10-08T00:31:22Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR merged #452",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-10-08T00:15:31Z"
     }
   ],
-  "generated_at": "2026-10-08T10:03:17+09:00",
+  "generated_at": "2026-10-08T16:19:09+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
@@ -182,13 +189,13 @@
         "active_days": 4
       },
       "metrics": {
-        "commits": 20,
+        "commits": 21,
         "prs_opened": 19,
         "issues_created": 0,
         "issues_completed": 0,
-        "activity_total": 39
+        "activity_total": 40
       },
-      "generated_at": "2026-10-08T10:03:17+09:00"
+      "generated_at": "2026-10-08T16:19:09+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -203,13 +210,13 @@
         "active_days": 6
       },
       "metrics": {
-        "commits": 30,
+        "commits": 31,
         "prs_opened": 31,
         "issues_created": 2,
         "issues_completed": 0,
-        "activity_total": 63
+        "activity_total": 64
       },
-      "generated_at": "2026-10-08T10:03:17+09:00"
+      "generated_at": "2026-10-08T16:19:09+09:00"
     },
     "achievements": [
       {
@@ -261,11 +268,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-10-08",
       "metrics": {
-        "commits": 1769,
+        "commits": 1770,
         "prs_opened": 290,
         "issues_created": 113,
         "issues_completed": 80,
-        "activity_total": 2252
+        "activity_total": 2253
       }
     },
     "lifetime": {
@@ -274,11 +281,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-10-08",
       "metrics": {
-        "commits": 1769,
+        "commits": 1770,
         "prs_opened": 290,
         "issues_created": 113,
         "issues_completed": 80,
-        "activity_total": 2252
+        "activity_total": 2253
       }
     }
   }
