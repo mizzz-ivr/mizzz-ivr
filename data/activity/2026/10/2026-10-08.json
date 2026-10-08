@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 3,
-    "prs_opened": 5,
+    "commits": 5,
+    "prs_opened": 6,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "chore(commands): utility-v3/v4/v5を統合し、未登録の死んだhelpコマンドを削除 (#456)  Co-authored-by: Ubuntu <ubuntu@",
+      "url": "https://github.com/ivRooom/Herta/commit/ad15991f9e946aedd1c7dd026a9620f38991e68b",
+      "at": "2026-10-08T23:15:15.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(giveaway): /giveaway createにサーバーの管理権限チェックを追加 (#455)  Co-authored-by: Ubuntu <ubuntu@ip-172-2",
+      "url": "https://github.com/ivRooom/Herta/commit/62fe7e05544ca67d94d23ae300fc13fbddaf9784",
+      "at": "2026-10-08T21:45:25.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-status",
@@ -19,33 +33,19 @@
       "at": "2026-10-08T13:33:10.000+09:00"
     },
     {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #456 chore(commands): utility-v3/v4/v5を統合し、未登録の死んだhelpコマンドを削除",
+      "url": "https://github.com/ivRooom/Herta/pull/456",
+      "at": "2026-10-08T13:27:24Z"
+    },
+    {
       "type": "commit",
       "repo": "ivRooom/Herta",
       "title": "feat(activity-log): アバター/ニックネーム/ロール/サーバーアイコン変更の記録と文字ポイント集計を追加 (#451)  Co-authored-by: Ubuntu <ub",
       "url": "https://github.com/ivRooom/Herta/commit/cfc2e41771d4e8e48b939f334c5e126f36f0a1c1",
       "at": "2026-10-08T09:31:22.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix: sharpをCVE-2026-96889対応版(0.35.5)へ更新する (#452)  Co-authored-by: Ubuntu <ubuntu@ip-172-26-4-233",
-      "url": "https://github.com/ivRooom/Herta/commit/61a9c07c19c7e8df1dcf766b77f42085648def18",
-      "at": "2026-10-08T09:15:30.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #455 fix(giveaway): /giveaway createにサーバーの管理権限チェックを追加",
-      "url": "https://github.com/ivRooom/Herta/pull/455",
-      "at": "2026-10-08T08:56:57Z"
-    },
-    {
-      "type": "pr",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR #47 feat(home): enrich content and strengthen UI/UX",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/47",
-      "at": "2026-10-08T08:50:47Z"
     }
   ],
-  "generated_at": "2026-10-08T19:43:39+09:00"
+  "generated_at": "2026-10-08T23:42:40+09:00"
 }
