@@ -5,18 +5,32 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 2,
+    "commits": 2,
+    "prs_opened": 3,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
     {
       "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Merge pull request #47 from mizzz-ivr/claude/pensive-ramanujan-9j2xu5  feat(home): enrich conten",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/c7019573565c26dcb233e34455ecf7054d27678e",
+      "at": "2026-10-09T09:58:53.000+09:00"
+    },
+    {
+      "type": "commit",
       "repo": "ivRooom/Herta",
       "title": "feat(studio): トップページを公開ランディングに刷新し、未ログインでも/loginへ強制リダイレクトしない (#458)  - / は未ログイン時に常に/loginへredirec",
       "url": "https://github.com/ivRooom/Herta/commit/4bcda49676a1fe27d1f8127d850cdba9c347909a",
       "at": "2026-10-09T08:55:07.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #459 feat(studio): トップページにアニメーションとインタラクティブなデモを追加",
+      "url": "https://github.com/ivRooom/Herta/pull/459",
+      "at": "2026-10-09T01:06:54Z"
     },
     {
       "type": "pr",
@@ -33,5 +47,5 @@
       "at": "2026-10-08T23:44:12Z"
     }
   ],
-  "generated_at": "2026-10-09T09:26:45+09:00"
+  "generated_at": "2026-10-09T10:15:31+09:00"
 }
