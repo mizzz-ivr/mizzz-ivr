@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 16,
-    "prs_opened": 15,
+    "commits": 18,
+    "prs_opened": 17,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "feat(contact): drag and drop, admin download link, richer admin email, Turnstile bot check (#57)",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/a926791191e1ae69c4aba10401bcebc01b056dd7",
+      "at": "2026-10-09T22:09:19.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Merge pull request #56 from mizzz-ivr/claude/pensive-ramanujan-9j2xu5  feat(site): YouTube lates",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/de7eca3ec090e925f3ec2ed80aca951709c67f5d",
+      "at": "2026-10-09T20:07:39.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
@@ -31,21 +45,7 @@
       "title": "Merge pull request #53 from mizzz-ivr/claude/pensive-ramanujan-9j2xu5  docs: SES runbook status ",
       "url": "https://github.com/mizzz-ivr/ivmz-home/commit/1432be1048abaf9ad3acbf59e3d7fa0d68735a16",
       "at": "2026-10-09T18:56:52.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Merge pull request #52 from mizzz-ivr/claude/pensive-ramanujan-9j2xu5  feat(site): signature-wri",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/ecf91eb55f649993b0475fdb7f36cb098345f2d7",
-      "at": "2026-10-09T18:42:57.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(studio): 「動きを減らす」設定でもロードと穏やかな演出を表示し、ロードを毎回表示する (#463)  * fix(studio): 「動きを減らす」設定でもロード表示と穏やかな",
-      "url": "https://github.com/ivRooom/Herta/commit/5284d0a2174eeb32cdc8401f8d14cf26b65e77be",
-      "at": "2026-10-09T18:18:54.000+09:00"
     }
   ],
-  "generated_at": "2026-10-09T19:42:33+09:00"
+  "generated_at": "2026-10-10T03:24:39+09:00"
 }
