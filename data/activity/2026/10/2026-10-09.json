@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 2,
-    "prs_opened": 3,
+    "commits": 6,
+    "prs_opened": 7,
     "issues_created": 0,
     "issues_completed": 0
   },
@@ -14,38 +14,38 @@
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "Merge pull request #47 from mizzz-ivr/claude/pensive-ramanujan-9j2xu5  feat(home): enrich conten",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/c7019573565c26dcb233e34455ecf7054d27678e",
-      "at": "2026-10-09T09:58:53.000+09:00"
+      "title": "Merge pull request #48 from mizzz-ivr/claude/pensive-ramanujan-9j2xu5  feat(site): tighten spaci",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/59a4bf1f9fe1ac82358a06c4edb0ab0973dfe92d",
+      "at": "2026-10-09T13:06:35.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(studio): トップページを公開ランディングに刷新し、未ログインでも/loginへ強制リダイレクトしない (#458)  - / は未ログイン時に常に/loginへredirec",
-      "url": "https://github.com/ivRooom/Herta/commit/4bcda49676a1fe27d1f8127d850cdba9c347909a",
-      "at": "2026-10-09T08:55:07.000+09:00"
+      "title": "feat(studio): トップページをAIっぽい装飾の少ない落ち着いたデザインへ刷新 (#460)  - グラデーション文字・オーロラ背景・光るカード・アイコン付きカード3列・マーキー・統",
+      "url": "https://github.com/ivRooom/Herta/commit/4ea4894df5c2890a0b6bf5d2f03914ce28808de9",
+      "at": "2026-10-09T11:08:53.000+09:00"
     },
     {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "PR #459 feat(studio): トップページにアニメーションとインタラクティブなデモを追加",
-      "url": "https://github.com/ivRooom/Herta/pull/459",
-      "at": "2026-10-09T01:06:54Z"
+      "title": "feat(commands): カテゴリ選択式の/leaderboardを追加しランキングUXを統一 (#457)  * feat(commands): カテゴリ選択式の/leaderboar",
+      "url": "https://github.com/ivRooom/Herta/commit/147e82f9e372907cd83b93d5571cb5ff361cae7b",
+      "at": "2026-10-09T10:32:43.000+09:00"
     },
     {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "PR #458 feat(studio): トップページを公開ランディングに刷新し、未ログインでも/loginへ強制リダイレクトしない",
-      "url": "https://github.com/ivRooom/Herta/pull/458",
-      "at": "2026-10-08T23:44:37Z"
+      "title": "feat(studio): トップページにアニメーションとインタラクティブなデモを追加 (#459)  * feat(studio): トップページにアニメーションとインタラクティブなデモを追",
+      "url": "https://github.com/ivRooom/Herta/commit/d10e1ec32b39cb9af9b6fcef9254a3dc15dce146",
+      "at": "2026-10-09T10:32:14.000+09:00"
     },
     {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #457 feat(commands): カテゴリ選択式の/leaderboardを追加しランキングUXを統一",
-      "url": "https://github.com/ivRooom/Herta/pull/457",
-      "at": "2026-10-08T23:44:12Z"
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Merge pull request #47 from mizzz-ivr/claude/pensive-ramanujan-9j2xu5  feat(home): enrich conten",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/c7019573565c26dcb233e34455ecf7054d27678e",
+      "at": "2026-10-09T09:58:53.000+09:00"
     }
   ],
-  "generated_at": "2026-10-09T10:15:31+09:00"
+  "generated_at": "2026-10-09T15:34:21+09:00"
 }
