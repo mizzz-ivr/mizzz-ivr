@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 6,
-    "prs_opened": 7,
+    "commits": 16,
+    "prs_opened": 15,
     "issues_created": 0,
     "issues_completed": 0
   },
@@ -14,38 +14,38 @@
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "Merge pull request #48 from mizzz-ivr/claude/pensive-ramanujan-9j2xu5  feat(site): tighten spaci",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/59a4bf1f9fe1ac82358a06c4edb0ab0973dfe92d",
-      "at": "2026-10-09T13:06:35.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(studio): トップページをAIっぽい装飾の少ない落ち着いたデザインへ刷新 (#460)  - グラデーション文字・オーロラ背景・光るカード・アイコン付きカード3列・マーキー・統",
-      "url": "https://github.com/ivRooom/Herta/commit/4ea4894df5c2890a0b6bf5d2f03914ce28808de9",
-      "at": "2026-10-09T11:08:53.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(commands): カテゴリ選択式の/leaderboardを追加しランキングUXを統一 (#457)  * feat(commands): カテゴリ選択式の/leaderboar",
-      "url": "https://github.com/ivRooom/Herta/commit/147e82f9e372907cd83b93d5571cb5ff361cae7b",
-      "at": "2026-10-09T10:32:43.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(studio): トップページにアニメーションとインタラクティブなデモを追加 (#459)  * feat(studio): トップページにアニメーションとインタラクティブなデモを追",
-      "url": "https://github.com/ivRooom/Herta/commit/d10e1ec32b39cb9af9b6fcef9254a3dc15dce146",
-      "at": "2026-10-09T10:32:14.000+09:00"
+      "title": "Merge pull request #55 from mizzz-ivr/claude/pensive-ramanujan-9j2xu5  feat(works): public GitHu",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/e700fec2c95b420323853ab5debe4710a15ba817",
+      "at": "2026-10-09T19:38:54.000+09:00"
     },
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "Merge pull request #47 from mizzz-ivr/claude/pensive-ramanujan-9j2xu5  feat(home): enrich conten",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/c7019573565c26dcb233e34455ecf7054d27678e",
-      "at": "2026-10-09T09:58:53.000+09:00"
+      "title": "Merge pull request #54 from mizzz-ivr/claude/pensive-ramanujan-9j2xu5  docs(infra): record appli",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/3746ac5eda5fab16b49ee7381b32a2733b2ec5b3",
+      "at": "2026-10-09T19:30:53.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Merge pull request #53 from mizzz-ivr/claude/pensive-ramanujan-9j2xu5  docs: SES runbook status ",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/1432be1048abaf9ad3acbf59e3d7fa0d68735a16",
+      "at": "2026-10-09T18:56:52.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Merge pull request #52 from mizzz-ivr/claude/pensive-ramanujan-9j2xu5  feat(site): signature-wri",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/ecf91eb55f649993b0475fdb7f36cb098345f2d7",
+      "at": "2026-10-09T18:42:57.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(studio): 「動きを減らす」設定でもロードと穏やかな演出を表示し、ロードを毎回表示する (#463)  * fix(studio): 「動きを減らす」設定でもロード表示と穏やかな",
+      "url": "https://github.com/ivRooom/Herta/commit/5284d0a2174eeb32cdc8401f8d14cf26b65e77be",
+      "at": "2026-10-09T18:18:54.000+09:00"
     }
   ],
-  "generated_at": "2026-10-09T15:34:21+09:00"
+  "generated_at": "2026-10-09T19:42:33+09:00"
 }
