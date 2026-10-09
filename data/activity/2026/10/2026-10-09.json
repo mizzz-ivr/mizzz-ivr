@@ -5,11 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
+    "commits": 1,
+    "prs_opened": 2,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-10-09T03:53:44+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): トップページを公開ランディングに刷新し、未ログインでも/loginへ強制リダイレクトしない (#458)  - / は未ログイン時に常に/loginへredirec",
+      "url": "https://github.com/ivRooom/Herta/commit/4bcda49676a1fe27d1f8127d850cdba9c347909a",
+      "at": "2026-10-09T08:55:07.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #458 feat(studio): トップページを公開ランディングに刷新し、未ログインでも/loginへ強制リダイレクトしない",
+      "url": "https://github.com/ivRooom/Herta/pull/458",
+      "at": "2026-10-08T23:44:37Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #457 feat(commands): カテゴリ選択式の/leaderboardを追加しランキングUXを統一",
+      "url": "https://github.com/ivRooom/Herta/pull/457",
+      "at": "2026-10-08T23:44:12Z"
+    }
+  ],
+  "generated_at": "2026-10-09T09:26:45+09:00"
 }
