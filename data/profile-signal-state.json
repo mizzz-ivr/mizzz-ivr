@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-10-09T10:38:55Z"
+    "last_activity_at": "2026-10-09T13:41:38Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -17,10 +17,10 @@
   "activity_total": 31,
   "current_focus": {
     "repo": "mizzz-ivr/ivmz-home",
-    "score": 58,
-    "events": 34,
-    "last_activity_at": "2026-10-09T10:38:55Z",
-    "share": 54,
+    "score": 85,
+    "events": 55,
+    "last_activity_at": "2026-10-09T13:41:38Z",
+    "share": 62,
     "stack": [
       "TypeScript",
       "CSS",
@@ -131,35 +131,35 @@
   ],
   "activity_stream": [
     {
-      "label": "PR",
+      "label": "PUSH",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR merged #55",
-      "url": "https://github.com/mizzz-ivr/ivmz-home",
-      "at": "2026-10-09T10:38:55Z"
-    },
-    {
-      "label": "PR",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Opened PR #55",
-      "url": "https://github.com/mizzz-ivr/ivmz-home",
-      "at": "2026-10-09T10:31:08Z"
+      "title": "1 commit pushed to claude/pensive-ramanujan-9j2xu5",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-10-09T13:01:30Z"
     },
     {
       "label": "PUSH",
       "repo": "mizzz-ivr/ivmz-home",
       "title": "1 commit pushed to claude/pensive-ramanujan-9j2xu5",
       "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
-      "at": "2026-10-09T10:23:28Z"
+      "at": "2026-10-09T12:54:04Z"
     },
     {
       "label": "PR",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "Opened PR #54",
+      "title": "Opened PR #57",
       "url": "https://github.com/mizzz-ivr/ivmz-home",
-      "at": "2026-10-09T10:23:28Z"
+      "at": "2026-10-09T12:35:41Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to claude/pensive-ramanujan-9j2xu5",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-10-09T12:35:33Z"
     }
   ],
-  "generated_at": "2026-10-09T19:42:33+09:00",
+  "generated_at": "2026-10-09T22:43:41+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
