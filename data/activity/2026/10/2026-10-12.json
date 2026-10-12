@@ -6,10 +6,18 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 0,
+    "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-10-12T03:53:56+09:00"
+  "activity": [
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #465 feat(ai): /ai askと機能別ON/OFF設定を追加し、manifestの古い説明を修正",
+      "url": "https://github.com/ivRooom/Herta/pull/465",
+      "at": "2026-10-12T09:06:55Z"
+    }
+  ],
+  "generated_at": "2026-10-12T20:02:53+09:00"
 }
