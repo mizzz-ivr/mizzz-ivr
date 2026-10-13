@@ -5,11 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
+    "commits": 10,
+    "prs_opened": 3,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-10-13T02:53:04+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "Merge pull request #56 from ivRooom/feat/ops-agent-install-script  feat: ops-agent host install ",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/62f78fe69fcafbc6bc215cc6bcd1115348521fbf",
+      "at": "2026-10-13T11:33:40.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "feat: add an idempotent install script for the ops-agent host  Co-Authored-By: Claude Sonnet 5.5",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/8f435618cf50685d01a06024f0dc76bc54c51a10",
+      "at": "2026-10-13T11:29:03.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(ai): /ai askと機能別ON/OFF設定を追加し、manifestの古い説明を修正 (#465)  Co-authored-by: Ubuntu <ubuntu@ip-172",
+      "url": "https://github.com/ivRooom/Herta/commit/fe9cc2954e75ad09686a0235c842d334b6af0a6f",
+      "at": "2026-10-13T10:28:22.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "feat(cms): editable Integrations settings (YouTube, Calendar, post embeds) with initial values (",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/571c92b8c9864bba01f5f030a4f987c444784b3f",
+      "at": "2026-10-13T10:17:42.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): ivRooom IAM連携にグループ編集・削除・メンバー・ポリシー割り当て・一括操作を追加する(herta-iam v1.1.0) (#454)  * feat(s",
+      "url": "https://github.com/ivRooom/Herta/commit/b63e3ecadc05fae8945f10208a6c8f537ca09788",
+      "at": "2026-10-13T10:16:51.000+09:00"
+    }
+  ],
+  "generated_at": "2026-10-13T11:37:30+09:00"
 }
