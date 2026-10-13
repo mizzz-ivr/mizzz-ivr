@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 10,
-    "prs_opened": 3,
+    "commits": 12,
+    "prs_opened": 6,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "feat(site): redesign About and streamline Home (#60)  - About: portrait hero, profile facts, sto",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/0fb3908352a329b98c4cf93772dd034e1e4892c2",
+      "at": "2026-10-13T15:07:10.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "feat(content): full Privacy Policy and Terms; visitor-facing copy across the site (#59)  * feat(",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/b3e96b96ca00b048cd878166346f193138648bf9",
+      "at": "2026-10-13T14:32:32.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-status",
@@ -31,21 +45,7 @@
       "title": "feat(ai): /ai askと機能別ON/OFF設定を追加し、manifestの古い説明を修正 (#465)  Co-authored-by: Ubuntu <ubuntu@ip-172",
       "url": "https://github.com/ivRooom/Herta/commit/fe9cc2954e75ad09686a0235c842d334b6af0a6f",
       "at": "2026-10-13T10:28:22.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "feat(cms): editable Integrations settings (YouTube, Calendar, post embeds) with initial values (",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/571c92b8c9864bba01f5f030a4f987c444784b3f",
-      "at": "2026-10-13T10:17:42.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(studio): ivRooom IAM連携にグループ編集・削除・メンバー・ポリシー割り当て・一括操作を追加する(herta-iam v1.1.0) (#454)  * feat(s",
-      "url": "https://github.com/ivRooom/Herta/commit/b63e3ecadc05fae8945f10208a6c8f537ca09788",
-      "at": "2026-10-13T10:16:51.000+09:00"
     }
   ],
-  "generated_at": "2026-10-13T11:37:30+09:00"
+  "generated_at": "2026-10-13T15:46:31+09:00"
 }
