@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-14",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 1,
+    "prs_opened": 1,
+    "issues_created": 0,
+    "issues_completed": 0
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "feat(ops): admin dashboard, failure alerts, scheduled health check and retention purge (#62)  * ",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/6a64b80a7054e3bbb7691c734133bed5e2e529b3",
+      "at": "2026-10-14T00:35:04.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR #63 feat(home): FAQ section and chat assistant with optional free AI answers",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/63",
+      "at": "2026-10-13T15:45:27Z"
+    }
+  ],
+  "generated_at": "2026-10-14T04:20:53+09:00"
+}
