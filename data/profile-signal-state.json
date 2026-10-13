@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
+    "label": "OFFLINE",
+    "symbol": "○",
     "last_activity_at": "2026-10-13T15:45:27Z"
   },
   "code_weather": {
@@ -87,21 +87,21 @@
       "last_activity_at": "2026-10-13T15:45:27Z",
       "share": 100,
       "ci": {
-        "label": "MIXED",
-        "symbol": "◐",
+        "label": "ATTENTION",
+        "symbol": "!",
         "window_days": 7,
         "total_runs": 10,
         "evaluated": 8,
-        "passed": 7,
-        "failed": 1,
+        "passed": 6,
+        "failed": 2,
         "ignored": 2,
-        "pass_rate": 88,
-        "latest_conclusion": "success"
+        "pass_rate": 75,
+        "latest_conclusion": "failure"
       },
       "health": {
-        "label": "WATCH",
-        "symbol": "◐",
-        "reason": "recent CI is mixed"
+        "label": "ATTENTION",
+        "symbol": "!",
+        "reason": "recent CI needs attention"
       }
     }
   ],
@@ -121,16 +121,16 @@
       "at": "2026-10-13T15:35:04Z"
     }
   ],
-  "generated_at": "2026-10-14T05:21:55+09:00",
+  "generated_at": "2026-10-14T08:47:26+09:00",
   "ci_signal": {
-    "label": "MIXED",
-    "symbol": "◐",
+    "label": "ATTENTION",
+    "symbol": "!",
     "window_days": 7,
     "evaluated": 8,
-    "passed": 7,
-    "failed": 1,
+    "passed": 6,
+    "failed": 2,
     "ignored": 2,
-    "pass_rate": 88,
+    "pass_rate": 75,
     "repos_with_signal": 1
   },
   "dev_recap": {
