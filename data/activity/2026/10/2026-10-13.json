@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 12,
-    "prs_opened": 6,
+    "commits": 15,
+    "prs_opened": 9,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(ai): /ai usageでAI利用状況・推定コストをDiscordから確認できるようにする (#467)  Co-authored-by: Ubuntu <ubuntu@ip-1",
+      "url": "https://github.com/ivRooom/Herta/commit/b1aebeabe920e4f61a2947c26050adc987e99510",
+      "at": "2026-10-13T19:35:29.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "feat(home): richer hero and motion polish (#61)  - hero: round portrait with glowing halo, orbit",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/11dad8233a71132093c59c85cd4d7f7ea810f3c9",
+      "at": "2026-10-13T19:13:58.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(ai): /ai modelでユーザー個別のAIモデル選択を追加し、高品質モデルをRole制限する (#466)  Co-authored-by: Ubuntu <ubuntu@ip",
+      "url": "https://github.com/ivRooom/Herta/commit/3262f93535d2c75888760fd49853acd30072d660",
+      "at": "2026-10-13T19:01:55.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
@@ -24,28 +45,7 @@
       "title": "feat(content): full Privacy Policy and Terms; visitor-facing copy across the site (#59)  * feat(",
       "url": "https://github.com/mizzz-ivr/ivmz-home/commit/b3e96b96ca00b048cd878166346f193138648bf9",
       "at": "2026-10-13T14:32:32.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-status",
-      "title": "Merge pull request #56 from ivRooom/feat/ops-agent-install-script  feat: ops-agent host install ",
-      "url": "https://github.com/ivRooom/ivrm-status/commit/62f78fe69fcafbc6bc215cc6bcd1115348521fbf",
-      "at": "2026-10-13T11:33:40.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-status",
-      "title": "feat: add an idempotent install script for the ops-agent host  Co-Authored-By: Claude Sonnet 5.5",
-      "url": "https://github.com/ivRooom/ivrm-status/commit/8f435618cf50685d01a06024f0dc76bc54c51a10",
-      "at": "2026-10-13T11:29:03.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(ai): /ai askと機能別ON/OFF設定を追加し、manifestの古い説明を修正 (#465)  Co-authored-by: Ubuntu <ubuntu@ip-172",
-      "url": "https://github.com/ivRooom/Herta/commit/fe9cc2954e75ad09686a0235c842d334b6af0a6f",
-      "at": "2026-10-13T10:28:22.000+09:00"
     }
   ],
-  "generated_at": "2026-10-13T15:46:31+09:00"
+  "generated_at": "2026-10-13T19:45:51+09:00"
 }
