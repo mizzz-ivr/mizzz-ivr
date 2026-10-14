@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "BUILDING",
-    "symbol": "●",
-    "last_activity_at": "2026-10-15T02:33:23.000+09:00"
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
+    "last_activity_at": "2026-10-14T17:33:24Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -17,10 +17,10 @@
   "activity_total": 24,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 36,
-    "events": 18,
-    "last_activity_at": "2026-10-14T17:30:46Z",
-    "share": 68,
+    "score": 39,
+    "events": 21,
+    "last_activity_at": "2026-10-14T17:33:24Z",
+    "share": 70,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -82,10 +82,10 @@
   "now_building": [
     {
       "repo": "ivRooom/ivrm-dashboard",
-      "score": 36,
-      "events": 18,
-      "last_activity_at": "2026-10-14T17:30:46Z",
-      "share": 68,
+      "score": 39,
+      "events": 21,
+      "last_activity_at": "2026-10-14T17:33:24Z",
+      "share": 70,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -109,7 +109,7 @@
       "score": 17,
       "events": 11,
       "last_activity_at": "2026-10-14T16:12:39Z",
-      "share": 32,
+      "share": 30,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -131,6 +131,13 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #129",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-10-14T17:33:24Z"
+    },
+    {
       "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "1 commit pushed to codex/runtime-rollout",
@@ -147,19 +154,12 @@
     {
       "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to codex/service-operations",
+      "title": "1 commit pushed to main",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-10-14T17:08:17Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #128",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-10-14T16:44:03Z"
+      "at": "2026-10-14T17:19:44Z"
     }
   ],
-  "generated_at": "2026-10-15T02:59:38+09:00",
+  "generated_at": "2026-10-15T04:27:49+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
