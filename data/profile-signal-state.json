@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-10-14T00:17:37Z"
+    "last_activity_at": "2026-10-14T01:16:00Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,10 +17,10 @@
   "activity_total": 3,
   "current_focus": {
     "repo": "mizzz-ivr/ivmz-home",
-    "score": 35,
-    "events": 32,
-    "last_activity_at": "2026-10-14T00:17:37Z",
-    "share": 88,
+    "score": 47,
+    "events": 41,
+    "last_activity_at": "2026-10-14T01:16:00Z",
+    "share": 68,
     "stack": [
       "TypeScript",
       "CSS",
@@ -131,35 +131,35 @@
   ],
   "activity_stream": [
     {
-      "label": "PUSH",
+      "label": "PR",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "1 commit pushed to claude/pensive-ramanujan-9j2xu5",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
-      "at": "2026-10-14T00:13:41Z"
+      "title": "Opened PR #64",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-10-14T01:16:00Z"
     },
     {
-      "label": "PUSH",
+      "label": "CREATE",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "1 commit pushed to claude/pensive-ramanujan-9j2xu5",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
-      "at": "2026-10-14T00:02:13Z"
+      "title": "Created branch claude/credit-saving-ci",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-10-14T01:15:30Z"
     },
     {
       "label": "PR",
       "repo": "ivRooom/Herta",
-      "title": "Opened PR #468",
+      "title": "Opened PR #470",
       "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-10-14T00:01:41Z"
+      "at": "2026-10-14T01:03:22Z"
     },
     {
       "label": "CREATE",
       "repo": "ivRooom/Herta",
-      "title": "Created branch feat/ai-xai-deepseek-providers",
+      "title": "Created branch fix/ai-xai-deepseek-review-findings",
       "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-10-14T00:01:06Z"
+      "at": "2026-10-14T01:02:49Z"
     }
   ],
-  "generated_at": "2026-10-14T09:21:21+09:00",
+  "generated_at": "2026-10-14T11:13:10+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
