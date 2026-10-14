@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 14,
-    "prs_opened": 6,
+    "commits": 15,
+    "prs_opened": 8,
     "issues_created": 2,
     "issues_completed": 2
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(analytics): コマンド履歴に実行者(Discord User ID)を表示できるようにする (#474)  CommandExecutionEventにuser_id列を追",
+      "url": "https://github.com/ivRooom/Herta/commit/00621e5e30e3a37086c55afdfe876e20e8d91e2c",
+      "at": "2026-10-15T08:40:25.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
@@ -38,14 +45,7 @@
       "title": "fix: enroll runtime monitoring independently from heartbeats",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commit/7a969a85d8c98e844d2c2f9d53c0220afd4f291e",
       "at": "2026-10-15T02:28:00.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "fix: prepare dedicated runtime credential and tmpfiles units",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/a6436db96b66f18c86ea7adad67946d8951278d8",
-      "at": "2026-10-15T02:24:53.000+09:00"
     }
   ],
-  "generated_at": "2026-10-15T02:59:38+09:00"
+  "generated_at": "2026-10-15T08:58:07+09:00"
 }
