@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-15",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 14,
+    "prs_opened": 6,
+    "issues_created": 2,
+    "issues_completed": 2
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Merge pull request #129 from ivRooom/codex/runtime-rollout  fix: Runtime収集の認証・登録を分離し待機API負荷を削減",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/37ff56af5e0a3cbf243c5093821a3834d89776af",
+      "at": "2026-10-15T02:33:23.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "ops: add public checks to existing collector batches",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/81f48f75d370d4e9d10f03f529b1ac7ad5f9c29b",
+      "at": "2026-10-15T02:32:08.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "ops: reduce idle claim traffic before runtime rollout",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/8e49f8fbca88bda59313789d7ead5db09cb8a34d",
+      "at": "2026-10-15T02:30:54.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "fix: enroll runtime monitoring independently from heartbeats",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/7a969a85d8c98e844d2c2f9d53c0220afd4f291e",
+      "at": "2026-10-15T02:28:00.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "fix: prepare dedicated runtime credential and tmpfiles units",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/a6436db96b66f18c86ea7adad67946d8951278d8",
+      "at": "2026-10-15T02:24:53.000+09:00"
+    }
+  ],
+  "generated_at": "2026-10-15T02:59:38+09:00"
+}
