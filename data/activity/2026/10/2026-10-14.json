@@ -5,33 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 2,
-    "issues_created": 0,
+    "commits": 6,
+    "prs_opened": 7,
+    "issues_created": 1,
     "issues_completed": 0
   },
   "activity": [
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "feat(ops): admin dashboard, failure alerts, scheduled health check and retention purge (#62)  * ",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/6a64b80a7054e3bbb7691c734133bed5e2e529b3",
-      "at": "2026-10-14T00:35:04.000+09:00"
+      "title": "ci: save Netlify credits (local browser tests) and quiet the pre-deploy health warning (#64)  Ad",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/43d4fcede194033c4316ab0eb34d953f8e452846",
+      "at": "2026-10-14T14:14:26.000+09:00"
     },
     {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "PR #468 feat(ai): xAI(Grok)・DeepSeekを新規AI providerとして統合する",
-      "url": "https://github.com/ivRooom/Herta/pull/468",
-      "at": "2026-10-14T00:01:41Z"
+      "title": "feat(audit-log): 監査ログ・Activity Logを機能別カテゴリ化し日本語表示を拡充する (#469)  Studio監査ログのEVENT_LABELS/カテゴリを既存の全",
+      "url": "https://github.com/ivRooom/Herta/commit/6be044142a0d86fc6a35cf62e6d11a13cba8ee76",
+      "at": "2026-10-14T13:55:53.000+09:00"
     },
     {
-      "type": "pr",
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(ai): PR #468のレビュー指摘(xAI/DeepSeek)を反映する (#470)  CodeRabbit/Codexのレビューで見つかった3点を修正: - isAiModel",
+      "url": "https://github.com/ivRooom/Herta/commit/a283075c0a874b507d758e5e7ee5481505417a95",
+      "at": "2026-10-14T13:55:25.000+09:00"
+    },
+    {
+      "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR #63 feat(home): FAQ section and chat assistant with optional free AI answers",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/63",
-      "at": "2026-10-13T15:45:27Z"
+      "title": "feat(home): FAQ section and chat assistant with optional free AI answers (#63)  * feat(home): FA",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/598090caf57af40a4b7931f3f05ae2cbc50ce9ab",
+      "at": "2026-10-14T09:34:50.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(ai): xAI(Grok)・DeepSeekを新規AI providerとして統合する (#468)  Chat Completions形式のxai/deepseekプロバイダーア",
+      "url": "https://github.com/ivRooom/Herta/commit/92a6dc4eaba3084b48d3fa21a82d46ea08968bcb",
+      "at": "2026-10-14T09:26:50.000+09:00"
     }
   ],
-  "generated_at": "2026-10-14T09:21:21+09:00"
+  "generated_at": "2026-10-14T16:44:38+09:00"
 }
