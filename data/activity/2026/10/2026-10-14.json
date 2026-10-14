@@ -6,7 +6,7 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 1,
-    "prs_opened": 1,
+    "prs_opened": 2,
     "issues_created": 0,
     "issues_completed": 0
   },
@@ -20,11 +20,18 @@
     },
     {
       "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #468 feat(ai): xAI(Grok)・DeepSeekを新規AI providerとして統合する",
+      "url": "https://github.com/ivRooom/Herta/pull/468",
+      "at": "2026-10-14T00:01:41Z"
+    },
+    {
+      "type": "pr",
       "repo": "mizzz-ivr/ivmz-home",
       "title": "PR #63 feat(home): FAQ section and chat assistant with optional free AI answers",
       "url": "https://github.com/mizzz-ivr/ivmz-home/pull/63",
       "at": "2026-10-13T15:45:27Z"
     }
   ],
-  "generated_at": "2026-10-14T04:20:53+09:00"
+  "generated_at": "2026-10-14T09:21:21+09:00"
 }
