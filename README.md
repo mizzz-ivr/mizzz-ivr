@@ -26,7 +26,7 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 01:48 JST</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 03:21 JST</sub></td>
     <td width="34%" align="center"><strong>🌙 REST DAY</strong><br/><sub>0 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 5 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
@@ -53,7 +53,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>weighted activity 100% · score 11 · 10 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>weighted activity 100% · score 43 · 30 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>Shell</code> <code>CSS</code> <code>Dockerfile</code></td>
   </tr>
 </table>
@@ -89,7 +89,10 @@
 
 <table width="100%">
   <tbody>
-    <tr><td width="10%"><code>00:24</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/issues/480">Issue #480を作成</a></td></tr>
+    <tr><td width="10%"><code>03:21</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">PR #485を作成</a></td></tr>
+    <tr><td width="10%"><code>03:19</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">PR #484を作成</a></td></tr>
+    <tr><td width="10%"><code>03:16</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/issues/482">Reopened issue #482</a></td></tr>
+    <tr><td width="10%"><code>03:11</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/issues/482">Issue #482を完了</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->
