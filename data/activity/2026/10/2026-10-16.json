@@ -5,11 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
-    "issues_created": 0,
-    "issues_completed": 0
+    "commits": 2,
+    "prs_opened": 3,
+    "issues_created": 1,
+    "issues_completed": 1
   },
-  "activity": [],
-  "generated_at": "2026-10-16T02:08:39+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(mbti): use cute chibi Herta artwork for all personality types (#484)  Closes #482",
+      "url": "https://github.com/ivRooom/Herta/commit/a8233c68fb00d7efb913ae2a3df1662be59c094e",
+      "at": "2026-10-16T03:29:17.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(mbti): illustrate personality reports and saved images (#483)  Closes #482",
+      "url": "https://github.com/ivRooom/Herta/commit/26d08df963312adee1ef2fd13acf00aaba5c3424",
+      "at": "2026-10-16T03:11:23.000+09:00"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #482 feat(mbti): タイプごとのイメージ画像で結果レポートを改善",
+      "url": "https://github.com/ivRooom/Herta/issues/482",
+      "at": "2026-10-15T18:29:19Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #485 監査ログ拡充: ログイン記録・コマンド実行・チャンネル作成/削除の統合表示",
+      "url": "https://github.com/ivRooom/Herta/pull/485",
+      "at": "2026-10-15T18:21:51Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #484 feat(mbti): 可愛いちびHertaのタイプ別画像へ差し替え",
+      "url": "https://github.com/ivRooom/Herta/pull/484",
+      "at": "2026-10-15T18:19:41Z"
+    }
+  ],
+  "generated_at": "2026-10-16T06:30:30+09:00"
 }
