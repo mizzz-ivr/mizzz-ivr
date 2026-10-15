@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 20,
-    "prs_opened": 13,
-    "issues_created": 2,
-    "issues_completed": 2
+    "commits": 22,
+    "prs_opened": 14,
+    "issues_created": 3,
+    "issues_completed": 3
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(mbti): enrich quiz, reports, sharing and resumable progress (#481)  Closes #480",
+      "url": "https://github.com/ivRooom/Herta/commit/ed4d6d1ebc3113ebc1a7e4a9b79e1b267a9c4920",
+      "at": "2026-10-15T21:56:27.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "MBTI診断: 専用URLでのWeb回答フローを追加 (#479)  * wip: move mbti-core/mbti-ivrm-sync into @herta/shared (in p",
+      "url": "https://github.com/ivRooom/Herta/commit/4f000e1c2878acce79fa11259ac86be98f592435",
+      "at": "2026-10-15T20:55:24.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -26,26 +40,12 @@
       "at": "2026-10-15T15:04:22.000+09:00"
     },
     {
-      "type": "commit",
+      "type": "done",
       "repo": "ivRooom/Herta",
-      "title": "feat(mbti): 診断結果もSVG画像カードで表示する (#476)  * feat(mbti): 診断結果もSVG画像カードで表示する  これまで最終結果はEmbed(テキスト)のみだ",
-      "url": "https://github.com/ivRooom/Herta/commit/5e5506725804be6aa52b60ffde192891e4cb3f19",
-      "at": "2026-10-15T10:55:53.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #479 MBTI診断: 専用URLでのWeb回答フローを追加",
-      "url": "https://github.com/ivRooom/Herta/pull/479",
-      "at": "2026-10-15T10:53:23Z"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "docs(ops): record Netlify credit exhaustion and Production recovery (#68)  Records the 2026-10-1",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/7e7af0b5f7341cd0da5d65aa6583b91a153dba17",
-      "at": "2026-10-15T09:50:55.000+09:00"
+      "title": "Issue #480 feat(mbti): 診断UI・質問プール・詳細レポートと保存共有を本番へ反映",
+      "url": "https://github.com/ivRooom/Herta/issues/480",
+      "at": "2026-10-15T12:56:28Z"
     }
   ],
-  "generated_at": "2026-10-15T20:40:57+09:00"
+  "generated_at": "2026-10-16T02:08:39+09:00"
 }
