@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 19,
-    "prs_opened": 12,
+    "commits": 20,
+    "prs_opened": 13,
     "issues_created": 2,
     "issues_completed": 2
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "Studioダッシュボードの画面遷移速度を改善 (#478)",
+      "url": "https://github.com/ivRooom/Herta/commit/1dd0600e4d1f29ffb5c551021330ffe492c478a7",
+      "at": "2026-10-15T20:22:40.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -26,26 +33,19 @@
       "at": "2026-10-15T10:55:53.000+09:00"
     },
     {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #479 MBTI診断: 専用URLでのWeb回答フローを追加",
+      "url": "https://github.com/ivRooom/Herta/pull/479",
+      "at": "2026-10-15T10:53:23Z"
+    },
+    {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
       "title": "docs(ops): record Netlify credit exhaustion and Production recovery (#68)  Records the 2026-10-1",
       "url": "https://github.com/mizzz-ivr/ivmz-home/commit/7e7af0b5f7341cd0da5d65aa6583b91a153dba17",
       "at": "2026-10-15T09:50:55.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(mbti): 質問カード画像の生成を先読みし、回答後の表示遅延を解消する (#475)  * fix(mbti): 質問カード画像の生成を先読みし、回答後の表示遅延を解消する  これま",
-      "url": "https://github.com/ivRooom/Herta/commit/ee341814b31e97d0583574aa4dfaf7f36f2078e8",
-      "at": "2026-10-15T09:34:40.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(analytics): コマンド履歴に実行者(Discord User ID)を表示できるようにする (#474)  CommandExecutionEventにuser_id列を追",
-      "url": "https://github.com/ivRooom/Herta/commit/00621e5e30e3a37086c55afdfe876e20e8d91e2c",
-      "at": "2026-10-15T08:40:25.000+09:00"
     }
   ],
-  "generated_at": "2026-10-15T18:22:24+09:00"
+  "generated_at": "2026-10-15T20:40:57+09:00"
 }
