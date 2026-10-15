@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "BUILDING",
-    "symbol": "●",
-    "last_activity_at": "2026-10-15T20:22:40.000+09:00"
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
+    "last_activity_at": "2026-10-15T12:56:32Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -17,10 +17,10 @@
   "activity_total": 37,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 67,
-    "events": 46,
-    "last_activity_at": "2026-10-15T11:19:32Z",
-    "share": 56,
+    "score": 86,
+    "events": 60,
+    "last_activity_at": "2026-10-15T12:56:32Z",
+    "share": 62,
     "stack": [
       "TypeScript",
       "Shell",
@@ -155,35 +155,35 @@
   ],
   "activity_stream": [
     {
-      "label": "PR",
+      "label": "ISSUE",
       "repo": "ivRooom/Herta",
-      "title": "Opened PR #479",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-10-15T10:53:23Z"
+      "title": "Closed issue #480",
+      "url": "https://github.com/ivRooom/Herta/issues/480",
+      "at": "2026-10-15T12:56:32Z"
     },
     {
       "label": "PR",
       "repo": "ivRooom/Herta",
-      "title": "Opened PR #478",
+      "title": "Opened PR #481",
       "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-10-15T06:24:38Z"
+      "at": "2026-10-15T12:49:21Z"
     },
     {
       "label": "PR",
       "repo": "ivRooom/Herta",
-      "title": "PR merged #477",
+      "title": "PR merged #479",
       "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-10-15T06:04:22Z"
+      "at": "2026-10-15T11:55:24Z"
     },
     {
       "label": "PR",
       "repo": "ivRooom/Herta",
-      "title": "Opened PR #477",
+      "title": "PR merged #478",
       "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-10-15T05:35:55Z"
+      "at": "2026-10-15T11:22:40Z"
     }
   ],
-  "generated_at": "2026-10-15T20:40:57+09:00",
+  "generated_at": "2026-10-15T23:17:18+09:00",
   "ci_signal": {
     "label": "STABLE",
     "symbol": "●",
