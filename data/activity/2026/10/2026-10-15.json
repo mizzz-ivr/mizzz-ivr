@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 15,
-    "prs_opened": 8,
+    "commits": 18,
+    "prs_opened": 10,
     "issues_created": 2,
     "issues_completed": 2
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(mbti): 診断結果もSVG画像カードで表示する (#476)  * feat(mbti): 診断結果もSVG画像カードで表示する  これまで最終結果はEmbed(テキスト)のみだ",
+      "url": "https://github.com/ivRooom/Herta/commit/5e5506725804be6aa52b60ffde192891e4cb3f19",
+      "at": "2026-10-15T10:55:53.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "docs(ops): record Netlify credit exhaustion and Production recovery (#68)  Records the 2026-10-1",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/7e7af0b5f7341cd0da5d65aa6583b91a153dba17",
+      "at": "2026-10-15T09:50:55.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(mbti): 質問カード画像の生成を先読みし、回答後の表示遅延を解消する (#475)  * fix(mbti): 質問カード画像の生成を先読みし、回答後の表示遅延を解消する  これま",
+      "url": "https://github.com/ivRooom/Herta/commit/ee341814b31e97d0583574aa4dfaf7f36f2078e8",
+      "at": "2026-10-15T09:34:40.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -24,28 +45,7 @@
       "title": "Merge pull request #129 from ivRooom/codex/runtime-rollout  fix: Runtime収集の認証・登録を分離し待機API負荷を削減",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commit/37ff56af5e0a3cbf243c5093821a3834d89776af",
       "at": "2026-10-15T02:33:23.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "ops: add public checks to existing collector batches",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/81f48f75d370d4e9d10f03f529b1ac7ad5f9c29b",
-      "at": "2026-10-15T02:32:08.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "ops: reduce idle claim traffic before runtime rollout",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/8e49f8fbca88bda59313789d7ead5db09cb8a34d",
-      "at": "2026-10-15T02:30:54.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "fix: enroll runtime monitoring independently from heartbeats",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/7a969a85d8c98e844d2c2f9d53c0220afd4f291e",
-      "at": "2026-10-15T02:28:00.000+09:00"
     }
   ],
-  "generated_at": "2026-10-15T08:58:07+09:00"
+  "generated_at": "2026-10-15T13:31:27+09:00"
 }
