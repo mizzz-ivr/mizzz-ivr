@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 8,
-    "prs_opened": 6,
-    "issues_created": 3,
+    "commits": 13,
+    "prs_opened": 14,
+    "issues_created": 12,
     "issues_completed": 3
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "今日の運勢カードコマンドとMBTIの出題・境界レポートを改善 (#490)  * feat: add private daily fortune cards and MBTI boundary",
-      "url": "https://github.com/ivRooom/Herta/commit/bacc338cd510d74b70235c126c9e015d9edb6bc0",
-      "at": "2026-10-16T13:02:54.000+09:00"
+      "title": "docs(ops): deploy workflowのSSM移行でシークレットをCloudTrailへ漏らさない設計を明記する (#425)",
+      "url": "https://github.com/ivRooom/Herta/commit/e9b3c544a0baf0122f65c99a913931dc5fb8b391",
+      "at": "2026-10-16T16:16:17.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "docs: AWS Bedrock移行・RAG導入の検討メモを追加する (#424)  ユーザーからのAWS Bedrock移行相談を受け、現状のAI Foundation構成 (docs/A",
-      "url": "https://github.com/ivRooom/Herta/commit/c939bb97e08308396dafdaa08d85afee7efb21ea",
-      "at": "2026-10-16T12:58:50.000+09:00"
+      "title": "feat(privacy): VC Recap機能のPhase 0(同意基盤)とRAGロードマップを追加 (#493)",
+      "url": "https://github.com/ivRooom/Herta/commit/c62eb271e1da7ff084da4e75b192883e9809e1c1",
+      "at": "2026-10-16T16:15:03.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(dev): 開発用docker-composeにPrisma Studioを常時起動サービスとして追加する (#423)",
-      "url": "https://github.com/ivRooom/Herta/commit/9ea98af4c79d4dd5dd7c8e512cef5f00670a9215",
-      "at": "2026-10-16T12:35:50.000+09:00"
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Merge pull request #1 from ivRooom/docs/initial-design",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/dffecfe06e44d40d832225c22a42a4ef36c86e24",
+      "at": "2026-10-16T16:09:53.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "activity-log: MEE6相当以上のイベント記録・実行者解決・トグル細分化を追加 (#488)  * feat(activity-log): MEE6相当以上のイベント記録・実行者解",
-      "url": "https://github.com/ivRooom/Herta/commit/a15066e78eefc367966b554a79fc7cfd22c8e2f5",
-      "at": "2026-10-16T09:06:08.000+09:00"
+      "repo": "ivRooom/ivrm-ai",
+      "title": "docs: add AGENTS.md and initial design (ai.ivrm.jp)  Co-Authored-By: Claude Sonnet 5.5 <noreply@",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/1154d448b009a97c0a6765a9f6f420ca76f7e3cc",
+      "at": "2026-10-16T14:59:52.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "MBTIレポートに落書き風Hertaとアニメーションを追加 (#487)  * feat(studio): add doodle Herta artwork and report motion",
-      "url": "https://github.com/ivRooom/Herta/commit/26248807e5f482b289313c1c780a8fa32481d71a",
-      "at": "2026-10-16T08:17:47.000+09:00"
+      "repo": "ivRooom/ivrm-ai",
+      "title": "chore: initialize repository  Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/20e1b7694bac08e5d2976c2687220101f247e90a",
+      "at": "2026-10-16T14:59:49.000+09:00"
     }
   ],
-  "generated_at": "2026-10-16T13:41:06+09:00"
+  "generated_at": "2026-10-16T16:57:25+09:00"
 }

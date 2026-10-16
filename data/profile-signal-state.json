@@ -7,20 +7,20 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-10-16T04:02:57Z"
+    "last_activity_at": "2026-10-16T07:42:43Z"
   },
   "code_weather": {
-    "label": "ACTIVE",
-    "icon": "🌤️"
+    "label": "HEAVY CODING",
+    "icon": "⚡"
   },
   "streak": 5,
-  "activity_total": 20,
+  "activity_total": 42,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 132,
-    "events": 102,
-    "last_activity_at": "2026-10-16T04:02:57Z",
-    "share": 100,
+    "score": 158,
+    "events": 121,
+    "last_activity_at": "2026-10-16T07:16:17Z",
+    "share": 79,
     "stack": [
       "TypeScript",
       "Shell",
@@ -73,19 +73,19 @@
     },
     {
       "date": "2026-10-16",
-      "total": 20,
-      "commits": 8,
-      "prs": 6,
-      "issues": 6
+      "total": 42,
+      "commits": 13,
+      "prs": 14,
+      "issues": 15
     }
   ],
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 132,
-      "events": 102,
-      "last_activity_at": "2026-10-16T04:02:57Z",
-      "share": 100,
+      "score": 158,
+      "events": 121,
+      "last_activity_at": "2026-10-16T07:16:17Z",
+      "share": 79,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -103,49 +103,73 @@
         "symbol": "●",
         "reason": "active with passing recent CI"
       }
+    },
+    {
+      "repo": "ivRooom/ivrm-ai",
+      "score": 41,
+      "events": 15,
+      "last_activity_at": "2026-10-16T07:42:43Z",
+      "share": 21,
+      "ci": {
+        "label": "PASSING",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 4,
+        "evaluated": 4,
+        "passed": 4,
+        "failed": 0,
+        "ignored": 0,
+        "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
     }
   ],
   "activity_stream": [
     {
       "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Closed issue #489",
-      "url": "https://github.com/ivRooom/Herta/issues/489",
-      "at": "2026-10-16T04:02:57Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "Opened PR #490",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-10-16T03:43:14Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR merged #423",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-10-16T03:35:50Z"
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Opened issue #14",
+      "url": "https://github.com/ivRooom/ivrm-ai/issues/14",
+      "at": "2026-10-16T07:42:43Z"
     },
     {
       "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Opened issue #489",
-      "url": "https://github.com/ivRooom/Herta/issues/489",
-      "at": "2026-10-16T03:28:41Z"
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Opened issue #13",
+      "url": "https://github.com/ivRooom/ivrm-ai/issues/13",
+      "at": "2026-10-16T07:20:19Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Opened PR #12",
+      "url": "https://github.com/ivRooom/ivrm-ai",
+      "at": "2026-10-16T07:19:58Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Opened PR #11",
+      "url": "https://github.com/ivRooom/ivrm-ai",
+      "at": "2026-10-16T07:18:19Z"
     }
   ],
-  "generated_at": "2026-10-16T13:41:06+09:00",
+  "generated_at": "2026-10-16T16:57:25+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
     "window_days": 7,
-    "evaluated": 7,
-    "passed": 7,
+    "evaluated": 11,
+    "passed": 11,
     "failed": 0,
     "ignored": 3,
     "pass_rate": 100,
-    "repos_with_signal": 1
+    "repos_with_signal": 2
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
@@ -165,13 +189,13 @@
         "active_days": 5
       },
       "metrics": {
-        "commits": 56,
-        "prs_opened": 42,
-        "issues_created": 8,
+        "commits": 61,
+        "prs_opened": 50,
+        "issues_created": 17,
         "issues_completed": 7,
-        "activity_total": 113
+        "activity_total": 135
       },
-      "generated_at": "2026-10-16T13:41:06+09:00"
+      "generated_at": "2026-10-16T16:57:25+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -186,13 +210,13 @@
         "active_days": 12
       },
       "metrics": {
-        "commits": 107,
-        "prs_opened": 95,
-        "issues_created": 10,
+        "commits": 112,
+        "prs_opened": 103,
+        "issues_created": 19,
         "issues_completed": 7,
-        "activity_total": 219
+        "activity_total": 241
       },
-      "generated_at": "2026-10-16T13:41:06+09:00"
+      "generated_at": "2026-10-16T16:57:25+09:00"
     },
     "achievements": [
       {
@@ -244,11 +268,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-10-16",
       "metrics": {
-        "commits": 1846,
-        "prs_opened": 354,
-        "issues_created": 121,
+        "commits": 1851,
+        "prs_opened": 362,
+        "issues_created": 130,
         "issues_completed": 87,
-        "activity_total": 2408
+        "activity_total": 2430
       }
     },
     "lifetime": {
@@ -257,11 +281,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-10-16",
       "metrics": {
-        "commits": 1846,
-        "prs_opened": 354,
-        "issues_created": 121,
+        "commits": 1851,
+        "prs_opened": 362,
+        "issues_created": 130,
         "issues_completed": 87,
-        "activity_total": 2408
+        "activity_total": 2430
       }
     }
   }
