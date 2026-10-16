@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 13,
-    "prs_opened": 14,
-    "issues_created": 12,
-    "issues_completed": 3
+    "commits": 21,
+    "prs_opened": 18,
+    "issues_created": 14,
+    "issues_completed": 11
   },
   "activity": [
     {
       "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "feat(chat): チャット API(プロジェクト・会話・アーカイブ・SSE送信) (#16) (#17)",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/f6ca8cb04b343b6fafaa6d2b4d12ca641ae69e4b",
+      "at": "2026-10-16T18:56:46.000+09:00"
+    },
+    {
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "docs(ops): deploy workflowのSSM移行でシークレットをCloudTrailへ漏らさない設計を明記する (#425)",
-      "url": "https://github.com/ivRooom/Herta/commit/e9b3c544a0baf0122f65c99a913931dc5fb8b391",
-      "at": "2026-10-16T16:16:17.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(privacy): VC Recap機能のPhase 0(同意基盤)とRAGロードマップを追加 (#493)",
-      "url": "https://github.com/ivRooom/Herta/commit/c62eb271e1da7ff084da4e75b192883e9809e1c1",
-      "at": "2026-10-16T16:15:03.000+09:00"
+      "title": "今日の運勢でivrm-webの本人プロフィールを自動取得 (#492)  * feat(fortune): read member profiles from ivrm-web instead",
+      "url": "https://github.com/ivRooom/Herta/commit/f6b1553a690af82cefd513ffc30a993080d5bc58",
+      "at": "2026-10-16T18:49:07.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-ai",
-      "title": "Merge pull request #1 from ivRooom/docs/initial-design",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/dffecfe06e44d40d832225c22a42a4ef36c86e24",
-      "at": "2026-10-16T16:09:53.000+09:00"
+      "title": "feat(db): スキーマ・マイグレーション・Postgres UsageStore・監査ログ (#5, #14) (#15)  Co-authored-by: Claude Sonnet ",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/3c6e5f906c3ce06911b4df3b6471835efdea8a04",
+      "at": "2026-10-16T18:46:43.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-ai",
-      "title": "docs: add AGENTS.md and initial design (ai.ivrm.jp)  Co-Authored-By: Claude Sonnet 5.5 <noreply@",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/1154d448b009a97c0a6765a9f6f420ca76f7e3cc",
-      "at": "2026-10-16T14:59:52.000+09:00"
+      "title": "feat(auth): セッション検証とポリシー判定のクライアント (#2) (#12)  Co-authored-by: Claude Sonnet 5.5 <noreply@anthrop",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/5da91bc2fecdd165e25f2d8a5e0972f2dd7064c3",
+      "at": "2026-10-16T18:23:11.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-ai",
-      "title": "chore: initialize repository  Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/20e1b7694bac08e5d2976c2687220101f247e90a",
-      "at": "2026-10-16T14:59:49.000+09:00"
+      "title": "feat(cost): コスト関門(事前予約・精算・上限・kill switch) (#4) (#11)  Co-authored-by: Claude Sonnet 5.5 <noreply",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/44535565135d31360e18b922ebbe6097a8588ce4",
+      "at": "2026-10-16T18:23:07.000+09:00"
     }
   ],
-  "generated_at": "2026-10-16T16:57:25+09:00"
+  "generated_at": "2026-10-16T20:34:30+09:00"
 }
