@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 2,
-    "prs_opened": 3,
-    "issues_created": 1,
-    "issues_completed": 1
+    "commits": 5,
+    "prs_opened": 5,
+    "issues_created": 2,
+    "issues_completed": 2
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "activity-log: MEE6相当以上のイベント記録・実行者解決・トグル細分化を追加 (#488)  * feat(activity-log): MEE6相当以上のイベント記録・実行者解",
+      "url": "https://github.com/ivRooom/Herta/commit/a15066e78eefc367966b554a79fc7cfd22c8e2f5",
+      "at": "2026-10-16T09:06:08.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "MBTIレポートに落書き風Hertaとアニメーションを追加 (#487)  * feat(studio): add doodle Herta artwork and report motion",
+      "url": "https://github.com/ivRooom/Herta/commit/26248807e5f482b289313c1c780a8fa32481d71a",
+      "at": "2026-10-16T08:17:47.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "監査ログ拡充: ログイン記録・コマンド実行・チャンネル作成/削除の統合表示 (#485)",
+      "url": "https://github.com/ivRooom/Herta/commit/42606f6a4e8b03d4d813f62315fb5796ad8614dc",
+      "at": "2026-10-16T07:33:23.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -24,28 +45,7 @@
       "title": "feat(mbti): illustrate personality reports and saved images (#483)  Closes #482",
       "url": "https://github.com/ivRooom/Herta/commit/26d08df963312adee1ef2fd13acf00aaba5c3424",
       "at": "2026-10-16T03:11:23.000+09:00"
-    },
-    {
-      "type": "done",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #482 feat(mbti): タイプごとのイメージ画像で結果レポートを改善",
-      "url": "https://github.com/ivRooom/Herta/issues/482",
-      "at": "2026-10-15T18:29:19Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #485 監査ログ拡充: ログイン記録・コマンド実行・チャンネル作成/削除の統合表示",
-      "url": "https://github.com/ivRooom/Herta/pull/485",
-      "at": "2026-10-15T18:21:51Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #484 feat(mbti): 可愛いちびHertaのタイプ別画像へ差し替え",
-      "url": "https://github.com/ivRooom/Herta/pull/484",
-      "at": "2026-10-15T18:19:41Z"
     }
   ],
-  "generated_at": "2026-10-16T06:30:30+09:00"
+  "generated_at": "2026-10-16T11:54:32+09:00"
 }
