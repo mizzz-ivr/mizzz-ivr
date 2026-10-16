@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 5,
-    "prs_opened": 5,
-    "issues_created": 2,
-    "issues_completed": 2
+    "commits": 8,
+    "prs_opened": 6,
+    "issues_created": 3,
+    "issues_completed": 3
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "今日の運勢カードコマンドとMBTIの出題・境界レポートを改善 (#490)  * feat: add private daily fortune cards and MBTI boundary",
+      "url": "https://github.com/ivRooom/Herta/commit/bacc338cd510d74b70235c126c9e015d9edb6bc0",
+      "at": "2026-10-16T13:02:54.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "docs: AWS Bedrock移行・RAG導入の検討メモを追加する (#424)  ユーザーからのAWS Bedrock移行相談を受け、現状のAI Foundation構成 (docs/A",
+      "url": "https://github.com/ivRooom/Herta/commit/c939bb97e08308396dafdaa08d85afee7efb21ea",
+      "at": "2026-10-16T12:58:50.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(dev): 開発用docker-composeにPrisma Studioを常時起動サービスとして追加する (#423)",
+      "url": "https://github.com/ivRooom/Herta/commit/9ea98af4c79d4dd5dd7c8e512cef5f00670a9215",
+      "at": "2026-10-16T12:35:50.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -24,28 +45,7 @@
       "title": "MBTIレポートに落書き風Hertaとアニメーションを追加 (#487)  * feat(studio): add doodle Herta artwork and report motion",
       "url": "https://github.com/ivRooom/Herta/commit/26248807e5f482b289313c1c780a8fa32481d71a",
       "at": "2026-10-16T08:17:47.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "監査ログ拡充: ログイン記録・コマンド実行・チャンネル作成/削除の統合表示 (#485)",
-      "url": "https://github.com/ivRooom/Herta/commit/42606f6a4e8b03d4d813f62315fb5796ad8614dc",
-      "at": "2026-10-16T07:33:23.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(mbti): use cute chibi Herta artwork for all personality types (#484)  Closes #482",
-      "url": "https://github.com/ivRooom/Herta/commit/a8233c68fb00d7efb913ae2a3df1662be59c094e",
-      "at": "2026-10-16T03:29:17.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(mbti): illustrate personality reports and saved images (#483)  Closes #482",
-      "url": "https://github.com/ivRooom/Herta/commit/26d08df963312adee1ef2fd13acf00aaba5c3424",
-      "at": "2026-10-16T03:11:23.000+09:00"
     }
   ],
-  "generated_at": "2026-10-16T11:54:32+09:00"
+  "generated_at": "2026-10-16T13:41:06+09:00"
 }
