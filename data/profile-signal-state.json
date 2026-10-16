@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-10-16T11:26:44Z"
+    "last_activity_at": "2026-10-16T12:47:25Z"
   },
   "code_weather": {
     "label": "STORM",
@@ -17,9 +17,9 @@
   "activity_total": 64,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 179,
-    "events": 134,
-    "last_activity_at": "2026-10-16T10:17:28Z",
+    "score": 185,
+    "events": 139,
+    "last_activity_at": "2026-10-16T12:47:25Z",
     "share": 70,
     "stack": [
       "TypeScript",
@@ -132,6 +132,13 @@
   "activity_stream": [
     {
       "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Opened issue #495",
+      "url": "https://github.com/ivRooom/Herta/issues/495",
+      "at": "2026-10-16T12:47:25Z"
+    },
+    {
+      "label": "ISSUE",
       "repo": "ivRooom/ivrm-ai",
       "title": "Opened issue #16",
       "url": "https://github.com/ivRooom/ivrm-ai/issues/16",
@@ -150,16 +157,9 @@
       "title": "Closed issue #16",
       "url": "https://github.com/ivRooom/ivrm-ai/issues/16",
       "at": "2026-10-16T09:56:52Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "PR merged #17",
-      "url": "https://github.com/ivRooom/ivrm-ai",
-      "at": "2026-10-16T09:56:46Z"
     }
   ],
-  "generated_at": "2026-10-16T20:34:30+09:00",
+  "generated_at": "2026-10-16T22:10:43+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
