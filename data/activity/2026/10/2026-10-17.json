@@ -5,11 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
-    "issues_created": 0,
-    "issues_completed": 0
+    "commits": 2,
+    "prs_opened": 1,
+    "issues_created": 1,
+    "issues_completed": 2
   },
-  "activity": [],
-  "generated_at": "2026-10-17T01:45:36+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "MBTIの手動訂正表示と履歴ページのプライバシーを修正 (#498)  * fix(mbti): distinguish manual corrections from scored diag",
+      "url": "https://github.com/ivRooom/Herta/commit/119158a9ee06b30cb04328e642e686c7e1322e4a",
+      "at": "2026-10-17T02:43:39.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "MBTIの最新結果・診断履歴と比較ページを追加 (#496)  * feat(mbti): persist personal results and add private history c",
+      "url": "https://github.com/ivRooom/Herta/commit/beab573d441d0c9692fb2689d958f8131984050b",
+      "at": "2026-10-17T02:17:12.000+09:00"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #497 MBTIの手動訂正を診断スコアと区別して表示する",
+      "url": "https://github.com/ivRooom/Herta/issues/497",
+      "at": "2026-10-16T17:43:41Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #498 MBTIの手動訂正表示と履歴ページのプライバシーを修正",
+      "url": "https://github.com/ivRooom/Herta/pull/498",
+      "at": "2026-10-16T17:25:21Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #497 MBTIの手動訂正を診断スコアと区別して表示する",
+      "url": "https://github.com/ivRooom/Herta/issues/497",
+      "at": "2026-10-16T17:18:25Z"
+    }
+  ],
+  "generated_at": "2026-10-17T05:01:33+09:00"
 }
