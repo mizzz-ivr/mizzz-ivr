@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 2,
-    "prs_opened": 1,
-    "issues_created": 1,
-    "issues_completed": 2
+    "commits": 4,
+    "prs_opened": 4,
+    "issues_created": 4,
+    "issues_completed": 4
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(mbti): show complete estimated reports with labelled exports (#502)",
+      "url": "https://github.com/ivRooom/Herta/commit/23a166003b46932087063a5b11f9fef50da05ca7",
+      "at": "2026-10-17T08:15:18.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "過去結果から登録したMBTI推定スコアを明示する (#500)  * fix(mbti): distinguish estimated scores from measured results",
+      "url": "https://github.com/ivRooom/Herta/commit/2de0500fcd4a1b9c5086b40c8e5f2483bb1a4c25",
+      "at": "2026-10-17T07:49:34.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -26,26 +40,12 @@
       "at": "2026-10-17T02:17:12.000+09:00"
     },
     {
-      "type": "done",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #497 MBTIの手動訂正を診断スコアと区別して表示する",
-      "url": "https://github.com/ivRooom/Herta/issues/497",
-      "at": "2026-10-16T17:43:41Z"
-    },
-    {
       "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #498 MBTIの手動訂正表示と履歴ページのプライバシーを修正",
-      "url": "https://github.com/ivRooom/Herta/pull/498",
-      "at": "2026-10-16T17:25:21Z"
-    },
-    {
-      "type": "issue",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #497 MBTIの手動訂正を診断スコアと区別して表示する",
-      "url": "https://github.com/ivRooom/Herta/issues/497",
-      "at": "2026-10-16T17:18:25Z"
+      "title": "PR #504 占い1,024パターンと本人プロフィール・MBTIリンク連携",
+      "url": "https://github.com/ivRooom/Herta/pull/504",
+      "at": "2026-10-16T23:59:11Z"
     }
   ],
-  "generated_at": "2026-10-17T05:01:33+09:00"
+  "generated_at": "2026-10-17T09:49:07+09:00"
 }
