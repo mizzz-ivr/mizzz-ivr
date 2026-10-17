@@ -7,7 +7,7 @@
   "metrics": {
     "commits": 4,
     "prs_opened": 4,
-    "issues_created": 4,
+    "issues_created": 12,
     "issues_completed": 4
   },
   "activity": [
@@ -26,26 +26,26 @@
       "at": "2026-10-17T07:49:34.000+09:00"
     },
     {
-      "type": "commit",
+      "type": "issue",
       "repo": "ivRooom/Herta",
-      "title": "MBTIの手動訂正表示と履歴ページのプライバシーを修正 (#498)  * fix(mbti): distinguish manual corrections from scored diag",
-      "url": "https://github.com/ivRooom/Herta/commit/119158a9ee06b30cb04328e642e686c7e1322e4a",
-      "at": "2026-10-17T02:43:39.000+09:00"
+      "title": "Issue #506 ops(backup): 週次restore検証の本番配置と初回実証を完了する",
+      "url": "https://github.com/ivRooom/Herta/issues/506",
+      "at": "2026-10-17T04:23:58Z"
     },
     {
-      "type": "commit",
+      "type": "issue",
       "repo": "ivRooom/Herta",
-      "title": "MBTIの最新結果・診断履歴と比較ページを追加 (#496)  * feat(mbti): persist personal results and add private history c",
-      "url": "https://github.com/ivRooom/Herta/commit/beab573d441d0c9692fb2689d958f8131984050b",
-      "at": "2026-10-17T02:17:12.000+09:00"
+      "title": "Issue #505 audit(product): コミュニティ機能提案と既存Plugin・設定・受入を照合する",
+      "url": "https://github.com/ivRooom/Herta/issues/505",
+      "at": "2026-10-17T04:23:30Z"
     },
     {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #504 占い1,024パターンと本人プロフィール・MBTIリンク連携",
-      "url": "https://github.com/ivRooom/Herta/pull/504",
-      "at": "2026-10-16T23:59:11Z"
+      "type": "issue",
+      "repo": "ivRooom/ivrm-help",
+      "title": "Issue #25 docs(help): 公開手順の鮮度・機密混入・障害案内を監査する",
+      "url": "https://github.com/ivRooom/ivrm-help/issues/25",
+      "at": "2026-10-17T04:23:26Z"
     }
   ],
-  "generated_at": "2026-10-17T09:49:07+09:00"
+  "generated_at": "2026-10-17T13:38:14+09:00"
 }
