@@ -6,46 +6,46 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 4,
-    "prs_opened": 4,
-    "issues_created": 12,
+    "prs_opened": 14,
+    "issues_created": 27,
     "issues_completed": 4
   },
   "activity": [
     {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(mbti): show complete estimated reports with labelled exports (#502)",
-      "url": "https://github.com/ivRooom/Herta/commit/23a166003b46932087063a5b11f9fef50da05ca7",
-      "at": "2026-10-17T08:15:18.000+09:00"
+      "type": "pr",
+      "repo": "ivRooom/ivrm-dailytech-adventure",
+      "title": "PR #13 docs(skills): Modpack更新・ワールド保護・OCI段階適用の運用手順",
+      "url": "https://github.com/ivRooom/ivrm-dailytech-adventure/pull/13",
+      "at": "2026-10-17T08:37:43Z"
     },
     {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "過去結果から登録したMBTI推定スコアを明示する (#500)  * fix(mbti): distinguish estimated scores from measured results",
-      "url": "https://github.com/ivRooom/Herta/commit/2de0500fcd4a1b9c5086b40c8e5f2483bb1a4c25",
-      "at": "2026-10-17T07:49:34.000+09:00"
+      "type": "pr",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "PR #7 docs(skills): Minecraft Activity送信とPlayer Bridge復旧手順",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/pull/7",
+      "at": "2026-10-17T08:36:40Z"
     },
     {
-      "type": "issue",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #506 ops(backup): 週次restore検証の本番配置と初回実証を完了する",
-      "url": "https://github.com/ivRooom/Herta/issues/506",
-      "at": "2026-10-17T04:23:58Z"
+      "type": "pr",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR #132 docs(skills): Dashboard監視調査と運用Action安全基準",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/132",
+      "at": "2026-10-17T08:34:51Z"
     },
     {
-      "type": "issue",
+      "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "Issue #505 audit(product): コミュニティ機能提案と既存Plugin・設定・受入を照合する",
-      "url": "https://github.com/ivRooom/Herta/issues/505",
-      "at": "2026-10-17T04:23:30Z"
+      "title": "PR #507 docs(skills): Herta Plugin運用とPrisma移行の専門スキル",
+      "url": "https://github.com/ivRooom/Herta/pull/507",
+      "at": "2026-10-17T08:33:31Z"
     },
     {
-      "type": "issue",
-      "repo": "ivRooom/ivrm-help",
-      "title": "Issue #25 docs(help): 公開手順の鮮度・機密混入・障害案内を監査する",
-      "url": "https://github.com/ivRooom/ivrm-help/issues/25",
-      "at": "2026-10-17T04:23:26Z"
+      "type": "pr",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR #89 FAQチャットAPIで偽装されたAI会話履歴と過大入力を拒否",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/89",
+      "at": "2026-10-17T08:26:54Z"
     }
   ],
-  "generated_at": "2026-10-17T13:38:14+09:00"
+  "generated_at": "2026-10-17T18:19:05+09:00"
 }
