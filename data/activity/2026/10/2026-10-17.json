@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 4,
-    "prs_opened": 14,
-    "issues_created": 27,
-    "issues_completed": 4
+    "commits": 10,
+    "prs_opened": 22,
+    "issues_created": 38,
+    "issues_completed": 5
   },
   "activity": [
     {
-      "type": "pr",
-      "repo": "ivRooom/ivrm-dailytech-adventure",
-      "title": "PR #13 docs(skills): Modpack更新・ワールド保護・OCI段階適用の運用手順",
-      "url": "https://github.com/ivRooom/ivrm-dailytech-adventure/pull/13",
-      "at": "2026-10-17T08:37:43Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/ivrm-mcmod",
-      "title": "PR #7 docs(skills): Minecraft Activity送信とPlayer Bridge復旧手順",
-      "url": "https://github.com/ivRooom/ivrm-mcmod/pull/7",
-      "at": "2026-10-17T08:36:40Z"
-    },
-    {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR #132 docs(skills): Dashboard監視調査と運用Action安全基準",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/132",
-      "at": "2026-10-17T08:34:51Z"
+      "title": "docs(skills): Dashboard監視調査と運用Action安全基準 (#132)  * docs(skills): add dashboard observability tri",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/7b13f6657301af064b3bdf8dd517bd4a3441a3bc",
+      "at": "2026-10-17T19:46:07.000+09:00"
     },
     {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "PR #507 docs(skills): Herta Plugin運用とPrisma移行の専門スキル",
-      "url": "https://github.com/ivRooom/Herta/pull/507",
-      "at": "2026-10-17T08:33:31Z"
+      "title": "docs(skills): codify Herta plugin runtime and migration safeguards (#507)",
+      "url": "https://github.com/ivRooom/Herta/commit/e1529f7dad20a1cb4618697fa216e02a3de57b40",
+      "at": "2026-10-17T19:45:10.000+09:00"
     },
     {
-      "type": "pr",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR #89 FAQチャットAPIで偽装されたAI会話履歴と過大入力を拒否",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/89",
-      "at": "2026-10-17T08:26:54Z"
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "ci: ドキュメント変更でHerta本番Deployを起動しないようにする (#508)  * ci: restrict Herta production auto deploy to run",
+      "url": "https://github.com/ivRooom/Herta/commit/74949441cd01f363c882c041ea855432d6c6b7f0",
+      "at": "2026-10-17T19:44:15.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dailytech-adventure",
+      "title": "docs(skills): Modpack更新・ワールド保護・OCI段階適用の運用手順 (#13)  * docs(skills): define safe modpack change an",
+      "url": "https://github.com/ivRooom/ivrm-dailytech-adventure/commit/dbd02be8e0c4883e28ac7d0ad484e518342daad0",
+      "at": "2026-10-17T18:28:13.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "docs(skills): Minecraft Activity送信とPlayer Bridge復旧手順 (#7)  * docs(skills): add minecraft activit",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/commit/d52461db48683736e6cf88386c9f88817299f782",
+      "at": "2026-10-17T18:28:08.000+09:00"
     }
   ],
-  "generated_at": "2026-10-17T18:19:05+09:00"
+  "generated_at": "2026-10-17T19:54:39+09:00"
 }
