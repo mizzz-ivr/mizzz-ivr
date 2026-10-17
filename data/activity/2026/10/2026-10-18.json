@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-18",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 0,
+    "prs_opened": 1,
+    "issues_created": 0,
+    "issues_completed": 0
+  },
+  "activity": [
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR #146 docs: 全システムログ収集元と未接続coverageを台帳化",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/146",
+      "at": "2026-10-17T15:36:53Z"
+    }
+  ],
+  "generated_at": "2026-10-18T00:42:05+09:00"
+}
