@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-10-18T22:55:09Z"
+    "last_activity_at": "2026-10-18T23:30:01Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,10 +17,10 @@
   "activity_total": 13,
   "current_focus": {
     "repo": "mizzz-ivr/ivmz-home",
-    "score": 42,
-    "events": 24,
-    "last_activity_at": "2026-10-18T22:55:09Z",
-    "share": 78,
+    "score": 49,
+    "events": 31,
+    "last_activity_at": "2026-10-18T23:30:01Z",
+    "share": 80,
     "stack": [
       "TypeScript",
       "CSS",
@@ -155,35 +155,35 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-10-18T23:27:01Z"
+    },
+    {
       "label": "PR",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "Opened PR #142",
+      "title": "PR merged #142",
       "url": "https://github.com/mizzz-ivr/ivmz-home",
-      "at": "2026-10-18T22:51:46Z"
+      "at": "2026-10-18T23:27:00Z"
     },
     {
       "label": "PUSH",
       "repo": "mizzz-ivr/ivmz-home",
       "title": "1 commit pushed to security/preview-db-project-ref-validation",
       "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
-      "at": "2026-10-18T22:51:45Z"
+      "at": "2026-10-18T23:21:16Z"
     },
     {
       "label": "PR",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "Opened PR #141",
+      "title": "Opened PR #142",
       "url": "https://github.com/mizzz-ivr/ivmz-home",
-      "at": "2026-10-18T22:32:35Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "1 commit pushed to test/issue69-public-http-lifecycle",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
-      "at": "2026-10-18T22:32:33Z"
+      "at": "2026-10-18T22:51:46Z"
     }
   ],
-  "generated_at": "2026-10-19T08:20:31+09:00",
+  "generated_at": "2026-10-19T08:40:09+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
