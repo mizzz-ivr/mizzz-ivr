@@ -17,8 +17,8 @@
   "activity_total": 4,
   "current_focus": {
     "repo": "mizzz-ivr/ivmz-home",
-    "score": 13,
-    "events": 7,
+    "score": 14,
+    "events": 8,
     "last_activity_at": "2026-10-18T15:42:11Z",
     "share": 100,
     "stack": [
@@ -82,8 +82,8 @@
   "now_building": [
     {
       "repo": "mizzz-ivr/ivmz-home",
-      "score": 13,
-      "events": 7,
+      "score": 14,
+      "events": 8,
       "last_activity_at": "2026-10-18T15:42:11Z",
       "share": 100,
       "ci": {
@@ -128,14 +128,14 @@
       "at": "2026-10-18T15:13:26Z"
     },
     {
-      "label": "PR",
+      "label": "PUSH",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "Opened PR #137",
-      "url": "https://github.com/mizzz-ivr/ivmz-home",
-      "at": "2026-10-18T15:02:45Z"
+      "title": "1 commit pushed to feat/issue69-approved-message-share",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-10-18T15:08:37Z"
     }
   ],
-  "generated_at": "2026-10-19T01:57:38+09:00",
+  "generated_at": "2026-10-19T04:22:16+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
