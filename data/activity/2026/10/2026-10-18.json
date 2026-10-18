@@ -6,11 +6,25 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 3,
-    "prs_opened": 14,
+    "prs_opened": 16,
     "issues_created": 2,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR #135 匿名投稿Inboxに保存済み返信の公開承認・撤回操作を追加（#69） [skip netlify]",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/135",
+      "at": "2026-10-18T13:02:16Z"
+    },
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR #134 匿名投稿の管理者公開承認・非公開化をトランザクション監査付きで追加（#69） [skip netlify]",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/134",
+      "at": "2026-10-18T12:26:01Z"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
@@ -31,21 +45,7 @@
       "title": "問い合わせ・添付へのアクセスをPayload管理者に限定 (#97)  認証済みだけではなくCMS管理者コレクションを検証する。CIとPreview検証済み。",
       "url": "https://github.com/mizzz-ivr/ivmz-home/commit/171db84526aa6566943c42b04db5de3def671d32",
       "at": "2026-10-18T10:36:37.000+09:00"
-    },
-    {
-      "type": "issue",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Issue #133 匿名投稿の隔離Preview・Turnstile・Migration rollbackを本番公開前に検証する",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/133",
-      "at": "2026-10-18T07:36:21Z"
-    },
-    {
-      "type": "pr",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR #132 匿名投稿DB Migrationのdown→upとRLS復元をCIで検証する（#69） [skip netlify]",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/132",
-      "at": "2026-10-18T07:35:29Z"
     }
   ],
-  "generated_at": "2026-10-18T18:52:23+09:00"
+  "generated_at": "2026-10-18T22:44:35+09:00"
 }
