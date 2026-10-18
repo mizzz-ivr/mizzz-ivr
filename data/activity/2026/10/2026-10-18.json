@@ -6,8 +6,8 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 3,
-    "prs_opened": 9,
-    "issues_created": 1,
+    "prs_opened": 14,
+    "issues_created": 2,
     "issues_completed": 0
   },
   "activity": [
@@ -33,19 +33,19 @@
       "at": "2026-10-18T10:36:37.000+09:00"
     },
     {
-      "type": "pr",
+      "type": "issue",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR #129 匿名メッセージPOST APIにTurnstile・DB共有連投制限と冪等性を追加（#69） [skip netlify]",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/129",
-      "at": "2026-10-18T03:31:35Z"
+      "title": "Issue #133 匿名投稿の隔離Preview・Turnstile・Migration rollbackを本番公開前に検証する",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/133",
+      "at": "2026-10-18T07:36:21Z"
     },
     {
       "type": "pr",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR #128 匿名メッセージ専用CMS InboxとRLS付きDB移行を追加（#69） [skip netlify]",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/128",
-      "at": "2026-10-18T03:11:37Z"
+      "title": "PR #132 匿名投稿DB Migrationのdown→upとRLS復元をCIで検証する（#69） [skip netlify]",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/132",
+      "at": "2026-10-18T07:35:29Z"
     }
   ],
-  "generated_at": "2026-10-18T13:43:49+09:00"
+  "generated_at": "2026-10-18T18:52:23+09:00"
 }
