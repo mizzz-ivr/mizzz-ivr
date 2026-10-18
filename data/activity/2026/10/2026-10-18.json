@@ -5,33 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 3,
-    "issues_created": 0,
+    "commits": 3,
+    "prs_opened": 9,
+    "issues_created": 1,
     "issues_completed": 0
   },
   "activity": [
     {
-      "type": "pr",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR #147 feat: 全システムTelemetryの署名受信・原子的保存基盤を準備",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/147",
-      "at": "2026-10-18T00:29:56Z"
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "問い合わせ・チャット本文のサイズ制限と添付URL保護を統合 (#124)  PR #93 と #96 の対策をPR #97・#123と互換になるよう調整し、CI/Netlify Preview",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/a3096ca6a27cd0e33822265d623c1c74a4e559e2",
+      "at": "2026-10-18T11:00:49.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "匿名メッセージ基礎とAPI・添付・Webhookの防御強化を統合 (#123)  統合対象: PR #88 #89 #90 #91 #122。最新main上でCIとNetlify Previe",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/6dd9951b7efaa6b503f8fa097b2254e3250e2783",
+      "at": "2026-10-18T10:49:47.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "問い合わせ・添付へのアクセスをPayload管理者に限定 (#97)  認証済みだけではなくCMS管理者コレクションを検証する。CIとPreview検証済み。",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/171db84526aa6566943c42b04db5de3def671d32",
+      "at": "2026-10-18T10:36:37.000+09:00"
     },
     {
       "type": "pr",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR #122 匿名メッセージの入力検証と公開可否判定を追加（#69） [skip netlify]",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/122",
-      "at": "2026-10-18T00:27:29Z"
+      "title": "PR #129 匿名メッセージPOST APIにTurnstile・DB共有連投制限と冪等性を追加（#69） [skip netlify]",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/129",
+      "at": "2026-10-18T03:31:35Z"
     },
     {
       "type": "pr",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR #146 docs: 全システムログ収集元と未接続coverageを台帳化",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/146",
-      "at": "2026-10-17T15:36:53Z"
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR #128 匿名メッセージ専用CMS InboxとRLS付きDB移行を追加（#69） [skip netlify]",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/128",
+      "at": "2026-10-18T03:11:37Z"
     }
   ],
-  "generated_at": "2026-10-18T09:55:34+09:00"
+  "generated_at": "2026-10-18T13:43:49+09:00"
 }

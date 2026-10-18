@@ -5,27 +5,27 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "BUILDING",
-    "symbol": "●",
-    "last_activity_at": "2026-10-18T00:30:21Z"
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
+    "last_activity_at": "2026-10-18T03:31:35Z"
   },
   "code_weather": {
-    "label": "LIGHT CODING",
-    "icon": "☁️"
+    "label": "ACTIVE",
+    "icon": "🌤️"
   },
   "streak": 7,
-  "activity_total": 3,
+  "activity_total": 13,
   "current_focus": {
-    "repo": "ivRooom/ivrm-dashboard",
-    "score": 15,
-    "events": 9,
-    "last_activity_at": "2026-10-18T00:30:21Z",
-    "share": 79,
+    "repo": "mizzz-ivr/ivmz-home",
+    "score": 47,
+    "events": 25,
+    "last_activity_at": "2026-10-18T03:31:35Z",
+    "share": 76,
     "stack": [
       "TypeScript",
-      "PLpgSQL",
       "CSS",
-      "Python"
+      "HCL",
+      "JavaScript"
     ]
   },
   "dev_pulse": [
@@ -73,19 +73,43 @@
     },
     {
       "date": "2026-10-18",
-      "total": 3,
-      "commits": 0,
-      "prs": 3,
-      "issues": 0
+      "total": 13,
+      "commits": 3,
+      "prs": 9,
+      "issues": 1
     }
   ],
   "now_building": [
+    {
+      "repo": "mizzz-ivr/ivmz-home",
+      "score": 47,
+      "events": 25,
+      "last_activity_at": "2026-10-18T03:31:35Z",
+      "share": 76,
+      "ci": {
+        "label": "MIXED",
+        "symbol": "◐",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 4,
+        "passed": 3,
+        "failed": 1,
+        "ignored": 6,
+        "pass_rate": 75,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "WATCH",
+        "symbol": "◐",
+        "reason": "recent CI is mixed"
+      }
+    },
     {
       "repo": "ivRooom/ivrm-dashboard",
       "score": 15,
       "events": 9,
       "last_activity_at": "2026-10-18T00:30:21Z",
-      "share": 79,
+      "share": 24,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -103,65 +127,48 @@
         "symbol": "●",
         "reason": "active with passing recent CI"
       }
-    },
-    {
-      "repo": "mizzz-ivr/ivmz-home",
-      "score": 4,
-      "events": 1,
-      "last_activity_at": "2026-10-18T00:27:29Z",
-      "share": 21,
-      "ci": {
-        "label": "MIXED",
-        "symbol": "◐",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 7,
-        "passed": 6,
-        "failed": 1,
-        "ignored": 3,
-        "pass_rate": 86,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "WATCH",
-        "symbol": "◐",
-        "reason": "recent CI is mixed"
-      }
     }
   ],
   "activity_stream": [
     {
       "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #147",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-10-18T00:29:56Z"
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Opened PR #129",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-10-18T03:31:35Z"
     },
     {
       "label": "PR",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "Opened PR #122",
+      "title": "Opened PR #128",
       "url": "https://github.com/mizzz-ivr/ivmz-home",
-      "at": "2026-10-18T00:27:29Z"
+      "at": "2026-10-18T03:11:37Z"
     },
     {
       "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #146",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-10-17T15:36:53Z"
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Closed PR #127",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-10-18T02:52:36Z"
+    },
+    {
+      "label": "PR",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Opened PR #127",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-10-18T02:41:52Z"
     }
   ],
-  "generated_at": "2026-10-18T09:55:34+09:00",
+  "generated_at": "2026-10-18T13:43:49+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
     "window_days": 7,
-    "evaluated": 17,
-    "passed": 16,
+    "evaluated": 14,
+    "passed": 13,
     "failed": 1,
-    "ignored": 3,
-    "pass_rate": 94,
+    "ignored": 6,
+    "pass_rate": 93,
     "repos_with_signal": 2
   },
   "dev_recap": {
@@ -182,13 +189,13 @@
         "active_days": 7
       },
       "metrics": {
-        "commits": 79,
-        "prs_opened": 88,
-        "issues_created": 75,
+        "commits": 82,
+        "prs_opened": 94,
+        "issues_created": 76,
         "issues_completed": 20,
-        "activity_total": 262
+        "activity_total": 272
       },
-      "generated_at": "2026-10-18T09:55:34+09:00"
+      "generated_at": "2026-10-18T13:43:49+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -203,13 +210,13 @@
         "active_days": 14
       },
       "metrics": {
-        "commits": 130,
-        "prs_opened": 141,
-        "issues_created": 77,
+        "commits": 133,
+        "prs_opened": 147,
+        "issues_created": 78,
         "issues_completed": 20,
-        "activity_total": 368
+        "activity_total": 378
       },
-      "generated_at": "2026-10-18T09:55:34+09:00"
+      "generated_at": "2026-10-18T13:43:49+09:00"
     },
     "achievements": [
       {
@@ -261,11 +268,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-10-18",
       "metrics": {
-        "commits": 1869,
-        "prs_opened": 400,
-        "issues_created": 188,
+        "commits": 1872,
+        "prs_opened": 406,
+        "issues_created": 189,
         "issues_completed": 100,
-        "activity_total": 2557
+        "activity_total": 2567
       }
     },
     "lifetime": {
@@ -274,11 +281,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-10-18",
       "metrics": {
-        "commits": 1869,
-        "prs_opened": 400,
-        "issues_created": 188,
+        "commits": 1872,
+        "prs_opened": 406,
+        "issues_created": 189,
         "issues_completed": 100,
-        "activity_total": 2557
+        "activity_total": 2567
       }
     }
   }
