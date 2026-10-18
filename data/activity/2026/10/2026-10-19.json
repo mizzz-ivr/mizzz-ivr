@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-19",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 2,
+    "prs_opened": 2,
+    "issues_created": 0,
+    "issues_completed": 0
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "ProductionのDB接続先を本番Supabaseに限定しPreview誤接続を防止 (#138)  Netlify production buildの開始時にDB接続先をfail-clo",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/bb4147650509a83b5d7ebfb795671c5ce504828e",
+      "at": "2026-10-19T00:42:11.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "匿名メッセージのキャッシュ禁止設定とContact準備中案内を本番へ導入 (#136)  共有ページ公開前にno-storeを適用し、匿名投稿機能のリリース停止条件を維持する。CI・Netli",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/41ab7ba7b2a926e29422c01642c0e4625023bbc5",
+      "at": "2026-10-19T00:13:25.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR #138 ProductionのDB接続先を本番Supabaseに限定し、Previewとの誤接続をビルド前に拒否する（#133）",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/138",
+      "at": "2026-10-18T15:25:28Z"
+    },
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR #137 承認済み匿名投稿だけをSSR共有ページ・OG画像に表示し撤回後の漏えいを防ぐ（#69） [skip netlify]",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/137",
+      "at": "2026-10-18T15:02:45Z"
+    }
+  ],
+  "generated_at": "2026-10-19T00:57:37+09:00"
+}

@@ -26,9 +26,9 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 22:02 JST</sub></td>
-    <td width="34%" align="center"><strong>⚡ HEAVY CODING</strong><br/><sub>21 public actions today</sub></td>
-    <td width="33%" align="center"><strong>🔥 7 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 00:42 JST</sub></td>
+    <td width="34%" align="center"><strong>☁️ LIGHT CODING</strong><br/><sub>4 public actions today</sub></td>
+    <td width="33%" align="center"><strong>🔥 8 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:LIVE-SIGNAL:END -->
@@ -36,13 +36,13 @@
 <!-- DAILY-ACTIVITY:START -->
 ## TODAY // Activity overview
 
-<p align="center"><sub>2026-10-18 JST · public GitHub activity</sub></p>
+<p align="center"><sub>2026-10-19 JST · public GitHub activity</sub></p>
 
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><strong>3</strong><br/><sub>COMMITS</sub></td>
-    <td width="25%" align="center"><strong>16</strong><br/><sub>PRS OPENED</sub></td>
-    <td width="25%" align="center"><strong>2</strong><br/><sub>ISSUES CREATED</sub></td>
+    <td width="25%" align="center"><strong>2</strong><br/><sub>COMMITS</sub></td>
+    <td width="25%" align="center"><strong>2</strong><br/><sub>PRS OPENED</sub></td>
+    <td width="25%" align="center"><strong>0</strong><br/><sub>ISSUES CREATED</sub></td>
     <td width="25%" align="center"><strong>0</strong><br/><sub>ISSUES DONE</sub></td>
   </tr>
 </table>
@@ -53,8 +53,8 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>weighted activity 73% · score 85 · 47 events</sub></td>
-    <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>CSS</code> <code>HCL</code> <code>JavaScript</code></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>weighted activity 100% · score 13 · 7 events</sub></td>
+    <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>CSS</code> <code>JavaScript</code> <code>HCL</code></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:FOCUS:END -->
@@ -70,10 +70,10 @@
 
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><strong>ATTENTION</strong><br/><sub>CI SIGNAL</sub></td>
-    <td width="25%" align="center"><strong>88%</strong><br/><sub>PASS RATE</sub></td>
-    <td width="25%" align="center"><strong>14 / 16</strong><br/><sub>PASSED / EVALUATED</sub></td>
-    <td width="25%" align="center"><strong>2</strong><br/><sub>REPOS WITH CI</sub></td>
+    <td width="25%" align="center"><strong>MIXED</strong><br/><sub>CI SIGNAL</sub></td>
+    <td width="25%" align="center"><strong>86%</strong><br/><sub>PASS RATE</sub></td>
+    <td width="25%" align="center"><strong>6 / 7</strong><br/><sub>PASSED / EVALUATED</sub></td>
+    <td width="25%" align="center"><strong>1</strong><br/><sub>REPOS WITH CI</sub></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:PULSE:END -->
@@ -81,7 +81,7 @@
 <!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
 ## NOW BUILDING // Active repositories
 
-<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>73% weighted · ATTENTION · CI pass rate 67%<br/>last activity · 22:02 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>27% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 15:52 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
+<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>100% weighted · WATCH · CI pass rate 86%<br/>last activity · 00:42 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
 <!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
 
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->
@@ -89,10 +89,10 @@
 
 <table width="100%">
   <tbody>
-    <tr><td width="10%"><code>22:02</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home">PR #135を作成</a></td></tr>
-    <tr><td width="10%"><code>21:26</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home">PR #134を作成</a></td></tr>
-    <tr><td width="10%"><code>16:36</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/issues/133">Issue #133を作成</a></td></tr>
-    <tr><td width="10%"><code>16:35</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home">PR #132を作成</a></td></tr>
+    <tr><td width="10%"><code>00:42</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home">PR #138をマージ</a></td></tr>
+    <tr><td width="10%"><code>00:25</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home">PR #138を作成</a></td></tr>
+    <tr><td width="10%"><code>00:13</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home">PR #136をマージ</a></td></tr>
+    <tr><td width="10%"><code>00:02</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home">PR #137を作成</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->
@@ -188,31 +188,31 @@
 
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><strong>🔥 7</strong><br/><sub>DAY STREAK</sub></td>
-    <td width="25%" align="center"><strong>82</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
-    <td width="25%" align="center"><strong>101</strong><br/><sub>PRS · THIS WEEK</sub></td>
-    <td width="25%" align="center"><strong>20</strong><br/><sub>ISSUES DONE · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>🔥 8</strong><br/><sub>DAY STREAK</sub></td>
+    <td width="25%" align="center"><strong>2</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>2</strong><br/><sub>PRS · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>0</strong><br/><sub>ISSUES DONE · THIS WEEK</sub></td>
   </tr>
 </table>
 
 <details>
 <summary><strong>MONTHLY SUMMARY</strong></summary>
 <br/>
-<table width="100%"><tr><td width="25%" align="center"><strong>133</strong><br/><sub>COMMITS</sub></td><td width="25%" align="center"><strong>154</strong><br/><sub>PRS</sub></td><td width="25%" align="center"><strong>20</strong><br/><sub>ISSUES DONE</sub></td><td width="25%" align="center"><strong>386</strong><br/><sub>ACTIVITY</sub></td></tr></table>
+<table width="100%"><tr><td width="25%" align="center"><strong>135</strong><br/><sub>COMMITS</sub></td><td width="25%" align="center"><strong>160</strong><br/><sub>PRS</sub></td><td width="25%" align="center"><strong>20</strong><br/><sub>ISSUES DONE</sub></td><td width="25%" align="center"><strong>396</strong><br/><sub>ACTIVITY</sub></td></tr></table>
 </details>
 
 <details>
 <summary><strong>YEARLY SUMMARY // 2026</strong></summary>
 <br/>
-<table width="100%"><tr><td width="20%" align="center"><strong>46</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1872</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>413</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>100</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>2575</strong><br/><sub>ACTIVITY</sub></td></tr></table>
-<p><sub>55 tracked days in 2026.</sub></p>
+<table width="100%"><tr><td width="20%" align="center"><strong>47</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1874</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>419</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>100</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>2585</strong><br/><sub>ACTIVITY</sub></td></tr></table>
+<p><sub>56 tracked days in 2026.</sub></p>
 </details>
 
 <details>
 <summary><strong>LIFETIME SUMMARY // Tracked history</strong></summary>
 <br/>
-<table width="100%"><tr><td width="20%" align="center"><strong>46</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1872</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>413</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>100</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>2575</strong><br/><sub>ACTIVITY</sub></td></tr></table>
-<p><sub>Profile Signal tracked lifetime · tracked since 2026-08-25 · 55 tracked days. GitHub account lifetime totalsではありません。</sub></p>
+<table width="100%"><tr><td width="20%" align="center"><strong>47</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>1874</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>419</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>100</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>2585</strong><br/><sub>ACTIVITY</sub></td></tr></table>
+<p><sub>Profile Signal tracked lifetime · tracked since 2026-08-25 · 56 tracked days. GitHub account lifetime totalsではありません。</sub></p>
 </details>
 <!-- PROFILE-SIGNAL:RECAP:END -->
 

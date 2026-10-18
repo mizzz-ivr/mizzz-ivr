@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "period": "2026-W43",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "coverage": {
+    "start_date": "2026-10-19",
+    "end_date": "2026-10-19",
+    "tracked_days": 1,
+    "active_days": 1
+  },
+  "metrics": {
+    "commits": 2,
+    "prs_opened": 2,
+    "issues_created": 0,
+    "issues_completed": 0,
+    "activity_total": 4
+  },
+  "generated_at": "2026-10-19T00:57:37+09:00"
+}
