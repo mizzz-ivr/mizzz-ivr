@@ -6,8 +6,8 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 3,
-    "prs_opened": 2,
-    "issues_created": 0,
+    "prs_opened": 6,
+    "issues_created": 3,
     "issues_completed": 1
   },
   "activity": [
@@ -33,19 +33,19 @@
       "at": "2026-10-19T00:13:25.000+09:00"
     },
     {
-      "type": "done",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #509 feat(integration): ivrm-web向けにGuildロール一覧を読み取り提供する",
-      "url": "https://github.com/ivRooom/Herta/issues/509",
-      "at": "2026-10-18T21:09:42Z"
+      "type": "pr",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR #142 Netlify PreviewのDB接続先ガードを厳格化し自動Migrationを停止する（#133）",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/142",
+      "at": "2026-10-18T22:51:46Z"
     },
     {
       "type": "pr",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR #138 ProductionのDB接続先を本番Supabaseに限定し、Previewとの誤接続をビルド前に拒否する（#133）",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/138",
-      "at": "2026-10-18T15:25:28Z"
+      "title": "PR #141 匿名メッセージの公開SSR・OG画像と撤回後404を隔離CIで検証する（#69） [skip netlify]",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/141",
+      "at": "2026-10-18T22:32:35Z"
     }
   ],
-  "generated_at": "2026-10-19T06:38:32+09:00"
+  "generated_at": "2026-10-19T08:20:31+09:00"
 }
