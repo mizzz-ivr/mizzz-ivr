@@ -5,22 +5,22 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "OFFLINE",
-    "symbol": "○",
-    "last_activity_at": "2026-10-17T15:49:45Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-10-18T00:30:21Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
     "icon": "☁️"
   },
   "streak": 7,
-  "activity_total": 1,
+  "activity_total": 3,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 9,
-    "events": 6,
-    "last_activity_at": "2026-10-17T15:49:45Z",
-    "share": 100,
+    "score": 15,
+    "events": 9,
+    "last_activity_at": "2026-10-18T00:30:21Z",
+    "share": 79,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -73,19 +73,19 @@
     },
     {
       "date": "2026-10-18",
-      "total": 1,
+      "total": 3,
       "commits": 0,
-      "prs": 1,
+      "prs": 3,
       "issues": 0
     }
   ],
   "now_building": [
     {
       "repo": "ivRooom/ivrm-dashboard",
-      "score": 9,
-      "events": 6,
-      "last_activity_at": "2026-10-17T15:49:45Z",
-      "share": 100,
+      "score": 15,
+      "events": 9,
+      "last_activity_at": "2026-10-18T00:30:21Z",
+      "share": 79,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -103,9 +103,47 @@
         "symbol": "●",
         "reason": "active with passing recent CI"
       }
+    },
+    {
+      "repo": "mizzz-ivr/ivmz-home",
+      "score": 4,
+      "events": 1,
+      "last_activity_at": "2026-10-18T00:27:29Z",
+      "share": 21,
+      "ci": {
+        "label": "MIXED",
+        "symbol": "◐",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 7,
+        "passed": 6,
+        "failed": 1,
+        "ignored": 3,
+        "pass_rate": 86,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "WATCH",
+        "symbol": "◐",
+        "reason": "recent CI is mixed"
+      }
     }
   ],
   "activity_stream": [
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #147",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-10-18T00:29:56Z"
+    },
+    {
+      "label": "PR",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Opened PR #122",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-10-18T00:27:29Z"
+    },
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
@@ -114,17 +152,17 @@
       "at": "2026-10-17T15:36:53Z"
     }
   ],
-  "generated_at": "2026-10-18T08:11:47+09:00",
+  "generated_at": "2026-10-18T09:55:34+09:00",
   "ci_signal": {
-    "label": "PASSING",
-    "symbol": "●",
+    "label": "MIXED",
+    "symbol": "◐",
     "window_days": 7,
-    "evaluated": 10,
-    "passed": 10,
-    "failed": 0,
-    "ignored": 0,
-    "pass_rate": 100,
-    "repos_with_signal": 1
+    "evaluated": 17,
+    "passed": 16,
+    "failed": 1,
+    "ignored": 3,
+    "pass_rate": 94,
+    "repos_with_signal": 2
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
@@ -145,12 +183,12 @@
       },
       "metrics": {
         "commits": 79,
-        "prs_opened": 86,
+        "prs_opened": 88,
         "issues_created": 75,
         "issues_completed": 20,
-        "activity_total": 260
+        "activity_total": 262
       },
-      "generated_at": "2026-10-18T00:42:05+09:00"
+      "generated_at": "2026-10-18T09:55:34+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -166,12 +204,12 @@
       },
       "metrics": {
         "commits": 130,
-        "prs_opened": 139,
+        "prs_opened": 141,
         "issues_created": 77,
         "issues_completed": 20,
-        "activity_total": 366
+        "activity_total": 368
       },
-      "generated_at": "2026-10-18T00:42:05+09:00"
+      "generated_at": "2026-10-18T09:55:34+09:00"
     },
     "achievements": [
       {
@@ -224,10 +262,10 @@
       "last_date": "2026-10-18",
       "metrics": {
         "commits": 1869,
-        "prs_opened": 398,
+        "prs_opened": 400,
         "issues_created": 188,
         "issues_completed": 100,
-        "activity_total": 2555
+        "activity_total": 2557
       }
     },
     "lifetime": {
@@ -237,10 +275,10 @@
       "last_date": "2026-10-18",
       "metrics": {
         "commits": 1869,
-        "prs_opened": 398,
+        "prs_opened": 400,
         "issues_created": 188,
         "issues_completed": 100,
-        "activity_total": 2555
+        "activity_total": 2557
       }
     }
   }

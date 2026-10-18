@@ -6,11 +6,25 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 1,
+    "prs_opened": 3,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR #147 feat: 全システムTelemetryの署名受信・原子的保存基盤を準備",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/147",
+      "at": "2026-10-18T00:29:56Z"
+    },
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR #122 匿名メッセージの入力検証と公開可否判定を追加（#69） [skip netlify]",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/122",
+      "at": "2026-10-18T00:27:29Z"
+    },
     {
       "type": "pr",
       "repo": "ivRooom/ivrm-dashboard",
@@ -19,5 +33,5 @@
       "at": "2026-10-17T15:36:53Z"
     }
   ],
-  "generated_at": "2026-10-18T00:42:05+09:00"
+  "generated_at": "2026-10-18T09:55:34+09:00"
 }
