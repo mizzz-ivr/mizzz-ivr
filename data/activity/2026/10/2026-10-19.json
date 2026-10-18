@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 2,
+    "commits": 3,
     "prs_opened": 2,
     "issues_created": 0,
-    "issues_completed": 0
+    "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(integration): ivrm-webへGuildロール一覧を読み取り提供する (#510)  * feat(integration): expose guild role d",
+      "url": "https://github.com/ivRooom/Herta/commit/85e9d48909981758f12ca6ef2b907e46f54f95b6",
+      "at": "2026-10-19T06:09:40.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
@@ -26,19 +33,19 @@
       "at": "2026-10-19T00:13:25.000+09:00"
     },
     {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #509 feat(integration): ivrm-web向けにGuildロール一覧を読み取り提供する",
+      "url": "https://github.com/ivRooom/Herta/issues/509",
+      "at": "2026-10-18T21:09:42Z"
+    },
+    {
       "type": "pr",
       "repo": "mizzz-ivr/ivmz-home",
       "title": "PR #138 ProductionのDB接続先を本番Supabaseに限定し、Previewとの誤接続をビルド前に拒否する（#133）",
       "url": "https://github.com/mizzz-ivr/ivmz-home/pull/138",
       "at": "2026-10-18T15:25:28Z"
-    },
-    {
-      "type": "pr",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR #137 承認済み匿名投稿だけをSSR共有ページ・OG画像に表示し撤回後の漏えいを防ぐ（#69） [skip netlify]",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/137",
-      "at": "2026-10-18T15:02:45Z"
     }
   ],
-  "generated_at": "2026-10-19T00:57:37+09:00"
+  "generated_at": "2026-10-19T06:38:32+09:00"
 }
