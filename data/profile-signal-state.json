@@ -17,10 +17,10 @@
   "activity_total": 20,
   "current_focus": {
     "repo": "mizzz-ivr/ivmz-home",
-    "score": 64,
-    "events": 43,
+    "score": 67,
+    "events": 46,
     "last_activity_at": "2026-10-19T03:46:49Z",
-    "share": 67,
+    "share": 68,
     "stack": [
       "TypeScript",
       "CSS",
@@ -183,7 +183,7 @@
       "at": "2026-10-19T02:44:14Z"
     }
   ],
-  "generated_at": "2026-10-19T13:52:02+09:00",
+  "generated_at": "2026-10-19T15:57:54+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",

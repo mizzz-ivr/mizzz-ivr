@@ -53,7 +53,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>weighted activity 67% · score 64 · 43 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>weighted activity 68% · score 67 · 46 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>CSS</code> <code>JavaScript</code> <code>HCL</code></td>
   </tr>
 </table>
