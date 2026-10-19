@@ -26,7 +26,7 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 08:30 JST</sub></td>
+    <td width="33%" align="center"><strong>◐ RECENTLY ACTIVE</strong><br/><sub>last public activity · 08:48 JST</sub></td>
     <td width="34%" align="center"><strong>🌤️ ACTIVE</strong><br/><sub>13 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 8 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
@@ -53,7 +53,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>weighted activity 80% · score 49 · 31 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>weighted activity 83% · score 58 · 37 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>CSS</code> <code>JavaScript</code> <code>HCL</code></td>
   </tr>
 </table>
@@ -89,10 +89,10 @@
 
 <table width="100%">
   <tbody>
+    <tr><td width="10%"><code>08:40</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home">PR #143を作成</a></td></tr>
+    <tr><td width="10%"><code>08:40</code></td><td width="14%"><code>CREATE</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home">Created branch test/issue133-supabase-rls-audit</a></td></tr>
     <tr><td width="10%"><code>08:27</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/commits">mainへ1コミットをPush</a></td></tr>
     <tr><td width="10%"><code>08:27</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home">PR #142をマージ</a></td></tr>
-    <tr><td width="10%"><code>08:21</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home/commits">security/preview-db-project-ref-validationへ1コミットをPush</a></td></tr>
-    <tr><td width="10%"><code>07:51</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong> — <a href="https://github.com/mizzz-ivr/ivmz-home">PR #142を作成</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->

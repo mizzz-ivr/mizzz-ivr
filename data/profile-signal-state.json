@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "BUILDING",
-    "symbol": "●",
-    "last_activity_at": "2026-10-18T23:30:01Z"
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
+    "last_activity_at": "2026-10-18T23:48:57Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,10 +17,10 @@
   "activity_total": 13,
   "current_focus": {
     "repo": "mizzz-ivr/ivmz-home",
-    "score": 49,
-    "events": 31,
-    "last_activity_at": "2026-10-18T23:30:01Z",
-    "share": 80,
+    "score": 58,
+    "events": 37,
+    "last_activity_at": "2026-10-18T23:48:57Z",
+    "share": 83,
     "stack": [
       "TypeScript",
       "CSS",
@@ -155,6 +155,20 @@
   ],
   "activity_stream": [
     {
+      "label": "PR",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Opened PR #143",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-10-18T23:40:50Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Created branch test/issue133-supabase-rls-audit",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-10-18T23:40:42Z"
+    },
+    {
       "label": "PUSH",
       "repo": "mizzz-ivr/ivmz-home",
       "title": "1 commit pushed to main",
@@ -167,23 +181,9 @@
       "title": "PR merged #142",
       "url": "https://github.com/mizzz-ivr/ivmz-home",
       "at": "2026-10-18T23:27:00Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "1 commit pushed to security/preview-db-project-ref-validation",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
-      "at": "2026-10-18T23:21:16Z"
-    },
-    {
-      "label": "PR",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Opened PR #142",
-      "url": "https://github.com/mizzz-ivr/ivmz-home",
-      "at": "2026-10-18T22:51:46Z"
     }
   ],
-  "generated_at": "2026-10-19T08:40:09+09:00",
+  "generated_at": "2026-10-19T10:45:26+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
