@@ -5,11 +5,40 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
-    "issues_created": 0,
+    "commits": 2,
+    "prs_opened": 1,
+    "issues_created": 1,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-10-20T05:11:11+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Merge pull request #145 from ivRooom/codex/log-copy-export  feat: ログのワンクリックコピーとTXT・JSONL出力",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/b35ad5f3cd1fab9323a60d87cbd13d5730c8a2f8",
+      "at": "2026-10-20T05:31:32.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Merge pull request #144 from ivRooom/codex/backup-evidence-diagnostics  fix: バックアップ警告の欠落と古い復元証跡の",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/c5f041831feda4ca0935626447b5a649b8601e99",
+      "at": "2026-10-20T05:24:54.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #526 feat(vc-recap): 未同意メンバーへメンション+同意ボタンでの同意促し(PR1/4)",
+      "url": "https://github.com/ivRooom/Herta/pull/526",
+      "at": "2026-10-19T20:35:07Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #525 perf(studio): resolveGuildMemberDisplaysをバッチ化し、Bot内部APIへのN回呼び出しを解消する",
+      "url": "https://github.com/ivRooom/Herta/issues/525",
+      "at": "2026-10-19T20:28:18Z"
+    }
+  ],
+  "generated_at": "2026-10-20T05:37:32+09:00"
 }
