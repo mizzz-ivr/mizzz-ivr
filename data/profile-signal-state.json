@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-10-19T20:35:07Z"
+    "last_activity_at": "2026-10-19T23:43:54Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,10 +17,10 @@
   "activity_total": 4,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 22,
-    "events": 15,
-    "last_activity_at": "2026-10-19T20:35:07Z",
-    "share": 52,
+    "score": 60,
+    "events": 40,
+    "last_activity_at": "2026-10-19T22:02:32Z",
+    "share": 43,
     "stack": [
       "TypeScript",
       "Shell",
@@ -156,34 +156,34 @@
   "activity_stream": [
     {
       "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "Opened PR #526",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-10-19T20:35:07Z"
-    },
-    {
-      "label": "CREATE",
-      "repo": "ivRooom/Herta",
-      "title": "Created branch feat/vc-recap-consent-buttons",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-10-19T20:34:54Z"
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Opened PR #152",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-10-19T23:43:54Z"
     },
     {
       "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #145",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-10-19T20:31:32Z"
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR merged #151",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-10-19T23:27:50Z"
     },
     {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Opened issue #525",
-      "url": "https://github.com/ivRooom/Herta/issues/525",
-      "at": "2026-10-19T20:28:19Z"
+      "label": "PR",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR merged #150",
+      "url": "https://github.com/mizzz-ivr/ivmz-home",
+      "at": "2026-10-19T23:04:50Z"
+    },
+    {
+      "label": "PUSH",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "1 commit pushed to fix/98-retention-admin-status",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
+      "at": "2026-10-19T23:02:45Z"
     }
   ],
-  "generated_at": "2026-10-20T05:37:32+09:00",
+  "generated_at": "2026-10-20T08:44:11+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
