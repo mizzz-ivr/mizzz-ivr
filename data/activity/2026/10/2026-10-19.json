@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 5,
-    "prs_opened": 10,
-    "issues_created": 4,
+    "commits": 8,
+    "prs_opened": 14,
+    "issues_created": 27,
     "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "問い合わせ添付の保存先消失時に無効な署名URLを返さない (#145)  CMS管理者認証・添付参照確認後にS3の存在を検証し、欠損時はHTTP404、S3障害時はHTTP503を返す。保存期",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/bdb0ef477735d0b00513cc8242157b121908d1ce",
+      "at": "2026-10-19T19:21:30.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "問い合わせ保持レポートを読み取り専用に固定し失敗時の情報漏えいを防ぐ (#144)  S3の90日と問い合わせDBの365日の保持不整合が解消するまで、定期保持レポートは集計のみを実行する。4",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/4023facee0eeec81294a8b6eb670ba3c76585132",
+      "at": "2026-10-19T18:58:52.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(vc-recap): VC音声取得・AWS Transcribeでの文字起こし・要約生成を実装 (#494)  * feat(vc-recap): VC音声取得・AWS Transc",
+      "url": "https://github.com/ivRooom/Herta/commit/d4baa27a49766d2935c19ebb2bca4382e9272c93",
+      "at": "2026-10-19T18:13:17.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
@@ -19,33 +40,12 @@
       "at": "2026-10-19T12:43:45.000+09:00"
     },
     {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Netlify PreviewのDB接続先ガードを厳格化し自動Migrationを停止する (#142)  Preview／ProductionのSupabase接続先Refの設定漏れを検証し",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/a677ae63dba672cdf21ad419b342bc6668d61e55",
-      "at": "2026-10-19T08:27:00.000+09:00"
-    },
-    {
-      "type": "commit",
+      "type": "issue",
       "repo": "ivRooom/Herta",
-      "title": "feat(integration): ivrm-webへGuildロール一覧を読み取り提供する (#510)  * feat(integration): expose guild role d",
-      "url": "https://github.com/ivRooom/Herta/commit/85e9d48909981758f12ca6ef2b907e46f54f95b6",
-      "at": "2026-10-19T06:09:40.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR #155 feat: ログ収集元の未確認・失敗・鮮度超過を診断",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/155",
-      "at": "2026-10-19T03:16:14Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #514 feat(integration): ivrm-web向けメンバー検索と所属ロール照会",
-      "url": "https://github.com/ivRooom/Herta/pull/514",
-      "at": "2026-10-19T03:00:43Z"
+      "title": "Issue #524 feat(rag): Phase 5 データ削除のベクトルストアへの伝播・RAGクエリの監査ログ",
+      "url": "https://github.com/ivRooom/Herta/issues/524",
+      "at": "2026-10-19T12:10:46Z"
     }
   ],
-  "generated_at": "2026-10-19T13:52:02+09:00"
+  "generated_at": "2026-10-19T22:33:52+09:00"
 }
