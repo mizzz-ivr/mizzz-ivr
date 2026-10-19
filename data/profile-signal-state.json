@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "BUILDING",
-    "symbol": "●",
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
     "last_activity_at": "2026-10-19T13:29:02Z"
   },
   "code_weather": {
@@ -17,10 +17,10 @@
   "activity_total": 50,
   "current_focus": {
     "repo": "mizzz-ivr/ivmz-home",
-    "score": 86,
-    "events": 59,
+    "score": 90,
+    "events": 63,
     "last_activity_at": "2026-10-19T10:21:31Z",
-    "share": 51,
+    "share": 52,
     "stack": [
       "TypeScript",
       "CSS",
@@ -183,7 +183,7 @@
       "at": "2026-10-19T13:25:48Z"
     }
   ],
-  "generated_at": "2026-10-19T22:33:52+09:00",
+  "generated_at": "2026-10-19T23:34:50+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
