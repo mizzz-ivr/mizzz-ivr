@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 3,
-    "prs_opened": 6,
-    "issues_created": 3,
+    "commits": 5,
+    "prs_opened": 10,
+    "issues_created": 4,
     "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "SupabaseのRLSと匿名アクセス権の読み取り専用監査をCIへ追加 (#143)  RLSおよびPostgreSQLのアクセス権境界を確認する読み取り専用SQLと、使い捨てPostgreS",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/a8656d3f8852ea10112810094cef4904aea61fa3",
+      "at": "2026-10-19T12:43:45.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Netlify PreviewのDB接続先ガードを厳格化し自動Migrationを停止する (#142)  Preview／ProductionのSupabase接続先Refの設定漏れを検証し",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/a677ae63dba672cdf21ad419b342bc6668d61e55",
+      "at": "2026-10-19T08:27:00.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -19,33 +33,19 @@
       "at": "2026-10-19T06:09:40.000+09:00"
     },
     {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "ProductionのDB接続先を本番Supabaseに限定しPreview誤接続を防止 (#138)  Netlify production buildの開始時にDB接続先をfail-clo",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/bb4147650509a83b5d7ebfb795671c5ce504828e",
-      "at": "2026-10-19T00:42:11.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "匿名メッセージのキャッシュ禁止設定とContact準備中案内を本番へ導入 (#136)  共有ページ公開前にno-storeを適用し、匿名投稿機能のリリース停止条件を維持する。CI・Netli",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/41ab7ba7b2a926e29422c01642c0e4625023bbc5",
-      "at": "2026-10-19T00:13:25.000+09:00"
+      "type": "pr",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR #155 feat: ログ収集元の未確認・失敗・鮮度超過を診断",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/155",
+      "at": "2026-10-19T03:16:14Z"
     },
     {
       "type": "pr",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR #142 Netlify PreviewのDB接続先ガードを厳格化し自動Migrationを停止する（#133）",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/142",
-      "at": "2026-10-18T22:51:46Z"
-    },
-    {
-      "type": "pr",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "PR #141 匿名メッセージの公開SSR・OG画像と撤回後404を隔離CIで検証する（#69） [skip netlify]",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/141",
-      "at": "2026-10-18T22:32:35Z"
+      "repo": "ivRooom/Herta",
+      "title": "PR #514 feat(integration): ivrm-web向けメンバー検索と所属ロール照会",
+      "url": "https://github.com/ivRooom/Herta/pull/514",
+      "at": "2026-10-19T03:00:43Z"
     }
   ],
-  "generated_at": "2026-10-19T08:20:31+09:00"
+  "generated_at": "2026-10-19T13:52:02+09:00"
 }
