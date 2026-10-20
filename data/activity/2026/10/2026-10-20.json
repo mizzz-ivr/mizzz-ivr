@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 12,
-    "prs_opened": 13,
-    "issues_created": 3,
-    "issues_completed": 0
+    "commits": 22,
+    "prs_opened": 23,
+    "issues_created": 4,
+    "issues_completed": 2
   },
   "activity": [
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "問い合わせ保持APIの手動削除を停止し、DB/S3の不整合を防止 (#153)  Issue #98。認証済みapply:trueでもHTTP403で削除を拒否し、dry-runの件数契約は維",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/7c835a98104f6bea81e381f8502060dc0b9654f9",
-      "at": "2026-10-20T13:12:54.000+09:00"
+      "title": "問い合わせ受付日と最終更新日の食い違いを保持期限の要確認件数として集計 (#156)  Issue #98：受付日が保持期限超過なのに最終更新日が新しい非Newを、削除対象には含めず参考件数だ",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/95b94d870b5d3ef22bb886d0605ddfb99737b70b",
+      "at": "2026-10-20T20:01:56.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(vc-recap): 専用URL(マジックリンク)でのVC同意変更(PR2/4) (#531)",
-      "url": "https://github.com/ivRooom/Herta/commit/6890f4c20afef6b750fff0429e2b842194e1b347",
-      "at": "2026-10-20T12:39:53.000+09:00"
+      "title": "fix(vc-recap): ロール自動同意のfetchをforce:trueにし、開始時点もキャッシュ依存をやめる (#533)",
+      "url": "https://github.com/ivRooom/Herta/commit/682118f439daa18b3d0ede0f2e0a342e544e8aca",
+      "at": "2026-10-20T19:28:08.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(vc-recap): Studioコンソールからの同意付与・取消(PR4/4) (#530)",
+      "url": "https://github.com/ivRooom/Herta/commit/14f833baaab729ccf0ed9b53f0fa823515f821c8",
+      "at": "2026-10-20T19:27:55.000+09:00"
     },
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "CMSの長期未対応問い合わせ件数を受付日時基準に統一 (#152)  Issue #98: CMSのNew件数を週次dry-runと同じcreatedAtで集計。説明文・テストを更新。削除処理",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/95f333b544447179fbd3e55426ea55fcc9af2ec5",
-      "at": "2026-10-20T08:53:34.000+09:00"
+      "title": "保持期限超過の添付付き問い合わせをCMS・週次レポートで区別して集計 (#155)  Issue #98。DBの期限超過・非New問い合わせから添付参照ありを数値のみで集計し、CMSと週次レポ",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/edc809a1d6b32a6938151d824063f346ebb4cd1e",
+      "at": "2026-10-20T19:07:33.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "CMS運用ダッシュボードの保持・削除説明と危険設定の警告を修正 (#151)  週次dry-runの説明を修正し、DB統計障害時にも削除許可の警告を表示する。CI quality/Chromi",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/0e53cf09f764c1b42fe4ff4049de76fd1f07dc35",
-      "at": "2026-10-20T08:27:49.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "未対応問い合わせの受付日基準の長期滞留件数をdry-runに追加 (#150)  Issue #98: NewをcreatedAt基準で集計。保持期間と削除動作は維持し、件数のみ報告する。品質",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/5e5f4355788670443d08bae7bb3704c23ea9d7a9",
-      "at": "2026-10-20T08:04:49.000+09:00"
+      "repo": "ivRooom/ivrm-ai",
+      "title": "feat(deploy): 本番用の Dockerfile と、イメージのビルド・起動確認を CI に追加 (#24) (#38)  Co-authored-by: Claude Sonnet",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/4e9c57aa63d52412e67b9e7c438b3228b9b0888d",
+      "at": "2026-10-20T18:54:15.000+09:00"
     }
   ],
-  "generated_at": "2026-10-20T16:35:30+09:00"
+  "generated_at": "2026-10-20T21:57:49+09:00"
 }
