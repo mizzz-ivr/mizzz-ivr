@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 3,
-    "prs_opened": 2,
+    "commits": 5,
+    "prs_opened": 4,
     "issues_created": 1,
     "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "debug(vc-recap): VC接続のstateChange/errorイベントをログ出力する (#542)",
+      "url": "https://github.com/ivRooom/Herta/commit/b7be5f0afbf0f79aec6d9c63a179867a32c9a8f9",
+      "at": "2026-10-21T08:37:13.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "最終対話日時の記録対象を定義し、DB移行を使い捨て環境で検証 (#159)  Issue #98: event policy and CI-only nullable-column/rollb",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/e422671c1d7f47435bf97870d209524846c62e9a",
+      "at": "2026-10-21T08:33:02.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-ai",
@@ -31,21 +45,7 @@
       "title": "fix(vc-recap): 同意ページを行政サービス風の落ち着いたデザインへ変更 (#535)",
       "url": "https://github.com/ivRooom/Herta/commit/caa7a3b7f159f602525318484432c92b6c23930d",
       "at": "2026-10-21T00:45:22.000+09:00"
-    },
-    {
-      "type": "issue",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #541 Bot から発言する機能(/say・Message Studio)が使えない件の調査",
-      "url": "https://github.com/ivRooom/Herta/issues/541",
-      "at": "2026-10-20T17:31:16Z"
-    },
-    {
-      "type": "done",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #537 bug(community-points): Herta側とivrm-web(admin.ivrm.jp)側のポイントが同期していない",
-      "url": "https://github.com/ivRooom/Herta/issues/537",
-      "at": "2026-10-20T16:23:17Z"
     }
   ],
-  "generated_at": "2026-10-21T02:54:27+09:00"
+  "generated_at": "2026-10-21T08:56:59+09:00"
 }
