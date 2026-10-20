@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 3,
+    "prs_opened": 2,
+    "issues_created": 1,
+    "issues_completed": 1
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "feat(deploy): 既存の本番EC2へ Node のみ載せるデプロイ資材 (#24) (#39)  compose(256MB/0.5CPU)・SSM 経由のデプロイスクリプト(失敗時",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/5e9d8e99b7c520e2b7c795330553fafb09ac44e3",
+      "at": "2026-10-21T01:25:48.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(community): ivrm-web同期を全メンバー対象に拡大(Issue #537) (#540)  * fix(community): ivrm-web同期をCommunity",
+      "url": "https://github.com/ivRooom/Herta/commit/6b21da6c52c8f6051e787a4ca798f9962e153774",
+      "at": "2026-10-21T01:15:43.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(vc-recap): 同意ページを行政サービス風の落ち着いたデザインへ変更 (#535)",
+      "url": "https://github.com/ivRooom/Herta/commit/caa7a3b7f159f602525318484432c92b6c23930d",
+      "at": "2026-10-21T00:45:22.000+09:00"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #541 Bot から発言する機能(/say・Message Studio)が使えない件の調査",
+      "url": "https://github.com/ivRooom/Herta/issues/541",
+      "at": "2026-10-20T17:31:16Z"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #537 bug(community-points): Herta側とivrm-web(admin.ivrm.jp)側のポイントが同期していない",
+      "url": "https://github.com/ivRooom/Herta/issues/537",
+      "at": "2026-10-20T16:23:17Z"
+    }
+  ],
+  "generated_at": "2026-10-21T02:54:27+09:00"
+}

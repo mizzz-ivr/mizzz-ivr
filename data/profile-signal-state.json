@@ -1,41 +1,34 @@
 {
   "schema_version": 4,
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "timezone": "Asia/Tokyo",
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-10-20T13:00:57Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-10-20T17:31:17Z"
   },
   "code_weather": {
-    "label": "STORM",
-    "icon": "🌩️"
+    "label": "ACTIVE",
+    "icon": "🌤️"
   },
-  "streak": 9,
-  "activity_total": 52,
+  "streak": 10,
+  "activity_total": 7,
   "current_focus": {
-    "repo": "mizzz-ivr/ivmz-home",
-    "score": 111,
-    "events": 72,
-    "last_activity_at": "2026-10-20T13:00:57Z",
-    "share": 43,
+    "repo": "ivRooom/Herta",
+    "score": 17,
+    "events": 11,
+    "last_activity_at": "2026-10-20T17:31:17Z",
+    "share": 74,
     "stack": [
       "TypeScript",
+      "Shell",
       "CSS",
-      "JavaScript",
-      "HCL"
+      "Dockerfile"
     ]
   },
   "dev_pulse": [
-    {
-      "date": "2026-10-14",
-      "total": 26,
-      "commits": 11,
-      "prs": 12,
-      "issues": 3
-    },
     {
       "date": "2026-10-15",
       "total": 42,
@@ -73,43 +66,26 @@
     },
     {
       "date": "2026-10-20",
-      "total": 52,
+      "total": 56,
       "commits": 22,
       "prs": 24,
-      "issues": 6
+      "issues": 10
+    },
+    {
+      "date": "2026-10-21",
+      "total": 7,
+      "commits": 3,
+      "prs": 2,
+      "issues": 2
     }
   ],
   "now_building": [
     {
-      "repo": "mizzz-ivr/ivmz-home",
-      "score": 111,
-      "events": 72,
-      "last_activity_at": "2026-10-20T13:00:57Z",
-      "share": 43,
-      "ci": {
-        "label": "ATTENTION",
-        "symbol": "!",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 8,
-        "passed": 5,
-        "failed": 3,
-        "ignored": 2,
-        "pass_rate": 62,
-        "latest_conclusion": "failure"
-      },
-      "health": {
-        "label": "ATTENTION",
-        "symbol": "!",
-        "reason": "recent CI needs attention"
-      }
-    },
-    {
       "repo": "ivRooom/Herta",
-      "score": 98,
-      "events": 66,
-      "last_activity_at": "2026-10-20T10:38:34Z",
-      "share": 38,
+      "score": 17,
+      "events": 11,
+      "last_activity_at": "2026-10-20T17:31:17Z",
+      "share": 74,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -130,10 +106,10 @@
     },
     {
       "repo": "ivRooom/ivrm-ai",
-      "score": 40,
-      "events": 20,
-      "last_activity_at": "2026-10-20T09:55:01Z",
-      "share": 15,
+      "score": 6,
+      "events": 3,
+      "last_activity_at": "2026-10-20T16:25:48Z",
+      "share": 26,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -155,50 +131,50 @@
   ],
   "activity_stream": [
     {
-      "label": "PR",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Opened PR #158",
-      "url": "https://github.com/mizzz-ivr/ivmz-home",
-      "at": "2026-10-20T13:00:57Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "1 commit pushed to fix/72-chat-provider-neutral-copy",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commits",
-      "at": "2026-10-20T13:00:34Z"
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Opened issue #541",
+      "url": "https://github.com/ivRooom/Herta/issues/541",
+      "at": "2026-10-20T17:31:17Z"
     },
     {
       "label": "PR",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Opened PR #157",
-      "url": "https://github.com/mizzz-ivr/ivmz-home",
-      "at": "2026-10-20T12:44:24Z"
+      "repo": "ivRooom/ivrm-ai",
+      "title": "PR merged #39",
+      "url": "https://github.com/ivRooom/ivrm-ai",
+      "at": "2026-10-20T16:25:48Z"
     },
     {
-      "label": "CREATE",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Created branch feat/98-record-initial-contact-interaction",
-      "url": "https://github.com/mizzz-ivr/ivmz-home",
-      "at": "2026-10-20T11:31:04Z"
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Closed issue #537",
+      "url": "https://github.com/ivRooom/Herta/issues/537",
+      "at": "2026-10-20T16:23:17Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "PR merged #540",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-10-20T16:15:43Z"
     }
   ],
-  "generated_at": "2026-10-20T23:21:48+09:00",
+  "generated_at": "2026-10-21T02:54:27+09:00",
   "ci_signal": {
-    "label": "ATTENTION",
-    "symbol": "!",
+    "label": "PASSING",
+    "symbol": "●",
     "window_days": 7,
-    "evaluated": 27,
-    "passed": 24,
-    "failed": 3,
-    "ignored": 3,
-    "pass_rate": 89,
-    "repos_with_signal": 3
+    "evaluated": 19,
+    "passed": 19,
+    "failed": 0,
+    "ignored": 1,
+    "pass_rate": 100,
+    "repos_with_signal": 2
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
-    "tracked_days": 57,
-    "active_days": 48,
+    "tracked_days": 58,
+    "active_days": 49,
     "longest_streak": 18,
     "weekly": {
       "schema_version": 1,
@@ -208,18 +184,18 @@
       "github_login": "mizzz-ivr",
       "coverage": {
         "start_date": "2026-10-19",
-        "end_date": "2026-10-20",
-        "tracked_days": 2,
-        "active_days": 2
+        "end_date": "2026-10-21",
+        "tracked_days": 3,
+        "active_days": 3
       },
       "metrics": {
-        "commits": 30,
-        "prs_opened": 38,
-        "issues_created": 31,
-        "issues_completed": 3,
-        "activity_total": 102
+        "commits": 33,
+        "prs_opened": 40,
+        "issues_created": 36,
+        "issues_completed": 4,
+        "activity_total": 113
       },
-      "generated_at": "2026-10-20T23:21:48+09:00"
+      "generated_at": "2026-10-21T02:54:27+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -229,18 +205,18 @@
       "github_login": "mizzz-ivr",
       "coverage": {
         "start_date": "2026-10-01",
-        "end_date": "2026-10-20",
-        "tracked_days": 20,
-        "active_days": 16
+        "end_date": "2026-10-21",
+        "tracked_days": 21,
+        "active_days": 17
       },
       "metrics": {
-        "commits": 163,
-        "prs_opened": 196,
-        "issues_created": 112,
-        "issues_completed": 23,
-        "activity_total": 494
+        "commits": 166,
+        "prs_opened": 198,
+        "issues_created": 117,
+        "issues_completed": 24,
+        "activity_total": 505
       },
-      "generated_at": "2026-10-20T23:21:48+09:00"
+      "generated_at": "2026-10-21T02:54:27+09:00"
     },
     "achievements": [
       {
@@ -287,29 +263,29 @@
   "tracked_summary": {
     "year": 2026,
     "yearly": {
-      "tracked_days": 57,
-      "active_days": 48,
+      "tracked_days": 58,
+      "active_days": 49,
       "first_date": "2026-08-25",
-      "last_date": "2026-10-20",
+      "last_date": "2026-10-21",
       "metrics": {
-        "commits": 1902,
-        "prs_opened": 455,
-        "issues_created": 223,
-        "issues_completed": 103,
-        "activity_total": 2683
+        "commits": 1905,
+        "prs_opened": 457,
+        "issues_created": 228,
+        "issues_completed": 104,
+        "activity_total": 2694
       }
     },
     "lifetime": {
-      "tracked_days": 57,
-      "active_days": 48,
+      "tracked_days": 58,
+      "active_days": 49,
       "first_date": "2026-08-25",
-      "last_date": "2026-10-20",
+      "last_date": "2026-10-21",
       "metrics": {
-        "commits": 1902,
-        "prs_opened": 455,
-        "issues_created": 223,
-        "issues_completed": 103,
-        "activity_total": 2683
+        "commits": 1905,
+        "prs_opened": 457,
+        "issues_created": 228,
+        "issues_completed": 104,
+        "activity_total": 2694
       }
     }
   }
