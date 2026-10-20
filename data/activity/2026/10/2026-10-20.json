@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 10,
-    "prs_opened": 12,
-    "issues_created": 2,
+    "commits": 12,
+    "prs_opened": 13,
+    "issues_created": 3,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "問い合わせ保持APIの手動削除を停止し、DB/S3の不整合を防止 (#153)  Issue #98。認証済みapply:trueでもHTTP403で削除を拒否し、dry-runの件数契約は維",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/7c835a98104f6bea81e381f8502060dc0b9654f9",
+      "at": "2026-10-20T13:12:54.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(vc-recap): 専用URL(マジックリンク)でのVC同意変更(PR2/4) (#531)",
+      "url": "https://github.com/ivRooom/Herta/commit/6890f4c20afef6b750fff0429e2b842194e1b347",
+      "at": "2026-10-20T12:39:53.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
@@ -31,21 +45,7 @@
       "title": "未対応問い合わせの受付日基準の長期滞留件数をdry-runに追加 (#150)  Issue #98: NewをcreatedAt基準で集計。保持期間と削除動作は維持し、件数のみ報告する。品質",
       "url": "https://github.com/mizzz-ivr/ivmz-home/commit/5e5f4355788670443d08bae7bb3704c23ea9d7a9",
       "at": "2026-10-20T08:04:49.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "問い合わせ本文365日・添付90日の保持ポリシーと削除運用手順を整備 (#148)  運用者が承認したDB本文365日・添付実体90日を運用文書と設計方針へ反映。S3とDBの削除整合、例外保有",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/fe1d5600caddd4dedd2130f7728bc4319b025cda",
-      "at": "2026-10-20T07:37:24.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(vc-recap): 未同意メンバーへメンション+同意ボタンでの同意促し(PR1/4) (#526)  * feat(vc-recap): /vc-recap start時に未同意メ",
-      "url": "https://github.com/ivRooom/Herta/commit/e4d28372514bad395a1e20a552526ee7115b8364",
-      "at": "2026-10-20T06:53:50.000+09:00"
     }
   ],
-  "generated_at": "2026-10-20T09:25:22+09:00"
+  "generated_at": "2026-10-20T16:35:30+09:00"
 }
