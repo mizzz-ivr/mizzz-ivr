@@ -20,7 +20,7 @@
     "score": 84,
     "events": 70,
     "last_activity_at": "2026-10-21T04:03:33Z",
-    "share": 74,
+    "share": 73,
     "stack": [
       "TypeScript",
       "Shell",
@@ -85,7 +85,7 @@
       "score": 84,
       "events": 70,
       "last_activity_at": "2026-10-21T04:03:33Z",
-      "share": 74,
+      "share": 73,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -106,26 +106,26 @@
     },
     {
       "repo": "mizzz-ivr/ivmz-home",
-      "score": 23,
-      "events": 16,
-      "last_activity_at": "2026-10-21T03:35:50Z",
-      "share": 20,
+      "score": 25,
+      "events": 18,
+      "last_activity_at": "2026-10-21T03:42:12Z",
+      "share": 22,
       "ci": {
-        "label": "PASSING",
-        "symbol": "●",
+        "label": "ATTENTION",
+        "symbol": "!",
         "window_days": 7,
         "total_runs": 10,
         "evaluated": 5,
-        "passed": 5,
-        "failed": 0,
+        "passed": 4,
+        "failed": 1,
         "ignored": 5,
-        "pass_rate": 100,
-        "latest_conclusion": "success"
+        "pass_rate": 80,
+        "latest_conclusion": "failure"
       },
       "health": {
-        "label": "HEALTHY",
-        "symbol": "●",
-        "reason": "active with passing recent CI"
+        "label": "ATTENTION",
+        "symbol": "!",
+        "reason": "recent CI needs attention"
       }
     },
     {
@@ -183,16 +183,16 @@
       "at": "2026-10-21T02:10:09Z"
     }
   ],
-  "generated_at": "2026-10-21T13:31:03+09:00",
+  "generated_at": "2026-10-21T13:58:52+09:00",
   "ci_signal": {
-    "label": "PASSING",
-    "symbol": "●",
+    "label": "ATTENTION",
+    "symbol": "!",
     "window_days": 7,
     "evaluated": 25,
-    "passed": 25,
-    "failed": 0,
+    "passed": 24,
+    "failed": 1,
     "ignored": 5,
-    "pass_rate": 100,
+    "pass_rate": 96,
     "repos_with_signal": 3
   },
   "dev_recap": {
