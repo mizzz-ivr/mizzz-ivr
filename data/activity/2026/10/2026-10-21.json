@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 6,
-    "prs_opened": 6,
+    "commits": 11,
+    "prs_opened": 11,
     "issues_created": 4,
-    "issues_completed": 1
+    "issues_completed": 4
   },
   "activity": [
     {
       "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "最終対話日時のMigration前後で動作するCI検証へ修正 (#160)  Issue #98: safe compatibility rehearsal for both nullable",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/a5adc379e146e9c99b651a7290d7a265cf5cb7f0",
-      "at": "2026-10-21T11:10:08.000+09:00"
+      "repo": "ivRooom/ivrm-ai",
+      "title": "feat(ops): kill switch を再起動なしで切り替えられるようにする (#22) (#41)",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/c034ec536b48762c66fa3ad04906937643d879e9",
+      "at": "2026-10-21T20:16:40.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "debug(vc-recap): VC接続のstateChange/errorイベントをログ出力する (#542)",
-      "url": "https://github.com/ivRooom/Herta/commit/b7be5f0afbf0f79aec6d9c63a179867a32c9a8f9",
-      "at": "2026-10-21T08:37:13.000+09:00"
+      "title": "fix(vc-recap): @discordjs/voiceを0.19系へ上げ、DAVE(E2EE)必須の音声チャンネルへ接続できるようにする (#547)",
+      "url": "https://github.com/ivRooom/Herta/commit/b34a1489dedb3c9ca34143c4065ed4c8f9ab9591",
+      "at": "2026-10-21T20:08:43.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "最終対話日時の記録対象を定義し、DB移行を使い捨て環境で検証 (#159)  Issue #98: event policy and CI-only nullable-column/rollb",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/e422671c1d7f47435bf97870d209524846c62e9a",
-      "at": "2026-10-21T08:33:02.000+09:00"
-    },
-    {
-      "type": "issue",
       "repo": "ivRooom/Herta",
-      "title": "Issue #545 bug(ai): 月またぎの境界でGuild月次AI予算のreserve/settleとai_generation_eventsのタイムスタンプがずれ、コストが2ヶ月分カ",
-      "url": "https://github.com/ivRooom/Herta/issues/545",
-      "at": "2026-10-21T04:03:21Z"
+      "title": "fix(studio): page.view判定をpage描画時にも行い、ソフトナビゲーションでの権限取り消し漏れを防ぐ (#546)",
+      "url": "https://github.com/ivRooom/Herta/commit/78dde7c9fab57dd2fee20e9d8bf39f53a7f12fa6",
+      "at": "2026-10-21T20:08:28.000+09:00"
     },
     {
-      "type": "issue",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "Issue #161 Netlifyクレジット不足によりProduction Deployが停止（11/15回復予定）・公開SHAを照合する",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/161",
-      "at": "2026-10-21T02:13:58Z"
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "docs(deploy): 前提条件の表を 2026-10-21 時点の適用状況に合わせる (#24) (#40)",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/5f9164d5ecefe216c62f39e433143ff782bf3ea0",
+      "at": "2026-10-21T19:27:41.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(ai): Guild単位の月次AI予算上限を追加する (#543)  * debug(vc-recap): VC接続のstateChange/errorイベントをログ出力する  Is",
+      "url": "https://github.com/ivRooom/Herta/commit/ba9322285a0bae0436541880b3d5dfafed2f4b9c",
+      "at": "2026-10-21T19:12:33.000+09:00"
     }
   ],
-  "generated_at": "2026-10-21T13:31:03+09:00"
+  "generated_at": "2026-10-21T21:00:49+09:00"
 }
