@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 5,
-    "prs_opened": 4,
-    "issues_created": 1,
+    "commits": 6,
+    "prs_opened": 6,
+    "issues_created": 4,
     "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "最終対話日時のMigration前後で動作するCI検証へ修正 (#160)  Issue #98: safe compatibility rehearsal for both nullable",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/a5adc379e146e9c99b651a7290d7a265cf5cb7f0",
+      "at": "2026-10-21T11:10:08.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -26,26 +33,19 @@
       "at": "2026-10-21T08:33:02.000+09:00"
     },
     {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "feat(deploy): 既存の本番EC2へ Node のみ載せるデプロイ資材 (#24) (#39)  compose(256MB/0.5CPU)・SSM 経由のデプロイスクリプト(失敗時",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/5e9d8e99b7c520e2b7c795330553fafb09ac44e3",
-      "at": "2026-10-21T01:25:48.000+09:00"
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #545 bug(ai): 月またぎの境界でGuild月次AI予算のreserve/settleとai_generation_eventsのタイムスタンプがずれ、コストが2ヶ月分カ",
+      "url": "https://github.com/ivRooom/Herta/issues/545",
+      "at": "2026-10-21T04:03:21Z"
     },
     {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(community): ivrm-web同期を全メンバー対象に拡大(Issue #537) (#540)  * fix(community): ivrm-web同期をCommunity",
-      "url": "https://github.com/ivRooom/Herta/commit/6b21da6c52c8f6051e787a4ca798f9962e153774",
-      "at": "2026-10-21T01:15:43.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(vc-recap): 同意ページを行政サービス風の落ち着いたデザインへ変更 (#535)",
-      "url": "https://github.com/ivRooom/Herta/commit/caa7a3b7f159f602525318484432c92b6c23930d",
-      "at": "2026-10-21T00:45:22.000+09:00"
+      "type": "issue",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "Issue #161 Netlifyクレジット不足によりProduction Deployが停止（11/15回復予定）・公開SHAを照合する",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/issues/161",
+      "at": "2026-10-21T02:13:58Z"
     }
   ],
-  "generated_at": "2026-10-21T08:56:59+09:00"
+  "generated_at": "2026-10-21T13:31:03+09:00"
 }
