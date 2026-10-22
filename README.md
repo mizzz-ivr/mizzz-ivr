@@ -70,9 +70,9 @@
 
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><strong>PASSING</strong><br/><sub>CI SIGNAL</sub></td>
-    <td width="25%" align="center"><strong>100%</strong><br/><sub>PASS RATE</sub></td>
-    <td width="25%" align="center"><strong>3 / 3</strong><br/><sub>PASSED / EVALUATED</sub></td>
+    <td width="25%" align="center"><strong>ATTENTION</strong><br/><sub>CI SIGNAL</sub></td>
+    <td width="25%" align="center"><strong>75%</strong><br/><sub>PASS RATE</sub></td>
+    <td width="25%" align="center"><strong>3 / 4</strong><br/><sub>PASSED / EVALUATED</sub></td>
     <td width="25%" align="center"><strong>1</strong><br/><sub>REPOS WITH CI</sub></td>
   </tr>
 </table>
@@ -81,7 +81,7 @@
 <!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
 ## NOW BUILDING // Active repositories
 
-<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>100% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 08:34 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
+<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>100% weighted · ATTENTION · CI pass rate 75%<br/>last activity · 08:34 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
 <!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
 
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->

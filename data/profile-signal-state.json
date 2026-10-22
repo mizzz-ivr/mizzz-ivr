@@ -87,21 +87,21 @@
       "last_activity_at": "2026-10-21T23:34:31Z",
       "share": 100,
       "ci": {
-        "label": "PASSING",
-        "symbol": "●",
+        "label": "ATTENTION",
+        "symbol": "!",
         "window_days": 7,
         "total_runs": 10,
-        "evaluated": 3,
+        "evaluated": 4,
         "passed": 3,
-        "failed": 0,
-        "ignored": 7,
-        "pass_rate": 100,
-        "latest_conclusion": "success"
+        "failed": 1,
+        "ignored": 6,
+        "pass_rate": 75,
+        "latest_conclusion": "failure"
       },
       "health": {
-        "label": "HEALTHY",
-        "symbol": "●",
-        "reason": "active with passing recent CI"
+        "label": "ATTENTION",
+        "symbol": "!",
+        "reason": "recent CI needs attention"
       }
     }
   ],
@@ -135,16 +135,16 @@
       "at": "2026-10-21T23:16:43Z"
     }
   ],
-  "generated_at": "2026-10-22T09:43:25+09:00",
+  "generated_at": "2026-10-22T14:00:26+09:00",
   "ci_signal": {
-    "label": "PASSING",
-    "symbol": "●",
+    "label": "ATTENTION",
+    "symbol": "!",
     "window_days": 7,
-    "evaluated": 3,
+    "evaluated": 4,
     "passed": 3,
-    "failed": 0,
-    "ignored": 7,
-    "pass_rate": 100,
+    "failed": 1,
+    "ignored": 6,
+    "pass_rate": 75,
     "repos_with_signal": 1
   },
   "dev_recap": {
