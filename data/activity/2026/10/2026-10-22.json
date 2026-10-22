@@ -6,10 +6,25 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 0,
+    "prs_opened": 2,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-10-22T02:20:37+09:00"
+  "activity": [
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR #163 11月15日以降にFAQ改善と81項目の本番検証を一括公開する準備 [skip netlify] (#161)",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/163",
+      "at": "2026-10-21T23:17:23Z"
+    },
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "PR #162 本番リリース後の81項目チェックリストと読み取り専用Smokeを追加 (#161) [skip netlify]",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/pull/162",
+      "at": "2026-10-21T22:39:14Z"
+    }
+  ],
+  "generated_at": "2026-10-22T09:43:25+09:00"
 }
