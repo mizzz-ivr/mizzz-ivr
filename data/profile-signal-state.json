@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-10-23T08:38:20.000+09:00"
+    "label": "OFFLINE",
+    "symbol": "○",
+    "last_activity_at": "2026-10-22T23:38:22Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -69,17 +69,17 @@
   ],
   "now_building": [],
   "activity_stream": [],
-  "generated_at": "2026-10-23T14:01:19+09:00",
+  "generated_at": "2026-10-23T14:56:38+09:00",
   "ci_signal": {
-    "label": "NO SIGNAL",
-    "symbol": "○",
+    "label": "PASSING",
+    "symbol": "●",
     "window_days": 7,
-    "evaluated": 0,
-    "passed": 0,
+    "evaluated": 10,
+    "passed": 10,
     "failed": 0,
     "ignored": 0,
-    "pass_rate": null,
-    "repos_with_signal": 0
+    "pass_rate": 100,
+    "repos_with_signal": 1
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
