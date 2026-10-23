@@ -5,11 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
+    "commits": 4,
+    "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-10-23T00:36:07+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "Qiita向け脆弱性記事を限定共有で投稿できる状態に追加  * PHP・Tomcat・Springの脆弱性を公式評価で解説するQiita記事の下書きを追加  * Qiita下書きのインラインコ",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/c691516adf48f8bdcce5232e0c8ac00f861168b1",
+      "at": "2026-10-23T08:38:20.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "記事用図解を追加: 20261023-aws-defense.svg",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/4be5e57f03e0fad3da2fffd215d186e9871eb102",
+      "at": "2026-10-23T08:27:48.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "記事用図解を追加: 20261023-php-rce-flow.svg",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/335f67d02fc6bac1dac0d0ec333adf48c8a709dc",
+      "at": "2026-10-23T08:27:46.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "記事用図解を追加: 20261023-vulnerability-severity.svg",
+      "url": "https://github.com/mizzz-ivr/tech-writing/commit/96fe91c5c2e008db5ff67d46d3ee0fc37e943957",
+      "at": "2026-10-23T08:27:43.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "mizzz-ivr/tech-writing",
+      "title": "PR #107 【Qiita下書き】PHP・Tomcat・Springの最新脆弱性を公式評価と図解付きで解説",
+      "url": "https://github.com/mizzz-ivr/tech-writing/pull/107",
+      "at": "2026-10-22T23:32:56Z"
+    }
+  ],
+  "generated_at": "2026-10-23T09:59:12+09:00"
 }
