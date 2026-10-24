@@ -10,11 +10,11 @@
     "last_activity_at": "2026-10-24T16:19:40Z"
   },
   "code_weather": {
-    "label": "REST DAY",
-    "icon": "🌙"
+    "label": "LIGHT CODING",
+    "icon": "☁️"
   },
   "streak": 14,
-  "activity_total": 0,
+  "activity_total": 1,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
     "score": 5,
@@ -73,13 +73,38 @@
     },
     {
       "date": "2026-10-25",
-      "total": 0,
+      "total": 1,
       "commits": 0,
-      "prs": 0,
+      "prs": 1,
       "issues": 0
     }
   ],
-  "now_building": [],
+  "now_building": [
+    {
+      "repo": "ivRooom/ivrm-dashboard",
+      "score": 5,
+      "events": 2,
+      "last_activity_at": "2026-10-24T16:19:40Z",
+      "share": 100,
+      "ci": {
+        "label": "PASSING",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 10,
+        "passed": 10,
+        "failed": 0,
+        "ignored": 0,
+        "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
+    }
+  ],
   "activity_stream": [
     {
       "label": "PR",
@@ -96,22 +121,22 @@
       "at": "2026-10-24T16:19:22Z"
     }
   ],
-  "generated_at": "2026-10-25T02:21:27+09:00",
+  "generated_at": "2026-10-25T04:37:31+09:00",
   "ci_signal": {
-    "label": "NO SIGNAL",
-    "symbol": "○",
+    "label": "PASSING",
+    "symbol": "●",
     "window_days": 7,
-    "evaluated": 0,
-    "passed": 0,
+    "evaluated": 10,
+    "passed": 10,
     "failed": 0,
     "ignored": 0,
-    "pass_rate": null,
-    "repos_with_signal": 0
+    "pass_rate": 100,
+    "repos_with_signal": 1
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
     "tracked_days": 62,
-    "active_days": 52,
+    "active_days": 53,
     "longest_streak": 18,
     "weekly": {
       "schema_version": 1,
@@ -123,16 +148,16 @@
         "start_date": "2026-10-19",
         "end_date": "2026-10-25",
         "tracked_days": 7,
-        "active_days": 6
+        "active_days": 7
       },
       "metrics": {
         "commits": 45,
-        "prs_opened": 53,
+        "prs_opened": 54,
         "issues_created": 39,
         "issues_completed": 7,
-        "activity_total": 144
+        "activity_total": 145
       },
-      "generated_at": "2026-10-25T01:03:21+09:00"
+      "generated_at": "2026-10-25T04:37:31+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -144,16 +169,16 @@
         "start_date": "2026-10-01",
         "end_date": "2026-10-25",
         "tracked_days": 25,
-        "active_days": 20
+        "active_days": 21
       },
       "metrics": {
         "commits": 178,
-        "prs_opened": 211,
+        "prs_opened": 212,
         "issues_created": 120,
         "issues_completed": 27,
-        "activity_total": 536
+        "activity_total": 537
       },
-      "generated_at": "2026-10-25T01:03:21+09:00"
+      "generated_at": "2026-10-25T04:37:31+09:00"
     },
     "achievements": [
       {
@@ -201,28 +226,28 @@
     "year": 2026,
     "yearly": {
       "tracked_days": 62,
-      "active_days": 52,
+      "active_days": 53,
       "first_date": "2026-08-25",
       "last_date": "2026-10-25",
       "metrics": {
         "commits": 1917,
-        "prs_opened": 470,
+        "prs_opened": 471,
         "issues_created": 231,
         "issues_completed": 107,
-        "activity_total": 2725
+        "activity_total": 2726
       }
     },
     "lifetime": {
       "tracked_days": 62,
-      "active_days": 52,
+      "active_days": 53,
       "first_date": "2026-08-25",
       "last_date": "2026-10-25",
       "metrics": {
         "commits": 1917,
-        "prs_opened": 470,
+        "prs_opened": 471,
         "issues_created": 231,
         "issues_completed": 107,
-        "activity_total": 2725
+        "activity_total": 2726
       }
     }
   }
