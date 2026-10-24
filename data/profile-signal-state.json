@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-10-24T16:20:54Z"
+    "label": "OFFLINE",
+    "symbol": "○",
+    "last_activity_at": "2026-10-24T16:19:40Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,16 +17,11 @@
   "activity_total": 1,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 7,
-    "events": 4,
-    "last_activity_at": "2026-10-24T16:20:54Z",
+    "score": 4,
+    "events": 1,
+    "last_activity_at": "2026-10-24T16:19:40Z",
     "share": 100,
-    "stack": [
-      "TypeScript",
-      "PLpgSQL",
-      "CSS",
-      "Python"
-    ]
+    "stack": []
   },
   "dev_pulse": [
     {
@@ -82,70 +77,49 @@
   "now_building": [
     {
       "repo": "ivRooom/ivrm-dashboard",
-      "score": 7,
-      "events": 4,
-      "last_activity_at": "2026-10-24T16:20:54Z",
+      "score": 4,
+      "events": 1,
+      "last_activity_at": "2026-10-24T16:19:40Z",
       "share": 100,
       "ci": {
-        "label": "PASSING",
-        "symbol": "●",
+        "label": "NO SIGNAL",
+        "symbol": "○",
         "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 10,
-        "passed": 10,
+        "total_runs": 0,
+        "evaluated": 0,
+        "passed": 0,
         "failed": 0,
         "ignored": 0,
-        "pass_rate": 100,
-        "latest_conclusion": "success"
+        "pass_rate": null,
+        "latest_conclusion": null
       },
       "health": {
-        "label": "HEALTHY",
+        "label": "ACTIVE",
         "symbol": "●",
-        "reason": "active with passing recent CI"
+        "reason": "active; no evaluated CI signal"
       }
     }
   ],
   "activity_stream": [
     {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to codex/backup-policy-lifecycle",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-10-24T16:20:54Z"
-    },
-    {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #158",
+      "title": "Opened PR",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-10-24T16:19:40Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to codex/backup-policy-lifecycle",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-10-24T16:19:22Z"
-    },
-    {
-      "label": "CREATE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Created branch codex/backup-policy-lifecycle",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-10-24T16:19:00Z"
     }
   ],
-  "generated_at": "2026-10-25T06:53:29+09:00",
+  "generated_at": "2026-10-25T08:21:21+09:00",
   "ci_signal": {
-    "label": "PASSING",
-    "symbol": "●",
+    "label": "NO SIGNAL",
+    "symbol": "○",
     "window_days": 7,
-    "evaluated": 10,
-    "passed": 10,
+    "evaluated": 0,
+    "passed": 0,
     "failed": 0,
     "ignored": 0,
-    "pass_rate": 100,
-    "repos_with_signal": 1
+    "pass_rate": null,
+    "repos_with_signal": 0
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
