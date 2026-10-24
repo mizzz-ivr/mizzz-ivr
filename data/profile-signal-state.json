@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "BUILDING",
-    "symbol": "●",
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
     "last_activity_at": "2026-10-24T10:03:32Z"
   },
   "code_weather": {
@@ -17,8 +17,8 @@
   "activity_total": 1,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 5,
-    "events": 2,
+    "score": 6,
+    "events": 3,
     "last_activity_at": "2026-10-24T10:03:32Z",
     "share": 100,
     "stack": [
@@ -82,8 +82,8 @@
   "now_building": [
     {
       "repo": "ivRooom/ivrm-dashboard",
-      "score": 5,
-      "events": 2,
+      "score": 6,
+      "events": 3,
       "last_activity_at": "2026-10-24T10:03:32Z",
       "share": 100,
       "ci": {
@@ -112,9 +112,16 @@
       "title": "Opened PR #157",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-10-24T10:03:32Z"
+    },
+    {
+      "label": "CREATE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Created branch codex/backup-hardening-runbook",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-10-24T10:03:19Z"
     }
   ],
-  "generated_at": "2026-10-24T19:06:19+09:00",
+  "generated_at": "2026-10-24T20:13:56+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
