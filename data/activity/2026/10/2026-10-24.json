@@ -6,10 +6,18 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 0,
+    "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-10-24T00:50:37+09:00"
+  "activity": [
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR #157 Minecraftバックアップの証跡・秘密情報除外・運用手順を強化する",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/157",
+      "at": "2026-10-24T10:03:32Z"
+    }
+  ],
+  "generated_at": "2026-10-24T19:06:19+09:00"
 }

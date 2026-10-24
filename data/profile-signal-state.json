@@ -5,17 +5,29 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "QUIET",
-    "symbol": "○",
-    "last_activity_at": "2026-10-22T23:38:22Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-10-24T10:03:32Z"
   },
   "code_weather": {
-    "label": "REST DAY",
-    "icon": "🌙"
+    "label": "LIGHT CODING",
+    "icon": "☁️"
   },
-  "streak": 0,
-  "activity_total": 0,
-  "current_focus": null,
+  "streak": 13,
+  "activity_total": 1,
+  "current_focus": {
+    "repo": "ivRooom/ivrm-dashboard",
+    "score": 5,
+    "events": 2,
+    "last_activity_at": "2026-10-24T10:03:32Z",
+    "share": 100,
+    "stack": [
+      "TypeScript",
+      "PLpgSQL",
+      "CSS",
+      "Python"
+    ]
+  },
   "dev_pulse": [
     {
       "date": "2026-10-18",
@@ -61,30 +73,63 @@
     },
     {
       "date": "2026-10-24",
-      "total": 0,
+      "total": 1,
       "commits": 0,
-      "prs": 0,
+      "prs": 1,
       "issues": 0
     }
   ],
-  "now_building": [],
-  "activity_stream": [],
-  "generated_at": "2026-10-24T14:51:42+09:00",
+  "now_building": [
+    {
+      "repo": "ivRooom/ivrm-dashboard",
+      "score": 5,
+      "events": 2,
+      "last_activity_at": "2026-10-24T10:03:32Z",
+      "share": 100,
+      "ci": {
+        "label": "PASSING",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 10,
+        "passed": 10,
+        "failed": 0,
+        "ignored": 0,
+        "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
+    }
+  ],
+  "activity_stream": [
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #157",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-10-24T10:03:32Z"
+    }
+  ],
+  "generated_at": "2026-10-24T19:06:19+09:00",
   "ci_signal": {
-    "label": "NO SIGNAL",
-    "symbol": "○",
+    "label": "PASSING",
+    "symbol": "●",
     "window_days": 7,
-    "evaluated": 0,
-    "passed": 0,
+    "evaluated": 10,
+    "passed": 10,
     "failed": 0,
     "ignored": 0,
-    "pass_rate": null,
-    "repos_with_signal": 0
+    "pass_rate": 100,
+    "repos_with_signal": 1
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
     "tracked_days": 61,
-    "active_days": 51,
+    "active_days": 52,
     "longest_streak": 18,
     "weekly": {
       "schema_version": 1,
@@ -96,16 +141,16 @@
         "start_date": "2026-10-19",
         "end_date": "2026-10-24",
         "tracked_days": 6,
-        "active_days": 5
+        "active_days": 6
       },
       "metrics": {
         "commits": 45,
-        "prs_opened": 52,
+        "prs_opened": 53,
         "issues_created": 39,
         "issues_completed": 7,
-        "activity_total": 143
+        "activity_total": 144
       },
-      "generated_at": "2026-10-24T00:50:37+09:00"
+      "generated_at": "2026-10-24T19:06:19+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -117,16 +162,16 @@
         "start_date": "2026-10-01",
         "end_date": "2026-10-24",
         "tracked_days": 24,
-        "active_days": 19
+        "active_days": 20
       },
       "metrics": {
         "commits": 178,
-        "prs_opened": 210,
+        "prs_opened": 211,
         "issues_created": 120,
         "issues_completed": 27,
-        "activity_total": 535
+        "activity_total": 536
       },
-      "generated_at": "2026-10-24T00:50:37+09:00"
+      "generated_at": "2026-10-24T19:06:19+09:00"
     },
     "achievements": [
       {
@@ -174,28 +219,28 @@
     "year": 2026,
     "yearly": {
       "tracked_days": 61,
-      "active_days": 51,
+      "active_days": 52,
       "first_date": "2026-08-25",
       "last_date": "2026-10-24",
       "metrics": {
         "commits": 1917,
-        "prs_opened": 469,
+        "prs_opened": 470,
         "issues_created": 231,
         "issues_completed": 107,
-        "activity_total": 2724
+        "activity_total": 2725
       }
     },
     "lifetime": {
       "tracked_days": 61,
-      "active_days": 51,
+      "active_days": 52,
       "first_date": "2026-08-25",
       "last_date": "2026-10-24",
       "metrics": {
         "commits": 1917,
-        "prs_opened": 469,
+        "prs_opened": 470,
         "issues_created": 231,
         "issues_completed": 107,
-        "activity_total": 2724
+        "activity_total": 2725
       }
     }
   }
