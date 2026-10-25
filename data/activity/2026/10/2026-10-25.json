@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 7,
-    "prs_opened": 3,
+    "commits": 9,
+    "prs_opened": 4,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "不在Minecraftコンテナを安全にスキップする (#161)  * fix(backups): distinguish absent containers from Docker fail",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/2bfa5424e8fa5e27b3e1d6058aa882effce33790",
+      "at": "2026-10-25T16:38:22.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "バックアップ内のRCON設定をサニタイズする (#160)  * fix(backups): sanitize archived RCON configuration  * fix(backu",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/7fb0efdf83c35a0002a315ed5a33d6b7b55dd9b8",
+      "at": "2026-10-25T16:28:58.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
@@ -31,21 +45,7 @@
       "title": "docs(backups): synchronize completed production status",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commit/7cb303db1a9f5b2cc13476cb83f8dcae95c576b8",
       "at": "2026-10-25T11:02:14.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "docs(backups): record production rollout and align migration history",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/7e4b0630ea852065ee3b30d611cb15c92384eb47",
-      "at": "2026-10-25T10:58:29.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Merge pull request #158 from ivRooom/codex/backup-policy-lifecycle  fix(backups): 停止予定targetのAge",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/6949f605d2236bdcaf635718a290feca67084385",
-      "at": "2026-10-25T10:55:05.000+09:00"
     }
   ],
-  "generated_at": "2026-10-25T13:29:53+09:00"
+  "generated_at": "2026-10-25T18:20:48+09:00"
 }
