@@ -6,10 +6,18 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 0,
+    "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-10-26T01:32:20+09:00"
+  "activity": [
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #549 Monitor dedicated PostgreSQL complete manifests alongside existing Herta backups",
+      "url": "https://github.com/ivRooom/Herta/pull/549",
+      "at": "2026-10-25T21:08:56Z"
+    }
+  ],
+  "generated_at": "2026-10-26T07:06:07+09:00"
 }
