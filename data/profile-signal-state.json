@@ -7,7 +7,7 @@
   "status": {
     "label": "RECENTLY ACTIVE",
     "symbol": "◐",
-    "last_activity_at": "2026-10-25T07:41:14Z"
+    "last_activity_at": "2026-10-25T16:38:22.000+09:00"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,16 +17,11 @@
   "activity_total": 13,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 32,
-    "events": 20,
-    "last_activity_at": "2026-10-25T07:41:14Z",
+    "score": 5,
+    "events": 5,
+    "last_activity_at": "2026-10-25T16:38:22.000+09:00",
     "share": 100,
-    "stack": [
-      "TypeScript",
-      "PLpgSQL",
-      "CSS",
-      "Python"
-    ]
+    "stack": []
   },
   "dev_pulse": [
     {
@@ -82,26 +77,26 @@
   "now_building": [
     {
       "repo": "ivRooom/ivrm-dashboard",
-      "score": 32,
-      "events": 20,
-      "last_activity_at": "2026-10-25T07:41:14Z",
+      "score": 5,
+      "events": 5,
+      "last_activity_at": "2026-10-25T16:38:22.000+09:00",
       "share": 100,
       "ci": {
-        "label": "PASSING",
-        "symbol": "●",
+        "label": "NO SIGNAL",
+        "symbol": "○",
         "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 10,
-        "passed": 10,
+        "total_runs": 0,
+        "evaluated": 0,
+        "passed": 0,
         "failed": 0,
         "ignored": 0,
-        "pass_rate": 100,
-        "latest_conclusion": "success"
+        "pass_rate": null,
+        "latest_conclusion": null
       },
       "health": {
-        "label": "HEALTHY",
+        "label": "ACTIVE",
         "symbol": "●",
-        "reason": "active with passing recent CI"
+        "reason": "active; no evaluated CI signal"
       }
     }
   ],
@@ -109,43 +104,43 @@
     {
       "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to main",
+      "title": "1 commit pushed",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-10-25T07:38:24Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #161",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-10-25T07:38:23Z"
+      "at": "2026-10-25T16:38:22.000+09:00"
     },
     {
       "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to codex/backup-handle-absent-containers",
+      "title": "1 commit pushed",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-10-25T07:36:37Z"
+      "at": "2026-10-25T16:28:58.000+09:00"
     },
     {
-      "label": "PR",
+      "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #161",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-10-25T07:33:35Z"
+      "title": "1 commit pushed",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-10-25T11:15:31.000+09:00"
+    },
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "1 commit pushed",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-10-25T11:04:33.000+09:00"
     }
   ],
-  "generated_at": "2026-10-25T18:20:48+09:00",
+  "generated_at": "2026-10-25T20:44:09+09:00",
   "ci_signal": {
-    "label": "PASSING",
-    "symbol": "●",
+    "label": "NO SIGNAL",
+    "symbol": "○",
     "window_days": 7,
-    "evaluated": 10,
-    "passed": 10,
+    "evaluated": 0,
+    "passed": 0,
     "failed": 0,
     "ignored": 0,
-    "pass_rate": 100,
-    "repos_with_signal": 1
+    "pass_rate": null,
+    "repos_with_signal": 0
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
