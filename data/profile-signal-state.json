@@ -1,41 +1,22 @@
 {
   "schema_version": 4,
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "timezone": "Asia/Tokyo",
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "BUILDING",
-    "symbol": "●",
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
     "last_activity_at": "2026-10-25T13:16:07Z"
   },
   "code_weather": {
-    "label": "ACTIVE",
-    "icon": "🌤️"
+    "label": "REST DAY",
+    "icon": "🌙"
   },
-  "streak": 14,
-  "activity_total": 13,
-  "current_focus": {
-    "repo": "ivRooom/ivrm-dashboard",
-    "score": 37,
-    "events": 25,
-    "last_activity_at": "2026-10-25T07:41:14Z",
-    "share": 97,
-    "stack": [
-      "TypeScript",
-      "PLpgSQL",
-      "CSS",
-      "Python"
-    ]
-  },
+  "streak": 0,
+  "activity_total": 0,
+  "current_focus": null,
   "dev_pulse": [
-    {
-      "date": "2026-10-19",
-      "total": 50,
-      "commits": 8,
-      "prs": 14,
-      "issues": 28
-    },
     {
       "date": "2026-10-20",
       "total": 56,
@@ -77,125 +58,54 @@
       "commits": 9,
       "prs": 4,
       "issues": 0
+    },
+    {
+      "date": "2026-10-26",
+      "total": 0,
+      "commits": 0,
+      "prs": 0,
+      "issues": 0
     }
   ],
-  "now_building": [
-    {
-      "repo": "ivRooom/ivrm-dashboard",
-      "score": 37,
-      "events": 25,
-      "last_activity_at": "2026-10-25T07:41:14Z",
-      "share": 97,
-      "ci": {
-        "label": "PASSING",
-        "symbol": "●",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 10,
-        "passed": 10,
-        "failed": 0,
-        "ignored": 0,
-        "pass_rate": 100,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "HEALTHY",
-        "symbol": "●",
-        "reason": "active with passing recent CI"
-      }
-    },
-    {
-      "repo": "ivRooom/Herta",
-      "score": 1,
-      "events": 1,
-      "last_activity_at": "2026-10-25T13:16:07Z",
-      "share": 3,
-      "ci": {
-        "label": "PASSING",
-        "symbol": "●",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 8,
-        "passed": 8,
-        "failed": 0,
-        "ignored": 2,
-        "pass_rate": 100,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "HEALTHY",
-        "symbol": "●",
-        "reason": "active with passing recent CI"
-      }
-    }
-  ],
-  "activity_stream": [
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to main",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-10-25T07:38:24Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #161",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-10-25T07:38:23Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to codex/backup-handle-absent-containers",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-10-25T07:36:37Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #161",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-10-25T07:33:35Z"
-    }
-  ],
-  "generated_at": "2026-10-25T22:47:49+09:00",
+  "now_building": [],
+  "activity_stream": [],
+  "generated_at": "2026-10-26T01:32:20+09:00",
   "ci_signal": {
-    "label": "PASSING",
-    "symbol": "●",
+    "label": "NO SIGNAL",
+    "symbol": "○",
     "window_days": 7,
-    "evaluated": 18,
-    "passed": 18,
+    "evaluated": 0,
+    "passed": 0,
     "failed": 0,
-    "ignored": 2,
-    "pass_rate": 100,
-    "repos_with_signal": 2
+    "ignored": 0,
+    "pass_rate": null,
+    "repos_with_signal": 0
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
-    "tracked_days": 62,
+    "tracked_days": 63,
     "active_days": 53,
     "longest_streak": 18,
     "weekly": {
       "schema_version": 1,
-      "period": "2026-W43",
+      "period": "2026-W44",
       "timezone": "Asia/Tokyo",
       "scope": "public",
       "github_login": "mizzz-ivr",
       "coverage": {
-        "start_date": "2026-10-19",
-        "end_date": "2026-10-25",
-        "tracked_days": 7,
-        "active_days": 7
+        "start_date": "2026-10-26",
+        "end_date": "2026-10-26",
+        "tracked_days": 1,
+        "active_days": 0
       },
       "metrics": {
-        "commits": 54,
-        "prs_opened": 57,
-        "issues_created": 39,
-        "issues_completed": 7,
-        "activity_total": 157
+        "commits": 0,
+        "prs_opened": 0,
+        "issues_created": 0,
+        "issues_completed": 0,
+        "activity_total": 0
       },
-      "generated_at": "2026-10-25T18:20:48+09:00"
+      "generated_at": "2026-10-26T01:32:20+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -205,8 +115,8 @@
       "github_login": "mizzz-ivr",
       "coverage": {
         "start_date": "2026-10-01",
-        "end_date": "2026-10-25",
-        "tracked_days": 25,
+        "end_date": "2026-10-26",
+        "tracked_days": 26,
         "active_days": 21
       },
       "metrics": {
@@ -216,7 +126,7 @@
         "issues_completed": 27,
         "activity_total": 549
       },
-      "generated_at": "2026-10-25T18:20:48+09:00"
+      "generated_at": "2026-10-26T01:32:20+09:00"
     },
     "achievements": [
       {
@@ -263,10 +173,10 @@
   "tracked_summary": {
     "year": 2026,
     "yearly": {
-      "tracked_days": 62,
+      "tracked_days": 63,
       "active_days": 53,
       "first_date": "2026-08-25",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "metrics": {
         "commits": 1926,
         "prs_opened": 474,
@@ -276,10 +186,10 @@
       }
     },
     "lifetime": {
-      "tracked_days": 62,
+      "tracked_days": 63,
       "active_days": 53,
       "first_date": "2026-08-25",
-      "last_date": "2026-10-25",
+      "last_date": "2026-10-26",
       "metrics": {
         "commits": 1926,
         "prs_opened": 474,
