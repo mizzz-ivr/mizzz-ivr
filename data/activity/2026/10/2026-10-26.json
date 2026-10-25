@@ -5,19 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 1,
-    "issues_created": 0,
+    "commits": 2,
+    "prs_opened": 4,
+    "issues_created": 1,
     "issues_completed": 0
   },
   "activity": [
     {
-      "type": "pr",
+      "type": "commit",
+      "repo": "ivRooom/ivrm-minecraft-activity",
+      "title": "docs: mark legacy Fabric design and map canonical Minecraft ownership (#12)",
+      "url": "https://github.com/ivRooom/ivrm-minecraft-activity/commit/afabe3b9371670a80232f5a8fd943860c7bbde6b",
+      "at": "2026-10-26T08:10:26.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "docs: distinguish implemented AI API from unfulfilled production deployment (#43)",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/b65a1eac4c3be07e53de842c7bfd8ddd11b445d4",
+      "at": "2026-10-26T08:02:25.000+09:00"
+    },
+    {
+      "type": "issue",
       "repo": "ivRooom/Herta",
-      "title": "PR #549 Monitor dedicated PostgreSQL complete manifests alongside existing Herta backups",
-      "url": "https://github.com/ivRooom/Herta/pull/549",
-      "at": "2026-10-25T21:08:56Z"
+      "title": "Issue #551 ci(security): Grype High/Critical本番イメージ検査失敗を調査・修正する",
+      "url": "https://github.com/ivRooom/Herta/issues/551",
+      "at": "2026-10-25T23:13:44Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-minecraft-activity",
+      "title": "PR #12 docs: Fabric旧仕様を移行元と明記し現行Minecraft責務へ対応付ける",
+      "url": "https://github.com/ivRooom/ivrm-minecraft-activity/pull/12",
+      "at": "2026-10-25T23:05:09Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "PR #43 docs: ivrm-aiの実装済みAPIと未公開・未移行の状態を整合",
+      "url": "https://github.com/ivRooom/ivrm-ai/pull/43",
+      "at": "2026-10-25T22:58:26Z"
     }
   ],
-  "generated_at": "2026-10-26T07:06:07+09:00"
+  "generated_at": "2026-10-26T08:19:45+09:00"
 }
