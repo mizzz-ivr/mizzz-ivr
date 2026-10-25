@@ -5,19 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 1,
+    "commits": 7,
+    "prs_opened": 3,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
     {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR #158 fix(backups): 停止予定targetのAge通知を期限付きで抑制し運用手順を整備",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/158",
-      "at": "2026-10-24T16:19:40Z"
+      "title": "Minecraftバックアップの証跡・秘密情報除外・運用手順を強化する (#157)  * feat(backups): harden Minecraft backup evidence an",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/fa8dedb6a6d9aad47fe82a029883f9325629b7c1",
+      "at": "2026-10-25T11:15:31.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Merge pull request #159 from ivRooom/codex/backup-age-production-record  docs(backups): 本番適用記録とm",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/0dccf3b0f7c3a1cb58bf92c6a12396f2526dc82b",
+      "at": "2026-10-25T11:04:33.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "docs(backups): synchronize completed production status",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/7cb303db1a9f5b2cc13476cb83f8dcae95c576b8",
+      "at": "2026-10-25T11:02:14.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "docs(backups): record production rollout and align migration history",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/7e4b0630ea852065ee3b30d611cb15c92384eb47",
+      "at": "2026-10-25T10:58:29.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Merge pull request #158 from ivRooom/codex/backup-policy-lifecycle  fix(backups): 停止予定targetのAge",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/6949f605d2236bdcaf635718a290feca67084385",
+      "at": "2026-10-25T10:55:05.000+09:00"
     }
   ],
-  "generated_at": "2026-10-25T04:37:31+09:00"
+  "generated_at": "2026-10-25T13:29:53+09:00"
 }

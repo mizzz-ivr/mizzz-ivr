@@ -5,21 +5,21 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "OFFLINE",
-    "symbol": "○",
-    "last_activity_at": "2026-10-24T16:20:54Z"
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
+    "last_activity_at": "2026-10-25T02:17:13Z"
   },
   "code_weather": {
-    "label": "LIGHT CODING",
-    "icon": "☁️"
+    "label": "ACTIVE",
+    "icon": "🌤️"
   },
   "streak": 14,
-  "activity_total": 1,
+  "activity_total": 10,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 7,
-    "events": 4,
-    "last_activity_at": "2026-10-24T16:20:54Z",
+    "score": 21,
+    "events": 12,
+    "last_activity_at": "2026-10-25T02:17:13Z",
     "share": 100,
     "stack": [
       "TypeScript",
@@ -73,18 +73,18 @@
     },
     {
       "date": "2026-10-25",
-      "total": 1,
-      "commits": 0,
-      "prs": 1,
+      "total": 10,
+      "commits": 7,
+      "prs": 3,
       "issues": 0
     }
   ],
   "now_building": [
     {
       "repo": "ivRooom/ivrm-dashboard",
-      "score": 7,
-      "events": 4,
-      "last_activity_at": "2026-10-24T16:20:54Z",
+      "score": 21,
+      "events": 12,
+      "last_activity_at": "2026-10-25T02:17:13Z",
       "share": 100,
       "ci": {
         "label": "PASSING",
@@ -107,35 +107,35 @@
   ],
   "activity_stream": [
     {
-      "label": "PUSH",
+      "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to codex/backup-policy-lifecycle",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-10-24T16:20:54Z"
+      "title": "Opened PR #160",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-10-25T02:17:13Z"
     },
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #158",
+      "title": "PR merged #157",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-10-24T16:19:40Z"
+      "at": "2026-10-25T02:15:32Z"
     },
     {
       "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "1 commit pushed to codex/backup-policy-lifecycle",
+      "title": "1 commit pushed to codex/backup-hardening-runbook",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
-      "at": "2026-10-24T16:19:22Z"
+      "at": "2026-10-25T02:13:31Z"
     },
     {
-      "label": "CREATE",
+      "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Created branch codex/backup-policy-lifecycle",
+      "title": "PR merged #159",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-10-24T16:19:00Z"
+      "at": "2026-10-25T02:04:34Z"
     }
   ],
-  "generated_at": "2026-10-25T09:00:06+09:00",
+  "generated_at": "2026-10-25T13:29:53+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
@@ -165,13 +165,13 @@
         "active_days": 7
       },
       "metrics": {
-        "commits": 45,
-        "prs_opened": 54,
+        "commits": 52,
+        "prs_opened": 56,
         "issues_created": 39,
         "issues_completed": 7,
-        "activity_total": 145
+        "activity_total": 154
       },
-      "generated_at": "2026-10-25T04:37:31+09:00"
+      "generated_at": "2026-10-25T13:29:53+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -186,13 +186,13 @@
         "active_days": 21
       },
       "metrics": {
-        "commits": 178,
-        "prs_opened": 212,
+        "commits": 185,
+        "prs_opened": 214,
         "issues_created": 120,
         "issues_completed": 27,
-        "activity_total": 537
+        "activity_total": 546
       },
-      "generated_at": "2026-10-25T04:37:31+09:00"
+      "generated_at": "2026-10-25T13:29:53+09:00"
     },
     "achievements": [
       {
@@ -244,11 +244,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-10-25",
       "metrics": {
-        "commits": 1917,
-        "prs_opened": 471,
+        "commits": 1924,
+        "prs_opened": 473,
         "issues_created": 231,
         "issues_completed": 107,
-        "activity_total": 2726
+        "activity_total": 2735
       }
     },
     "lifetime": {
@@ -257,11 +257,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-10-25",
       "metrics": {
-        "commits": 1917,
-        "prs_opened": 471,
+        "commits": 1924,
+        "prs_opened": 473,
         "issues_created": 231,
         "issues_completed": 107,
-        "activity_total": 2726
+        "activity_total": 2735
       }
     }
   }
