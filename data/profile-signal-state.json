@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-10-25T23:13:45Z"
+    "last_activity_at": "2026-10-25T23:56:35Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,10 +17,10 @@
   "activity_total": 7,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 19,
-    "events": 12,
-    "last_activity_at": "2026-10-25T23:13:45Z",
-    "share": 63,
+    "score": 20,
+    "events": 13,
+    "last_activity_at": "2026-10-25T23:55:41Z",
+    "share": 36,
     "stack": [
       "TypeScript",
       "Shell",
@@ -155,35 +155,35 @@
   ],
   "activity_stream": [
     {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Issue labeled #551",
-      "url": "https://github.com/ivRooom/Herta/issues/551",
-      "at": "2026-10-25T23:13:45Z"
+      "label": "PR",
+      "repo": "ivRooom/ivrm-help",
+      "title": "PR merged #26",
+      "url": "https://github.com/ivRooom/ivrm-help",
+      "at": "2026-10-25T23:50:53Z"
     },
     {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Opened issue #551",
-      "url": "https://github.com/ivRooom/Herta/issues/551",
-      "at": "2026-10-25T23:13:45Z"
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-help",
+      "title": "1 commit pushed to docs/help-requirements-release-controls-20261026",
+      "url": "https://github.com/ivRooom/ivrm-help/commits",
+      "at": "2026-10-25T23:48:04Z"
     },
     {
       "label": "PR",
-      "repo": "ivRooom/ivrm-minecraft-activity",
-      "title": "PR merged #12",
-      "url": "https://github.com/ivRooom/ivrm-minecraft-activity",
-      "at": "2026-10-25T23:10:26Z"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Opened PR #162",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-10-25T23:47:04Z"
     },
     {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-minecraft-activity",
-      "title": "Opened PR #12",
-      "url": "https://github.com/ivRooom/ivrm-minecraft-activity",
-      "at": "2026-10-25T23:05:09Z"
+      "label": "CREATE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Created branch docs/dashboard-system-specifications-20261026",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-10-25T23:47:02Z"
     }
   ],
-  "generated_at": "2026-10-26T08:19:45+09:00",
+  "generated_at": "2026-10-26T09:18:38+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
