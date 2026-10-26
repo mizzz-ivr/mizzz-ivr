@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 2,
-    "prs_opened": 4,
+    "commits": 4,
+    "prs_opened": 8,
     "issues_created": 1,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-help",
+      "title": "docs: Help Center要件・構成・業務フロー・運用/テスト/受入を整備 (#26)  * docs: add help center requirements, release c",
+      "url": "https://github.com/ivRooom/ivrm-help/commit/66743f6966ac3931f96cd8e782573cac249b1c47",
+      "at": "2026-10-26T08:50:53.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "docs: align status API history, SQLite schema and operational test gates (#58)",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/f5bc5933f1ba35c720e0253955d46c9f0e8d5e92",
+      "at": "2026-10-26T08:41:14.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-minecraft-activity",
@@ -26,26 +40,12 @@
       "at": "2026-10-26T08:02:25.000+09:00"
     },
     {
-      "type": "issue",
+      "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "Issue #551 ci(security): Grype High/Critical本番イメージ検査失敗を調査・修正する",
-      "url": "https://github.com/ivRooom/Herta/issues/551",
-      "at": "2026-10-25T23:13:44Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/ivrm-minecraft-activity",
-      "title": "PR #12 docs: Fabric旧仕様を移行元と明記し現行Minecraft責務へ対応付ける",
-      "url": "https://github.com/ivRooom/ivrm-minecraft-activity/pull/12",
-      "at": "2026-10-25T23:05:09Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "PR #43 docs: ivrm-aiの実装済みAPIと未公開・未移行の状態を整合",
-      "url": "https://github.com/ivRooom/ivrm-ai/pull/43",
-      "at": "2026-10-25T22:58:26Z"
+      "title": "PR #553 Fix inherited High/Critical dependency findings and migrate validation to native Zod4",
+      "url": "https://github.com/ivRooom/Herta/pull/553",
+      "at": "2026-10-26T02:09:10Z"
     }
   ],
-  "generated_at": "2026-10-26T08:19:45+09:00"
+  "generated_at": "2026-10-26T13:57:24+09:00"
 }
