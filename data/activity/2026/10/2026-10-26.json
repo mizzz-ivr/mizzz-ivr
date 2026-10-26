@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 4,
-    "prs_opened": 8,
-    "issues_created": 1,
-    "issues_completed": 0
+    "commits": 8,
+    "prs_opened": 10,
+    "issues_created": 2,
+    "issues_completed": 2
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "Monitor dedicated PostgreSQL complete manifests alongside existing Herta backups (#549)  * Monit",
+      "url": "https://github.com/ivRooom/Herta/commit/49e1e4fba26c8502d5a742d8e5ce1f510958e273",
+      "at": "2026-10-26T16:51:03.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "Fix High and Critical dependency resolutions with native Zod4 compatibility (#553)",
+      "url": "https://github.com/ivRooom/Herta/commit/34330175d9beebdef617f661a9e7bf6ef608ed88",
+      "at": "2026-10-26T16:14:24.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): MBTI共有リンクに結果ごとのOGPと動的サムネ画像を出す (#555)  - /mbti/result を generateMetadata 化し、タイプ・タイプ",
+      "url": "https://github.com/ivRooom/Herta/commit/8629e9ea2a13eefa65cb8b1234b40456db0caa87",
+      "at": "2026-10-26T15:07:07.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "feat(web): チャット UI(会話・プロジェクト・アーカイブ・ストリーミング表示) (#20) (#42)  * feat(web): チャット UI(会話・プロジェクト・アーカイブ・",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/34c8b63e49b757908816edb17038e29be2db00de",
+      "at": "2026-10-26T15:07:05.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-help",
       "title": "docs: Help Center要件・構成・業務フロー・運用/テスト/受入を整備 (#26)  * docs: add help center requirements, release c",
       "url": "https://github.com/ivRooom/ivrm-help/commit/66743f6966ac3931f96cd8e782573cac249b1c47",
       "at": "2026-10-26T08:50:53.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-status",
-      "title": "docs: align status API history, SQLite schema and operational test gates (#58)",
-      "url": "https://github.com/ivRooom/ivrm-status/commit/f5bc5933f1ba35c720e0253955d46c9f0e8d5e92",
-      "at": "2026-10-26T08:41:14.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-minecraft-activity",
-      "title": "docs: mark legacy Fabric design and map canonical Minecraft ownership (#12)",
-      "url": "https://github.com/ivRooom/ivrm-minecraft-activity/commit/afabe3b9371670a80232f5a8fd943860c7bbde6b",
-      "at": "2026-10-26T08:10:26.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "docs: distinguish implemented AI API from unfulfilled production deployment (#43)",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/b65a1eac4c3be07e53de842c7bfd8ddd11b445d4",
-      "at": "2026-10-26T08:02:25.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #553 Fix inherited High/Critical dependency findings and migrate validation to native Zod4",
-      "url": "https://github.com/ivRooom/Herta/pull/553",
-      "at": "2026-10-26T02:09:10Z"
     }
   ],
-  "generated_at": "2026-10-26T13:57:24+09:00"
+  "generated_at": "2026-10-26T19:59:22+09:00"
 }
