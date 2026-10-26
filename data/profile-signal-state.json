@@ -5,17 +5,29 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-10-26T14:33:30Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-10-26T20:26:51Z"
   },
   "code_weather": {
     "label": "REST DAY",
     "icon": "🌙"
   },
-  "streak": 0,
+  "streak": 16,
   "activity_total": 0,
-  "current_focus": null,
+  "current_focus": {
+    "repo": "ivRooom/Herta",
+    "score": 1,
+    "events": 1,
+    "last_activity_at": "2026-10-26T20:26:51Z",
+    "share": 100,
+    "stack": [
+      "TypeScript",
+      "Shell",
+      "CSS",
+      "Python"
+    ]
+  },
   "dev_pulse": [
     {
       "date": "2026-10-21",
@@ -67,19 +79,44 @@
       "issues": 0
     }
   ],
-  "now_building": [],
+  "now_building": [
+    {
+      "repo": "ivRooom/Herta",
+      "score": 1,
+      "events": 1,
+      "last_activity_at": "2026-10-26T20:26:51Z",
+      "share": 100,
+      "ci": {
+        "label": "PASSING",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 9,
+        "passed": 9,
+        "failed": 0,
+        "ignored": 1,
+        "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
+    }
+  ],
   "activity_stream": [],
-  "generated_at": "2026-10-27T02:16:46+09:00",
+  "generated_at": "2026-10-27T05:34:51+09:00",
   "ci_signal": {
-    "label": "NO SIGNAL",
-    "symbol": "○",
+    "label": "PASSING",
+    "symbol": "●",
     "window_days": 7,
-    "evaluated": 0,
-    "passed": 0,
+    "evaluated": 9,
+    "passed": 9,
     "failed": 0,
-    "ignored": 0,
-    "pass_rate": null,
-    "repos_with_signal": 0
+    "ignored": 1,
+    "pass_rate": 100,
+    "repos_with_signal": 1
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
