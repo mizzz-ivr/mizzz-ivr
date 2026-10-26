@@ -6,9 +6,9 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 10,
-    "prs_opened": 12,
-    "issues_created": 2,
-    "issues_completed": 2
+    "prs_opened": 16,
+    "issues_created": 5,
+    "issues_completed": 3
   },
   "activity": [
     {
@@ -47,5 +47,5 @@
       "at": "2026-10-26T15:07:07.000+09:00"
     }
   ],
-  "generated_at": "2026-10-26T22:16:22+09:00"
+  "generated_at": "2026-10-27T02:16:46+09:00"
 }
