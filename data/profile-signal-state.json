@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-10-26T20:26:51Z"
+    "last_activity_at": "2026-10-26T21:15:55Z"
   },
   "code_weather": {
     "label": "REST DAY",
@@ -17,9 +17,9 @@
   "activity_total": 0,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 1,
-    "events": 1,
-    "last_activity_at": "2026-10-26T20:26:51Z",
+    "score": 3,
+    "events": 3,
+    "last_activity_at": "2026-10-26T21:15:55Z",
     "share": 100,
     "stack": [
       "TypeScript",
@@ -82,9 +82,9 @@
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 1,
-      "events": 1,
-      "last_activity_at": "2026-10-26T20:26:51Z",
+      "score": 3,
+      "events": 3,
+      "last_activity_at": "2026-10-26T21:15:55Z",
       "share": 100,
       "ci": {
         "label": "PASSING",
@@ -106,7 +106,7 @@
     }
   ],
   "activity_stream": [],
-  "generated_at": "2026-10-27T05:34:51+09:00",
+  "generated_at": "2026-10-27T06:40:51+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
