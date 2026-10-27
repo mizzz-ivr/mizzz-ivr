@@ -5,11 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
-    "issues_created": 0,
-    "issues_completed": 0
+    "commits": 6,
+    "prs_opened": 2,
+    "issues_created": 1,
+    "issues_completed": 3
   },
-  "activity": [],
-  "generated_at": "2026-10-27T02:16:46+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "専用DBへ証明書検証つきTLSで接続し、migrationはmigrator roleで実行する (#45)  * feat(models): 管理画面向けにモデルのカタログを返す API を",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/bb64a98905e7462d8f0783183adb357eafa6a5a1",
+      "at": "2026-10-27T08:00:09.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(vc-recap): 同意者の文字起こし本文を30日間保存しStudioで確認できるようにする (#562) (#565)",
+      "url": "https://github.com/ivRooom/Herta/commit/3d28f3916314b7182559b8c82bf58d582fe4ba6c",
+      "at": "2026-10-27T07:49:22.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "feat(models): 管理画面向けにモデルのカタログを返す API を追加 (#35) (#44)  GET /api/admin/models は、価格が未検証のモデルも含めたカタログ",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/e4e0a7a9f0d64b6baaf2eaa150f774440444b691",
+      "at": "2026-10-27T07:42:34.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): VC Recapの要約履歴を日付ごとのタイムラインで表示する (#564)  セッションをJSTの日付ごとにまとめ、開始〜終了時刻と通話時間を添えて縦のタイムライン",
+      "url": "https://github.com/ivRooom/Herta/commit/bf0a2347cadf89e497207f9d49bbeae3292f2678",
+      "at": "2026-10-27T07:28:37.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(vc-recap): stop時に発話中の音声を流し切ってから要約する (#563)  * fix(vc-recap): stop時に発話中の音声を流し切ってから要約する (#561)",
+      "url": "https://github.com/ivRooom/Herta/commit/0cd52e424dac1f133e2716fa04454a26e431c5bd",
+      "at": "2026-10-27T07:28:33.000+09:00"
+    }
+  ],
+  "generated_at": "2026-10-27T09:33:12+09:00"
 }
