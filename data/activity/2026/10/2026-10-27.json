@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 6,
-    "prs_opened": 2,
+    "commits": 8,
+    "prs_opened": 3,
     "issues_created": 1,
     "issues_completed": 3
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(studio): モバイルのハンバーガーメニューが開かない問題を直す (#567)  モバイルheaderのbackdrop-blur(backdrop-filter)がfixed子孫",
+      "url": "https://github.com/ivRooom/Herta/commit/f5076e1bcb766b3d36e4fa358ca48800c6e797a6",
+      "at": "2026-10-27T14:35:06.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(deploy): prepare guarded external PostgreSQL topology (#568)  * feat(deploy): prepare guard",
+      "url": "https://github.com/ivRooom/Herta/commit/e0bc8614d4269d5874309dcd414b3114fa5528a6",
+      "at": "2026-10-27T12:04:33.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-ai",
@@ -31,21 +45,7 @@
       "title": "feat(models): 管理画面向けにモデルのカタログを返す API を追加 (#35) (#44)  GET /api/admin/models は、価格が未検証のモデルも含めたカタログ",
       "url": "https://github.com/ivRooom/ivrm-ai/commit/e4e0a7a9f0d64b6baaf2eaa150f774440444b691",
       "at": "2026-10-27T07:42:34.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(studio): VC Recapの要約履歴を日付ごとのタイムラインで表示する (#564)  セッションをJSTの日付ごとにまとめ、開始〜終了時刻と通話時間を添えて縦のタイムライン",
-      "url": "https://github.com/ivRooom/Herta/commit/bf0a2347cadf89e497207f9d49bbeae3292f2678",
-      "at": "2026-10-27T07:28:37.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(vc-recap): stop時に発話中の音声を流し切ってから要約する (#563)  * fix(vc-recap): stop時に発話中の音声を流し切ってから要約する (#561)",
-      "url": "https://github.com/ivRooom/Herta/commit/0cd52e424dac1f133e2716fa04454a26e431c5bd",
-      "at": "2026-10-27T07:28:33.000+09:00"
     }
   ],
-  "generated_at": "2026-10-27T09:33:12+09:00"
+  "generated_at": "2026-10-27T14:53:03+09:00"
 }
