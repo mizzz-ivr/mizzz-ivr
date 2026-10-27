@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
+    "label": "OFFLINE",
+    "symbol": "○",
     "last_activity_at": "2026-10-27T05:35:07Z"
   },
   "code_weather": {
@@ -17,10 +17,10 @@
   "activity_total": 15,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 38,
-    "events": 27,
+    "score": 41,
+    "events": 30,
     "last_activity_at": "2026-10-27T05:35:07Z",
-    "share": 64,
+    "share": 66,
     "stack": [
       "TypeScript",
       "Shell",
@@ -82,10 +82,10 @@
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 38,
-      "events": 27,
+      "score": 41,
+      "events": 30,
       "last_activity_at": "2026-10-27T05:35:07Z",
-      "share": 64,
+      "share": 66,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -109,7 +109,7 @@
       "score": 21,
       "events": 16,
       "last_activity_at": "2026-10-26T23:00:11Z",
-      "share": 36,
+      "share": 34,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -145,21 +145,21 @@
       "at": "2026-10-27T03:04:33Z"
     },
     {
-      "label": "PR",
+      "label": "PUSH",
       "repo": "ivRooom/Herta",
-      "title": "Opened PR #568",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-10-27T02:23:34Z"
+      "title": "1 commit pushed to codex/external-postgresql-adapter",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-10-27T02:42:27Z"
     },
     {
-      "label": "PR",
+      "label": "PUSH",
       "repo": "ivRooom/Herta",
-      "title": "PR assigned #567",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-10-26T23:17:51Z"
+      "title": "1 commit pushed to codex/external-postgresql-adapter",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-10-27T02:24:10Z"
     }
   ],
-  "generated_at": "2026-10-27T18:08:30+09:00",
+  "generated_at": "2026-10-27T20:35:42+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
