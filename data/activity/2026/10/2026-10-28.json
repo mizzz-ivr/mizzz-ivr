@@ -5,11 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
+    "commits": 3,
+    "prs_opened": 3,
     "issues_created": 0,
-    "issues_completed": 0
+    "issues_completed": 3
   },
-  "activity": [],
-  "generated_at": "2026-10-28T00:25:07+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "docs: README の呼べるモデルの記述を直す (#33) (#48)  * feat(models): 管理画面向けにモデルのカタログを返す API を追加 (#35)  GET /a",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/ae46a32a227be4b1b33f387468942c682d200068",
+      "at": "2026-10-28T12:32:26.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "docs: README / AGENTS.md を実装に合わせる (#33) (#47)  * feat(models): 管理画面向けにモデルのカタログを返す API を追加 (#35) ",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/c354af69cd6297349575888ef79f2e1279486b0c",
+      "at": "2026-10-28T12:28:12.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "feat(cost): usage_reservations の月次集計と古い行の削除 (#23) (#46)  * feat(models): 管理画面向けにモデルのカタログを返す API ",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/aebdd8f3ac89da9aee392c92d41b0d28eb9a7dde",
+      "at": "2026-10-28T12:22:34.000+09:00"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Issue #26 Verify: 実 Bedrock での E2E 動作確認(1 往復・ストリーミング・コスト精算)",
+      "url": "https://github.com/ivRooom/ivrm-ai/issues/26",
+      "at": "2026-10-28T05:35:58Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "PR #48 docs: README の呼べるモデルの記述を直す (#33)",
+      "url": "https://github.com/ivRooom/ivrm-ai/pull/48",
+      "at": "2026-10-28T03:28:56Z"
+    }
+  ],
+  "generated_at": "2026-10-28T14:53:42+09:00"
 }
