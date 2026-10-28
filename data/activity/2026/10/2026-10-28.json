@@ -6,7 +6,7 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 3,
-    "prs_opened": 3,
+    "prs_opened": 4,
     "issues_created": 0,
     "issues_completed": 3
   },
@@ -33,19 +33,19 @@
       "at": "2026-10-28T12:22:34.000+09:00"
     },
     {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "PR #49 feat(models): Claude Haiku 5.5(日本の推論プロファイル)の単価を有効にする (#13)",
+      "url": "https://github.com/ivRooom/ivrm-ai/pull/49",
+      "at": "2026-10-28T07:52:46Z"
+    },
+    {
       "type": "done",
       "repo": "ivRooom/ivrm-ai",
       "title": "Issue #26 Verify: 実 Bedrock での E2E 動作確認(1 往復・ストリーミング・コスト精算)",
       "url": "https://github.com/ivRooom/ivrm-ai/issues/26",
       "at": "2026-10-28T05:35:58Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "PR #48 docs: README の呼べるモデルの記述を直す (#33)",
-      "url": "https://github.com/ivRooom/ivrm-ai/pull/48",
-      "at": "2026-10-28T03:28:56Z"
     }
   ],
-  "generated_at": "2026-10-28T14:53:42+09:00"
+  "generated_at": "2026-10-28T22:02:50+09:00"
 }
