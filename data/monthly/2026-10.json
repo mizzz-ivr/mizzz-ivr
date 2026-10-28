@@ -8,14 +8,14 @@
     "start_date": "2026-10-01",
     "end_date": "2026-10-29",
     "tracked_days": 29,
-    "active_days": 24
+    "active_days": 25
   },
   "metrics": {
     "commits": 208,
-    "prs_opened": 238,
-    "issues_created": 126,
+    "prs_opened": 239,
+    "issues_created": 127,
     "issues_completed": 36,
-    "activity_total": 608
+    "activity_total": 610
   },
-  "generated_at": "2026-10-29T03:48:21+09:00"
+  "generated_at": "2026-10-29T07:53:47+09:00"
 }

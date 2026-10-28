@@ -6,10 +6,25 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 0,
-    "issues_created": 0,
+    "prs_opened": 1,
+    "issues_created": 1,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-10-29T03:48:21+09:00"
+  "activity": [
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #570 Prepare server-only common wallet client and migration boundaries",
+      "url": "https://github.com/ivRooom/Herta/pull/570",
+      "at": "2026-10-28T22:12:07Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #569 feat(points): 共通台帳向け獲得outboxとBot・Studio残高参照を実装する",
+      "url": "https://github.com/ivRooom/Herta/issues/569",
+      "at": "2026-10-28T22:07:56Z"
+    }
+  ],
+  "generated_at": "2026-10-29T07:53:47+09:00"
 }
