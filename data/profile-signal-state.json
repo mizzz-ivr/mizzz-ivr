@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "OFFLINE",
-    "symbol": "○",
-    "last_activity_at": "2026-10-27T15:24:56Z"
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
+    "last_activity_at": "2026-10-27T23:10:03Z"
   },
   "code_weather": {
     "label": "REST DAY",
@@ -17,10 +17,10 @@
   "activity_total": 0,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 2,
-    "events": 2,
-    "last_activity_at": "2026-10-27T15:24:56Z",
-    "share": 100,
+    "score": 3,
+    "events": 3,
+    "last_activity_at": "2026-10-27T22:48:56Z",
+    "share": 75,
     "stack": [
       "TypeScript",
       "Shell",
@@ -82,10 +82,34 @@
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 2,
-      "events": 2,
-      "last_activity_at": "2026-10-27T15:24:56Z",
-      "share": 100,
+      "score": 3,
+      "events": 3,
+      "last_activity_at": "2026-10-27T22:48:56Z",
+      "share": 75,
+      "ci": {
+        "label": "PASSING",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 10,
+        "passed": 10,
+        "failed": 0,
+        "ignored": 0,
+        "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
+    },
+    {
+      "repo": "ivRooom/ivrm-ai",
+      "score": 1,
+      "events": 1,
+      "last_activity_at": "2026-10-27T23:10:03Z",
+      "share": 25,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -106,17 +130,17 @@
     }
   ],
   "activity_stream": [],
-  "generated_at": "2026-10-28T07:22:51+09:00",
+  "generated_at": "2026-10-28T09:27:58+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
     "window_days": 7,
-    "evaluated": 10,
-    "passed": 10,
+    "evaluated": 20,
+    "passed": 20,
     "failed": 0,
     "ignored": 0,
     "pass_rate": 100,
-    "repos_with_signal": 1
+    "repos_with_signal": 2
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
