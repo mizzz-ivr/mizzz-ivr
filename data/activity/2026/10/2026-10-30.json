@@ -6,10 +6,18 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 0,
+    "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-10-30T00:28:36+09:00"
+  "activity": [
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #591 fix(security): Herta Node 22.23.4 digest固定と最終コンテナ実バイナリ検査",
+      "url": "https://github.com/ivRooom/Herta/pull/591",
+      "at": "2026-10-29T18:43:05Z"
+    }
+  ],
+  "generated_at": "2026-10-30T05:29:49+09:00"
 }
