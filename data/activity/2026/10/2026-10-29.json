@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 2,
-    "issues_created": 3,
+    "commits": 3,
+    "prs_opened": 5,
+    "issues_created": 22,
     "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-minecraft-activity",
+      "title": "docs: keep historical Fabric links while moving old text to Notion (#14)  * docs: retain stable ",
+      "url": "https://github.com/ivRooom/ivrm-minecraft-activity/commit/1d74b828cbceaafd2f2b8640d7f284fe4c914e9e",
+      "at": "2026-10-29T14:41:52.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "docs: Notion-first Herta index and reconcile AI provider documentation (#575)  * docs: link Hert",
+      "url": "https://github.com/ivRooom/Herta/commit/cdd28e64d6603b64c200876d1383acfbff492f06",
+      "at": "2026-10-29T14:21:56.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -21,31 +35,17 @@
     {
       "type": "issue",
       "repo": "ivRooom/Herta",
-      "title": "Issue #573 Epic: デイリーログインボーナス・記念日配信・受取後の今日の運勢（daily-bonus Plugin β）",
-      "url": "https://github.com/ivRooom/Herta/issues/573",
-      "at": "2026-10-28T23:56:45Z"
-    },
-    {
-      "type": "done",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #571 privacy(vc-recap): 本人の拒否を自動同意ロール・管理者付与より優先し、プライバシー文書を実装に合わせる",
-      "url": "https://github.com/ivRooom/Herta/issues/571",
-      "at": "2026-10-28T23:48:18Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #572 fix(vc-recap): 本人の拒否を自動同意ロール・管理者付与より優先し、プライバシー文書を実装に合わせる",
-      "url": "https://github.com/ivRooom/Herta/pull/572",
-      "at": "2026-10-28T23:13:27Z"
+      "title": "Issue #585 feat(studio/vc-recap): 要約・発言タイムライン・音声の同期再生とS3アーカイブ閲覧を追加する",
+      "url": "https://github.com/ivRooom/Herta/issues/585",
+      "at": "2026-10-29T07:00:03Z"
     },
     {
       "type": "issue",
       "repo": "ivRooom/Herta",
-      "title": "Issue #571 privacy(vc-recap): 本人の拒否を自動同意ロール・管理者付与より優先し、プライバシー文書を実装に合わせる",
-      "url": "https://github.com/ivRooom/Herta/issues/571",
-      "at": "2026-10-28T23:13:02Z"
+      "title": "Issue #584 feat(vc-recap): 180日経過データをS3へ検証付きアーカイブしDBを縮小する",
+      "url": "https://github.com/ivRooom/Herta/issues/584",
+      "at": "2026-10-29T06:59:59Z"
     }
   ],
-  "generated_at": "2026-10-29T10:02:15+09:00"
+  "generated_at": "2026-10-29T17:27:50+09:00"
 }
