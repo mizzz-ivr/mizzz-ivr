@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 3,
-    "prs_opened": 5,
+    "commits": 4,
+    "prs_opened": 7,
     "issues_created": 22,
     "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "docs: reconcile Herta Lightsail deploy runbook with GHCR SHA image workflow (#586)  * docs: alig",
+      "url": "https://github.com/ivRooom/Herta/commit/78bd58dae282c5d333e6fc7c941dbe385b805762",
+      "at": "2026-10-29T18:35:00.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-minecraft-activity",
@@ -26,26 +33,19 @@
       "at": "2026-10-29T14:21:56.000+09:00"
     },
     {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(vc-recap): 本人の拒否を自動同意ロール・管理者付与より優先し、プライバシー文書を実装に合わせる (#572)",
-      "url": "https://github.com/ivRooom/Herta/commit/16c42b3d39dc37f0a42a3f1f4acfd682902bca43",
-      "at": "2026-10-29T08:48:16.000+09:00"
+      "type": "pr",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR #169 feat(security): 既存Discord監査を管理者限定Security Events APIへ投影",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/169",
+      "at": "2026-10-29T09:42:23Z"
     },
     {
-      "type": "issue",
+      "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "Issue #585 feat(studio/vc-recap): 要約・発言タイムライン・音声の同期再生とS3アーカイブ閲覧を追加する",
-      "url": "https://github.com/ivRooom/Herta/issues/585",
-      "at": "2026-10-29T07:00:03Z"
-    },
-    {
-      "type": "issue",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #584 feat(vc-recap): 180日経過データをS3へ検証付きアーカイブしDBを縮小する",
-      "url": "https://github.com/ivRooom/Herta/issues/584",
-      "at": "2026-10-29T06:59:59Z"
+      "title": "PR #586 docs: reconcile Herta Lightsail deploy runbook with GHCR SHA image workflow",
+      "url": "https://github.com/ivRooom/Herta/pull/586",
+      "at": "2026-10-29T09:23:09Z"
     }
   ],
-  "generated_at": "2026-10-29T17:27:50+09:00"
+  "generated_at": "2026-10-29T19:09:46+09:00"
 }
