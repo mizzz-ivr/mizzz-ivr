@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 4,
-    "prs_opened": 7,
-    "issues_created": 22,
+    "commits": 5,
+    "prs_opened": 12,
+    "issues_created": 23,
     "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(valorant): random VC agent assignments and Studio registration (#587)  * feat(valorant): ad",
+      "url": "https://github.com/ivRooom/Herta/commit/4a7533a89b893fea17fda45c2a6d89eff59b5803",
+      "at": "2026-10-29T21:52:07.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -34,18 +41,11 @@
     },
     {
       "type": "pr",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR #169 feat(security): 既存Discord監査を管理者限定Security Events APIへ投影",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/169",
-      "at": "2026-10-29T09:42:23Z"
-    },
-    {
-      "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #586 docs: reconcile Herta Lightsail deploy runbook with GHCR SHA image workflow",
-      "url": "https://github.com/ivRooom/Herta/pull/586",
-      "at": "2026-10-29T09:23:09Z"
+      "title": "PR #590 feat(valorant): Guild別エージェントCRUDとランダム抽選の本番要件を補完",
+      "url": "https://github.com/ivRooom/Herta/pull/590",
+      "at": "2026-10-29T13:37:52Z"
     }
   ],
-  "generated_at": "2026-10-29T19:09:46+09:00"
+  "generated_at": "2026-10-30T00:28:36+09:00"
 }
