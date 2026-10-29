@@ -5,26 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 1,
-    "issues_created": 1,
-    "issues_completed": 0
+    "commits": 1,
+    "prs_opened": 2,
+    "issues_created": 3,
+    "issues_completed": 1
   },
   "activity": [
     {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "PR #570 Prepare server-only common wallet client and migration boundaries",
-      "url": "https://github.com/ivRooom/Herta/pull/570",
-      "at": "2026-10-28T22:12:07Z"
+      "title": "fix(vc-recap): 本人の拒否を自動同意ロール・管理者付与より優先し、プライバシー文書を実装に合わせる (#572)",
+      "url": "https://github.com/ivRooom/Herta/commit/16c42b3d39dc37f0a42a3f1f4acfd682902bca43",
+      "at": "2026-10-29T08:48:16.000+09:00"
     },
     {
       "type": "issue",
       "repo": "ivRooom/Herta",
-      "title": "Issue #569 feat(points): 共通台帳向け獲得outboxとBot・Studio残高参照を実装する",
-      "url": "https://github.com/ivRooom/Herta/issues/569",
-      "at": "2026-10-28T22:07:56Z"
+      "title": "Issue #573 Epic: デイリーログインボーナス・記念日配信・受取後の今日の運勢（daily-bonus Plugin β）",
+      "url": "https://github.com/ivRooom/Herta/issues/573",
+      "at": "2026-10-28T23:56:45Z"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #571 privacy(vc-recap): 本人の拒否を自動同意ロール・管理者付与より優先し、プライバシー文書を実装に合わせる",
+      "url": "https://github.com/ivRooom/Herta/issues/571",
+      "at": "2026-10-28T23:48:18Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #572 fix(vc-recap): 本人の拒否を自動同意ロール・管理者付与より優先し、プライバシー文書を実装に合わせる",
+      "url": "https://github.com/ivRooom/Herta/pull/572",
+      "at": "2026-10-28T23:13:27Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #571 privacy(vc-recap): 本人の拒否を自動同意ロール・管理者付与より優先し、プライバシー文書を実装に合わせる",
+      "url": "https://github.com/ivRooom/Herta/issues/571",
+      "at": "2026-10-28T23:13:02Z"
     }
   ],
-  "generated_at": "2026-10-29T07:53:47+09:00"
+  "generated_at": "2026-10-29T10:02:15+09:00"
 }
