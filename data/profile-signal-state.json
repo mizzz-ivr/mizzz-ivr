@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "BUILDING",
-    "symbol": "●",
-    "last_activity_at": "2026-10-30T10:08:21Z"
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
+    "last_activity_at": "2026-10-30T11:22:45Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -17,10 +17,10 @@
   "activity_total": 26,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 64,
-    "events": 43,
-    "last_activity_at": "2026-10-30T10:08:21Z",
-    "share": 70,
+    "score": 74,
+    "events": 47,
+    "last_activity_at": "2026-10-30T11:22:45Z",
+    "share": 72,
     "stack": [
       "TypeScript",
       "Shell",
@@ -157,33 +157,33 @@
     {
       "label": "PR",
       "repo": "ivRooom/Herta",
+      "title": "Opened PR #599",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-10-30T11:22:45Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "Opened PR #598",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-10-30T11:14:53Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "PR merged #596",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-10-30T10:17:10Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
       "title": "Opened PR #597",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-10-30T10:00:52Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "Opened PR #596",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-10-30T10:00:07Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR merged #595",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-10-30T09:53:57Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "Opened PR #595",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-10-30T09:43:44Z"
     }
   ],
-  "generated_at": "2026-10-30T19:12:00+09:00",
+  "generated_at": "2026-10-30T21:42:12+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
