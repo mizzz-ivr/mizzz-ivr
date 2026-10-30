@@ -6,11 +6,18 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 0,
-    "prs_opened": 1,
+    "prs_opened": 2,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #592 feat: shared daily quiz bonus, Studio operations and private fortune history",
+      "url": "https://github.com/ivRooom/Herta/pull/592",
+      "at": "2026-10-29T23:41:13Z"
+    },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
@@ -19,5 +26,5 @@
       "at": "2026-10-29T18:43:05Z"
     }
   ],
-  "generated_at": "2026-10-30T05:29:49+09:00"
+  "generated_at": "2026-10-30T09:14:42+09:00"
 }
