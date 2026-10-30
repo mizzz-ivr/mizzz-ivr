@@ -5,26 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 2,
+    "commits": 10,
+    "prs_opened": 5,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
     {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "PR #592 feat: shared daily quiz bonus, Studio operations and private fortune history",
-      "url": "https://github.com/ivRooom/Herta/pull/592",
-      "at": "2026-10-29T23:41:13Z"
+      "title": "Merge pull request #592 from ivRooom/codex/daily-bonus  feat: shared daily quiz bonus, Studio op",
+      "url": "https://github.com/ivRooom/Herta/commit/38b4f0aa04215e6f9b162e70ed00d0fb9ac2de90",
+      "at": "2026-10-30T14:34:56.000+09:00"
     },
     {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "PR #591 fix(security): Herta Node 22.23.4 digest固定と最終コンテナ実バイナリ検査",
-      "url": "https://github.com/ivRooom/Herta/pull/591",
-      "at": "2026-10-29T18:43:05Z"
+      "title": "feat: capture fresh daily bonus audience and reference take-up metrics",
+      "url": "https://github.com/ivRooom/Herta/commit/38ffc5f491a1d34dc3b90d13d16bb20703c82935",
+      "at": "2026-10-30T14:12:47.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "style: format pinned daily login contract",
+      "url": "https://github.com/ivRooom/Herta/commit/fa24642e781515b1832d601d9e67774f6873223d",
+      "at": "2026-10-30T14:07:06.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "chore: pin daily login streak reward contract 1.1.0",
+      "url": "https://github.com/ivRooom/Herta/commit/bbfbc006c427f382851c42fe47350ab2bc160d3c",
+      "at": "2026-10-30T14:03:55.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "test: prove public fortune embed and card exclude private advice",
+      "url": "https://github.com/ivRooom/Herta/commit/7a24f2e962b51f6f7f0d5a4c2b97c14f45eb621a",
+      "at": "2026-10-30T14:02:11.000+09:00"
     }
   ],
-  "generated_at": "2026-10-30T09:14:42+09:00"
+  "generated_at": "2026-10-30T15:00:10+09:00"
 }
