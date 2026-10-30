@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 10,
-    "prs_opened": 5,
+    "commits": 16,
+    "prs_opened": 10,
     "issues_created": 0,
     "issues_completed": 0
   },
@@ -14,38 +14,38 @@
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "Merge pull request #592 from ivRooom/codex/daily-bonus  feat: shared daily quiz bonus, Studio op",
-      "url": "https://github.com/ivRooom/Herta/commit/38b4f0aa04215e6f9b162e70ed00d0fb9ac2de90",
-      "at": "2026-10-30T14:34:56.000+09:00"
+      "title": "docs(valorant): record production release evidence (#595)",
+      "url": "https://github.com/ivRooom/Herta/commit/542f06f10106ab93ed87acd201144bbdb497e4db",
+      "at": "2026-10-30T18:53:56.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat: capture fresh daily bonus audience and reference take-up metrics",
-      "url": "https://github.com/ivRooom/Herta/commit/38ffc5f491a1d34dc3b90d13d16bb20703c82935",
-      "at": "2026-10-30T14:12:47.000+09:00"
+      "title": "feat(valorant): button recruitment, tactical comps, stats, match results (#590)  Refs #589. Addi",
+      "url": "https://github.com/ivRooom/Herta/commit/d7baf905d3d347f0f61a956ee269f9f5ff1e68f3",
+      "at": "2026-10-30T18:27:44.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "feat(security): administrator-only audited Security Events API (#169)  Reuse existing Discord au",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/fe7967fa938f227f2a81d0cd86dd8daea5ea4afd",
+      "at": "2026-10-30T16:52:39.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "fix(security): patch Console Next.js 16.4.3 and React 19.2.9 (#170)  Security advisory remediati",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/b3d5290ea801e463ac24f181459514d1457c1e0a",
+      "at": "2026-10-30T16:35:14.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "style: format pinned daily login contract",
-      "url": "https://github.com/ivRooom/Herta/commit/fa24642e781515b1832d601d9e67774f6873223d",
-      "at": "2026-10-30T14:07:06.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "chore: pin daily login streak reward contract 1.1.0",
-      "url": "https://github.com/ivRooom/Herta/commit/bbfbc006c427f382851c42fe47350ab2bc160d3c",
-      "at": "2026-10-30T14:03:55.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "test: prove public fortune embed and card exclude private advice",
-      "url": "https://github.com/ivRooom/Herta/commit/7a24f2e962b51f6f7f0d5a4c2b97c14f45eb621a",
-      "at": "2026-10-30T14:02:11.000+09:00"
+      "title": "Merge pull request #594 from ivRooom/codex/daily-bonus-studio-entry  fix(studio): デイリーボーナス設定から運用",
+      "url": "https://github.com/ivRooom/Herta/commit/d983cdaad909d0a05ef40a516be001ccac60ef3d",
+      "at": "2026-10-30T14:59:37.000+09:00"
     }
   ],
-  "generated_at": "2026-10-30T15:00:10+09:00"
+  "generated_at": "2026-10-30T19:12:00+09:00"
 }

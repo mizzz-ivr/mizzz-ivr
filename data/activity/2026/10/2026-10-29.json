@@ -42,10 +42,10 @@
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #590 feat(valorant): Guild別エージェントCRUDとランダム抽選の本番要件を補完",
+      "title": "PR #590 feat(valorant): 参加募集UI・マップ構成・抽選統計・試合結果管理",
       "url": "https://github.com/ivRooom/Herta/pull/590",
       "at": "2026-10-29T13:37:52Z"
     }
   ],
-  "generated_at": "2026-10-30T00:28:36+09:00"
+  "generated_at": "2026-10-30T19:12:00+09:00"
 }
