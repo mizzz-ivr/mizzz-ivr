@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 16,
-    "prs_opened": 10,
+    "commits": 20,
+    "prs_opened": 19,
     "issues_created": 0,
     "issues_completed": 0
   },
@@ -14,38 +14,38 @@
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
+      "title": "release(studio): VC Recap JSON/CSV出力（チャットUI互換・権限分離・監査） (#603)  * feat(vc-recap): expose stable s",
+      "url": "https://github.com/ivRooom/Herta/commit/253a97974f787a781b57c42710ab715c5caff473",
+      "at": "2026-10-30T23:48:19.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "release(studio): VC Recap Discord風チャットUI（既存30日保持・録音変更なし） (#602)  * feat(vc-recap): expose stable",
+      "url": "https://github.com/ivRooom/Herta/commit/f8b5f8c4daa20ec72b09e57fa9a84e2cc93ed3de",
+      "at": "2026-10-30T23:37:45.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(valorant): evidence-aware map tactical compositions (#596)  References #589. Preserve pure ",
+      "url": "https://github.com/ivRooom/Herta/commit/2aa961f4444d44f68479f06b1b923e1fd9e2ad4e",
+      "at": "2026-10-30T19:17:09.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(daily): add private receipt cards and actionable setup guidance",
+      "url": "https://github.com/ivRooom/Herta/commit/2d4351401133979ec69f526775985355141e2af5",
+      "at": "2026-10-30T19:00:46.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
       "title": "docs(valorant): record production release evidence (#595)",
       "url": "https://github.com/ivRooom/Herta/commit/542f06f10106ab93ed87acd201144bbdb497e4db",
       "at": "2026-10-30T18:53:56.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(valorant): button recruitment, tactical comps, stats, match results (#590)  Refs #589. Addi",
-      "url": "https://github.com/ivRooom/Herta/commit/d7baf905d3d347f0f61a956ee269f9f5ff1e68f3",
-      "at": "2026-10-30T18:27:44.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "feat(security): administrator-only audited Security Events API (#169)  Reuse existing Discord au",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/fe7967fa938f227f2a81d0cd86dd8daea5ea4afd",
-      "at": "2026-10-30T16:52:39.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "fix(security): patch Console Next.js 16.4.3 and React 19.2.9 (#170)  Security advisory remediati",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/b3d5290ea801e463ac24f181459514d1457c1e0a",
-      "at": "2026-10-30T16:35:14.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "Merge pull request #594 from ivRooom/codex/daily-bonus-studio-entry  fix(studio): デイリーボーナス設定から運用",
-      "url": "https://github.com/ivRooom/Herta/commit/d983cdaad909d0a05ef40a516be001ccac60ef3d",
-      "at": "2026-10-30T14:59:37.000+09:00"
     }
   ],
-  "generated_at": "2026-10-30T19:12:00+09:00"
+  "generated_at": "2026-10-31T03:04:08+09:00"
 }
