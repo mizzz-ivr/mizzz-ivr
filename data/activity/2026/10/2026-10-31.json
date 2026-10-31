@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 6,
-    "prs_opened": 4,
-    "issues_created": 0,
-    "issues_completed": 1
+    "commits": 26,
+    "prs_opened": 16,
+    "issues_created": 26,
+    "issues_completed": 9
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(vc-recap): 長期保存の3目的別同意UIを安全ゲート付きで追加 (#610)  * feat(vc-recap): add fail-closed three-purpose",
-      "url": "https://github.com/ivRooom/Herta/commit/ce820dd795dfb5a6947cbeb9c663afbc6d9da57d",
-      "at": "2026-10-31T10:25:36.000+09:00"
+      "title": "feat(valorant): cinematic agent reveal v2 (#635)  Redesign solo agent hero and squad lineup card",
+      "url": "https://github.com/ivRooom/Herta/commit/deeab95821890d75d3a36564288633c44ef60e4d",
+      "at": "2026-10-31T14:37:58.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "fix(privacy): distinguish VC PostgreSQL erasure from verified full deletion (#609)  * fix(privac",
-      "url": "https://github.com/ivRooom/Herta/commit/089bb3b6c903462ef12c98cb095f3471d4a3c832",
-      "at": "2026-10-31T01:47:03.000+09:00"
-    },
-    {
-      "type": "done",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #573 Epic: デイリーログインボーナス・記念日配信・受取後の今日の運勢（daily-bonus Plugin β）",
-      "url": "https://github.com/ivRooom/Herta/issues/573",
-      "at": "2026-10-31T01:32:01Z"
+      "title": "security(node): pin Herta production Node runtime 22.23.4 (#591)  * fix(security): pin Herta Nod",
+      "url": "https://github.com/ivRooom/Herta/commit/c8771c152af8e2b0de9cae8d58ffd1a02e33da43",
+      "at": "2026-10-31T14:14:06.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(db/vc-recap): 目的・版別の新明示同意を独立テーブルで管理する基盤 (#601)  * feat(db): add separate versioned VC Recap",
-      "url": "https://github.com/ivRooom/Herta/commit/c1de9b6911c61fb4c5160ff4665b3eba476f33d4",
-      "at": "2026-10-31T01:15:36.000+09:00"
+      "title": "fix(valorant): preserve solo HUD status above agent portrait (#629)  Closes #628; fixes layer or",
+      "url": "https://github.com/ivRooom/Herta/commit/6e5eb62aacf6bc5743d0956b0fb071c8316e313f",
+      "at": "2026-10-31T13:55:36.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(vc-recap): Whisper / gpt-transcribe切替基盤（旧AWSを既定・音声送信は本人同意必須） (#607)  * feat(vc-recap): add ",
-      "url": "https://github.com/ivRooom/Herta/commit/17dffda46c4cf0bbc9cd04166e8f23abb53976f5",
-      "at": "2026-10-31T01:08:39.000+09:00"
+      "title": "test(vc-recap): 実S3合成版消去を検証し非破壊バケット安全監査をCIに追加 (#627)  * feat(vc-recap): add fail-closed read-onl",
+      "url": "https://github.com/ivRooom/Herta/commit/93ef2a38a527a4bf3837ff8e60fc191a96549021",
+      "at": "2026-10-31T13:48:19.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "fix(security): add Cookie Vary for proxy authorization denials (#175)  Refs ivRooom/ivrm-dashboa",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/74255e80c5c2ae1bbcf0f6050a447bbbda9a03a3",
+      "at": "2026-10-31T13:41:25.000+09:00"
     }
   ],
-  "generated_at": "2026-10-31T10:46:01+09:00"
+  "generated_at": "2026-10-31T14:54:50+09:00"
 }
