@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 26,
-    "prs_opened": 16,
-    "issues_created": 26,
-    "issues_completed": 9
+    "commits": 32,
+    "prs_opened": 26,
+    "issues_created": 55,
+    "issues_completed": 19
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(valorant): cinematic agent reveal v2 (#635)  Redesign solo agent hero and squad lineup card",
-      "url": "https://github.com/ivRooom/Herta/commit/deeab95821890d75d3a36564288633c44ef60e4d",
-      "at": "2026-10-31T14:37:58.000+09:00"
+      "title": "feat(valorant): live-data neon poster reveal v5 (#671)  Closes #667 Closes #668 Related #666 #66",
+      "url": "https://github.com/ivRooom/Herta/commit/ac27c31881837a6e5adc9dd00638a1afe95bf665",
+      "at": "2026-10-31T21:02:36.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "security(node): pin Herta production Node runtime 22.23.4 (#591)  * fix(security): pin Herta Nod",
-      "url": "https://github.com/ivRooom/Herta/commit/c8771c152af8e2b0de9cae8d58ffd1a02e33da43",
-      "at": "2026-10-31T14:14:06.000+09:00"
+      "title": "feat(valorant): Herta Neon Reveal v4 result PNGs (#664)  Closes #660 Closes #661 Related #659 #6",
+      "url": "https://github.com/ivRooom/Herta/commit/bc83e34fe8f47f15a6dfb27e1efb8bd377f1ac57",
+      "at": "2026-10-31T19:38:30.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "fix(valorant): preserve solo HUD status above agent portrait (#629)  Closes #628; fixes layer or",
-      "url": "https://github.com/ivRooom/Herta/commit/6e5eb62aacf6bc5743d0956b0fb071c8316e313f",
-      "at": "2026-10-31T13:55:36.000+09:00"
+      "title": "feat(vc-recap): private opt-in faster-whisper CPU sidecar (#647)  * feat(vc-recap): add fail-clo",
+      "url": "https://github.com/ivRooom/Herta/commit/8c9df3f7303a3d358ab3805ea581174f3da83e96",
+      "at": "2026-10-31T18:00:21.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "test(vc-recap): 実S3合成版消去を検証し非破壊バケット安全監査をCIに追加 (#627)  * feat(vc-recap): add fail-closed read-onl",
-      "url": "https://github.com/ivRooom/Herta/commit/93ef2a38a527a4bf3837ff8e60fc191a96549021",
-      "at": "2026-10-31T13:48:19.000+09:00"
+      "title": "feat(valorant): art-first agent selection key visual v3 (#654)  Closes #649 Closes #650 Related ",
+      "url": "https://github.com/ivRooom/Herta/commit/1c2dc80c70fed680782246b17b415ca102f16985",
+      "at": "2026-10-31T17:58:28.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "fix(security): add Cookie Vary for proxy authorization denials (#175)  Refs ivRooom/ivrm-dashboa",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/74255e80c5c2ae1bbcf0f6050a447bbbda9a03a3",
-      "at": "2026-10-31T13:41:25.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "fix(privacy/vc-recap): serialize OpenAI consent with erasure owner lock (#643)  * fix(privacy): ",
+      "url": "https://github.com/ivRooom/Herta/commit/d9a918ff1776a7b8b7c029815ec879d15d5f118e",
+      "at": "2026-10-31T17:30:31.000+09:00"
     }
   ],
-  "generated_at": "2026-10-31T14:54:50+09:00"
+  "generated_at": "2026-10-31T21:45:12+09:00"
 }
