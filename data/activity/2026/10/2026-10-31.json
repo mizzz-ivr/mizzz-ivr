@@ -5,18 +5,32 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 5,
-    "prs_opened": 3,
+    "commits": 6,
+    "prs_opened": 4,
     "issues_created": 0,
-    "issues_completed": 0
+    "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(vc-recap): 長期保存の3目的別同意UIを安全ゲート付きで追加 (#610)  * feat(vc-recap): add fail-closed three-purpose",
+      "url": "https://github.com/ivRooom/Herta/commit/ce820dd795dfb5a6947cbeb9c663afbc6d9da57d",
+      "at": "2026-10-31T10:25:36.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
       "title": "fix(privacy): distinguish VC PostgreSQL erasure from verified full deletion (#609)  * fix(privac",
       "url": "https://github.com/ivRooom/Herta/commit/089bb3b6c903462ef12c98cb095f3471d4a3c832",
       "at": "2026-10-31T01:47:03.000+09:00"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #573 Epic: デイリーログインボーナス・記念日配信・受取後の今日の運勢（daily-bonus Plugin β）",
+      "url": "https://github.com/ivRooom/Herta/issues/573",
+      "at": "2026-10-31T01:32:01Z"
     },
     {
       "type": "commit",
@@ -31,21 +45,7 @@
       "title": "feat(vc-recap): Whisper / gpt-transcribe切替基盤（旧AWSを既定・音声送信は本人同意必須） (#607)  * feat(vc-recap): add ",
       "url": "https://github.com/ivRooom/Herta/commit/17dffda46c4cf0bbc9cd04166e8f23abb53976f5",
       "at": "2026-10-31T01:08:39.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "Merge pull request #597 from ivRooom/codex/daily-participation-phase1  feat(daily): private rece",
-      "url": "https://github.com/ivRooom/Herta/commit/c49cdcb26e785326d84780a8d1a999bca8109ffe",
-      "at": "2026-10-31T00:15:31.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "security(studio): enforce explicit VC transcript export permission (#606)  * security(studio): r",
-      "url": "https://github.com/ivRooom/Herta/commit/2936381fdf76a09761de094587681a5eb32842a3",
-      "at": "2026-10-31T00:07:24.000+09:00"
     }
   ],
-  "generated_at": "2026-10-31T03:04:08+09:00"
+  "generated_at": "2026-10-31T10:46:01+09:00"
 }
