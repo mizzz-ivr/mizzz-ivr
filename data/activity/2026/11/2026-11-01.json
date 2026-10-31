@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-01",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 2,
+    "prs_opened": 1,
+    "issues_created": 0,
+    "issues_completed": 0
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(vc-recap): stage opt-in native Whisper profile default OFF (#678)  * feat(vc-recap): gate n",
+      "url": "https://github.com/ivRooom/Herta/commit/51a646c9eb4004ceb0616c8b75432804f08fd0dc",
+      "at": "2026-11-01T00:40:51.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "spike(vc-recap): land inactive native whisper.cpp security candidate (#674)  * spike(vc-recap): ",
+      "url": "https://github.com/ivRooom/Herta/commit/d5a883c0d32549430568185ca8ee905ceede6ce6",
+      "at": "2026-11-01T00:18:10.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #678 feat(vc-recap): stage fail-closed native Whisper Compose profile OFF by default (#578)",
+      "url": "https://github.com/ivRooom/Herta/pull/678",
+      "at": "2026-10-31T15:22:03Z"
+    }
+  ],
+  "generated_at": "2026-11-01T03:05:55+09:00"
+}
