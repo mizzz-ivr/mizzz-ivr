@@ -5,33 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 2,
-    "prs_opened": 1,
-    "issues_created": 0,
-    "issues_completed": 0
+    "commits": 3,
+    "prs_opened": 3,
+    "issues_created": 4,
+    "issues_completed": 1
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(vc-recap): stage opt-in native Whisper profile default OFF (#678)  * feat(vc-recap): gate n",
-      "url": "https://github.com/ivRooom/Herta/commit/51a646c9eb4004ceb0616c8b75432804f08fd0dc",
-      "at": "2026-11-01T00:40:51.000+09:00"
+      "title": "security(vc-recap): enforce personal consent and atomic deletion fence for local Whisper (#682) ",
+      "url": "https://github.com/ivRooom/Herta/commit/e1320c932cd83d7b1536912bc68a30de8c2f1cdd",
+      "at": "2026-11-01T14:37:21.000+09:00"
     },
     {
-      "type": "commit",
+      "type": "issue",
       "repo": "ivRooom/Herta",
-      "title": "spike(vc-recap): land inactive native whisper.cpp security candidate (#674)  * spike(vc-recap): ",
-      "url": "https://github.com/ivRooom/Herta/commit/d5a883c0d32549430568185ca8ee905ceede6ce6",
-      "at": "2026-11-01T00:18:10.000+09:00"
+      "title": "Issue #684 feat(vc-recap): 3用途を1つのプライバシーポリシー同意で原子的に許可・撤回するUI/DB",
+      "url": "https://github.com/ivRooom/Herta/issues/684",
+      "at": "2026-11-01T06:13:04Z"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #683 docs(vc-recap): 現状・未完了・本番反映ゲート・人間側作業をGitHub/Notionで引継ぎ可能に整理する",
+      "url": "https://github.com/ivRooom/Herta/issues/683",
+      "at": "2026-11-01T05:46:56Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #683 docs(vc-recap): 現状・未完了・本番反映ゲート・人間側作業をGitHub/Notionで引継ぎ可能に整理する",
+      "url": "https://github.com/ivRooom/Herta/issues/683",
+      "at": "2026-11-01T05:34:39Z"
     },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #678 feat(vc-recap): stage fail-closed native Whisper Compose profile OFF by default (#578)",
-      "url": "https://github.com/ivRooom/Herta/pull/678",
-      "at": "2026-10-31T15:22:03Z"
+      "title": "PR #682 security(vc-recap): commit-time personal-consent and deletion fence for local Whisper (#",
+      "url": "https://github.com/ivRooom/Herta/pull/682",
+      "at": "2026-11-01T05:18:00Z"
     }
   ],
-  "generated_at": "2026-11-01T03:05:55+09:00"
+  "generated_at": "2026-11-01T15:21:22+09:00"
 }
