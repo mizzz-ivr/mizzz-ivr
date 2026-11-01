@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 2,
+    "commits": 3,
+    "prs_opened": 3,
     "issues_created": 1,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "security(vc-recap): authenticate independent signed ledger audits (#694)  * security(vc-recap): ",
+      "url": "https://github.com/ivRooom/Herta/commit/fae7d3f0b210b3ce1f94802a3306ed0daa8942c2",
+      "at": "2026-11-02T03:02:00.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "security(vc-recap): fail-closed S3 ledger version inventory reconciliation (#694)  * security(vc",
+      "url": "https://github.com/ivRooom/Herta/commit/f21428e604a1d549d78e403a4bcd0b70cade7b73",
+      "at": "2026-11-02T01:14:07.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -21,24 +35,17 @@
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #706 security(vc-recap): S3独立Ledgerの全Version列挙と外部監査照合をfail-closed検証 (#694)",
-      "url": "https://github.com/ivRooom/Herta/pull/706",
-      "at": "2026-11-01T15:58:01Z"
-    },
-    {
-      "type": "issue",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #705 feat(daily-bonus): 特定日・年次イベントの09:00通知テンプレート切替とDiscordプレビュー",
-      "url": "https://github.com/ivRooom/Herta/issues/705",
-      "at": "2026-11-01T15:49:39Z"
+      "title": "PR #707 security(vc-recap): S3削除台帳の外部署名監査と公開鍵Pin検証 (#694)",
+      "url": "https://github.com/ivRooom/Herta/pull/707",
+      "at": "2026-11-01T17:47:11Z"
     },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #704 security(vc-recap): 独立S3削除Ledgerの条件付きWrite/Readback Portと合成テスト (#694)",
-      "url": "https://github.com/ivRooom/Herta/pull/704",
-      "at": "2026-11-01T15:00:13Z"
+      "title": "PR #706 security(vc-recap): S3独立Ledgerの全Version列挙と外部監査照合をfail-closed検証 (#694)",
+      "url": "https://github.com/ivRooom/Herta/pull/706",
+      "at": "2026-11-01T15:58:01Z"
     }
   ],
-  "generated_at": "2026-11-02T01:06:48+09:00"
+  "generated_at": "2026-11-02T07:09:32+09:00"
 }
