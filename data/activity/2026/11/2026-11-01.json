@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 3,
-    "prs_opened": 3,
-    "issues_created": 4,
-    "issues_completed": 1
+    "commits": 9,
+    "prs_opened": 12,
+    "issues_created": 13,
+    "issues_completed": 3
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "security(vc-recap): enforce personal consent and atomic deletion fence for local Whisper (#682) ",
-      "url": "https://github.com/ivRooom/Herta/commit/e1320c932cd83d7b1536912bc68a30de8c2f1cdd",
-      "at": "2026-11-01T14:37:21.000+09:00"
+      "title": "test(vc-recap): enforce real PostgreSQL three-purpose consent race coverage (#699)  * test(vc-re",
+      "url": "https://github.com/ivRooom/Herta/commit/5c4fd36f6c0318daeb462e3b6d1ae91ebca09f60",
+      "at": "2026-11-01T21:38:29.000+09:00"
     },
     {
-      "type": "issue",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "Issue #684 feat(vc-recap): 3用途を1つのプライバシーポリシー同意で原子的に許可・撤回するUI/DB",
-      "url": "https://github.com/ivRooom/Herta/issues/684",
-      "at": "2026-11-01T06:13:04Z"
+      "title": "security(vc-recap): deny unpublished future capabilities when enrollment is OFF (#698)  * securi",
+      "url": "https://github.com/ivRooom/Herta/commit/748f0023cbf75dd44d0944024ea3d99bc2c0d6fb",
+      "at": "2026-11-01T21:07:48.000+09:00"
     },
     {
-      "type": "done",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "Issue #683 docs(vc-recap): 現状・未完了・本番反映ゲート・人間側作業をGitHub/Notionで引継ぎ可能に整理する",
-      "url": "https://github.com/ivRooom/Herta/issues/683",
-      "at": "2026-11-01T05:46:56Z"
+      "title": "docs(vc-recap): add issue-first release handoff and 3-purpose consent gates (#697)  * docs(vc-re",
+      "url": "https://github.com/ivRooom/Herta/commit/88061b9cb9fecd015ec9fdd4cf06d509ec89ebd9",
+      "at": "2026-11-01T21:07:32.000+09:00"
     },
     {
-      "type": "issue",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "Issue #683 docs(vc-recap): 現状・未完了・本番反映ゲート・人間側作業をGitHub/Notionで引継ぎ可能に整理する",
-      "url": "https://github.com/ivRooom/Herta/issues/683",
-      "at": "2026-11-01T05:34:39Z"
+      "title": "security(vc-recap): verify independent erasure fences after restore (#689)  * security(vc-recap)",
+      "url": "https://github.com/ivRooom/Herta/commit/424cffe0c2108540a3f18d752e0a9a3187277a91",
+      "at": "2026-11-01T19:30:00.000+09:00"
     },
     {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "PR #682 security(vc-recap): commit-time personal-consent and deletion fence for local Whisper (#",
-      "url": "https://github.com/ivRooom/Herta/pull/682",
-      "at": "2026-11-01T05:18:00Z"
+      "title": "docs(db): document verified Herta PG17 rehearsal and cutover gates (#675)  * docs(ops): add targ",
+      "url": "https://github.com/ivRooom/Herta/commit/e8ee8ffb173540dce4d4134ddbed330fbf021808",
+      "at": "2026-11-01T18:25:37.000+09:00"
     }
   ],
-  "generated_at": "2026-11-01T15:21:22+09:00"
+  "generated_at": "2026-11-01T22:47:29+09:00"
 }
