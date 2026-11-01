@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 1,
+    "prs_opened": 2,
+    "issues_created": 1,
+    "issues_completed": 0
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "security(vc-recap): S3 v3 conditional erasure ledger receipt adapter (#694)  * security(vc-recap",
+      "url": "https://github.com/ivRooom/Herta/commit/d135e405a4cb12b89c47187838ba6c12c9765823",
+      "at": "2026-11-02T00:13:26.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #706 security(vc-recap): S3独立Ledgerの全Version列挙と外部監査照合をfail-closed検証 (#694)",
+      "url": "https://github.com/ivRooom/Herta/pull/706",
+      "at": "2026-11-01T15:58:01Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #705 feat(daily-bonus): 特定日・年次イベントの09:00通知テンプレート切替とDiscordプレビュー",
+      "url": "https://github.com/ivRooom/Herta/issues/705",
+      "at": "2026-11-01T15:49:39Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #704 security(vc-recap): 独立S3削除Ledgerの条件付きWrite/Readback Portと合成テスト (#694)",
+      "url": "https://github.com/ivRooom/Herta/pull/704",
+      "at": "2026-11-01T15:00:13Z"
+    }
+  ],
+  "generated_at": "2026-11-02T01:06:48+09:00"
+}

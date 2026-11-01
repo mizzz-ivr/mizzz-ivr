@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 9,
-    "prs_opened": 12,
+    "commits": 11,
+    "prs_opened": 13,
     "issues_created": 13,
     "issues_completed": 3
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "security(vc-recap): fail-closed restore quarantine reconciliation contract (#695)  * security(vc",
+      "url": "https://github.com/ivRooom/Herta/commit/418fba42df1176bd58f0502f41ae4a576e32a00d",
+      "at": "2026-11-01T23:39:45.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "security(vc-recap): establish synthetic write-first erasure ledger contract (#694, #702)  * secu",
+      "url": "https://github.com/ivRooom/Herta/commit/76a692160cd3384693697e6c1bd955041d252ac1",
+      "at": "2026-11-01T23:17:34.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -31,21 +45,7 @@
       "title": "docs(vc-recap): add issue-first release handoff and 3-purpose consent gates (#697)  * docs(vc-re",
       "url": "https://github.com/ivRooom/Herta/commit/88061b9cb9fecd015ec9fdd4cf06d509ec89ebd9",
       "at": "2026-11-01T21:07:32.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "security(vc-recap): verify independent erasure fences after restore (#689)  * security(vc-recap)",
-      "url": "https://github.com/ivRooom/Herta/commit/424cffe0c2108540a3f18d752e0a9a3187277a91",
-      "at": "2026-11-01T19:30:00.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "docs(db): document verified Herta PG17 rehearsal and cutover gates (#675)  * docs(ops): add targ",
-      "url": "https://github.com/ivRooom/Herta/commit/e8ee8ffb173540dce4d4134ddbed330fbf021808",
-      "at": "2026-11-01T18:25:37.000+09:00"
     }
   ],
-  "generated_at": "2026-11-01T22:47:29+09:00"
+  "generated_at": "2026-11-02T01:06:48+09:00"
 }
