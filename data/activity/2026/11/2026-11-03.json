@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 2,
-    "prs_opened": 2,
+    "commits": 3,
+    "prs_opened": 3,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "test/security(vc-recap): replay owner deletion fences in isolated PostgreSQL (#739)  Refs #729 /",
+      "url": "https://github.com/ivRooom/Herta/commit/99019f31905fea4445eb22abc396ffeae0f7bae0",
+      "at": "2026-11-03T04:00:20.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -28,17 +35,17 @@
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #739 test/security(vc-recap): replay owner deletion fences in isolated PostgreSQL (#729)",
-      "url": "https://github.com/ivRooom/Herta/pull/739",
-      "at": "2026-11-02T18:18:53Z"
+      "title": "PR #740 test/security(vc-recap): inventory token consent and persistent Discord button ingress (",
+      "url": "https://github.com/ivRooom/Herta/pull/740",
+      "at": "2026-11-02T19:10:18Z"
     },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #738 test/security(vc-recap): owner-scoped S3 multi-key manifest preflight (#730)",
-      "url": "https://github.com/ivRooom/Herta/pull/738",
-      "at": "2026-11-02T15:24:01Z"
+      "title": "PR #739 test/security(vc-recap): replay owner deletion fences in isolated PostgreSQL (#729)",
+      "url": "https://github.com/ivRooom/Herta/pull/739",
+      "at": "2026-11-02T18:18:53Z"
     }
   ],
-  "generated_at": "2026-11-03T03:40:21+09:00"
+  "generated_at": "2026-11-03T04:34:51+09:00"
 }
