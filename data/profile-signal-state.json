@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-11-02T05:48:41Z"
+    "last_activity_at": "2026-11-02T08:16:20Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -17,10 +17,10 @@
   "activity_total": 34,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 105,
-    "events": 56,
-    "last_activity_at": "2026-11-02T05:48:41Z",
-    "share": 100,
+    "score": 122,
+    "events": 65,
+    "last_activity_at": "2026-11-02T08:07:02Z",
+    "share": 99,
     "stack": [
       "TypeScript",
       "JavaScript",
@@ -109,33 +109,33 @@
     {
       "label": "ISSUE",
       "repo": "ivRooom/Herta",
-      "title": "Closed issue #726",
-      "url": "https://github.com/ivRooom/Herta/issues/726",
-      "at": "2026-11-02T05:48:41Z"
+      "title": "Closed issue #693",
+      "url": "https://github.com/ivRooom/Herta/issues/693",
+      "at": "2026-11-02T07:54:44Z"
     },
     {
       "label": "ISSUE",
       "repo": "ivRooom/Herta",
-      "title": "Opened issue #726",
-      "url": "https://github.com/ivRooom/Herta/issues/726",
-      "at": "2026-11-02T05:40:52Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "Opened PR #725",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-11-02T05:20:06Z"
+      "title": "Opened issue #730",
+      "url": "https://github.com/ivRooom/Herta/issues/730",
+      "at": "2026-11-02T07:54:12Z"
     },
     {
       "label": "ISSUE",
       "repo": "ivRooom/Herta",
-      "title": "Opened issue #724",
-      "url": "https://github.com/ivRooom/Herta/issues/724",
-      "at": "2026-11-02T05:17:14Z"
+      "title": "Opened issue #729",
+      "url": "https://github.com/ivRooom/Herta/issues/729",
+      "at": "2026-11-02T07:54:12Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Opened issue #728",
+      "url": "https://github.com/ivRooom/Herta/issues/728",
+      "at": "2026-11-02T07:53:53Z"
     }
   ],
-  "generated_at": "2026-11-02T15:23:22+09:00",
+  "generated_at": "2026-11-02T17:23:08+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
