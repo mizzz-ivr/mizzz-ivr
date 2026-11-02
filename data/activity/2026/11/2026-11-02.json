@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 3,
-    "prs_opened": 3,
-    "issues_created": 1,
-    "issues_completed": 0
+    "commits": 5,
+    "prs_opened": 5,
+    "issues_created": 5,
+    "issues_completed": 2
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "test/security(vc-recap): pinned ledger auditを復元Quarantineに合成連携 (#714) (#715)  * test(security): ",
+      "url": "https://github.com/ivRooom/Herta/commit/08e7e666660209ed3b0152f52d9475f12af47848",
+      "at": "2026-11-02T10:24:14.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "security(vc-recap): pin independently trusted erasure audit checkpoint (#708)  * feat(security):",
+      "url": "https://github.com/ivRooom/Herta/commit/01f2e8d257304f887b34149423c01e2eee5bc01b",
+      "at": "2026-11-02T09:25:21.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -19,33 +33,19 @@
       "at": "2026-11-02T03:02:00.000+09:00"
     },
     {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #714 test/security(vc-recap): 署名・checkpoint付き削除台帳監査を復元Quarantineへ合成連携する",
+      "url": "https://github.com/ivRooom/Herta/issues/714",
+      "at": "2026-11-02T01:24:16Z"
+    },
+    {
       "type": "commit",
       "repo": "ivRooom/Herta",
       "title": "security(vc-recap): fail-closed S3 ledger version inventory reconciliation (#694)  * security(vc",
       "url": "https://github.com/ivRooom/Herta/commit/f21428e604a1d549d78e403a4bcd0b70cade7b73",
       "at": "2026-11-02T01:14:07.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "security(vc-recap): S3 v3 conditional erasure ledger receipt adapter (#694)  * security(vc-recap",
-      "url": "https://github.com/ivRooom/Herta/commit/d135e405a4cb12b89c47187838ba6c12c9765823",
-      "at": "2026-11-02T00:13:26.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #707 security(vc-recap): S3削除台帳の外部署名監査と公開鍵Pin検証 (#694)",
-      "url": "https://github.com/ivRooom/Herta/pull/707",
-      "at": "2026-11-01T17:47:11Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #706 security(vc-recap): S3独立Ledgerの全Version列挙と外部監査照合をfail-closed検証 (#694)",
-      "url": "https://github.com/ivRooom/Herta/pull/706",
-      "at": "2026-11-01T15:58:01Z"
     }
   ],
-  "generated_at": "2026-11-02T07:09:32+09:00"
+  "generated_at": "2026-11-02T10:44:06+09:00"
 }
