@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 9,
-    "prs_opened": 9,
-    "issues_created": 12,
-    "issues_completed": 4
+    "commits": 13,
+    "prs_opened": 13,
+    "issues_created": 19,
+    "issues_completed": 7
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(daily-bonus): add independent question and fortune buttons (#720)  * feat(daily-bonus): pro",
-      "url": "https://github.com/ivRooom/Herta/commit/e9c60ad70a2bda8e8c5353c7228dd9e0cba747f7",
-      "at": "2026-11-02T13:49:05.000+09:00"
+      "title": "test/security(vc-recap): audit Privacy ingress and split consent guards (#736)  Refs #734 / #728",
+      "url": "https://github.com/ivRooom/Herta/commit/127ba5dca92f9f49aeb0f5d2d567f5207c173171",
+      "at": "2026-11-02T23:23:50.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "fix/security(vc-recap): fail closed on incomplete S3 purge pagination (#718)  * fix(vc-recap): r",
-      "url": "https://github.com/ivRooom/Herta/commit/cf0f651ac433239bbbef2eb271f53ab6f9cbe836",
-      "at": "2026-11-02T13:34:40.000+09:00"
+      "title": "test/security(vc-recap): VC route source inventory and drift CI (#733)  * test(vc-recap): map re",
+      "url": "https://github.com/ivRooom/Herta/commit/d2265a1a92ddb3ee2038dd9f6cf4c37e6341a90e",
+      "at": "2026-11-02T20:38:22.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "fix(db): harden Herta PG17 restore ACL acceptance (#692)  * test(db): add read-only PG17 restore",
-      "url": "https://github.com/ivRooom/Herta/commit/bc26f250956d592e97fe1e968ee607a03143b237",
-      "at": "2026-11-02T12:27:41.000+09:00"
+      "title": "test/security(vc-recap): restore-independent traffic gate contract (#731)  * test/security(vc-re",
+      "url": "https://github.com/ivRooom/Herta/commit/fe8047f2bdf11531c4a70714e6508da590f72484",
+      "at": "2026-11-02T20:01:33.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "test/security(vc-recap): verify S3 versions and multipart purge fail-closed (#716)  * test/secur",
-      "url": "https://github.com/ivRooom/Herta/commit/7f8d13b5691b6cc884938f55e3148120d3a052e7",
-      "at": "2026-11-02T12:08:09.000+09:00"
+      "title": "test/security(vc-recap): quarantine-bound locked erasure fence replay contract (#724) (#725)  * ",
+      "url": "https://github.com/ivRooom/Herta/commit/45023081951bb6aba747f726f1c9ceabb52aa8dc",
+      "at": "2026-11-02T16:43:20.000+09:00"
     },
     {
-      "type": "commit",
+      "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "test/security(vc-recap): pinned ledger auditを復元Quarantineに合成連携 (#714) (#715)  * test(security): ",
-      "url": "https://github.com/ivRooom/Herta/commit/08e7e666660209ed3b0152f52d9475f12af47848",
-      "at": "2026-11-02T10:24:14.000+09:00"
+      "title": "PR #737 test/security(vc-recap): protect lifecycle stop and audit real source call edges (#734)",
+      "url": "https://github.com/ivRooom/Herta/pull/737",
+      "at": "2026-11-02T14:48:24Z"
     }
   ],
-  "generated_at": "2026-11-02T15:23:22+09:00"
+  "generated_at": "2026-11-03T03:40:21+09:00"
 }

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-03",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 2,
+    "prs_opened": 2,
+    "issues_created": 0,
+    "issues_completed": 0
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "test/security(vc-recap): owner-scoped S3 multi-key manifest preflight (#738)  Refs #730 and #617",
+      "url": "https://github.com/ivRooom/Herta/commit/0911e934a332e696cd8bb8e06ba93342ea624d75",
+      "at": "2026-11-03T00:37:42.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "test/security(vc-recap): audit lifecycle and privacy call edges (#737)  Refs #734 / parent #728.",
+      "url": "https://github.com/ivRooom/Herta/commit/81499b23a6c4e98d12e36f22ff8ee9528a0c6b41",
+      "at": "2026-11-03T00:10:59.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #739 test/security(vc-recap): replay owner deletion fences in isolated PostgreSQL (#729)",
+      "url": "https://github.com/ivRooom/Herta/pull/739",
+      "at": "2026-11-02T18:18:53Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #738 test/security(vc-recap): owner-scoped S3 multi-key manifest preflight (#730)",
+      "url": "https://github.com/ivRooom/Herta/pull/738",
+      "at": "2026-11-02T15:24:01Z"
+    }
+  ],
+  "generated_at": "2026-11-03T03:40:21+09:00"
+}
