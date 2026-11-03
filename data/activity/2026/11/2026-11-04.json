@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-04",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 0,
+    "prs_opened": 0,
+    "issues_created": 12,
+    "issues_completed": 0
+  },
+  "activity": [
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #781 ops(valorant/P2): Riot公式パッチ・マッププールの鮮度を監視し手動メタ更新を安全に促す",
+      "url": "https://github.com/ivRooom/Herta/issues/781",
+      "at": "2026-11-03T16:04:52Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #780 feat(valorant/P2): 定員超過VC向け待機リスト・繰上げ参加（本人確認方式）",
+      "url": "https://github.com/ivRooom/Herta/issues/780",
+      "at": "2026-11-03T16:04:48Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #779 feat(valorant/P1): 期限切れ募集の公開Embed自動同期と更新失敗時の安全な再試行",
+      "url": "https://github.com/ivRooom/Herta/issues/779",
+      "at": "2026-11-03T16:04:44Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #778 feat(valorant/P1): 募集・再抽選の期限をDiscord相対時刻で明示する",
+      "url": "https://github.com/ivRooom/Herta/issues/778",
+      "at": "2026-11-03T16:04:40Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/ivrm-dailytech-adventure",
+      "title": "Issue #14 [release-registry] Version Modpack manifests and server pack revisions",
+      "url": "https://github.com/ivRooom/ivrm-dailytech-adventure/issues/14",
+      "at": "2026-11-03T15:54:44Z"
+    }
+  ],
+  "generated_at": "2026-11-04T01:07:17+09:00"
+}

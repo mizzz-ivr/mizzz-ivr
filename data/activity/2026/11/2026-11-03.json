@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 8,
-    "prs_opened": 10,
-    "issues_created": 23,
-    "issues_completed": 1
+    "commits": 14,
+    "prs_opened": 15,
+    "issues_created": 24,
+    "issues_completed": 2
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "fix(ci): run production only after verified same-SHA main CI (#762)  * fix(ci): validate main CI",
-      "url": "https://github.com/ivRooom/Herta/commit/bbb3ff8a305ffbd97635a14ee341d776f61093e6",
-      "at": "2026-11-03T17:32:57.000+09:00"
+      "title": "fix(release): run same-SHA VALORANT restore rehearsal on every main push (#767)  Refs #767 #765 ",
+      "url": "https://github.com/ivRooom/Herta/commit/2bdd747acb36e5d4a4c7a1b989fda504fe840179",
+      "at": "2026-11-03T23:19:14.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "fix/security(vc-recap): cancel pending start on stop/disable/leave/revoke (#760)  Refs #760 #745",
-      "url": "https://github.com/ivRooom/Herta/commit/e2a502c4113ea3a86fbab57055d9b0b354f2a2bb",
-      "at": "2026-11-03T17:02:39.000+09:00"
+      "title": "fix(nginx): re-resolve Studio and API backends via Docker DNS (#773)  Refs #773 #759 #765 #770. ",
+      "url": "https://github.com/ivRooom/Herta/commit/c1f9218dd9dfad0dd6bd66f17cc9a492102033c0",
+      "at": "2026-11-03T22:53:04.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "fix(vc-recap): 通知成功前の音声購読を禁止 (#745)  * fix(vc-recap): gate voice capture on successful start ann",
-      "url": "https://github.com/ivRooom/Herta/commit/deb053fd0055b6bd6fcf115835b81ed6dc14cf1f",
-      "at": "2026-11-03T16:05:32.000+09:00"
+      "title": "feat(valorant): VC member bulk join and safe participant management (#753 #754)  Refs #753 #754 ",
+      "url": "https://github.com/ivRooom/Herta/commit/bf32680efd6ad4e993d41158ca900c637f657a55",
+      "at": "2026-11-03T21:58:56.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "ci/security: require same-SHA main CI before production deploy (#700)  Closes #700 after product",
-      "url": "https://github.com/ivRooom/Herta/commit/01d30f08937925d3967fde025a8f2a7a4285e500",
-      "at": "2026-11-03T15:04:00.000+09:00"
+      "title": "release(valorant): require protected PG16 predeploy backup and offline rehearsal (#767)  Refs #7",
+      "url": "https://github.com/ivRooom/Herta/commit/5e2cc400e7b7bc88c67f3428f00679ed4e39966e",
+      "at": "2026-11-03T21:56:34.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "test/security(vc-recap): inventory token consent and persistent Discord button ingress (#740)  R",
-      "url": "https://github.com/ivRooom/Herta/commit/9d5e6f2133a1a70bc9b79c273ce1a0e95fc8c6a6",
-      "at": "2026-11-03T13:58:24.000+09:00"
+      "title": "fix(release): require verified Lightsail SSH host fingerprint (#770)  Refs #770 #765 #759. Fail ",
+      "url": "https://github.com/ivRooom/Herta/commit/5a1c730356136614c551945efe764ccff14a7696",
+      "at": "2026-11-03T20:31:01.000+09:00"
     }
   ],
-  "generated_at": "2026-11-03T20:01:06+09:00"
+  "generated_at": "2026-11-04T01:07:17+09:00"
 }
