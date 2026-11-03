@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
-    "issues_created": 12,
-    "issues_completed": 0
+    "commits": 5,
+    "prs_opened": 9,
+    "issues_created": 20,
+    "issues_completed": 5
   },
   "activity": [
     {
-      "type": "issue",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "Issue #781 ops(valorant/P2): Riot公式パッチ・マッププールの鮮度を監視し手動メタ更新を安全に促す",
-      "url": "https://github.com/ivRooom/Herta/issues/781",
-      "at": "2026-11-03T16:04:52Z"
+      "title": "feat(valorant): private guild-scoped pick statistics (#785)  Refs #785. Add ephemeral /valorant ",
+      "url": "https://github.com/ivRooom/Herta/commit/70b2e1ef323b204f3fbd03f504c45a84c4c6f0d5",
+      "at": "2026-11-04T03:59:58.000+09:00"
     },
     {
-      "type": "issue",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "Issue #780 feat(valorant/P2): 定員超過VC向け待機リスト・繰上げ参加（本人確認方式）",
-      "url": "https://github.com/ivRooom/Herta/issues/780",
-      "at": "2026-11-03T16:04:48Z"
+      "title": "fix(valorant): validate reported scores and analyze actual-played lineups (#786)  * test(valoran",
+      "url": "https://github.com/ivRooom/Herta/commit/58d5a258818e0ac88782c90e2e848130018c3f5f",
+      "at": "2026-11-04T03:14:18.000+09:00"
     },
     {
-      "type": "issue",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "Issue #779 feat(valorant/P1): 期限切れ募集の公開Embed自動同期と更新失敗時の安全な再試行",
-      "url": "https://github.com/ivRooom/Herta/issues/779",
-      "at": "2026-11-03T16:04:44Z"
+      "title": "feat(valorant): Guild role charts and pick history table (#784)  * feat(valorant): add exhaustiv",
+      "url": "https://github.com/ivRooom/Herta/commit/c778cd32a866cb9b92fe73ab4be425f5b9aa39ed",
+      "at": "2026-11-04T03:04:20.000+09:00"
     },
     {
-      "type": "issue",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "Issue #778 feat(valorant/P1): 募集・再抽選の期限をDiscord相対時刻で明示する",
-      "url": "https://github.com/ivRooom/Herta/issues/778",
-      "at": "2026-11-03T16:04:40Z"
+      "title": "fix(release): attest manual main cumulative baseline and safe rollback (#765)  Manual main deplo",
+      "url": "https://github.com/ivRooom/Herta/commit/ef9edf7e86f364abb8f24ca6c8d2729a18b0a525",
+      "at": "2026-11-04T02:49:53.000+09:00"
     },
     {
-      "type": "issue",
-      "repo": "ivRooom/ivrm-dailytech-adventure",
-      "title": "Issue #14 [release-registry] Version Modpack manifests and server pack revisions",
-      "url": "https://github.com/ivRooom/ivrm-dailytech-adventure/issues/14",
-      "at": "2026-11-03T15:54:44Z"
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(valorant): show relative recruitment and reroll deadlines (#778)  Refs #778 #757 #589. Rend",
+      "url": "https://github.com/ivRooom/Herta/commit/5f491f239579ee632a1a260ccbcc7ddd72c47815",
+      "at": "2026-11-04T01:30:22.000+09:00"
     }
   ],
-  "generated_at": "2026-11-04T01:07:17+09:00"
+  "generated_at": "2026-11-04T04:35:13+09:00"
 }
