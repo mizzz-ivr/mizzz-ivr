@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "BUILDING",
-    "symbol": "●",
-    "last_activity_at": "2026-11-02T19:11:10Z"
+    "label": "OFFLINE",
+    "symbol": "○",
+    "last_activity_at": "2026-11-02T19:18:26Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,9 +17,9 @@
   "activity_total": 6,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 43,
-    "events": 34,
-    "last_activity_at": "2026-11-02T19:11:10Z",
+    "score": 47,
+    "events": 38,
+    "last_activity_at": "2026-11-02T19:18:26Z",
     "share": 100,
     "stack": [
       "TypeScript",
@@ -82,19 +82,19 @@
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 43,
-      "events": 34,
-      "last_activity_at": "2026-11-02T19:11:10Z",
+      "score": 47,
+      "events": 38,
+      "last_activity_at": "2026-11-02T19:18:26Z",
       "share": 100,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
         "window_days": 7,
         "total_runs": 10,
-        "evaluated": 7,
-        "passed": 7,
+        "evaluated": 6,
+        "passed": 6,
         "failed": 0,
-        "ignored": 3,
+        "ignored": 4,
         "pass_rate": 100,
         "latest_conclusion": "success"
       },
@@ -107,6 +107,13 @@
   ],
   "activity_stream": [
     {
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to security/vc-recap-token-consent-inventory-734",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-11-02T19:18:26Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/Herta",
       "title": "Opened PR #740",
@@ -114,36 +121,29 @@
       "at": "2026-11-02T19:10:18Z"
     },
     {
-      "label": "PR",
+      "label": "PUSH",
       "repo": "ivRooom/Herta",
-      "title": "PR merged #739",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-11-02T19:00:21Z"
+      "title": "1 commit pushed to security/vc-recap-token-consent-inventory-734",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-11-02T19:08:29Z"
     },
     {
       "label": "PUSH",
       "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to security/vc-recap-pg-restore-owner-729",
+      "title": "1 commit pushed to security/vc-recap-token-consent-inventory-734",
       "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-11-02T18:28:36Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to security/vc-recap-pg-restore-owner-729",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-11-02T18:28:00Z"
+      "at": "2026-11-02T19:08:27Z"
     }
   ],
-  "generated_at": "2026-11-03T04:34:51+09:00",
+  "generated_at": "2026-11-03T10:18:30+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
     "window_days": 7,
-    "evaluated": 7,
-    "passed": 7,
+    "evaluated": 6,
+    "passed": 6,
     "failed": 0,
-    "ignored": 3,
+    "ignored": 4,
     "pass_rate": 100,
     "repos_with_signal": 1
   },
