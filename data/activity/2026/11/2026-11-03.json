@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 3,
-    "prs_opened": 3,
-    "issues_created": 0,
-    "issues_completed": 0
+    "commits": 6,
+    "prs_opened": 7,
+    "issues_created": 18,
+    "issues_completed": 1
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "test/security(vc-recap): replay owner deletion fences in isolated PostgreSQL (#739)  Refs #729 /",
-      "url": "https://github.com/ivRooom/Herta/commit/99019f31905fea4445eb22abc396ffeae0f7bae0",
-      "at": "2026-11-03T04:00:20.000+09:00"
+      "title": "fix(vc-recap): 通知成功前の音声購読を禁止 (#745)  * fix(vc-recap): gate voice capture on successful start ann",
+      "url": "https://github.com/ivRooom/Herta/commit/deb053fd0055b6bd6fcf115835b81ed6dc14cf1f",
+      "at": "2026-11-03T16:05:32.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "test/security(vc-recap): owner-scoped S3 multi-key manifest preflight (#738)  Refs #730 and #617",
-      "url": "https://github.com/ivRooom/Herta/commit/0911e934a332e696cd8bb8e06ba93342ea624d75",
-      "at": "2026-11-03T00:37:42.000+09:00"
+      "title": "ci/security: require same-SHA main CI before production deploy (#700)  Closes #700 after product",
+      "url": "https://github.com/ivRooom/Herta/commit/01d30f08937925d3967fde025a8f2a7a4285e500",
+      "at": "2026-11-03T15:04:00.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "test/security(vc-recap): audit lifecycle and privacy call edges (#737)  Refs #734 / parent #728.",
-      "url": "https://github.com/ivRooom/Herta/commit/81499b23a6c4e98d12e36f22ff8ee9528a0c6b41",
-      "at": "2026-11-03T00:10:59.000+09:00"
+      "title": "test/security(vc-recap): inventory token consent and persistent Discord button ingress (#740)  R",
+      "url": "https://github.com/ivRooom/Herta/commit/9d5e6f2133a1a70bc9b79c273ce1a0e95fc8c6a6",
+      "at": "2026-11-03T13:58:24.000+09:00"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #762 ci/release(P0): main CI成功後のDeploy Production起動漏れを修正し同一SHA・runtime差分・レビューを強制する",
+      "url": "https://github.com/ivRooom/Herta/issues/762",
+      "at": "2026-11-03T07:54:10Z"
     },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #740 test/security(vc-recap): inventory token consent and persistent Discord button ingress (",
-      "url": "https://github.com/ivRooom/Herta/pull/740",
-      "at": "2026-11-02T19:10:18Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #739 test/security(vc-recap): replay owner deletion fences in isolated PostgreSQL (#729)",
-      "url": "https://github.com/ivRooom/Herta/pull/739",
-      "at": "2026-11-02T18:18:53Z"
+      "title": "PR #761 fix/security(vc-recap): cancel pending start on stop, disable, leave and revoke (#760)",
+      "url": "https://github.com/ivRooom/Herta/pull/761",
+      "at": "2026-11-03T07:37:07Z"
     }
   ],
-  "generated_at": "2026-11-03T04:34:51+09:00"
+  "generated_at": "2026-11-03T17:01:28+09:00"
 }
