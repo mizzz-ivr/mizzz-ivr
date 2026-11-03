@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 6,
-    "prs_opened": 7,
-    "issues_created": 18,
+    "commits": 8,
+    "prs_opened": 10,
+    "issues_created": 23,
     "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(ci): run production only after verified same-SHA main CI (#762)  * fix(ci): validate main CI",
+      "url": "https://github.com/ivRooom/Herta/commit/bbb3ff8a305ffbd97635a14ee341d776f61093e6",
+      "at": "2026-11-03T17:32:57.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix/security(vc-recap): cancel pending start on stop/disable/leave/revoke (#760)  Refs #760 #745",
+      "url": "https://github.com/ivRooom/Herta/commit/e2a502c4113ea3a86fbab57055d9b0b354f2a2bb",
+      "at": "2026-11-03T17:02:39.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -31,21 +45,7 @@
       "title": "test/security(vc-recap): inventory token consent and persistent Discord button ingress (#740)  R",
       "url": "https://github.com/ivRooom/Herta/commit/9d5e6f2133a1a70bc9b79c273ce1a0e95fc8c6a6",
       "at": "2026-11-03T13:58:24.000+09:00"
-    },
-    {
-      "type": "issue",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #762 ci/release(P0): main CI成功後のDeploy Production起動漏れを修正し同一SHA・runtime差分・レビューを強制する",
-      "url": "https://github.com/ivRooom/Herta/issues/762",
-      "at": "2026-11-03T07:54:10Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #761 fix/security(vc-recap): cancel pending start on stop, disable, leave and revoke (#760)",
-      "url": "https://github.com/ivRooom/Herta/pull/761",
-      "at": "2026-11-03T07:37:07Z"
     }
   ],
-  "generated_at": "2026-11-03T17:01:28+09:00"
+  "generated_at": "2026-11-03T20:01:06+09:00"
 }
