@@ -91,10 +91,10 @@
         "symbol": "●",
         "window_days": 7,
         "total_runs": 10,
-        "evaluated": 6,
-        "passed": 6,
+        "evaluated": 7,
+        "passed": 7,
         "failed": 0,
-        "ignored": 4,
+        "ignored": 3,
         "pass_rate": 100,
         "latest_conclusion": "success"
       },
@@ -135,15 +135,15 @@
       "at": "2026-11-02T19:08:27Z"
     }
   ],
-  "generated_at": "2026-11-03T10:18:30+09:00",
+  "generated_at": "2026-11-03T11:56:47+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
     "window_days": 7,
-    "evaluated": 6,
-    "passed": 6,
+    "evaluated": 7,
+    "passed": 7,
     "failed": 0,
-    "ignored": 4,
+    "ignored": 3,
     "pass_rate": 100,
     "repos_with_signal": 1
   },
