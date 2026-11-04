@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-05",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 1,
+    "prs_opened": 0,
+    "issues_created": 0,
+    "issues_completed": 0
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(ops): add durable PG17 cutover boundaries (#675) (#813)  * feat(ops): add durable PG17 cuto",
+      "url": "https://github.com/ivRooom/Herta/commit/0f06b03f0898f46975612fdb0891aa73098f3e3a",
+      "at": "2026-11-05T00:11:07.000+09:00"
+    }
+  ],
+  "generated_at": "2026-11-05T01:15:23+09:00"
+}
