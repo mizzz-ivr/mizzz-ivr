@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 6,
-    "prs_opened": 11,
-    "issues_created": 24,
+    "commits": 14,
+    "prs_opened": 24,
+    "issues_created": 30,
     "issues_completed": 5
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(valorant): add registered match win-rate trend (#798)  * feat(valorant): aggregate register",
-      "url": "https://github.com/ivRooom/Herta/commit/610ef91210fb509bf7e6c9fbb5c58a4c5bb11b5e",
-      "at": "2026-11-04T09:58:57.000+09:00"
+      "title": "feat(valorant/discord): show private picks analytics charts (#816)  * feat(valorant): add scoped",
+      "url": "https://github.com/ivRooom/Herta/commit/d88d383abbc2f4784876fa6bccddd06cea50151d",
+      "at": "2026-11-04T16:58:48.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(valorant): private guild-scoped pick statistics (#785)  Refs #785. Add ephemeral /valorant ",
-      "url": "https://github.com/ivRooom/Herta/commit/70b2e1ef323b204f3fbd03f504c45a84c4c6f0d5",
-      "at": "2026-11-04T03:59:58.000+09:00"
+      "title": "feat(valorant/studio): filter random pick analytics by 3/5-person teams (#815)  * feat(valorant/",
+      "url": "https://github.com/ivRooom/Herta/commit/950b2b533969c4882da51523b179b40dfc794701",
+      "at": "2026-11-04T16:26:02.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "fix(audit): support solo owner without fictitious independent approval (#53)  Offline-only envir",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/fd3f9dc01e9032ca49894e527b96cc3e51a5d2b9",
+      "at": "2026-11-04T16:14:03.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "fix(valorant): validate reported scores and analyze actual-played lineups (#786)  * test(valoran",
-      "url": "https://github.com/ivRooom/Herta/commit/58d5a258818e0ac88782c90e2e848130018c3f5f",
-      "at": "2026-11-04T03:14:18.000+09:00"
+      "title": "ci(security): keep solo maintainer main ruleset JSON and runbook in sync (#700)  Squash PR #812 ",
+      "url": "https://github.com/ivRooom/Herta/commit/864f6de6fd5b6b8229321c79622c2456111ec029",
+      "at": "2026-11-04T16:08:45.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(valorant): Guild role charts and pick history table (#784)  * feat(valorant): add exhaustiv",
-      "url": "https://github.com/ivRooom/Herta/commit/c778cd32a866cb9b92fe73ab4be425f5b9aa39ed",
-      "at": "2026-11-04T03:04:20.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(release): attest manual main cumulative baseline and safe rollback (#765)  Manual main deplo",
-      "url": "https://github.com/ivRooom/Herta/commit/ef9edf7e86f364abb8f24ca6c8d2729a18b0a525",
-      "at": "2026-11-04T02:49:53.000+09:00"
+      "repo": "ivRooom/ivrm-ai",
+      "title": "security(audit): introduce offline Environment protection preflight (#53)  Offline validation an",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/9ca6e3a0ff474d587d8d1aa74f5097a584bc2ba9",
+      "at": "2026-11-04T15:35:51.000+09:00"
     }
   ],
-  "generated_at": "2026-11-04T10:27:54+09:00"
+  "generated_at": "2026-11-04T17:06:23+09:00"
 }
