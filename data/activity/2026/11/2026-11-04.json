@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 14,
-    "prs_opened": 24,
+    "commits": 16,
+    "prs_opened": 26,
     "issues_created": 30,
     "issues_completed": 5
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(valorant/studio): mobile registered results cards and history navigation (#814)  * feat(val",
+      "url": "https://github.com/ivRooom/Herta/commit/7a3e8ed67fefb84014787527910cf500519b6c0d",
+      "at": "2026-11-04T18:18:47.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "docs(ci): synchronize solo Ruleset runbook with active ID 26515180 (#700)  Issue-first update of",
+      "url": "https://github.com/ivRooom/Herta/commit/e113ad02b0c452fe6c4dbde3a62a65ec0181d2f7",
+      "at": "2026-11-04T17:17:30.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -31,21 +45,7 @@
       "title": "fix(audit): support solo owner without fictitious independent approval (#53)  Offline-only envir",
       "url": "https://github.com/ivRooom/ivrm-ai/commit/fd3f9dc01e9032ca49894e527b96cc3e51a5d2b9",
       "at": "2026-11-04T16:14:03.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "ci(security): keep solo maintainer main ruleset JSON and runbook in sync (#700)  Squash PR #812 ",
-      "url": "https://github.com/ivRooom/Herta/commit/864f6de6fd5b6b8229321c79622c2456111ec029",
-      "at": "2026-11-04T16:08:45.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "security(audit): introduce offline Environment protection preflight (#53)  Offline validation an",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/9ca6e3a0ff474d587d8d1aa74f5097a584bc2ba9",
-      "at": "2026-11-04T15:35:51.000+09:00"
     }
   ],
-  "generated_at": "2026-11-04T17:06:23+09:00"
+  "generated_at": "2026-11-04T20:08:53+09:00"
 }
