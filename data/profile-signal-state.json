@@ -17,8 +17,8 @@
   "activity_total": 5,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 33,
-    "events": 29,
+    "score": 38,
+    "events": 34,
     "last_activity_at": "2026-11-05T18:00:39Z",
     "share": 100,
     "stack": [
@@ -128,14 +128,14 @@
       "at": "2026-11-05T17:40:06Z"
     },
     {
-      "label": "PR",
+      "label": "PUSH",
       "repo": "ivRooom/Herta",
-      "title": "PR merged #829",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-11-05T17:27:54Z"
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-11-05T17:27:56Z"
     }
   ],
-  "generated_at": "2026-11-06T05:04:19+09:00",
+  "generated_at": "2026-11-06T07:52:07+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",
