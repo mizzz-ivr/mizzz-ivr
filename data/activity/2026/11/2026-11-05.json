@@ -6,11 +6,39 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 1,
-    "prs_opened": 0,
-    "issues_created": 0,
+    "prs_opened": 3,
+    "issues_created": 1,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #823 docs(release): fail-closed incident runbook for partial deployment proof (#765)",
+      "url": "https://github.com/ivRooom/Herta/pull/823",
+      "at": "2026-11-05T01:26:37Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #822 fix(bot): avoid Prisma void deserialization for advisory locks (#559)",
+      "url": "https://github.com/ivRooom/Herta/pull/822",
+      "at": "2026-11-05T00:48:38Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #821 fix(daily): ログインボーナス受取結果カードをPNG無効時も表示 (#820)",
+      "url": "https://github.com/ivRooom/Herta/pull/821",
+      "at": "2026-11-05T00:12:48Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #820 [P1][Daily Discord] 受取結果カードと前日問題の本人向け答え合わせ導線（今日の問題・独立解説ボタン）",
+      "url": "https://github.com/ivRooom/Herta/issues/820",
+      "at": "2026-11-05T00:11:57Z"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -19,5 +47,5 @@
       "at": "2026-11-05T00:11:07.000+09:00"
     }
   ],
-  "generated_at": "2026-11-05T01:15:23+09:00"
+  "generated_at": "2026-11-05T10:29:43+09:00"
 }
