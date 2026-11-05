@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-06",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 1,
+    "prs_opened": 1,
+    "issues_created": 1,
+    "issues_completed": 0
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "ci(release): hold automatic production deploy for daily batch (#829)  * ci(release): hold automa",
+      "url": "https://github.com/ivRooom/Herta/commit/391073b71d25c6da5e0250924235487f6613f998",
+      "at": "2026-11-06T02:27:53.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #829 ci(release): gate automatic production deployment for daily batch (#828)",
+      "url": "https://github.com/ivRooom/Herta/pull/829",
+      "at": "2026-11-05T17:10:25Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #828 [P0][Release] Daily 5-PR一括反映に向けHerta自動Production Deployを明示ゲート化",
+      "url": "https://github.com/ivRooom/Herta/issues/828",
+      "at": "2026-11-05T17:09:21Z"
+    }
+  ],
+  "generated_at": "2026-11-06T02:37:43+09:00"
+}
