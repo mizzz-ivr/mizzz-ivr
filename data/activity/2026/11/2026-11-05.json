@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 3,
-    "issues_created": 1,
+    "commits": 2,
+    "prs_opened": 4,
+    "issues_created": 4,
     "issues_completed": 0
   },
   "activity": [
     {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "PR #823 docs(release): fail-closed incident runbook for partial deployment proof (#765)",
-      "url": "https://github.com/ivRooom/Herta/pull/823",
-      "at": "2026-11-05T01:26:37Z"
+      "title": "docs(release): document fail-closed proof incident and backup evidence (#823)  * docs(release): ",
+      "url": "https://github.com/ivRooom/Herta/commit/7943007e27511a0f39b2bb2c8fe0527241383fed",
+      "at": "2026-11-05T11:36:45.000+09:00"
     },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #822 fix(bot): avoid Prisma void deserialization for advisory locks (#559)",
-      "url": "https://github.com/ivRooom/Herta/pull/822",
-      "at": "2026-11-05T00:48:38Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #821 fix(daily): ログインボーナス受取結果カードをPNG無効時も表示 (#820)",
-      "url": "https://github.com/ivRooom/Herta/pull/821",
-      "at": "2026-11-05T00:12:48Z"
+      "title": "PR #827 docs(valorant): Companion専用Web入口とサブドメインのADR案 (#826)",
+      "url": "https://github.com/ivRooom/Herta/pull/827",
+      "at": "2026-11-05T03:11:51Z"
     },
     {
       "type": "issue",
       "repo": "ivRooom/Herta",
-      "title": "Issue #820 [P1][Daily Discord] 受取結果カードと前日問題の本人向け答え合わせ導線（今日の問題・独立解説ボタン）",
-      "url": "https://github.com/ivRooom/Herta/issues/820",
-      "at": "2026-11-05T00:11:57Z"
+      "title": "Issue #826 design(valorant-companion/web): 専用サブドメイン・公開LP・認証付きStudio入口の設計と安全な公開計画",
+      "url": "https://github.com/ivRooom/Herta/issues/826",
+      "at": "2026-11-05T03:09:43Z"
     },
     {
-      "type": "commit",
+      "type": "issue",
       "repo": "ivRooom/Herta",
-      "title": "feat(ops): add durable PG17 cutover boundaries (#675) (#813)  * feat(ops): add durable PG17 cuto",
-      "url": "https://github.com/ivRooom/Herta/commit/0f06b03f0898f46975612fdb0891aa73098f3e3a",
-      "at": "2026-11-05T00:11:07.000+09:00"
+      "title": "Issue #825 design(valorant-companion/banpick): Herta統合ドラフトDomain・RBAC・同期・復旧設計",
+      "url": "https://github.com/ivRooom/Herta/issues/825",
+      "at": "2026-11-05T03:04:52Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #824 research(valorant-companion): 既存Herta/Studio/Web統合・機能棚卸しとIssue First設計",
+      "url": "https://github.com/ivRooom/Herta/issues/824",
+      "at": "2026-11-05T03:03:40Z"
     }
   ],
-  "generated_at": "2026-11-05T10:29:43+09:00"
+  "generated_at": "2026-11-05T18:35:26+09:00"
 }
