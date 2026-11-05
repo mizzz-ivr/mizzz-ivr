@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
+    "commits": 3,
     "prs_opened": 1,
     "issues_created": 1,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(daily): improve bonus receipt card and embed fallback (#821)  * fix(daily): show receipt emb",
+      "url": "https://github.com/ivRooom/Herta/commit/796abfdb5227377fb7e831b6e6ef5fc053e4777f",
+      "at": "2026-11-06T02:49:11.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(daily): separate bonus claim, quiz and fortune actions (#805)  * fix(daily): make fortune an",
+      "url": "https://github.com/ivRooom/Herta/commit/807ca55ef40ec866ac48924bb00abd1dbcff6461",
+      "at": "2026-11-06T02:40:06.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -33,5 +47,5 @@
       "at": "2026-11-05T17:09:21Z"
     }
   ],
-  "generated_at": "2026-11-06T02:37:43+09:00"
+  "generated_at": "2026-11-06T05:04:19+09:00"
 }
