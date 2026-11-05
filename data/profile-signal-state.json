@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-11-05T05:32:23Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-11-05T10:48:29Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,9 +17,9 @@
   "activity_total": 10,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 64,
-    "events": 46,
-    "last_activity_at": "2026-11-05T05:32:23Z",
+    "score": 69,
+    "events": 51,
+    "last_activity_at": "2026-11-05T10:48:29Z",
     "share": 100,
     "stack": [
       "TypeScript",
@@ -82,20 +82,20 @@
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 64,
-      "events": 46,
-      "last_activity_at": "2026-11-05T05:32:23Z",
+      "score": 69,
+      "events": 51,
+      "last_activity_at": "2026-11-05T10:48:29Z",
       "share": 100,
       "ci": {
         "label": "MIXED",
         "symbol": "◐",
         "window_days": 7,
         "total_runs": 10,
-        "evaluated": 10,
-        "passed": 8,
-        "failed": 2,
-        "ignored": 0,
-        "pass_rate": 80,
+        "evaluated": 8,
+        "passed": 7,
+        "failed": 1,
+        "ignored": 2,
+        "pass_rate": 88,
         "latest_conclusion": "success"
       },
       "health": {
@@ -135,16 +135,16 @@
       "at": "2026-11-05T03:03:41Z"
     }
   ],
-  "generated_at": "2026-11-05T18:35:26+09:00",
+  "generated_at": "2026-11-05T20:09:07+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
     "window_days": 7,
-    "evaluated": 10,
-    "passed": 8,
-    "failed": 2,
-    "ignored": 0,
-    "pass_rate": 80,
+    "evaluated": 8,
+    "passed": 7,
+    "failed": 1,
+    "ignored": 2,
+    "pass_rate": 88,
     "repos_with_signal": 1
   },
   "dev_recap": {
