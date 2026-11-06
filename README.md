@@ -53,7 +53,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-mcmod">ivRooom/ivrm-mcmod</a></strong><br/><sub>weighted activity 54% · score 20 · 9 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-mcmod">ivRooom/ivrm-mcmod</a></strong><br/><sub>weighted activity 55% · score 21 · 10 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>Java</code></td>
   </tr>
 </table>
@@ -81,7 +81,7 @@
 <!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
 ## NOW BUILDING // Active repositories
 
-<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/ivrm-mcmod">ivRooom/ivrm-mcmod</a></strong><br/><sub>54% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 01:40 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong><br/><sub>38% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 02:19 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>8% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 00:47 JST</sub></td></tr></table>
+<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/ivrm-mcmod">ivRooom/ivrm-mcmod</a></strong><br/><sub>55% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 01:40 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong><br/><sub>37% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 02:19 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>8% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 00:47 JST</sub></td></tr></table>
 <!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
 
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->
