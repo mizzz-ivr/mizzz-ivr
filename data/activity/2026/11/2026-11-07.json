@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-07",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 0,
+    "prs_opened": 2,
+    "issues_created": 11,
+    "issues_completed": 0
+  },
+  "activity": [
+    {
+      "type": "issue",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Issue #59 [P1][Security] main ブランチに独立レビューとCI必須の Ruleset を設定",
+      "url": "https://github.com/ivRooom/ivrm-ai/issues/59",
+      "at": "2026-11-06T17:02:59Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "PR #58 feat(web): ivRooom AI のチャット画面と Composer を刷新 (#57)",
+      "url": "https://github.com/ivRooom/ivrm-ai/pull/58",
+      "at": "2026-11-06T16:57:44Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Issue #57 [P1][UI/UX] チャット画面・Composerを再設計し、レスポンシブと操作性を改善",
+      "url": "https://github.com/ivRooom/ivrm-ai/issues/57",
+      "at": "2026-11-06T16:34:12Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "Issue #17 arch(mcmod): MOD全体の責務・JAR分割・DB移行境界を再設計する",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/issues/17",
+      "at": "2026-11-06T16:30:44Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "Issue #16 test(player-bridge): 障害注入・Minecraft実機E2E・段階リリースGo/No-Goを整備",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/issues/16",
+      "at": "2026-11-06T16:30:13Z"
+    }
+  ],
+  "generated_at": "2026-11-07T02:42:25+09:00"
+}

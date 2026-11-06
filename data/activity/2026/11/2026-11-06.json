@@ -7,7 +7,7 @@
   "metrics": {
     "commits": 6,
     "prs_opened": 5,
-    "issues_created": 2,
+    "issues_created": 4,
     "issues_completed": 0
   },
   "activity": [
@@ -17,6 +17,20 @@
       "title": "feat(daily): stable result-image pool selector (#834)  * feat(daily): add deterministic result-i",
       "url": "https://github.com/ivRooom/Herta/commit/bd6cbabb8d2e0db61f3b5888d68b6d6afcdd8679",
       "at": "2026-11-06T17:01:57.000+09:00"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Issue #180 [P2] StorybookのDashboard・ivMuse・Astro・Analytics横展開適合性調査",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/180",
+      "at": "2026-11-06T11:15:11Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #835 [P1] Herta StudioのStorybook導入とUIコンポーネント棚卸し",
+      "url": "https://github.com/ivRooom/Herta/issues/835",
+      "at": "2026-11-06T11:15:09Z"
     },
     {
       "type": "commit",
@@ -31,21 +45,7 @@
       "title": "fix(daily): route legacy quiz buttons through independent V2 actions (#830)  * fix(daily): route",
       "url": "https://github.com/ivRooom/Herta/commit/82de754f59b4aa4c21e1845e7ebd2dcc1edb8575",
       "at": "2026-11-06T09:32:23.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #834 feat(daily): 正解/不正解の複数画像をreceipt単位で安定ランダム選択 (#803 #920)",
-      "url": "https://github.com/ivRooom/Herta/pull/834",
-      "at": "2026-11-06T07:13:47Z"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(daily): improve bonus receipt card and embed fallback (#821)  * fix(daily): show receipt emb",
-      "url": "https://github.com/ivRooom/Herta/commit/796abfdb5227377fb7e831b6e6ef5fc053e4777f",
-      "at": "2026-11-06T02:49:11.000+09:00"
     }
   ],
-  "generated_at": "2026-11-06T19:45:05+09:00"
+  "generated_at": "2026-11-07T02:42:25+09:00"
 }
