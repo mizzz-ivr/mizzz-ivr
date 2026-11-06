@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-11-06T00:39:29Z"
+    "last_activity_at": "2026-11-06T02:59:53Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,9 +17,9 @@
   "activity_total": 8,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 55,
-    "events": 47,
-    "last_activity_at": "2026-11-06T00:39:29Z",
+    "score": 77,
+    "events": 63,
+    "last_activity_at": "2026-11-06T02:59:53Z",
     "share": 100,
     "stack": [
       "TypeScript",
@@ -109,33 +109,33 @@
     {
       "label": "PR",
       "repo": "ivRooom/Herta",
+      "title": "PR merged #832",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-11-06T02:03:01Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "Opened PR #833",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-11-06T01:49:53Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
+      "title": "Opened PR #832",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-11-06T01:45:04Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/Herta",
       "title": "PR merged #830",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-11-06T00:32:24Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Opened issue #831",
-      "url": "https://github.com/ivRooom/Herta/issues/831",
-      "at": "2026-11-06T00:22:38Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "Opened PR #830",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-11-06T00:03:13Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR merged #821",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-11-05T17:49:12Z"
     }
   ],
-  "generated_at": "2026-11-06T10:36:39+09:00",
+  "generated_at": "2026-11-06T12:03:25+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
