@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 4,
-    "prs_opened": 2,
+    "commits": 6,
+    "prs_opened": 5,
     "issues_created": 2,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(daily): stable result-image pool selector (#834)  * feat(daily): add deterministic result-i",
+      "url": "https://github.com/ivRooom/Herta/commit/bd6cbabb8d2e0db61f3b5888d68b6d6afcdd8679",
+      "at": "2026-11-06T17:01:57.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "ci(release): add protected incident runtime recovery path (#832)  * ci(release): add production-",
+      "url": "https://github.com/ivRooom/Herta/commit/f76995a8fbd45efa9a97b1221065460cbc5767e8",
+      "at": "2026-11-06T11:03:00.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -19,33 +33,19 @@
       "at": "2026-11-06T09:32:23.000+09:00"
     },
     {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #834 feat(daily): 正解/不正解の複数画像をreceipt単位で安定ランダム選択 (#803 #920)",
+      "url": "https://github.com/ivRooom/Herta/pull/834",
+      "at": "2026-11-06T07:13:47Z"
+    },
+    {
       "type": "commit",
       "repo": "ivRooom/Herta",
       "title": "fix(daily): improve bonus receipt card and embed fallback (#821)  * fix(daily): show receipt emb",
       "url": "https://github.com/ivRooom/Herta/commit/796abfdb5227377fb7e831b6e6ef5fc053e4777f",
       "at": "2026-11-06T02:49:11.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(daily): separate bonus claim, quiz and fortune actions (#805)  * fix(daily): make fortune an",
-      "url": "https://github.com/ivRooom/Herta/commit/807ca55ef40ec866ac48924bb00abd1dbcff6461",
-      "at": "2026-11-06T02:40:06.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "ci(release): hold automatic production deploy for daily batch (#829)  * ci(release): hold automa",
-      "url": "https://github.com/ivRooom/Herta/commit/391073b71d25c6da5e0250924235487f6613f998",
-      "at": "2026-11-06T02:27:53.000+09:00"
-    },
-    {
-      "type": "issue",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #831 security(valorant-companion): 管理者権限を緩めないGuildメンバー専用認可・セッション境界",
-      "url": "https://github.com/ivRooom/Herta/issues/831",
-      "at": "2026-11-06T00:22:36Z"
     }
   ],
-  "generated_at": "2026-11-06T10:36:39+09:00"
+  "generated_at": "2026-11-06T19:45:05+09:00"
 }

@@ -5,21 +5,21 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "BUILDING",
-    "symbol": "●",
-    "last_activity_at": "2026-11-06T02:59:53Z"
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
+    "last_activity_at": "2026-11-06T08:01:58Z"
   },
   "code_weather": {
     "label": "ACTIVE",
     "icon": "🌤️"
   },
   "streak": 26,
-  "activity_total": 8,
+  "activity_total": 13,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 77,
-    "events": 63,
-    "last_activity_at": "2026-11-06T02:59:53Z",
+    "score": 101,
+    "events": 84,
+    "last_activity_at": "2026-11-06T08:01:58Z",
     "share": 100,
     "stack": [
       "TypeScript",
@@ -73,18 +73,18 @@
     },
     {
       "date": "2026-11-06",
-      "total": 8,
-      "commits": 4,
-      "prs": 2,
+      "total": 13,
+      "commits": 6,
+      "prs": 5,
       "issues": 2
     }
   ],
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 55,
-      "events": 47,
-      "last_activity_at": "2026-11-06T00:39:29Z",
+      "score": 101,
+      "events": 84,
+      "last_activity_at": "2026-11-06T08:01:58Z",
       "share": 100,
       "ci": {
         "label": "PASSING",
@@ -109,33 +109,33 @@
     {
       "label": "PR",
       "repo": "ivRooom/Herta",
-      "title": "PR merged #832",
+      "title": "PR merged #834",
       "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-11-06T02:03:01Z"
+      "at": "2026-11-06T08:01:58Z"
     },
     {
       "label": "PR",
       "repo": "ivRooom/Herta",
-      "title": "Opened PR #833",
+      "title": "Opened PR #834",
       "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-11-06T01:49:53Z"
+      "at": "2026-11-06T07:13:47Z"
     },
     {
-      "label": "PR",
+      "label": "PUSH",
       "repo": "ivRooom/Herta",
-      "title": "Opened PR #832",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-11-06T01:45:04Z"
+      "title": "1 commit pushed to feat/daily-result-image-pool-selector-803-20261106",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-11-06T07:13:29Z"
     },
     {
-      "label": "PR",
+      "label": "PUSH",
       "repo": "ivRooom/Herta",
-      "title": "PR merged #830",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-11-06T00:32:24Z"
+      "title": "1 commit pushed to main",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-11-06T02:03:03Z"
     }
   ],
-  "generated_at": "2026-11-06T12:03:25+09:00",
+  "generated_at": "2026-11-06T19:45:05+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
@@ -165,13 +165,13 @@
         "active_days": 5
       },
       "metrics": {
-        "commits": 49,
-        "prs_opened": 60,
+        "commits": 51,
+        "prs_opened": 63,
         "issues_created": 79,
         "issues_completed": 14,
-        "activity_total": 202
+        "activity_total": 207
       },
-      "generated_at": "2026-11-06T10:36:39+09:00"
+      "generated_at": "2026-11-06T19:45:05+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -186,13 +186,13 @@
         "active_days": 6
       },
       "metrics": {
-        "commits": 60,
-        "prs_opened": 73,
+        "commits": 62,
+        "prs_opened": 76,
         "issues_created": 92,
         "issues_completed": 17,
-        "activity_total": 242
+        "activity_total": 247
       },
-      "generated_at": "2026-11-06T10:36:39+09:00"
+      "generated_at": "2026-11-06T19:45:05+09:00"
     },
     "achievements": [
       {
@@ -244,11 +244,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-11-06",
       "metrics": {
-        "commits": 2064,
-        "prs_opened": 628,
+        "commits": 2066,
+        "prs_opened": 631,
         "issues_created": 409,
         "issues_completed": 153,
-        "activity_total": 3254
+        "activity_total": 3259
       }
     },
     "lifetime": {
@@ -257,11 +257,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-11-06",
       "metrics": {
-        "commits": 2064,
-        "prs_opened": 628,
+        "commits": 2066,
+        "prs_opened": 631,
         "issues_created": 409,
         "issues_completed": 153,
-        "activity_total": 3254
+        "activity_total": 3259
       }
     }
   }
