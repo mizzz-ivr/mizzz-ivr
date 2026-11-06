@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 3,
-    "prs_opened": 1,
-    "issues_created": 1,
+    "commits": 4,
+    "prs_opened": 2,
+    "issues_created": 2,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(daily): route legacy quiz buttons through independent V2 actions (#830)  * fix(daily): route",
+      "url": "https://github.com/ivRooom/Herta/commit/82de754f59b4aa4c21e1845e7ebd2dcc1edb8575",
+      "at": "2026-11-06T09:32:23.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -33,19 +40,12 @@
       "at": "2026-11-06T02:27:53.000+09:00"
     },
     {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #829 ci(release): gate automatic production deployment for daily batch (#828)",
-      "url": "https://github.com/ivRooom/Herta/pull/829",
-      "at": "2026-11-05T17:10:25Z"
-    },
-    {
       "type": "issue",
       "repo": "ivRooom/Herta",
-      "title": "Issue #828 [P0][Release] Daily 5-PR一括反映に向けHerta自動Production Deployを明示ゲート化",
-      "url": "https://github.com/ivRooom/Herta/issues/828",
-      "at": "2026-11-05T17:09:21Z"
+      "title": "Issue #831 security(valorant-companion): 管理者権限を緩めないGuildメンバー専用認可・セッション境界",
+      "url": "https://github.com/ivRooom/Herta/issues/831",
+      "at": "2026-11-06T00:22:36Z"
     }
   ],
-  "generated_at": "2026-11-06T05:04:19+09:00"
+  "generated_at": "2026-11-06T10:36:39+09:00"
 }
