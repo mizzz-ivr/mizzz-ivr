@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "OFFLINE",
-    "symbol": "○",
-    "last_activity_at": "2026-11-06T17:19:34Z"
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
+    "last_activity_at": "2026-11-07T04:55:17Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -16,13 +16,16 @@
   "streak": 27,
   "activity_total": 13,
   "current_focus": {
-    "repo": "ivRooom/ivrm-mcmod",
-    "score": 22,
-    "events": 11,
-    "last_activity_at": "2026-11-06T16:40:15Z",
-    "share": 56,
+    "repo": "ivRooom/ivrm-ai",
+    "score": 25,
+    "events": 20,
+    "last_activity_at": "2026-11-07T04:55:17Z",
+    "share": 50,
     "stack": [
-      "Java"
+      "TypeScript",
+      "Shell",
+      "Python",
+      "CSS"
     ]
   },
   "dev_pulse": [
@@ -78,35 +81,11 @@
   ],
   "now_building": [
     {
-      "repo": "ivRooom/ivrm-mcmod",
-      "score": 22,
-      "events": 11,
-      "last_activity_at": "2026-11-06T16:40:15Z",
-      "share": 56,
-      "ci": {
-        "label": "PASSING",
-        "symbol": "●",
-        "window_days": 7,
-        "total_runs": 4,
-        "evaluated": 4,
-        "passed": 4,
-        "failed": 0,
-        "ignored": 0,
-        "pass_rate": 100,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "HEALTHY",
-        "symbol": "●",
-        "reason": "active with passing recent CI"
-      }
-    },
-    {
       "repo": "ivRooom/ivrm-ai",
-      "score": 14,
-      "events": 9,
-      "last_activity_at": "2026-11-06T17:19:34Z",
-      "share": 36,
+      "score": 25,
+      "events": 20,
+      "last_activity_at": "2026-11-07T04:55:17Z",
+      "share": 50,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -126,11 +105,35 @@
       }
     },
     {
+      "repo": "ivRooom/ivrm-mcmod",
+      "score": 22,
+      "events": 11,
+      "last_activity_at": "2026-11-06T16:40:15Z",
+      "share": 44,
+      "ci": {
+        "label": "PASSING",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 4,
+        "evaluated": 4,
+        "passed": 4,
+        "failed": 0,
+        "ignored": 0,
+        "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
+    },
+    {
       "repo": "ivRooom/Herta",
       "score": 3,
       "events": 2,
       "last_activity_at": "2026-11-06T15:47:04Z",
-      "share": 8,
+      "share": 6,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -166,21 +169,21 @@
       "at": "2026-11-06T16:57:44Z"
     },
     {
+      "label": "CREATE",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Created branch feature/ui-chat-refresh",
+      "url": "https://github.com/ivRooom/ivrm-ai",
+      "at": "2026-11-06T16:57:17Z"
+    },
+    {
       "label": "ISSUE",
       "repo": "ivRooom/ivrm-mcmod",
       "title": "Opened issue #17",
       "url": "https://github.com/ivRooom/ivrm-mcmod/issues/17",
       "at": "2026-11-06T16:40:15Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "Opened issue #57",
-      "url": "https://github.com/ivRooom/ivrm-ai/issues/57",
-      "at": "2026-11-06T16:34:13Z"
     }
   ],
-  "generated_at": "2026-11-07T11:14:40+09:00",
+  "generated_at": "2026-11-07T17:55:28+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",

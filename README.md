@@ -26,7 +26,7 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>○ OFFLINE</strong><br/><sub>last public activity · 02:19 JST</sub></td>
+    <td width="33%" align="center"><strong>◐ RECENTLY ACTIVE</strong><br/><sub>last public activity · 13:55 JST</sub></td>
     <td width="34%" align="center"><strong>🌤️ ACTIVE</strong><br/><sub>13 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 27 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
@@ -53,8 +53,8 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-mcmod">ivRooom/ivrm-mcmod</a></strong><br/><sub>weighted activity 56% · score 22 · 11 events</sub></td>
-    <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>Java</code></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong><br/><sub>weighted activity 50% · score 25 · 20 events</sub></td>
+    <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>Shell</code> <code>Python</code> <code>CSS</code></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:FOCUS:END -->
@@ -81,7 +81,7 @@
 <!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
 ## NOW BUILDING // Active repositories
 
-<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/ivrm-mcmod">ivRooom/ivrm-mcmod</a></strong><br/><sub>56% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 01:40 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong><br/><sub>36% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 02:19 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>8% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 00:47 JST</sub></td></tr></table>
+<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong><br/><sub>50% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 13:55 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/ivrm-mcmod">ivRooom/ivrm-mcmod</a></strong><br/><sub>44% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 01:40 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>6% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 00:47 JST</sub></td></tr></table>
 <!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
 
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->
@@ -91,8 +91,8 @@
   <tbody>
     <tr><td width="10%"><code>02:03</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong> — <a href="https://github.com/ivRooom/ivrm-ai/issues/59">Issue #59を作成</a></td></tr>
     <tr><td width="10%"><code>01:57</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong> — <a href="https://github.com/ivRooom/ivrm-ai">PR #58を作成</a></td></tr>
+    <tr><td width="10%"><code>01:57</code></td><td width="14%"><code>CREATE</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong> — <a href="https://github.com/ivRooom/ivrm-ai">Created branch feature/ui-chat-refresh</a></td></tr>
     <tr><td width="10%"><code>01:40</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-mcmod">ivRooom/ivrm-mcmod</a></strong> — <a href="https://github.com/ivRooom/ivrm-mcmod/issues/17">Issue #17を作成</a></td></tr>
-    <tr><td width="10%"><code>01:34</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong> — <a href="https://github.com/ivRooom/ivrm-ai/issues/57">Issue #57を作成</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->
