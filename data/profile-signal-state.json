@@ -1,41 +1,22 @@
 {
   "schema_version": 4,
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "timezone": "Asia/Tokyo",
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
+    "label": "OFFLINE",
+    "symbol": "○",
     "last_activity_at": "2026-11-07T04:55:17Z"
   },
   "code_weather": {
-    "label": "ACTIVE",
-    "icon": "🌤️"
+    "label": "REST DAY",
+    "icon": "🌙"
   },
-  "streak": 27,
-  "activity_total": 13,
-  "current_focus": {
-    "repo": "ivRooom/ivrm-ai",
-    "score": 25,
-    "events": 20,
-    "last_activity_at": "2026-11-07T04:55:17Z",
-    "share": 50,
-    "stack": [
-      "TypeScript",
-      "Shell",
-      "Python",
-      "CSS"
-    ]
-  },
+  "streak": 0,
+  "activity_total": 0,
+  "current_focus": null,
   "dev_pulse": [
-    {
-      "date": "2026-11-01",
-      "total": 40,
-      "commits": 11,
-      "prs": 13,
-      "issues": 16
-    },
     {
       "date": "2026-11-02",
       "total": 52,
@@ -77,127 +58,32 @@
       "commits": 0,
       "prs": 2,
       "issues": 11
+    },
+    {
+      "date": "2026-11-08",
+      "total": 0,
+      "commits": 0,
+      "prs": 0,
+      "issues": 0
     }
   ],
-  "now_building": [
-    {
-      "repo": "ivRooom/ivrm-ai",
-      "score": 25,
-      "events": 20,
-      "last_activity_at": "2026-11-07T04:55:17Z",
-      "share": 50,
-      "ci": {
-        "label": "PASSING",
-        "symbol": "●",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 10,
-        "passed": 10,
-        "failed": 0,
-        "ignored": 0,
-        "pass_rate": 100,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "HEALTHY",
-        "symbol": "●",
-        "reason": "active with passing recent CI"
-      }
-    },
-    {
-      "repo": "ivRooom/ivrm-mcmod",
-      "score": 22,
-      "events": 11,
-      "last_activity_at": "2026-11-06T16:40:15Z",
-      "share": 44,
-      "ci": {
-        "label": "PASSING",
-        "symbol": "●",
-        "window_days": 7,
-        "total_runs": 4,
-        "evaluated": 4,
-        "passed": 4,
-        "failed": 0,
-        "ignored": 0,
-        "pass_rate": 100,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "HEALTHY",
-        "symbol": "●",
-        "reason": "active with passing recent CI"
-      }
-    },
-    {
-      "repo": "ivRooom/Herta",
-      "score": 3,
-      "events": 2,
-      "last_activity_at": "2026-11-06T15:47:04Z",
-      "share": 6,
-      "ci": {
-        "label": "PASSING",
-        "symbol": "●",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 9,
-        "passed": 9,
-        "failed": 0,
-        "ignored": 1,
-        "pass_rate": 100,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "HEALTHY",
-        "symbol": "●",
-        "reason": "active with passing recent CI"
-      }
-    }
-  ],
-  "activity_stream": [
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "Opened issue #59",
-      "url": "https://github.com/ivRooom/ivrm-ai/issues/59",
-      "at": "2026-11-06T17:03:00Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "Opened PR #58",
-      "url": "https://github.com/ivRooom/ivrm-ai",
-      "at": "2026-11-06T16:57:44Z"
-    },
-    {
-      "label": "CREATE",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "Created branch feature/ui-chat-refresh",
-      "url": "https://github.com/ivRooom/ivrm-ai",
-      "at": "2026-11-06T16:57:17Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-mcmod",
-      "title": "Opened issue #17",
-      "url": "https://github.com/ivRooom/ivrm-mcmod/issues/17",
-      "at": "2026-11-06T16:40:15Z"
-    }
-  ],
-  "generated_at": "2026-11-07T19:24:57+09:00",
+  "now_building": [],
+  "activity_stream": [],
+  "generated_at": "2026-11-08T00:31:48+09:00",
   "ci_signal": {
-    "label": "PASSING",
-    "symbol": "●",
+    "label": "NO SIGNAL",
+    "symbol": "○",
     "window_days": 7,
-    "evaluated": 23,
-    "passed": 23,
+    "evaluated": 0,
+    "passed": 0,
     "failed": 0,
-    "ignored": 1,
-    "pass_rate": 100,
-    "repos_with_signal": 3
+    "ignored": 0,
+    "pass_rate": null,
+    "repos_with_signal": 0
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
-    "tracked_days": 75,
+    "tracked_days": 76,
     "active_days": 66,
     "longest_streak": 27,
     "weekly": {
@@ -208,8 +94,8 @@
       "github_login": "mizzz-ivr",
       "coverage": {
         "start_date": "2026-11-02",
-        "end_date": "2026-11-07",
-        "tracked_days": 6,
+        "end_date": "2026-11-08",
+        "tracked_days": 7,
         "active_days": 6
       },
       "metrics": {
@@ -219,7 +105,7 @@
         "issues_completed": 14,
         "activity_total": 222
       },
-      "generated_at": "2026-11-07T02:42:25+09:00"
+      "generated_at": "2026-11-08T00:31:48+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -229,8 +115,8 @@
       "github_login": "mizzz-ivr",
       "coverage": {
         "start_date": "2026-11-01",
-        "end_date": "2026-11-07",
-        "tracked_days": 7,
+        "end_date": "2026-11-08",
+        "tracked_days": 8,
         "active_days": 7
       },
       "metrics": {
@@ -240,7 +126,7 @@
         "issues_completed": 17,
         "activity_total": 262
       },
-      "generated_at": "2026-11-07T02:42:25+09:00"
+      "generated_at": "2026-11-08T00:31:48+09:00"
     },
     "achievements": [
       {
@@ -287,10 +173,10 @@
   "tracked_summary": {
     "year": 2026,
     "yearly": {
-      "tracked_days": 75,
+      "tracked_days": 76,
       "active_days": 66,
       "first_date": "2026-08-25",
-      "last_date": "2026-11-07",
+      "last_date": "2026-11-08",
       "metrics": {
         "commits": 2066,
         "prs_opened": 633,
@@ -300,10 +186,10 @@
       }
     },
     "lifetime": {
-      "tracked_days": 75,
+      "tracked_days": 76,
       "active_days": 66,
       "first_date": "2026-08-25",
-      "last_date": "2026-11-07",
+      "last_date": "2026-11-08",
       "metrics": {
         "commits": 2066,
         "prs_opened": 633,
