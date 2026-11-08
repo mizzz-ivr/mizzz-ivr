@@ -1,41 +1,22 @@
 {
   "schema_version": 4,
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "timezone": "Asia/Tokyo",
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
+    "label": "OFFLINE",
+    "symbol": "○",
     "last_activity_at": "2026-11-08T07:43:01Z"
   },
   "code_weather": {
     "label": "REST DAY",
     "icon": "🌙"
   },
-  "streak": 28,
+  "streak": 0,
   "activity_total": 0,
-  "current_focus": {
-    "repo": "ivRooom/ivrm-ai",
-    "score": 21,
-    "events": 21,
-    "last_activity_at": "2026-11-08T07:43:01Z",
-    "share": 95,
-    "stack": [
-      "TypeScript",
-      "Shell",
-      "Python",
-      "CSS"
-    ]
-  },
+  "current_focus": null,
   "dev_pulse": [
-    {
-      "date": "2026-11-02",
-      "total": 52,
-      "commits": 13,
-      "prs": 13,
-      "issues": 26
-    },
     {
       "date": "2026-11-03",
       "total": 55,
@@ -77,104 +58,54 @@
       "commits": 0,
       "prs": 0,
       "issues": 0
-    }
-  ],
-  "now_building": [
-    {
-      "repo": "ivRooom/ivrm-ai",
-      "score": 21,
-      "events": 21,
-      "last_activity_at": "2026-11-08T07:43:01Z",
-      "share": 95,
-      "ci": {
-        "label": "PASSING",
-        "symbol": "●",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 10,
-        "passed": 10,
-        "failed": 0,
-        "ignored": 0,
-        "pass_rate": 100,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "HEALTHY",
-        "symbol": "●",
-        "reason": "active with passing recent CI"
-      }
     },
     {
-      "repo": "ivRooom/Herta",
-      "score": 1,
-      "events": 1,
-      "last_activity_at": "2026-11-07T16:56:22Z",
-      "share": 5,
-      "ci": {
-        "label": "PASSING",
-        "symbol": "●",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 9,
-        "passed": 9,
-        "failed": 0,
-        "ignored": 1,
-        "pass_rate": 100,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "HEALTHY",
-        "symbol": "●",
-        "reason": "active with passing recent CI"
-      }
+      "date": "2026-11-09",
+      "total": 0,
+      "commits": 0,
+      "prs": 0,
+      "issues": 0
     }
   ],
-  "activity_stream": [
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "1 commit pushed to feature/ui-chat-refresh",
-      "url": "https://github.com/ivRooom/ivrm-ai/commits",
-      "at": "2026-11-08T07:33:14Z"
-    }
-  ],
-  "generated_at": "2026-11-08T22:38:38+09:00",
+  "now_building": [],
+  "activity_stream": [],
+  "generated_at": "2026-11-09T01:04:35+09:00",
   "ci_signal": {
-    "label": "PASSING",
-    "symbol": "●",
+    "label": "NO SIGNAL",
+    "symbol": "○",
     "window_days": 7,
-    "evaluated": 19,
-    "passed": 19,
+    "evaluated": 0,
+    "passed": 0,
     "failed": 0,
-    "ignored": 1,
-    "pass_rate": 100,
-    "repos_with_signal": 2
+    "ignored": 0,
+    "pass_rate": null,
+    "repos_with_signal": 0
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
-    "tracked_days": 76,
+    "tracked_days": 77,
     "active_days": 66,
     "longest_streak": 27,
     "weekly": {
       "schema_version": 1,
-      "period": "2026-W45",
+      "period": "2026-W46",
       "timezone": "Asia/Tokyo",
       "scope": "public",
       "github_login": "mizzz-ivr",
       "coverage": {
-        "start_date": "2026-11-02",
-        "end_date": "2026-11-08",
-        "tracked_days": 7,
-        "active_days": 6
+        "start_date": "2026-11-09",
+        "end_date": "2026-11-09",
+        "tracked_days": 1,
+        "active_days": 0
       },
       "metrics": {
-        "commits": 51,
-        "prs_opened": 65,
-        "issues_created": 92,
-        "issues_completed": 14,
-        "activity_total": 222
+        "commits": 0,
+        "prs_opened": 0,
+        "issues_created": 0,
+        "issues_completed": 0,
+        "activity_total": 0
       },
-      "generated_at": "2026-11-08T00:31:48+09:00"
+      "generated_at": "2026-11-09T01:04:35+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -184,8 +115,8 @@
       "github_login": "mizzz-ivr",
       "coverage": {
         "start_date": "2026-11-01",
-        "end_date": "2026-11-08",
-        "tracked_days": 8,
+        "end_date": "2026-11-09",
+        "tracked_days": 9,
         "active_days": 7
       },
       "metrics": {
@@ -195,7 +126,7 @@
         "issues_completed": 17,
         "activity_total": 262
       },
-      "generated_at": "2026-11-08T00:31:48+09:00"
+      "generated_at": "2026-11-09T01:04:35+09:00"
     },
     "achievements": [
       {
@@ -242,10 +173,10 @@
   "tracked_summary": {
     "year": 2026,
     "yearly": {
-      "tracked_days": 76,
+      "tracked_days": 77,
       "active_days": 66,
       "first_date": "2026-08-25",
-      "last_date": "2026-11-08",
+      "last_date": "2026-11-09",
       "metrics": {
         "commits": 2066,
         "prs_opened": 633,
@@ -255,10 +186,10 @@
       }
     },
     "lifetime": {
-      "tracked_days": 76,
+      "tracked_days": 77,
       "active_days": 66,
       "first_date": "2026-08-25",
-      "last_date": "2026-11-08",
+      "last_date": "2026-11-09",
       "metrics": {
         "commits": 2066,
         "prs_opened": 633,
