@@ -53,7 +53,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong><br/><sub>weighted activity 95% · score 20 · 20 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong><br/><sub>weighted activity 95% · score 21 · 21 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>Shell</code> <code>Python</code> <code>CSS</code></td>
   </tr>
 </table>
@@ -89,7 +89,7 @@
 
 <table width="100%">
   <tbody>
-    <tr><td colspan="3" align="center"><sub>最近の公開アクティビティはありません。</sub></td></tr>
+    <tr><td width="10%"><code>16:33</code></td><td width="14%"><code>PUSH</code></td><td><strong><a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong> — <a href="https://github.com/ivRooom/ivrm-ai/commits">feature/ui-chat-refreshへ1コミットをPush</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->

@@ -17,8 +17,8 @@
   "activity_total": 0,
   "current_focus": {
     "repo": "ivRooom/ivrm-ai",
-    "score": 20,
-    "events": 20,
+    "score": 21,
+    "events": 21,
     "last_activity_at": "2026-11-08T07:43:01Z",
     "share": 95,
     "stack": [
@@ -82,8 +82,8 @@
   "now_building": [
     {
       "repo": "ivRooom/ivrm-ai",
-      "score": 20,
-      "events": 20,
+      "score": 21,
+      "events": 21,
       "last_activity_at": "2026-11-08T07:43:01Z",
       "share": 95,
       "ci": {
@@ -129,8 +129,16 @@
       }
     }
   ],
-  "activity_stream": [],
-  "generated_at": "2026-11-08T18:15:09+09:00",
+  "activity_stream": [
+    {
+      "label": "PUSH",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "1 commit pushed to feature/ui-chat-refresh",
+      "url": "https://github.com/ivRooom/ivrm-ai/commits",
+      "at": "2026-11-08T07:33:14Z"
+    }
+  ],
+  "generated_at": "2026-11-08T22:38:38+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
