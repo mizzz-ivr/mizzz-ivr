@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "OFFLINE",
-    "symbol": "○",
-    "last_activity_at": "2026-11-07T16:56:22Z"
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
+    "last_activity_at": "2026-11-08T07:43:01Z"
   },
   "code_weather": {
     "label": "REST DAY",
@@ -16,16 +16,16 @@
   "streak": 28,
   "activity_total": 0,
   "current_focus": {
-    "repo": "ivRooom/Herta",
-    "score": 1,
-    "events": 1,
-    "last_activity_at": "2026-11-07T16:56:22Z",
-    "share": 100,
+    "repo": "ivRooom/ivrm-ai",
+    "score": 20,
+    "events": 20,
+    "last_activity_at": "2026-11-08T07:43:01Z",
+    "share": 95,
     "stack": [
       "TypeScript",
-      "JavaScript",
+      "Shell",
       "Python",
-      "Shell"
+      "CSS"
     ]
   },
   "dev_pulse": [
@@ -81,11 +81,35 @@
   ],
   "now_building": [
     {
+      "repo": "ivRooom/ivrm-ai",
+      "score": 20,
+      "events": 20,
+      "last_activity_at": "2026-11-08T07:43:01Z",
+      "share": 95,
+      "ci": {
+        "label": "PASSING",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 10,
+        "passed": 10,
+        "failed": 0,
+        "ignored": 0,
+        "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
+    },
+    {
       "repo": "ivRooom/Herta",
       "score": 1,
       "events": 1,
       "last_activity_at": "2026-11-07T16:56:22Z",
-      "share": 100,
+      "share": 5,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -106,17 +130,17 @@
     }
   ],
   "activity_stream": [],
-  "generated_at": "2026-11-08T15:16:26+09:00",
+  "generated_at": "2026-11-08T18:15:09+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
     "window_days": 7,
-    "evaluated": 9,
-    "passed": 9,
+    "evaluated": 19,
+    "passed": 19,
     "failed": 0,
     "ignored": 1,
     "pass_rate": 100,
-    "repos_with_signal": 1
+    "repos_with_signal": 2
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",

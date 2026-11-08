@@ -26,7 +26,7 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>○ OFFLINE</strong><br/><sub>last public activity · 01:56 JST</sub></td>
+    <td width="33%" align="center"><strong>◐ RECENTLY ACTIVE</strong><br/><sub>last public activity · 16:43 JST</sub></td>
     <td width="34%" align="center"><strong>🌙 REST DAY</strong><br/><sub>0 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 28 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
@@ -53,8 +53,8 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>weighted activity 100% · score 1 · 1 events</sub></td>
-    <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>JavaScript</code> <code>Python</code> <code>Shell</code></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong><br/><sub>weighted activity 95% · score 20 · 20 events</sub></td>
+    <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>Shell</code> <code>Python</code> <code>CSS</code></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:FOCUS:END -->
@@ -72,8 +72,8 @@
   <tr>
     <td width="25%" align="center"><strong>PASSING</strong><br/><sub>CI SIGNAL</sub></td>
     <td width="25%" align="center"><strong>100%</strong><br/><sub>PASS RATE</sub></td>
-    <td width="25%" align="center"><strong>9 / 9</strong><br/><sub>PASSED / EVALUATED</sub></td>
-    <td width="25%" align="center"><strong>1</strong><br/><sub>REPOS WITH CI</sub></td>
+    <td width="25%" align="center"><strong>19 / 19</strong><br/><sub>PASSED / EVALUATED</sub></td>
+    <td width="25%" align="center"><strong>2</strong><br/><sub>REPOS WITH CI</sub></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:PULSE:END -->
@@ -81,7 +81,7 @@
 <!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
 ## NOW BUILDING // Active repositories
 
-<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>100% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 01:56 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
+<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong><br/><sub>95% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 16:43 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>5% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 01:56 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
 <!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
 
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->
