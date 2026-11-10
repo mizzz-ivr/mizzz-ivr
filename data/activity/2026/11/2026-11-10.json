@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 3,
-    "prs_opened": 7,
+    "commits": 5,
+    "prs_opened": 9,
     "issues_created": 1,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "docs: Herta DB設計書（ER図・テーブル定義・CRUD）を追加 (#842)  * docs: Herta DB設計書（ER図・テーブル定義・CRUD）を追加  * docs: D",
+      "url": "https://github.com/ivRooom/Herta/commit/61575489399ffc69764b08e8a9fbe3bf5162fcfc",
+      "at": "2026-11-10T15:44:39.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(release): VALORANT predeploy fence を external DB の適用済み確認に対応 (#845)  * fix(release): VALORANT",
+      "url": "https://github.com/ivRooom/Herta/commit/60d669667a3bc1dff0b660cacb18e54fed5087ca",
+      "at": "2026-11-10T15:30:25.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -31,21 +45,7 @@
       "title": "chore(security): CVE-2026-4738（zlib）を Grype allowlist に追加 (#841)",
       "url": "https://github.com/ivRooom/Herta/commit/5f82e778de4da66f2a1a561ed8b70765dff71c17",
       "at": "2026-11-10T10:44:51.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #844 ci: Herta self-hosted フォールバックランナー試験用ワークフロー（パイロット）",
-      "url": "https://github.com/ivRooom/Herta/pull/844",
-      "at": "2026-11-10T04:00:58Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #843 fix(release): Deploy Production の Build/Deploy ジョブ条件を明示化しゲート判定を可視化",
-      "url": "https://github.com/ivRooom/Herta/pull/843",
-      "at": "2026-11-10T03:15:29Z"
     }
   ],
-  "generated_at": "2026-11-10T13:45:08+09:00"
+  "generated_at": "2026-11-10T16:28:26+09:00"
 }
