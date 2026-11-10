@@ -5,11 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
-    "issues_created": 0,
+    "commits": 3,
+    "prs_opened": 7,
+    "issues_created": 1,
     "issues_completed": 0
   },
-  "activity": [],
-  "generated_at": "2026-11-10T07:29:14+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(release): Deploy Production の Build/Deploy ジョブ条件を明示化しゲート判定を可視化 (#843)",
+      "url": "https://github.com/ivRooom/Herta/commit/d9d1c48cc1efe40cfc5eae943c6a8cb80e5a3de6",
+      "at": "2026-11-10T13:31:01.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): Minecraft Status プラグイン（/mc status）を追加 (#839)  * feat(bot): add Minecraft Status plugi",
+      "url": "https://github.com/ivRooom/Herta/commit/bbe88787ae942800c862515b5c49df8d1abe67a7",
+      "at": "2026-11-10T10:52:47.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "chore(security): CVE-2026-4738（zlib）を Grype allowlist に追加 (#841)",
+      "url": "https://github.com/ivRooom/Herta/commit/5f82e778de4da66f2a1a561ed8b70765dff71c17",
+      "at": "2026-11-10T10:44:51.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #844 ci: Herta self-hosted フォールバックランナー試験用ワークフロー（パイロット）",
+      "url": "https://github.com/ivRooom/Herta/pull/844",
+      "at": "2026-11-10T04:00:58Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #843 fix(release): Deploy Production の Build/Deploy ジョブ条件を明示化しゲート判定を可視化",
+      "url": "https://github.com/ivRooom/Herta/pull/843",
+      "at": "2026-11-10T03:15:29Z"
+    }
+  ],
+  "generated_at": "2026-11-10T13:45:08+09:00"
 }
