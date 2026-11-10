@@ -20,7 +20,7 @@
     "score": 22,
     "events": 11,
     "last_activity_at": "2026-11-10T19:03:43Z",
-    "share": 73,
+    "share": 71,
     "stack": [
       "TypeScript",
       "CSS",
@@ -85,7 +85,7 @@
       "score": 22,
       "events": 11,
       "last_activity_at": "2026-11-10T19:03:43Z",
-      "share": 73,
+      "share": 71,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -106,10 +106,10 @@
     },
     {
       "repo": "ivRooom/Herta",
-      "score": 7,
-      "events": 7,
+      "score": 8,
+      "events": 8,
       "last_activity_at": "2026-11-10T16:34:40Z",
-      "share": 23,
+      "share": 26,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -183,7 +183,7 @@
       "at": "2026-11-10T18:36:40Z"
     }
   ],
-  "generated_at": "2026-11-11T05:26:17+09:00",
+  "generated_at": "2026-11-11T08:29:39+09:00",
   "ci_signal": {
     "label": "ATTENTION",
     "symbol": "!",

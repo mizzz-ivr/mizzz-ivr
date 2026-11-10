@@ -53,7 +53,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong><br/><sub>weighted activity 73% · score 22 · 11 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong><br/><sub>weighted activity 71% · score 22 · 11 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>CSS</code> <code>Shell</code> <code>Python</code></td>
   </tr>
 </table>
@@ -81,7 +81,7 @@
 <!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
 ## NOW BUILDING // Active repositories
 
-<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong><br/><sub>73% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 04:03 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>23% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 01:34 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/tsunehimatoi/psd2live">tsunehimatoi/psd2live</a></strong><br/><sub>3% weighted · ATTENTION · CI pass rate 0%<br/>last activity · 02:00 JST</sub></td></tr></table>
+<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong><br/><sub>71% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 04:03 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>26% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 01:34 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/tsunehimatoi/psd2live">tsunehimatoi/psd2live</a></strong><br/><sub>3% weighted · ATTENTION · CI pass rate 0%<br/>last activity · 02:00 JST</sub></td></tr></table>
 <!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
 
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->
