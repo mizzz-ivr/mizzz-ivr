@@ -6,8 +6,8 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 2,
-    "prs_opened": 0,
-    "issues_created": 1,
+    "prs_opened": 2,
+    "issues_created": 3,
     "issues_completed": 1
   },
   "activity": [
@@ -26,19 +26,26 @@
       "at": "2026-11-11T01:34:39.000+09:00"
     },
     {
-      "type": "issue",
+      "type": "pr",
       "repo": "ivRooom/ivrm-ai",
-      "title": "Issue #60 [P1][UAT] 本番UI刷新後の認証済みチャット主要フローを検証",
-      "url": "https://github.com/ivRooom/ivrm-ai/issues/60",
-      "at": "2026-11-10T17:04:36Z"
+      "title": "PR #64 feat(chat): 元の会話を残して質問編集・回答再生成 (#31)",
+      "url": "https://github.com/ivRooom/ivrm-ai/pull/64",
+      "at": "2026-11-10T18:36:40Z"
     },
     {
-      "type": "done",
+      "type": "issue",
       "repo": "ivRooom/ivrm-ai",
-      "title": "Issue #57 [P1][UI/UX] チャット画面・Composerを再設計し、レスポンシブと操作性を改善",
-      "url": "https://github.com/ivRooom/ivrm-ai/issues/57",
-      "at": "2026-11-10T16:45:23Z"
+      "title": "Issue #63 [P1] プロフィール兼ホーム：実利用統計・トークンヒートマップ・モデル実績",
+      "url": "https://github.com/ivRooom/ivrm-ai/issues/63",
+      "at": "2026-11-10T18:36:16Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "PR #62 feat(web): 会話に集中できるWorkspaceと日常の会話操作を追加 (#61)",
+      "url": "https://github.com/ivRooom/ivrm-ai/pull/62",
+      "at": "2026-11-10T17:25:04Z"
     }
   ],
-  "generated_at": "2026-11-11T02:07:30+09:00"
+  "generated_at": "2026-11-11T05:26:17+09:00"
 }
