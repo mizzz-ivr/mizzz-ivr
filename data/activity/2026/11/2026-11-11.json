@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 2,
+    "prs_opened": 0,
+    "issues_created": 1,
+    "issues_completed": 1
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "feat(web): refresh ivRooom AI chat UI and composer (#58)  * feat(web): redesign responsive chat ",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/6cc05397216830c15b42df253f7d051b5b82f90f",
+      "at": "2026-11-11T01:45:20.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): /mc status の本文に状態文・IP・稼働状況リンクを追加 (#848)  * feat(bot): /mc status の本文に状態文・IP・稼働状況リンクを追",
+      "url": "https://github.com/ivRooom/Herta/commit/9766d3448fadf316e40edc7c8d0b78f63ae716d6",
+      "at": "2026-11-11T01:34:39.000+09:00"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Issue #60 [P1][UAT] 本番UI刷新後の認証済みチャット主要フローを検証",
+      "url": "https://github.com/ivRooom/ivrm-ai/issues/60",
+      "at": "2026-11-10T17:04:36Z"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Issue #57 [P1][UI/UX] チャット画面・Composerを再設計し、レスポンシブと操作性を改善",
+      "url": "https://github.com/ivRooom/ivrm-ai/issues/57",
+      "at": "2026-11-10T16:45:23Z"
+    }
+  ],
+  "generated_at": "2026-11-11T02:07:30+09:00"
+}
