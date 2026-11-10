@@ -11,11 +11,11 @@
     "active_days": 8
   },
   "metrics": {
-    "commits": 67,
-    "prs_opened": 87,
+    "commits": 74,
+    "prs_opened": 89,
     "issues_created": 106,
     "issues_completed": 17,
-    "activity_total": 277
+    "activity_total": 286
   },
-  "generated_at": "2026-11-10T16:28:26+09:00"
+  "generated_at": "2026-11-10T22:03:26+09:00"
 }

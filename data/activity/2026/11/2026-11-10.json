@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 5,
-    "prs_opened": 9,
+    "commits": 12,
+    "prs_opened": 11,
     "issues_created": 1,
     "issues_completed": 0
   },
@@ -14,38 +14,38 @@
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "docs: Herta DB設計書（ER図・テーブル定義・CRUD）を追加 (#842)  * docs: Herta DB設計書（ER図・テーブル定義・CRUD）を追加  * docs: D",
-      "url": "https://github.com/ivRooom/Herta/commit/61575489399ffc69764b08e8a9fbe3bf5162fcfc",
-      "at": "2026-11-10T15:44:39.000+09:00"
+      "title": "feat(bot): /mc status を画像カード表示にする (#847)  * feat(bot): /mc status を画像カード表示にする  * fix(bot): backu",
+      "url": "https://github.com/ivRooom/Herta/commit/67175c8e22471e75f180205c0c31a042dee5468d",
+      "at": "2026-11-10T19:56:10.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "fix(release): VALORANT predeploy fence を external DB の適用済み確認に対応 (#845)  * fix(release): VALORANT",
-      "url": "https://github.com/ivRooom/Herta/commit/60d669667a3bc1dff0b660cacb18e54fed5087ca",
-      "at": "2026-11-10T15:30:25.000+09:00"
+      "title": "fix(bot): /mc の取得先URLを status.ivrm.jp に修正し Embed 表示化 (#846)  * fix(bot): /mc の取得先URLを status.ivr",
+      "url": "https://github.com/ivRooom/Herta/commit/34768579d5996029cda396a1fccc1dd5fe19bfc4",
+      "at": "2026-11-10T16:50:40.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(release): Deploy Production の Build/Deploy ジョブ条件を明示化しゲート判定を可視化 (#843)",
-      "url": "https://github.com/ivRooom/Herta/commit/d9d1c48cc1efe40cfc5eae943c6a8cb80e5a3de6",
-      "at": "2026-11-10T13:31:01.000+09:00"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Merge pull request #182 from ivRooom/docs/phase4-readme-apps  docs: README の構成図に collector 系 app",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/4d469518087b2a8da870ade48448769e315ce9a8",
+      "at": "2026-11-10T16:32:48.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(bot): Minecraft Status プラグイン（/mc status）を追加 (#839)  * feat(bot): add Minecraft Status plugi",
-      "url": "https://github.com/ivRooom/Herta/commit/bbe88787ae942800c862515b5c49df8d1abe67a7",
-      "at": "2026-11-10T10:52:47.000+09:00"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Merge pull request #181 from ivRooom/docs/phase4-placement  docs: 現行設計（2026-11-10 時点）を追加",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/1ed844dcfa4dab15a41f6980875c3e86de594026",
+      "at": "2026-11-10T16:29:34.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "chore(security): CVE-2026-4738（zlib）を Grype allowlist に追加 (#841)",
-      "url": "https://github.com/ivRooom/Herta/commit/5f82e778de4da66f2a1a561ed8b70765dff71c17",
-      "at": "2026-11-10T10:44:51.000+09:00"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "docs: レビュー指摘3件を是正（Agent経路・Service Role Key利用先・画面一覧）",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/bb45b877d3c4cf5cd769680ea863ae2b12a4f80a",
+      "at": "2026-11-10T16:21:09.000+09:00"
     }
   ],
-  "generated_at": "2026-11-10T16:28:26+09:00"
+  "generated_at": "2026-11-10T22:03:26+09:00"
 }
