@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-12",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 1,
+    "prs_opened": 1,
+    "issues_created": 0,
+    "issues_completed": 0
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "C-d3: PostgREST スタック・dispatch worker・systemd timer を repo 正本化 (#186)  * feat(deploy): PG17 dashb",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/67f5104938f1ef5c95cbb18bbc64116fed7a74ec",
+      "at": "2026-11-12T00:05:24.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR #192 feat(#184): Monitor通知のメンション実装＋minutely の runuser パス修正",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/192",
+      "at": "2026-11-11T15:20:05Z"
+    }
+  ],
+  "generated_at": "2026-11-12T00:26:40+09:00"
+}

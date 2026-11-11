@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 26,
-    "prs_opened": 15,
-    "issues_created": 8,
-    "issues_completed": 4
+    "commits": 45,
+    "prs_opened": 33,
+    "issues_created": 11,
+    "issues_completed": 7
   },
   "activity": [
     {
       "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "diag(#184): agent secrets parse の失敗理由をログに出す（診断のみ） (#191)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/be990fae5b8eba9f58bb7afd81c3497e9b11a384",
+      "at": "2026-11-11T23:36:18.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Merge pull request #73 from ivRooom/codex/skill-history  feat: 会話に組み込みスキルの履歴を表示",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/3d67210324eaa9c8651ab43e6e7c95ceb231effc",
+      "at": "2026-11-11T23:30:16.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Show matching built-in skill prompts in conversation history",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/81788de82a87eed140c604ce4f33f3d6d94d539f",
+      "at": "2026-11-11T23:27:54.000+09:00"
+    },
+    {
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(bot): デイリー結果画像カードをV2回答フローへ統合する (#803) (#860)",
-      "url": "https://github.com/ivRooom/Herta/commit/c3b57aca6078c4f065fbd92f30509c435e05fc67",
-      "at": "2026-11-11T15:33:54.000+09:00"
+      "title": "[#820] 昨日の問題ボタンと答え合わせ表示を追加 (#868)  * feat(bot): 昨日の問題ボタンと答え合わせ表示を追加する (#820)  * fix(bot): 昨日の答え合",
+      "url": "https://github.com/ivRooom/Herta/commit/adbe5813e0a25307d73e4dae0f00f86b0154baf0",
+      "at": "2026-11-11T22:42:24.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Merge pull request #183 from ivRooom/feat/minecraft-live-metrics  feat(web): Minecraft 画面にライブメトリ",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/9f9c343357f9bb21727184b1aebfd80d221e07cf",
-      "at": "2026-11-11T15:16:39.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(bot): /mc status カードに直近30分のパフォーマンスグラフを追加する (#859)  * feat(bot): add a 30-minute performance",
-      "url": "https://github.com/ivRooom/Herta/commit/a169c1230761b9cff5d93f630c1503e48501fec3",
-      "at": "2026-11-11T15:08:41.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "Merge pull request #69 from ivRooom/codex/usage-cost-home  feat: ホームに日別・週別・月別の推定利用料金を表示",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/c081b3c3979b40278f55bf0646569981f0d15ae9",
-      "at": "2026-11-11T15:03:13.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "Distinguish cost from token counts in usage regression test",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/d18217f8a01403f814902879e6db7d337763e7dc",
-      "at": "2026-11-11T15:01:10.000+09:00"
+      "title": "#187 フォローアップ: 期待状態ラベルに on-demand を追加 (#190)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/1a0b966c9a41d88f8bc791ba31eb9f994aa36b36",
+      "at": "2026-11-11T22:02:09.000+09:00"
     }
   ],
-  "generated_at": "2026-11-11T15:42:12+09:00"
+  "generated_at": "2026-11-12T00:26:40+09:00"
 }
