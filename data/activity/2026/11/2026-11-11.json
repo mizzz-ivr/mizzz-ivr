@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 12,
-    "prs_opened": 5,
-    "issues_created": 4,
-    "issues_completed": 1
+    "commits": 26,
+    "prs_opened": 15,
+    "issues_created": 8,
+    "issues_completed": 4
   },
   "activity": [
     {
       "type": "commit",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "Merge pull request #65 from ivRooom/codex/profile-home  feat(web): トップページに本人のプロフィールと利用実績を表示 (#63",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/c695a3ac3dadfd98b1efb27561bdc243f23c8c80",
-      "at": "2026-11-11T09:37:04.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): デイリー結果画像カードをV2回答フローへ統合する (#803) (#860)",
+      "url": "https://github.com/ivRooom/Herta/commit/c3b57aca6078c4f065fbd92f30509c435e05fc67",
+      "at": "2026-11-11T15:33:54.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "Merge pull request #64 from ivRooom/codex/conversation-forks  feat(chat): 元の会話を残して質問編集・回答再生成 (#3",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/90af1e57aa0e6f867a7244ae0aaa35667da8d4c4",
-      "at": "2026-11-11T09:36:50.000+09:00"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Merge pull request #183 from ivRooom/feat/minecraft-live-metrics  feat(web): Minecraft 画面にライブメトリ",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/9f9c343357f9bb21727184b1aebfd80d221e07cf",
+      "at": "2026-11-11T15:16:39.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "fix(bot): 休止中の資源サーバーを異常表示しない (#849)",
-      "url": "https://github.com/ivRooom/Herta/commit/96f0a2af526c1572e4dc400fd5dd9f3b7706d0e9",
-      "at": "2026-11-11T09:36:37.000+09:00"
+      "title": "feat(bot): /mc status カードに直近30分のパフォーマンスグラフを追加する (#859)  * feat(bot): add a 30-minute performance",
+      "url": "https://github.com/ivRooom/Herta/commit/a169c1230761b9cff5d93f630c1503e48501fec3",
+      "at": "2026-11-11T15:08:41.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-ai",
-      "title": "Merge pull request #62 from ivRooom/codex/premium-chat-workspace  feat(web): 会話に集中できるWorkspaceと日",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/d2ce53d3a100abd3b0705be7f49723957d1af22b",
-      "at": "2026-11-11T09:36:34.000+09:00"
+      "title": "Merge pull request #69 from ivRooom/codex/usage-cost-home  feat: ホームに日別・週別・月別の推定利用料金を表示",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/c081b3c3979b40278f55bf0646569981f0d15ae9",
+      "at": "2026-11-11T15:03:13.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-ai",
-      "title": "fix(web): keep activity and navigation within their intended scope",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/3660a8710c5b112383df96cb197f266b4110de0c",
-      "at": "2026-11-11T09:00:22.000+09:00"
+      "title": "Distinguish cost from token counts in usage regression test",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/d18217f8a01403f814902879e6db7d337763e7dc",
+      "at": "2026-11-11T15:01:10.000+09:00"
     }
   ],
-  "generated_at": "2026-11-11T09:48:45+09:00"
+  "generated_at": "2026-11-11T15:42:12+09:00"
 }
