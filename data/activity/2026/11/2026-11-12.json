@@ -5,26 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 1,
+    "commits": 5,
+    "prs_opened": 4,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
     {
       "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Merge pull request #74 from ivRooom/codex/integration-registry  feat: MCP接続先と指示プラグインの登録",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/aa958d69d8d0c993313c1d378de6ef2bbfe3496e",
+      "at": "2026-11-12T01:38:53.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Register MCP endpoints and reusable prompt plugins",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/1bd82f69f1779de965c31236b0c425558421f211",
+      "at": "2026-11-12T01:36:49.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "#184 サーバー拡大: ランブック＋envテンプレート＋登録SQL（実施結果と env 訂正を含む） (#189)  * #184 サーバー拡大: ランブック＋ホスト別 env テンプレート",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/98b4549c3bd577c08c541d0f1dbe3ac172074855",
+      "at": "2026-11-12T01:33:16.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "feat(#184): Monitor通知のメンション実装＋minutely の runuser パス修正 (#192)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/29f558855f0c4ea6efb530fb2f78b23967857328",
+      "at": "2026-11-12T00:42:24.000+09:00"
+    },
+    {
+      "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "C-d3: PostgREST スタック・dispatch worker・systemd timer を repo 正本化 (#186)  * feat(deploy): PG17 dashb",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commit/67f5104938f1ef5c95cbb18bbc64116fed7a74ec",
       "at": "2026-11-12T00:05:24.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR #192 feat(#184): Monitor通知のメンション実装＋minutely の runuser パス修正",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/192",
-      "at": "2026-11-11T15:20:05Z"
     }
   ],
-  "generated_at": "2026-11-12T00:26:40+09:00"
+  "generated_at": "2026-11-12T02:14:48+09:00"
 }
