@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 13,
-    "prs_opened": 12,
+    "commits": 15,
+    "prs_opened": 20,
     "issues_created": 2,
-    "issues_completed": 0
+    "issues_completed": 2
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "chore: ops-gate / ops-agent を撤去する (#64)  * chore: ops-gate / ops-agent を撤去する (#63)  * chore: ops",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/eb411b61b792331ed6089c82ee152a38756c2e90",
+      "at": "2026-11-12T10:41:18.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "perf(studio): Guild options 取得をキャッシュ化し、プラグイン設定の表示を高速化する (#871)  * perf(studio): Guild options 取得",
+      "url": "https://github.com/ivRooom/Herta/commit/2c34318a3d965c542f777ee8f84c6c1412843ba1",
+      "at": "2026-11-12T10:38:58.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -31,21 +45,7 @@
       "title": "docs: SECURITY.md を追加 (Security Watch #17) (#62)",
       "url": "https://github.com/ivRooom/ivrm-status/commit/049afc3a2e2bd1af5c24f602aa6175de0399abf8",
       "at": "2026-11-12T08:21:51.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-member-site",
-      "title": "docs: SECURITY.md を追加 (Security Watch #17) (#92)",
-      "url": "https://github.com/ivRooom/ivrm-member-site/commit/67ae63441e9fee7c23f43d59c9a8413db77e4523",
-      "at": "2026-11-12T08:21:29.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "chore: Dependabot 設定を追加 (Security Watch #15) (#194)",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/cdaf0f9df1eab74993df8ea92772a2ea211d4f9e",
-      "at": "2026-11-12T08:21:20.000+09:00"
     }
   ],
-  "generated_at": "2026-11-12T09:49:22+09:00"
+  "generated_at": "2026-11-12T19:57:37+09:00"
 }
