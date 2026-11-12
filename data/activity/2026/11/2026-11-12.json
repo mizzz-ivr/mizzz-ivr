@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 5,
-    "prs_opened": 9,
-    "issues_created": 0,
+    "commits": 13,
+    "prs_opened": 12,
+    "issues_created": 2,
     "issues_completed": 0
   },
   "activity": [
     {
       "type": "commit",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "Merge pull request #74 from ivRooom/codex/integration-registry  feat: MCP接続先と指示プラグインの登録",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/aa958d69d8d0c993313c1d378de6ef2bbfe3496e",
-      "at": "2026-11-12T01:38:53.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "chore(security): Grype許可リストを再検証のうえ 2027-01-31 まで延長 (#872)",
+      "url": "https://github.com/ivRooom/Herta/commit/aabb29d9a17f92ac0e192ca380b0a2222a6f9e1a",
+      "at": "2026-11-12T08:54:18.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "Register MCP endpoints and reusable prompt plugins",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/1bd82f69f1779de965c31236b0c425558421f211",
-      "at": "2026-11-12T01:36:49.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "docs: SECURITY.md を追加 (Security Watch #17) (#869)",
+      "url": "https://github.com/ivRooom/Herta/commit/7949279751fe1e2a4bc43115865efb385f185a4e",
+      "at": "2026-11-12T08:24:19.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "docs: SECURITY.md を追加 (Security Watch #17) (#62)",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/049afc3a2e2bd1af5c24f602aa6175de0399abf8",
+      "at": "2026-11-12T08:21:51.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-member-site",
+      "title": "docs: SECURITY.md を追加 (Security Watch #17) (#92)",
+      "url": "https://github.com/ivRooom/ivrm-member-site/commit/67ae63441e9fee7c23f43d59c9a8413db77e4523",
+      "at": "2026-11-12T08:21:29.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "#184 サーバー拡大: ランブック＋envテンプレート＋登録SQL（実施結果と env 訂正を含む） (#189)  * #184 サーバー拡大: ランブック＋ホスト別 env テンプレート",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/98b4549c3bd577c08c541d0f1dbe3ac172074855",
-      "at": "2026-11-12T01:33:16.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "feat(#184): Monitor通知のメンション実装＋minutely の runuser パス修正 (#192)",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/29f558855f0c4ea6efb530fb2f78b23967857328",
-      "at": "2026-11-12T00:42:24.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "C-d3: PostgREST スタック・dispatch worker・systemd timer を repo 正本化 (#186)  * feat(deploy): PG17 dashb",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/67f5104938f1ef5c95cbb18bbc64116fed7a74ec",
-      "at": "2026-11-12T00:05:24.000+09:00"
+      "title": "chore: Dependabot 設定を追加 (Security Watch #15) (#194)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/cdaf0f9df1eab74993df8ea92772a2ea211d4f9e",
+      "at": "2026-11-12T08:21:20.000+09:00"
     }
   ],
-  "generated_at": "2026-11-12T07:11:48+09:00"
+  "generated_at": "2026-11-12T09:49:22+09:00"
 }
