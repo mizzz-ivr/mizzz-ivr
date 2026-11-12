@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 15,
-    "prs_opened": 20,
-    "issues_created": 2,
-    "issues_completed": 2
+    "commits": 17,
+    "prs_opened": 21,
+    "issues_created": 3,
+    "issues_completed": 3
   },
   "activity": [
     {
       "type": "commit",
-      "repo": "ivRooom/ivrm-status",
-      "title": "chore: ops-gate / ops-agent を撤去する (#64)  * chore: ops-gate / ops-agent を撤去する (#63)  * chore: ops",
-      "url": "https://github.com/ivRooom/ivrm-status/commit/eb411b61b792331ed6089c82ee152a38756c2e90",
-      "at": "2026-11-12T10:41:18.000+09:00"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "fix(db): pgcrypto を extensions スキーマへ復元する (console ログイン障害の恒久記録) (#205)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/b5d1f3a1abeb9c15b5454dc797eaf11b70b586d9",
+      "at": "2026-11-12T23:56:24.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "perf(studio): Guild options 取得をキャッシュ化し、プラグイン設定の表示を高速化する (#871)  * perf(studio): Guild options 取得",
-      "url": "https://github.com/ivRooom/Herta/commit/2c34318a3d965c542f777ee8f84c6c1412843ba1",
-      "at": "2026-11-12T10:38:58.000+09:00"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "ci: pin GitHub Actions to commit SHAs (#204)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/383523b35621f4c9e4e5bb9414620df563176817",
+      "at": "2026-11-12T23:55:13.000+09:00"
     },
     {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "chore(security): Grype許可リストを再検証のうえ 2027-01-31 まで延長 (#872)",
-      "url": "https://github.com/ivRooom/Herta/commit/aabb29d9a17f92ac0e192ca380b0a2222a6f9e1a",
-      "at": "2026-11-12T08:54:18.000+09:00"
+      "type": "done",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Issue #184 Discord監視通知の適正化: 重要な通知だけロールメンションする仕様と、誤検知（auto-scale対象の重大化・評価器間のseverity不一致）の是正、全サーバー",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/184",
+      "at": "2026-11-12T14:49:52Z"
     },
     {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "docs: SECURITY.md を追加 (Security Watch #17) (#869)",
-      "url": "https://github.com/ivRooom/Herta/commit/7949279751fe1e2a4bc43115865efb385f185a4e",
-      "at": "2026-11-12T08:24:19.000+09:00"
+      "type": "issue",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Issue #206 PG17 移行後の pgcrypto 未導入: 監査付き mutation 全般の波及確認と再発防止",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/206",
+      "at": "2026-11-12T14:49:09Z"
     },
     {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-status",
-      "title": "docs: SECURITY.md を追加 (Security Watch #17) (#62)",
-      "url": "https://github.com/ivRooom/ivrm-status/commit/049afc3a2e2bd1af5c24f602aa6175de0399abf8",
-      "at": "2026-11-12T08:21:51.000+09:00"
+      "type": "pr",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR #205 fix(db): pgcrypto を extensions スキーマへ復元 (console ログイン障害の対応記録)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/205",
+      "at": "2026-11-12T14:41:26Z"
     }
   ],
-  "generated_at": "2026-11-12T19:57:37+09:00"
+  "generated_at": "2026-11-13T03:47:51+09:00"
 }
