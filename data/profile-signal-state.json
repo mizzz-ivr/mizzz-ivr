@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-11-12T00:43:23Z"
+    "last_activity_at": "2026-11-12T02:37:22Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -16,16 +16,16 @@
   "streak": 3,
   "activity_total": 27,
   "current_focus": {
-    "repo": "ivRooom/ivrm-dashboard",
-    "score": 20,
-    "events": 11,
-    "last_activity_at": "2026-11-11T23:21:21Z",
+    "repo": "ivRooom/ivrm-status",
+    "score": 28,
+    "events": 16,
+    "last_activity_at": "2026-11-12T01:41:21Z",
     "share": 27,
     "stack": [
-      "TypeScript",
-      "PLpgSQL",
+      "Python",
+      "JavaScript",
       "CSS",
-      "Python"
+      "HTML"
     ]
   },
   "dev_pulse": [
@@ -155,35 +155,35 @@
   ],
   "activity_stream": [
     {
-      "label": "PR",
-      "repo": "ivRooom/ivrm-status",
-      "title": "Opened PR #64",
-      "url": "https://github.com/ivRooom/ivrm-status",
-      "at": "2026-11-12T00:43:23Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR merged #872",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-11-11T23:54:19Z"
-    },
-    {
       "label": "CREATE",
-      "repo": "ivRooom/ivrm-status",
-      "title": "Created branch chore/remove-ops-gate-agent",
-      "url": "https://github.com/ivRooom/ivrm-status",
-      "at": "2026-11-11T23:27:28Z"
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "Created branch chore/pin-actions-sha",
+      "url": "https://github.com/ivRooom/ivrm-mcmod",
+      "at": "2026-11-12T02:37:22Z"
     },
     {
       "label": "ISSUE",
       "repo": "ivRooom/ivrm-status",
-      "title": "Opened issue #63",
+      "title": "Closed issue #63",
       "url": "https://github.com/ivRooom/ivrm-status/issues/63",
-      "at": "2026-11-11T23:27:19Z"
+      "at": "2026-11-12T01:41:21Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-status",
+      "title": "PR merged #64",
+      "url": "https://github.com/ivRooom/ivrm-status",
+      "at": "2026-11-12T01:41:19Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Closed issue #870",
+      "url": "https://github.com/ivRooom/Herta/issues/870",
+      "at": "2026-11-12T01:39:02Z"
     }
   ],
-  "generated_at": "2026-11-12T09:49:22+09:00",
+  "generated_at": "2026-11-12T12:04:37+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
