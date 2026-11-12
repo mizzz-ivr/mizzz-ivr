@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 14,
-    "prs_opened": 6,
-    "issues_created": 4,
+    "commits": 15,
+    "prs_opened": 8,
+    "issues_created": 5,
     "issues_completed": 5
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "ci: GitHub Actions をコミット SHA にピン留め (#66)  * ci: pin GitHub Actions to commit SHA  * fix: correct",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/e007bcff13579710f04dbd62eafbffaa863c25a0",
+      "at": "2026-11-13T03:54:06.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-ai",
@@ -38,14 +45,7 @@
       "title": "ci: GitHub Actions をコミット SHA にピン留め (#873)  * ci: pin GitHub Actions to commit SHAs  * ci: pin Gi",
       "url": "https://github.com/ivRooom/Herta/commit/b54f956f0be6daeeb1767cc54111ffb3c90a74f2",
       "at": "2026-11-13T03:21:18.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "docs: add Dashboard API, schema/ER, workflow and acceptance baseline (#162)",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/924d7c45733609175cb01410beac14d65ea3a662",
-      "at": "2026-11-13T02:47:07.000+09:00"
     }
   ],
-  "generated_at": "2026-11-13T03:47:51+09:00"
+  "generated_at": "2026-11-13T05:05:56+09:00"
 }
