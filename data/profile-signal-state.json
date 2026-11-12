@@ -7,7 +7,7 @@
   "status": {
     "label": "RECENTLY ACTIVE",
     "symbol": "◐",
-    "last_activity_at": "2026-11-12T18:58:19Z"
+    "last_activity_at": "2026-11-12T18:58:21Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -20,7 +20,7 @@
     "score": 41,
     "events": 24,
     "last_activity_at": "2026-11-12T17:47:37Z",
-    "share": 44,
+    "share": 43,
     "stack": [
       "TypeScript",
       "PLpgSQL",
@@ -85,7 +85,7 @@
       "score": 41,
       "events": 24,
       "last_activity_at": "2026-11-12T17:47:37Z",
-      "share": 44,
+      "share": 43,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -106,9 +106,9 @@
     },
     {
       "repo": "ivRooom/Herta",
-      "score": 24,
-      "events": 12,
-      "last_activity_at": "2026-11-12T18:52:46Z",
+      "score": 25,
+      "events": 13,
+      "last_activity_at": "2026-11-12T18:53:42Z",
       "share": 26,
       "ci": {
         "label": "PASSING",
@@ -130,10 +130,10 @@
     },
     {
       "repo": "ivRooom/ivrm-ai",
-      "score": 16,
-      "events": 9,
-      "last_activity_at": "2026-11-12T18:58:19Z",
-      "share": 17,
+      "score": 17,
+      "events": 10,
+      "last_activity_at": "2026-11-12T18:58:21Z",
+      "share": 18,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -183,7 +183,7 @@
       "at": "2026-11-12T18:52:46Z"
     }
   ],
-  "generated_at": "2026-11-13T05:05:56+09:00",
+  "generated_at": "2026-11-13T08:54:34+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
