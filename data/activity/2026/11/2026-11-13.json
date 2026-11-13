@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 31,
-    "prs_opened": 17,
-    "issues_created": 15,
-    "issues_completed": 18
+    "commits": 33,
+    "prs_opened": 19,
+    "issues_created": 17,
+    "issues_completed": 19
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "chore(#212): 置換済み Supabase Edge Function の残存を撤去する (#214)  * docs(#212): Edge Function の配置状況を確認済み",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/10135635209ac47ceac42308598c441f3caab14f",
+      "at": "2026-11-13T23:32:43.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): ivrm-web Activity XP取込へのemitterを追加する (#877) (#891)",
+      "url": "https://github.com/ivRooom/Herta/commit/6620b641ac29251fd6d53e4454a5e2c602b27508",
+      "at": "2026-11-13T22:59:57.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -31,21 +45,7 @@
       "title": "chore(daily-content): Studio表示名を Message Studio へ統一する (#888) (#889)",
       "url": "https://github.com/ivRooom/Herta/commit/b480855db373fba44a3622957bc11ae67dd3311b",
       "at": "2026-11-13T18:23:02.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "docs: AIコスト統制の分界を明文化する (#86) (#91)",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/386977803de2c29cc56c25d42fbe28879adb4f37",
-      "at": "2026-11-13T15:59:37.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(server-stats): コマンド名を server から server-stats へ改名する (#883) (#884)",
-      "url": "https://github.com/ivRooom/Herta/commit/bc0fd5e95cf7e567a0147fde0cb2f1379db7b10d",
-      "at": "2026-11-13T15:59:18.000+09:00"
     }
   ],
-  "generated_at": "2026-11-13T20:12:02+09:00"
+  "generated_at": "2026-11-14T04:50:40+09:00"
 }

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-14",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 2,
+    "prs_opened": 2,
+    "issues_created": 0,
+    "issues_completed": 0
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(daily-bonus): accept claims until next 09:00 JST (slot date model) (#893)",
+      "url": "https://github.com/ivRooom/Herta/commit/f6eb306a3a4578867bce1473deba321020f87521",
+      "at": "2026-11-14T04:31:09.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(compose): bot に HERTA_XP_EMITTER_ENABLED を伝播させる (#877) (#892)  * fix(compose): bot に HERTA_X",
+      "url": "https://github.com/ivRooom/Herta/commit/3a2ddbc4a281bc703135accc096df3dd941bb1be",
+      "at": "2026-11-14T03:46:33.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #893 feat(daily-bonus): 受付ウィンドウを翌日09:00まで延長する (スロット日モデル)",
+      "url": "https://github.com/ivRooom/Herta/pull/893",
+      "at": "2026-11-13T17:40:07Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #892 fix(compose): bot に HERTA_XP_EMITTER_ENABLED を伝播させる (#877)",
+      "url": "https://github.com/ivRooom/Herta/pull/892",
+      "at": "2026-11-13T17:16:49Z"
+    }
+  ],
+  "generated_at": "2026-11-14T04:50:40+09:00"
+}
