@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 15,
-    "prs_opened": 8,
-    "issues_created": 5,
-    "issues_completed": 5
+    "commits": 22,
+    "prs_opened": 10,
+    "issues_created": 9,
+    "issues_completed": 9
   },
   "activity": [
     {
       "type": "commit",
-      "repo": "ivRooom/ivrm-status",
-      "title": "ci: GitHub Actions をコミット SHA にピン留め (#66)  * ci: pin GitHub Actions to commit SHA  * fix: correct",
-      "url": "https://github.com/ivRooom/ivrm-status/commit/e007bcff13579710f04dbd62eafbffaa863c25a0",
-      "at": "2026-11-13T03:54:06.000+09:00"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "docs: 現行設計をPG17実態へ改版する (#210) (#211)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/02c729c89ee351519fc2ead42bdf55903eb08561",
+      "at": "2026-11-13T10:27:30.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-ai",
-      "title": "Merge pull request #83 from ivRooom/codex/workspace-tools  feat: 組み込みMCPのワークスペースツール",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/860dfcb629b3161a3eced41c72e929301d60714e",
-      "at": "2026-11-13T03:41:34.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-member-site",
-      "title": "ci: GitHub Actions をコミット SHA にピン留め (#93)  * ci: pin GitHub Actions to commit SHAs  * ci: pin Git",
-      "url": "https://github.com/ivRooom/ivrm-member-site/commit/d828e747ff6fca55981db6f867491637d09fa384",
-      "at": "2026-11-13T03:39:31.000+09:00"
+      "title": "Merge pull request #88 from ivRooom/codex/japanese-rendering  fix: チャットの日本語フォントを優先",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/ba3e80a33040856918f8fd8bf4ef38d10e125f3c",
+      "at": "2026-11-13T10:20:45.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-ai",
-      "title": "Add authenticated workspace MCP tools",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/5c533a24e0f3c4f621da22448587b6fe7fad41b3",
-      "at": "2026-11-13T03:38:46.000+09:00"
+      "title": "Prefer Japanese fonts for chat UI and content",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/660eee656f2f840841cff5de546e0115bf1cd697",
+      "at": "2026-11-13T10:18:48.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "ci: GitHub Actions をコミット SHA にピン留め (#873)  * ci: pin GitHub Actions to commit SHAs  * ci: pin Gi",
-      "url": "https://github.com/ivRooom/Herta/commit/b54f956f0be6daeeb1767cc54111ffb3c90a74f2",
-      "at": "2026-11-13T03:21:18.000+09:00"
+      "title": "feat(bot): /version コマンドとビルド識別（HERTA_BUILD_SHA）を追加する (#878)  * feat(bot): /version コマンドとビルド識別（HE",
+      "url": "https://github.com/ivRooom/Herta/commit/ccaea0b3a440f1bf6390766c5813a4588599e945",
+      "at": "2026-11-13T09:43:55.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): /mc stop・restart にプレイヤーチェックの警告と force オプションを追加 (#876) (#879)",
+      "url": "https://github.com/ivRooom/Herta/commit/179cd9d6e7c661f7dc1ff8da9de2c3e4655a839c",
+      "at": "2026-11-13T09:29:32.000+09:00"
     }
   ],
-  "generated_at": "2026-11-13T05:05:56+09:00"
+  "generated_at": "2026-11-13T10:55:10+09:00"
 }
