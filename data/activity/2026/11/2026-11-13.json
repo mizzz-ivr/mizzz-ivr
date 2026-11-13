@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 26,
-    "prs_opened": 12,
-    "issues_created": 11,
-    "issues_completed": 13
+    "commits": 31,
+    "prs_opened": 17,
+    "issues_created": 15,
+    "issues_completed": 18
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(daily-content): /daily コマンドを /post へ改名する (#881) (#882)",
-      "url": "https://github.com/ivRooom/Herta/commit/615dafd7bac582c4b4d5612f520c57403e40f44c",
-      "at": "2026-11-13T13:58:13.000+09:00"
+      "title": "feat(bot): /version を画像カード表示にする (#886)  * feat(bot): /version を画像カード表示にする  * feat(bot): /version",
+      "url": "https://github.com/ivRooom/Herta/commit/19097d6cbaa70f76a72c58b9d08316e35aa6a4aa",
+      "at": "2026-11-13T19:06:23.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(daily-quiz): daily-participation をプラグインカタログへ登録する (#887) (#890)",
+      "url": "https://github.com/ivRooom/Herta/commit/4d17c0f9071ae59330099410e29607f61b2b11bb",
+      "at": "2026-11-13T18:52:10.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "chore(daily-content): Studio表示名を Message Studio へ統一する (#888) (#889)",
+      "url": "https://github.com/ivRooom/Herta/commit/b480855db373fba44a3622957bc11ae67dd3311b",
+      "at": "2026-11-13T18:23:02.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-ai",
-      "title": "Merge pull request #89 from ivRooom/codex/cowork-navigation  feat: Chat と Cowork を専用画面として切り替え",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/12724d826bd1412e26f483d3231c8b2f2fc4215d",
-      "at": "2026-11-13T11:20:02.000+09:00"
+      "title": "docs: AIコスト統制の分界を明文化する (#86) (#91)",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/386977803de2c29cc56c25d42fbe28879adb4f37",
+      "at": "2026-11-13T15:59:37.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "Show sidebar operation errors in Cowork",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/8324d765a6de2d37ee2d91d5809869083224cc0c",
-      "at": "2026-11-13T11:17:42.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "Add dedicated Cowork navigation and document workspace architecture",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/57d8d702d42983115448eca5a6dcac65304c5620",
-      "at": "2026-11-13T11:06:16.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "docs: 現行設計をPG17実態へ改版する (#210) (#211)",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/02c729c89ee351519fc2ead42bdf55903eb08561",
-      "at": "2026-11-13T10:27:30.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "fix(server-stats): コマンド名を server から server-stats へ改名する (#883) (#884)",
+      "url": "https://github.com/ivRooom/Herta/commit/bc0fd5e95cf7e567a0147fde0cb2f1379db7b10d",
+      "at": "2026-11-13T15:59:18.000+09:00"
     }
   ],
-  "generated_at": "2026-11-13T14:33:13+09:00"
+  "generated_at": "2026-11-13T20:12:02+09:00"
 }
