@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 22,
-    "prs_opened": 10,
-    "issues_created": 9,
-    "issues_completed": 9
+    "commits": 26,
+    "prs_opened": 12,
+    "issues_created": 11,
+    "issues_completed": 13
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(daily-content): /daily コマンドを /post へ改名する (#881) (#882)",
+      "url": "https://github.com/ivRooom/Herta/commit/615dafd7bac582c4b4d5612f520c57403e40f44c",
+      "at": "2026-11-13T13:58:13.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Merge pull request #89 from ivRooom/codex/cowork-navigation  feat: Chat と Cowork を専用画面として切り替え",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/12724d826bd1412e26f483d3231c8b2f2fc4215d",
+      "at": "2026-11-13T11:20:02.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Show sidebar operation errors in Cowork",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/8324d765a6de2d37ee2d91d5809869083224cc0c",
+      "at": "2026-11-13T11:17:42.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "Add dedicated Cowork navigation and document workspace architecture",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/57d8d702d42983115448eca5a6dcac65304c5620",
+      "at": "2026-11-13T11:06:16.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
       "title": "docs: 現行設計をPG17実態へ改版する (#210) (#211)",
       "url": "https://github.com/ivRooom/ivrm-dashboard/commit/02c729c89ee351519fc2ead42bdf55903eb08561",
       "at": "2026-11-13T10:27:30.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "Merge pull request #88 from ivRooom/codex/japanese-rendering  fix: チャットの日本語フォントを優先",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/ba3e80a33040856918f8fd8bf4ef38d10e125f3c",
-      "at": "2026-11-13T10:20:45.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "Prefer Japanese fonts for chat UI and content",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/660eee656f2f840841cff5de546e0115bf1cd697",
-      "at": "2026-11-13T10:18:48.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(bot): /version コマンドとビルド識別（HERTA_BUILD_SHA）を追加する (#878)  * feat(bot): /version コマンドとビルド識別（HE",
-      "url": "https://github.com/ivRooom/Herta/commit/ccaea0b3a440f1bf6390766c5813a4588599e945",
-      "at": "2026-11-13T09:43:55.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(bot): /mc stop・restart にプレイヤーチェックの警告と force オプションを追加 (#876) (#879)",
-      "url": "https://github.com/ivRooom/Herta/commit/179cd9d6e7c661f7dc1ff8da9de2c3e4655a839c",
-      "at": "2026-11-13T09:29:32.000+09:00"
     }
   ],
-  "generated_at": "2026-11-13T10:55:10+09:00"
+  "generated_at": "2026-11-13T14:33:13+09:00"
 }
