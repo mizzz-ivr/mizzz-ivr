@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 16,
-    "prs_opened": 12,
-    "issues_created": 17,
-    "issues_completed": 3
+    "commits": 25,
+    "prs_opened": 20,
+    "issues_created": 26,
+    "issues_completed": 4
   },
   "activity": [
     {
       "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Merge pull request #233 from ivRooom/feat/232-signal-inventory  feat: 7日以上 active な Signal の週次棚卸",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/d1b838a4b2a93f190e294e86262468790df2fa94",
+      "at": "2026-11-14T18:22:32.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "feat: weekly inventory digest for signals active 7+ days (#232)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/e93b7c832e739ee92efa0e41e820420550743b91",
+      "at": "2026-11-14T18:01:04.000+09:00"
+    },
+    {
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(bot): /mc link・/mc whitelist コマンド追加 (#894) (#898)  * feat(bot): add /mc link and /mc whitel",
-      "url": "https://github.com/ivRooom/Herta/commit/cb5650099412358461ac507be1ffc6b1431f5a39",
-      "at": "2026-11-14T15:49:23.000+09:00"
+      "title": "feat(bot): Release通知の内部送信APIを追加する (#899) (#900)",
+      "url": "https://github.com/ivRooom/Herta/commit/e26cf247a7d71030840678cdca5543e853dc756d",
+      "at": "2026-11-14T17:58:06.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "feat(monitor): ポイント付与の死活監視 (claim/earn 件数の異常検知) を追加する (#221) (#225)  * feat(monitor): ポイント付与の死活監",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/91a58d995e9eaa70fb617d7841d46df09dbef125",
-      "at": "2026-11-14T15:30:47.000+09:00"
+      "title": "Merge pull request #231 from ivRooom/feat/230-heartbeat-interval  feat(#230): ハートビート検知閾値を 150/30",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/92e3499e1e978d86205a36bd396112eeccaadf8c",
+      "at": "2026-11-14T17:48:06.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Merge pull request #224 from ivRooom/refactor/213-ingest-auth-s3  refactor(web): ingest 認証を正本 au",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/b1bf529ebb7a96265a1d4c8bc08fdd19c8328791",
-      "at": "2026-11-14T14:44:41.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Merge pull request #223 from ivRooom/feat/218-host-signal-suppression  feat(#218): Console無効化中はh",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/17824c5a164d0f00e11f96a43800971cd1baa9e1",
-      "at": "2026-11-14T14:42:39.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "refactor(web): delegate ingest auth to authenticateOperationAgentWithSecrets (#213 S3)",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/a6ab6889a99a936e82ef49cc80e99f536f94914d",
-      "at": "2026-11-14T14:20:32.000+09:00"
+      "title": "feat(#230): ハートビート検知閾値を 150/300 秒へ広げ、Agent 間隔 60s 化に備える",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/458bb0a97f2094b44135105eea067de685c1eb7c",
+      "at": "2026-11-14T17:33:22.000+09:00"
     }
   ],
-  "generated_at": "2026-11-14T16:32:53+09:00"
+  "generated_at": "2026-11-14T19:38:27+09:00"
 }
