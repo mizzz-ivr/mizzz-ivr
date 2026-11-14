@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 2,
-    "prs_opened": 2,
-    "issues_created": 0,
+    "commits": 5,
+    "prs_opened": 5,
+    "issues_created": 6,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "chore(contracts): daily-participation vendored bundle を 2.3.0 へ再生成する (#895)",
+      "url": "https://github.com/ivRooom/Herta/commit/6ef8c965f95a60dffca2c8da22d6ff8b4d876c84",
+      "at": "2026-11-14T06:00:51.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "refactor(#213): readLimitedBody を lib/agent-ingest-body へ切り出す (S1) (#216)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/7762af9b96a2395db907d937162c7b1459942277",
+      "at": "2026-11-14T05:58:54.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "feat(#215): Cloud収集の全体停止を束ねて1回だけ通知し、無料枠超過を検知して明記する (#217)  * feat(#215): Cloud収集の全体停止を束ねて1回だけ通知し",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/517583076ca2a6788d152fae231b08b09cd59d75",
+      "at": "2026-11-14T05:57:42.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -24,21 +45,7 @@
       "title": "fix(compose): bot に HERTA_XP_EMITTER_ENABLED を伝播させる (#877) (#892)  * fix(compose): bot に HERTA_X",
       "url": "https://github.com/ivRooom/Herta/commit/3a2ddbc4a281bc703135accc096df3dd941bb1be",
       "at": "2026-11-14T03:46:33.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #893 feat(daily-bonus): 受付ウィンドウを翌日09:00まで延長する (スロット日モデル)",
-      "url": "https://github.com/ivRooom/Herta/pull/893",
-      "at": "2026-11-13T17:40:07Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #892 fix(compose): bot に HERTA_XP_EMITTER_ENABLED を伝播させる (#877)",
-      "url": "https://github.com/ivRooom/Herta/pull/892",
-      "at": "2026-11-13T17:16:49Z"
     }
   ],
-  "generated_at": "2026-11-14T04:50:40+09:00"
+  "generated_at": "2026-11-14T10:01:53+09:00"
 }
