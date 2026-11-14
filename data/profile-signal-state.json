@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-11-14T15:37:45Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-11-14T19:00:42Z"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -17,9 +17,9 @@
   "activity_total": 1,
   "current_focus": {
     "repo": "ivRooom/ivrm-dashboard",
-    "score": 4,
-    "events": 1,
-    "last_activity_at": "2026-11-14T15:37:45Z",
+    "score": 5,
+    "events": 2,
+    "last_activity_at": "2026-11-14T19:00:42Z",
     "share": 100,
     "stack": [
       "TypeScript",
@@ -109,12 +109,19 @@
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR merged #237",
+      "url": "https://github.com/ivRooom/ivrm-dashboard",
+      "at": "2026-11-14T19:00:42Z"
+    },
+    {
+      "label": "PR",
+      "repo": "ivRooom/ivrm-dashboard",
       "title": "Opened PR #237",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-11-14T15:37:45Z"
     }
   ],
-  "generated_at": "2026-11-15T03:15:15+09:00",
+  "generated_at": "2026-11-15T04:25:32+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
