@@ -26,8 +26,8 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 04:00 JST</sub></td>
-    <td width="34%" align="center"><strong>☁️ LIGHT CODING</strong><br/><sub>1 public actions today</sub></td>
+    <td width="33%" align="center"><strong>◐ RECENTLY ACTIVE</strong><br/><sub>last public activity · 04:00 JST</sub></td>
+    <td width="34%" align="center"><strong>☁️ LIGHT CODING</strong><br/><sub>2 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 6 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
 </table>
@@ -40,7 +40,7 @@
 
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><strong>0</strong><br/><sub>COMMITS</sub></td>
+    <td width="25%" align="center"><strong>1</strong><br/><sub>COMMITS</sub></td>
     <td width="25%" align="center"><strong>1</strong><br/><sub>PRS OPENED</sub></td>
     <td width="25%" align="center"><strong>0</strong><br/><sub>ISSUES CREATED</sub></td>
     <td width="25%" align="center"><strong>0</strong><br/><sub>ISSUES DONE</sub></td>
@@ -54,7 +54,7 @@
 <table width="100%">
   <tr>
     <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>weighted activity 100% · score 5 · 2 events</sub></td>
-    <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>PLpgSQL</code> <code>CSS</code> <code>Python</code></td>
+    <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>PLpgSQL</code> <code>TypeScript</code> <code>CSS</code> <code>Python</code></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:FOCUS:END -->
@@ -81,7 +81,7 @@
 <!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
 ## NOW BUILDING // Active repositories
 
-<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>100% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 00:37 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
+<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>100% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 04:00 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
 <!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
 
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->
@@ -187,7 +187,7 @@
 <table width="100%">
   <tr>
     <td width="25%" align="center"><strong>🔥 6</strong><br/><sub>DAY STREAK</sub></td>
-    <td width="25%" align="center"><strong>137</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>138</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
     <td width="25%" align="center"><strong>108</strong><br/><sub>PRS · THIS WEEK</sub></td>
     <td width="25%" align="center"><strong>37</strong><br/><sub>ISSUES DONE · THIS WEEK</sub></td>
   </tr>
@@ -196,20 +196,20 @@
 <details>
 <summary><strong>MONTHLY SUMMARY</strong></summary>
 <br/>
-<table width="100%"><tr><td width="25%" align="center"><strong>199</strong><br/><sub>COMMITS</sub></td><td width="25%" align="center"><strong>186</strong><br/><sub>PRS</sub></td><td width="25%" align="center"><strong>54</strong><br/><sub>ISSUES DONE</sub></td><td width="25%" align="center"><strong>604</strong><br/><sub>ACTIVITY</sub></td></tr></table>
+<table width="100%"><tr><td width="25%" align="center"><strong>200</strong><br/><sub>COMMITS</sub></td><td width="25%" align="center"><strong>186</strong><br/><sub>PRS</sub></td><td width="25%" align="center"><strong>54</strong><br/><sub>ISSUES DONE</sub></td><td width="25%" align="center"><strong>605</strong><br/><sub>ACTIVITY</sub></td></tr></table>
 </details>
 
 <details>
 <summary><strong>YEARLY SUMMARY // 2026</strong></summary>
 <br/>
-<table width="100%"><tr><td width="20%" align="center"><strong>72</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>2203</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>741</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>190</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>3616</strong><br/><sub>ACTIVITY</sub></td></tr></table>
+<table width="100%"><tr><td width="20%" align="center"><strong>72</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>2204</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>741</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>190</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>3617</strong><br/><sub>ACTIVITY</sub></td></tr></table>
 <p><sub>83 tracked days in 2026.</sub></p>
 </details>
 
 <details>
 <summary><strong>LIFETIME SUMMARY // Tracked history</strong></summary>
 <br/>
-<table width="100%"><tr><td width="20%" align="center"><strong>72</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>2203</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>741</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>190</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>3616</strong><br/><sub>ACTIVITY</sub></td></tr></table>
+<table width="100%"><tr><td width="20%" align="center"><strong>72</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>2204</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>741</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>190</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>3617</strong><br/><sub>ACTIVITY</sub></td></tr></table>
 <p><sub>Profile Signal tracked lifetime · tracked since 2026-08-25 · 83 tracked days. GitHub account lifetime totalsではありません。</sub></p>
 </details>
 <!-- PROFILE-SIGNAL:RECAP:END -->

@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
+    "commits": 1,
     "prs_opened": 1,
     "issues_created": 0,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "feat: quiz stock-out / next-day-missing monitor (ivrm-web #749) (#237)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/c27699eb2cbd5817ad0755163b3849886e2f4b18",
+      "at": "2026-11-15T04:00:40.000+09:00"
+    },
     {
       "type": "pr",
       "repo": "ivRooom/ivrm-dashboard",
@@ -19,5 +26,5 @@
       "at": "2026-11-14T15:37:45Z"
     }
   ],
-  "generated_at": "2026-11-15T03:15:15+09:00"
+  "generated_at": "2026-11-15T07:33:26+09:00"
 }
