@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 25,
-    "prs_opened": 20,
-    "issues_created": 26,
-    "issues_completed": 4
+    "commits": 30,
+    "prs_opened": 23,
+    "issues_created": 28,
+    "issues_completed": 8
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Merge pull request #233 from ivRooom/feat/232-signal-inventory  feat: 7日以上 active な Signal の週次棚卸",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/d1b838a4b2a93f190e294e86262468790df2fa94",
-      "at": "2026-11-14T18:22:32.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "feat: weekly inventory digest for signals active 7+ days (#232)",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/e93b7c832e739ee92efa0e41e820420550743b91",
-      "at": "2026-11-14T18:01:04.000+09:00"
+      "title": "Merge pull request #236 from ivRooom/feat/235-backup-suppression  feat: ingest 停止時に backup 系 Sig",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/dbf68e38be2c2f65e68edaa7aaa99db8e9a7e445",
+      "at": "2026-11-14T22:10:20.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(bot): Release通知の内部送信APIを追加する (#899) (#900)",
-      "url": "https://github.com/ivRooom/Herta/commit/e26cf247a7d71030840678cdca5543e853dc756d",
-      "at": "2026-11-14T17:58:06.000+09:00"
+      "title": "fix(compose): Release通知の env 2件を bot へ配線する (#901) (#902)  * fix(compose): Release通知の env 2件を bot",
+      "url": "https://github.com/ivRooom/Herta/commit/21b896f963bdff01931d13ebc84241fed22833f9",
+      "at": "2026-11-14T22:07:00.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Merge pull request #231 from ivRooom/feat/230-heartbeat-interval  feat(#230): ハートビート検知閾値を 150/30",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/92e3499e1e978d86205a36bd396112eeccaadf8c",
-      "at": "2026-11-14T17:48:06.000+09:00"
+      "title": "feat: suppress backup signal notifications during ingest outage (#235)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/c2ba88c460f5195cf57372d936a1bb4d1f4d9fea",
+      "at": "2026-11-14T22:05:51.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "feat(#230): ハートビート検知閾値を 150/300 秒へ広げ、Agent 間隔 60s 化に備える",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/458bb0a97f2094b44135105eea067de685c1eb7c",
-      "at": "2026-11-14T17:33:22.000+09:00"
+      "title": "Merge pull request #234 from ivRooom/refactor/213-burn-body-s4c  refactor: burn-reconcile の body",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/f1b1e2d8884fea1f0b7c898093ed4ef5c1015567",
+      "at": "2026-11-14T19:58:10.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "refactor: wrap burn-reconcile body reader over the shared helper (#213 S4c)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/1a363db098be9039d55a90459c0fcc1bf8022f47",
+      "at": "2026-11-14T19:38:49.000+09:00"
     }
   ],
-  "generated_at": "2026-11-14T19:38:27+09:00"
+  "generated_at": "2026-11-14T23:28:04+09:00"
 }
