@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 5,
-    "prs_opened": 5,
-    "issues_created": 6,
-    "issues_completed": 0
+    "commits": 16,
+    "prs_opened": 12,
+    "issues_created": 17,
+    "issues_completed": 3
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "chore(contracts): daily-participation vendored bundle を 2.3.0 へ再生成する (#895)",
-      "url": "https://github.com/ivRooom/Herta/commit/6ef8c965f95a60dffca2c8da22d6ff8b4d876c84",
-      "at": "2026-11-14T06:00:51.000+09:00"
+      "title": "feat(bot): /mc link・/mc whitelist コマンド追加 (#894) (#898)  * feat(bot): add /mc link and /mc whitel",
+      "url": "https://github.com/ivRooom/Herta/commit/cb5650099412358461ac507be1ffc6b1431f5a39",
+      "at": "2026-11-14T15:49:23.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "refactor(#213): readLimitedBody を lib/agent-ingest-body へ切り出す (S1) (#216)",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/7762af9b96a2395db907d937162c7b1459942277",
-      "at": "2026-11-14T05:58:54.000+09:00"
+      "title": "feat(monitor): ポイント付与の死活監視 (claim/earn 件数の異常検知) を追加する (#221) (#225)  * feat(monitor): ポイント付与の死活監",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/91a58d995e9eaa70fb617d7841d46df09dbef125",
+      "at": "2026-11-14T15:30:47.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "feat(#215): Cloud収集の全体停止を束ねて1回だけ通知し、無料枠超過を検知して明記する (#217)  * feat(#215): Cloud収集の全体停止を束ねて1回だけ通知し",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/517583076ca2a6788d152fae231b08b09cd59d75",
-      "at": "2026-11-14T05:57:42.000+09:00"
+      "title": "Merge pull request #224 from ivRooom/refactor/213-ingest-auth-s3  refactor(web): ingest 認証を正本 au",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/b1bf529ebb7a96265a1d4c8bc08fdd19c8328791",
+      "at": "2026-11-14T14:44:41.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(daily-bonus): accept claims until next 09:00 JST (slot date model) (#893)",
-      "url": "https://github.com/ivRooom/Herta/commit/f6eb306a3a4578867bce1473deba321020f87521",
-      "at": "2026-11-14T04:31:09.000+09:00"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Merge pull request #223 from ivRooom/feat/218-host-signal-suppression  feat(#218): Console無効化中はh",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/17824c5a164d0f00e11f96a43800971cd1baa9e1",
+      "at": "2026-11-14T14:42:39.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(compose): bot に HERTA_XP_EMITTER_ENABLED を伝播させる (#877) (#892)  * fix(compose): bot に HERTA_X",
-      "url": "https://github.com/ivRooom/Herta/commit/3a2ddbc4a281bc703135accc096df3dd941bb1be",
-      "at": "2026-11-14T03:46:33.000+09:00"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "refactor(web): delegate ingest auth to authenticateOperationAgentWithSecrets (#213 S3)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/a6ab6889a99a936e82ef49cc80e99f536f94914d",
+      "at": "2026-11-14T14:20:32.000+09:00"
     }
   ],
-  "generated_at": "2026-11-14T10:01:53+09:00"
+  "generated_at": "2026-11-14T16:32:53+09:00"
 }
