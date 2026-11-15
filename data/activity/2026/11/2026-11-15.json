@@ -5,40 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 2,
-    "issues_created": 1,
-    "issues_completed": 0
+    "commits": 3,
+    "prs_opened": 3,
+    "issues_created": 2,
+    "issues_completed": 1
   },
   "activity": [
     {
-      "type": "issue",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #903 昨日の問題（答え合わせ）に回答数・正答率を表示する",
-      "url": "https://github.com/ivRooom/Herta/issues/903",
-      "at": "2026-11-15T04:13:17Z"
-    },
-    {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR #238 docs: sync quiz readonly grants file with production RLS policy (ivrm-web #749)",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/238",
-      "at": "2026-11-15T04:06:09Z"
+      "title": "docs: sync quiz readonly grants file with production RLS policy (ivrm-web #749) (#238)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/11886c6bc5241d45f389c9f50cd7854b2fba7d03",
+      "at": "2026-11-15T23:54:26.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "feat: quiz stock-out / next-day-missing monitor (ivrm-web #749) (#237)",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/c27699eb2cbd5817ad0755163b3849886e2f4b18",
-      "at": "2026-11-15T04:00:40.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "feat(daily-participation): 昨日の問題の結果に回答数・正答率を表示する (#903) (#904)",
+      "url": "https://github.com/ivRooom/Herta/commit/97265d9720c79859444ef5dda448b12f6ebb6ff6",
+      "at": "2026-11-15T20:08:41.000+09:00"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #903 昨日の問題（答え合わせ）に回答数・正答率を表示する",
+      "url": "https://github.com/ivRooom/Herta/issues/903",
+      "at": "2026-11-15T13:11:19Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #905 [V1廃止 Phase 2-D] Bot: 旧 V1 クイズボタンのスタブと status quiz 分岐の撤去",
+      "url": "https://github.com/ivRooom/Herta/issues/905",
+      "at": "2026-11-15T12:11:35Z"
     },
     {
       "type": "pr",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR #237 feat: quiz stock-out / next-day-missing monitor (ivrm-web #749)",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/237",
-      "at": "2026-11-14T15:37:45Z"
+      "repo": "ivRooom/Herta",
+      "title": "PR #904 feat(daily-participation): 昨日の問題の結果に回答数・正答率を表示する (#903)",
+      "url": "https://github.com/ivRooom/Herta/pull/904",
+      "at": "2026-11-15T10:05:35Z"
     }
   ],
-  "generated_at": "2026-11-15T15:46:10+09:00"
+  "generated_at": "2026-11-16T01:26:09+09:00"
 }
