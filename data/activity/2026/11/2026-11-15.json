@@ -6,11 +6,25 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 1,
-    "prs_opened": 1,
-    "issues_created": 0,
+    "prs_opened": 2,
+    "issues_created": 1,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #903 昨日の問題（答え合わせ）に回答数・正答率を表示する",
+      "url": "https://github.com/ivRooom/Herta/issues/903",
+      "at": "2026-11-15T04:13:17Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "PR #238 docs: sync quiz readonly grants file with production RLS policy (ivrm-web #749)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/238",
+      "at": "2026-11-15T04:06:09Z"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
@@ -26,5 +40,5 @@
       "at": "2026-11-14T15:37:45Z"
     }
   ],
-  "generated_at": "2026-11-15T07:33:26+09:00"
+  "generated_at": "2026-11-15T15:46:10+09:00"
 }
