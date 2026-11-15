@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-11-14T19:00:42Z"
+    "label": "OFFLINE",
+    "symbol": "○",
+    "last_activity_at": "2026-11-15T04:00:40.000+09:00"
   },
   "code_weather": {
     "label": "LIGHT CODING",
@@ -19,14 +19,9 @@
     "repo": "ivRooom/ivrm-dashboard",
     "score": 5,
     "events": 2,
-    "last_activity_at": "2026-11-14T19:00:42Z",
+    "last_activity_at": "2026-11-15T04:00:40.000+09:00",
     "share": 100,
-    "stack": [
-      "PLpgSQL",
-      "TypeScript",
-      "CSS",
-      "Python"
-    ]
+    "stack": []
   },
   "dev_pulse": [
     {
@@ -84,54 +79,54 @@
       "repo": "ivRooom/ivrm-dashboard",
       "score": 5,
       "events": 2,
-      "last_activity_at": "2026-11-14T19:00:42Z",
+      "last_activity_at": "2026-11-15T04:00:40.000+09:00",
       "share": 100,
       "ci": {
-        "label": "PASSING",
-        "symbol": "●",
+        "label": "NO SIGNAL",
+        "symbol": "○",
         "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 10,
-        "passed": 10,
+        "total_runs": 0,
+        "evaluated": 0,
+        "passed": 0,
         "failed": 0,
         "ignored": 0,
-        "pass_rate": 100,
-        "latest_conclusion": "success"
+        "pass_rate": null,
+        "latest_conclusion": null
       },
       "health": {
-        "label": "HEALTHY",
+        "label": "ACTIVE",
         "symbol": "●",
-        "reason": "active with passing recent CI"
+        "reason": "active; no evaluated CI signal"
       }
     }
   ],
   "activity_stream": [
     {
-      "label": "PR",
+      "label": "PUSH",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR merged #237",
-      "url": "https://github.com/ivRooom/ivrm-dashboard",
-      "at": "2026-11-14T19:00:42Z"
+      "title": "1 commit pushed",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commits",
+      "at": "2026-11-15T04:00:40.000+09:00"
     },
     {
       "label": "PR",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Opened PR #237",
+      "title": "Opened PR",
       "url": "https://github.com/ivRooom/ivrm-dashboard",
       "at": "2026-11-14T15:37:45Z"
     }
   ],
-  "generated_at": "2026-11-15T08:16:27+09:00",
+  "generated_at": "2026-11-15T11:49:47+09:00",
   "ci_signal": {
-    "label": "PASSING",
-    "symbol": "●",
+    "label": "NO SIGNAL",
+    "symbol": "○",
     "window_days": 7,
-    "evaluated": 10,
-    "passed": 10,
+    "evaluated": 0,
+    "passed": 0,
     "failed": 0,
     "ignored": 0,
-    "pass_rate": 100,
-    "repos_with_signal": 1
+    "pass_rate": null,
+    "repos_with_signal": 0
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
