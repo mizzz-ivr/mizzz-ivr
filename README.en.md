@@ -53,6 +53,8 @@
 
 ## Game Lab // Build with data
 
+<p align="center"><img src="./assets/game-lab.svg" width="100%" alt="GAME LAB — games handled with technology: self-hosted build cards, Discord /game command, HoYoLAB data foundation" /></p>
+
 Games get the same treatment as software: build, measure, verify. Everything here stays within the scope I have explicitly consented to publish.
 
 - **Self-hosted build cards** — Replaced Enka.Network embeds with an in-house renderer that generates build cards (SVG → PNG) for Genshin Impact / Honkai: Star Rail / Zenless Zone Zero / Arknights: Endfield, with element-coloured frames, per-area backgrounds and substat roll counts

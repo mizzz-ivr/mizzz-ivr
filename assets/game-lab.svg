@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="168" viewBox="0 0 920 168" role="img" aria-labelledby="title desc">
+  <title id="title">GAME LAB — Build with data</title>
+  <desc id="desc">Games handled with technology: self-hosted build cards, a Discord /game command, and a HoYoLAB progress data foundation. Titles: Genshin Impact, Honkai: Star Rail, Gakuen Idolmaster, Arknights: Endfield, Wuthering Waves, NTE.</desc>
+  <style>
+    .title { fill: #ffffff; font: 800 34px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .title-accent { fill: #22d3ee; font: 700 22px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .subtitle { fill: #c4b5fd; font: 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .chip { fill: #ede9fe; font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .chip-bg { fill: rgba(139, 92, 246, 0.16); stroke: #8b5cf6; stroke-width: 1; }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#150a2e"/>
+      <stop offset="0.55" stop-color="#1e0b45"/>
+      <stop offset="1" stop-color="#2a1065"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="920" height="168" fill="url(#bg)"/>
+  <circle cx="872" cy="26" r="54" fill="none" stroke="#8b5cf6" stroke-width="2" opacity="0.55"/>
+  <circle cx="872" cy="26" r="34" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity="0.5"/>
+  <rect x="0" y="0" width="920" height="4" fill="#8b5cf6"/>
+  <text class="title" x="36" y="60">GAME LAB <tspan class="title-accent">// Build with data</tspan></text>
+  <text class="subtitle" x="36" y="90">Games, treated like software — build, measure, verify. Build cards, Discord tooling and game-data foundations.</text>
+  <g transform="translate(36,112)"><rect width="128" height="28" rx="14" class="chip-bg"/><text class="chip" x="64" y="19" text-anchor="middle">Genshin Impact</text></g>
+  <g transform="translate(174,112)"><rect width="146" height="28" rx="14" class="chip-bg"/><text class="chip" x="73" y="19" text-anchor="middle">Honkai: Star Rail</text></g>
+  <g transform="translate(330,112)"><rect width="146" height="28" rx="14" class="chip-bg"/><text class="chip" x="73" y="19" text-anchor="middle">Gakuen Idolmaster</text></g>
+  <g transform="translate(486,112)"><rect width="160" height="28" rx="14" class="chip-bg"/><text class="chip" x="80" y="19" text-anchor="middle">Arknights: Endfield</text></g>
+  <g transform="translate(656,112)"><rect width="140" height="28" rx="14" class="chip-bg"/><text class="chip" x="70" y="19" text-anchor="middle">Wuthering Waves</text></g>
+  <g transform="translate(806,112)"><rect width="52" height="28" rx="14" class="chip-bg"/><text class="chip" x="26" y="19" text-anchor="middle">NTE</text></g>
+</svg>
