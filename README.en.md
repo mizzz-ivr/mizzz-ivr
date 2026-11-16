@@ -51,6 +51,22 @@
 - **[ivmz-home](https://github.com/mizzz-ivr/ivmz-home)** — Personal web / portfolio platform with Next.js, Payload and PostgreSQL.
 - **[IVRM Dashboard](https://github.com/ivRooom/ivrm-dashboard)** — Operations / observability console using Next.js, Supabase and a Go agent.
 
+## Game Lab // Build with data
+
+Games get the same treatment as software: build, measure, verify. Everything here stays within the scope I have explicitly consented to publish.
+
+- **Self-hosted build cards** — Replaced Enka.Network embeds with an in-house renderer that generates build cards (SVG → PNG) for Genshin Impact / Honkai: Star Rail / Zenless Zone Zero / Arknights: Endfield, with element-coloured frames, per-area backgrounds and substat roll counts
+- **Discord `/game` command** — UID linking and relic scores, synced with the web portal; game profiles live on a dedicated games tab
+- **Progress data foundation** — A provider layer for public HoYoLAB battle records that never handles the player's own credentials
+
+Titles: `Genshin Impact` `Honkai: Star Rail` `Gakuen Idolmaster` `Arknights: Endfield` `Wuthering Waves` `NTE`
+
+<sub>Static section · Last updated: 2026-11-16 · Sources are limited to publicly consented data in ivrm-web</sub>
+
+## Writing
+
+Technical write-ups (in Japanese) on [Qiita](https://qiita.com/mizzz-ivr) — the latest articles are listed on the [Japanese profile](./README.md).
+
 ## Documents
 
 - [Skill Sheet](./SKILL_SHEET.en.md)
