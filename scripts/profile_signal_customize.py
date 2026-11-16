@@ -387,7 +387,9 @@ def apply_writing(text: str, root: Path) -> str:
     """Refresh the optional WRITING block (profile-signal #8).
 
     Reads ``.github/profile-writing.json`` and delegates fetching/rendering to
-    the installed ``.profile-signal/scripts/profile_signal_writing.py``.
+    the vendored ``scripts/profile_signal_writing.py`` (byte-identical copy of
+    the profile-signal module; the installed ``.profile-signal`` runtime tree
+    must not be changed by hand, so the add-on lives in consumer scripts).
     Fail-close: any problem (missing config, disabled, fetch failure) keeps
     the current README text untouched so a feed outage never breaks the
     profile refresh.
@@ -399,7 +401,7 @@ def apply_writing(text: str, root: Path) -> str:
         config = json.loads(config_path.read_text(encoding="utf-8"))
         if not config.get("enabled", True):
             return text
-        module_path = root / ".profile-signal" / "scripts" / "profile_signal_writing.py"
+        module_path = root / "scripts" / "profile_signal_writing.py"
         spec = importlib.util.spec_from_file_location("profile_signal_writing", module_path)
         if spec is None or spec.loader is None:
             return text
