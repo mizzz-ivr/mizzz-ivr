@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="176" viewBox="0 0 440 176" role="img" aria-labelledby="title desc">
+  <title id="title">IVRM Dashboard — build card</title>
+  <desc id="desc">Next.js + Supabase + Go AgentでMinecraft/Web/Cloud基盤を安全に監視する統合運用コンソール。</desc>
+  <style>
+    .title { fill: #1f2328; font: 700 20px -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; }
+    .repo { fill: #57606a; font: 12px -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; }
+    .summary { fill: #24292f; font: 13px -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; }
+    .chip { fill: #0969da; font: 600 11px -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif; }
+    .chip-bg { fill: #ddf4ff; }
+  </style>
+  <defs>
+    <clipPath id="card-clip"><rect x="1" y="1" width="438" height="174" rx="12"/></clipPath>
+  </defs>
+  <rect x="1" y="1" width="438" height="174" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+  <g clip-path="url(#card-clip)"><rect x="0" y="0" width="440" height="6" fill="#bf8700"/></g>
+  <text class="title" x="20" y="46">IVRM Dashboard</text>
+  <text class="repo" x="20" y="66">github.com/ivRooom/ivrm-dashboard</text>
+  <text class="summary" x="20" y="88">Next.js + Supabase + Go</text>
+  <text class="summary" x="20" y="107">AgentでMinecraft/Web/Cloud基盤を</text>
+  <text class="summary" x="20" y="126">安全に監視する統合運用コンソール。</text>
+  <g transform="translate(20,140)"><rect width="80" height="20" rx="10" class="chip-bg"/><text class="chip" x="40" y="14" text-anchor="middle">TypeScript</text></g>
+  <g transform="translate(108,140)"><rect width="61" height="20" rx="10" class="chip-bg"/><text class="chip" x="30" y="14" text-anchor="middle">Next.js</text></g>
+  <g transform="translate(177,140)"><rect width="48" height="20" rx="10" class="chip-bg"/><text class="chip" x="24" y="14" text-anchor="middle">React</text></g>
+  <g transform="translate(233,140)"><rect width="29" height="20" rx="10" class="chip-bg"/><text class="chip" x="14" y="14" text-anchor="middle">Go</text></g>
+  <g transform="translate(270,140)"><rect width="67" height="20" rx="10" class="chip-bg"/><text class="chip" x="34" y="14" text-anchor="middle">Supabase</text></g>
+</svg>
