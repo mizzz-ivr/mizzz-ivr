@@ -7,8 +7,8 @@
 <h1 align="center">Ivoru / mizzz</h1>
 
 <p align="center">
-  <strong>Product-minded Full Stack Developer</strong><br/>
-  Building web products, realtime AI, Discord systems, APIs, databases and operations end to end.
+  <strong>Build with technology. Conquer with data.</strong><br/>
+  Product-minded Full Stack Developer building web products, realtime AI, Discord systems, APIs, databases and operations end to end — and applying the same data-driven approach to games.
 </p>
 
 <p align="center">

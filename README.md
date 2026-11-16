@@ -7,8 +7,8 @@
 <h1 align="center">いゔる。 a.k.a. mizzz（ずーみー）</h1>
 
 <p align="center">
-  <strong>プロダクト志向のフルスタックエンジニア</strong><br/>
-  React / TypeScript を軸に、Web・Discord・Realtime AI・API・DB・運用までつなげて実装しています。
+  <strong>技術で作って、データで攻略する。</strong><br/>
+  個人開発 × ゲームの二刀流。プロダクト志向のフルスタックエンジニアとして、React / TypeScript を軸に Web・Discord・Realtime AI・API・DB・運用まで作る側。ゲームは計算・検証・ツール化までやるデータ派。
 </p>
 
 <p align="center">
@@ -16,6 +16,8 @@
   <a href="https://ivrm.jp"><img src="https://img.shields.io/badge/COMMUNITY-ivRooom-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="ivRooom" /></a>
   <a href="mailto:ivmz@ivrm.jp"><img src="https://img.shields.io/badge/CONTACT-ivmz%40ivrm.jp-6D5AE6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
+
+<p align="center"><sub>Discord / Community · Full-stack Product · Developer Platform · Realtime AI — 詳細は <a href="./SKILL_SHEET.md">Skill Sheet</a></sub></p>
 
 <p align="center"><sub>小さく作る · 速く磨く · 安全に運用する</sub></p>
 
