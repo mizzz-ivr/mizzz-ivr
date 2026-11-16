@@ -8,7 +8,7 @@
     "commits": 4,
     "prs_opened": 4,
     "issues_created": 2,
-    "issues_completed": 2
+    "issues_completed": 3
   },
   "activity": [
     {
@@ -41,11 +41,11 @@
     },
     {
       "type": "done",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #910 /game コマンドの応答を Embed 形式にして読みやすくする",
-      "url": "https://github.com/ivRooom/Herta/issues/910",
-      "at": "2026-11-16T00:55:48Z"
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Issue #232 [棚卸し] 7日以上 active な Signal の週次棚卸し通知",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/232",
+      "at": "2026-11-16T01:52:52Z"
     }
   ],
-  "generated_at": "2026-11-16T10:25:52+09:00"
+  "generated_at": "2026-11-16T15:44:52+09:00"
 }

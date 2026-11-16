@@ -5,22 +5,22 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "BUILDING",
-    "symbol": "●",
-    "last_activity_at": "2026-11-16T00:55:49Z"
+    "label": "RECENTLY ACTIVE",
+    "symbol": "◐",
+    "last_activity_at": "2026-11-16T01:52:52Z"
   },
   "code_weather": {
     "label": "ACTIVE",
     "icon": "🌤️"
   },
   "streak": 7,
-  "activity_total": 12,
+  "activity_total": 13,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 38,
-    "events": 20,
+    "score": 42,
+    "events": 24,
     "last_activity_at": "2026-11-16T00:55:49Z",
-    "share": 100,
+    "share": 91,
     "stack": [
       "TypeScript",
       "JavaScript",
@@ -73,19 +73,19 @@
     },
     {
       "date": "2026-11-16",
-      "total": 12,
+      "total": 13,
       "commits": 4,
       "prs": 4,
-      "issues": 4
+      "issues": 5
     }
   ],
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 38,
-      "events": 20,
+      "score": 42,
+      "events": 24,
       "last_activity_at": "2026-11-16T00:55:49Z",
-      "share": 100,
+      "share": 91,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -103,9 +103,40 @@
         "symbol": "●",
         "reason": "active with passing recent CI"
       }
+    },
+    {
+      "repo": "ivRooom/ivrm-dashboard",
+      "score": 4,
+      "events": 2,
+      "last_activity_at": "2026-11-16T01:52:52Z",
+      "share": 9,
+      "ci": {
+        "label": "PASSING",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 10,
+        "passed": 10,
+        "failed": 0,
+        "ignored": 0,
+        "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
     }
   ],
   "activity_stream": [
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/ivrm-dashboard",
+      "title": "Closed issue #232",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/232",
+      "at": "2026-11-16T01:52:52Z"
+    },
     {
       "label": "ISSUE",
       "repo": "ivRooom/Herta",
@@ -121,31 +152,24 @@
       "at": "2026-11-16T00:37:40Z"
     },
     {
-      "label": "PR",
+      "label": "PUSH",
       "repo": "ivRooom/Herta",
-      "title": "PR merged #909",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-11-16T00:09:26Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "Opened PR #911",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-11-15T19:53:30Z"
+      "title": "1 commit pushed to feat/game-embeds-910",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-11-16T00:10:46Z"
     }
   ],
-  "generated_at": "2026-11-16T10:25:52+09:00",
+  "generated_at": "2026-11-16T15:44:52+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
     "window_days": 7,
-    "evaluated": 9,
-    "passed": 9,
+    "evaluated": 19,
+    "passed": 19,
     "failed": 0,
     "ignored": 1,
     "pass_rate": 100,
-    "repos_with_signal": 1
+    "repos_with_signal": 2
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
@@ -168,10 +192,10 @@
         "commits": 4,
         "prs_opened": 4,
         "issues_created": 2,
-        "issues_completed": 2,
-        "activity_total": 12
+        "issues_completed": 3,
+        "activity_total": 13
       },
-      "generated_at": "2026-11-16T10:25:52+09:00"
+      "generated_at": "2026-11-16T15:44:52+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -189,10 +213,10 @@
         "commits": 206,
         "prs_opened": 192,
         "issues_created": 169,
-        "issues_completed": 57,
-        "activity_total": 624
+        "issues_completed": 58,
+        "activity_total": 625
       },
-      "generated_at": "2026-11-16T10:25:52+09:00"
+      "generated_at": "2026-11-16T15:44:52+09:00"
     },
     "achievements": [
       {
@@ -247,8 +271,8 @@
         "commits": 2210,
         "prs_opened": 747,
         "issues_created": 486,
-        "issues_completed": 193,
-        "activity_total": 3636
+        "issues_completed": 194,
+        "activity_total": 3637
       }
     },
     "lifetime": {
@@ -260,8 +284,8 @@
         "commits": 2210,
         "prs_opened": 747,
         "issues_created": 486,
-        "issues_completed": 193,
-        "activity_total": 3636
+        "issues_completed": 194,
+        "activity_total": 3637
       }
     }
   }
