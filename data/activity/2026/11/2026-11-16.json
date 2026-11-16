@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 4,
-    "prs_opened": 4,
-    "issues_created": 2,
-    "issues_completed": 3
+    "commits": 17,
+    "prs_opened": 19,
+    "issues_created": 7,
+    "issues_completed": 6
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(bot): /game コマンドの応答を Embed 形式にする (#910) (#911)  * feat(bot): /game コマンドの応答を Embed 形式にする (#9",
-      "url": "https://github.com/ivRooom/Herta/commit/b6f86fb10e00651ab1dee335463f0ccb217d657d",
-      "at": "2026-11-16T09:37:40.000+09:00"
+      "title": "feat(bot): Daily Quiz 訂正通知と救済告知の配信スキャナ (#1211 #1212)  結果通知と同じ claim/照合方式で、訂正通知スキャナ (corrections/",
+      "url": "https://github.com/ivRooom/Herta/commit/4367ca8ba9b7757a9b7b4898f14cbbed6e2bbd7f",
+      "at": "2026-11-16T23:34:37.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(bot): デイリー失敗報告を発生チャンネル＋運営メンション方式に変更 (#896) (#909)",
-      "url": "https://github.com/ivRooom/Herta/commit/6612ad9131e185289912656f7ba52fcd69e0073e",
-      "at": "2026-11-16T09:09:25.000+09:00"
+      "title": "fix(bot): Daily Quiz クライアントが rescue スロットを拒否する問題を修正 (#917)  slot enum に rescue を追加し、questions/res",
+      "url": "https://github.com/ivRooom/Herta/commit/a04ee83e2e1baff672a450a977b5b8328d65fa59",
+      "at": "2026-11-16T23:20:40.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "Replace profile hero with brand copy + Game Lab version (#68)",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/3a6beed15103bb349eb578b230dc9b30d9d6260f",
+      "at": "2026-11-16T22:40:45.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(bot): /game コマンドで UID 連携と聖遺物スコア確認 (#906) (#908)  * feat(bot): /game コマンドで UID 連携と聖遺物スコア確認を追",
-      "url": "https://github.com/ivRooom/Herta/commit/7d59c7b17c856e1424ecac6fad1fff5ee0271fa1",
-      "at": "2026-11-16T03:01:16.000+09:00"
+      "title": "Minecraftホワイトリスト審査待ちリマインド (#916) (#918)  * Minecraftホワイトリスト審査待ちリマインドを追加する (#916)  * Studio manif",
+      "url": "https://github.com/ivRooom/Herta/commit/edc169a605275b775d024e365ff2c610bb7451df",
+      "at": "2026-11-16T22:33:32.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "daily-bonus: V1 クイズの残存経路を撤去し契約 bundle 1.4.0 へ追随する (#905) (#907)",
-      "url": "https://github.com/ivRooom/Herta/commit/fa1697b54be17e2e19ab7cfe81a75cf7bc6da14b",
-      "at": "2026-11-16T01:56:59.000+09:00"
-    },
-    {
-      "type": "done",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Issue #232 [棚卸し] 7日以上 active な Signal の週次棚卸し通知",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/232",
-      "at": "2026-11-16T01:52:52Z"
+      "repo": "mizzz-ivr/mizzz-ivr",
+      "title": "feat(profile): GAME LABにバナー画像を追加する (#61) (#67)",
+      "url": "https://github.com/mizzz-ivr/mizzz-ivr/commit/1c4446dcf8efd2324155d3ec5c668c66798b53bb",
+      "at": "2026-11-16T22:12:19.000+09:00"
     }
   ],
-  "generated_at": "2026-11-16T15:44:52+09:00"
+  "generated_at": "2026-11-17T03:49:59+09:00"
 }

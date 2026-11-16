@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-17",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 2,
+    "prs_opened": 1,
+    "issues_created": 1,
+    "issues_completed": 1
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "ホワイトリスト審査リマインドのロールメンションを廃止 (#916) (#922)",
+      "url": "https://github.com/ivRooom/Herta/commit/7bfeb1d2bb85d64ba046e36de403f5c7c1c7bf09",
+      "at": "2026-11-17T02:50:39.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): /game score を PNG カード+ボタン切替にする (#1147 S3c) (#921)",
+      "url": "https://github.com/ivRooom/Herta/commit/60bbb5d721fd22dec5f766c9f67760d7fe739efe",
+      "at": "2026-11-17T00:18:59.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #924 feat(bot): /game の公開応答化と探索度表示 (#923)",
+      "url": "https://github.com/ivRooom/Herta/pull/924",
+      "at": "2026-11-16T17:32:06Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #923 /game の公開応答化と探索度表示",
+      "url": "https://github.com/ivRooom/Herta/issues/923",
+      "at": "2026-11-16T17:09:01Z"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #917 Daily Quiz: rescue スロットの問題がある日は Discord 回答が全滅する（クライアントスキーマ要修正）",
+      "url": "https://github.com/ivRooom/Herta/issues/917",
+      "at": "2026-11-16T15:26:18Z"
+    }
+  ],
+  "generated_at": "2026-11-17T03:49:59+09:00"
+}
