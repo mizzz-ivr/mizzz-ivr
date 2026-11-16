@@ -105,11 +105,46 @@ class ProfileSignalCustomizeTest(unittest.TestCase):
             self.assertIn("## TODAY // Activity overview", rendered)
             self.assertIn("### QUALITY SIGNAL // Last 7 days", rendered)
             self.assertIn("YEARLY SUMMARY // 2026", rendered)
-            self.assertIn("LIFETIME SUMMARY // Tracked history", rendered)
+            self.assertNotIn("LIFETIME SUMMARY // Tracked history", rendered)
+            self.assertIn("tracked since 2026-08-27", rendered)
             self.assertNotIn("加重アクティビティ", rendered)
             self.assertNotIn("mizzz-ivr/tech-writing", rendered)
             self.assertEqual(persisted["current_focus"]["repo"], "ivRooom/Herta")
             self.assertEqual(persisted["tracked_summary"]["lifetime"]["tracked_days"], 1)
+
+
+    def test_recap_includes_lifetime_only_when_it_differs_from_yearly(self) -> None:
+        state = {
+            "streak": 3,
+            "dev_recap": {
+                "tracked_from": "2025-12-31",
+                "weekly": {"metrics": {"commits": 1, "prs_opened": 2, "issues_completed": 4}},
+                "monthly": {"metrics": {"commits": 1, "prs_opened": 2, "issues_completed": 4, "activity_total": 10}},
+            },
+        }
+        metrics = {"commits": 8, "prs_opened": 2, "issues_completed": 2, "activity_total": 12}
+        same = {
+            "year": 2026,
+            "yearly": {"metrics": dict(metrics), "active_days": 2, "tracked_days": 2},
+            "lifetime": {"metrics": dict(metrics), "active_days": 2, "tracked_days": 2, "first_date": "2026-01-01"},
+        }
+        rendered_same = custom.render_recap(state, same)
+        self.assertNotIn("LIFETIME SUMMARY", rendered_same)
+        self.assertIn("tracked since 2026-01-01", rendered_same)
+
+        differs = {
+            "year": 2026,
+            "yearly": {"metrics": dict(metrics), "active_days": 2, "tracked_days": 2},
+            "lifetime": {
+                "metrics": {"commits": 10, "prs_opened": 3, "issues_completed": 3, "activity_total": 16},
+                "active_days": 3,
+                "tracked_days": 3,
+                "first_date": "2025-12-31",
+            },
+        }
+        rendered_differs = custom.render_recap(state, differs)
+        self.assertIn("LIFETIME SUMMARY // Tracked history", rendered_differs)
+        self.assertIn("tracked since 2025-12-31", rendered_differs)
 
 
 if __name__ == "__main__":

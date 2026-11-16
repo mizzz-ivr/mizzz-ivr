@@ -175,7 +175,7 @@ jobs:
           ):
               if heading not in readme:
                   raise SystemExit(f"Profile heading missing: {heading}")
-          for summary_heading in ("MONTHLY SUMMARY", "YEARLY SUMMARY //", "LIFETIME SUMMARY // Tracked history"):
+          for summary_heading in ("MONTHLY SUMMARY", "YEARLY SUMMARY //"):
               if summary_heading not in readme:
                   raise SystemExit(f"Long-term summary missing: {summary_heading}")
           if "加重アクティビティ" in readme or "スコア " in readme:

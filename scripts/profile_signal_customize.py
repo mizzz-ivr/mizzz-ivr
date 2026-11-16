@@ -336,6 +336,25 @@ def render_recap(state: dict[str, Any], long_term: dict[str, Any]) -> str:
     yearly = long_term.get("yearly") or {}
     lifetime = long_term.get("lifetime") or {}
     lifetime_since = lifetime.get("first_date") or recap.get("tracked_from") or "not tracked yet"
+    yearly_metrics = yearly.get("metrics") or {}
+    lifetime_metrics = lifetime.get("metrics") or {}
+    lifetime_differs = (
+        lifetime_metrics != yearly_metrics
+        or int(lifetime.get("active_days", 0) or 0) != int(yearly.get("active_days", 0) or 0)
+        or int(lifetime.get("tracked_days", 0) or 0) != int(yearly.get("tracked_days", 0) or 0)
+    )
+    lifetime_block = ""
+    tracked_note = f" · tracked since {html.escape(str(lifetime_since))}"
+    if lifetime_differs:
+        tracked_note = ""
+        lifetime_block = f"""
+<details>
+<summary><strong>LIFETIME SUMMARY // Tracked history</strong></summary>
+<br/>
+{summary_table(lifetime_metrics, include_active_days=int(lifetime.get("active_days", 0) or 0))}
+<p><sub>Profile Signal tracked lifetime · tracked since {html.escape(str(lifetime_since))} · {int(lifetime.get("tracked_days", 0) or 0)} tracked days. GitHub account lifetime totalsではありません。</sub></p>
+</details>
+"""
     return f'''{MARKERS["recap"][0]}
 ## DEV RECAP // Tracked history
 
@@ -357,17 +376,10 @@ def render_recap(state: dict[str, Any], long_term: dict[str, Any]) -> str:
 <details>
 <summary><strong>YEARLY SUMMARY // {int(long_term.get("year") or 0)}</strong></summary>
 <br/>
-{summary_table(yearly.get("metrics") or {}, include_active_days=int(yearly.get("active_days", 0) or 0))}
-<p><sub>{int(yearly.get("tracked_days", 0) or 0)} tracked days in {int(long_term.get("year") or 0)}.</sub></p>
+{summary_table(yearly_metrics, include_active_days=int(yearly.get("active_days", 0) or 0))}
+<p><sub>{int(yearly.get("tracked_days", 0) or 0)} tracked days in {int(long_term.get("year") or 0)}{tracked_note}.</sub></p>
 </details>
-
-<details>
-<summary><strong>LIFETIME SUMMARY // Tracked history</strong></summary>
-<br/>
-{summary_table(lifetime.get("metrics") or {}, include_active_days=int(lifetime.get("active_days", 0) or 0))}
-<p><sub>Profile Signal tracked lifetime · tracked since {html.escape(str(lifetime_since))} · {int(lifetime.get("tracked_days", 0) or 0)} tracked days. GitHub account lifetime totalsではありません。</sub></p>
-</details>
-{MARKERS["recap"][1]}'''
+{lifetime_block}{MARKERS["recap"][1]}'''
 
 
 def customize(root: Path, readme_path: Path, state_path: Path, ignore_path: Path) -> dict[str, Any]:

@@ -207,14 +207,7 @@
 <summary><strong>YEARLY SUMMARY // 2026</strong></summary>
 <br/>
 <table width="100%"><tr><td width="20%" align="center"><strong>73</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>2210</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>747</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>194</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>3637</strong><br/><sub>ACTIVITY</sub></td></tr></table>
-<p><sub>84 tracked days in 2026.</sub></p>
-</details>
-
-<details>
-<summary><strong>LIFETIME SUMMARY // Tracked history</strong></summary>
-<br/>
-<table width="100%"><tr><td width="20%" align="center"><strong>73</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>2210</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>747</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>194</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>3637</strong><br/><sub>ACTIVITY</sub></td></tr></table>
-<p><sub>Profile Signal tracked lifetime · tracked since 2026-08-25 · 84 tracked days. GitHub account lifetime totalsではありません。</sub></p>
+<p><sub>84 tracked days in 2026 · tracked since 2026-08-25.</sub></p>
 </details>
 <!-- PROFILE-SIGNAL:RECAP:END -->
 
