@@ -7,8 +7,8 @@
   "metrics": {
     "commits": 2,
     "prs_opened": 1,
-    "issues_created": 1,
-    "issues_completed": 1
+    "issues_created": 2,
+    "issues_completed": 2
   },
   "activity": [
     {
@@ -26,26 +26,26 @@
       "at": "2026-11-17T00:18:59.000+09:00"
     },
     {
+      "type": "issue",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "Issue #24 Activity Sender の本番配備とバニラ統計差分イベントの拡張 (Epic ivrm-web #1249 M1)",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/issues/24",
+      "at": "2026-11-16T19:30:02Z"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #916 Minecraft ホワイトリスト承認待ちのリマインド通知",
+      "url": "https://github.com/ivRooom/Herta/issues/916",
+      "at": "2026-11-16T19:11:04Z"
+    },
+    {
       "type": "pr",
       "repo": "ivRooom/Herta",
       "title": "PR #924 feat(bot): /game の公開応答化と探索度表示 (#923)",
       "url": "https://github.com/ivRooom/Herta/pull/924",
       "at": "2026-11-16T17:32:06Z"
-    },
-    {
-      "type": "issue",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #923 /game の公開応答化と探索度表示",
-      "url": "https://github.com/ivRooom/Herta/issues/923",
-      "at": "2026-11-16T17:09:01Z"
-    },
-    {
-      "type": "done",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #917 Daily Quiz: rescue スロットの問題がある日は Discord 回答が全滅する（クライアントスキーマ要修正）",
-      "url": "https://github.com/ivRooom/Herta/issues/917",
-      "at": "2026-11-16T15:26:18Z"
     }
   ],
-  "generated_at": "2026-11-17T03:49:59+09:00"
+  "generated_at": "2026-11-17T04:41:20+09:00"
 }

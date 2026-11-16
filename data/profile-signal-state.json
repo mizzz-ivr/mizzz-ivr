@@ -7,20 +7,20 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-11-16T17:50:40Z"
+    "last_activity_at": "2026-11-16T19:30:04Z"
   },
   "code_weather": {
-    "label": "LIGHT CODING",
-    "icon": "☁️"
+    "label": "ACTIVE",
+    "icon": "🌤️"
   },
   "streak": 8,
-  "activity_total": 5,
+  "activity_total": 7,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 12,
-    "events": 6,
-    "last_activity_at": "2026-11-16T17:50:40Z",
-    "share": 100,
+    "score": 15,
+    "events": 7,
+    "last_activity_at": "2026-11-16T19:11:04Z",
+    "share": 88,
     "stack": [
       "TypeScript",
       "JavaScript",
@@ -73,19 +73,19 @@
     },
     {
       "date": "2026-11-17",
-      "total": 5,
+      "total": 7,
       "commits": 2,
       "prs": 1,
-      "issues": 2
+      "issues": 4
     }
   ],
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 12,
-      "events": 6,
-      "last_activity_at": "2026-11-16T17:50:40Z",
-      "share": 100,
+      "score": 15,
+      "events": 7,
+      "last_activity_at": "2026-11-16T19:11:04Z",
+      "share": 88,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -103,9 +103,47 @@
         "symbol": "●",
         "reason": "active with passing recent CI"
       }
+    },
+    {
+      "repo": "ivRooom/ivrm-mcmod",
+      "score": 2,
+      "events": 1,
+      "last_activity_at": "2026-11-16T19:30:04Z",
+      "share": 12,
+      "ci": {
+        "label": "PASSING",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 10,
+        "passed": 10,
+        "failed": 0,
+        "ignored": 0,
+        "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
     }
   ],
   "activity_stream": [
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "Opened issue #24",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/issues/24",
+      "at": "2026-11-16T19:30:04Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Closed issue #916",
+      "url": "https://github.com/ivRooom/Herta/issues/916",
+      "at": "2026-11-16T19:11:04Z"
+    },
     {
       "label": "PR",
       "repo": "ivRooom/Herta",
@@ -119,33 +157,19 @@
       "title": "Opened PR #924",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-11-16T17:32:06Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Opened issue #923",
-      "url": "https://github.com/ivRooom/Herta/issues/923",
-      "at": "2026-11-16T17:09:02Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Closed issue #917",
-      "url": "https://github.com/ivRooom/Herta/issues/917",
-      "at": "2026-11-16T15:26:19Z"
     }
   ],
-  "generated_at": "2026-11-17T03:49:59+09:00",
+  "generated_at": "2026-11-17T04:41:20+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
     "window_days": 7,
-    "evaluated": 9,
-    "passed": 9,
+    "evaluated": 19,
+    "passed": 19,
     "failed": 0,
     "ignored": 1,
     "pass_rate": 100,
-    "repos_with_signal": 1
+    "repos_with_signal": 2
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
@@ -167,11 +191,11 @@
       "metrics": {
         "commits": 19,
         "prs_opened": 20,
-        "issues_created": 8,
-        "issues_completed": 7,
-        "activity_total": 54
+        "issues_created": 9,
+        "issues_completed": 8,
+        "activity_total": 56
       },
-      "generated_at": "2026-11-17T03:49:59+09:00"
+      "generated_at": "2026-11-17T04:41:20+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -188,11 +212,11 @@
       "metrics": {
         "commits": 221,
         "prs_opened": 208,
-        "issues_created": 175,
-        "issues_completed": 62,
-        "activity_total": 666
+        "issues_created": 176,
+        "issues_completed": 63,
+        "activity_total": 668
       },
-      "generated_at": "2026-11-17T03:49:59+09:00"
+      "generated_at": "2026-11-17T04:41:20+09:00"
     },
     "achievements": [
       {
@@ -246,9 +270,9 @@
       "metrics": {
         "commits": 2225,
         "prs_opened": 763,
-        "issues_created": 492,
-        "issues_completed": 198,
-        "activity_total": 3678
+        "issues_created": 493,
+        "issues_completed": 199,
+        "activity_total": 3680
       }
     },
     "lifetime": {
@@ -259,9 +283,9 @@
       "metrics": {
         "commits": 2225,
         "prs_opened": 763,
-        "issues_created": 492,
-        "issues_completed": 198,
-        "activity_total": 3678
+        "issues_created": 493,
+        "issues_completed": 199,
+        "activity_total": 3680
       }
     }
   }
