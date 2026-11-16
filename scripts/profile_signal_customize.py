@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import fnmatch
 import html
+import importlib.util
 import json
 import re
 from datetime import date, datetime
@@ -382,6 +383,38 @@ def render_recap(state: dict[str, Any], long_term: dict[str, Any]) -> str:
 {lifetime_block}{MARKERS["recap"][1]}'''
 
 
+def apply_writing(text: str, root: Path) -> str:
+    """Refresh the optional WRITING block (profile-signal #8).
+
+    Reads ``.github/profile-writing.json`` and delegates fetching/rendering to
+    the installed ``.profile-signal/scripts/profile_signal_writing.py``.
+    Fail-close: any problem (missing config, disabled, fetch failure) keeps
+    the current README text untouched so a feed outage never breaks the
+    profile refresh.
+    """
+    config_path = root / ".github" / "profile-writing.json"
+    if not config_path.exists():
+        return text
+    try:
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+        if not config.get("enabled", True):
+            return text
+        module_path = root / ".profile-signal" / "scripts" / "profile_signal_writing.py"
+        spec = importlib.util.spec_from_file_location("profile_signal_writing", module_path)
+        if spec is None or spec.loader is None:
+            return text
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        block = module.build_block(config)
+        if block is None:
+            print("Writing widget: kept previous block (fetch failed or no articles)")
+            return text
+        return module.update_readme_text(text, block)
+    except Exception as exc:  # never let the optional widget break the refresh
+        print(f"Writing widget: skipped ({exc})")
+        return text
+
+
 def customize(root: Path, readme_path: Path, state_path: Path, ignore_path: Path) -> dict[str, Any]:
     state = json.loads(state_path.read_text(encoding="utf-8"))
     patterns = load_ignore_patterns(ignore_path)
@@ -400,6 +433,7 @@ def customize(root: Path, readme_path: Path, state_path: Path, ignore_path: Path
         ("recap", render_recap(state, long_term)),
     ):
         text = replace_marker(text, name, block)
+    text = apply_writing(text, root)
     readme_path.write_text(text.rstrip() + "\n", encoding="utf-8")
     state_path.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return state

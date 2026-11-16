@@ -101,6 +101,16 @@
 
 ---
 
+<!-- PROFILE-SIGNAL:WRITING:START -->
+## WRITING // Latest articles
+
+**Qiita** — [@mizzz-ivr](https://qiita.com/mizzz-ivr)
+
+- 2026-11-13 · [GitHub Actionsのセルフホストrunner、立てた後に踏んだ3つの罠と対策【孤児ジョブ編】](https://qiita.com/mizzz-ivr/items/5193b1fda78b838a557b) · ♥ 1 · `GitHubActions` `AWS` `Terraform`
+- 2026-09-28 · [Microsoft Copilotに「Code」と「Autopilot」が生えた。これ、AIチャットじゃなくて仕事のOSでは？](https://qiita.com/mizzz-ivr/items/c91357bdac88386d51f4) · ♥ 1 · `MicrosoftCopilot` `Microsoft365` `AI`
+- 2026-09-25 · [判断特化AI『Jev』、普通のLLMと何が違う？個人開発での使い道を考えてみた](https://qiita.com/mizzz-ivr/items/b58b7b08373b229ea47b) · `AI` `Jev` `TypeScript`
+<!-- PROFILE-SIGNAL:WRITING:END -->
+
 <!-- DEVELOPER-ANALYTICS:START -->
 ## ENGINEERING PROFILE
 
