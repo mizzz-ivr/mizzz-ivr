@@ -164,32 +164,12 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/ivRooom/Herta">Herta</a></h3>
-      <p><strong>Discord Community Platform</strong></p>
-      <p>NestJS API、Next.js Studio、Discord Bot、BullMQ Worker、Plugin Runtime、PostgreSQL / Redisを含むモノレポ。</p>
-      <p><code>TypeScript</code> <code>NestJS</code> <code>Next.js</code> <code>PostgreSQL</code> <code>Redis</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/mizzz-ivr/roomate-voice">RooMate Voice</a></h3>
-      <p><strong>Discord × Realtime Voice AI / Windows Desktop</strong></p>
-      <p>Realtime Voice AI、Discord Voice、割り込み、Secret保護、Electron Desktop、Installer / Releaseまで扱うOSS。</p>
-      <p><code>TypeScript</code> <code>OpenAI Realtime</code> <code>Discord Voice</code> <code>Electron</code> <code>Docker</code></p>
-    </td>
+    <td width="50%" valign="top"><a href="https://github.com/ivRooom/Herta"><img src="./assets/build-herta.svg" width="100%" alt="Herta — Discord Community Operating System。NestJS API / Next.js Studio / Discord Bot / BullMQ Work" /></a></td>
+    <td width="50%" valign="top"><a href="https://github.com/mizzz-ivr/roomate-voice"><img src="./assets/build-roomate-voice.svg" width="100%" alt="RooMate Voice — Discord Voice × OpenAI Realtimeの音声AIとWindows Desktop App。音声処理、Secret保護、Release/Installerまで" /></a></td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/mizzz-ivr/ivmz-home">ivmz-home</a></h3>
-      <p><strong>Personal Web / Portfolio Platform</strong></p>
-      <p>Next.js / Payload / PostgreSQLを軸に、CMS、SEO、Accessibility、Testing、運用可搬性まで含めるWeb Platform。</p>
-      <p><code>Next.js</code> <code>React</code> <code>Payload</code> <code>PostgreSQL</code> <code>Playwright</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/ivRooom/ivrm-dashboard">IVRM Dashboard</a></h3>
-      <p><strong>Operations / Observability Platform</strong></p>
-      <p>Next.js + Supabase + Go AgentでMinecraft / Web / Cloud基盤を安全に監視する統合運用コンソール。</p>
-      <p><code>TypeScript</code> <code>Next.js</code> <code>Go</code> <code>Supabase</code> <code>Docker</code></p>
-    </td>
+    <td width="50%" valign="top"><a href="https://github.com/mizzz-ivr/ivmz-home"><img src="./assets/build-ivmz-home.svg" width="100%" alt="ivmz-home — Next.js 16 / Payload / PostgreSQLを軸にしたPersonal Web / Portfolio Platform。SEO、a11y、CMS、運用可搬性" /></a></td>
+    <td width="50%" valign="top"><a href="https://github.com/ivRooom/ivrm-dashboard"><img src="./assets/build-ivrm-dashboard.svg" width="100%" alt="IVRM Dashboard — Next.js + Supabase + Go AgentでMinecraft/Web/Cloud基盤を安全に監視する統合運用コンソール。" /></a></td>
   </tr>
 </table>
 
