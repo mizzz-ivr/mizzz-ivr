@@ -113,6 +113,27 @@ class ProfileSignalCustomizeTest(unittest.TestCase):
             self.assertEqual(persisted["tracked_summary"]["lifetime"]["tracked_days"], 1)
 
 
+    def test_apply_writing_keeps_text_without_config_or_when_disabled(self) -> None:
+        text = "profile body"
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            self.assertEqual(custom.apply_writing(text, root), text)
+            (root / ".github").mkdir(parents=True)
+            (root / ".github" / "profile-writing.json").write_text(
+                json.dumps({"enabled": False, "qiita_user": "mizzz-ivr"}), encoding="utf-8"
+            )
+            self.assertEqual(custom.apply_writing(text, root), text)
+
+    def test_apply_writing_fails_close_when_module_missing(self) -> None:
+        text = "profile body"
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / ".github").mkdir(parents=True)
+            (root / ".github" / "profile-writing.json").write_text(
+                json.dumps({"enabled": True, "qiita_user": "mizzz-ivr"}), encoding="utf-8"
+            )
+            self.assertEqual(custom.apply_writing(text, root), text)
+
     def test_recap_includes_lifetime_only_when_it_differs_from_yearly(self) -> None:
         state = {
             "streak": 3,
