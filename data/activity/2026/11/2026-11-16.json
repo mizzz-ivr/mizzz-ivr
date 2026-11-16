@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 2,
+    "commits": 4,
     "prs_opened": 4,
     "issues_created": 2,
-    "issues_completed": 1
+    "issues_completed": 2
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): /game コマンドの応答を Embed 形式にする (#910) (#911)  * feat(bot): /game コマンドの応答を Embed 形式にする (#9",
+      "url": "https://github.com/ivRooom/Herta/commit/b6f86fb10e00651ab1dee335463f0ccb217d657d",
+      "at": "2026-11-16T09:37:40.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): デイリー失敗報告を発生チャンネル＋運営メンション方式に変更 (#896) (#909)",
+      "url": "https://github.com/ivRooom/Herta/commit/6612ad9131e185289912656f7ba52fcd69e0073e",
+      "at": "2026-11-16T09:09:25.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -26,26 +40,12 @@
       "at": "2026-11-16T01:56:59.000+09:00"
     },
     {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #911 feat(bot): /game コマンドの応答を Embed 形式にする (#910)",
-      "url": "https://github.com/ivRooom/Herta/pull/911",
-      "at": "2026-11-15T19:53:30Z"
-    },
-    {
       "type": "done",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #906 ゲームアカウント連携コマンド: UID 登録/解除と聖遺物スコア確認 (Web と同期)",
-      "url": "https://github.com/ivRooom/Herta/issues/906",
-      "at": "2026-11-15T19:51:44Z"
-    },
-    {
-      "type": "issue",
       "repo": "ivRooom/Herta",
       "title": "Issue #910 /game コマンドの応答を Embed 形式にして読みやすくする",
       "url": "https://github.com/ivRooom/Herta/issues/910",
-      "at": "2026-11-15T19:51:03Z"
+      "at": "2026-11-16T00:55:48Z"
     }
   ],
-  "generated_at": "2026-11-16T06:43:24+09:00"
+  "generated_at": "2026-11-16T10:25:52+09:00"
 }
