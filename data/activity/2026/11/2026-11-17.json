@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 8,
-    "prs_opened": 5,
-    "issues_created": 3,
-    "issues_completed": 7
+    "commits": 15,
+    "prs_opened": 9,
+    "issues_created": 4,
+    "issues_completed": 9
   },
   "activity": [
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "ci: pin CI runners to ubuntu-24.04 (#179) (#180)  * ci: pin CI runners to ubuntu-24.04 (#179)  *",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/2d6e23c0a701367f3274e75ca365930f1ae44c57",
-      "at": "2026-11-17T09:45:59.000+09:00"
+      "title": "design: tokens.css をサイトシェルへ読み込む (#176 S1) (#192)",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/2a30d64cffcc95d1eff9bde70386475ef49e5a71",
+      "at": "2026-11-17T19:38:59.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-hoyolab-extension",
+      "title": "fix: テストスクリプトを glob 形式にする",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/d41e9284de1c593539ff3dbc68cf3b39b3d0e068",
+      "at": "2026-11-17T19:19:08.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-hoyolab-extension",
+      "title": "feat: HoYoLAB 連携拡張の初期実装 (ペアリング方式, MV3)",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/22bfbe70eb8f40e8d7da2d57ab9232757b47220e",
+      "at": "2026-11-17T19:17:58.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-hoyolab-extension",
+      "title": "Initial commit",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/ce01e876879f2076cc8162ba80ee6b0f5f3fb5d5",
+      "at": "2026-11-17T18:21:53.000+09:00"
     },
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "ops: skip production builds for docs/CI-only changes (#182) (#187)",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/81e8307672c3cdaafefcbda1e6dc12af5aa5a0da",
-      "at": "2026-11-17T09:38:10.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-mcmod",
-      "title": "feat(activity): emit vanilla statistics diffs as player.stat_delta (#24) (#25)",
-      "url": "https://github.com/ivRooom/ivrm-mcmod/commit/a69cace4238da865170bc79b5ef406f8b6742b94",
-      "at": "2026-11-17T09:29:46.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "docs: design tokens v1 (#176) (#186)",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/9cd4c9c05ae3c9def0f33fe052fa3a317f659d09",
-      "at": "2026-11-17T09:29:30.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "fix(deps): Next 16.4.6 / React 19.2.9 / Sharp 0.35.5 for RSC RCE (#165) (#185)",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/a7fc27a223006dfbae7b3be4cef6994f8e8a881f",
-      "at": "2026-11-17T09:18:36.000+09:00"
+      "title": "fix: serverless pool に idle timeout を追加する (#172) (#191)",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/12123ed990213c0e3f635f3c18c52d598476529e",
+      "at": "2026-11-17T18:14:21.000+09:00"
     }
   ],
-  "generated_at": "2026-11-17T11:11:22+09:00"
+  "generated_at": "2026-11-17T19:46:38+09:00"
 }
