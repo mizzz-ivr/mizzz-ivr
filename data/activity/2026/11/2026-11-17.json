@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 2,
-    "prs_opened": 1,
-    "issues_created": 2,
-    "issues_completed": 2
+    "commits": 8,
+    "prs_opened": 5,
+    "issues_created": 3,
+    "issues_completed": 7
   },
   "activity": [
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "ホワイトリスト審査リマインドのロールメンションを廃止 (#916) (#922)",
-      "url": "https://github.com/ivRooom/Herta/commit/7bfeb1d2bb85d64ba046e36de403f5c7c1c7bf09",
-      "at": "2026-11-17T02:50:39.000+09:00"
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "ci: pin CI runners to ubuntu-24.04 (#179) (#180)  * ci: pin CI runners to ubuntu-24.04 (#179)  *",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/2d6e23c0a701367f3274e75ca365930f1ae44c57",
+      "at": "2026-11-17T09:45:59.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(bot): /game score を PNG カード+ボタン切替にする (#1147 S3c) (#921)",
-      "url": "https://github.com/ivRooom/Herta/commit/60bbb5d721fd22dec5f766c9f67760d7fe739efe",
-      "at": "2026-11-17T00:18:59.000+09:00"
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "ops: skip production builds for docs/CI-only changes (#182) (#187)",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/81e8307672c3cdaafefcbda1e6dc12af5aa5a0da",
+      "at": "2026-11-17T09:38:10.000+09:00"
     },
     {
-      "type": "issue",
+      "type": "commit",
       "repo": "ivRooom/ivrm-mcmod",
-      "title": "Issue #24 Activity Sender の本番配備とバニラ統計差分イベントの拡張 (Epic ivrm-web #1249 M1)",
-      "url": "https://github.com/ivRooom/ivrm-mcmod/issues/24",
-      "at": "2026-11-16T19:30:02Z"
+      "title": "feat(activity): emit vanilla statistics diffs as player.stat_delta (#24) (#25)",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/commit/a69cace4238da865170bc79b5ef406f8b6742b94",
+      "at": "2026-11-17T09:29:46.000+09:00"
     },
     {
-      "type": "done",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #916 Minecraft ホワイトリスト承認待ちのリマインド通知",
-      "url": "https://github.com/ivRooom/Herta/issues/916",
-      "at": "2026-11-16T19:11:04Z"
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "docs: design tokens v1 (#176) (#186)",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/9cd4c9c05ae3c9def0f33fe052fa3a317f659d09",
+      "at": "2026-11-17T09:29:30.000+09:00"
     },
     {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #924 feat(bot): /game の公開応答化と探索度表示 (#923)",
-      "url": "https://github.com/ivRooom/Herta/pull/924",
-      "at": "2026-11-16T17:32:06Z"
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "fix(deps): Next 16.4.6 / React 19.2.9 / Sharp 0.35.5 for RSC RCE (#165) (#185)",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/a7fc27a223006dfbae7b3be4cef6994f8e8a881f",
+      "at": "2026-11-17T09:18:36.000+09:00"
     }
   ],
-  "generated_at": "2026-11-17T04:41:20+09:00"
+  "generated_at": "2026-11-17T11:11:22+09:00"
 }
