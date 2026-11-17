@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 15,
-    "prs_opened": 9,
+    "commits": 18,
+    "prs_opened": 12,
     "issues_created": 4,
     "issues_completed": 9
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "design: 下層ページ基盤を刷新する (ページバンド/見出しマーカー/カード) (#176 S3) (#195)",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/8bf8c780a01fa023d7b7dd98e5e309758f4a03a2",
+      "at": "2026-11-17T23:33:15.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "refactor: home.css を v1 トークン名へ移行する (#176 S2) (#194)",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/408307b61b8a61c995e87b99fd38d0045e60e42f",
+      "at": "2026-11-17T22:22:12.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "design: ヒーローをモック v1 型へ刷新する (ターミナル/ティッカー/NOW) (#176) (#193)",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/ee846c3c70677203187694bbfa3eee204f500ad1",
+      "at": "2026-11-17T21:52:00.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
@@ -24,28 +45,7 @@
       "title": "fix: テストスクリプトを glob 形式にする",
       "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/d41e9284de1c593539ff3dbc68cf3b39b3d0e068",
       "at": "2026-11-17T19:19:08.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-hoyolab-extension",
-      "title": "feat: HoYoLAB 連携拡張の初期実装 (ペアリング方式, MV3)",
-      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/22bfbe70eb8f40e8d7da2d57ab9232757b47220e",
-      "at": "2026-11-17T19:17:58.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-hoyolab-extension",
-      "title": "Initial commit",
-      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/ce01e876879f2076cc8162ba80ee6b0f5f3fb5d5",
-      "at": "2026-11-17T18:21:53.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "fix: serverless pool に idle timeout を追加する (#172) (#191)",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/12123ed990213c0e3f635f3c18c52d598476529e",
-      "at": "2026-11-17T18:14:21.000+09:00"
     }
   ],
-  "generated_at": "2026-11-17T19:46:38+09:00"
+  "generated_at": "2026-11-18T01:12:55+09:00"
 }
