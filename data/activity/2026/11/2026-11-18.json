@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 4,
-    "prs_opened": 2,
-    "issues_created": 1,
-    "issues_completed": 0
+    "commits": 14,
+    "prs_opened": 12,
+    "issues_created": 4,
+    "issues_completed": 4
   },
   "activity": [
     {
       "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Merge pull request #244 from ivRooom/fix/242-relay-user-agent  fix: ingest-relay の RPC に明示的な Use",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/3c825047f5ac2978d2797cb0663bcfba124d420d",
-      "at": "2026-11-18T01:03:17.000+09:00"
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "design: 看板コピーのマーキー帯を撤去する (Kanata 指示) (#201)",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/be496c350a3880e0db31c59f83e0f7405a261080",
+      "at": "2026-11-18T03:04:53.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "fix: set explicit User-Agent for ingest-relay RPC calls (#242)",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/7126cfc92d6ef704f061e12f4c54c3d19d26b160",
-      "at": "2026-11-18T00:56:49.000+09:00"
+      "title": "fix: runtime の専用 secret と Python 3.9 互換に対応する (#247)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/91868d60b2ff582b1d6123717b77831dc48f93b3",
+      "at": "2026-11-18T02:52:02.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-dashboard",
-      "title": "Merge pull request #243 from ivRooom/feat/242-ingest-fallback  feat: 予備 ingest (ingest-relay) と送",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/ce68bad9d73ebd4808ad1c67ccc1ce531674c7f9",
-      "at": "2026-11-18T00:42:14.000+09:00"
+      "title": "feat: 予備 ingest に runtime inventory 経路を追加する (#247)",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/6998b87f2e5f118af50ceb89d67be33f1d9621ed",
+      "at": "2026-11-18T02:47:32.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "feat: add fallback ingest relay and sender failover (#242)",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/288b21d5e7d84b7b46221d47a2c4813cc7f505fa",
-      "at": "2026-11-18T00:33:10.000+09:00"
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "feat: About に GitHub プロフィールパネルを追加する (#173 V2) (#200)",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/e1571a199e2020e77aff66d3becc0ef234588971",
+      "at": "2026-11-18T02:41:39.000+09:00"
     },
     {
-      "type": "pr",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "PR #244 fix: ingest-relay の RPC に明示的な User-Agent を付ける (#242)",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/pull/244",
-      "at": "2026-11-17T16:01:11Z"
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "design: ヒーローにSNSチップと看板コピーのマーキー帯を追加する (#197 V1) (#198)  * design: ヒーローにSNSチップと看板コピーのマーキー帯を追加する (#",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/83a4844ab06630dfcc9f2d029ce62e3dc6fbce2e",
+      "at": "2026-11-18T02:20:37.000+09:00"
     }
   ],
-  "generated_at": "2026-11-18T01:12:55+09:00"
+  "generated_at": "2026-11-18T04:26:46+09:00"
 }
