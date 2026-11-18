@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 24,
-    "prs_opened": 21,
+    "commits": 25,
+    "prs_opened": 23,
     "issues_created": 5,
-    "issues_completed": 4
+    "issues_completed": 5
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(worker): アチーブメント解除通知の Discord 配送 (#925) (#927)",
+      "url": "https://github.com/ivRooom/Herta/commit/7864c2082e04a99caa30d44ddcb1091adc11b6d4",
+      "at": "2026-11-18T23:55:38.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-mcmod",
@@ -38,14 +45,7 @@
       "title": "design: Contact を受付票デザインへ刷新する (モック v4 W4) (#208)",
       "url": "https://github.com/mizzz-ivr/ivmz-home/commit/4bb5dc95dfdb9e6d0bbeb758f2284f5798437f90",
       "at": "2026-11-18T15:15:15.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "design: About にクリエイター机＋SNSマップ＋一日の流れを追加する (モック v5 W3c) (#207)",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/8bb3c5107050995663950a80da84700fdc71c9f0",
-      "at": "2026-11-18T14:48:59.000+09:00"
     }
   ],
-  "generated_at": "2026-11-18T20:54:49+09:00"
+  "generated_at": "2026-11-19T03:16:40+09:00"
 }
