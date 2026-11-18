@@ -5,8 +5,8 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 16,
-    "prs_opened": 13,
+    "commits": 23,
+    "prs_opened": 20,
     "issues_created": 4,
     "issues_completed": 4
   },
@@ -14,38 +14,38 @@
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "design: ヒーローをキャラクターステージに刷新する (モック v4 W1) (#202)",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/f80a35fd67e59a10506e09a1bb7e5831f53ee4c1",
-      "at": "2026-11-18T10:28:15.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(daily-bonus): 09:00通知のEmbedタイトルをMember Dailyへリンクする (#926)  * feat(daily-bonus): 09:00通知のタイト",
-      "url": "https://github.com/ivRooom/Herta/commit/c56c3e7297c8f7b0d22dc94480430faf913a2ca8",
-      "at": "2026-11-18T10:21:27.000+09:00"
+      "title": "design: Schedule に Rhythm カード、Links に相互リンク注記を追加する (モック v4 S6) (#210)",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/dd79abc59107f980d23b672b9ad32fbe04948c37",
+      "at": "2026-11-18T16:24:01.000+09:00"
     },
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
-      "title": "design: 看板コピーのマーキー帯を撤去する (Kanata 指示) (#201)",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/be496c350a3880e0db31c59f83e0f7405a261080",
-      "at": "2026-11-18T03:04:53.000+09:00"
+      "title": "design: 自動取得セクションに AUTO SYNC バッジと取得元ラベルを追加する (モック v4 W5) (#209)",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/40ff8e9c05e62f3047f32504a5d04c3fdc518601",
+      "at": "2026-11-18T15:53:12.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "fix: runtime の専用 secret と Python 3.9 互換に対応する (#247)",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/91868d60b2ff582b1d6123717b77831dc48f93b3",
-      "at": "2026-11-18T02:52:02.000+09:00"
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "design: Contact を受付票デザインへ刷新する (モック v4 W4) (#208)",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/4bb5dc95dfdb9e6d0bbeb758f2284f5798437f90",
+      "at": "2026-11-18T15:15:15.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "feat: 予備 ingest に runtime inventory 経路を追加する (#247)",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/commit/6998b87f2e5f118af50ceb89d67be33f1d9621ed",
-      "at": "2026-11-18T02:47:32.000+09:00"
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "design: About にクリエイター机＋SNSマップ＋一日の流れを追加する (モック v5 W3c) (#207)",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/8bb3c5107050995663950a80da84700fdc71c9f0",
+      "at": "2026-11-18T14:48:59.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "mizzz-ivr/ivmz-home",
+      "title": "design: About に好きなこと＋ゲーム棚を追加する (モック v5 W3b) (#205)",
+      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/514cced154530956674e12d446997a39ad3ea19d",
+      "at": "2026-11-18T13:26:31.000+09:00"
     }
   ],
-  "generated_at": "2026-11-18T10:49:27+09:00"
+  "generated_at": "2026-11-18T18:22:28+09:00"
 }
