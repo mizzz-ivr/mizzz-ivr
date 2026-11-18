@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 23,
-    "prs_opened": 20,
-    "issues_created": 4,
+    "commits": 24,
+    "prs_opened": 21,
+    "issues_created": 5,
     "issues_completed": 4
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "feat(activity): player.heartbeat にワールド時刻 (world_game_time / world_day) を追加 (#1315 B3) (#26)",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/commit/8f0adda0c9dbbf40f8db6fdaec3ed729a453c53a",
+      "at": "2026-11-18T19:46:24.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "mizzz-ivr/ivmz-home",
@@ -38,14 +45,7 @@
       "title": "design: About にクリエイター机＋SNSマップ＋一日の流れを追加する (モック v5 W3c) (#207)",
       "url": "https://github.com/mizzz-ivr/ivmz-home/commit/8bb3c5107050995663950a80da84700fdc71c9f0",
       "at": "2026-11-18T14:48:59.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "mizzz-ivr/ivmz-home",
-      "title": "design: About に好きなこと＋ゲーム棚を追加する (モック v5 W3b) (#205)",
-      "url": "https://github.com/mizzz-ivr/ivmz-home/commit/514cced154530956674e12d446997a39ad3ea19d",
-      "at": "2026-11-18T13:26:31.000+09:00"
     }
   ],
-  "generated_at": "2026-11-18T18:22:28+09:00"
+  "generated_at": "2026-11-18T20:54:49+09:00"
 }
