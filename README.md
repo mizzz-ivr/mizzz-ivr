@@ -28,7 +28,7 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 04:10 JST</sub></td>
+    <td width="33%" align="center"><strong>◐ RECENTLY ACTIVE</strong><br/><sub>last public activity · 04:10 JST</sub></td>
     <td width="34%" align="center"><strong>⚡ HEAVY CODING</strong><br/><sub>34 public actions today</sub></td>
     <td width="33%" align="center"><strong>🔥 9 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
@@ -55,7 +55,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>weighted activity 45% · score 45 · 21 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>weighted activity 44% · score 48 · 24 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>PLpgSQL</code> <code>TypeScript</code> <code>Python</code> <code>CSS</code></td>
   </tr>
 </table>
@@ -73,9 +73,9 @@
 <table width="100%">
   <tr>
     <td width="25%" align="center"><strong>ATTENTION</strong><br/><sub>CI SIGNAL</sub></td>
-    <td width="25%" align="center"><strong>90%</strong><br/><sub>PASS RATE</sub></td>
-    <td width="25%" align="center"><strong>26 / 29</strong><br/><sub>PASSED / EVALUATED</sub></td>
-    <td width="25%" align="center"><strong>3</strong><br/><sub>REPOS WITH CI</sub></td>
+    <td width="25%" align="center"><strong>85%</strong><br/><sub>PASS RATE</sub></td>
+    <td width="25%" align="center"><strong>17 / 20</strong><br/><sub>PASSED / EVALUATED</sub></td>
+    <td width="25%" align="center"><strong>2</strong><br/><sub>REPOS WITH CI</sub></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:PULSE:END -->
@@ -83,7 +83,7 @@
 <!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
 ## NOW BUILDING // Active repositories
 
-<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>45% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 02:54 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>40% weighted · ATTENTION · CI pass rate 70%<br/>last activity · 04:10 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>8% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 02:08 JST</sub></td></tr></table>
+<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/ivrm-dashboard">ivRooom/ivrm-dashboard</a></strong><br/><sub>44% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 03:19 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/mizzz-ivr/ivmz-home">mizzz-ivr/ivmz-home</a></strong><br/><sub>39% weighted · ATTENTION · CI pass rate 70%<br/>last activity · 04:10 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/ivRooom/ivrm-minecraft-activity">ivRooom/ivrm-minecraft-activity</a></strong><br/><sub>9% weighted · ARCHIVED · CI N/A<br/>last activity · 03:25 JST</sub></td></tr></table>
 <!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
 
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->
