@@ -7,7 +7,7 @@
   "metrics": {
     "commits": 1,
     "prs_opened": 1,
-    "issues_created": 0,
+    "issues_created": 1,
     "issues_completed": 0
   },
   "activity": [
@@ -19,6 +19,13 @@
       "at": "2026-11-20T01:05:51.000+09:00"
     },
     {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #946 [Quest Board] Discord コマンドでデイリークエスト (デイリーミッション) の進捗確認",
+      "url": "https://github.com/ivRooom/Herta/issues/946",
+      "at": "2026-11-19T18:03:41Z"
+    },
+    {
       "type": "pr",
       "repo": "ivRooom/Herta",
       "title": "PR #945 feat(studio): 特別日ルールのCRUDとプレビューをデイリーボーナス画面へ追加する (#705)",
@@ -26,5 +33,5 @@
       "at": "2026-11-19T15:38:04Z"
     }
   ],
-  "generated_at": "2026-11-20T02:01:30+09:00"
+  "generated_at": "2026-11-20T05:46:21+09:00"
 }
