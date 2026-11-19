@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 6,
-    "prs_opened": 7,
+    "commits": 8,
+    "prs_opened": 8,
     "issues_created": 3,
     "issues_completed": 3
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(db): anniversary_events テーブルを撤去する (#880) (#938)",
+      "url": "https://github.com/ivRooom/Herta/commit/38c6d274abfbf9e11c1a97f40757ee0e14c744ac",
+      "at": "2026-11-19T13:11:43.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "refactor(db): 記念日バンクのDB関数を撤去する (#880) (#937)",
+      "url": "https://github.com/ivRooom/Herta/commit/5e23dbe8775f9c31787dbdbc2ffebe3f619995bc",
+      "at": "2026-11-19T12:00:38.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -19,33 +33,19 @@
       "at": "2026-11-19T03:18:11.000+09:00"
     },
     {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #938 feat(db): anniversary_events テーブルを撤去する (#880)",
+      "url": "https://github.com/ivRooom/Herta/pull/938",
+      "at": "2026-11-19T03:14:18Z"
+    },
+    {
       "type": "commit",
       "repo": "ivRooom/Herta",
       "title": "feat(studio): 記念日バンク管理を撤去し Web Admin へのリンクに置換する (#880) (#933)",
       "url": "https://github.com/ivRooom/Herta/commit/c33f271b7fdf96db76600c2e5fbd0f3e3b359e63",
       "at": "2026-11-19T02:51:34.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #937 refactor(db): 記念日バンクのDB関数を撤去する (#880)",
-      "url": "https://github.com/ivRooom/Herta/pull/937",
-      "at": "2026-11-19T02:37:56Z"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(bot): 配信遅延アラートを継続時間ベースにし、アラートIDと3時間間隔の継続通知を追加する (#929) (#934)",
-      "url": "https://github.com/ivRooom/Herta/commit/54ee5ec302ba67e32cec5e4d381b70addeed5d3b",
-      "at": "2026-11-19T01:55:45.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(game-accounts): /game ranking とドロップダウン切替 (#1196 R3) (#928)  * feat(game-accounts): add /gam",
-      "url": "https://github.com/ivRooom/Herta/commit/4f61e88b45f946b021af5f0984b799e309fc9850",
-      "at": "2026-11-19T01:43:58.000+09:00"
     }
   ],
-  "generated_at": "2026-11-19T11:38:21+09:00"
+  "generated_at": "2026-11-19T16:52:49+09:00"
 }
