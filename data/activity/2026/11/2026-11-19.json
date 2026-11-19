@@ -6,7 +6,7 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 6,
-    "prs_opened": 6,
+    "prs_opened": 7,
     "issues_created": 3,
     "issues_completed": 3
   },
@@ -26,6 +26,13 @@
       "at": "2026-11-19T02:51:34.000+09:00"
     },
     {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #937 refactor(db): 記念日バンクのDB関数を撤去する (#880)",
+      "url": "https://github.com/ivRooom/Herta/pull/937",
+      "at": "2026-11-19T02:37:56Z"
+    },
+    {
       "type": "commit",
       "repo": "ivRooom/Herta",
       "title": "fix(bot): 配信遅延アラートを継続時間ベースにし、アラートIDと3時間間隔の継続通知を追加する (#929) (#934)",
@@ -38,14 +45,7 @@
       "title": "feat(game-accounts): /game ranking とドロップダウン切替 (#1196 R3) (#928)  * feat(game-accounts): add /gam",
       "url": "https://github.com/ivRooom/Herta/commit/4f61e88b45f946b021af5f0984b799e309fc9850",
       "at": "2026-11-19T01:43:58.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(bot): 記念日バンクを Web Today-in-History へ一本化する（取得切替＋ADR） (#880) (#932)  * feat(bot): fetch anniv",
-      "url": "https://github.com/ivRooom/Herta/commit/028502285fd4d1b844998a611b4400ad89c9f464",
-      "at": "2026-11-19T01:26:53.000+09:00"
     }
   ],
-  "generated_at": "2026-11-19T05:40:03+09:00"
+  "generated_at": "2026-11-19T11:38:21+09:00"
 }
