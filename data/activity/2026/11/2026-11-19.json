@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 8,
-    "prs_opened": 8,
+    "commits": 10,
+    "prs_opened": 12,
     "issues_created": 3,
     "issues_completed": 3
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(worker): アチーブメント通知 (H1) の Worker env 配線を追加する (#925) (#939)  * feat(worker): アチーブメント通知 (H1) ",
+      "url": "https://github.com/ivRooom/Herta/commit/bf6d32b07688fdd5f241cf346c8d4228c88fd405",
+      "at": "2026-11-19T19:19:11.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "security(node): pin Herta production Node runtime 22.23.5 (#940)  * security(node): pin Herta pr",
+      "url": "https://github.com/ivRooom/Herta/commit/2a32a5a6500893072f10cc2ef8cd776d4f0ad869",
+      "at": "2026-11-19T18:06:49.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -26,26 +40,12 @@
       "at": "2026-11-19T12:00:38.000+09:00"
     },
     {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(bot): 配信遅延アラートを Embed 化する (#935) (#936)",
-      "url": "https://github.com/ivRooom/Herta/commit/c13fae54b3cc3e8a8618efcc51ac2d53dc9a7163",
-      "at": "2026-11-19T03:18:11.000+09:00"
-    },
-    {
       "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #938 feat(db): anniversary_events テーブルを撤去する (#880)",
-      "url": "https://github.com/ivRooom/Herta/pull/938",
-      "at": "2026-11-19T03:14:18Z"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(studio): 記念日バンク管理を撤去し Web Admin へのリンクに置換する (#880) (#933)",
-      "url": "https://github.com/ivRooom/Herta/commit/c33f271b7fdf96db76600c2e5fbd0f3e3b359e63",
-      "at": "2026-11-19T02:51:34.000+09:00"
+      "title": "PR #942 feat(game-accounts): /game ranking の画像カード化 (#1402 S3)",
+      "url": "https://github.com/ivRooom/Herta/pull/942",
+      "at": "2026-11-19T10:26:51Z"
     }
   ],
-  "generated_at": "2026-11-19T16:52:49+09:00"
+  "generated_at": "2026-11-19T20:51:41+09:00"
 }
