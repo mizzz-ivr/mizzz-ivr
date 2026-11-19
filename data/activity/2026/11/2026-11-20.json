@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-20",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 1,
+    "prs_opened": 1,
+    "issues_created": 0,
+    "issues_completed": 0
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(game-accounts): /game score に計算方法ドロップダウンを追加する (#1366 S3) (#944)",
+      "url": "https://github.com/ivRooom/Herta/commit/a3dfba78473b8c4df86d723057c8f1569fad11df",
+      "at": "2026-11-20T01:05:51.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #945 feat(studio): 特別日ルールのCRUDとプレビューをデイリーボーナス画面へ追加する (#705)",
+      "url": "https://github.com/ivRooom/Herta/pull/945",
+      "at": "2026-11-19T15:38:04Z"
+    }
+  ],
+  "generated_at": "2026-11-20T02:01:30+09:00"
+}

@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 10,
-    "prs_opened": 12,
+    "commits": 13,
+    "prs_opened": 14,
     "issues_created": 3,
     "issues_completed": 3
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): 特別日のタイトル/冒頭文差替ルールとBot消費を追加する (#705) (#943)  * feat(bot): 特別日のタイトル/冒頭文差替ルールとBot消費を追加する",
+      "url": "https://github.com/ivRooom/Herta/commit/96dadbc35cd7cb8df092da82fda64b60e6101c8f",
+      "at": "2026-11-19T23:30:11.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): 09:00通知で日別バンドル（画像・テーマ）を表示する (#1304) (#941)  * feat(bot): 09:00通知で日別バンドル（画像・テーマ）を表示する ",
+      "url": "https://github.com/ivRooom/Herta/commit/d9607ae61ce995c8f1e50612a4fa5976be89ab38",
+      "at": "2026-11-19T22:16:58.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(game-accounts): /game ranking の画像カード化 (#1402 S3) (#942)",
+      "url": "https://github.com/ivRooom/Herta/commit/4fd81801416e03d15cbc591e4950fca72c455c4c",
+      "at": "2026-11-19T21:15:58.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -24,28 +45,7 @@
       "title": "security(node): pin Herta production Node runtime 22.23.5 (#940)  * security(node): pin Herta pr",
       "url": "https://github.com/ivRooom/Herta/commit/2a32a5a6500893072f10cc2ef8cd776d4f0ad869",
       "at": "2026-11-19T18:06:49.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(db): anniversary_events テーブルを撤去する (#880) (#938)",
-      "url": "https://github.com/ivRooom/Herta/commit/38c6d274abfbf9e11c1a97f40757ee0e14c744ac",
-      "at": "2026-11-19T13:11:43.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "refactor(db): 記念日バンクのDB関数を撤去する (#880) (#937)",
-      "url": "https://github.com/ivRooom/Herta/commit/5e23dbe8775f9c31787dbdbc2ffebe3f619995bc",
-      "at": "2026-11-19T12:00:38.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #942 feat(game-accounts): /game ranking の画像カード化 (#1402 S3)",
-      "url": "https://github.com/ivRooom/Herta/pull/942",
-      "at": "2026-11-19T10:26:51Z"
     }
   ],
-  "generated_at": "2026-11-19T20:51:41+09:00"
+  "generated_at": "2026-11-20T02:01:30+09:00"
 }
