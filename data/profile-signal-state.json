@@ -5,9 +5,9 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-11-20T00:31:29Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-11-20T03:35:01Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,10 +17,10 @@
   "activity_total": 6,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 12,
-    "events": 8,
-    "last_activity_at": "2026-11-20T00:19:24Z",
-    "share": 67,
+    "score": 17,
+    "events": 11,
+    "last_activity_at": "2026-11-20T03:35:01Z",
+    "share": 74,
     "stack": [
       "TypeScript",
       "JavaScript",
@@ -131,6 +131,13 @@
   ],
   "activity_stream": [
     {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Closed issue #705",
+      "url": "https://github.com/ivRooom/Herta/issues/705",
+      "at": "2026-11-20T03:35:01Z"
+    },
+    {
       "label": "PR",
       "repo": "ivRooom/ivrm-mcmod",
       "title": "PR merged #27",
@@ -150,16 +157,9 @@
       "title": "Opened PR #27",
       "url": "https://github.com/ivRooom/ivrm-mcmod",
       "at": "2026-11-19T23:12:11Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/ivrm-mcmod",
-      "title": "1 commit pushed to feat/bridge-events-m9-1433",
-      "url": "https://github.com/ivRooom/ivrm-mcmod/commits",
-      "at": "2026-11-19T23:11:42Z"
     }
   ],
-  "generated_at": "2026-11-20T11:23:15+09:00",
+  "generated_at": "2026-11-20T13:13:51+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
