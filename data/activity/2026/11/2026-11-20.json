@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 1,
+    "commits": 3,
+    "prs_opened": 2,
     "issues_created": 1,
     "issues_completed": 0
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "feat(activity): 統計カテゴリ4種の追加と player.advancement イベントの送信 (ivrm-web #1433 M9 第1段-A) (#27)",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/commit/08898096c288a208f17dd8b19997c6c535a4020a",
+      "at": "2026-11-20T09:31:28.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): 特別日ルールのCRUDとプレビューをデイリーボーナス画面へ追加する (#705) (#945)  * feat(studio): 特別日ルールのCRUDとプレビュー",
+      "url": "https://github.com/ivRooom/Herta/commit/2b52e8f301eba6445d4b06f4f5be959fe46e7da2",
+      "at": "2026-11-20T09:16:18.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -19,19 +33,19 @@
       "at": "2026-11-20T01:05:51.000+09:00"
     },
     {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "PR #27 feat(activity): 統計カテゴリ4種の追加と player.advancement イベントの送信 (#1433 第1段-A)",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/pull/27",
+      "at": "2026-11-19T23:12:11Z"
+    },
+    {
       "type": "issue",
       "repo": "ivRooom/Herta",
       "title": "Issue #946 [Quest Board] Discord コマンドでデイリークエスト (デイリーミッション) の進捗確認",
       "url": "https://github.com/ivRooom/Herta/issues/946",
       "at": "2026-11-19T18:03:41Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #945 feat(studio): 特別日ルールのCRUDとプレビューをデイリーボーナス画面へ追加する (#705)",
-      "url": "https://github.com/ivRooom/Herta/pull/945",
-      "at": "2026-11-19T15:38:04Z"
     }
   ],
-  "generated_at": "2026-11-20T05:46:21+09:00"
+  "generated_at": "2026-11-20T11:23:15+09:00"
 }
