@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 3,
-    "prs_opened": 3,
+    "commits": 4,
+    "prs_opened": 5,
     "issues_created": 1,
     "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "security(deps): pin effect 3.22.1 via pnpm override (CVE-2026-121707) (#948)",
+      "url": "https://github.com/ivRooom/Herta/commit/d6325bcc6cfff83246d60f4136a388c805c1249b",
+      "at": "2026-11-20T23:36:01.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #949 feat(studio): 通知文面Composer（本文編集＋送信なしプレビュー）を追加する (#766)",
+      "url": "https://github.com/ivRooom/Herta/pull/949",
+      "at": "2026-11-20T14:25:04Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #948 security(deps): pin effect 3.22.1 via pnpm override (CVE-2026-121707)",
+      "url": "https://github.com/ivRooom/Herta/pull/948",
+      "at": "2026-11-20T14:17:52Z"
+    },
     {
       "type": "pr",
       "repo": "ivRooom/Herta",
@@ -24,28 +45,7 @@
       "title": "feat(activity): 統計カテゴリ4種の追加と player.advancement イベントの送信 (ivrm-web #1433 M9 第1段-A) (#27)",
       "url": "https://github.com/ivRooom/ivrm-mcmod/commit/08898096c288a208f17dd8b19997c6c535a4020a",
       "at": "2026-11-20T09:31:28.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(studio): 特別日ルールのCRUDとプレビューをデイリーボーナス画面へ追加する (#705) (#945)  * feat(studio): 特別日ルールのCRUDとプレビュー",
-      "url": "https://github.com/ivRooom/Herta/commit/2b52e8f301eba6445d4b06f4f5be959fe46e7da2",
-      "at": "2026-11-20T09:16:18.000+09:00"
-    },
-    {
-      "type": "done",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #705 feat(daily-bonus): 特定日・年次イベントの09:00通知テンプレート切替とDiscordプレビュー",
-      "url": "https://github.com/ivRooom/Herta/issues/705",
-      "at": "2026-11-20T03:35:01Z"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(game-accounts): /game score に計算方法ドロップダウンを追加する (#1366 S3) (#944)",
-      "url": "https://github.com/ivRooom/Herta/commit/a3dfba78473b8c4df86d723057c8f1569fad11df",
-      "at": "2026-11-20T01:05:51.000+09:00"
     }
   ],
-  "generated_at": "2026-11-20T20:52:42+09:00"
+  "generated_at": "2026-11-21T05:30:01+09:00"
 }

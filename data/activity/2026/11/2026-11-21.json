@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-21",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 1,
+    "prs_opened": 0,
+    "issues_created": 0,
+    "issues_completed": 0
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): 通知文面Composer（本文編集＋送信なしプレビュー）を追加する (#766) (#949)  * feat(studio): 通知文面Composer（本文編集",
+      "url": "https://github.com/ivRooom/Herta/commit/49f6b773aa4a11e13e06f90025e34709e5f7ee69",
+      "at": "2026-11-21T00:24:57.000+09:00"
+    }
+  ],
+  "generated_at": "2026-11-21T05:30:01+09:00"
+}
