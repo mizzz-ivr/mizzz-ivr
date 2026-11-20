@@ -6,11 +6,18 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 3,
-    "prs_opened": 2,
+    "prs_opened": 3,
     "issues_created": 1,
-    "issues_completed": 0
+    "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #947 feat(bot): /quest command with embed board view (Q2) (#946)",
+      "url": "https://github.com/ivRooom/Herta/pull/947",
+      "at": "2026-11-20T10:02:08Z"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-mcmod",
@@ -26,26 +33,19 @@
       "at": "2026-11-20T09:16:18.000+09:00"
     },
     {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #705 feat(daily-bonus): 特定日・年次イベントの09:00通知テンプレート切替とDiscordプレビュー",
+      "url": "https://github.com/ivRooom/Herta/issues/705",
+      "at": "2026-11-20T03:35:01Z"
+    },
+    {
       "type": "commit",
       "repo": "ivRooom/Herta",
       "title": "feat(game-accounts): /game score に計算方法ドロップダウンを追加する (#1366 S3) (#944)",
       "url": "https://github.com/ivRooom/Herta/commit/a3dfba78473b8c4df86d723057c8f1569fad11df",
       "at": "2026-11-20T01:05:51.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/ivrm-mcmod",
-      "title": "PR #27 feat(activity): 統計カテゴリ4種の追加と player.advancement イベントの送信 (#1433 第1段-A)",
-      "url": "https://github.com/ivRooom/ivrm-mcmod/pull/27",
-      "at": "2026-11-19T23:12:11Z"
-    },
-    {
-      "type": "issue",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #946 [Quest Board] Discord コマンドでデイリークエスト (デイリーミッション) の進捗確認",
-      "url": "https://github.com/ivRooom/Herta/issues/946",
-      "at": "2026-11-19T18:03:41Z"
     }
   ],
-  "generated_at": "2026-11-20T11:23:15+09:00"
+  "generated_at": "2026-11-20T20:52:42+09:00"
 }
