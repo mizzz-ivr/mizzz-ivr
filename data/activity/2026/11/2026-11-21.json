@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 3,
-    "prs_opened": 3,
-    "issues_created": 0,
-    "issues_completed": 0
+    "commits": 8,
+    "prs_opened": 7,
+    "issues_created": 3,
+    "issues_completed": 1
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(daily-bonus): 本文テンプレートの版管理（Draft→承認→Activate）を追加する (#766 Phase C) (#951)",
-      "url": "https://github.com/ivRooom/Herta/commit/338d61159a3408a6092079e79d61aabe25ae6888",
-      "at": "2026-11-21T08:48:36.000+09:00"
+      "title": "feat(daily-bonus): バンドル動画（契約v2・リンク方式）に対応する (#766 D3) (#957)",
+      "url": "https://github.com/ivRooom/Herta/commit/375c205e81df0cc0b3f22833c90d2cfd945a0b6d",
+      "at": "2026-11-21T17:39:17.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(bot): /quest command with embed board view (Q2) (#946) (#947)  * feat(bot): /quest command ",
-      "url": "https://github.com/ivRooom/Herta/commit/7ea10e56442f7d8ff1f9be439aa319003a709b5e",
-      "at": "2026-11-21T05:53:05.000+09:00"
+      "title": "feat(daily-bonus): クエスト確認ボタンとクエストボードリンクを追加する (#954) (#956)",
+      "url": "https://github.com/ivRooom/Herta/commit/aa94d52d2b675ee65382f25bef393c9e0b656ac0",
+      "at": "2026-11-21T16:25:58.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(studio): 通知文面Composer（本文編集＋送信なしプレビュー）を追加する (#766) (#949)  * feat(studio): 通知文面Composer（本文編集",
-      "url": "https://github.com/ivRooom/Herta/commit/49f6b773aa4a11e13e06f90025e34709e5f7ee69",
-      "at": "2026-11-21T00:24:57.000+09:00"
+      "title": "feat(daily-bonus): 配信時刻（scheduleTime）を可変化する (#766 Phase D2) (#953)",
+      "url": "https://github.com/ivRooom/Herta/commit/68bfe2913c99d181a9554ae26d92e92abc16e0ed",
+      "at": "2026-11-21T16:05:26.000+09:00"
     },
     {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "PR #952 feat(daily-bonus): TEST送信（要求キュー＋Bot送信）を追加する (#766 Phase D1 / #723)",
-      "url": "https://github.com/ivRooom/Herta/pull/952",
-      "at": "2026-11-21T00:22:04Z"
+      "title": "feat(bot): /quest image card view (Q3) (#946) (#950)  * feat(bot): /quest image card view (Q3) (",
+      "url": "https://github.com/ivRooom/Herta/commit/72d1c76ec17685fb72c62f71882e5c94bbedd563",
+      "at": "2026-11-21T15:39:34.000+09:00"
     },
     {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "PR #951 feat(daily-bonus): 本文テンプレートの版管理（Draft→承認→Activate）を追加する (#766)",
-      "url": "https://github.com/ivRooom/Herta/pull/951",
-      "at": "2026-11-20T23:35:44Z"
+      "title": "feat(daily-bonus): TEST送信（要求キュー＋Bot送信）を追加する (#766 Phase D1 / #723) (#952)",
+      "url": "https://github.com/ivRooom/Herta/commit/5e7b36f6866e1482c1385b4f2ef111439e41cb4c",
+      "at": "2026-11-21T14:49:32.000+09:00"
     }
   ],
-  "generated_at": "2026-11-21T11:09:16+09:00"
+  "generated_at": "2026-11-21T18:50:15+09:00"
 }
