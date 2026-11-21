@@ -55,7 +55,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>weighted activity 100% · score 24 · 15 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>weighted activity 100% · score 25 · 16 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>JavaScript</code> <code>Python</code> <code>Shell</code></td>
   </tr>
 </table>
