@@ -1,36 +1,22 @@
 {
   "schema_version": 4,
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "timezone": "Asia/Tokyo",
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-11-21T17:39:17.000+09:00"
+    "label": "OFFLINE",
+    "symbol": "○",
+    "last_activity_at": "2026-11-21T10:49:30Z"
   },
   "code_weather": {
-    "label": "ACTIVE",
-    "icon": "🌤️"
+    "label": "REST DAY",
+    "icon": "🌙"
   },
-  "streak": 12,
-  "activity_total": 20,
-  "current_focus": {
-    "repo": "ivRooom/Herta",
-    "score": 5,
-    "events": 5,
-    "last_activity_at": "2026-11-21T17:39:17.000+09:00",
-    "share": 100,
-    "stack": []
-  },
+  "streak": 0,
+  "activity_total": 0,
+  "current_focus": null,
   "dev_pulse": [
-    {
-      "date": "2026-11-15",
-      "total": 9,
-      "commits": 3,
-      "prs": 3,
-      "issues": 3
-    },
     {
       "date": "2026-11-16",
       "total": 49,
@@ -72,65 +58,18 @@
       "commits": 8,
       "prs": 7,
       "issues": 5
-    }
-  ],
-  "now_building": [
-    {
-      "repo": "ivRooom/Herta",
-      "score": 5,
-      "events": 5,
-      "last_activity_at": "2026-11-21T17:39:17.000+09:00",
-      "share": 100,
-      "ci": {
-        "label": "NO SIGNAL",
-        "symbol": "○",
-        "window_days": 7,
-        "total_runs": 0,
-        "evaluated": 0,
-        "passed": 0,
-        "failed": 0,
-        "ignored": 0,
-        "pass_rate": null,
-        "latest_conclusion": null
-      },
-      "health": {
-        "label": "ACTIVE",
-        "symbol": "●",
-        "reason": "active; no evaluated CI signal"
-      }
-    }
-  ],
-  "activity_stream": [
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-11-21T17:39:17.000+09:00"
     },
     {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-11-21T16:25:58.000+09:00"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-11-21T16:05:26.000+09:00"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-11-21T15:39:34.000+09:00"
+      "date": "2026-11-22",
+      "total": 0,
+      "commits": 0,
+      "prs": 0,
+      "issues": 0
     }
   ],
-  "generated_at": "2026-11-21T20:22:20+09:00",
+  "now_building": [],
+  "activity_stream": [],
+  "generated_at": "2026-11-22T02:00:11+09:00",
   "ci_signal": {
     "label": "NO SIGNAL",
     "symbol": "○",
@@ -144,7 +83,7 @@
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
-    "tracked_days": 89,
+    "tracked_days": 90,
     "active_days": 78,
     "longest_streak": 27,
     "weekly": {
@@ -155,8 +94,8 @@
       "github_login": "mizzz-ivr",
       "coverage": {
         "start_date": "2026-11-16",
-        "end_date": "2026-11-21",
-        "tracked_days": 6,
+        "end_date": "2026-11-22",
+        "tracked_days": 7,
         "active_days": 6
       },
       "metrics": {
@@ -166,7 +105,7 @@
         "issues_completed": 26,
         "activity_total": 214
       },
-      "generated_at": "2026-11-21T20:22:20+09:00"
+      "generated_at": "2026-11-22T02:00:11+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -176,8 +115,8 @@
       "github_login": "mizzz-ivr",
       "coverage": {
         "start_date": "2026-11-01",
-        "end_date": "2026-11-21",
-        "tracked_days": 21,
+        "end_date": "2026-11-22",
+        "tracked_days": 22,
         "active_days": 19
       },
       "metrics": {
@@ -187,7 +126,7 @@
         "issues_completed": 81,
         "activity_total": 826
       },
-      "generated_at": "2026-11-21T20:22:20+09:00"
+      "generated_at": "2026-11-22T02:00:11+09:00"
     },
     "achievements": [
       {
@@ -234,10 +173,10 @@
   "tracked_summary": {
     "year": 2026,
     "yearly": {
-      "tracked_days": 89,
+      "tracked_days": 90,
       "active_days": 78,
       "first_date": "2026-08-25",
-      "last_date": "2026-11-21",
+      "last_date": "2026-11-22",
       "metrics": {
         "commits": 2291,
         "prs_opened": 823,
@@ -247,10 +186,10 @@
       }
     },
     "lifetime": {
-      "tracked_days": 89,
+      "tracked_days": 90,
       "active_days": 78,
       "first_date": "2026-08-25",
-      "last_date": "2026-11-21",
+      "last_date": "2026-11-22",
       "metrics": {
         "commits": 2291,
         "prs_opened": 823,
