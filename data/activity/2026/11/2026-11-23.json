@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-23",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 4,
+    "prs_opened": 1,
+    "issues_created": 1,
+    "issues_completed": 0
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(worker): アチーブメント解除通知の画像カード化 (#965) (#966)",
+      "url": "https://github.com/ivRooom/Herta/commit/938d4883dc4959c63b4f94cadacb5d9f091f5968",
+      "at": "2026-11-23T01:42:12.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-member-site",
+      "title": "fix(ci): gate EC2 deploy to workflow_dispatch (auto-deploy guard, #103) (#104)",
+      "url": "https://github.com/ivRooom/ivrm-member-site/commit/8c5a56e1387b5d7d2fab03f178b66d05a5cf9d02",
+      "at": "2026-11-23T00:03:15.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-help",
+      "title": "fix(ci): make Pages deploy workflow_dispatch only (auto-deploy guard, #30) (#31)",
+      "url": "https://github.com/ivRooom/ivrm-help/commit/00dcb29d460f4a9d46527383af2026d2b968bbf6",
+      "at": "2026-11-23T00:02:32.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-status",
+      "title": "[auto-deploy-guard] OCI / Status API deploy を workflow_dispatch 限定にする (#73)  * fix(ci): gate dep",
+      "url": "https://github.com/ivRooom/ivrm-status/commit/4584728bb842cac89b4dc9e76e25c989cf1fe507",
+      "at": "2026-11-23T00:01:42.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #966 feat(worker): アチーブメント解除通知の画像カード化 (#965)",
+      "url": "https://github.com/ivRooom/Herta/pull/966",
+      "at": "2026-11-22T16:17:33Z"
+    }
+  ],
+  "generated_at": "2026-11-23T02:38:35+09:00"
+}

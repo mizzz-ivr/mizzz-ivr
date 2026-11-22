@@ -6,9 +6,9 @@
   "github_login": "mizzz-ivr",
   "metrics": {
     "commits": 1,
-    "prs_opened": 1,
-    "issues_created": 1,
-    "issues_completed": 1
+    "prs_opened": 4,
+    "issues_created": 8,
+    "issues_completed": 2
   },
   "activity": [
     {
@@ -20,25 +20,32 @@
     },
     {
       "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #960 docs: CHANGELOG.md を新設し v1.0.0 を開始点として記録する",
-      "url": "https://github.com/ivRooom/Herta/pull/960",
-      "at": "2026-11-22T10:02:18Z"
+      "repo": "ivRooom/ivrm-status",
+      "title": "PR #73 [auto-deploy-guard] OCI / Status API deploy を workflow_dispatch 限定にする",
+      "url": "https://github.com/ivRooom/ivrm-status/pull/73",
+      "at": "2026-11-22T13:12:25Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-member-site",
+      "title": "PR #104 [auto-deploy-guard] AWS EC2 deploy を workflow_dispatch 限定にする",
+      "url": "https://github.com/ivRooom/ivrm-member-site/pull/104",
+      "at": "2026-11-22T13:05:02Z"
     },
     {
       "type": "issue",
       "repo": "ivRooom/Herta",
-      "title": "Issue #959 誕生日ロール: ivrm-web Admin連携（プロフィール対象者・設定のAPI取得＋300pt付与トリガー）",
-      "url": "https://github.com/ivRooom/Herta/issues/959",
-      "at": "2026-11-22T10:00:34Z"
+      "title": "Issue #964 アチーブメント通知Worker: Discord 送信をマスター以上に限定する",
+      "url": "https://github.com/ivRooom/Herta/issues/964",
+      "at": "2026-11-22T13:04:41Z"
     },
     {
-      "type": "done",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #880 [P1][daily-bonus] 記念日バンクの正本を Web Today-in-History (ivrm-web #866) へ一本化し、Herta 側バンクと S",
-      "url": "https://github.com/ivRooom/Herta/issues/880",
-      "at": "2026-11-22T08:51:24Z"
+      "type": "pr",
+      "repo": "ivRooom/ivrm-help",
+      "title": "PR #31 [auto-deploy-guard] GitHub Pages deploy を workflow_dispatch 限定にする",
+      "url": "https://github.com/ivRooom/ivrm-help/pull/31",
+      "at": "2026-11-22T13:04:12Z"
     }
   ],
-  "generated_at": "2026-11-22T20:38:44+09:00"
+  "generated_at": "2026-11-23T02:38:35+09:00"
 }
