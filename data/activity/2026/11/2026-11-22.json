@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
-    "issues_created": 0,
+    "commits": 1,
+    "prs_opened": 1,
+    "issues_created": 1,
     "issues_completed": 1
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "docs: CHANGELOG.md を新設し v1.0.0 を開始点として記録する (#960)",
+      "url": "https://github.com/ivRooom/Herta/commit/7a5afd9975c6f4f8dd193a3318851e37f6ba1a5a",
+      "at": "2026-11-22T20:32:44.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #960 docs: CHANGELOG.md を新設し v1.0.0 を開始点として記録する",
+      "url": "https://github.com/ivRooom/Herta/pull/960",
+      "at": "2026-11-22T10:02:18Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #959 誕生日ロール: ivrm-web Admin連携（プロフィール対象者・設定のAPI取得＋300pt付与トリガー）",
+      "url": "https://github.com/ivRooom/Herta/issues/959",
+      "at": "2026-11-22T10:00:34Z"
+    },
     {
       "type": "done",
       "repo": "ivRooom/Herta",
@@ -19,5 +40,5 @@
       "at": "2026-11-22T08:51:24Z"
     }
   ],
-  "generated_at": "2026-11-22T18:54:03+09:00"
+  "generated_at": "2026-11-22T20:38:44+09:00"
 }
