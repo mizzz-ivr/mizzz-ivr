@@ -7,7 +7,7 @@
   "metrics": {
     "commits": 4,
     "prs_opened": 1,
-    "issues_created": 1,
+    "issues_created": 3,
     "issues_completed": 0
   },
   "activity": [
@@ -40,12 +40,12 @@
       "at": "2026-11-23T00:01:42.000+09:00"
     },
     {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #966 feat(worker): アチーブメント解除通知の画像カード化 (#965)",
-      "url": "https://github.com/ivRooom/Herta/pull/966",
-      "at": "2026-11-22T16:17:33Z"
+      "type": "issue",
+      "repo": "ivRooom/ivrm-hoyolab-extension",
+      "title": "Issue #1 機能拡張: デイリーチェックイン＋ギフトコード自動交換（拡張内完結・原則変更の判断待ち）",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/issues/1",
+      "at": "2026-11-22T17:58:30Z"
     }
   ],
-  "generated_at": "2026-11-23T02:38:35+09:00"
+  "generated_at": "2026-11-23T04:49:02+09:00"
 }
