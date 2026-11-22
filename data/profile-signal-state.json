@@ -7,7 +7,7 @@
   "status": {
     "label": "RECENTLY ACTIVE",
     "symbol": "◐",
-    "last_activity_at": "2026-11-22T18:05:07Z"
+    "last_activity_at": "2026-11-22T21:02:29Z"
   },
   "code_weather": {
     "label": "ACTIVE",
@@ -17,10 +17,10 @@
   "activity_total": 8,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 13,
-    "events": 8,
-    "last_activity_at": "2026-11-22T18:05:07Z",
-    "share": 59,
+    "score": 26,
+    "events": 12,
+    "last_activity_at": "2026-11-22T21:02:29Z",
+    "share": 57,
     "stack": [
       "TypeScript",
       "JavaScript",
@@ -155,35 +155,35 @@
   ],
   "activity_stream": [
     {
-      "label": "PUSH",
+      "label": "PR",
       "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to feat/same-sha-guard-967",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-11-22T18:05:07Z"
+      "title": "Opened PR #970",
+      "url": "https://github.com/ivRooom/Herta",
+      "at": "2026-11-22T21:02:29Z"
     },
     {
-      "label": "ISSUE",
+      "label": "PUSH",
+      "repo": "ivRooom/Herta",
+      "title": "1 commit pushed to feat/worker-achievement-card-env-965",
+      "url": "https://github.com/ivRooom/Herta/commits",
+      "at": "2026-11-22T21:01:30Z"
+    },
+    {
+      "label": "PR",
       "repo": "ivRooom/ivrm-hoyolab-extension",
-      "title": "Opened issue #1",
-      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/issues/1",
-      "at": "2026-11-22T17:58:31Z"
+      "title": "Opened PR #2",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension",
+      "at": "2026-11-22T20:54:32Z"
     },
     {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Opened issue #967",
-      "url": "https://github.com/ivRooom/Herta/issues/967",
-      "at": "2026-11-22T17:51:24Z"
-    },
-    {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to main",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-11-22T16:42:14Z"
+      "label": "PR",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "PR merged #28",
+      "url": "https://github.com/ivRooom/ivrm-mcmod",
+      "at": "2026-11-22T20:53:43Z"
     }
   ],
-  "generated_at": "2026-11-23T04:49:02+09:00",
+  "generated_at": "2026-11-23T07:48:42+09:00",
   "ci_signal": {
     "label": "MIXED",
     "symbol": "◐",
