@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 5,
-    "prs_opened": 6,
-    "issues_created": 3,
-    "issues_completed": 0
+    "commits": 11,
+    "prs_opened": 16,
+    "issues_created": 10,
+    "issues_completed": 11
   },
   "activity": [
     {
       "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(ci): Deploy Production に同一SHAデプロイガードを追加 (#967) (#968)  * feat(ci): add same-SHA deploy guar",
+      "url": "https://github.com/ivRooom/Herta/commit/1d15b32c4a07ba7a3077c3162c7eff9c502c38ed",
+      "at": "2026-11-23T21:42:34.000+09:00"
+    },
+    {
+      "type": "commit",
       "repo": "ivRooom/ivrm-mcmod",
-      "title": "feat(bridge): FTB Quests 完了イベント player.ftb_quest_completed を追加 (#1608) (#28)",
-      "url": "https://github.com/ivRooom/ivrm-mcmod/commit/dc613802fda8ff61b8080c87a1eeb5796757be1a",
-      "at": "2026-11-23T05:53:43.000+09:00"
+      "title": "feat(bridge): Presentation Snapshot の取得とゲーム内表示を追加 (#1584 S3) (#30)",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/commit/703a96d75309002d2d72844ec08f6b95d2a71100",
+      "at": "2026-11-23T21:40:24.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(worker): アチーブメント解除通知の画像カード化 (#965) (#966)",
-      "url": "https://github.com/ivRooom/Herta/commit/938d4883dc4959c63b4f94cadacb5d9f091f5968",
-      "at": "2026-11-23T01:42:12.000+09:00"
+      "title": "feat(backup-monitoring): 旧Hertaバケット監視を廃し専用バケット監視へ一本化する (#974) (#975)  * feat(backup-monitoring):",
+      "url": "https://github.com/ivRooom/Herta/commit/b29204d5023772cf9b420289c1b65d9d40d669e5",
+      "at": "2026-11-23T20:05:35.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/ivrm-member-site",
-      "title": "fix(ci): gate EC2 deploy to workflow_dispatch (auto-deploy guard, #103) (#104)",
-      "url": "https://github.com/ivRooom/ivrm-member-site/commit/8c5a56e1387b5d7d2fab03f178b66d05a5cf9d02",
-      "at": "2026-11-23T00:03:15.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "feat(xp-emitter): push outbox status snapshot to ivrm_api (#1646) (#972)",
+      "url": "https://github.com/ivRooom/Herta/commit/1a385a58a0626b7f12535ddb75f9edce3ef72bbd",
+      "at": "2026-11-23T18:50:42.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/ivrm-help",
-      "title": "fix(ci): make Pages deploy workflow_dispatch only (auto-deploy guard, #30) (#31)",
-      "url": "https://github.com/ivRooom/ivrm-help/commit/00dcb29d460f4a9d46527383af2026d2b968bbf6",
-      "at": "2026-11-23T00:02:32.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-status",
-      "title": "[auto-deploy-guard] OCI / Status API deploy を workflow_dispatch 限定にする (#73)  * fix(ci): gate dep",
-      "url": "https://github.com/ivRooom/ivrm-status/commit/4584728bb842cac89b4dc9e76e25c989cf1fe507",
-      "at": "2026-11-23T00:01:42.000+09:00"
+      "repo": "ivRooom/Herta",
+      "title": "feat(worker): アチーブメントカード用の env 2件を worker へ配線 (#965) (#970)  * feat(worker): アチーブメントカード用の env 2件",
+      "url": "https://github.com/ivRooom/Herta/commit/20ad72d8a233554741a8ca32d549726f80b4037a",
+      "at": "2026-11-23T16:57:23.000+09:00"
     }
   ],
-  "generated_at": "2026-11-23T10:48:20+09:00"
+  "generated_at": "2026-11-23T22:09:36+09:00"
 }
