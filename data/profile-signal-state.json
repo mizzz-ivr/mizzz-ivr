@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-11-23T13:09:23Z"
+    "last_activity_at": "2026-11-23T13:11:10Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -17,10 +17,10 @@
   "activity_total": 48,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 86,
-    "events": 42,
-    "last_activity_at": "2026-11-23T12:43:22Z",
-    "share": 44,
+    "score": 87,
+    "events": 43,
+    "last_activity_at": "2026-11-23T13:11:10Z",
+    "share": 43,
     "stack": [
       "TypeScript",
       "JavaScript",
@@ -157,6 +157,13 @@
     {
       "label": "ISSUE",
       "repo": "ivRooom/ivrm-dashboard",
+      "title": "Closed issue #108",
+      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/108",
+      "at": "2026-11-23T13:10:10Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/ivrm-dashboard",
       "title": "Closed issue #81",
       "url": "https://github.com/ivRooom/ivrm-dashboard/issues/81",
       "at": "2026-11-23T13:09:23Z"
@@ -174,16 +181,9 @@
       "title": "Closed issue #12",
       "url": "https://github.com/ivRooom/ivrm-dashboard/issues/12",
       "at": "2026-11-23T13:08:03Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/ivrm-dashboard",
-      "title": "Closed issue #1",
-      "url": "https://github.com/ivRooom/ivrm-dashboard/issues/1",
-      "at": "2026-11-23T13:05:14Z"
     }
   ],
-  "generated_at": "2026-11-23T22:09:36+09:00",
+  "generated_at": "2026-11-23T22:15:25+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
