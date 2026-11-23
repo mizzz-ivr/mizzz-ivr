@@ -14,7 +14,7 @@
     "icon": "🌤️"
   },
   "streak": 14,
-  "activity_total": 8,
+  "activity_total": 14,
   "current_focus": {
     "repo": "ivRooom/Herta",
     "score": 26,
@@ -73,74 +73,74 @@
     },
     {
       "date": "2026-11-23",
-      "total": 8,
-      "commits": 4,
-      "prs": 1,
+      "total": 14,
+      "commits": 5,
+      "prs": 6,
       "issues": 3
     }
   ],
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 13,
-      "events": 8,
-      "last_activity_at": "2026-11-22T18:05:07Z",
-      "share": 59,
+      "score": 26,
+      "events": 12,
+      "last_activity_at": "2026-11-22T21:02:29Z",
+      "share": 57,
       "ci": {
-        "label": "PASSING",
-        "symbol": "●",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 9,
-        "passed": 9,
-        "failed": 0,
-        "ignored": 1,
-        "pass_rate": 100,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "HEALTHY",
-        "symbol": "●",
-        "reason": "active with passing recent CI"
-      }
-    },
-    {
-      "repo": "ivRooom/ivrm-member-site",
-      "score": 3,
-      "events": 3,
-      "last_activity_at": "2026-11-22T15:06:37Z",
-      "share": 14,
-      "ci": {
-        "label": "MIXED",
-        "symbol": "◐",
+        "label": "ATTENTION",
+        "symbol": "!",
         "window_days": 7,
         "total_runs": 10,
         "evaluated": 10,
-        "passed": 8,
-        "failed": 2,
+        "passed": 6,
+        "failed": 4,
         "ignored": 0,
-        "pass_rate": 80,
+        "pass_rate": 60,
         "latest_conclusion": "success"
       },
       "health": {
-        "label": "WATCH",
-        "symbol": "◐",
-        "reason": "recent CI is mixed"
+        "label": "ATTENTION",
+        "symbol": "!",
+        "reason": "recent CI needs attention"
       }
     },
     {
-      "repo": "ivRooom/ivrm-help",
-      "score": 2,
+      "repo": "ivRooom/ivrm-hoyolab-extension",
+      "score": 8,
+      "events": 4,
+      "last_activity_at": "2026-11-22T20:55:06Z",
+      "share": 17,
+      "ci": {
+        "label": "NO SIGNAL",
+        "symbol": "○",
+        "window_days": 7,
+        "total_runs": 0,
+        "evaluated": 0,
+        "passed": 0,
+        "failed": 0,
+        "ignored": 0,
+        "pass_rate": null,
+        "latest_conclusion": null
+      },
+      "health": {
+        "label": "ACTIVE",
+        "symbol": "●",
+        "reason": "active; no evaluated CI signal"
+      }
+    },
+    {
+      "repo": "ivRooom/ivrm-mcmod",
+      "score": 5,
       "events": 2,
-      "last_activity_at": "2026-11-22T15:05:30Z",
-      "share": 9,
+      "last_activity_at": "2026-11-22T20:53:43Z",
+      "share": 11,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
         "window_days": 7,
-        "total_runs": 6,
-        "evaluated": 6,
-        "passed": 6,
+        "total_runs": 10,
+        "evaluated": 10,
+        "passed": 10,
         "failed": 0,
         "ignored": 0,
         "pass_rate": 100,
@@ -183,17 +183,17 @@
       "at": "2026-11-22T20:53:43Z"
     }
   ],
-  "generated_at": "2026-11-23T07:48:42+09:00",
+  "generated_at": "2026-11-23T10:48:20+09:00",
   "ci_signal": {
-    "label": "MIXED",
-    "symbol": "◐",
+    "label": "ATTENTION",
+    "symbol": "!",
     "window_days": 7,
-    "evaluated": 25,
-    "passed": 23,
-    "failed": 2,
-    "ignored": 1,
-    "pass_rate": 92,
-    "repos_with_signal": 3
+    "evaluated": 20,
+    "passed": 16,
+    "failed": 4,
+    "ignored": 0,
+    "pass_rate": 80,
+    "repos_with_signal": 2
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
@@ -213,13 +213,13 @@
         "active_days": 1
       },
       "metrics": {
-        "commits": 4,
-        "prs_opened": 1,
+        "commits": 5,
+        "prs_opened": 6,
         "issues_created": 3,
         "issues_completed": 0,
-        "activity_total": 8
+        "activity_total": 14
       },
-      "generated_at": "2026-11-23T04:49:02+09:00"
+      "generated_at": "2026-11-23T10:48:20+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -234,13 +234,13 @@
         "active_days": 21
       },
       "metrics": {
-        "commits": 292,
-        "prs_opened": 273,
+        "commits": 293,
+        "prs_opened": 278,
         "issues_created": 201,
         "issues_completed": 83,
-        "activity_total": 849
+        "activity_total": 855
       },
-      "generated_at": "2026-11-23T04:49:02+09:00"
+      "generated_at": "2026-11-23T10:48:20+09:00"
     },
     "achievements": [
       {
@@ -292,11 +292,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-11-23",
       "metrics": {
-        "commits": 2296,
-        "prs_opened": 828,
+        "commits": 2297,
+        "prs_opened": 833,
         "issues_created": 518,
         "issues_completed": 219,
-        "activity_total": 3861
+        "activity_total": 3867
       }
     },
     "lifetime": {
@@ -305,11 +305,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-11-23",
       "metrics": {
-        "commits": 2296,
-        "prs_opened": 828,
+        "commits": 2297,
+        "prs_opened": 833,
         "issues_created": 518,
         "issues_completed": 219,
-        "activity_total": 3861
+        "activity_total": 3867
       }
     }
   }
