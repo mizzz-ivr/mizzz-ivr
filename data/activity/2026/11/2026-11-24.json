@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-24",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 5,
+    "prs_opened": 1,
+    "issues_created": 1,
+    "issues_completed": 3
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(activity-rules): ゲーム集計の除外リストとCompeting対応を追加 (#980) (#981)  * feat(activity-rules): ゲーム集計の除外",
+      "url": "https://github.com/ivRooom/Herta/commit/99709c43053c6e264e2fc9bd2dbf63f15a51c3b6",
+      "at": "2026-11-24T09:39:07.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): community game stats read API for ivrm-web community tab (#979) (#982)",
+      "url": "https://github.com/ivRooom/Herta/commit/6ea2f4e27b3311724aad4535daf64e15150388bf",
+      "at": "2026-11-24T05:18:57.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "feat(bridge): Presentation Outbox の login_bonus イベントを再生する (ivrm-web #1712) (#32)",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/commit/f68174f85706bead9c3216e74cec2fa18fd1380a",
+      "at": "2026-11-24T03:59:30.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(bot): wire IVRM_API_DATABASE_URL to the bot service for the XP emitter status push (#1646) (",
+      "url": "https://github.com/ivRooom/Herta/commit/5ab60d0720f74cadfeb8fc8287aa044353a305a8",
+      "at": "2026-11-24T03:38:23.000+09:00"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #980 [S1b] ゲーム収集拡張: 非ゲーム除外リスト＋複数アクティビティ対応",
+      "url": "https://github.com/ivRooom/Herta/issues/980",
+      "at": "2026-11-24T00:40:20Z"
+    }
+  ],
+  "generated_at": "2026-11-24T10:01:10+09:00"
+}

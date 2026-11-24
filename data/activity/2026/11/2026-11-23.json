@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 11,
-    "prs_opened": 16,
-    "issues_created": 10,
-    "issues_completed": 11
+    "commits": 13,
+    "prs_opened": 21,
+    "issues_created": 13,
+    "issues_completed": 28
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): birthday delivery history read API for ivrm-web Admin (#962) (#976)  * feat(studio",
+      "url": "https://github.com/ivRooom/Herta/commit/cd7c6c31d1a4b35c64c23cb3b575fc1ca03e07c7",
+      "at": "2026-11-23T22:50:19.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "feat(bridge): Presentation Outbox の取得と達成演出を追加 (#1584 S4) (#31)",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/commit/eb142d12ce13e21882e67d217114a896e58c6f5d",
+      "at": "2026-11-23T22:34:03.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -31,21 +45,7 @@
       "title": "feat(backup-monitoring): 旧Hertaバケット監視を廃し専用バケット監視へ一本化する (#974) (#975)  * feat(backup-monitoring):",
       "url": "https://github.com/ivRooom/Herta/commit/b29204d5023772cf9b420289c1b65d9d40d669e5",
       "at": "2026-11-23T20:05:35.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(xp-emitter): push outbox status snapshot to ivrm_api (#1646) (#972)",
-      "url": "https://github.com/ivRooom/Herta/commit/1a385a58a0626b7f12535ddb75f9edce3ef72bbd",
-      "at": "2026-11-23T18:50:42.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(worker): アチーブメントカード用の env 2件を worker へ配線 (#965) (#970)  * feat(worker): アチーブメントカード用の env 2件",
-      "url": "https://github.com/ivRooom/Herta/commit/20ad72d8a233554741a8ca32d549726f80b4037a",
-      "at": "2026-11-23T16:57:23.000+09:00"
     }
   ],
-  "generated_at": "2026-11-23T22:09:36+09:00"
+  "generated_at": "2026-11-24T10:01:10+09:00"
 }
