@@ -5,12 +5,19 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 1,
-    "prs_opened": 2,
-    "issues_created": 0,
-    "issues_completed": 1
+    "commits": 2,
+    "prs_opened": 4,
+    "issues_created": 4,
+    "issues_completed": 2
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): 誕生日カードでAPIの背景URLを使う (#986) (#987)",
+      "url": "https://github.com/ivRooom/Herta/commit/6d395a39aa1bcea46f7e6ee4486e4bc233a697d1",
+      "at": "2026-11-25T08:36:55.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-mcmod",
@@ -19,26 +26,26 @@
       "at": "2026-11-25T05:17:08.000+09:00"
     },
     {
-      "type": "pr",
-      "repo": "ivRooom/ivrm-mcmod",
-      "title": "PR #35 feat(period-quests): 期間同期クエストの bridge 消費者を追加 (#1752 S3)",
-      "url": "https://github.com/ivRooom/ivrm-mcmod/pull/35",
-      "at": "2026-11-24T20:01:22Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/ivrm-hoyolab-extension",
-      "title": "PR #24 feat: ストア版（読み取り専用）を main へ移植し実モジュールをリンク (#4)",
-      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/pull/24",
-      "at": "2026-11-24T18:03:06Z"
-    },
-    {
-      "type": "done",
+      "type": "issue",
       "repo": "ivRooom/Herta",
-      "title": "Issue #971 feat(xp-emitter): outbox 状態スナップショットを ivrm_api へ push する (ivrm-web #1646 H1)",
-      "url": "https://github.com/ivRooom/Herta/issues/971",
-      "at": "2026-11-24T17:52:25Z"
+      "title": "Issue #991 [S3d-D2] Studio 署名付き誕生日カードプレビュー描画 API",
+      "url": "https://github.com/ivRooom/Herta/issues/991",
+      "at": "2026-11-24T23:42:46Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #990 fix(daily-participation): 答え合わせのスキーマを API 現行形へ追随し解説メディアを表示する (#988)",
+      "url": "https://github.com/ivRooom/Herta/pull/990",
+      "at": "2026-11-24T23:42:13Z"
+    },
+    {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #989 [S3d-D1] 誕生日カードレンダラーの共有パッケージ化（挙動不変リファクタ）",
+      "url": "https://github.com/ivRooom/Herta/issues/989",
+      "at": "2026-11-24T23:41:48Z"
     }
   ],
-  "generated_at": "2026-11-25T05:56:35+09:00"
+  "generated_at": "2026-11-25T08:56:25+09:00"
 }
