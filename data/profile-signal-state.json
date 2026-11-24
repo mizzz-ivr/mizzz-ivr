@@ -17,10 +17,10 @@
   "activity_total": 37,
   "current_focus": {
     "repo": "ivRooom/ivrm-hoyolab-extension",
-    "score": 88,
-    "events": 39,
+    "score": 93,
+    "events": 44,
     "last_activity_at": "2026-11-24T08:27:21Z",
-    "share": 59,
+    "share": 60,
     "stack": [
       "JavaScript",
       "CSS",
@@ -81,10 +81,10 @@
   "now_building": [
     {
       "repo": "ivRooom/ivrm-hoyolab-extension",
-      "score": 88,
-      "events": 39,
+      "score": 93,
+      "events": 44,
       "last_activity_at": "2026-11-24T08:27:21Z",
-      "share": 59,
+      "share": 60,
       "ci": {
         "label": "NO SIGNAL",
         "symbol": "○",
@@ -105,8 +105,8 @@
     },
     {
       "repo": "ivRooom/Herta",
-      "score": 42,
-      "events": 30,
+      "score": 44,
+      "events": 32,
       "last_activity_at": "2026-11-24T08:26:36Z",
       "share": 28,
       "ci": {
@@ -182,7 +182,7 @@
       "at": "2026-11-24T07:44:04Z"
     }
   ],
-  "generated_at": "2026-11-24T19:50:36+09:00",
+  "generated_at": "2026-11-24T22:55:47+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
