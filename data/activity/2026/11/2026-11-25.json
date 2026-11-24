@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-25",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 1,
+    "prs_opened": 2,
+    "issues_created": 0,
+    "issues_completed": 1
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "feat(period-quests): 期間同期クエストの bridge 消費者を追加 (#1752 S3) (#35)",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/commit/49b5d8de76bc6d849ca5412ba851b75e2d0d63d3",
+      "at": "2026-11-25T05:17:08.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "PR #35 feat(period-quests): 期間同期クエストの bridge 消費者を追加 (#1752 S3)",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/pull/35",
+      "at": "2026-11-24T20:01:22Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/ivrm-hoyolab-extension",
+      "title": "PR #24 feat: ストア版（読み取り専用）を main へ移植し実モジュールをリンク (#4)",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/pull/24",
+      "at": "2026-11-24T18:03:06Z"
+    },
+    {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #971 feat(xp-emitter): outbox 状態スナップショットを ivrm_api へ push する (ivrm-web #1646 H1)",
+      "url": "https://github.com/ivRooom/Herta/issues/971",
+      "at": "2026-11-24T17:52:25Z"
+    }
+  ],
+  "generated_at": "2026-11-25T05:56:35+09:00"
+}

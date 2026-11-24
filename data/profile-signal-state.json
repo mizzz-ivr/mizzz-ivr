@@ -1,26 +1,26 @@
 {
   "schema_version": 4,
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "timezone": "Asia/Tokyo",
   "scope": "public",
   "github_login": "mizzz-ivr",
   "status": {
-    "label": "RECENTLY ACTIVE",
-    "symbol": "◐",
-    "last_activity_at": "2026-11-24T08:27:21Z"
+    "label": "BUILDING",
+    "symbol": "●",
+    "last_activity_at": "2026-11-25T05:17:08.000+09:00"
   },
   "code_weather": {
-    "label": "HEAVY CODING",
-    "icon": "⚡"
+    "label": "LIGHT CODING",
+    "icon": "☁️"
   },
-  "streak": 15,
-  "activity_total": 37,
+  "streak": 16,
+  "activity_total": 4,
   "current_focus": {
     "repo": "ivRooom/ivrm-hoyolab-extension",
-    "score": 93,
-    "events": 44,
-    "last_activity_at": "2026-11-24T08:27:21Z",
-    "share": 60,
+    "score": 6,
+    "events": 3,
+    "last_activity_at": "2026-11-24T18:05:57Z",
+    "share": 40,
     "stack": [
       "JavaScript",
       "CSS",
@@ -28,13 +28,6 @@
     ]
   },
   "dev_pulse": [
-    {
-      "date": "2026-11-18",
-      "total": 58,
-      "commits": 25,
-      "prs": 23,
-      "issues": 10
-    },
     {
       "date": "2026-11-19",
       "total": 33,
@@ -76,15 +69,22 @@
       "commits": 14,
       "prs": 11,
       "issues": 12
+    },
+    {
+      "date": "2026-11-25",
+      "total": 4,
+      "commits": 1,
+      "prs": 2,
+      "issues": 1
     }
   ],
   "now_building": [
     {
       "repo": "ivRooom/ivrm-hoyolab-extension",
-      "score": 93,
-      "events": 44,
-      "last_activity_at": "2026-11-24T08:27:21Z",
-      "share": 60,
+      "score": 6,
+      "events": 3,
+      "last_activity_at": "2026-11-24T18:05:57Z",
+      "share": 40,
       "ci": {
         "label": "NO SIGNAL",
         "symbol": "○",
@@ -104,35 +104,11 @@
       }
     },
     {
-      "repo": "ivRooom/Herta",
-      "score": 44,
-      "events": 32,
-      "last_activity_at": "2026-11-24T08:26:36Z",
-      "share": 28,
-      "ci": {
-        "label": "PASSING",
-        "symbol": "●",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 9,
-        "passed": 9,
-        "failed": 0,
-        "ignored": 1,
-        "pass_rate": 100,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "HEALTHY",
-        "symbol": "●",
-        "reason": "active with passing recent CI"
-      }
-    },
-    {
       "repo": "ivRooom/ivrm-mcmod",
-      "score": 18,
-      "events": 9,
-      "last_activity_at": "2026-11-24T04:58:16Z",
-      "share": 12,
+      "score": 5,
+      "events": 2,
+      "last_activity_at": "2026-11-24T20:17:08Z",
+      "share": 33,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -150,39 +126,63 @@
         "symbol": "●",
         "reason": "active with passing recent CI"
       }
+    },
+    {
+      "repo": "ivRooom/Herta",
+      "score": 4,
+      "events": 2,
+      "last_activity_at": "2026-11-24T17:52:25Z",
+      "share": 27,
+      "ci": {
+        "label": "PASSING",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 9,
+        "passed": 9,
+        "failed": 0,
+        "ignored": 1,
+        "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
     }
   ],
   "activity_stream": [
     {
-      "label": "RELEASE",
-      "repo": "ivRooom/ivrm-hoyolab-extension",
-      "title": "Published v0.4.1",
-      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/releases/tag/v0.4.1",
-      "at": "2026-11-24T08:27:21Z"
+      "label": "PR",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "PR merged #35",
+      "url": "https://github.com/ivRooom/ivrm-mcmod",
+      "at": "2026-11-24T20:17:08Z"
     },
     {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Opened issue #985",
-      "url": "https://github.com/ivRooom/Herta/issues/985",
-      "at": "2026-11-24T08:26:36Z"
+      "label": "PR",
+      "repo": "ivRooom/ivrm-mcmod",
+      "title": "Opened PR #35",
+      "url": "https://github.com/ivRooom/ivrm-mcmod",
+      "at": "2026-11-24T20:01:22Z"
     },
     {
-      "label": "ISSUE",
+      "label": "PR",
       "repo": "ivRooom/ivrm-hoyolab-extension",
-      "title": "Closed issue #15",
-      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/issues/15",
-      "at": "2026-11-24T08:23:06Z"
+      "title": "Closed PR #8",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension",
+      "at": "2026-11-24T18:05:57Z"
     },
     {
-      "label": "ISSUE",
+      "label": "PR",
       "repo": "ivRooom/ivrm-hoyolab-extension",
-      "title": "Closed issue #14",
-      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/issues/14",
-      "at": "2026-11-24T07:44:04Z"
+      "title": "Opened PR #24",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension",
+      "at": "2026-11-24T18:03:06Z"
     }
   ],
-  "generated_at": "2026-11-24T22:55:47+09:00",
+  "generated_at": "2026-11-25T05:56:35+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
@@ -196,8 +196,8 @@
   },
   "dev_recap": {
     "tracked_from": "2026-08-25",
-    "tracked_days": 92,
-    "active_days": 81,
+    "tracked_days": 93,
+    "active_days": 82,
     "longest_streak": 27,
     "weekly": {
       "schema_version": 1,
@@ -207,18 +207,18 @@
       "github_login": "mizzz-ivr",
       "coverage": {
         "start_date": "2026-11-23",
-        "end_date": "2026-11-24",
-        "tracked_days": 2,
-        "active_days": 2
+        "end_date": "2026-11-25",
+        "tracked_days": 3,
+        "active_days": 3
       },
       "metrics": {
-        "commits": 27,
-        "prs_opened": 32,
+        "commits": 28,
+        "prs_opened": 34,
         "issues_created": 18,
-        "issues_completed": 35,
-        "activity_total": 112
+        "issues_completed": 36,
+        "activity_total": 116
       },
-      "generated_at": "2026-11-24T19:50:36+09:00"
+      "generated_at": "2026-11-25T05:56:35+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -228,18 +228,18 @@
       "github_login": "mizzz-ivr",
       "coverage": {
         "start_date": "2026-11-01",
-        "end_date": "2026-11-24",
-        "tracked_days": 24,
-        "active_days": 22
+        "end_date": "2026-11-25",
+        "tracked_days": 25,
+        "active_days": 23
       },
       "metrics": {
-        "commits": 315,
-        "prs_opened": 304,
+        "commits": 316,
+        "prs_opened": 306,
         "issues_created": 216,
-        "issues_completed": 118,
-        "activity_total": 953
+        "issues_completed": 119,
+        "activity_total": 957
       },
-      "generated_at": "2026-11-24T19:50:36+09:00"
+      "generated_at": "2026-11-25T05:56:35+09:00"
     },
     "achievements": [
       {
@@ -286,29 +286,29 @@
   "tracked_summary": {
     "year": 2026,
     "yearly": {
-      "tracked_days": 92,
-      "active_days": 81,
+      "tracked_days": 93,
+      "active_days": 82,
       "first_date": "2026-08-25",
-      "last_date": "2026-11-24",
+      "last_date": "2026-11-25",
       "metrics": {
-        "commits": 2319,
-        "prs_opened": 859,
+        "commits": 2320,
+        "prs_opened": 861,
         "issues_created": 533,
-        "issues_completed": 254,
-        "activity_total": 3965
+        "issues_completed": 255,
+        "activity_total": 3969
       }
     },
     "lifetime": {
-      "tracked_days": 92,
-      "active_days": 81,
+      "tracked_days": 93,
+      "active_days": 82,
       "first_date": "2026-08-25",
-      "last_date": "2026-11-24",
+      "last_date": "2026-11-25",
       "metrics": {
-        "commits": 2319,
-        "prs_opened": 859,
+        "commits": 2320,
+        "prs_opened": 861,
         "issues_created": 533,
-        "issues_completed": 254,
-        "activity_total": 3965
+        "issues_completed": 255,
+        "activity_total": 3969
       }
     }
   }
