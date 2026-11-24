@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 7,
-    "prs_opened": 2,
-    "issues_created": 3,
-    "issues_completed": 3
+    "commits": 14,
+    "prs_opened": 11,
+    "issues_created": 5,
+    "issues_completed": 7
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-hoyolab-extension",
-      "title": "feat: ポップアップに現在の状況（樹脂・開拓力）を表示 (#3) [PR #7 再作成] (#16)",
-      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/652997b67039e9836c86aad5e43c9bd339a6cfcb",
-      "at": "2026-11-24T11:07:28.000+09:00"
+      "title": "feat: ポップアップ v2 デザイン＋受け取り履歴＋最終同期 (#15) [PR #22 再作成] (#23)",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/adcb1899df8f113402b44a69d952cb85e3565ec9",
+      "at": "2026-11-24T16:37:43.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-hoyolab-extension",
-      "title": "feat: デイリーチェックイン自動受取とギフトコード自動交換 (#1) (#2)  * feat: auto daily check-in and gift code redemption ",
-      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/1fe9d25f428163394e6f283939025e0b3ac8e30b",
-      "at": "2026-11-24T10:51:28.000+09:00"
+      "title": "feat: ポータル連携ページ経由の自動連携 (#14) (#21)",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/e6b174bdbddcb217a46193f8ffb65eb09221aa3d",
+      "at": "2026-11-24T16:13:38.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(activity-rules): ゲーム集計の除外リストとCompeting対応を追加 (#980) (#981)  * feat(activity-rules): ゲーム集計の除外",
-      "url": "https://github.com/ivRooom/Herta/commit/99709c43053c6e264e2fc9bd2dbf63f15a51c3b6",
-      "at": "2026-11-24T09:39:07.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(studio): community game stats read API for ivrm-web community tab (#979) (#982)",
-      "url": "https://github.com/ivRooom/Herta/commit/6ea2f4e27b3311724aad4535daf64e15150388bf",
-      "at": "2026-11-24T05:18:57.000+09:00"
+      "title": "feat(worker): アチーブメント通知は Discord 行きだけ claim する (#964) (#984)",
+      "url": "https://github.com/ivRooom/Herta/commit/694ce0b3ce4dd54fab558c9f4141c8ecb6efa998",
+      "at": "2026-11-24T15:47:42.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-mcmod",
-      "title": "feat(bridge): Presentation Outbox の login_bonus イベントを再生する (ivrm-web #1712) (#32)",
-      "url": "https://github.com/ivRooom/ivrm-mcmod/commit/f68174f85706bead9c3216e74cec2fa18fd1380a",
-      "at": "2026-11-24T03:59:30.000+09:00"
+      "title": "feat(bridge): ボード表示を TAB フッターへ移し、サイドバーを既定 OFF にする (#33) (#34)",
+      "url": "https://github.com/ivRooom/ivrm-mcmod/commit/5df3502b1bd5bbf4ffa9c76f8c2d7831318d7979",
+      "at": "2026-11-24T13:56:41.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-hoyolab-extension",
+      "title": "feat: ログイン状態の変化をポータルへ報告 (#1684 S2) [PR #12 再作成] (#20)",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/c1ea0fe33fe9af7b26f5106fe073a7bbb54364d9",
+      "at": "2026-11-24T13:51:46.000+09:00"
     }
   ],
-  "generated_at": "2026-11-24T11:18:28+09:00"
+  "generated_at": "2026-11-24T19:50:36+09:00"
 }
