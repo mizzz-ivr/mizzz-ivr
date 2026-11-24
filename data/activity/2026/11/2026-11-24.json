@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 5,
-    "prs_opened": 1,
-    "issues_created": 1,
+    "commits": 7,
+    "prs_opened": 2,
+    "issues_created": 3,
     "issues_completed": 3
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-hoyolab-extension",
+      "title": "feat: ポップアップに現在の状況（樹脂・開拓力）を表示 (#3) [PR #7 再作成] (#16)",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/652997b67039e9836c86aad5e43c9bd339a6cfcb",
+      "at": "2026-11-24T11:07:28.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-hoyolab-extension",
+      "title": "feat: デイリーチェックイン自動受取とギフトコード自動交換 (#1) (#2)  * feat: auto daily check-in and gift code redemption ",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/1fe9d25f428163394e6f283939025e0b3ac8e30b",
+      "at": "2026-11-24T10:51:28.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -31,21 +45,7 @@
       "title": "feat(bridge): Presentation Outbox の login_bonus イベントを再生する (ivrm-web #1712) (#32)",
       "url": "https://github.com/ivRooom/ivrm-mcmod/commit/f68174f85706bead9c3216e74cec2fa18fd1380a",
       "at": "2026-11-24T03:59:30.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(bot): wire IVRM_API_DATABASE_URL to the bot service for the XP emitter status push (#1646) (",
-      "url": "https://github.com/ivRooom/Herta/commit/5ab60d0720f74cadfeb8fc8287aa044353a305a8",
-      "at": "2026-11-24T03:38:23.000+09:00"
-    },
-    {
-      "type": "done",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #980 [S1b] ゲーム収集拡張: 非ゲーム除外リスト＋複数アクティビティ対応",
-      "url": "https://github.com/ivRooom/Herta/issues/980",
-      "at": "2026-11-24T00:40:20Z"
     }
   ],
-  "generated_at": "2026-11-24T10:01:10+09:00"
+  "generated_at": "2026-11-24T11:18:28+09:00"
 }

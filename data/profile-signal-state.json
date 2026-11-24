@@ -7,20 +7,20 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-11-24T00:44:39Z"
+    "last_activity_at": "2026-11-24T02:12:10Z"
   },
   "code_weather": {
     "label": "ACTIVE",
     "icon": "🌤️"
   },
   "streak": 15,
-  "activity_total": 10,
+  "activity_total": 15,
   "current_focus": {
     "repo": "ivRooom/Herta",
     "score": 24,
     "events": 18,
     "last_activity_at": "2026-11-24T00:44:39Z",
-    "share": 73,
+    "share": 51,
     "stack": [
       "TypeScript",
       "JavaScript",
@@ -73,10 +73,10 @@
     },
     {
       "date": "2026-11-24",
-      "total": 10,
-      "commits": 5,
-      "prs": 1,
-      "issues": 4
+      "total": 15,
+      "commits": 7,
+      "prs": 2,
+      "issues": 6
     }
   ],
   "now_building": [
@@ -85,7 +85,7 @@
       "score": 24,
       "events": 18,
       "last_activity_at": "2026-11-24T00:44:39Z",
-      "share": 73,
+      "share": 51,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
@@ -105,35 +105,11 @@
       }
     },
     {
-      "repo": "ivRooom/ivrm-mcmod",
-      "score": 6,
-      "events": 3,
-      "last_activity_at": "2026-11-23T18:59:30Z",
-      "share": 18,
-      "ci": {
-        "label": "PASSING",
-        "symbol": "●",
-        "window_days": 7,
-        "total_runs": 10,
-        "evaluated": 10,
-        "passed": 10,
-        "failed": 0,
-        "ignored": 0,
-        "pass_rate": 100,
-        "latest_conclusion": "success"
-      },
-      "health": {
-        "label": "HEALTHY",
-        "symbol": "●",
-        "reason": "active with passing recent CI"
-      }
-    },
-    {
       "repo": "ivRooom/ivrm-hoyolab-extension",
-      "score": 2,
-      "events": 1,
-      "last_activity_at": "2026-11-23T15:21:48Z",
-      "share": 6,
+      "score": 16,
+      "events": 10,
+      "last_activity_at": "2026-11-24T02:12:10Z",
+      "share": 34,
       "ci": {
         "label": "NO SIGNAL",
         "symbol": "○",
@@ -151,39 +127,63 @@
         "symbol": "●",
         "reason": "active; no evaluated CI signal"
       }
+    },
+    {
+      "repo": "ivRooom/ivrm-mcmod",
+      "score": 6,
+      "events": 3,
+      "last_activity_at": "2026-11-23T18:59:30Z",
+      "share": 13,
+      "ci": {
+        "label": "PASSING",
+        "symbol": "●",
+        "window_days": 7,
+        "total_runs": 10,
+        "evaluated": 10,
+        "passed": 10,
+        "failed": 0,
+        "ignored": 0,
+        "pass_rate": 100,
+        "latest_conclusion": "success"
+      },
+      "health": {
+        "label": "HEALTHY",
+        "symbol": "●",
+        "reason": "active with passing recent CI"
+      }
     }
   ],
   "activity_stream": [
     {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Closed issue #980",
-      "url": "https://github.com/ivRooom/Herta/issues/980",
-      "at": "2026-11-24T00:40:21Z"
+      "label": "PR",
+      "repo": "ivRooom/ivrm-hoyolab-extension",
+      "title": "Closed PR #7",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension",
+      "at": "2026-11-24T02:07:52Z"
     },
     {
       "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR merged #981",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-11-24T00:39:08Z"
+      "repo": "ivRooom/ivrm-hoyolab-extension",
+      "title": "PR merged #16",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension",
+      "at": "2026-11-24T02:07:29Z"
     },
     {
-      "label": "PUSH",
-      "repo": "ivRooom/Herta",
-      "title": "1 commit pushed to feat/game-activity-exclusions-980",
-      "url": "https://github.com/ivRooom/Herta/commits",
-      "at": "2026-11-23T21:29:08Z"
+      "label": "PR",
+      "repo": "ivRooom/ivrm-hoyolab-extension",
+      "title": "Opened PR #16",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension",
+      "at": "2026-11-24T02:06:13Z"
     },
     {
       "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Closed issue #974",
-      "url": "https://github.com/ivRooom/Herta/issues/974",
-      "at": "2026-11-23T20:53:43Z"
+      "repo": "ivRooom/ivrm-hoyolab-extension",
+      "title": "Opened issue #15",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/issues/15",
+      "at": "2026-11-24T02:04:31Z"
     }
   ],
-  "generated_at": "2026-11-24T10:01:10+09:00",
+  "generated_at": "2026-11-24T11:18:28+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
@@ -213,13 +213,13 @@
         "active_days": 2
       },
       "metrics": {
-        "commits": 18,
-        "prs_opened": 22,
-        "issues_created": 14,
+        "commits": 20,
+        "prs_opened": 23,
+        "issues_created": 16,
         "issues_completed": 31,
-        "activity_total": 85
+        "activity_total": 90
       },
-      "generated_at": "2026-11-24T10:01:10+09:00"
+      "generated_at": "2026-11-24T11:18:28+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -234,13 +234,13 @@
         "active_days": 22
       },
       "metrics": {
-        "commits": 306,
-        "prs_opened": 294,
-        "issues_created": 212,
+        "commits": 308,
+        "prs_opened": 295,
+        "issues_created": 214,
         "issues_completed": 114,
-        "activity_total": 926
+        "activity_total": 931
       },
-      "generated_at": "2026-11-24T10:01:10+09:00"
+      "generated_at": "2026-11-24T11:18:28+09:00"
     },
     "achievements": [
       {
@@ -292,11 +292,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-11-24",
       "metrics": {
-        "commits": 2310,
-        "prs_opened": 849,
-        "issues_created": 529,
+        "commits": 2312,
+        "prs_opened": 850,
+        "issues_created": 531,
         "issues_completed": 250,
-        "activity_total": 3938
+        "activity_total": 3943
       }
     },
     "lifetime": {
@@ -305,11 +305,11 @@
       "first_date": "2026-08-25",
       "last_date": "2026-11-24",
       "metrics": {
-        "commits": 2310,
-        "prs_opened": 849,
-        "issues_created": 529,
+        "commits": 2312,
+        "prs_opened": 850,
+        "issues_created": 531,
         "issues_completed": 250,
-        "activity_total": 3938
+        "activity_total": 3943
       }
     }
   }
