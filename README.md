@@ -28,9 +28,9 @@
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 23:00 JST</sub></td>
-    <td width="34%" align="center"><strong>🌩️ STORM</strong><br/><sub>62 public actions today</sub></td>
-    <td width="33%" align="center"><strong>🔥 16 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
+    <td width="33%" align="center"><strong>● BUILDING</strong><br/><sub>last public activity · 03:51 JST</sub></td>
+    <td width="34%" align="center"><strong>🌤️ ACTIVE</strong><br/><sub>14 public actions today</sub></td>
+    <td width="33%" align="center"><strong>🔥 17 DAY STREAK</strong><br/><sub>public GitHub activity</sub></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:LIVE-SIGNAL:END -->
@@ -38,14 +38,14 @@
 <!-- DAILY-ACTIVITY:START -->
 ## TODAY // Activity overview
 
-<p align="center"><sub>2026-11-25 JST · public GitHub activity</sub></p>
+<p align="center"><sub>2026-11-26 JST · public GitHub activity</sub></p>
 
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><strong>15</strong><br/><sub>COMMITS</sub></td>
-    <td width="25%" align="center"><strong>19</strong><br/><sub>PRS OPENED</sub></td>
-    <td width="25%" align="center"><strong>16</strong><br/><sub>ISSUES CREATED</sub></td>
-    <td width="25%" align="center"><strong>12</strong><br/><sub>ISSUES DONE</sub></td>
+    <td width="25%" align="center"><strong>3</strong><br/><sub>COMMITS</sub></td>
+    <td width="25%" align="center"><strong>5</strong><br/><sub>PRS OPENED</sub></td>
+    <td width="25%" align="center"><strong>3</strong><br/><sub>ISSUES CREATED</sub></td>
+    <td width="25%" align="center"><strong>3</strong><br/><sub>ISSUES DONE</sub></td>
   </tr>
 </table>
 <!-- DAILY-ACTIVITY:END -->
@@ -55,7 +55,7 @@
 
 <table width="100%">
   <tr>
-    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>weighted activity 65% · score 133 · 66 events</sub></td>
+    <td width="62%" valign="top"><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>weighted activity 100% · score 47 · 23 events</sub></td>
     <td width="38%" valign="top"><strong>CURRENT STACK</strong><br/><code>TypeScript</code> <code>JavaScript</code> <code>Python</code> <code>Shell</code></td>
   </tr>
 </table>
@@ -74,8 +74,8 @@
   <tr>
     <td width="25%" align="center"><strong>PASSING</strong><br/><sub>CI SIGNAL</sub></td>
     <td width="25%" align="center"><strong>100%</strong><br/><sub>PASS RATE</sub></td>
-    <td width="25%" align="center"><strong>13 / 13</strong><br/><sub>PASSED / EVALUATED</sub></td>
-    <td width="25%" align="center"><strong>2</strong><br/><sub>REPOS WITH CI</sub></td>
+    <td width="25%" align="center"><strong>9 / 9</strong><br/><sub>PASSED / EVALUATED</sub></td>
+    <td width="25%" align="center"><strong>1</strong><br/><sub>REPOS WITH CI</sub></td>
   </tr>
 </table>
 <!-- PROFILE-SIGNAL:PULSE:END -->
@@ -83,7 +83,7 @@
 <!-- PROFILE-SIGNAL:NOW-BUILDING:START -->
 ## NOW BUILDING // Active repositories
 
-<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>65% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 23:00 JST</sub></td><td width="33%" valign="top"><strong>02 · <a href="https://github.com/ivRooom/ivrm-hoyolab-extension">ivRooom/ivrm-hoyolab-extension</a></strong><br/><sub>27% weighted · ACTIVE · CI N/A<br/>last activity · 13:45 JST</sub></td><td width="33%" valign="top"><strong>03 · <a href="https://github.com/ivRooom/ivrm-ai">ivRooom/ivrm-ai</a></strong><br/><sub>5% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 13:52 JST</sub></td></tr></table>
+<table width="100%"><tr><td width="33%" valign="top"><strong>01 · <a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong><br/><sub>100% weighted · HEALTHY · CI pass rate 100%<br/>last activity · 03:51 JST</sub></td><td width="33%" valign="top"><sub>—</sub></td><td width="33%" valign="top"><sub>—</sub></td></tr></table>
 <!-- PROFILE-SIGNAL:NOW-BUILDING:END -->
 
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:START -->
@@ -91,10 +91,10 @@
 
 <table width="100%">
   <tbody>
-    <tr><td width="10%"><code>22:59</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">PR #1011を作成</a></td></tr>
-    <tr><td width="10%"><code>22:40</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/issues/1006">Issue #1006を完了</a></td></tr>
-    <tr><td width="10%"><code>22:40</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">PR #1009をマージ</a></td></tr>
-    <tr><td width="10%"><code>22:33</code></td><td width="14%"><code>ISSUE</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta/issues/1010">Issue #1010を作成</a></td></tr>
+    <tr><td width="10%"><code>03:51</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">PR #1015をマージ</a></td></tr>
+    <tr><td width="10%"><code>03:25</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">PR #1019を作成</a></td></tr>
+    <tr><td width="10%"><code>03:21</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">PR #1018を作成</a></td></tr>
+    <tr><td width="10%"><code>03:03</code></td><td width="14%"><code>PR</code></td><td><strong><a href="https://github.com/ivRooom/Herta">ivRooom/Herta</a></strong> — <a href="https://github.com/ivRooom/Herta">PR #1014をマージ</a></td></tr>
   </tbody>
 </table>
 <!-- PROFILE-SIGNAL:ACTIVITY-STREAM:END -->
@@ -196,24 +196,24 @@
 
 <table width="100%">
   <tr>
-    <td width="25%" align="center"><strong>🔥 16</strong><br/><sub>DAY STREAK</sub></td>
-    <td width="25%" align="center"><strong>42</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
-    <td width="25%" align="center"><strong>51</strong><br/><sub>PRS · THIS WEEK</sub></td>
-    <td width="25%" align="center"><strong>47</strong><br/><sub>ISSUES DONE · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>🔥 17</strong><br/><sub>DAY STREAK</sub></td>
+    <td width="25%" align="center"><strong>45</strong><br/><sub>COMMITS · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>56</strong><br/><sub>PRS · THIS WEEK</sub></td>
+    <td width="25%" align="center"><strong>50</strong><br/><sub>ISSUES DONE · THIS WEEK</sub></td>
   </tr>
 </table>
 
 <details>
 <summary><strong>MONTHLY SUMMARY</strong></summary>
 <br/>
-<table width="100%"><tr><td width="25%" align="center"><strong>330</strong><br/><sub>COMMITS</sub></td><td width="25%" align="center"><strong>323</strong><br/><sub>PRS</sub></td><td width="25%" align="center"><strong>130</strong><br/><sub>ISSUES DONE</sub></td><td width="25%" align="center"><strong>1015</strong><br/><sub>ACTIVITY</sub></td></tr></table>
+<table width="100%"><tr><td width="25%" align="center"><strong>333</strong><br/><sub>COMMITS</sub></td><td width="25%" align="center"><strong>328</strong><br/><sub>PRS</sub></td><td width="25%" align="center"><strong>133</strong><br/><sub>ISSUES DONE</sub></td><td width="25%" align="center"><strong>1029</strong><br/><sub>ACTIVITY</sub></td></tr></table>
 </details>
 
 <details>
 <summary><strong>YEARLY SUMMARY // 2026</strong></summary>
 <br/>
-<table width="100%"><tr><td width="20%" align="center"><strong>82</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>2334</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>878</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>266</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>4027</strong><br/><sub>ACTIVITY</sub></td></tr></table>
-<p><sub>93 tracked days in 2026 · tracked since 2026-08-25.</sub></p>
+<table width="100%"><tr><td width="20%" align="center"><strong>83</strong><br/><sub>ACTIVE DAYS</sub></td><td width="20%" align="center"><strong>2337</strong><br/><sub>COMMITS</sub></td><td width="20%" align="center"><strong>883</strong><br/><sub>PRS</sub></td><td width="20%" align="center"><strong>269</strong><br/><sub>ISSUES DONE</sub></td><td width="20%" align="center"><strong>4041</strong><br/><sub>ACTIVITY</sub></td></tr></table>
+<p><sub>94 tracked days in 2026 · tracked since 2026-08-25.</sub></p>
 </details>
 <!-- PROFILE-SIGNAL:RECAP:END -->
 

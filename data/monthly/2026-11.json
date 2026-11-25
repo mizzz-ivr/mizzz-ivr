@@ -6,16 +6,16 @@
   "github_login": "mizzz-ivr",
   "coverage": {
     "start_date": "2026-11-01",
-    "end_date": "2026-11-25",
-    "tracked_days": 25,
-    "active_days": 23
+    "end_date": "2026-11-26",
+    "tracked_days": 26,
+    "active_days": 24
   },
   "metrics": {
-    "commits": 330,
-    "prs_opened": 323,
-    "issues_created": 232,
-    "issues_completed": 130,
-    "activity_total": 1015
+    "commits": 333,
+    "prs_opened": 328,
+    "issues_created": 235,
+    "issues_completed": 133,
+    "activity_total": 1029
   },
-  "generated_at": "2026-11-25T23:12:31+09:00"
+  "generated_at": "2026-11-26T04:24:58+09:00"
 }

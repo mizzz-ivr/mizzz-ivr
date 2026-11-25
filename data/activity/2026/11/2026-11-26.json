@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-26",
+  "timezone": "Asia/Tokyo",
+  "scope": "public",
+  "github_login": "mizzz-ivr",
+  "metrics": {
+    "commits": 3,
+    "prs_opened": 5,
+    "issues_created": 3,
+    "issues_completed": 3
+  },
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(tickets): bot プラグインの表示を Embed 化する (#1012) (#1015)",
+      "url": "https://github.com/ivRooom/Herta/commit/a9f1c49e647cbd1d01a4de500e6a43169c436059",
+      "at": "2026-11-26T03:51:03.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(studio): community-game-stats read の SUM 集計に ::bigint キャストを付与 (#1004) (#1014)",
+      "url": "https://github.com/ivRooom/Herta/commit/7722414b725afa51b79b7254a8b1e7458b2a1d16",
+      "at": "2026-11-26T03:03:24.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(worker): アチーブメント通知の表示を rank 優先にする U2 (#1005) (#1008)",
+      "url": "https://github.com/ivRooom/Herta/commit/9856a983a363eb533946848d311c1637e3122587",
+      "at": "2026-11-26T01:38:51.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #1019 feat(tickets): 添付ファイルの実体転送と Web 添付の Discord 配送 (#1013)",
+      "url": "https://github.com/ivRooom/Herta/pull/1019",
+      "at": "2026-11-25T18:25:54Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #1018 feat(studio): community-game-stats read API 契約 v2 拡張 (activity セクション追加, #998)",
+      "url": "https://github.com/ivRooom/Herta/pull/1018",
+      "at": "2026-11-25T18:21:32Z"
+    }
+  ],
+  "generated_at": "2026-11-26T04:24:58+09:00"
+}
