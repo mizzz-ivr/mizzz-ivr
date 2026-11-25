@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 11,
-    "prs_opened": 15,
-    "issues_created": 12,
-    "issues_completed": 10
+    "commits": 15,
+    "prs_opened": 19,
+    "issues_created": 16,
+    "issues_completed": 12
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(deploy): wire ticket env vars into bot/worker compose services (#1006) (#1009)",
+      "url": "https://github.com/ivRooom/Herta/commit/651927e8de814bd926b6ed7c20d5d3922d32928c",
+      "at": "2026-11-25T22:40:31.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): デコガチャプラグインを追加 (おみくじ＋プロフィールカード, #1002) (#1007)",
+      "url": "https://github.com/ivRooom/Herta/commit/f94b9e4538d991afebb4aef62ad00ba26aa5ad8d",
+      "at": "2026-11-25T22:22:40.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): 申請審査プラグイン submission-review を追加 (#996) (#1003)  * feat(bot): 申請審査プラグイン submission-rev",
+      "url": "https://github.com/ivRooom/Herta/commit/e8c2844e51238f18c003e8e2b4120d91703cc6b9",
+      "at": "2026-11-25T20:21:35.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(worker): チケットWeb→Discord配送Pollerを追加 (S4, #823) (#1000)  * feat(worker): add ticket Discord ",
+      "url": "https://github.com/ivRooom/Herta/commit/5d5070a9eebdc4c5d42cb8b0239ea0b016ed7afc",
+      "at": "2026-11-25T18:01:48.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
       "title": "feat(tickets): Discordチケットプラグインを追加 (#749 S3) (#997)",
       "url": "https://github.com/ivRooom/Herta/commit/86d54a304dc859d06afa2bdae5bc4584552009b2",
       "at": "2026-11-25T17:39:17.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(studio): community-game-stats read の期間クエリに ::date キャストを付ける (#999) (#1001)",
-      "url": "https://github.com/ivRooom/Herta/commit/3dd4429653226bc20d2d718ead1db2d299243b30",
-      "at": "2026-11-25T16:18:49.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-ai",
-      "title": "fix(infra): デプロイ時のヘルス判定の待機枠を拡大する (#92) (#93)",
-      "url": "https://github.com/ivRooom/ivrm-ai/commit/1dae40a6ed0558cfe4087cd282d698a7b893dab4",
-      "at": "2026-11-25T13:51:50.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-hoyolab-extension",
-      "title": "chore: bump version to 0.4.3",
-      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/cd8f788d5e3816b5cc22be291e73bf44631b4932",
-      "at": "2026-11-25T13:40:39.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-hoyolab-extension",
-      "title": "fix(skport): 理性取得を実応答の dungeon 形に対応し失敗理由を表示する (#28) (#29)",
-      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/0d02e5f33a73329c5b027b6643d915a5bf8372b6",
-      "at": "2026-11-25T13:36:55.000+09:00"
     }
   ],
-  "generated_at": "2026-11-25T17:49:12+09:00"
+  "generated_at": "2026-11-25T23:12:31+09:00"
 }
