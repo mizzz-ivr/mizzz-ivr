@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 5,
-    "prs_opened": 8,
-    "issues_created": 6,
-    "issues_completed": 6
+    "commits": 11,
+    "prs_opened": 15,
+    "issues_created": 12,
+    "issues_completed": 10
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "refactor(birthday-card): レンダラーを @herta/birthday-card 共有パッケージへ切り出す (#989) (#992)  * refactor(birt",
-      "url": "https://github.com/ivRooom/Herta/commit/f7caa2dc300c9ff59637c731280b05875ae23262",
-      "at": "2026-11-25T10:53:18.000+09:00"
+      "title": "feat(tickets): Discordチケットプラグインを追加 (#749 S3) (#997)",
+      "url": "https://github.com/ivRooom/Herta/commit/86d54a304dc859d06afa2bdae5bc4584552009b2",
+      "at": "2026-11-25T17:39:17.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(studio): community-game-stats read の期間クエリに ::date キャストを付ける (#999) (#1001)",
+      "url": "https://github.com/ivRooom/Herta/commit/3dd4429653226bc20d2d718ead1db2d299243b30",
+      "at": "2026-11-25T16:18:49.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/ivrm-ai",
+      "title": "fix(infra): デプロイ時のヘルス判定の待機枠を拡大する (#92) (#93)",
+      "url": "https://github.com/ivRooom/ivrm-ai/commit/1dae40a6ed0558cfe4087cd282d698a7b893dab4",
+      "at": "2026-11-25T13:51:50.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/ivrm-hoyolab-extension",
-      "title": "feat: ステータス行の表示 ON/OFF 設定 (#25)＋受け取り履歴トグルの開閉修正 (#26) (#27)  * feat: ステータス行の表示 ON/OFF 設定 (#25)＋受け",
-      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/28e67c43d6197ed9b6060c00f1d183db3cc3e001",
-      "at": "2026-11-25T09:43:19.000+09:00"
+      "title": "chore: bump version to 0.4.3",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/cd8f788d5e3816b5cc22be291e73bf44631b4932",
+      "at": "2026-11-25T13:40:39.000+09:00"
     },
     {
       "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(daily-participation): 答え合わせのスキーマを API 現行形へ追随し解説メディアを表示する (#988) (#990)  * fix(daily-particip",
-      "url": "https://github.com/ivRooom/Herta/commit/41440c81aa82af56866741f48c054efc2fe1317e",
-      "at": "2026-11-25T09:29:51.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(bot): 誕生日カードでAPIの背景URLを使う (#986) (#987)",
-      "url": "https://github.com/ivRooom/Herta/commit/6d395a39aa1bcea46f7e6ee4486e4bc233a697d1",
-      "at": "2026-11-25T08:36:55.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/ivrm-mcmod",
-      "title": "feat(period-quests): 期間同期クエストの bridge 消費者を追加 (#1752 S3) (#35)",
-      "url": "https://github.com/ivRooom/ivrm-mcmod/commit/49b5d8de76bc6d849ca5412ba851b75e2d0d63d3",
-      "at": "2026-11-25T05:17:08.000+09:00"
+      "repo": "ivRooom/ivrm-hoyolab-extension",
+      "title": "fix(skport): 理性取得を実応答の dungeon 形に対応し失敗理由を表示する (#28) (#29)",
+      "url": "https://github.com/ivRooom/ivrm-hoyolab-extension/commit/0d02e5f33a73329c5b027b6643d915a5bf8372b6",
+      "at": "2026-11-25T13:36:55.000+09:00"
     }
   ],
-  "generated_at": "2026-11-25T13:03:33+09:00"
+  "generated_at": "2026-11-25T17:49:12+09:00"
 }
