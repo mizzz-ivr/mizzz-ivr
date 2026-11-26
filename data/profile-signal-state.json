@@ -7,7 +7,7 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-11-26T03:33:48Z"
+    "last_activity_at": "2026-11-26T04:53:27Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
@@ -17,10 +17,10 @@
   "activity_total": 21,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 71,
-    "events": 36,
-    "last_activity_at": "2026-11-26T03:33:48Z",
-    "share": 100,
+    "score": 86,
+    "events": 46,
+    "last_activity_at": "2026-11-26T04:53:27Z",
+    "share": 98,
     "stack": [
       "TypeScript",
       "JavaScript",
@@ -107,35 +107,35 @@
   ],
   "activity_stream": [
     {
-      "label": "PR",
+      "label": "ISSUE",
       "repo": "ivRooom/Herta",
-      "title": "Opened PR #1020",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-11-26T03:33:48Z"
+      "title": "Opened issue #1023",
+      "url": "https://github.com/ivRooom/Herta/issues/1023",
+      "at": "2026-11-26T04:53:27Z"
     },
     {
       "label": "ISSUE",
       "repo": "ivRooom/Herta",
-      "title": "Closed issue #1010",
-      "url": "https://github.com/ivRooom/Herta/issues/1010",
-      "at": "2026-11-26T03:22:40Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR merged #1011",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-11-26T03:22:37Z"
+      "title": "Opened issue #1022",
+      "url": "https://github.com/ivRooom/Herta/issues/1022",
+      "at": "2026-11-26T04:50:14Z"
     },
     {
       "label": "ISSUE",
       "repo": "ivRooom/Herta",
-      "title": "Closed issue #1004",
-      "url": "https://github.com/ivRooom/Herta/issues/1004",
-      "at": "2026-11-26T02:56:59Z"
+      "title": "Opened issue #1021",
+      "url": "https://github.com/ivRooom/Herta/issues/1021",
+      "at": "2026-11-26T04:49:44Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Closed issue #998",
+      "url": "https://github.com/ivRooom/Herta/issues/998",
+      "at": "2026-11-26T04:28:27Z"
     }
   ],
-  "generated_at": "2026-11-26T12:37:59+09:00",
+  "generated_at": "2026-11-26T14:01:13+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
