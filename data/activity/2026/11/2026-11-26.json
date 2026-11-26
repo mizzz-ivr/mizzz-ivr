@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 3,
-    "prs_opened": 5,
+    "commits": 5,
+    "prs_opened": 6,
     "issues_created": 3,
-    "issues_completed": 3
+    "issues_completed": 7
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): /game progress（原神）を画像カード化する (#1010) (#1011)  * assets(bot): add Nod-Krai Frostmoon Sh",
+      "url": "https://github.com/ivRooom/Herta/commit/d375fea4fa3a5ef99e6912b37613a2520418c229",
+      "at": "2026-11-26T12:22:35.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(worker): アチーブメント通知に登録バッジ画像を反映する (#1016) (#1017)",
+      "url": "https://github.com/ivRooom/Herta/commit/0924651cf0954d1d6067fca11d986298ec68f5f3",
+      "at": "2026-11-26T09:05:22.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -19,33 +33,19 @@
       "at": "2026-11-26T03:51:03.000+09:00"
     },
     {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(studio): community-game-stats read の SUM 集計に ::bigint キャストを付与 (#1004) (#1014)",
-      "url": "https://github.com/ivRooom/Herta/commit/7722414b725afa51b79b7254a8b1e7458b2a1d16",
-      "at": "2026-11-26T03:03:24.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(worker): アチーブメント通知の表示を rank 優先にする U2 (#1005) (#1008)",
-      "url": "https://github.com/ivRooom/Herta/commit/9856a983a363eb533946848d311c1637e3122587",
-      "at": "2026-11-26T01:38:51.000+09:00"
-    },
-    {
       "type": "pr",
       "repo": "ivRooom/Herta",
-      "title": "PR #1019 feat(tickets): 添付ファイルの実体転送と Web 添付の Discord 配送 (#1013)",
-      "url": "https://github.com/ivRooom/Herta/pull/1019",
-      "at": "2026-11-25T18:25:54Z"
+      "title": "PR #1020 feat(tickets): 添付ファイルの実体転送と Web 添付の Discord 配送 (#1013)",
+      "url": "https://github.com/ivRooom/Herta/pull/1020",
+      "at": "2026-11-26T03:33:48Z"
     },
     {
-      "type": "pr",
+      "type": "done",
       "repo": "ivRooom/Herta",
-      "title": "PR #1018 feat(studio): community-game-stats read API 契約 v2 拡張 (activity セクション追加, #998)",
-      "url": "https://github.com/ivRooom/Herta/pull/1018",
-      "at": "2026-11-25T18:21:32Z"
+      "title": "Issue #1010 /game progress（原神）を画像カード化する（ナド・クライ風・霜月の祠デザイン確定）",
+      "url": "https://github.com/ivRooom/Herta/issues/1010",
+      "at": "2026-11-26T03:22:38Z"
     }
   ],
-  "generated_at": "2026-11-26T04:24:58+09:00"
+  "generated_at": "2026-11-26T12:37:59+09:00"
 }
