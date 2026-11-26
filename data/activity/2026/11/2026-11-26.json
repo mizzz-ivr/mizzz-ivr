@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 5,
-    "prs_opened": 6,
-    "issues_created": 3,
-    "issues_completed": 7
+    "commits": 13,
+    "prs_opened": 16,
+    "issues_created": 14,
+    "issues_completed": 13
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(bot): /game progress（原神）を画像カード化する (#1010) (#1011)  * assets(bot): add Nod-Krai Frostmoon Sh",
-      "url": "https://github.com/ivRooom/Herta/commit/d375fea4fa3a5ef99e6912b37613a2520418c229",
-      "at": "2026-11-26T12:22:35.000+09:00"
+      "title": "feat(bot): 日次活動同期に reactions_received と channels_total gauge を追加 (#1956) (#1039)",
+      "url": "https://github.com/ivRooom/Herta/commit/136181376a80730b3f650fd1a246634032297d96",
+      "at": "2026-11-26T22:19:24.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(worker): アチーブメント通知に登録バッジ画像を反映する (#1016) (#1017)",
-      "url": "https://github.com/ivRooom/Herta/commit/0924651cf0954d1d6067fca11d986298ec68f5f3",
-      "at": "2026-11-26T09:05:22.000+09:00"
+      "title": "fix(bot): /game progress カードの背景を JPEG 埋め込みに変えて描画する (#1036) (#1038)  * fix(bot): /game progress カ",
+      "url": "https://github.com/ivRooom/Herta/commit/cdfeaa53efbeee4795f7e0c1537c9a581cb421e4",
+      "at": "2026-11-26T20:14:57.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(tickets): bot プラグインの表示を Embed 化する (#1012) (#1015)",
-      "url": "https://github.com/ivRooom/Herta/commit/a9f1c49e647cbd1d01a4de500e6a43169c436059",
-      "at": "2026-11-26T03:51:03.000+09:00"
+      "title": "feat(birthday): 供給API v2受理とshowAge配線を追加する (#1023) (#1026)",
+      "url": "https://github.com/ivRooom/Herta/commit/825344ca2807251d904e0a556942b790dc7a42a9",
+      "at": "2026-11-26T17:48:58.000+09:00"
     },
     {
-      "type": "pr",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "PR #1020 feat(tickets): 添付ファイルの実体転送と Web 添付の Discord 配送 (#1013)",
-      "url": "https://github.com/ivRooom/Herta/pull/1020",
-      "at": "2026-11-26T03:33:48Z"
+      "title": "fix(compose): worker に HERTA_TICKET_SECRET を配線する (#1031) (#1032)",
+      "url": "https://github.com/ivRooom/Herta/commit/5c90a34e82d3aba38b26563567d9f102f3fb1e22",
+      "at": "2026-11-26T17:11:03.000+09:00"
     },
     {
-      "type": "done",
+      "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "Issue #1010 /game progress（原神）を画像カード化する（ナド・クライ風・霜月の祠デザイン確定）",
-      "url": "https://github.com/ivRooom/Herta/issues/1010",
-      "at": "2026-11-26T03:22:38Z"
+      "title": "feat(studio): ivrm向け guild channels 中継窓口を追加する (#1022) (#1024)",
+      "url": "https://github.com/ivRooom/Herta/commit/b4135d86001b587df3f9b98306852f075a092e0a",
+      "at": "2026-11-26T16:40:19.000+09:00"
     }
   ],
-  "generated_at": "2026-11-26T12:37:59+09:00"
+  "generated_at": "2026-11-27T00:01:27+09:00"
 }
