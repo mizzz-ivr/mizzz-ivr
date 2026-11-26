@@ -5,11 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
-    "issues_created": 0,
-    "issues_completed": 0
+    "commits": 6,
+    "prs_opened": 7,
+    "issues_created": 7,
+    "issues_completed": 3
   },
-  "activity": [],
-  "generated_at": "2026-11-27T00:01:27+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): MemberActivityEvent の Admin 向け read-only projection API を追加する (#1040) (#1052)  * f",
+      "url": "https://github.com/ivRooom/Herta/commit/cc755b84b2c8107f621fd3058ae71a3085deced0",
+      "at": "2026-11-27T08:41:47.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): community-game-stats read API 契約 v3 拡張 (insights / game モード, #1041) (#1042)",
+      "url": "https://github.com/ivRooom/Herta/commit/401a4f64ceaaa244760847e2e79a7db9ac8e9517",
+      "at": "2026-11-27T07:45:35.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(achievements): 8段化に追随し platinum を追加する (ivrm-web#1943) (#1034)",
+      "url": "https://github.com/ivRooom/Herta/commit/401cf0c1f10aa3cf27f1c80c62adfad49a6d1cb9",
+      "at": "2026-11-27T07:26:22.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): /game progress カードのエリア別探索度に各国アイコンを追加する (#1043) (#1044)",
+      "url": "https://github.com/ivRooom/Herta/commit/cdbb70d739085afb341a4494259d5f7aebe3ec97",
+      "at": "2026-11-27T07:01:19.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(activity-log): チャンネル権限上書き変更の収集を追加する (#1040) (#1045)",
+      "url": "https://github.com/ivRooom/Herta/commit/40e16e20b5becd2803ad4ff77a1ccb8fbb15c6c9",
+      "at": "2026-11-27T06:45:48.000+09:00"
+    }
+  ],
+  "generated_at": "2026-11-27T08:45:52+09:00"
 }
