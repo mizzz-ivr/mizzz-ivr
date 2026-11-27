@@ -7,19 +7,19 @@
   "status": {
     "label": "BUILDING",
     "symbol": "●",
-    "last_activity_at": "2026-11-26T23:41:48Z"
+    "last_activity_at": "2026-11-27T01:36:31Z"
   },
   "code_weather": {
     "label": "HEAVY CODING",
     "icon": "⚡"
   },
   "streak": 18,
-  "activity_total": 23,
+  "activity_total": 25,
   "current_focus": {
     "repo": "ivRooom/Herta",
-    "score": 75,
-    "events": 41,
-    "last_activity_at": "2026-11-26T23:41:48Z",
+    "score": 82,
+    "events": 45,
+    "last_activity_at": "2026-11-27T01:36:31Z",
     "share": 100,
     "stack": [
       "TypeScript",
@@ -73,28 +73,28 @@
     },
     {
       "date": "2026-11-27",
-      "total": 23,
+      "total": 25,
       "commits": 6,
       "prs": 7,
-      "issues": 10
+      "issues": 12
     }
   ],
   "now_building": [
     {
       "repo": "ivRooom/Herta",
-      "score": 75,
-      "events": 41,
-      "last_activity_at": "2026-11-26T23:41:48Z",
+      "score": 82,
+      "events": 45,
+      "last_activity_at": "2026-11-27T01:36:31Z",
       "share": 100,
       "ci": {
         "label": "PASSING",
         "symbol": "●",
         "window_days": 7,
         "total_runs": 10,
-        "evaluated": 10,
-        "passed": 10,
+        "evaluated": 9,
+        "passed": 9,
         "failed": 0,
-        "ignored": 0,
+        "ignored": 1,
         "pass_rate": 100,
         "latest_conclusion": "success"
       },
@@ -106,6 +106,20 @@
     }
   ],
   "activity_stream": [
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Opened issue #1054",
+      "url": "https://github.com/ivRooom/Herta/issues/1054",
+      "at": "2026-11-27T01:34:56Z"
+    },
+    {
+      "label": "ISSUE",
+      "repo": "ivRooom/Herta",
+      "title": "Closed issue #1040",
+      "url": "https://github.com/ivRooom/Herta/issues/1040",
+      "at": "2026-11-27T01:14:03Z"
+    },
     {
       "label": "PR",
       "repo": "ivRooom/Herta",
@@ -119,31 +133,17 @@
       "title": "Opened PR #1053",
       "url": "https://github.com/ivRooom/Herta",
       "at": "2026-11-26T23:08:18Z"
-    },
-    {
-      "label": "ISSUE",
-      "repo": "ivRooom/Herta",
-      "title": "Closed issue #1041",
-      "url": "https://github.com/ivRooom/Herta/issues/1041",
-      "at": "2026-11-26T22:45:39Z"
-    },
-    {
-      "label": "PR",
-      "repo": "ivRooom/Herta",
-      "title": "PR merged #1042",
-      "url": "https://github.com/ivRooom/Herta",
-      "at": "2026-11-26T22:45:36Z"
     }
   ],
-  "generated_at": "2026-11-27T08:45:52+09:00",
+  "generated_at": "2026-11-27T10:46:49+09:00",
   "ci_signal": {
     "label": "PASSING",
     "symbol": "●",
     "window_days": 7,
-    "evaluated": 10,
-    "passed": 10,
+    "evaluated": 9,
+    "passed": 9,
     "failed": 0,
-    "ignored": 0,
+    "ignored": 1,
     "pass_rate": 100,
     "repos_with_signal": 1
   },
@@ -167,11 +167,11 @@
       "metrics": {
         "commits": 61,
         "prs_opened": 74,
-        "issues_created": 55,
-        "issues_completed": 63,
-        "activity_total": 253
+        "issues_created": 56,
+        "issues_completed": 64,
+        "activity_total": 255
       },
-      "generated_at": "2026-11-27T08:45:52+09:00"
+      "generated_at": "2026-11-27T10:46:49+09:00"
     },
     "monthly": {
       "schema_version": 1,
@@ -188,11 +188,11 @@
       "metrics": {
         "commits": 349,
         "prs_opened": 346,
-        "issues_created": 253,
-        "issues_completed": 146,
-        "activity_total": 1094
+        "issues_created": 254,
+        "issues_completed": 147,
+        "activity_total": 1096
       },
-      "generated_at": "2026-11-27T08:45:52+09:00"
+      "generated_at": "2026-11-27T10:46:49+09:00"
     },
     "achievements": [
       {
@@ -246,9 +246,9 @@
       "metrics": {
         "commits": 2353,
         "prs_opened": 901,
-        "issues_created": 570,
-        "issues_completed": 282,
-        "activity_total": 4106
+        "issues_created": 571,
+        "issues_completed": 283,
+        "activity_total": 4108
       }
     },
     "lifetime": {
@@ -259,9 +259,9 @@
       "metrics": {
         "commits": 2353,
         "prs_opened": 901,
-        "issues_created": 570,
-        "issues_completed": 282,
-        "activity_total": 4106
+        "issues_created": 571,
+        "issues_completed": 283,
+        "activity_total": 4108
       }
     }
   }

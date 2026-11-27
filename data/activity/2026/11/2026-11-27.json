@@ -7,8 +7,8 @@
   "metrics": {
     "commits": 6,
     "prs_opened": 7,
-    "issues_created": 7,
-    "issues_completed": 3
+    "issues_created": 8,
+    "issues_completed": 4
   },
   "activity": [
     {
@@ -47,5 +47,5 @@
       "at": "2026-11-27T06:45:48.000+09:00"
     }
   ],
-  "generated_at": "2026-11-27T08:45:52+09:00"
+  "generated_at": "2026-11-27T10:46:49+09:00"
 }
