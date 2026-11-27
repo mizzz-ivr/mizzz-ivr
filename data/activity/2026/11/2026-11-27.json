@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 9,
-    "prs_opened": 11,
-    "issues_created": 9,
-    "issues_completed": 7
+    "commits": 12,
+    "prs_opened": 15,
+    "issues_created": 14,
+    "issues_completed": 11
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(valorant): VC自動参加 (vc_auto_join) を /valorant random へ追加する (#1048) (#1058)  * feat(valorant)",
+      "url": "https://github.com/ivRooom/Herta/commit/be4387689b643e37cb12a67931a662ab02c36826",
+      "at": "2026-11-27T20:07:12.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(daily-bonus): 受取失敗 (unavailable) の理由を保持してログ・台帳に残す (#1056) (#1057)  * fix(daily-bonus): keep ",
+      "url": "https://github.com/ivRooom/Herta/commit/2a8113e49ba70808f62a53292771446bb1622a53",
+      "at": "2026-11-27T15:01:56.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): メンバー別プリセットの描画に対応する (#1029) (#1059)",
+      "url": "https://github.com/ivRooom/Herta/commit/bf819517a6008bbf7be91ab2a3d9086375b20c83",
+      "at": "2026-11-27T14:38:04.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -24,28 +45,7 @@
       "title": "feat(valorant): トロールガチャ (縛り) を /valorant random へ合流する (#1047) (#1053)",
       "url": "https://github.com/ivRooom/Herta/commit/116d1137b1047ecb6a83a30516cacd754b21bd9c",
       "at": "2026-11-27T13:22:01.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(studio): コミュニティ統計 read API に契約 v4（チャンネル内訳＋発言量）を追加する (#1054) (#1055)",
-      "url": "https://github.com/ivRooom/Herta/commit/0e61e000a06b68ff4ee2610d2151d24cf7118cf1",
-      "at": "2026-11-27T12:53:03.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(studio): MemberActivityEvent の Admin 向け read-only projection API を追加する (#1040) (#1052)  * f",
-      "url": "https://github.com/ivRooom/Herta/commit/cc755b84b2c8107f621fd3058ae71a3085deced0",
-      "at": "2026-11-27T08:41:47.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(studio): community-game-stats read API 契約 v3 拡張 (insights / game モード, #1041) (#1042)",
-      "url": "https://github.com/ivRooom/Herta/commit/401a4f64ceaaa244760847e2e79a7db9ac8e9517",
-      "at": "2026-11-27T07:45:35.000+09:00"
     }
   ],
-  "generated_at": "2026-11-27T14:25:39+09:00"
+  "generated_at": "2026-11-27T21:43:12+09:00"
 }
