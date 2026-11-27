@@ -5,11 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 0,
-    "prs_opened": 0,
+    "commits": 3,
+    "prs_opened": 2,
     "issues_created": 0,
-    "issues_completed": 0
+    "issues_completed": 1
   },
-  "activity": [],
-  "generated_at": "2026-11-28T00:28:42+09:00"
+  "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): 誕生日手動配信の署名付き窓口を追加する (#1062) (#1071)",
+      "url": "https://github.com/ivRooom/Herta/commit/c7abe132ab5d7f727cef8471cc7fc6515c9c0c54",
+      "at": "2026-11-28T03:23:18.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): 誕生日手動配信の単発実行と内部APIを追加する (#1062) (#1070)",
+      "url": "https://github.com/ivRooom/Herta/commit/5d1fe31473c621b1d8242ea55f147c75452879e7",
+      "at": "2026-11-28T03:00:28.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): コミュニティ統計 read API に契約 v5（ゲーム名寄せ・統合キー）を追加する (#1060 S7b) (#1069)",
+      "url": "https://github.com/ivRooom/Herta/commit/397b80e6166c2612b0d7da611ed4a2c3e554442c",
+      "at": "2026-11-28T01:09:08.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #1071 feat(studio): 誕生日手動配信の署名付き窓口を追加する (#1062 MD-2)",
+      "url": "https://github.com/ivRooom/Herta/pull/1071",
+      "at": "2026-11-27T17:49:45Z"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #1070 feat(bot): 誕生日手動配信の単発実行と内部APIを追加する (#1062 MD-1)",
+      "url": "https://github.com/ivRooom/Herta/pull/1070",
+      "at": "2026-11-27T17:27:42Z"
+    }
+  ],
+  "generated_at": "2026-11-28T08:30:57+09:00"
 }
