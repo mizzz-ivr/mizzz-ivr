@@ -5,12 +5,33 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 6,
-    "prs_opened": 7,
-    "issues_created": 8,
-    "issues_completed": 4
+    "commits": 9,
+    "prs_opened": 11,
+    "issues_created": 9,
+    "issues_completed": 7
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): 誕生日配信サイクルに配信時刻ゲートを追加する (#1027) (#1051)  * feat(bot): 誕生日配信サイクルに配信時刻ゲートを追加する (#1027)  ",
+      "url": "https://github.com/ivRooom/Herta/commit/ddc57a7878f869f1e9cfbe5047e5d5d95c497f49",
+      "at": "2026-11-27T14:04:59.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(valorant): トロールガチャ (縛り) を /valorant random へ合流する (#1047) (#1053)",
+      "url": "https://github.com/ivRooom/Herta/commit/116d1137b1047ecb6a83a30516cacd754b21bd9c",
+      "at": "2026-11-27T13:22:01.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): コミュニティ統計 read API に契約 v4（チャンネル内訳＋発言量）を追加する (#1054) (#1055)",
+      "url": "https://github.com/ivRooom/Herta/commit/0e61e000a06b68ff4ee2610d2151d24cf7118cf1",
+      "at": "2026-11-27T12:53:03.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -24,28 +45,7 @@
       "title": "feat(studio): community-game-stats read API 契約 v3 拡張 (insights / game モード, #1041) (#1042)",
       "url": "https://github.com/ivRooom/Herta/commit/401a4f64ceaaa244760847e2e79a7db9ac8e9517",
       "at": "2026-11-27T07:45:35.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(achievements): 8段化に追随し platinum を追加する (ivrm-web#1943) (#1034)",
-      "url": "https://github.com/ivRooom/Herta/commit/401cf0c1f10aa3cf27f1c80c62adfad49a6d1cb9",
-      "at": "2026-11-27T07:26:22.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(bot): /game progress カードのエリア別探索度に各国アイコンを追加する (#1043) (#1044)",
-      "url": "https://github.com/ivRooom/Herta/commit/cdbb70d739085afb341a4494259d5f7aebe3ec97",
-      "at": "2026-11-27T07:01:19.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(activity-log): チャンネル権限上書き変更の収集を追加する (#1040) (#1045)",
-      "url": "https://github.com/ivRooom/Herta/commit/40e16e20b5becd2803ad4ff77a1ccb8fbb15c6c9",
-      "at": "2026-11-27T06:45:48.000+09:00"
     }
   ],
-  "generated_at": "2026-11-27T10:46:49+09:00"
+  "generated_at": "2026-11-27T14:25:39+09:00"
 }
