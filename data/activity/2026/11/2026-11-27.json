@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 12,
-    "prs_opened": 15,
+    "commits": 16,
+    "prs_opened": 16,
     "issues_created": 14,
-    "issues_completed": 11
+    "issues_completed": 14
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): daily participation 経路の失敗理由をログに残す (#1065) (#1066)  * feat(bot): daily participation 経",
+      "url": "https://github.com/ivRooom/Herta/commit/7e66a1217c08e0ed8c51109b01a8304de6c26915",
+      "at": "2026-11-27T23:43:37.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "fix(db): birthday_celebrations の local_date CHECK（二重エスケープ）を張り直す (#1063) (#1064)",
+      "url": "https://github.com/ivRooom/Herta/commit/507601ca75a46f3cb81837c19289ae85cdf30efe",
+      "at": "2026-11-27T23:18:58.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(valorant): 人狼モード (werewolf) を /valorant へ追加する (#1049) (#1067)  * feat(valorant): 人狼モード (wer",
+      "url": "https://github.com/ivRooom/Herta/commit/eab81107f38add79f5e8c62ce56f650a83626296",
+      "at": "2026-11-27T22:54:12.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(activity): ゲームセッションへ application_id を伝播する (#1060 S7a) (#1068)",
+      "url": "https://github.com/ivRooom/Herta/commit/15d8eec92ca5ef9b1b59089acc79020526a6b3ca",
+      "at": "2026-11-27T21:57:12.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
       "title": "feat(valorant): VC自動参加 (vc_auto_join) を /valorant random へ追加する (#1048) (#1058)  * feat(valorant)",
       "url": "https://github.com/ivRooom/Herta/commit/be4387689b643e37cb12a67931a662ab02c36826",
       "at": "2026-11-27T20:07:12.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "fix(daily-bonus): 受取失敗 (unavailable) の理由を保持してログ・台帳に残す (#1056) (#1057)  * fix(daily-bonus): keep ",
-      "url": "https://github.com/ivRooom/Herta/commit/2a8113e49ba70808f62a53292771446bb1622a53",
-      "at": "2026-11-27T15:01:56.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(bot): メンバー別プリセットの描画に対応する (#1029) (#1059)",
-      "url": "https://github.com/ivRooom/Herta/commit/bf819517a6008bbf7be91ab2a3d9086375b20c83",
-      "at": "2026-11-27T14:38:04.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(bot): 誕生日配信サイクルに配信時刻ゲートを追加する (#1027) (#1051)  * feat(bot): 誕生日配信サイクルに配信時刻ゲートを追加する (#1027)  ",
-      "url": "https://github.com/ivRooom/Herta/commit/ddc57a7878f869f1e9cfbe5047e5d5d95c497f49",
-      "at": "2026-11-27T14:04:59.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(valorant): トロールガチャ (縛り) を /valorant random へ合流する (#1047) (#1053)",
-      "url": "https://github.com/ivRooom/Herta/commit/116d1137b1047ecb6a83a30516cacd754b21bd9c",
-      "at": "2026-11-27T13:22:01.000+09:00"
     }
   ],
-  "generated_at": "2026-11-27T21:43:12+09:00"
+  "generated_at": "2026-11-28T00:28:42+09:00"
 }
