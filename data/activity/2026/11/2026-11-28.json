@@ -7,8 +7,8 @@
   "metrics": {
     "commits": 3,
     "prs_opened": 2,
-    "issues_created": 0,
-    "issues_completed": 1
+    "issues_created": 1,
+    "issues_completed": 2
   },
   "activity": [
     {
@@ -19,6 +19,13 @@
       "at": "2026-11-28T03:23:18.000+09:00"
     },
     {
+      "type": "issue",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #1072 チケット Web 起票の Discord スレッド作成（worker poller の thread_create 処理）",
+      "url": "https://github.com/ivRooom/Herta/issues/1072",
+      "at": "2026-11-28T03:05:47Z"
+    },
+    {
       "type": "commit",
       "repo": "ivRooom/Herta",
       "title": "feat(bot): 誕生日手動配信の単発実行と内部APIを追加する (#1062) (#1070)",
@@ -26,26 +33,19 @@
       "at": "2026-11-28T03:00:28.000+09:00"
     },
     {
+      "type": "done",
+      "repo": "ivRooom/Herta",
+      "title": "Issue #1062 [birthday] 手動配信トリガー: 指定メンバー・日付の配信を即時実行する署名付きエンドポイント",
+      "url": "https://github.com/ivRooom/Herta/issues/1062",
+      "at": "2026-11-28T02:07:17Z"
+    },
+    {
       "type": "commit",
       "repo": "ivRooom/Herta",
       "title": "feat(studio): コミュニティ統計 read API に契約 v5（ゲーム名寄せ・統合キー）を追加する (#1060 S7b) (#1069)",
       "url": "https://github.com/ivRooom/Herta/commit/397b80e6166c2612b0d7da611ed4a2c3e554442c",
       "at": "2026-11-28T01:09:08.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #1071 feat(studio): 誕生日手動配信の署名付き窓口を追加する (#1062 MD-2)",
-      "url": "https://github.com/ivRooom/Herta/pull/1071",
-      "at": "2026-11-27T17:49:45Z"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #1070 feat(bot): 誕生日手動配信の単発実行と内部APIを追加する (#1062 MD-1)",
-      "url": "https://github.com/ivRooom/Herta/pull/1070",
-      "at": "2026-11-27T17:27:42Z"
     }
   ],
-  "generated_at": "2026-11-28T08:30:57+09:00"
+  "generated_at": "2026-11-28T13:58:53+09:00"
 }
