@@ -5,47 +5,47 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 3,
-    "prs_opened": 2,
-    "issues_created": 1,
-    "issues_completed": 2
+    "commits": 7,
+    "prs_opened": 7,
+    "issues_created": 4,
+    "issues_completed": 3
   },
   "activity": [
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(studio): 誕生日手動配信の署名付き窓口を追加する (#1062) (#1071)",
-      "url": "https://github.com/ivRooom/Herta/commit/c7abe132ab5d7f727cef8471cc7fc6515c9c0c54",
-      "at": "2026-11-28T03:23:18.000+09:00"
-    },
-    {
-      "type": "issue",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #1072 チケット Web 起票の Discord スレッド作成（worker poller の thread_create 処理）",
-      "url": "https://github.com/ivRooom/Herta/issues/1072",
-      "at": "2026-11-28T03:05:47Z"
+      "title": "feat(tickets): 起票時に受理メッセージ (一次受け) をスレッドへ投稿する (#1076) (#1077)  * feat(tickets): 起票時に受理メッセージ (一次受け",
+      "url": "https://github.com/ivRooom/Herta/commit/a2ab2246a9aaa292c9bbb6d38f145bf3a30f9a90",
+      "at": "2026-11-28T16:43:00.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(bot): 誕生日手動配信の単発実行と内部APIを追加する (#1062) (#1070)",
-      "url": "https://github.com/ivRooom/Herta/commit/5d1fe31473c621b1d8242ea55f147c75452879e7",
-      "at": "2026-11-28T03:00:28.000+09:00"
-    },
-    {
-      "type": "done",
-      "repo": "ivRooom/Herta",
-      "title": "Issue #1062 [birthday] 手動配信トリガー: 指定メンバー・日付の配信を即時実行する署名付きエンドポイント",
-      "url": "https://github.com/ivRooom/Herta/issues/1062",
-      "at": "2026-11-28T02:07:17Z"
+      "title": "feat(worker): チケット Web 起票の Discord スレッド作成 (thread_create) を poller に追加する (#1072) (#1074)  * feat",
+      "url": "https://github.com/ivRooom/Herta/commit/f9ca3de4d82be7fad9fedf692511473069f0a30a",
+      "at": "2026-11-28T16:19:52.000+09:00"
     },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
-      "title": "feat(studio): コミュニティ統計 read API に契約 v5（ゲーム名寄せ・統合キー）を追加する (#1060 S7b) (#1069)",
-      "url": "https://github.com/ivRooom/Herta/commit/397b80e6166c2612b0d7da611ed4a2c3e554442c",
-      "at": "2026-11-28T01:09:08.000+09:00"
+      "title": "feat(studio): guild roles 窓口に Bot 最高位ロールの position を含める (#1030) (#1075)",
+      "url": "https://github.com/ivRooom/Herta/commit/5961794b7e20e6c56e5485bf76341361ec8ac2d6",
+      "at": "2026-11-28T15:40:06.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(vc-recap): 録音削除申請をケース化しチケット起票へ分離する (#750 T2) (#1073)",
+      "url": "https://github.com/ivRooom/Herta/commit/42fd9b80d7d17256e23db35223f22f5d603deaa2",
+      "at": "2026-11-28T14:50:53.000+09:00"
+    },
+    {
+      "type": "pr",
+      "repo": "ivRooom/Herta",
+      "title": "PR #1080 feat(bot): /game progress（崩壊：スターレイル）を画像カード化する (#1079)",
+      "url": "https://github.com/ivRooom/Herta/pull/1080",
+      "at": "2026-11-28T07:53:19Z"
     }
   ],
-  "generated_at": "2026-11-28T13:58:53+09:00"
+  "generated_at": "2026-11-28T17:01:13+09:00"
 }
