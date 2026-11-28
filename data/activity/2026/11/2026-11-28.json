@@ -5,12 +5,26 @@
   "scope": "public",
   "github_login": "mizzz-ivr",
   "metrics": {
-    "commits": 7,
-    "prs_opened": 7,
-    "issues_created": 4,
-    "issues_completed": 3
+    "commits": 9,
+    "prs_opened": 11,
+    "issues_created": 6,
+    "issues_completed": 5
   },
   "activity": [
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(bot): /game progress（崩壊：スターレイル）を画像カード化する (#1079) (#1080)  * feat(bot): /game progress（崩壊：スタ",
+      "url": "https://github.com/ivRooom/Herta/commit/878233756b29e6b75a52999e22e03bf191491783",
+      "at": "2026-11-28T20:58:34.000+09:00"
+    },
+    {
+      "type": "commit",
+      "repo": "ivRooom/Herta",
+      "title": "feat(studio): コミュニティ統計 read API に契約 v6 (リーダーボード: ゲーム数・活動日数・伸び) を追加する (#1081) (#1084)",
+      "url": "https://github.com/ivRooom/Herta/commit/649b9ff712a675dad5804b81293959a7fc342aa2",
+      "at": "2026-11-28T20:26:41.000+09:00"
+    },
     {
       "type": "commit",
       "repo": "ivRooom/Herta",
@@ -31,21 +45,7 @@
       "title": "feat(studio): guild roles 窓口に Bot 最高位ロールの position を含める (#1030) (#1075)",
       "url": "https://github.com/ivRooom/Herta/commit/5961794b7e20e6c56e5485bf76341361ec8ac2d6",
       "at": "2026-11-28T15:40:06.000+09:00"
-    },
-    {
-      "type": "commit",
-      "repo": "ivRooom/Herta",
-      "title": "feat(vc-recap): 録音削除申請をケース化しチケット起票へ分離する (#750 T2) (#1073)",
-      "url": "https://github.com/ivRooom/Herta/commit/42fd9b80d7d17256e23db35223f22f5d603deaa2",
-      "at": "2026-11-28T14:50:53.000+09:00"
-    },
-    {
-      "type": "pr",
-      "repo": "ivRooom/Herta",
-      "title": "PR #1080 feat(bot): /game progress（崩壊：スターレイル）を画像カード化する (#1079)",
-      "url": "https://github.com/ivRooom/Herta/pull/1080",
-      "at": "2026-11-28T07:53:19Z"
     }
   ],
-  "generated_at": "2026-11-28T17:01:13+09:00"
+  "generated_at": "2026-11-28T23:03:21+09:00"
 }
